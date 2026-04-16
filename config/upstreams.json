@@ -1,0 +1,34 @@
+{
+  "repositories": [
+    {
+      "name": "openshot-qt",
+      "url": "https://github.com/OpenShot/openshot-qt.git",
+      "role": "Primary desktop editor shell and UI reference"
+    },
+    {
+      "name": "libopenshot",
+      "url": "https://github.com/OpenShot/libopenshot.git",
+      "role": "Primary timeline, effect, and render engine reference"
+    },
+    {
+      "name": "libopenshot-audio",
+      "url": "https://github.com/OpenShot/libopenshot-audio.git",
+      "role": "Audio engine dependency for OpenShot builds"
+    },
+    {
+      "name": "datamosher-pro",
+      "url": "https://github.com/Akascape/Datamosher-Pro.git",
+      "role": "Datamosh workflow reference and processing inspiration"
+    },
+    {
+      "name": "gl-transitions",
+      "url": "https://github.com/gl-transitions/gl-transitions.git",
+      "role": "Shader transition source library"
+    },
+    {
+      "name": "mlt",
+      "url": "https://github.com/mltframework/mlt.git",
+      "role": "Backup/reference editing engine and plugin system"
+    }
+  ]
+}

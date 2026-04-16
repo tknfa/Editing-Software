@@ -1,0 +1,344 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:23
+msgid "Troubleshooting"
+msgstr "Vianmääritys"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:25
+msgid ""
+"If you are experiencing an issue with OpenShot, such as a freeze, crash, or "
+"error message, there are many different techniques which can be useful for "
+"troubleshooting the issue."
+msgstr ""
+"Jos kohtaat ongelman OpenShotissa, kuten jumiutumisen, kaatumisen tai "
+"virheilmoituksen, on olemassa monia erilaisia tekniikoita, jotka voivat "
+"auttaa vianmäärityksessä."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:29
+msgid "Windows 11 Unresponsive"
+msgstr "Windows 11 ei vastaa"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:31
+msgid ""
+"If you experience a freeze on Windows 11, this is a known issue with PyQt5 "
+"and Windows 11, related to the accessibility features in Qt. This is "
+"triggered by pressing :kbd:`Ctrl+C` in OpenShot (*only on Windows 11*). "
+"OpenShot will become unresponsive and a memory leak is also present (i.e. "
+"the longer OpenShot is unresponsive, the larger your memory leak will become "
+"until OpenShot finally crashes or the user kills the process)."
+msgstr ""
+"Jos Windows 11 -järjestelmä jumiutuu, kyseessä on tunnettu ongelma PyQt5:n "
+"ja Windows 11:n välillä, joka liittyy Qt:n saavutettavuusominaisuuksiin. "
+"Tämä tapahtuu, kun painat :kbd:`Ctrl+C` OpenShotissa (*vain Windows 11:"
+"ssä*). OpenShot lakkaa vastaamasta ja muistivuotoa esiintyy (eli mitä "
+"pidempään OpenShot ei vastaa, sitä suuremmaksi muistivuoto kasvaa, kunnes "
+"OpenShot kaatuu tai käyttäjä lopettaa prosessin)."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:36
+msgid ""
+"A simple work-around is to avoid :kbd:`Ctrl+C` on Windows 11, and instead "
+"use the right-click Copy/Paste menus. Another work-around is to remap your "
+"\"Copy\" from :kbd:`Ctrl+C` to something else, for example :kbd:`Alt+C`. You "
+"can change your keyboard mappings in the OpenShot Preferences. See :ref:"
+"`preferences_keyboard_ref`."
+msgstr ""
+"Yksinkertainen kiertotapa on välttää :kbd:`Ctrl+C` käyttöä Windows 11:ssä ja "
+"sen sijaan käyttää hiiren oikean painikkeen Kopioi/Liitä-valikoita. Toinen "
+"kiertotapa on muuttaa \"Kopioi\" -näppäinyhdistelmää :kbd:`Ctrl+C`:stä "
+"johonkin muuhun, esimerkiksi :kbd:`Alt+C`. Voit muuttaa näppäinasetuksia "
+"OpenShotin asetuksissa. Katso :ref:`preferences_keyboard_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:41
+msgid "Windows Debugging with GDB"
+msgstr "Windowsin virheenkorjaus GDB:llä"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:43
+msgid ""
+"If you are experiencing a crash or freeze with OpenShot in Windows 10/11, "
+"the following step by step instructions will help you determine the cause of "
+"the crash. These instructions will display a stack trace of OpenShot's "
+"source code, at the location of the crash. This information can be extremely "
+"useful for our development team, and very useful to attach to bug reports "
+"(for a quicker resolution)."
+msgstr ""
+"Jos OpenShot kaatuu tai jumiutuu Windows 10/11 -järjestelmässä, seuraavat "
+"vaiheittaiset ohjeet auttavat sinua selvittämään kaatumisen syyn. Nämä "
+"ohjeet näyttävät pinon jäljityksen OpenShotin lähdekoodista "
+"kaatumiskohdassa. Tämä tieto on erittäin hyödyllistä kehitystiimillemme ja "
+"hyödyllistä liittää virheraportteihin (nopeamman ratkaisun saamiseksi)."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:49
+msgid "Install the Latest Daily Build"
+msgstr "Asenna uusin päivittäinen versio"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:51
+msgid ""
+"Before attaching a debugger, please download the **latest version** of "
+"OpenShot: https://www.openshot.org/download#daily. Install this version of "
+"OpenShot to the default location: ``C:\\Program Files\\OpenShot Video "
+"Editor\\``. For details instructions on debugging OpenShot on Windows, "
+"please see `this wiki <https://github.com/OpenShot/openshot-qt/wiki/Windows-"
+"Debugging-with-GDB>`_."
+msgstr ""
+"Ennen virheenkorjaimen liittämistä, lataa **uusin versio** OpenShotista: "
+"https://www.openshot.org/download#daily. Asenna tämä OpenShotin versio "
+"oletussijaintiin: ``C:\\Program Files\\OpenShot Video Editor\\``. "
+"Yksityiskohtaiset ohjeet OpenShotin virheenkorjaukseen Windowsilla löydät "
+"`tästä wikistä <https://github.com/OpenShot/openshot-qt/wiki/Windows-"
+"Debugging-with-GDB>`_."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:56
+msgid "Install MSYS2"
+msgstr "Asenna MSYS2"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:58
+msgid ""
+"The Windows version of OpenShot is compiled using an environment called "
+"MSYS2. In order to attach the GDB debugger to our executable, ``openshot-qt."
+"exe``, you must first install MSYS2. This step is only required once."
+msgstr ""
+"OpenShotin Windows-versio on käännetty MSYS2-nimisessä ympäristössä. Jotta "
+"voit liittää GDB-virheenkorjaimen suoritettavaan tiedostoomme, ``openshot-qt."
+"exe``, sinun täytyy ensin asentaa MSYS2. Tämä vaihe tarvitaan vain kerran."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:61
+msgid "Download & Install MSYS2: `<http://www.msys2.org/>`_"
+msgstr "Lataa ja asenna MSYS2: `<http://www.msys2.org/>`_"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:62 ../troubleshoot.rst:78
+msgid ""
+"Run ``MSYS2 MinGW x64`` command prompt (for example: ``C:"
+"\\msys64\\msys2_shell.cmd -mingw64``)"
+msgstr ""
+"Aja ``MSYS2 MinGW x64`` komentokehote (esimerkiksi: ``C:"
+"\\msys64\\msys2_shell.cmd -mingw64``)"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:63
+msgid "Update all packages (*Copy/Paste the following command*):"
+msgstr "Päivitä kaikki paketit (*Kopioi/liitä seuraava komento*):"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:69
+msgid "Install GDB debugger (*Copy/Paste the following command*):"
+msgstr "Asenna GDB-virheenkorjain (*Kopioi/liitä seuraava komento*):"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:76
+msgid "Launch OpenShot with GDB Debugger"
+msgstr "Käynnistä OpenShot GDB-virheenkorjaimella"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:80
+msgid "Update the PATH (*Copy/Paste the following commands*):"
+msgstr "Päivitä PATH (*Kopioi/liitä seuraavat komennot*):"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:87
+msgid ""
+"Load OpenShot into the GDB debugger (*Copy/Paste the following commands*):"
+msgstr ""
+"Lataa OpenShot GDB-virheenkorjaimeen (*Kopioi/liitä seuraavat komennot*):"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:94
+msgid "Launch OpenShot from GDB prompt (*Copy/Paste the following command*):"
+msgstr "Käynnistä OpenShot GDB-kehotteesta (*Kopioi/liitä seuraava komento*):"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:101
+msgid "Print Debugging Info"
+msgstr "Tulosta virheenkorjaustiedot"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:103
+msgid ""
+"Once OpenShot has launched successfully with GDB attached, all you need to "
+"do is trigger a crash or freeze in OpenShot. When a crash occurs, switch "
+"back to the MSYS2 MinGW64 terminal and run one of the following commands (by "
+"typing it and pressing ENTER). Usually, the first command to enter is "
+"``bt``, which stands for ``backtrace``. More commands are listed below."
+msgstr ""
+"Kun OpenShot on käynnistynyt onnistuneesti GDB:n kanssa, sinun tarvitsee "
+"vain aiheuttaa kaatuminen tai jumiutuminen OpenShotissa. Kun kaatuminen "
+"tapahtuu, vaihda takaisin MSYS2 MinGW64 -terminaaliin ja suorita jokin "
+"seuraavista komennoista (kirjoita komento ja paina ENTER). Yleensä "
+"ensimmäinen komento on ``bt``, joka tarkoittaa ``backtrace``. Lisää "
+"komentoja on listattu alla."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:117
+msgid "High DPI / 4K Monitors"
+msgstr "Korkea DPI / 4K-näytöt"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:119
+msgid ""
+"OpenShot Video Editor provides robust support for High DPI (Dots Per Inch) "
+"monitors, ensuring that the interface looks sharp and is easily readable on "
+"displays with various DPI settings. This support is particularly helpful on "
+"4K monitors and other high-resolution displays."
+msgstr ""
+"OpenShot Video Editor tarjoaa vahvan tuen korkearesoluutioisille DPI (Dots "
+"Per Inch) -näytöille, varmistaen, että käyttöliittymä näyttää terävältä ja "
+"on helposti luettavissa eri DPI-asetuksilla varustetuilla näytöillä. Tämä "
+"tuki on erityisen hyödyllinen 4K-näytöillä ja muilla korkean resoluution "
+"näytöillä."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:125
+msgid "Per Monitor DPI Awareness"
+msgstr "Näytöittäin DPI-tietoisuus"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:127
+msgid ""
+"OpenShot is DPI aware on a per-monitor basis, meaning it can adjust its "
+"scaling dynamically depending on the DPI settings of each connected monitor. "
+"This helps provide a consistent experience across different displays."
+msgstr ""
+"OpenShot tunnistaa DPI-arvot näytöittäin, eli se voi säätää skaalaustaan "
+"dynaamisesti kunkin liitetyn näytön DPI-asetusten mukaan. Tämä auttaa "
+"tarjoamaan yhtenäisen käyttökokemuksen eri näytöillä."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:132
+msgid "DPI Scaling on Windows"
+msgstr "DPI-skaalaus Windowsissa"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:134
+msgid ""
+"On Windows, OpenShot rounds the scaling factor to the nearest whole value to "
+"maintain visual integrity. This helps avoid visual artifacts in the UI and "
+"keeps interface elements crisp and well-aligned. Due to this rounding, some "
+"scaling options can lead to larger fonts and UI elements than expected."
+msgstr ""
+"Windowsissa OpenShot pyöristää skaalauskertoimen lähimpään kokonaislukuun "
+"visuaalisen eheys säilyttämiseksi. Tämä auttaa välttämään visuaalisia "
+"häiriöitä käyttöliittymässä ja pitää käyttöliittymäelementit terävinä ja "
+"hyvin kohdistettuina. Tämän pyöristyksen vuoksi jotkin skaalausvaihtoehdot "
+"voivat johtaa odotettua suurempiin fontteihin ja käyttöliittymäelementteihin."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:139
+msgid "**125% scaling** rounds to **100%**"
+msgstr "**125 % skaalaus** pyöristyy arvoon **100 %**"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:140
+msgid "**150% scaling** rounds to **200%**"
+msgstr "**150 % skaalaus** pyöristyy arvoon **200 %**"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:143
+msgid "Workarounds for Fine-Grained Adjustment"
+msgstr "Kiertotavat tarkempaan säätöön"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:145
+msgid ""
+"While rounding helps maintain a clean interface, there are workarounds for "
+"users who require more precise control over scaling. These methods are **not "
+"recommended** due to potential visual artifacts:"
+msgstr ""
+"Vaikka pyöristys auttaa säilyttämään siistin käyttöliittymän, on olemassa "
+"kiertotapoja käyttäjille, jotka tarvitsevat tarkempaa hallintaa "
+"skaalaamiseen. Näitä menetelmiä **ei suositella** mahdollisten visuaalisten "
+"häiriöiden vuoksi:"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:149
+msgid "**QT_SCALE_FACTOR_ROUNDING_POLICY=PassThrough**"
+msgstr "**QT_SCALE_FACTOR_ROUNDING_POLICY=PassThrough**"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:151
+msgid ""
+"Setting this environment variable can disable rounding and allow more "
+"precise scaling."
+msgstr ""
+"Tämän ympäristömuuttujan asettaminen voi poistaa pyöristyksen ja "
+"mahdollistaa tarkemman skaalaamisen."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:152
+msgid ""
+"**Note:** This may cause visual artifacts, particularly in the timeline, and "
+"is not recommended."
+msgstr ""
+"**Huom:** Tämä voi aiheuttaa visuaalisia häiriöitä, erityisesti aikajanalla, "
+"eikä sitä suositella."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:154
+msgid "**QT_SCALE_FACTOR=1.25** (or similar value)"
+msgstr "**QT_SCALE_FACTOR=1.25** (tai vastaava arvo)"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:156
+msgid ""
+"Manually setting the scale factor can provide finer adjustments to the font "
+"and UI scaling."
+msgstr ""
+"Skaalauskertoimen manuaalinen asettaminen voi tarjota tarkempia säätöjä "
+"fontin ja käyttöliittymän skaalaamiseen."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:157
+msgid ""
+"This can also be set via Preferences (User Interface Scale), but expect "
+"border/line issues on Windows with fractional scales."
+msgstr ""
+"Tämän voi myös asettaa asetuksista (Käyttöliittymän skaalaus), mutta "
+"Windowsissa voi esiintyä reunojen/viivojen ongelmia murtolukuskaaloilla."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:158
+msgid ""
+"**Note:** This method can also lead to visual artifacts and make OpenShot "
+"harder to use."
+msgstr ""
+"**Huom:** Tämä menetelmä voi myös aiheuttaa visuaalisia häiriöitä ja tehdä "
+"OpenShotin käytöstä vaikeampaa."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:160
+msgid ""
+"For more info on adjusting these environment variables, please visit https://"
+"github.com/OpenShot/openshot-qt/wiki/OpenShot-UI-too-large."
+msgstr ""
+"Lisätietoja näiden ympäristömuuttujien säätämisestä löytyy osoitteesta "
+"https://github.com/OpenShot/openshot-qt/wiki/OpenShot-UI-too-large."

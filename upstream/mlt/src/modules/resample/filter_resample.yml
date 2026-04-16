@@ -1,0 +1,28 @@
+schema_version: 0.1
+type: filter
+identifier: resample
+title: Resample
+version: 1
+copyright: Meltytech, LLC
+creator: Dan Dennedy <dan@dennedy.org>
+license: LGPLv2.1
+language: en
+tags:
+  - Audio
+  - Hidden
+description: >
+  Adjust an audio stream's sampling rate.
+  
+  This filter is automatically invoked by the loader producer to normalize
+  audio from the producer to provide the rate requested by the consumer.
+parameters:
+  - identifier: frequency
+    title: Frequency
+    type: integer
+    description: >
+      The target sample rate.
+
+      If not set, the filter will convert to the sample rate requested by
+      the consumer.
+    required: no
+    readonly: no

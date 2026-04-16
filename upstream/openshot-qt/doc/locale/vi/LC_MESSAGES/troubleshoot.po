@@ -1,0 +1,339 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:23
+msgid "Troubleshooting"
+msgstr "Khắc phục sự cố"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:25
+msgid ""
+"If you are experiencing an issue with OpenShot, such as a freeze, crash, or "
+"error message, there are many different techniques which can be useful for "
+"troubleshooting the issue."
+msgstr ""
+"Nếu bạn gặp sự cố với OpenShot, chẳng hạn như bị treo, bị lỗi hoặc thông báo "
+"lỗi, có nhiều kỹ thuật khác nhau có thể hữu ích để khắc phục sự cố."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:29
+msgid "Windows 11 Unresponsive"
+msgstr "Windows 11 không phản hồi"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:31
+msgid ""
+"If you experience a freeze on Windows 11, this is a known issue with PyQt5 "
+"and Windows 11, related to the accessibility features in Qt. This is "
+"triggered by pressing :kbd:`Ctrl+C` in OpenShot (*only on Windows 11*). "
+"OpenShot will become unresponsive and a memory leak is also present (i.e. "
+"the longer OpenShot is unresponsive, the larger your memory leak will become "
+"until OpenShot finally crashes or the user kills the process)."
+msgstr ""
+"Nếu bạn gặp hiện tượng treo trên Windows 11, đây là một vấn đề đã biết với "
+"PyQt5 và Windows 11, liên quan đến các tính năng trợ năng trong Qt. Điều này "
+"xảy ra khi nhấn :kbd:`Ctrl+C` trong OpenShot (*chỉ trên Windows 11*). "
+"OpenShot sẽ không phản hồi và có hiện tượng rò rỉ bộ nhớ (tức là càng lâu "
+"OpenShot không phản hồi, rò rỉ bộ nhớ càng lớn cho đến khi OpenShot cuối "
+"cùng bị lỗi hoặc người dùng kết thúc tiến trình)."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:36
+msgid ""
+"A simple work-around is to avoid :kbd:`Ctrl+C` on Windows 11, and instead "
+"use the right-click Copy/Paste menus. Another work-around is to remap your "
+"\"Copy\" from :kbd:`Ctrl+C` to something else, for example :kbd:`Alt+C`. You "
+"can change your keyboard mappings in the OpenShot Preferences. See :ref:"
+"`preferences_keyboard_ref`."
+msgstr ""
+"Một cách khắc phục đơn giản là tránh sử dụng :kbd:`Ctrl+C` trên Windows 11, "
+"thay vào đó sử dụng menu sao chép/dán khi nhấp chuột phải. Cách khác là đổi "
+"phím tắt \"Sao chép\" từ :kbd:`Ctrl+C` sang phím khác, ví dụ :kbd:`Alt+C`. "
+"Bạn có thể thay đổi phím tắt trong phần Cài đặt của OpenShot. Xem :ref:"
+"`preferences_keyboard_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:41
+msgid "Windows Debugging with GDB"
+msgstr "Gỡ lỗi Windows với GDB"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:43
+msgid ""
+"If you are experiencing a crash or freeze with OpenShot in Windows 10/11, "
+"the following step by step instructions will help you determine the cause of "
+"the crash. These instructions will display a stack trace of OpenShot's "
+"source code, at the location of the crash. This information can be extremely "
+"useful for our development team, and very useful to attach to bug reports "
+"(for a quicker resolution)."
+msgstr ""
+"Nếu bạn gặp sự cố treo hoặc lỗi với OpenShot trên Windows 10/11, các hướng "
+"dẫn từng bước dưới đây sẽ giúp bạn xác định nguyên nhân gây lỗi. Các hướng "
+"dẫn này sẽ hiển thị ngăn xếp lỗi của mã nguồn OpenShot tại vị trí xảy ra "
+"lỗi. Thông tin này rất hữu ích cho nhóm phát triển của chúng tôi và rất cần "
+"thiết để đính kèm vào báo cáo lỗi (để giải quyết nhanh hơn)."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:49
+msgid "Install the Latest Daily Build"
+msgstr "Cài đặt Phiên bản Daily Build Mới nhất"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:51
+msgid ""
+"Before attaching a debugger, please download the **latest version** of "
+"OpenShot: https://www.openshot.org/download#daily. Install this version of "
+"OpenShot to the default location: ``C:\\Program Files\\OpenShot Video "
+"Editor\\``. For details instructions on debugging OpenShot on Windows, "
+"please see `this wiki <https://github.com/OpenShot/openshot-qt/wiki/Windows-"
+"Debugging-with-GDB>`_."
+msgstr ""
+"Trước khi gắn trình gỡ lỗi, vui lòng tải xuống **phiên bản mới nhất** của "
+"OpenShot: https://www.openshot.org/download#daily. Cài đặt phiên bản này vào "
+"vị trí mặc định: ``C:\\Program Files\\OpenShot Video Editor\\``. Để biết "
+"hướng dẫn chi tiết về gỡ lỗi OpenShot trên Windows, vui lòng xem `wiki này "
+"<https://github.com/OpenShot/openshot-qt/wiki/Windows-Debugging-with-GDB>`_."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:56
+msgid "Install MSYS2"
+msgstr "Cài đặt MSYS2"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:58
+msgid ""
+"The Windows version of OpenShot is compiled using an environment called "
+"MSYS2. In order to attach the GDB debugger to our executable, ``openshot-qt."
+"exe``, you must first install MSYS2. This step is only required once."
+msgstr ""
+"Phiên bản OpenShot trên Windows được biên dịch sử dụng môi trường gọi là "
+"MSYS2. Để gắn trình gỡ lỗi GDB vào tệp thực thi của chúng tôi, ``openshot-qt."
+"exe``, bạn phải cài đặt MSYS2 trước. Bước này chỉ cần thực hiện một lần."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:61
+msgid "Download & Install MSYS2: `<http://www.msys2.org/>`_"
+msgstr "Tải xuống & Cài đặt MSYS2: `<http://www.msys2.org/>`_"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:62 ../troubleshoot.rst:78
+msgid ""
+"Run ``MSYS2 MinGW x64`` command prompt (for example: ``C:"
+"\\msys64\\msys2_shell.cmd -mingw64``)"
+msgstr ""
+"Chạy cửa sổ lệnh ``MSYS2 MinGW x64`` (ví dụ: ``C:\\msys64\\msys2_shell.cmd -"
+"mingw64``)"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:63
+msgid "Update all packages (*Copy/Paste the following command*):"
+msgstr "Cập nhật tất cả các gói (*Sao chép/Dán lệnh sau*):"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:69
+msgid "Install GDB debugger (*Copy/Paste the following command*):"
+msgstr "Cài đặt trình gỡ lỗi GDB (*Sao chép/Dán lệnh sau*):"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:76
+msgid "Launch OpenShot with GDB Debugger"
+msgstr "Khởi chạy OpenShot với trình gỡ lỗi GDB"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:80
+msgid "Update the PATH (*Copy/Paste the following commands*):"
+msgstr "Cập nhật PATH (*Sao chép/Dán các lệnh sau*):"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:87
+msgid ""
+"Load OpenShot into the GDB debugger (*Copy/Paste the following commands*):"
+msgstr "Nạp OpenShot vào trình gỡ lỗi GDB (*Sao chép/Dán các lệnh sau*):"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:94
+msgid "Launch OpenShot from GDB prompt (*Copy/Paste the following command*):"
+msgstr "Khởi chạy OpenShot từ dấu nhắc GDB (*Sao chép/Dán lệnh sau*):"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:101
+msgid "Print Debugging Info"
+msgstr "In thông tin gỡ lỗi"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:103
+msgid ""
+"Once OpenShot has launched successfully with GDB attached, all you need to "
+"do is trigger a crash or freeze in OpenShot. When a crash occurs, switch "
+"back to the MSYS2 MinGW64 terminal and run one of the following commands (by "
+"typing it and pressing ENTER). Usually, the first command to enter is "
+"``bt``, which stands for ``backtrace``. More commands are listed below."
+msgstr ""
+"Khi OpenShot đã khởi chạy thành công với GDB được gắn, bạn chỉ cần gây ra "
+"lỗi hoặc treo trong OpenShot. Khi lỗi xảy ra, chuyển lại terminal MSYS2 "
+"MinGW64 và chạy một trong các lệnh sau (gõ lệnh và nhấn ENTER). Thông "
+"thường, lệnh đầu tiên nhập là ``bt``, viết tắt của ``backtrace``. Các lệnh "
+"khác được liệt kê bên dưới."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:117
+msgid "High DPI / 4K Monitors"
+msgstr "Màn hình DPI cao / 4K"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:119
+msgid ""
+"OpenShot Video Editor provides robust support for High DPI (Dots Per Inch) "
+"monitors, ensuring that the interface looks sharp and is easily readable on "
+"displays with various DPI settings. This support is particularly helpful on "
+"4K monitors and other high-resolution displays."
+msgstr ""
+"OpenShot Video Editor hỗ trợ mạnh mẽ cho màn hình DPI cao (Dots Per Inch), "
+"đảm bảo giao diện sắc nét và dễ đọc trên các màn hình với các thiết lập DPI "
+"khác nhau. Hỗ trợ này đặc biệt hữu ích trên màn hình 4K và các màn hình độ "
+"phân giải cao khác."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:125
+msgid "Per Monitor DPI Awareness"
+msgstr "Nhận biết DPI theo từng màn hình"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:127
+msgid ""
+"OpenShot is DPI aware on a per-monitor basis, meaning it can adjust its "
+"scaling dynamically depending on the DPI settings of each connected monitor. "
+"This helps provide a consistent experience across different displays."
+msgstr ""
+"OpenShot nhận biết DPI theo từng màn hình, nghĩa là nó có thể điều chỉnh tỷ "
+"lệ động dựa trên thiết lập DPI của từng màn hình được kết nối. Điều này giúp "
+"mang lại trải nghiệm nhất quán trên các màn hình khác nhau."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:132
+msgid "DPI Scaling on Windows"
+msgstr "Tỷ lệ DPI trên Windows"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:134
+msgid ""
+"On Windows, OpenShot rounds the scaling factor to the nearest whole value to "
+"maintain visual integrity. This helps avoid visual artifacts in the UI and "
+"keeps interface elements crisp and well-aligned. Due to this rounding, some "
+"scaling options can lead to larger fonts and UI elements than expected."
+msgstr ""
+"Trên Windows, OpenShot làm tròn hệ số tỷ lệ đến giá trị nguyên gần nhất để "
+"duy trì tính toàn vẹn hình ảnh. Điều này giúp tránh các hiện tượng sai lệch "
+"hình ảnh trong giao diện và giữ cho các phần tử giao diện sắc nét, căn chỉnh "
+"tốt. Do việc làm tròn này, một số tùy chọn tỷ lệ có thể dẫn đến phông chữ và "
+"phần tử giao diện lớn hơn mong đợi."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:139
+msgid "**125% scaling** rounds to **100%**"
+msgstr "**Tỷ lệ 125%** được làm tròn thành **100%**"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:140
+msgid "**150% scaling** rounds to **200%**"
+msgstr "**Tỷ lệ 150%** được làm tròn thành **200%**"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:143
+msgid "Workarounds for Fine-Grained Adjustment"
+msgstr "Giải pháp thay thế cho điều chỉnh chi tiết"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:145
+msgid ""
+"While rounding helps maintain a clean interface, there are workarounds for "
+"users who require more precise control over scaling. These methods are **not "
+"recommended** due to potential visual artifacts:"
+msgstr ""
+"Mặc dù việc làm tròn giúp duy trì giao diện sạch sẽ, có những giải pháp thay "
+"thế cho người dùng cần kiểm soát tỷ lệ chính xác hơn. Các phương pháp này "
+"**không được khuyến nghị** do có thể gây ra hiện tượng sai lệch hình ảnh:"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:149
+msgid "**QT_SCALE_FACTOR_ROUNDING_POLICY=PassThrough**"
+msgstr "**QT_SCALE_FACTOR_ROUNDING_POLICY=PassThrough**"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:151
+msgid ""
+"Setting this environment variable can disable rounding and allow more "
+"precise scaling."
+msgstr ""
+"Thiết lập biến môi trường này có thể tắt việc làm tròn và cho phép điều "
+"chỉnh tỷ lệ chính xác hơn."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:152
+msgid ""
+"**Note:** This may cause visual artifacts, particularly in the timeline, and "
+"is not recommended."
+msgstr ""
+"**Lưu ý:** Điều này có thể gây ra hiện tượng sai lệch hình ảnh, đặc biệt là "
+"trên dòng thời gian, và không được khuyến nghị."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:154
+msgid "**QT_SCALE_FACTOR=1.25** (or similar value)"
+msgstr "**QT_SCALE_FACTOR=1.25** (hoặc giá trị tương tự)"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:156
+msgid ""
+"Manually setting the scale factor can provide finer adjustments to the font "
+"and UI scaling."
+msgstr ""
+"Thiết lập hệ số tỷ lệ thủ công có thể cung cấp điều chỉnh tinh tế hơn cho "
+"phông chữ và tỷ lệ giao diện."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:157
+msgid ""
+"This can also be set via Preferences (User Interface Scale), but expect "
+"border/line issues on Windows with fractional scales."
+msgstr ""
+"Điều này cũng có thể được thiết lập qua Preferences (Tỷ lệ giao diện người "
+"dùng), nhưng hãy mong đợi các vấn đề về viền/dòng trên Windows với tỷ lệ "
+"phân số."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:158
+msgid ""
+"**Note:** This method can also lead to visual artifacts and make OpenShot "
+"harder to use."
+msgstr ""
+"**Lưu ý:** Phương pháp này cũng có thể gây ra hiện tượng sai lệch hình ảnh "
+"và làm OpenShot khó sử dụng hơn."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:160
+msgid ""
+"For more info on adjusting these environment variables, please visit https://"
+"github.com/OpenShot/openshot-qt/wiki/OpenShot-UI-too-large."
+msgstr ""
+"Để biết thêm thông tin về cách điều chỉnh các biến môi trường này, vui lòng "
+"truy cập https://github.com/OpenShot/openshot-qt/wiki/OpenShot-UI-too-large."

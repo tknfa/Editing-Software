@@ -1,0 +1,3653 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_hans\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:23
+msgid "Effects"
+msgstr "效果"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:25
+msgid ""
+"Effects are used in OpenShot to enhance or modify the audio or video of a "
+"clip. They can modify pixels and audio data, and can generally enhance your "
+"video projects. Each effect has its own set of properties, most of which can "
+"be animated over time, for example varying the :guilabel:`Brightness & "
+"Contrast` of a clip over time."
+msgstr ""
+"效果用于 OpenShot 中增强或修改剪辑的音频或视频。它们可以修改像素和音频数据，"
+"通常可以提升您的视频项目。每个效果都有自己的一组属性，其中大多数可以随时间动"
+"画，例如随时间变化剪辑的 :guilabel:`亮度和对比度` 。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:29
+msgid ""
+"Effects can be added to any clip by dragging and dropping them from the "
+"Effects tab onto a clip. Each effect is represented by a small colored icon "
+"and the first letter of the effect name. Note: Pay close attention to where "
+"the play-head (i.e. red playback line) is. Key frames are automatically "
+"created at the current playback position, to help create animations quickly."
+msgstr ""
+"可以通过从“效果”标签拖放效果到任何剪辑上来添加效果。每个效果由一个小彩色图标"
+"和效果名称的首字母表示。注意：请密切关注播放头（即红色播放线）的位置。关键帧"
+"会自动在当前播放位置创建，以帮助快速制作动画。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:34
+msgid ""
+"To view an effect's properties, right-click on the effect icon, revealing "
+"the context menu, and choose :guilabel:`Properties`. The property editor "
+"will appear, where you can edit these properties. Properties appear "
+"alphabetically in the dock, with filter options available at the top. Hold :"
+"kbd:`Ctrl` and click multiple effect icons to select them all, the "
+"Properties dock will show an entry such as ``3 Selections`` so you can "
+"adjust their common settings in one step. See :ref:`clip_properties_ref`."
+msgstr ""
+"要查看效果属性，请右键点击效果图标，打开上下文菜单，选择 :guilabel:`属性` 。"
+"属性编辑器将出现，您可以在其中编辑这些属性。属性按字母顺序显示在面板中，顶部"
+"有筛选选项。按住 :kbd:`Ctrl` 并点击多个效果图标以全选，属性面板将显示类似 "
+"``3 个选择`` 的条目，方便您一次调整它们的共同设置。参见 :ref:"
+"`clip_properties_ref` 。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:41
+msgid "Masks and Effects"
+msgstr "蒙版和效果"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:43
+msgid ""
+"All effects can now use a **static or animated mask** to limit where the "
+"effect is applied. This makes effects much more precise, because you can "
+"target only the subject or region you care about and blend the result "
+"smoothly into the original image."
+msgstr ""
+"所有效果现在都可以使用**静态或动画蒙版**来限制效果的应用范围。这使得效果更加"
+"精确，因为您可以只针对您关心的主体或区域，并将结果平滑地融合到原始图像中。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:48
+msgid "Why this matters:"
+msgstr "为什么这很重要："
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:50
+msgid "Keep edits focused on one area (for example, blur only a face)."
+msgstr "让编辑集中在一个区域（例如，只模糊脸部）。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:51
+msgid ""
+"Stack multiple effects on the same subject without affecting the full frame."
+msgstr "在同一主体上叠加多个效果，而不影响整个画面。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:52
+msgid "Animate how strongly or where an effect is applied over time."
+msgstr "随时间动态调整效果的强度或应用位置。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:54
+msgid "How to use effect masks:"
+msgstr "如何使用效果蒙版："
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:56
+msgid "Add an effect to a clip."
+msgstr "向剪辑添加效果。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:57
+msgid "Open the effect :guilabel:`Properties`."
+msgstr "打开效果的 :guilabel:`属性`。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:58
+msgid "Choose a mask source (static image or animated mask video)."
+msgstr "选择蒙版来源（静态图像或动画蒙版视频）。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:59
+msgid ""
+"Adjust :guilabel:`Mask Mode` (for example, *Limit to Mask* or *Vary "
+"Strength*)."
+msgstr "调整 :guilabel:`蒙版模式` （例如，*限制到蒙版* 或 *变化强度*）。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:61
+msgid ""
+"High-quality animated masks can also be generated with Advanced AI "
+"workflows. In many cases, you can click one or more subjects and let "
+"tracking build a mask automatically. See :ref:`ai_ref`."
+msgstr ""
+"高质量的动画蒙版也可以通过高级 AI 工作流程生成。在许多情况下，您可以点击一个"
+"或多个主体，让跟踪自动构建蒙版。参见 :ref:`ai_ref`。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:65
+msgid "Mask controls to know:"
+msgstr "需要了解的蒙版控制："
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:67
+msgid ""
+"Any effect mask can be inverted to flip between foreground and background."
+msgstr "任何效果蒙版都可以反转，以切换前景和背景。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:68
+msgid "Animated mask videos can be looped."
+msgstr "动画蒙版视频可以循环播放。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:69
+msgid ""
+"When looping, set start/end mask trim carefully. If not adjusted, OpenShot "
+"loops the entire mask source, not just the segment you intended to repeat."
+msgstr ""
+"循环播放时，请仔细设置蒙版的起始/结束裁剪。如果未调整，OpenShot 会循环整个蒙"
+"版源，而不仅仅是您想重复的片段。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:72
+msgid "To adjust a property:"
+msgstr "调整属性的方法："
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:74
+msgid "Drag the slider for coarse changes."
+msgstr "拖动滑块进行粗略调整。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:75
+msgid "Double-click to enter precise values."
+msgstr "双击以输入精确数值。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:76
+msgid "Right/double-click for non-numerical options."
+msgstr "右键或双击以选择非数值选项。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:78
+msgid ""
+"Effect properties are integral to the :ref:`animation_ref` system. When you "
+"modify an effect property, a keyframe is generated at the current playhead "
+"position. For a property to span the entire clip, position the playhead at "
+"or before the clip's start before making adjustments. A convenient way to "
+"identify a clip's start is by utilizing the 'next/previous marker' feature "
+"on the Timeline toolbar."
+msgstr ""
+"效果属性是 :ref:`animation_ref` 系统的核心。当您修改效果属性时，会在当前播放"
+"头位置生成关键帧。若要使属性覆盖整个剪辑，请在调整前将播放头定位于剪辑开始处"
+"或之前。识别剪辑开始的便捷方法是使用时间线工具栏上的“下一个/上一个标记”功能。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:86
+msgid "List of Effects"
+msgstr "效果列表"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:87
+msgid ""
+"OpenShot Video Editor has a total of 27 built-in video and audio effects: 18 "
+"video effects and 9 audio effects. These effects can be added to a clip by "
+"dragging the effect onto a clip. The following table contains the name and "
+"short description of each effect."
+msgstr ""
+"OpenShot 视频编辑器内置了共计 27 种视频和音频效果：18 种视频效果和 9 种音频效"
+"果。您可以通过将效果拖放到剪辑上来添加效果。下表包含每个效果的名称和简短描"
+"述。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:227
+msgid "Icon"
+msgstr "图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:227
+msgid "Effect Name"
+msgstr "效果名称"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:227
+msgid "Effect Description"
+msgstr "效果描述"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:229
+msgid "|analogtape_icon|"
+msgstr "|analogtape_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:91
+msgid "Analog Tape Icon"
+msgstr "模拟磁带图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:229 ../effects.rst:364
+msgid "Analog Tape"
+msgstr "模拟磁带"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:229
+msgid "Vintage home-video wobble, bleed, and snow."
+msgstr "复古家用录像带的抖动、溢色和雪花效果。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:230
+msgid "|mask_icon|"
+msgstr "|mask_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:95
+msgid "Alpha Mask / Wipe Transition Icon"
+msgstr "Alpha 遮罩/擦除转场图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:230 ../effects.rst:391
+msgid "Alpha Mask / Wipe Transition"
+msgstr "Alpha 遮罩/擦除转场"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:230
+msgid "Grayscale mask transition between images."
+msgstr "图像间的灰度遮罩转场。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:231
+msgid "|bars_icon|"
+msgstr "|bars_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:99
+msgid "Bars Icon"
+msgstr "条纹图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:231 ../effects.rst:410
+msgid "Bars"
+msgstr "条纹"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:231
+msgid "Add colored bars around your video."
+msgstr "在视频周围添加彩色条纹。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:232
+msgid "|blur_icon|"
+msgstr "|blur_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:103
+msgid "Blur Icon"
+msgstr "模糊图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:232 ../effects.rst:429
+msgid "Blur"
+msgstr "模糊"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:232
+msgid "Adjust image blur."
+msgstr "调整图像模糊度。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:233
+msgid "|brightness_icon|"
+msgstr "|brightness_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:107
+msgid "Brightness & Contrast Icon"
+msgstr "亮度和对比度图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:233 ../effects.rst:447
+msgid "Brightness & Contrast"
+msgstr "亮度和对比度"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:233
+msgid "Modify frame’s brightness and contrast."
+msgstr "调整画面的亮度和对比度。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:234
+msgid "|caption_icon|"
+msgstr "|caption_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:111
+msgid "Caption Icon"
+msgstr "字幕图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:234 ../effects.rst:465
+msgid "Caption"
+msgstr "字幕"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:234
+msgid "Add text captions to any clip."
+msgstr "为任意剪辑添加文字字幕。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:235
+msgid "|chromakey_icon|"
+msgstr "|chromakey_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:115
+msgid "Chroma Key (Greenscreen) Icon"
+msgstr "色度键（绿幕）图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:235 ../effects.rst:506
+msgid "Chroma Key (Greenscreen)"
+msgstr "色度键（绿幕）"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:235
+msgid "Replace color with transparency."
+msgstr "将颜色替换为透明。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:236
+msgid "|colormap_icon|"
+msgstr "|colormap_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:119
+msgid "Color Map / Lookup Icon"
+msgstr "色彩映射/查找图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:236 ../effects.rst:525
+msgid "Color Map / Lookup"
+msgstr "色彩映射/查找"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:236
+msgid "Adjust colors using 3D LUT lookup tables (.cube format)."
+msgstr "使用 3D LUT 查找表（.cube 格式）调整颜色。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:237
+msgid "|saturation_icon|"
+msgstr "|saturation_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:123
+msgid "Color Saturation Icon"
+msgstr "色彩饱和度图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:237 ../effects.rst:745
+msgid "Color Saturation"
+msgstr "色彩饱和度"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:237
+msgid "Adjust color intensity."
+msgstr "调整颜色强度。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:238
+msgid "|colorshift_icon|"
+msgstr "|colorshift_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:127
+msgid "Color Shift Icon"
+msgstr "色彩偏移图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:238 ../effects.rst:763
+msgid "Color Shift"
+msgstr "色彩偏移"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:238
+msgid "Shift image colors in various directions."
+msgstr "将图像颜色向不同方向偏移。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:239
+msgid "|crop_icon|"
+msgstr "|crop_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:131
+msgid "Crop Icon"
+msgstr "裁剪图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:239 ../effects.rst:794
+msgid "Crop"
+msgstr "裁剪"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:239
+msgid "Crop out parts of your video."
+msgstr "裁剪视频的部分区域。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:240
+msgid "|deinterlace_icon|"
+msgstr "|deinterlace_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:135
+msgid "Deinterlace Icon"
+msgstr "去隔行图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:240 ../effects.rst:821
+msgid "Deinterlace"
+msgstr "去隔行"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:240
+msgid "Remove interlacing from video."
+msgstr "去除视频中的隔行扫描。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:241
+msgid "|hue_icon|"
+msgstr "|hue_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:139
+msgid "Hue Icon"
+msgstr "色相图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:241 ../effects.rst:836
+msgid "Hue"
+msgstr "色相"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:241
+msgid "Adjust hue / color."
+msgstr "调整色相/颜色。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:242
+msgid "|lensflare_icon|"
+msgstr "|lensflare_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:143
+msgid "Lens Flare Icon"
+msgstr "镜头光晕图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:242 ../effects.rst:851
+msgid "Lens Flare"
+msgstr "镜头光晕"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:242
+msgid "Simulate sunlight hitting a lens with flares."
+msgstr "模拟阳光照射镜头产生光晕效果。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:243
+msgid "|negate_icon|"
+msgstr "|negate_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:147
+msgid "Negative Icon"
+msgstr "负片图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:243 ../effects.rst:871
+msgid "Negative"
+msgstr "负片"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:243
+msgid "Produce a negative image."
+msgstr "生成负片图像。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:244
+msgid "|objectdetection_icon|"
+msgstr "|objectdetection_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:151
+msgid "Object Detector Icon"
+msgstr "物体检测图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:244 ../effects.rst:877
+msgid "Object Detector"
+msgstr "物体检测器"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:244
+msgid "Detect objects in video."
+msgstr "检测视频中的物体。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:245
+msgid "|outline_icon|"
+msgstr "|outline_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:155
+msgid "Outline Icon"
+msgstr "轮廓图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:245 ../effects.rst:936
+msgid "Outline"
+msgstr "轮廓"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:245
+msgid "Add outline around any image or text."
+msgstr "为任何图像或文本添加轮廓。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:246
+msgid "|pixelate_icon|"
+msgstr "|pixelate_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:159
+msgid "Pixelate Icon"
+msgstr "像素化图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:246 ../effects.rst:957
+msgid "Pixelate"
+msgstr "像素化"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:246
+msgid "Increase or decrease visible pixels."
+msgstr "增加或减少可见像素。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:247
+msgid "|sharpen_icon|"
+msgstr "|sharpen_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:163
+msgid "Sharpen Icon"
+msgstr "锐化图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:247 ../effects.rst:976
+msgid "Sharpen"
+msgstr "锐化"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:247
+msgid "Boost edge contrast to make video details look crisper."
+msgstr "增强边缘对比度，使视频细节更清晰。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:248
+msgid "|shift_icon|"
+msgstr "|shift_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:167
+msgid "Shift Icon"
+msgstr "移动图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:248 ../effects.rst:1015
+msgid "Shift"
+msgstr "移动"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:248
+msgid "Shift image in different directions."
+msgstr "将图像向不同方向移动。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:249
+msgid "|sphericalprojection_icon|"
+msgstr "|sphericalprojection_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:171
+msgid "Spherical Projection Icon"
+msgstr "球面投影图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:249 ../effects.rst:1031
+msgid "Spherical Projection"
+msgstr "球面投影"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:249
+msgid "Flatten or project 360° and fisheye footage."
+msgstr "展开或投影360°和鱼眼镜头素材。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:250
+msgid "|stabilizer_icon|"
+msgstr "|stabilizer_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:175
+msgid "Stabilizer Icon"
+msgstr "稳定器图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:250 ../effects.rst:1082
+msgid "Stabilizer"
+msgstr "稳定器"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:250
+msgid "Reduce video shake."
+msgstr "减少视频抖动。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:251
+msgid "|tracker_icon|"
+msgstr "|tracker_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:179
+msgid "Tracker Icon"
+msgstr "跟踪器图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:251 ../effects.rst:1097
+msgid "Tracker"
+msgstr "跟踪器"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:251
+msgid "Track bounding box in video."
+msgstr "跟踪视频中的边界框。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:252
+msgid "|wave_icon|"
+msgstr "|wave_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:183
+msgid "Wave Icon"
+msgstr "波浪图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:252 ../effects.rst:1154
+msgid "Wave"
+msgstr "波浪"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:252
+msgid "Distort image into a wave pattern."
+msgstr "将图像扭曲成波浪形状。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:253
+msgid "|compressor_icon|"
+msgstr "|compressor_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:187
+msgid "Compressor Icon"
+msgstr "压缩器图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:253 ../effects.rst:1179
+msgid "Compressor"
+msgstr "压缩器"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:253
+msgid "Reduce loudness or amplify quiet sounds."
+msgstr "降低响度或放大安静声音。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:254
+msgid "|delay_icon|"
+msgstr "|delay_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:191
+msgid "Delay Icon"
+msgstr "延迟图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:254 ../effects.rst:1199
+msgid "Delay"
+msgstr "延迟"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:254
+msgid "Adjust audio-video synchronism."
+msgstr "调整音视频同步。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:255
+msgid "|distortion_icon|"
+msgstr "|distortion_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:195
+msgid "Distortion Icon"
+msgstr "失真图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:255 ../effects.rst:1214
+msgid "Distortion"
+msgstr "失真"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:255
+msgid "Clip audio signal for distortion."
+msgstr "裁剪音频信号以产生失真效果。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:256
+msgid "|echo_icon|"
+msgstr "|echo_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:199
+msgid "Echo Icon"
+msgstr "回声图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:256 ../effects.rst:1232
+msgid "Echo"
+msgstr "回声"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:256
+msgid "Add delayed sound reflection."
+msgstr "添加延迟的声音反射。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:257
+msgid "|expander_icon|"
+msgstr "|expander_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:203
+msgid "Expander Icon"
+msgstr "扩展器图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:257 ../effects.rst:1249
+msgid "Expander"
+msgstr "扩展器"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:257
+msgid "Make loud parts relatively louder."
+msgstr "使响亮部分相对更响。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:258
+msgid "|noise_icon|"
+msgstr "|noise_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:207
+msgid "Noise Icon"
+msgstr "噪声图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:258 ../effects.rst:1269
+msgid "Noise"
+msgstr "噪声"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:258
+msgid "Add random equal-intensity signals."
+msgstr "添加随机等强度信号。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:259
+msgid "|parametriceq_icon|"
+msgstr "|parametriceq_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:211
+msgid "Parametric EQ Icon"
+msgstr "参数均衡器图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:259 ../effects.rst:1284
+msgid "Parametric EQ"
+msgstr "参数均衡器"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:259
+msgid "Adjust frequency volume in audio."
+msgstr "调整音频中的频率音量。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:260
+msgid "|robotization_icon|"
+msgstr "|robotization_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:215
+msgid "Robotization Icon"
+msgstr "机器人化图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:260 ../effects.rst:1302
+msgid "Robotization"
+msgstr "机器人化"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:260
+msgid "Transform audio into robotic voice."
+msgstr "将音频转换为机器人声音。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:261
+msgid "|whisperization_icon|"
+msgstr "|whisperization_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:219
+msgid "Whisperization Icon"
+msgstr "耳语化图标"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:261 ../effects.rst:1319
+msgid "Whisperization"
+msgstr "耳语化"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:261
+msgid "Transform audio into whispers."
+msgstr "将音频转换为耳语声。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:266
+msgid "Effect Properties"
+msgstr "效果属性"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:267
+msgid ""
+"Below is a list of **common** effect properties, shared by all effects in "
+"OpenShot. To view an effect's properties, right click and choose :guilabel:"
+"`Properties`. The property editor will appear, where you can change these "
+"properties. Note: Pay close attention to where the play-head (i.e. red "
+"playback line) is. Key frames are automatically created at the current "
+"playback position, to help quickly create animations."
+msgstr ""
+"以下是 OpenShot 中所有效果共享的**常用** 效果属性列表。要查看某个效果的属性，"
+"请右键点击并选择 :guilabel:`属性` 。属性编辑器将会出现，您可以在其中更改这些"
+"属性。注意：请密切关注播放头（即红色播放线）的位置。关键帧会自动在当前播放位"
+"置创建，以便快速制作动画。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:272
+msgid ""
+"See the table below for a list of common effect properties. Only the "
+"**common properties** that all effects share are listed here. Each effect "
+"also has many **unique properties**, which are specific to each effect, see :"
+"ref:`effect_video_effects_ref` for more information on individual effects "
+"and their unique properties."
+msgstr ""
+"请参阅下表了解常见效果属性列表。这里只列出了所有效果共有的**通用属性** 。每个"
+"效果还有许多**独特属性** ，这些属性特定于每个效果，详情请参见 :ref:"
+"`effect_video_effects_ref` 。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:280
+msgid "Effect Property Name"
+msgstr "效果属性名称"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:280
+msgid "Type"
+msgstr "类型"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:280 ../effects.rst:372 ../effects.rst:401 ../effects.rst:419
+#: ../effects.rst:438 ../effects.rst:456 ../effects.rst:484 ../effects.rst:516
+#: ../effects.rst:539 ../effects.rst:754 ../effects.rst:779 ../effects.rst:809
+#: ../effects.rst:830 ../effects.rst:845 ../effects.rst:860 ../effects.rst:908
+#: ../effects.rst:947 ../effects.rst:966 ../effects.rst:1005
+#: ../effects.rst:1024 ../effects.rst:1042 ../effects.rst:1091
+#: ../effects.rst:1131 ../effects.rst:1162 ../effects.rst:1188
+#: ../effects.rst:1208 ../effects.rst:1223 ../effects.rst:1241
+#: ../effects.rst:1258 ../effects.rst:1278 ../effects.rst:1293
+#: ../effects.rst:1311 ../effects.rst:1328
+msgid "Description"
+msgstr "描述"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:282 ../effects.rst:293
+msgid "Duration"
+msgstr "持续时间"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:282 ../effects.rst:283 ../effects.rst:286 ../effects.rst:287
+msgid "Float"
+msgstr "浮点数"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:282
+msgid ""
+"The length of the effect (in seconds). Read-only property. Most effects "
+"default to the length of a clip. This property is hidden when an effect "
+"belongs to a clip."
+msgstr ""
+"效果的长度（以秒为单位）。只读属性。大多数效果默认与剪辑长度相同。当效果属于"
+"剪辑时，此属性隐藏。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:283 ../effects.rst:300
+msgid "End"
+msgstr "结束"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:283
+msgid ""
+"The end trimming position of the effect (in seconds). This property is "
+"hidden when an effect belongs to a clip."
+msgstr "效果的结束修剪位置（以秒为单位）。当效果属于剪辑时，此属性隐藏。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:284 ../effects.rst:307
+msgid "ID"
+msgstr "ID"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:284 ../effects.rst:285
+msgid "String"
+msgstr "字符串"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:284
+msgid ""
+"A randomly generated GUID (globally unique identifier) assigned to each "
+"effect. Read-only property."
+msgstr "分配给每个效果的随机生成的 GUID（全局唯一标识符）。只读属性。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:285
+msgid "Parent"
+msgstr "父级"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:285
+msgid ""
+"The parent object to this effect, which makes many of these keyframe values "
+"initialize to the parent value."
+msgstr "此效果的父对象，使许多关键帧值初始化为父级值。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:286 ../effects.rst:330
+msgid "Position"
+msgstr "位置"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:286
+msgid ""
+"The position of the effect on the timeline (in seconds). This property is "
+"hidden when an effect belongs to a clip."
+msgstr "效果在时间轴上的位置（以秒为单位）。当效果属于剪辑时，此属性隐藏。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:287 ../effects.rst:336
+msgid "Start"
+msgstr "开始"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:287
+msgid ""
+"The start trimming position of the effect (in seconds). This property is "
+"hidden when an effect belongs to a clip."
+msgstr "效果的开始修剪位置（以秒为单位）。当效果属于剪辑时，此属性隐藏。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:288 ../effects.rst:312
+msgid "Track"
+msgstr "轨道"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:288
+msgid "Int"
+msgstr "整数"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:288
+msgid ""
+"The layer which holds the effect (higher tracks are rendered on top of lower "
+"tracks). This property is hidden when an effect belongs to a clip."
+msgstr ""
+"承载效果的图层（较高的轨道渲染在较低轨道之上）。当效果属于剪辑时，此属性隐"
+"藏。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:289
+msgid "Apply Before Clip"
+msgstr "在剪辑前应用"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:289
+msgid "Boolean"
+msgstr "布尔值"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:289
+msgid "Apply this effect before the Clip processes keyframes? (default is Yes)"
+msgstr "在剪辑处理关键帧之前应用此效果？（默认是是）"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:294
+msgid ""
+"The :guilabel:`Duration` property is a float value indicating the length of "
+"the effect in seconds. This is a Read-only property. This is calculated by: "
+"End - Start. To modify duration, you must edit the :guilabel:`Start` and/or :"
+"guilabel:`End` effect properties."
+msgstr ""
+":guilabel:`持续时间` 属性是一个浮点值，表示效果的长度（秒）。这是只读属性。计"
+"算方式为：结束 - 开始。要修改持续时间，必须编辑 :guilabel:` 开始` 和/或 :"
+"guilabel:` 结束` 效果属性。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:297
+msgid ""
+"*NOTE: Most effects in OpenShot default the effect duration to the clip "
+"duration, and hide this property from the editor.*"
+msgstr ""
+"*注意：OpenShot 中大多数效果默认效果持续时间为剪辑持续时间，并在编辑器中隐藏"
+"此属性。*"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:301
+msgid ""
+"The :guilabel:`End` property defines the trimming point at the end of the "
+"effect in seconds, allowing you to control how much of the effect is visible "
+"in the timeline. Changing this property will impact the :guilabel:`Duration` "
+"effect property."
+msgstr ""
+":guilabel:`结束` 属性定义效果结束的修剪点（秒），允许您控制效果在时间轴中可见"
+"的长度。更改此属性将影响 :guilabel:` 持续时间` 效果属性。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:304 ../effects.rst:316 ../effects.rst:333 ../effects.rst:340
+msgid ""
+"*NOTE: Most effects in OpenShot default this property to match the clip, and "
+"hide this property from the editor.*"
+msgstr ""
+"*注意：OpenShot 中大多数效果默认此属性与剪辑匹配，并在编辑器中隐藏此属性。*"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:308
+msgid ""
+"The :guilabel:`ID` property holds a randomly generated GUID (Globally Unique "
+"Identifier) assigned to each effect, ensuring its uniqueness. This is a Read-"
+"only property, and assigned by OpenShot when an effect is created."
+msgstr ""
+":guilabel:`ID` 属性保存分配给每个效果的随机生成的 GUID（全局唯一标识符），确"
+"保其唯一性。此属性为只读，由 OpenShot 在创建效果时分配。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:313
+msgid ""
+"The :guilabel:`Track` property is an integer indicating the layer on which "
+"the effect is placed. Effects on higher tracks are rendered above those on "
+"lower tracks."
+msgstr ""
+":guilabel:`轨道` 属性是一个整数，表示效果所在的图层。较高轨道上的效果渲染在较"
+"低轨道之上。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:321
+msgid "Effect Parent"
+msgstr "效果父级"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:322
+msgid ""
+"The :guilabel:`Parent` property of an effect sets the initial keyframe "
+"values to a parent effect. For example, if many effects all point to the "
+"same parent effect, they will inherit all their initial properties, such as "
+"font size, font color, and background color for a ``Caption`` effect. In the "
+"example of many ``Caption`` effects using the same Parent effect, it is an "
+"efficient way to manage a large number of these effects."
+msgstr ""
+"效果的 :guilabel:`父级` 属性将初始关键帧值设置为父效果。例如，如果许多效果都"
+"指向同一个父效果，它们将继承所有初始属性，如 ``Caption`` 效果的字体大小、字体"
+"颜色和背景颜色。多个 ``Caption`` 效果使用相同父效果的示例，是管理大量此类效果"
+"的高效方式。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:326
+msgid ""
+"NOTE: The ``parent`` property for effects should be linked to the **same "
+"type** of parent effect, otherwise their default initial values will not "
+"match. Also see :ref:`clip_parent_ref`."
+msgstr ""
+"注意：效果的 ``parent`` 属性应链接到**相同类型** 的父效果，否则其默认初始值将"
+"不匹配。另请参见 :ref:`clip_parent_ref` 。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:331
+msgid ""
+"The :guilabel:`Position` property determines the effect's position on the "
+"timeline in seconds, with 0.0 indicating the beginning."
+msgstr ":guilabel:`位置` 属性确定效果在时间轴上的位置（秒），0.0 表示开始。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:337
+msgid ""
+"The :guilabel:`Start` property defines the trimming point at the beginning "
+"of the effect in seconds. Changing this property will impact the :guilabel:"
+"`Duration` effect property."
+msgstr ""
+":guilabel:`开始` 属性定义效果开始的修剪点（秒）。更改此属性将影响 :guilabel:"
+"` 持续时间` 效果属性。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:343
+msgid "Sequencing"
+msgstr "序列"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:345
+msgid ""
+"Effects are normally applied **before** the Clip processes keyframes. This "
+"allows the effect to process the raw image of the clip, before the clip "
+"applies properties such as scaling, rotation, location, etc... Normally, "
+"this is the preferred sequence of events, and this is the default behavior "
+"of effects in OpenShot. However, you can optionally override this behavior "
+"with the ``Apply Before Clip Keyframes`` property."
+msgstr ""
+"效果通常在剪辑处理关键帧之前应用。这允许效果处理剪辑的原始图像，然后剪辑再应"
+"用缩放、旋转、位置等属性。通常，这是首选的事件顺序，也是 OpenShot 中效果的默"
+"认行为。不过，您可以通过 ``Apply Before Clip Keyframes`` 属性选择性地覆盖此行"
+"为。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:350
+msgid ""
+"If you set the ``Apply Before Clip Keyframes`` property to ``No``, the "
+"effect will be sequenced **after** the clip scales, rotates, and applies "
+"keyframes to the image. This can be useful on certain effects, such as the "
+"**Mask** effect, when you want to animate a clip first and then apply a "
+"static mask to the clip."
+msgstr ""
+"如果将 ``Apply Before Clip Keyframes`` 属性设置为 ``No`` ，效果将在剪辑缩放、"
+"旋转并应用关键帧之后执行。这在某些效果中很有用，例如 **Mask** 效果，当您想先"
+"对剪辑进行动画处理，然后再应用静态遮罩时。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:357
+msgid "Video Effects"
+msgstr "视频效果"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:359
+msgid ""
+"Effects are generally divided into two categories: video and audio effects. "
+"Video effects modify the image and pixel data of a clip. Below is a list of "
+"video effects, and their properties. Often it is best to experiment with an "
+"effect, entering different values into the properties, and observing the "
+"results."
+msgstr ""
+"效果通常分为两类：视频效果和音频效果。视频效果修改剪辑的图像和像素数据。以下"
+"是视频效果及其属性列表。通常最好通过尝试不同的属性值来观察效果。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:365
+msgid ""
+"The **Analog Tape** effect emulates consumer tape playback: horizontal line "
+"wobble (\"tracking\"), chroma bleed, luma softness, grainy snow, a bottom "
+"**tracking stripe**, and short **static bursts**. All controls are key-"
+"framable and the noise is deterministic (seeded from the effect’s ID with an "
+"optional offset), so renders are repeatable."
+msgstr ""
+"**模拟磁带** 效果模拟消费级磁带播放：水平线抖动（“追踪”）、色度溢出、亮度柔"
+"化、颗粒雪花、底部**追踪条纹** 和短暂的**静态爆发** 。所有控制均可关键帧化，"
+"噪声是确定性的（基于效果 ID 并可选偏移），因此渲染结果可重复。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:372 ../effects.rst:401 ../effects.rst:419 ../effects.rst:438
+#: ../effects.rst:456 ../effects.rst:484 ../effects.rst:516 ../effects.rst:539
+#: ../effects.rst:754 ../effects.rst:779 ../effects.rst:809 ../effects.rst:830
+#: ../effects.rst:845 ../effects.rst:860 ../effects.rst:908 ../effects.rst:947
+#: ../effects.rst:966 ../effects.rst:1005 ../effects.rst:1024
+#: ../effects.rst:1042 ../effects.rst:1091 ../effects.rst:1131
+#: ../effects.rst:1162 ../effects.rst:1188 ../effects.rst:1208
+#: ../effects.rst:1223 ../effects.rst:1241 ../effects.rst:1258
+#: ../effects.rst:1278 ../effects.rst:1293 ../effects.rst:1311
+#: ../effects.rst:1328
+msgid "Property Name"
+msgstr "属性名称"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:374
+msgid "tracking"
+msgstr "追踪"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:374
+msgid ""
+"``(float, 0–1)`` Horizontal **line wobble** plus a subtle bottom **skew**. "
+"Higher values increase amplitude and skew height."
+msgstr ""
+"``(float, 0–1)`` 水平**线条抖动** 加上微妙的底部**倾斜** 。数值越高，振幅和倾"
+"斜高度越大。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:375
+msgid "bleed"
+msgstr "溢出"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:375
+msgid ""
+"``(float, 0–1)`` **Chroma bleed / fringing.** Horizontal chroma shift + blur "
+"with a slight desaturation. Gives the “rainbow edge” look."
+msgstr ""
+"``(float, 0–1)`` **色度溢出/边缘色散。** 水平色度偏移加模糊，伴有轻微的去饱"
+"和。呈现“彩虹边缘”效果。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:376
+msgid "softness"
+msgstr "柔化"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:376
+msgid ""
+"``(float, 0–1)`` **Luma softness.** Small horizontal blur on Y (approx. 0–2 "
+"px). Keep low to retain detail when noise is high."
+msgstr ""
+"``(float, 0–1)`` **亮度柔化。** Y 轴上的小幅水平模糊（约 0–2 像素）。噪声高时"
+"保持较低以保留细节。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:377
+msgid "noise"
+msgstr "噪声"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:377
+msgid ""
+"``(float, 0–1)`` **Snow, hiss, and dropouts.** Controls grain strength, "
+"probability/length of white **streaks**, and a faint line hum."
+msgstr ""
+"``(float, 0–1)`` **雪花、嘶嘶声和信号丢失。** 控制颗粒强度、白色**条纹** 的概"
+"率/长度及微弱的线路嗡嗡声。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:378
+msgid "stripe"
+msgstr "条纹"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:378
+msgid ""
+"``(float, 0–1)`` **Tracking stripe.** Lifts the bottom band, adds hiss/noise "
+"there, and widens the lifted region as the value increases."
+msgstr ""
+"``(float, 0–1)`` **追踪条纹。** 抬升底部区域，增加嘶嘶声/噪声，数值越大抬升区"
+"域越宽。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:379
+msgid "static_bands"
+msgstr "静态条纹"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:379
+msgid ""
+"``(float, 0–1)`` **Static bursts.** Short bright bands with **row-clumped "
+"streaks** (many “shooting stars” across neighboring rows)."
+msgstr ""
+"``(float, 0–1)`` **静态爆发。** 短暂的亮条纹，伴有**行聚集条纹** （邻近行中有"
+"许多“流星”效果）。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:380
+msgid "seed_offset"
+msgstr "种子偏移"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:380
+msgid ""
+"``(int, 0–1000)`` Adds to the internal seed (derived from the effect ID) for "
+"deterministic variation between clips."
+msgstr ""
+"``(int, 0–1000)`` 在内部种子（基于效果 ID）上添加偏移，用于剪辑间的确定性变"
+"化。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:383 ../effects.rst:1070
+msgid "**Usage notes**"
+msgstr "**使用说明**"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:385
+msgid ""
+"**Subtle “home video”**: ``tracking=0.25``, ``bleed=0.20``, "
+"``softness=0.20``, ``noise=0.25``, ``stripe=0.10``, ``static_bands=0.05``."
+msgstr ""
+"**细微“家庭录像”效果** ：``tracking=0.25``, ``bleed=0.20``, "
+"``softness=0.20``, ``noise=0.25``, ``stripe=0.10``, ``static_bands=0.05`` 。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:386
+msgid ""
+"**Bad tracking / head clog**: ``tracking=0.8–1.0``, ``stripe=0.6–0.9``, "
+"``noise=0.6–0.8``, ``static_bands=0.4–0.6``, ``softness<=0.2``, and set "
+"``bleed`` to about 0.3."
+msgstr ""
+"**追踪不良/磁头堵塞** ：``tracking=0.8–1.0``, ``stripe=0.6–0.9``, "
+"``noise=0.6–0.8``, ``static_bands=0.4–0.6``, ``softness<=0.2`` ，并将 "
+"``bleed`` 设为约 0.3。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:387
+msgid ""
+"**Color fringing only**: raise ``bleed`` (about 0.5) and keep other controls "
+"low."
+msgstr "**仅色彩边缘** ：提高 ``bleed`` （约 0.5），其他控制保持较低。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:388
+msgid ""
+"**Different but repeatable snow**: leave the effect ID alone (for "
+"deterministic output) and change ``seed_offset`` to get a new, still-"
+"repeatable pattern."
+msgstr ""
+"**不同但可重复的雪花** ：保持效果 ID 不变（以保证确定性输出），通过更改 "
+"``seed_offset`` 获得新的、仍可重复的图案。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:392
+msgid ""
+"The Alpha Mask / Wipe Transition effect leverages a grayscale mask to create "
+"a dynamic transition between two images or video clips. In this effect, the "
+"light areas of the mask reveal the new image, while the dark areas conceal "
+"it, allowing for creative and custom transitions that go beyond standard "
+"fade or wipe techniques. This effect only affects the image, and not the "
+"audio track."
+msgstr ""
+"Alpha Mask / Wipe 转场效果利用灰度遮罩在两张图像或视频剪辑之间创建动态转场。"
+"遮罩的亮区显示新图像，暗区隐藏新图像，支持超越标准淡入淡出或擦除的创意自定义"
+"转场。此效果仅影响图像，不影响音频轨道。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:403 ../effects.rst:458 ../effects.rst:864
+msgid "brightness"
+msgstr "亮度"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:403
+msgid "``(float, -1 to 1)`` This curve controls the motion across the wipe"
+msgstr "``(float, -1 到 1)`` 此曲线控制擦除效果的运动"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:404 ../effects.rst:459
+msgid "contrast"
+msgstr "对比度"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:404
+msgid ""
+"``(float, 0 to 20)`` This curve controls the hardness and softness of the "
+"wipe edge"
+msgstr "``(float, 0 到 20)`` 此曲线控制擦除边缘的硬度和柔软度"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:405
+msgid "reader"
+msgstr "读取器"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:405
+msgid ""
+"``(reader)`` This reader can use any image or video as input for your "
+"grayscale wipe"
+msgstr "``(reader)`` 此读取器可使用任何图像或视频作为灰度擦除的输入"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:406
+msgid "replace_image"
+msgstr "替换图像"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:406
+msgid ""
+"``(bool, choices: ['Yes', 'No'])`` Replace the clips image with the current "
+"grayscale wipe image, useful for troubleshooting"
+msgstr ""
+"``(bool, 选项: ['Yes', 'No'])`` 用当前灰度擦除图像替换剪辑图像，便于故障排查"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:411
+msgid ""
+"The Bars effect adds colored bars around your video frame, which can be used "
+"for aesthetic purposes, to frame the video within a certain aspect ratio, or "
+"to simulate the appearance of viewing content on a different display device. "
+"This effect is particularly useful for creating a cinematic or broadcast "
+"look."
+msgstr ""
+"条纹效果会在视频画面周围添加彩色条纹，可用于美学目的、在特定宽高比内框定视"
+"频，或模拟在不同显示设备上观看内容的效果。此效果特别适合创建电影或广播风格。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:421 ../effects.rst:811 ../effects.rst:968
+msgid "bottom"
+msgstr "底部"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:421
+msgid "``(float, 0 to 0.5)`` The curve to adjust the bottom bar size"
+msgstr "``(float, 0 到 0.5)`` 调整底部条纹大小的曲线"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:422 ../effects.rst:492 ../effects.rst:518
+msgid "color"
+msgstr "颜色"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:422
+msgid "``(color)`` The curve to adjust the color of bars"
+msgstr "``(color)`` 调整条纹颜色的曲线"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:423 ../effects.rst:497 ../effects.rst:812 ../effects.rst:969
+msgid "left"
+msgstr "左侧"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:423
+msgid "``(float, 0 to 0.5)`` The curve to adjust the left bar size"
+msgstr "``(float, 0 到 0.5)`` 调整左侧条纹大小的曲线"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:424 ../effects.rst:499 ../effects.rst:813 ../effects.rst:971
+msgid "right"
+msgstr "右侧"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:424
+msgid "``(float, 0 to 0.5)`` The curve to adjust the right bar size"
+msgstr "``(float, 0 到 0.5)`` 调整右侧条纹大小的曲线"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:425 ../effects.rst:502 ../effects.rst:814 ../effects.rst:972
+msgid "top"
+msgstr "顶部"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:425
+msgid "``(float, 0 to 0.5)`` The curve to adjust the top bar size"
+msgstr "``(float, 0 到 0.5)`` 调整顶部条纹大小的曲线"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:430
+msgid ""
+"The Blur effect softens the image, reducing detail and texture. This can be "
+"used to create a sense of depth, draw attention to specific parts of the "
+"frame, or simply to apply a stylistic choice for aesthetic purposes. The "
+"intensity of the blur can be adjusted to achieve the desired level of "
+"softness."
+msgstr ""
+"模糊效果使图像变得柔和，减少细节和纹理。可用于营造深度感，突出画面特定部分，"
+"或仅作为美学上的风格选择。模糊强度可调节以达到所需的柔和度。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:440
+msgid "horizontal_radius"
+msgstr "水平半径"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:440
+msgid ""
+"``(float, 0 to 100)`` Horizontal blur radius keyframe. The size of the "
+"horizontal blur operation in pixels."
+msgstr "``(float, 0 到 100)`` 水平模糊半径关键帧。水平模糊操作的像素大小。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:441
+msgid "iterations"
+msgstr "迭代次数"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:441
+msgid ""
+"``(float, 0 to 100)`` Iterations keyframe. The # of blur iterations per "
+"pixel. 3 iterations = Gaussian."
+msgstr ""
+"``(float, 0 到 100)`` 迭代关键帧。每像素的模糊迭代次数。3次迭代即高斯模糊。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:442
+msgid "sigma"
+msgstr "西格玛"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:442
+msgid ""
+"``(float, 0 to 100)`` Sigma keyframe. The amount of spread in the blur "
+"operation. Should be larger than radius."
+msgstr "``(float, 0 到 100)`` 西格玛关键帧。模糊操作的扩散量，应大于半径。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:443
+msgid "vertical_radius"
+msgstr "垂直半径"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:443
+msgid ""
+"``(float, 0 to 100)`` Vertical blur radius keyframe. The size of the "
+"vertical blur operation in pixels."
+msgstr "``(float, 0 到 100)`` 垂直模糊半径关键帧。垂直模糊操作的像素大小。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:448
+msgid ""
+"The Brightness & Contrast effect allows for the adjustment of the overall "
+"lightness or darkness of the image (brightness) and the difference between "
+"the darkest and lightest parts of the image (contrast). This effect can be "
+"used to correct poorly lit videos or to create dramatic lighting effects for "
+"artistic purposes."
+msgstr ""
+"亮度与对比度效果允许调整图像的整体明暗（亮度）以及图像最暗和最亮部分的差异"
+"（对比度）。此效果可用于校正光线不足的视频，或为艺术目的创造戏剧性的光效。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:458
+msgid "``(float, -1 to 1)`` The curve to adjust the brightness"
+msgstr "``(float, -1 到 1)`` 调整亮度的曲线"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:459
+msgid ""
+"``(float, 0 to 100)`` The curve to adjust the contrast (3 is typical, 20 is "
+"a lot, 100 is max. 0 is invalid)"
+msgstr ""
+"``(float, 0 到 100)`` 调整对比度的曲线（3为典型值，20较高，100为最大，0无效）"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:466
+msgid ""
+"Add text captions on top of your video. We support both VTT (WebVTT) and "
+"SubRip (SRT) subtitle file formats. These formats are used to display "
+"captions or subtitles in videos. They allow you to add text-based subtitles "
+"to video content, making it more accessible to a wider audience, especially "
+"for those who are deaf or hard of hearing. The Caption effect can even "
+"animate the text fading in/out, and supports any font, size, color, and "
+"margin. OpenShot also has an easy-to-use Caption editor, where you can "
+"quickly insert captions at the playhead position, or edit all your caption "
+"text in one place."
+msgstr ""
+"在视频上添加文本字幕。我们支持 VTT（WebVTT）和 SubRip（SRT）字幕文件格式。这"
+"些格式用于在视频中显示字幕，使视频内容对更广泛的观众更易访问，尤其是对聋哑或"
+"听力障碍者。字幕效果甚至可以实现文字淡入淡出动画，支持任意字体、大小、颜色和"
+"边距。OpenShot 还提供了易用的字幕编辑器，可快速在播放头位置插入字幕，或集中编"
+"辑所有字幕文本。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:486 ../effects.rst:932 ../effects.rst:1150
+msgid "background"
+msgstr "背景"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:486
+msgid "``(color)`` Color of caption area background"
+msgstr "``(color)`` 字幕区域背景颜色"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:487 ../effects.rst:930 ../effects.rst:1148
+msgid "background_alpha"
+msgstr "背景透明度"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:487
+msgid "``(float, 0 to 1)`` Background color alpha"
+msgstr "``(float, 0 到 1)`` 背景颜色透明度"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:488 ../effects.rst:931 ../effects.rst:1149
+msgid "background_corner"
+msgstr "背景圆角"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:488
+msgid "``(float, 0 to 60)`` Background corner radius"
+msgstr "``(float, 0 到 60)`` 背景圆角半径"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:489
+msgid "background_padding"
+msgstr "背景内边距"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:489
+msgid "``(float, 0 to 60)`` Background padding"
+msgstr "``(float, 0 到 60)`` 背景内边距"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:490
+msgid "caption_font"
+msgstr "字幕字体"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:490
+msgid "``(font)`` Font name or family name"
+msgstr "``(font)`` 字体名称或字体族名称"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:491
+msgid "caption_text"
+msgstr "字幕文本"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:491
+msgid "``(caption)`` VTT/Subrip formatted caption text (multi-line)"
+msgstr "``(caption)`` VTT/SubRip 格式的字幕文本（多行）"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:492
+msgid "``(color)`` Color of caption text"
+msgstr "``(color)`` 字幕文本颜色"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:493
+msgid "fade_in"
+msgstr "淡入"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:493
+msgid "``(float, 0 to 3)`` Fade in per caption (# of seconds)"
+msgstr "``(float, 0 到 3)`` 每条字幕的淡入时间（秒）"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:494
+msgid "fade_out"
+msgstr "淡出"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:494
+msgid "``(float, 0 to 3)`` Fade out per caption (# of seconds)"
+msgstr "``(float, 0 到 3)`` 每条字幕的淡出时间（秒）"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:495
+msgid "font_alpha"
+msgstr "字体透明度"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:495
+msgid "``(float, 0 to 1)`` Font color alpha"
+msgstr "``(float, 0 到 1)`` 字体颜色透明度"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:496
+msgid "font_size"
+msgstr "字体大小"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:496
+msgid "``(float, 0 to 200)`` Font size in points"
+msgstr "``(float, 0 到 200)`` 字体大小（磅）"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:497
+msgid "``(float, 0 to 0.5)`` Size of left margin"
+msgstr "``(float, 0 到 0.5)`` 左边距大小"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:498
+msgid "line_spacing"
+msgstr "行间距"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:498
+msgid "``(float, 0 to 5)`` Distance between lines (1.0 default)"
+msgstr "``(float, 0 到 5)`` 行间距（默认 1.0）"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:499
+msgid "``(float, 0 to 0.5)`` Size of right margin"
+msgstr "``(float, 0 到 0.5)`` 右边距大小"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:500 ../effects.rst:927 ../effects.rst:1145
+msgid "stroke"
+msgstr "描边"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:500
+msgid "``(color)`` Color of text border / stroke"
+msgstr "``(color)`` 文字边框/描边颜色"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:501 ../effects.rst:928 ../effects.rst:1146
+msgid "stroke_width"
+msgstr "描边宽度"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:501
+msgid "``(float, 0 to 10)`` Width of text border / stroke"
+msgstr "``(float, 0 到 10)`` 文字边框/描边的宽度"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:502
+msgid "``(float, 0 to 1)`` Size of top margin"
+msgstr "``(float, 0 到 1)`` 顶部边距大小"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:507
+msgid ""
+"The Chroma Key (Greenscreen) effect replaces a specific color (or chroma) in "
+"the video (commonly green or blue) with transparency, allowing for the "
+"compositing of the video over a different background. This effect is widely "
+"used in film and television production for creating visual effects and "
+"placing subjects in settings that would be otherwise impossible or "
+"impractical to shoot in."
+msgstr ""
+"色度键（绿幕）效果将视频中的特定颜色（通常是绿色或蓝色）替换为透明，从而允许"
+"将视频合成到不同的背景上。该效果广泛应用于电影和电视制作中，用于创建视觉特效"
+"和将主体置于原本无法或不便拍摄的场景中。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:518
+msgid "``(color)`` The color to match"
+msgstr "``(color)`` 要匹配的颜色"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:519 ../effects.rst:1009 ../effects.rst:1195
+#: ../effects.rst:1265
+msgid "threshold"
+msgstr "阈值"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:519
+msgid ""
+"``(float, 0 to 125)`` The threshold (or fuzz factor) for matching similar "
+"colors. The larger the value the more colors that will be matched."
+msgstr ""
+"``(float, 0 到 125)`` 匹配相似颜色的阈值（或模糊因子）。数值越大，匹配的颜色"
+"越多。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:520
+msgid "halo"
+msgstr "光晕"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:520
+msgid "``(float, 0 to 125)`` The additional threshold for halo elimination."
+msgstr "``(float, 0 到 125)`` 用于消除光晕的额外阈值。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:521
+msgid "keymethod"
+msgstr "键控方法"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:521
+msgid ""
+"``(int, choices: ['Basic keying', 'HSV/HSL hue', 'HSV saturation', 'HSL "
+"saturation', 'HSV value', 'HSL luminance', 'LCH luminosity', 'LCH chroma', "
+"'LCH hue', 'CIE Distance', 'Cb,Cr vector'])`` The keying method or algorithm "
+"to use."
+msgstr ""
+"``(int, 选项: ['Basic keying', 'HSV/HSL 色相', 'HSV 饱和度', 'HSL 饱和度', "
+"'HSV 亮度', 'HSL 亮度', 'LCH 亮度', 'LCH 色度', 'LCH 色相', 'CIE 距离', 'Cb,"
+"Cr 向量'])`` 使用的键控方法或算法。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:526
+msgid ""
+"The Color Map effect applies a 3D LUT (Lookup Table) to your footage, "
+"instantly transforming its colors to achieve a consistent look or mood. A 3D "
+"LUT is simply a table that remaps every input hue to a new output palette. "
+"With separate keyframe curves for red, green, and blue channels, you can "
+"precisely control, and even animate, how much each channel is influenced by "
+"the LUT, making it easy to fine-tune or blend your grade over time."
+msgstr ""
+"色彩映射效果对素材应用3D LUT（查找表），即时转换其颜色以实现一致的外观或氛"
+"围。3D LUT 是一个将每个输入色调重新映射到新输出调色板的表格。通过为红、绿、蓝"
+"通道分别设置关键帧曲线，您可以精确控制甚至动画化每个通道受LUT影响的程度，方便"
+"随时间微调或混合调色。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:531
+msgid ""
+"LUT files (`.cube` format) can be downloaded from many online resources, "
+"including free packs on photography blogs or marketplaces, such as https://"
+"freshluts.com/. OpenShot includes a selection of popular LUTs designed for "
+"**Rec 709** gamma out of the box."
+msgstr ""
+"LUT 文件（`.cube` 格式）可从许多在线资源下载，包括摄影博客或市场上的免费包，"
+"如 https://freshluts.com/。OpenShot 内置了一些为 **Rec 709** 伽马设计的流行 "
+"LUT。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:541
+msgid "lut_path"
+msgstr "lut_path"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:541
+msgid "``(string)`` Filesystem path to the `.cube` LUT file."
+msgstr "``(string)`` `.cube` LUT 文件的文件系统路径。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:542
+msgid "intensity"
+msgstr "强度"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:542
+msgid ""
+"``(float, 0.0 to 1.0)`` % Blending overall intensity (0.0 = no LUT, 1.0 = "
+"full LUT)."
+msgstr ""
+"``(float, 0.0 到 1.0)`` 混合整体强度百分比（0.0 = 无 LUT，1.0 = 完全应用 "
+"LUT）。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:543
+msgid "intensity_r"
+msgstr "红色通道强度"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:543
+msgid ""
+"``(float, 0.0 to 1.0)`` % Blending the LUT’s red channel (0.0 = no LUT, 1.0 "
+"= full LUT)."
+msgstr ""
+"``(float, 0.0 到 1.0)`` 混合 LUT 的红色通道百分比（0.0 = 无 LUT，1.0 = 完全应"
+"用 LUT）。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:544
+msgid "intensity_g"
+msgstr "绿色通道强度"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:544
+msgid ""
+"``(float, 0.0 to 1.0)`` % Blending the LUT’s green channel (0.0 = no LUT, "
+"1.0 = full LUT)."
+msgstr ""
+"``(float, 0.0 到 1.0)`` 混合 LUT 的绿色通道百分比（0.0 = 无 LUT，1.0 = 完全应"
+"用 LUT）。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:545
+msgid "intensity_b"
+msgstr "蓝色通道强度"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:545
+msgid ""
+"``(float, 0.0 to 1.0)`` % Blending the LUT’s blue channel (0.0 = no LUT, 1.0 "
+"= full LUT)."
+msgstr ""
+"``(float, 0.0 到 1.0)`` 混合 LUT 的蓝色通道百分比（0.0 = 无 LUT，1.0 = 完全应"
+"用 LUT）。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:549
+msgid "Gamma and Rec 709"
+msgstr "伽马与 Rec 709"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:550
+msgid ""
+"Gamma is the way video systems brighten or darken the midtones of an image. "
+"**Rec 709** is the standard gamma curve used for most HD and online video "
+"today. By shipping with **Rec 709** LUTs, OpenShot makes it simple to apply "
+"a grade that matches the vast majority of footage you’ll edit."
+msgstr ""
+"伽马是视频系统调整图像中间调明暗的方式。**Rec 709** 是目前大多数高清和在线视"
+"频使用的标准伽马曲线。OpenShot 附带 **Rec 709** LUT，使您轻松应用与绝大多数素"
+"材匹配的调色。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:554
+msgid ""
+"If your camera or workflow uses a different gamma (for example a LOG "
+"profile), you can still use a LUT made for that curve. Simply use a `.cube` "
+"file designed for your gamma under the Color Map effect’s **LUT Path**. Just "
+"be sure your footage gamma matches the LUT gamma—or the colors may look "
+"incorrect."
+msgstr ""
+"如果您的相机或工作流程使用不同的伽马（例如 LOG 配置文件），仍然可以使用为该曲"
+"线制作的 LUT。只需在色彩映射效果的 **LUT 路径** 中使用为您的伽马设计的 `."
+"cube` 文件。确保素材伽马与 LUT 伽马匹配，否则颜色可能显示不正确。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:558
+msgid ""
+"The following **Rec 709** LUT files are included in OpenShot, organized into "
+"the following categories:"
+msgstr "OpenShot 包含以下分类的 **Rec 709** LUT 文件："
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:561
+msgid "Cinematic & Blockbuster"
+msgstr "电影感与大片风格"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:600
+msgid "Dark & Moody"
+msgstr "暗调与情绪化"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:642
+msgid "Film Stock & Vintage"
+msgstr "胶片与复古"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:686
+msgid "Teal & Orange Vibes"
+msgstr "青橙风格"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:710
+msgid "Utility & Correction"
+msgstr "实用与校正"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:725
+msgid "Vibrant & Colorful"
+msgstr "鲜艳与多彩"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:746
+msgid ""
+"The Color Saturation effect adjusts the intensity and vibrancy of colors "
+"within the video. Increasing saturation can make colors more vivid and eye-"
+"catching, while decreasing it can create a more subdued, almost black-and-"
+"white appearance."
+msgstr ""
+"色彩饱和度效果调整视频中色彩的强度和鲜艳度。增加饱和度可使颜色更鲜明醒目，降"
+"低饱和度则可营造更柔和、近乎黑白的效果。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:756
+msgid "saturation"
+msgstr "饱和度"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:756
+msgid ""
+"``(float, 0 to 4)`` The curve to adjust the overall saturation of the "
+"frame's image (0.0 = greyscale, 1.0 = normal, 2.0 = double saturation)"
+msgstr ""
+"``(float, 0 到 4)`` 调整画面整体饱和度的曲线（0.0 = 灰度，1.0 = 正常，2.0 = "
+"双倍饱和度）"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:757
+msgid "saturation_B"
+msgstr "蓝色饱和度"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:757
+msgid ""
+"``(float, 0 to 4)`` The curve to adjust blue saturation of the frame's image"
+msgstr "``(float, 0 到 4)`` 调整画面蓝色饱和度的曲线"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:758
+msgid "saturation_G"
+msgstr "绿色饱和度"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:758
+msgid ""
+"``(float, 0 to 4)`` The curve to adjust green saturation of the frame's "
+"image (0.0 = greyscale, 1.0 = normal, 2.0 = double saturation)"
+msgstr ""
+"``(float, 0 到 4)`` 调整画面绿色饱和度的曲线（0.0 = 灰度，1.0 = 正常，2.0 = "
+"双倍饱和度）"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:759
+msgid "saturation_R"
+msgstr "红色饱和度"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:759
+msgid ""
+"``(float, 0 to 4)`` The curve to adjust red saturation of the frame's image"
+msgstr "``(float, 0 到 4)`` 调整画面红色饱和度的曲线"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:764
+msgid ""
+"Shift the colors of an image up, down, left, and right (with infinite "
+"wrapping)."
+msgstr "将图像颜色向上、下、左、右移动（无限循环）。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:766
+msgid "**Each pixel has 4 color channels:**"
+msgstr "**每个像素有4个颜色通道：**"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:768
+msgid "Red, Green, Blue, and Alpha (i.e. transparency)"
+msgstr "红色、绿色、蓝色和 Alpha（即透明度）"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:769
+msgid "Each channel value is between 0 and 255"
+msgstr "每个通道的数值范围为0到255"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:771
+msgid ""
+"The Color Shift effect simply \"moves\" or \"translates\" a specific color "
+"channel on the X or Y axis. *Not all video and image formats support an "
+"alpha channel, and in those cases, you will not see any changes when "
+"adjusting the color shift of the alpha channel.*"
+msgstr ""
+"颜色偏移效果只是简单地“移动”或“平移”特定颜色通道在 X 或 Y 轴上的位置。*并非所"
+"有视频和图像格式都支持 alpha 通道，在这些情况下，调整 alpha 通道的颜色偏移时"
+"不会看到任何变化。*"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:781
+msgid "alpha_x"
+msgstr "alpha_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:781
+msgid "``(float, -1 to 1)`` Shift the Alpha X coordinates (left or right)"
+msgstr "``(float, -1 到 1)`` 移动 Alpha 通道的 X 坐标（左或右）"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:782
+msgid "alpha_y"
+msgstr "alpha_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:782
+msgid "``(float, -1 to 1)`` Shift the Alpha Y coordinates (up or down)"
+msgstr "``(float, -1 到 1)`` 移动 Alpha 通道的 Y 坐标（上或下）"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:783
+msgid "blue_x"
+msgstr "blue_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:783
+msgid "``(float, -1 to 1)`` Shift the Blue X coordinates (left or right)"
+msgstr "``(float, -1 到 1)`` 移动蓝色通道的 X 坐标（左或右）"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:784
+msgid "blue_y"
+msgstr "blue_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:784
+msgid "``(float, -1 to 1)`` Shift the Blue Y coordinates (up or down)"
+msgstr "``(float, -1 到 1)`` 移动蓝色通道的 Y 坐标（上或下）"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:785
+msgid "green_x"
+msgstr "green_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:785
+msgid "``(float, -1 to 1)`` Shift the Green X coordinates (left or right)"
+msgstr "``(float, -1 到 1)`` 移动绿色通道的 X 坐标（左或右）"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:786
+msgid "green_y"
+msgstr "green_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:786
+msgid "``(float, -1 to 1)`` Shift the Green Y coordinates (up or down)"
+msgstr "``(float, -1 到 1)`` 移动绿色通道的 Y 坐标（上或下）"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:787
+msgid "red_x"
+msgstr "red_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:787
+msgid "``(float, -1 to 1)`` Shift the Red X coordinates (left or right)"
+msgstr "``(float, -1 到 1)`` 移动红色通道的 X 坐标（左或右）"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:788
+msgid "red_y"
+msgstr "red_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:788
+msgid "``(float, -1 to 1)`` Shift the Red Y coordinates (up or down)"
+msgstr "``(float, -1 到 1)`` 移动红色通道的 Y 坐标（上或下）"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:795
+msgid ""
+"The Crop effect removes unwanted outer areas from the video frame, allowing "
+"you to focus on a particular part of the shot, change the aspect ratio, or "
+"remove distracting elements from the edges of the frame. This effect is the "
+"primary method for cropping a Clip in OpenShot. The ``left``, ``right``, "
+"``top``, and ``bottom`` key-frames can even be animated, for a moving and "
+"resizing cropped area. You can leave the cropped area blank, or you can "
+"dynamically resize the cropped area to fill the screen."
+msgstr ""
+"裁剪效果去除视频画面中不需要的外部区域，使您能够专注于镜头的特定部分，改变宽"
+"高比，或移除画面边缘的干扰元素。此效果是 OpenShot 中裁剪剪辑的主要方法。"
+"``left`` 、``right`` 、``top`` 和 ``bottom`` 关键帧甚至可以动画化，实现移动和"
+"调整大小的裁剪区域。您可以将裁剪区域留空，或动态调整裁剪区域以填满屏幕。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:801
+msgid ""
+"You can quickly add this effect by right-clicking a clip and choosing :"
+"guilabel:`Crop`. When active, blue crop handles appear in the video preview "
+"so you can adjust the crop visually."
+msgstr ""
+"您可以通过右键点击剪辑并选择 :guilabel:`裁剪` 快速添加此效果。启用后，视频预"
+"览中会出现蓝色裁剪手柄，方便您直观调整裁剪区域。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:811
+msgid "``(float, 0 to 1)`` Size of bottom bar"
+msgstr "``(float, 0 到 1)`` 底部栏大小"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:812
+msgid "``(float, 0 to 1)`` Size of left bar"
+msgstr "``(float, 0 到 1)`` 左侧栏大小"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:813
+msgid "``(float, 0 to 1)`` Size of right bar"
+msgstr "``(float, 0 到 1)`` 右侧栏大小"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:814
+msgid "``(float, 0 to 1)`` Size of top bar"
+msgstr "``(float, 0 到 1)`` 顶部栏大小"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:815 ../effects.rst:862 ../effects.rst:1026
+msgid "x"
+msgstr "x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:815
+msgid "``(float, -1 to 1)`` X-offset"
+msgstr "``(float, -1 到 1)`` X 偏移"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:816 ../effects.rst:863 ../effects.rst:1027
+msgid "y"
+msgstr "y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:816
+msgid "``(float, -1 to 1)`` Y-offset"
+msgstr "``(float, -1 到 1)`` Y 偏移"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:817
+msgid "resize"
+msgstr "resize"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:817
+msgid ""
+"``(bool, choices: ['Yes', 'No'])`` Replace the frame image with the cropped "
+"area (allows automatic scaling of the cropped image)"
+msgstr ""
+"``(bool, 选项: ['Yes', 'No'])`` 用裁剪区域替换帧图像（允许自动缩放裁剪图像）"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:822
+msgid ""
+"The Deinterlace effect is used to remove interlacing artifacts from video "
+"footage, which are commonly seen as horizontal lines across moving objects. "
+"This effect is essential for converting interlaced video (such as from older "
+"video cameras or broadcast sources) into a progressive format suitable for "
+"modern displays."
+msgstr ""
+"去交错效果用于去除视频素材中的交错伪影，这些伪影通常表现为移动物体上的水平线"
+"条。此效果对于将交错视频（如旧摄像机或广播源的视频）转换为适合现代显示器的逐"
+"行格式至关重要。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:832
+msgid "isOdd"
+msgstr "isOdd"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:832
+msgid "``(bool, choices: ['Yes', 'No'])`` Use odd or even lines"
+msgstr "``(bool, 选项: ['Yes', 'No'])`` 使用奇数行或偶数行"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:837
+msgid ""
+"The Hue effect adjusts the overall color balance of the video, changing the "
+"hues without affecting the brightness or saturation. This can be used for "
+"color correction or to apply dramatic color effects that transform the mood "
+"of the footage."
+msgstr ""
+"色相效果调整视频的整体色彩平衡，改变色相而不影响亮度或饱和度。可用于色彩校正"
+"或应用戏剧性色彩效果，改变画面的氛围。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:847
+msgid "hue"
+msgstr "hue"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:847
+msgid "``(float, 0 to 1)`` The curve to adjust the percentage of hue shift"
+msgstr "``(float, 0 到 1)`` 调整色相偏移百分比的曲线"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:852
+msgid ""
+"The Lens Flare effect simulates bright light hitting your camera lens, "
+"creating glowing halos, colored rings and gentle glares over your footage. "
+"Reflections are automatically placed along a line from the light source "
+"toward the center of the frame. You can animate any property with keyframes "
+"to follow your action or match your scene."
+msgstr ""
+"镜头光晕效果模拟强光照射镜头，产生发光光环、彩色环和柔和眩光。反射会自动沿从"
+"光源到画面中心的直线排列。您可以使用关键帧为任何属性添加动画，以跟随动作或匹"
+"配场景。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:862
+msgid ""
+"``(float, -1 to 1)`` Horizontal position of the light source. -1 is left "
+"edge, 0 is center, +1 is right edge."
+msgstr ""
+"``(float, -1 到 1)`` 光源的水平位置。-1 为左边缘，0 为中心，+1 为右边缘。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:863
+msgid ""
+"``(float, -1 to 1)`` Vertical position of the light source. -1 is top edge, "
+"0 is center, +1 is bottom edge."
+msgstr ""
+"``(float, -1 到 1)`` 光源的垂直位置。-1 为顶部边缘，0 为中心，+1 为底部边缘。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:864
+msgid ""
+"``(float, 0 to 1)`` Overall glow strength and transparency. Higher values "
+"make brighter, more opaque flares."
+msgstr "``(float, 0 到 1)`` 整体光晕强度和透明度。数值越高，光晕越亮且不透明。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:865
+msgid "size"
+msgstr "size"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:865
+msgid ""
+"``(float, 0.1 to 3)`` Scale of the entire flare effect. Larger values "
+"enlarge halos, rings and glows."
+msgstr ""
+"``(float, 0.1 到 3)`` 整个光晕效果的缩放比例。数值越大，光环、环和光晕越大。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:866
+msgid "spread"
+msgstr "spread"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:866
+msgid ""
+"``(float, 0 to 1)`` How far secondary reflections travel. 0 keeps them close "
+"to the source, 1 pushes them all the way toward the opposite edge."
+msgstr ""
+"``(float, 0 到 1)`` 次级反射的传播距离。0 表示靠近光源，1 表示推向对边。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:867
+msgid "tint_color"
+msgstr "tint_color"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:867
+msgid ""
+"``(color)`` Shifts the flare colors to match your scene. Use the RGBA "
+"sliders to pick hue and transparency."
+msgstr "``(color)`` 调整光晕颜色以匹配场景。使用 RGBA 滑块选择色相和透明度。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:872
+msgid ""
+"The Negative effect inverts the colors of the video, producing an image that "
+"resembles a photographic negative. This can be used for artistic effects, to "
+"create a surreal or otherworldly look, or to highlight specific elements "
+"within the frame."
+msgstr ""
+"负片效果反转视频颜色，生成类似摄影底片的图像。可用于艺术效果，营造超现实或异"
+"世界的视觉，或突出画面中特定元素。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:878
+msgid ""
+"The Object Detector effect employs machine learning algorithms (such as "
+"neural networks) to identify and highlight objects within the video frame. "
+"It can recognize multiple object types, such as vehicles, people, animals, "
+"and more! This can be used for analytical purposes, to add interactive "
+"elements to videos, or to track the movement of specific objects across the "
+"frame."
+msgstr ""
+"对象检测器效果采用机器学习算法（如神经网络）来识别并突出显示视频帧中的对象。"
+"它可以识别多种对象类型，如车辆、人物、动物等！这可用于分析目的、为视频添加交"
+"互元素，或跟踪特定对象在画面中的移动。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:884
+msgid "Class Filters & Confidence"
+msgstr "类别过滤器与置信度"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:885
+msgid ""
+"To adjust the detection process to your specific needs, the Object Detector "
+"includes properties for ``class filters`` and ``confidence thresholds``. By "
+"setting a class filter, such as \"Truck\" or \"Person,\" you can instruct "
+"the detector to focus on specific types of objects, limiting the types of "
+"objects tracked. The confidence threshold allows you to set a minimum level "
+"of certainty for detections, ensuring that only objects detected with a "
+"confidence level above this threshold are considered, which helps in "
+"reducing false positives and focusing on more accurate detections."
+msgstr ""
+"为了根据您的具体需求调整检测过程，对象检测器包含“类别过滤器”和“置信度阈值”属"
+"性。通过设置类别过滤器，如“卡车”或“人物”，您可以指示检测器专注于特定类型的对"
+"象，限制跟踪的对象类型。置信度阈值允许您设置检测的最低确定性水平，确保只考虑"
+"置信度高于该阈值的对象，这有助于减少误报并专注于更准确的检测。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:892 ../effects.rst:1115
+msgid "How Parenting Works"
+msgstr "父子关系的工作原理"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:893
+msgid ""
+"Once you have tracked objects, you can \"parent\" other :ref:`clips_ref` to "
+"them. This means that the second clip, which could be a graphic, text, or "
+"another video layer, will now follow the tracked object as if it's attached "
+"to it. If the tracked object moves to the left, the child clip moves to the "
+"left. If the tracked object grows in size (gets closer to the camera), the "
+"child clip also scales up. For parented clips to appear correctly, they must "
+"be on a Track higher than the tracked objects, and set the appropriate :ref:"
+"`clip_scale_ref` property."
+msgstr ""
+"一旦您跟踪了对象，就可以将其他 :ref:`clips_ref` “父化”到它们。这意味着第二个"
+"剪辑（可以是图形、文本或另一个视频层）将跟随被跟踪的对象，就像附着在其上一"
+"样。如果被跟踪对象向左移动，子剪辑也向左移动。如果被跟踪对象变大（靠近摄像"
+"机），子剪辑也会相应放大。为了使父化剪辑正确显示，它们必须位于比被跟踪对象更"
+"高的轨道上，并设置适当的 :ref:`clip_scale_ref` 属性。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:899 ../effects.rst:1122
+msgid "See :ref:`clip_parent_ref`."
+msgstr "参见 :ref:`clip_parent_ref` 。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:902 ../effects.rst:999 ../effects.rst:1125
+msgid "Properties"
+msgstr "属性"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:910
+msgid "class_filter"
+msgstr "class_filter"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:910
+msgid "``(string)`` Type of object class to filter (i.e. car, person)"
+msgstr "``(string)`` 要过滤的对象类别类型（例如汽车、人物）"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:911
+msgid "confidence_threshold"
+msgstr "confidence_threshold"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:911
+msgid ""
+"``(float, 0 to 1)`` Minimum confidence value to display the detected objects"
+msgstr "``(float, 0 到 1)`` 显示检测到对象的最低置信度值"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:912
+msgid "display_box_text"
+msgstr "display_box_text"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:912
+msgid ""
+"``(int, choices: ['Yes', 'No'])`` Draw class name and ID of ALL tracked "
+"objects"
+msgstr "``(int, 选项: ['Yes', 'No'])`` 绘制所有被跟踪对象的类别名称和ID"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:913
+msgid "display_boxes"
+msgstr "display_boxes"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:913
+msgid ""
+"``(int, choices: ['Yes', 'No'])`` Draw bounding box around ALL tracked "
+"objects (a quick way to hide all tracked objects)"
+msgstr ""
+"``(int, 选项: ['Yes', 'No'])`` 绘制所有被跟踪对象的边界框（快速隐藏所有被跟踪"
+"对象）"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:914
+msgid "selected_object_index"
+msgstr "selected_object_index"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:914
+msgid ""
+"``(int, 0 to 200)`` Index of the tracked object that is `selected` to modify "
+"its properties"
+msgstr "``(int, 0 到 200)`` 被“选中”以修改其属性的被跟踪对象索引"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:915 ../effects.rst:1133
+msgid "draw_box"
+msgstr "draw_box"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:915
+msgid ""
+"``(int, choices: ['Yes', 'No'])`` Whether to draw the box around the "
+"selected tracked object"
+msgstr "``(int, 选项: ['Yes', 'No'])`` 是否绘制选中被跟踪对象的边框"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:916 ../effects.rst:1134
+msgid "box_id"
+msgstr "box_id"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:916 ../effects.rst:1134
+msgid ""
+"``(string)`` Internal ID of a tracked object box for identification purposes"
+msgstr "``(string)`` 用于识别的被跟踪对象边框内部ID"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:917 ../effects.rst:1135
+msgid "x1"
+msgstr "x1"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:917 ../effects.rst:1135
+msgid ""
+"``(float, 0 to 1)`` Top left X coordinate of a tracked object box, "
+"normalized to the video frame width"
+msgstr "``(float, 0 到 1)`` 被跟踪对象边框左上角X坐标，相对于视频帧宽度归一化"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:918 ../effects.rst:1136
+msgid "y1"
+msgstr "y1"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:918 ../effects.rst:1136
+msgid ""
+"``(float, 0 to 1)`` Top left Y coordinate of a tracked object box, "
+"normalized to the video frame height"
+msgstr "``(float, 0 到 1)`` 被跟踪对象边框左上角Y坐标，相对于视频帧高度归一化"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:919 ../effects.rst:1137
+msgid "x2"
+msgstr "x2"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:919 ../effects.rst:1137
+msgid ""
+"``(float, 0 to 1)`` Bottom right X coordinate of a tracked object box, "
+"normalized to the video frame width"
+msgstr "``(float, 0 到 1)`` 被跟踪对象边框右下角X坐标，相对于视频帧宽度归一化"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:920 ../effects.rst:1138
+msgid "y2"
+msgstr "y2"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:920 ../effects.rst:1138
+msgid ""
+"``(float, 0 to 1)`` Bottom right Y coordinate of a tracked object box, "
+"normalized to the video frame height"
+msgstr "``(float, 0 到 1)`` 被跟踪对象边框右下角Y坐标，相对于视频帧高度归一化"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:921 ../effects.rst:1139
+msgid "delta_x"
+msgstr "delta_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:921 ../effects.rst:1139
+msgid ""
+"``(float, -1.0 to 1)`` Horizontal movement delta of the tracked object box "
+"from its previous position"
+msgstr "``(float, -1.0 到 1)`` 被跟踪对象边框相对于上一个位置的水平移动增量"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:922 ../effects.rst:1140
+msgid "delta_y"
+msgstr "delta_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:922 ../effects.rst:1140
+msgid ""
+"``(float, -1.0 to 1)`` Vertical movement delta of the tracked object box "
+"from its previous position"
+msgstr "``(float, -1.0 到 1)`` 被跟踪对象边框相对于上一个位置的垂直移动增量"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:923 ../effects.rst:1141
+msgid "scale_x"
+msgstr "scale_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:923 ../effects.rst:1141
+msgid ""
+"``(float, 0 to 1)`` Scaling factor in the X direction for the tracked object "
+"box, relative to its original size"
+msgstr "``(float, 0 到 1)`` 被跟踪对象边框在X方向相对于原始大小的缩放因子"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:924 ../effects.rst:1142
+msgid "scale_y"
+msgstr "scale_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:924 ../effects.rst:1142
+msgid ""
+"``(float, 0 to 1)`` Scaling factor in the Y direction for the tracked object "
+"box, relative to its original size"
+msgstr "``(float, 0 到 1)`` 被跟踪对象边框在Y方向相对于原始大小的缩放因子"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:925 ../effects.rst:1143
+msgid "rotation"
+msgstr "rotation"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:925 ../effects.rst:1143
+msgid ""
+"``(float, 0 to 360)`` Rotation angle of the tracked object box, in degrees"
+msgstr "``(float, 0 到 360)`` 被跟踪对象边框的旋转角度，单位为度"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:926 ../effects.rst:1144
+msgid "visible"
+msgstr "visible"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:926 ../effects.rst:1144
+msgid ""
+"``(bool)`` Is the tracked object box visible in the current frame. Read-only "
+"property."
+msgstr "``(bool)`` 被跟踪对象边框在当前帧是否可见。只读属性。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:927 ../effects.rst:1145
+msgid "``(color)`` Color of the stroke (border) around the tracked object box"
+msgstr "``(color)`` 被跟踪对象边框的描边（边框）颜色"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:928 ../effects.rst:1146
+msgid ""
+"``(int, 1 to 10)`` Width of the stroke (border) around the tracked object box"
+msgstr "``(int, 1 到 10)`` 被跟踪对象边框的描边（边框）宽度"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:929 ../effects.rst:1147
+msgid "stroke_alpha"
+msgstr "描边透明度"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:929 ../effects.rst:1147
+msgid ""
+"``(float, 0 to 1)`` Opacity of the stroke (border) around the tracked object "
+"box"
+msgstr "``(float, 0 到 1)`` 跟踪对象框周围描边（边框）的不透明度"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:930 ../effects.rst:1148
+msgid ""
+"``(float, 0 to 1)`` Opacity of the background fill inside the tracked object "
+"box"
+msgstr "``(float, 0 到 1)`` 跟踪对象框内背景填充的不透明度"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:931 ../effects.rst:1149
+msgid ""
+"``(int, 0 to 150)`` Radius of the corners for the background fill inside the "
+"tracked object box"
+msgstr "``(int, 0 到 150)`` 跟踪对象框内背景填充的圆角半径"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:932 ../effects.rst:1150
+msgid "``(color)`` Color of the background fill inside the tracked object box"
+msgstr "``(color)`` 跟踪对象框内背景填充的颜色"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:937
+msgid ""
+"The Outline effect adds a customizable border around images or text within a "
+"video frame. It works by extracting the image’s alpha channel, blurring it "
+"to generate a smooth outline mask, and then combining this mask with a solid "
+"color layer. Users can adjust the outline’s width as well as its color "
+"components (red, green, blue) and transparency (alpha), allowing for a wide "
+"range of visual styles. This effect is ideal for emphasizing text, creating "
+"visual separation, and adding an artistic flair to your videos."
+msgstr ""
+"描边效果在视频帧中的图像或文字周围添加可自定义的边框。它通过提取图像的 alpha "
+"通道，模糊生成平滑的描边蒙版，然后将该蒙版与纯色图层结合。用户可以调整描边的"
+"宽度、颜色成分（红、绿、蓝）及透明度（alpha），实现多样的视觉风格。此效果适合"
+"突出文字、创建视觉分隔及为视频增添艺术感。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:949
+msgid "width"
+msgstr "宽度"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:949
+msgid "``(float, 0 to 100)``   The width of the outline in pixels."
+msgstr "``(float, 0 到 100)``   描边的像素宽度。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:950
+msgid "red"
+msgstr "红色"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:950
+msgid "``(float, 0 to 255)``   The red color component of the outline."
+msgstr "``(float, 0 到 255)``   描边的红色分量。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:951
+msgid "green"
+msgstr "绿色"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:951
+msgid "``(float, 0 to 255)``   The green color component of the outline."
+msgstr "``(float, 0 到 255)``   描边的绿色分量。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:952
+msgid "blue"
+msgstr "蓝色"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:952
+msgid "``(float, 0 to 255)``   The blue color component of the outline."
+msgstr "``(float, 0 到 255)``   描边的蓝色分量。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:953
+msgid "alpha"
+msgstr "透明度"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:953
+msgid "``(float, 0 to 255)``   The transparency (alpha) value for the outline."
+msgstr "``(float, 0 到 255)``   描边的透明度（alpha）值。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:958
+msgid ""
+"The Pixelate effect increases or decreases the size of the pixels in the "
+"video, creating a mosaic-like appearance. This can be used to obscure "
+"details (such as faces or license plates for privacy reasons), or as a "
+"stylistic effect to evoke a retro, digital, or abstract aesthetic."
+msgstr ""
+"像素化效果通过增大或缩小视频中的像素大小，产生马赛克般的外观。可用于遮挡细节"
+"（如面部或车牌以保护隐私），也可作为复古、数字或抽象风格的艺术效果。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:968
+msgid "``(float, 0 to 1)`` The curve to adjust the bottom margin size"
+msgstr "``(float, 0 到 1)`` 调整底部边距大小的曲线"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:969
+msgid "``(float, 0 to 1)`` The curve to adjust the left margin size"
+msgstr "``(float, 0 到 1)`` 调整左侧边距大小的曲线"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:970
+msgid "pixelization"
+msgstr "像素化"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:970
+msgid "``(float, 0 to 0.99)`` The curve to adjust the amount of pixelization"
+msgstr "``(float, 0 到 0.99)`` 调整像素化程度的曲线"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:971
+msgid "``(float, 0 to 1)`` The curve to adjust the right margin size"
+msgstr "``(float, 0 到 1)`` 调整右侧边距大小的曲线"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:972
+msgid "``(float, 0 to 1)`` The curve to adjust the top margin size"
+msgstr "``(float, 0 到 1)`` 调整顶部边距大小的曲线"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:977
+msgid ""
+"The Sharpen effect enhances perceived detail by first blurring the frame "
+"slightly and then adding a scaled difference (the *un-sharp mask*) back on "
+"top. This boosts edge contrast, making textures and outlines appear crisper "
+"without changing overall brightness."
+msgstr ""
+"锐化效果通过先轻微模糊画面，再将缩放后的差异（*反锐化蒙版* ）叠加回去，增强细"
+"节感。此方法提升边缘对比度，使纹理和轮廓更清晰，同时不改变整体亮度。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:982
+msgid "Modes"
+msgstr "模式"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:984
+msgid ""
+"**Unsharp** – Classic un-sharp mask: the edge detail is added back to the "
+"*original* frame. Produces the familiar punchy sharpen seen in photo editors."
+msgstr ""
+"**反锐化**– 经典反锐化蒙版：边缘细节叠加回* 原始*画面，产生照片编辑器中常见的"
+"强烈锐化效果。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:987
+msgid ""
+"**HighPass** – High-pass blend: the edge detail is added to the *blurred* "
+"frame, then the result replaces the original.  Gives a softer, more "
+"“contrasty” look and can rescue highlights that would otherwise clip."
+msgstr ""
+"**高通**– 高通混合：边缘细节叠加到* 模糊*画面上，结果替换原始画面。效果更柔和"
+"且对比度更强，可恢复可能被截断的高光。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:991
+msgid "Channels"
+msgstr "通道"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:993
+msgid ""
+"**All** – Apply the edge mask to the full RGB signal (strongest effect – "
+"colour and brightness sharpened)."
+msgstr ""
+"**全部**– 将边缘蒙版应用于完整 RGB 信号（效果最强，颜色和亮度均被锐化）。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:994
+msgid ""
+"**Luma** – Apply only to luma (brightness).  Colours stay untouched, so "
+"chroma noise is not amplified."
+msgstr "**亮度**– 仅应用于亮度通道。颜色保持不变，因此不会放大色度噪点。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:995
+msgid ""
+"**Chroma** – Apply only to the chroma (colour difference) channels.  Useful "
+"for gently reviving colour edges without changing perceived brightness."
+msgstr ""
+"**色度**– 仅应用于色度（色差）通道。适合轻微增强颜色边缘而不改变感知亮度。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1007
+msgid "amount"
+msgstr "强度"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1007
+msgid "``(float, 0 to 40)`` Strength multiplier / up to 100% edge boost"
+msgstr "``(float, 0 到 40)`` 强度倍增 / 最多 100% 边缘增强"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1008
+msgid "radius"
+msgstr "半径"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1008
+msgid ""
+"``(float, 0 to 10)`` Blur radius in pixels at 720p (auto-scaled to clip size)"
+msgstr "``(float, 0 到 10)`` 720p 下的模糊半径（像素），自动按剪辑大小缩放"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1009
+msgid "``(float, 0 to 1)`` Minimum luma difference that will be sharpened"
+msgstr "``(float, 0 到 1)`` 将被锐化的最小亮度差异"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1010
+msgid "mode"
+msgstr "模式"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1010
+msgid ""
+"``(int, choices: ['Unsharp', 'HighPass'])`` Math style of the sharpening mask"
+msgstr "``(int, 选项: ['Unsharp', 'HighPass'])`` 锐化蒙版的数学风格"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1011
+msgid "channel"
+msgstr "通道"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1011
+msgid ""
+"``(int, choices: ['All', 'Luma', 'Chroma'])`` Which colour channels receive "
+"sharpening"
+msgstr "``(int, 选项: ['All', 'Luma', 'Chroma'])`` 接受锐化的颜色通道"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1016
+msgid ""
+"The Shift effect moves the entire image in different directions (up, down, "
+"left, and right with infinite wrapping), creating a sense of motion or "
+"disorientation. This can be used for transitions, to simulate camera "
+"movement, or to add dynamic motion to static shots."
+msgstr ""
+"位移效果将整个图像向不同方向（上、下、左、右，带无限循环）移动，营造运动或迷"
+"离感。可用于转场、模拟摄像机移动或为静态镜头添加动态效果。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1026
+msgid "``(float, -1 to 1)`` Shift the X coordinates (left or right)"
+msgstr "``(float, -1 到 1)`` 沿 X 轴移动坐标（左或右）"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1027
+msgid "``(float, -1 to 1)`` Shift the Y coordinates (up or down)"
+msgstr "``(float, -1 到 1)`` 沿 Y 轴移动坐标（上或下）"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1033
+msgid ""
+"The Spherical Projection effect flattens 360° or fisheye footage into a "
+"normal rectangular view, or generates fisheye output. Steer a virtual camera "
+"with yaw, pitch, and roll. Control the output view with FOV. Choose the "
+"input type (equirect or one of the fisheye models), pick a projection mode "
+"for the output, and select a sampling mode that balances quality and speed. "
+"This is ideal for keyframed “virtual camera” moves inside 360° clips and for "
+"converting circular fisheye shots."
+msgstr ""
+"球面投影效果将360°或鱼眼镜头素材转换为普通矩形视图，或生成鱼眼输出。通过偏航"
+"（yaw）、俯仰（pitch）和滚转（roll）控制虚拟摄像机。使用视场角（FOV）控制输出"
+"视图。选择输入类型（等矩形或鱼眼模型之一），选择输出的投影模式，并选择在质量"
+"和速度之间平衡的采样模式。此效果非常适合在360°剪辑中进行关键帧“虚拟摄像机”移"
+"动以及转换圆形鱼眼镜头。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1044
+msgid "yaw"
+msgstr "偏航"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1044
+msgid ""
+"``(float, -180 to 180)`` Horizontal rotation around the up axis (degrees)."
+msgstr "``(float, -180 到 180)`` 围绕上轴的水平旋转（度）。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1046
+msgid "pitch"
+msgstr "俯仰"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1046
+msgid ""
+"``(float, -180 to 180)`` Vertical rotation around the right axis (degrees)."
+msgstr "``(float, -180 到 180)`` 围绕右轴的垂直旋转（度）。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1048
+msgid "roll"
+msgstr "滚转"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1048
+msgid "``(float, -180 to 180)`` Rotation around the forward axis (degrees)."
+msgstr "``(float, -180 到 180)`` 围绕前轴的旋转（度）。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1050
+msgid "fov"
+msgstr "视场角"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1050
+msgid ""
+"``(float, 0 to 179)`` **Out FOV.** Horizontal field of view of the virtual "
+"camera (degrees) for the output."
+msgstr ""
+"``(float, 0 到 179)`` **输出视场角。** 虚拟摄像机的水平视场角（度），用于输"
+"出。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1052
+msgid "in_fov"
+msgstr "输入视场角"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1052
+msgid ""
+"``(float, 1 to 360)`` **In FOV.** Total coverage of the source lens. Used "
+"when **Input Model = Fisheye** (typical value 180). Ignored for equirect "
+"sources."
+msgstr ""
+"``(float, 1 到 360)`` **输入视场角。** 源镜头的总覆盖范围。当**输入模型 = 鱼"
+"眼** 时使用（典型值为180）。对等矩形源无效。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1054
+msgid "projection_mode"
+msgstr "投影模式"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1054
+msgid ""
+"``(int)`` Output projection: **Sphere (0):** rectilinear output over the "
+"full sphere. **Hemisphere (1):** rectilinear output over a half sphere. "
+"**Fisheye: Equidistant (2)**, **Equisolid (3)**, **Stereographic (4)**, "
+"**Orthographic (5)**: circular fisheye output using the selected mapping."
+msgstr ""
+"``(int)`` 输出投影：**球面 (0)：** 全球面的直线输出。**半球面 (1)：** 半球面"
+"的直线输出。**鱼眼：等距 (2)** 、**等面积 (3)** 、**立体投影 (4)** 、**正射投"
+"影 (5)** ：使用选定映射的圆形鱼眼输出。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1059
+msgid "input_model"
+msgstr "输入模型"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1059
+msgid ""
+"``(int)`` Source lens model: **Equirectangular (0)**, **Fisheye: Equidistant "
+"(1)**, **Fisheye: Equisolid (2)**, **Fisheye: Stereographic (3)**, "
+"**Fisheye: Orthographic (4)**."
+msgstr ""
+"``(int)`` 源镜头模型：**等矩形 (0)** ，**鱼眼：等距 (1)** ，**鱼眼：等面积 "
+"(2)** ，**鱼眼：立体投影 (3)** ，**鱼眼：正射投影 (4)** 。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1062
+msgid "invert"
+msgstr "反转"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1062
+msgid ""
+"``(int)`` Flip the view by 180° without mirroring. **Normal (0)**, **Invert "
+"(1)**. For equirect sources this behaves like a 180° yaw. For fisheye inputs "
+"it swaps front/back hemispheres."
+msgstr ""
+"``(int)`` 视图旋转180°但不镜像。**正常 (0)** ，**反转 (1)** 。对于等矩形源，"
+"此操作相当于偏航180°。对于鱼眼输入，则交换前后半球。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1065
+msgid "interpolation"
+msgstr "插值"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1065
+msgid ""
+"``(int)`` Sampling method: **Nearest (0)**, **Bilinear (1)**, **Bicubic "
+"(2)**, **Auto (3)**. Auto picks Bilinear at ~1:1, Bicubic when upscaling, "
+"and a mipmapped Bilinear when downscaling."
+msgstr ""
+"``(int)`` 采样方法：**最近邻 (0)** ，**双线性 (1)** ，**双三次 (2)** ，**自"
+"动 (3)** 。自动模式在约1:1时选择双线性，放大时选择双三次，缩小时选择带多级渐"
+"进的双线性。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1072
+msgid ""
+"**Flatten a fisheye clip to a normal view:** Set **Input Model** to the "
+"correct fisheye type, set **In FOV** to your lens coverage (often 180), "
+"choose **Projection Mode = Sphere** or **Hemisphere**, then frame with **Yaw/"
+"Pitch/Roll** and **Out FOV**."
+msgstr ""
+"**将鱼眼剪辑展平为普通视图：** 设置**输入模型** 为正确的鱼眼类型，设置**输入"
+"视场角** 为镜头覆盖范围（通常为180），选择**投影模式 = 球面** 或**半球面** ，"
+"然后使用**偏航/俯仰/滚转** 和**输出视场角** 进行构图。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1074
+msgid ""
+"**Reframe an equirect clip:** Set **Input Model = Equirectangular**, pick "
+"**Sphere** (full) or **Hemisphere** (front/back). **Invert** on equirect is "
+"equivalent to yaw +180 and does not mirror."
+msgstr ""
+"**重新构图等矩形剪辑：** 设置 **输入模型 = 等矩形** ，选择 **球面** （全景）"
+"或 **半球面** （前/后）。等矩形的 **反转** 相当于偏航+180°，但不镜像。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1076
+msgid ""
+"**Create a fisheye output:** Choose one of the **Fisheye** projection modes "
+"(2..5). **Out FOV** controls disk coverage (180 gives a classic circular "
+"fisheye)."
+msgstr ""
+"**创建鱼眼输出：** 选择一个**鱼眼** 投影模式（2..5）。**输出视场角** 控制圆盘"
+"覆盖范围（180为经典圆形鱼眼）。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1078
+msgid ""
+"If the image looks mirrored, turn **Invert** off. If you need the back view "
+"on equirect, use **Invert** or add +180 to **Yaw**."
+msgstr ""
+"如果图像看起来是镜像的，请关闭 **反转** 。如果需要等矩形的背面视图，使用 **反"
+"转** 或在 **偏航** 上加180。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1079
+msgid ""
+"If the output looks soft or aliased, reduce **Out FOV** or increase export "
+"resolution. **Auto** interpolation adapts the filter to scaling."
+msgstr ""
+"如果输出看起来模糊或有锯齿，降低 **输出视场角** 或提高导出分辨率。**自动** 插"
+"值会根据缩放调整滤镜。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1083
+msgid ""
+"The Stabilizer effect reduces unwanted shake and jitter in handheld or "
+"unstable video footage, resulting in smoother, more professional-looking "
+"shots. This is particularly useful for action scenes, handheld shots, or any "
+"footage where a tripod was not used."
+msgstr ""
+"稳定器效果减少手持或不稳定视频素材中的不必要抖动和颤动，使画面更平滑、更专"
+"业。特别适用于动作场景、手持拍摄或未使用三脚架的素材。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1093
+msgid "zoom"
+msgstr "缩放"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1093
+msgid ""
+"``(float, 0 to 2)`` Percentage to zoom into the clip, to crop off the "
+"shaking and uneven edges"
+msgstr "``(float, 0 到 2)`` 缩放剪辑的百分比，用于裁剪抖动和不平整的边缘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1098
+msgid ""
+"The Tracker effect allows for the tracking of a specific object or area "
+"within the video frame across multiple frames. This can be used for motion "
+"tracking, adding effects or annotations that follow the movement of objects, "
+"or for stabilizing footage based on a tracked point.When tracking an object, "
+"be sure to select the entire object, which is visible at the start of a "
+"clip, and choose one of the following ``Tracking Type`` algorithms. The "
+"tracking algorithm then follows this object from frame to frame, recording "
+"its position, scale, and sometimes rotation."
+msgstr ""
+"跟踪器效果允许在多个帧中跟踪视频画面内的特定对象或区域。可用于运动跟踪、添加"
+"随对象移动的效果或注释，或基于跟踪点稳定画面。跟踪对象时，请确保选择剪辑开始"
+"时可见的整个对象，并选择以下``跟踪类型`` 算法之一。跟踪算法随后逐帧跟踪该对"
+"象，记录其位置、缩放，有时还包括旋转。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1105
+msgid "Tracking Type"
+msgstr "跟踪类型"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1106
+msgid ""
+"**KCF:** (default) A blend of Boosting and MIL strategies, employing "
+"correlation filters on overlapping areas from 'bags' to accurately track and "
+"predict object movement. It offers higher speed and accuracy and can stop "
+"tracking when the object is lost but struggles to resume tracking after "
+"losing the object."
+msgstr ""
+"**KCF：** （默认）结合Boosting和MIL策略，使用相关滤波器在“包”重叠区域准确跟踪"
+"和预测对象运动。速度和精度较高，丢失对象时可停止跟踪，但恢复跟踪较困难。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1107
+msgid ""
+"**MIL:** Improves upon Boosting by considering multiple potential positives "
+"('bags') around the definite positive object, increasing robustness to noise "
+"and maintaining good accuracy. However, it shares the Boosting Tracker's "
+"drawbacks of low speed and difficulty in stopping tracking when the object "
+"is lost."
+msgstr ""
+"**MIL：** 在Boosting基础上改进，考虑确定正样本周围的多个潜在正样本（“包”），"
+"增强抗噪声能力并保持良好精度。但同样存在Boosting跟踪器速度慢和丢失对象时难以"
+"停止跟踪的缺点。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1108
+msgid ""
+"**BOOSTING:** Utilizes the online AdaBoost algorithm to enhance the "
+"classification of tracked objects by focusing on incorrectly classified "
+"ones. It requires setting the initial frame and treats nearby objects as "
+"background, adjusting to new frames based on maximum score areas. It's known "
+"for accurate tracking but suffers from low speed, noise sensitivity, and "
+"difficulty stopping tracking upon object loss."
+msgstr ""
+"**BOOSTING：** 利用在线 AdaBoost 算法，通过关注错误分类的对象来增强跟踪对象的"
+"分类。需要设置初始帧，并将附近的对象视为背景，根据最大得分区域调整新帧。该方"
+"法以准确的跟踪著称，但速度较慢，易受噪声影响，且在对象丢失时难以停止跟踪。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1109
+msgid ""
+"**TLD:** Decomposes tracking into tracking, learning, and detection phases, "
+"allowing for adaptation and correction over time. While it can handle object "
+"scaling and occlusions reasonably well, it may behave unpredictably, with "
+"instability in tracking and detection."
+msgstr ""
+"**TLD：** 将跟踪分解为跟踪、学习和检测阶段，允许随时间进行适应和校正。虽然它"
+"能较好地处理对象缩放和遮挡，但可能表现出不可预测的行为，跟踪和检测不稳定。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1110
+msgid ""
+"**MEDIANFLOW:** Based on the Lucas-Kanade method, it analyzes forward and "
+"backward movement to estimate trajectory errors for real-time position "
+"prediction. It's fast and accurate under certain conditions but can lose "
+"track of fast-moving objects."
+msgstr ""
+"**MEDIANFLOW：** 基于 Lucas-Kanade 方法，分析前向和后向运动以估计轨迹误差，实"
+"现实时位置预测。在某些条件下速度快且准确，但可能丢失快速移动的对象。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1111
+msgid ""
+"**MOSSE:** Utilizes adaptive correlations in Fourier space to maintain "
+"robustness against lighting, scale, and pose changes. It boasts very high "
+"tracking speeds and is better at continuing tracking after loss, but it may "
+"persist in tracking an absent object."
+msgstr ""
+"**MOSSE：** 利用傅里叶空间中的自适应相关性，保持对光照、尺度和姿态变化的鲁棒"
+"性。具有非常高的跟踪速度，且在丢失后能更好地继续跟踪，但可能会持续跟踪已不存"
+"在的对象。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1112
+msgid ""
+"**CSRT:** Employs spatial reliability maps to adjust filter support, "
+"enhancing the ability to track non-rectangular objects and perform well even "
+"with object overlaps. However, it is slower and may not operate reliably "
+"when the object is lost."
+msgstr ""
+"**CSRT：** 使用空间可靠性图调整滤波器支持，增强跟踪非矩形对象的能力，即使对象"
+"重叠也能表现良好。但速度较慢，且在对象丢失时可能无法可靠运行。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1116
+msgid ""
+"Once you have a tracked object, you can \"parent\" other :ref:`clips_ref` to "
+"it. This means that the second clip, which could be a graphic, text, or "
+"another video layer, will now follow the tracked object as if it's attached "
+"to it. If the tracked object moves to the left, the child clip moves to the "
+"left. If the tracked object grows in size (gets closer to the camera), the "
+"child clip also scales up. For parented clips to appear correctly, they must "
+"be on a Track higher than the tracked objects, and set the appropriate :ref:"
+"`clip_scale_ref` property."
+msgstr ""
+"一旦有了跟踪对象，您可以将其他 :ref:`clips_ref` “附加” 到它上面。这意味着第二"
+"个剪辑（可以是图形、文本或另一个视频层）将跟随跟踪对象移动，就像附着在其上一"
+"样。如果跟踪对象向左移动，子剪辑也向左移动。如果跟踪对象变大（靠近摄像机），"
+"子剪辑也会相应放大。要使附加的剪辑正确显示，它们必须位于比跟踪对象更高的轨道"
+"上，并设置适当的 :ref:`clip_scale_ref` 属性。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1133
+msgid ""
+"``(int, choices: ['Yes', 'No'])`` Whether to draw the box around the tracked "
+"object"
+msgstr "``(int, 选项：['Yes', 'No'])`` 是否绘制跟踪对象周围的框"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1155
+msgid ""
+"The Wave effect distorts the image into a wave-like pattern, simulating "
+"effects like heat haze, water reflections, or other forms of distortion. The "
+"speed, amplitude, and direction of the waves can be adjusted."
+msgstr ""
+"波浪效果将图像扭曲成波浪状图案，模拟热浪、水面反射或其他形式的扭曲。波浪的速"
+"度、振幅和方向均可调节。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1164
+msgid "amplitude"
+msgstr "振幅"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1164
+msgid "``(float, 0 to 5)`` The height of the wave"
+msgstr "``(float, 0 到 5)`` 波浪的高度"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1165
+msgid "multiplier"
+msgstr "倍增器"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1165
+msgid "``(float, 0 to 10)`` Amount to multiply the wave (make it bigger)"
+msgstr "``(float, 0 到 10)`` 波浪的放大倍数（使其更大）"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1166
+msgid "shift_x"
+msgstr "X轴偏移"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1166
+msgid "``(float, 0 to 1000)`` Amount to shift X-axis"
+msgstr "``(float, 0 到 1000)`` X轴偏移量"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1167
+msgid "speed_y"
+msgstr "Y轴速度"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1167
+msgid "``(float, 0 to 300)`` Speed of the wave on the Y-axis"
+msgstr "``(float, 0 到 300)`` 波浪在Y轴上的速度"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1168
+msgid "wavelength"
+msgstr "波长"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1168
+msgid "``(float, 0 to 3)`` The length of the wave"
+msgstr "``(float, 0 到 3)`` 波浪的长度"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1172
+msgid "Audio Effects"
+msgstr "音频效果"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1174
+msgid ""
+"Audio effects modify the waveforms and audio sample data of a clip. Below is "
+"a list of audio effects, and their properties. Often it is best to "
+"experiment with an effect, entering different values into the properties, "
+"and observing the results."
+msgstr ""
+"音频效果修改剪辑的波形和音频采样数据。以下是音频效果及其属性列表。通常最好通"
+"过尝试不同的属性值来观察效果。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1180
+msgid ""
+"The Compressor effect in audio processing reduces the dynamic range of the "
+"audio signal, making loud sounds quieter and quiet sounds louder. This "
+"creates a more consistent volume level, useful for balancing the loudness of "
+"different audio sources or for achieving a particular sound characteristic "
+"in music production."
+msgstr ""
+"压缩器效果在音频处理中减少音频信号的动态范围，使响亮的声音变得更安静，安静的"
+"声音变得更响亮。这样可以创建更一致的音量水平，有助于平衡不同音源的响度或实现"
+"音乐制作中特定的声音特性。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1190 ../effects.rst:1260
+msgid "attack"
+msgstr "起音时间"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1190 ../effects.rst:1260
+msgid "``(float, 0.1 to 100)``"
+msgstr "``(float, 0.1 到 100)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1191 ../effects.rst:1261
+msgid "bypass"
+msgstr "旁通"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1191 ../effects.rst:1261
+msgid "``(bool)``"
+msgstr "``(bool)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1192 ../effects.rst:1262
+msgid "makeup_gain"
+msgstr "补偿增益"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1192 ../effects.rst:1262
+msgid "``(float, -12 to 12)``"
+msgstr "``(float, -12 到 12)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1193 ../effects.rst:1263
+msgid "ratio"
+msgstr "压缩比"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1193 ../effects.rst:1263
+msgid "``(float, 1 to 100)``"
+msgstr "``(float, 1 到 100)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1194 ../effects.rst:1264
+msgid "release"
+msgstr "释放时间"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1194 ../effects.rst:1264
+msgid "``(float, 10 to 1000)``"
+msgstr "``(float, 10 到 1000)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1195 ../effects.rst:1265
+msgid "``(float, -60 to 0)``"
+msgstr "``(float, -60 到 0)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1200
+msgid ""
+"The Delay effect adds an echo to the audio signal, repeating the sound after "
+"a short delay. This can create a sense of space and depth in the audio, and "
+"is commonly used for creative effects in music, sound design, and audio post-"
+"production."
+msgstr ""
+"延迟效果为音频信号添加回声，在短暂延迟后重复声音。它可以营造空间感和深度感，"
+"常用于音乐、声音设计和音频后期制作中的创意效果。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1210
+msgid "delay_time"
+msgstr "延迟时间"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1210 ../effects.rst:1243
+msgid "``(float, 0 to 5)``"
+msgstr "``(float, 0 到 5)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1215
+msgid ""
+"The Distortion effect intentionally clips the audio signal, adding harmonic "
+"and non-harmonic overtones. This can create a gritty, aggressive sound "
+"characteristic of many electric guitar tones and is used for both musical "
+"and sound design purposes."
+msgstr ""
+"失真效果故意削波音频信号，添加谐波和非谐波泛音。它可以产生许多电吉他音色特有"
+"的粗糙、激进的声音，广泛用于音乐和声音设计。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1225
+msgid "distortion_type"
+msgstr "失真类型"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1225
+msgid ""
+"``(int, choices: ['Hard Clipping', 'Soft Clipping', 'Exponential', 'Full "
+"Wave Rectifier', 'Half Wave Rectifier'])``"
+msgstr ""
+"``(int, 选项：['Hard Clipping', 'Soft Clipping', 'Exponential', 'Full Wave "
+"Rectifier', 'Half Wave Rectifier'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1226
+msgid "input_gain"
+msgstr "输入增益"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1226 ../effects.rst:1227 ../effects.rst:1228
+#: ../effects.rst:1297
+msgid "``(int, -24 to 24)``"
+msgstr "``(整数，范围：-24 到 24)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1227
+msgid "output_gain"
+msgstr "输出增益"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1228
+msgid "tone"
+msgstr "音调"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1233
+msgid ""
+"The Echo effect, similar to delay, repeats the audio signal at intervals, "
+"but with a focus on creating a distinct repetition of sound that mimics "
+"natural echoes. This can be used to simulate acoustic environments or for "
+"creative sound effects."
+msgstr ""
+"回声效果类似于延迟，会间隔重复音频信号，但重点是创造出模仿自然回声的清晰重复"
+"声音。可用于模拟声学环境或创意音效。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1243
+msgid "echo_time"
+msgstr "回声时间"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1244
+msgid "feedback"
+msgstr "反馈"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1244 ../effects.rst:1245
+msgid "``(float, 0 to 1)``"
+msgstr "``(浮点数，范围：0 到 1)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1245
+msgid "mix"
+msgstr "混合"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1250
+msgid ""
+"The Expander effect increases the dynamic range of audio, making quiet "
+"sounds quieter and leaving loud sounds unaffected. This is the opposite of "
+"compression and is used to reduce background noise or increase the dynamic "
+"impact of audio."
+msgstr ""
+"扩展器效果增加音频的动态范围，使安静的声音更安静，而响亮的声音不受影响。它是"
+"压缩的反义，用于减少背景噪音或增强音频的动态冲击力。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1270
+msgid ""
+"The Noise effect adds random, equal-intensity signals across the frequency "
+"spectrum to the audio, simulating the sound of white noise. This can be used "
+"for sound masking, as a component in sound design, or for testing and "
+"calibration purposes."
+msgstr ""
+"噪声效果向音频添加跨频谱的随机等强度信号，模拟白噪声的声音。可用于声音掩蔽、"
+"声音设计组件或测试和校准。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1280
+msgid "level"
+msgstr "级别"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1280
+msgid "``(int, 0 to 100)``"
+msgstr "``(整数，范围：0 到 100)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1285
+msgid ""
+"The Parametric EQ (Equalizer) effect allows for precise adjustments to the "
+"volume level of specific frequency ranges in the audio signal. This can be "
+"used for corrective measures, such as removing unwanted tones, or "
+"creatively, to shape the tonal balance of the audio."
+msgstr ""
+"参数均衡器效果允许精确调整音频信号中特定频率范围的音量级别。可用于纠正措施，"
+"如去除不需要的音调，或用于创意调整音频的音色平衡。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1295
+msgid "filter_type"
+msgstr "滤波器类型"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1295
+msgid ""
+"``(int, choices: ['Low Pass', 'High Pass', 'Low Shelf', 'High Shelf', 'Band "
+"Pass', 'Band Stop', 'Peaking Notch'])``"
+msgstr ""
+"``(整数，选项：['低通', '高通', '低架', '高架', '带通', '带阻', '峰值陷"
+"波'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1296
+msgid "frequency"
+msgstr "频率"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1296
+msgid "``(int, 20 to 20000)``"
+msgstr "``(整数，范围：20 到 20000)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1297
+msgid "gain"
+msgstr "增益"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1298
+msgid "q_factor"
+msgstr "Q因子"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1298
+msgid "``(float, 0 to 20)``"
+msgstr "``(浮点数，范围：0 到 20)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1303
+msgid ""
+"The Robotization effect transforms the audio to sound mechanical or robotic, "
+"by applying a combination of pitch modulation and synthesis techniques. This "
+"effect is widely used for character voices in media, creative music "
+"production, and sound design."
+msgstr ""
+"机器人化效果通过应用音高调制和合成技术的组合，将音频转换为机械或机器人声音。"
+"该效果广泛用于媒体中的角色声音、创意音乐制作和声音设计。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1313 ../effects.rst:1330
+msgid "fft_size"
+msgstr "FFT大小"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1313 ../effects.rst:1330
+msgid "``(int, choices: ['128', '256', '512', '1024', '2048'])``"
+msgstr "``(整数，选项：['128', '256', '512', '1024', '2048'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1314 ../effects.rst:1331
+msgid "hop_size"
+msgstr "跳跃大小"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1314 ../effects.rst:1331
+msgid "``(int, choices: ['1/2', '1/4', '1/8'])``"
+msgstr "``(整数，选项：['1/2', '1/4', '1/8'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1315 ../effects.rst:1332
+msgid "window_type"
+msgstr "窗口类型"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1315 ../effects.rst:1332
+msgid "``(int, choices: ['Rectangular', 'Bart Lett', 'Hann', 'Hamming'])``"
+msgstr "``(整数，选项：['矩形', 'Bart Lett', '汉宁', '汉明'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1320
+msgid ""
+"The Whisperization effect transforms the audio to mimic a whispering voice, "
+"often by filtering out certain frequencies and adding noise. This can be "
+"used for artistic effects in music, sound design for film and video, or in "
+"audio storytelling to convey secrecy or intimacy."
+msgstr ""
+"耳语效果通过滤除某些频率并添加噪声，将音频转换为模仿耳语的声音。可用于音乐艺"
+"术效果、影视声音设计或音频叙事中传达秘密或亲密感。"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1335
+msgid "For more info on key frames and animation, see :ref:`animation_ref`."
+msgstr "有关关键帧和动画的更多信息，请参见 :ref:`animation_ref` 。"

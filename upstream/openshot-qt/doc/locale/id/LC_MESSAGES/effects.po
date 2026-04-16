@@ -1,0 +1,3942 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:23
+msgid "Effects"
+msgstr "Efek"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:25
+msgid ""
+"Effects are used in OpenShot to enhance or modify the audio or video of a "
+"clip. They can modify pixels and audio data, and can generally enhance your "
+"video projects. Each effect has its own set of properties, most of which can "
+"be animated over time, for example varying the :guilabel:`Brightness & "
+"Contrast` of a clip over time."
+msgstr ""
+"Efek digunakan di OpenShot untuk meningkatkan atau memodifikasi audio atau "
+"video dari sebuah klip. Mereka dapat memodifikasi piksel dan data audio, dan "
+"umumnya dapat meningkatkan proyek video Anda. Setiap efek memiliki "
+"serangkaian properti sendiri, yang sebagian besar dapat dianimasikan seiring "
+"waktu, misalnya mengubah :guilabel:`Brightness & Contrast` dari sebuah klip "
+"seiring waktu."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:29
+msgid ""
+"Effects can be added to any clip by dragging and dropping them from the "
+"Effects tab onto a clip. Each effect is represented by a small colored icon "
+"and the first letter of the effect name. Note: Pay close attention to where "
+"the play-head (i.e. red playback line) is. Key frames are automatically "
+"created at the current playback position, to help create animations quickly."
+msgstr ""
+"Efek dapat ditambahkan ke klip mana pun dengan menyeret dan melepaskannya "
+"dari tab Efek ke klip. Setiap efek diwakili oleh ikon kecil berwarna dan "
+"huruf pertama dari nama efek. Catatan: Perhatikan dengan seksama posisi play-"
+"head (yaitu garis pemutaran merah). Keyframe secara otomatis dibuat pada "
+"posisi pemutaran saat ini, untuk membantu membuat animasi dengan cepat."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:34
+msgid ""
+"To view an effect's properties, right-click on the effect icon, revealing "
+"the context menu, and choose :guilabel:`Properties`. The property editor "
+"will appear, where you can edit these properties. Properties appear "
+"alphabetically in the dock, with filter options available at the top. Hold :"
+"kbd:`Ctrl` and click multiple effect icons to select them all, the "
+"Properties dock will show an entry such as ``3 Selections`` so you can "
+"adjust their common settings in one step. See :ref:`clip_properties_ref`."
+msgstr ""
+"Untuk melihat properti efek, klik kanan pada ikon efek, sehingga menu "
+"konteks muncul, dan pilih :guilabel:`Properties`. Editor properti akan "
+"muncul, di mana Anda dapat mengedit properti tersebut. Properti ditampilkan "
+"secara alfabetis di dock, dengan opsi filter tersedia di bagian atas. Tahan :"
+"kbd:`Ctrl` dan klik beberapa ikon efek untuk memilih semuanya, dock "
+"Properties akan menampilkan entri seperti ``3 Selections`` sehingga Anda "
+"dapat menyesuaikan pengaturan umum mereka dalam satu langkah. Lihat :ref:"
+"`clip_properties_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:41
+msgid "Masks and Effects"
+msgstr "Masker dan Efek"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:43
+msgid ""
+"All effects can now use a **static or animated mask** to limit where the "
+"effect is applied. This makes effects much more precise, because you can "
+"target only the subject or region you care about and blend the result "
+"smoothly into the original image."
+msgstr ""
+"Semua efek sekarang dapat menggunakan **masker statis atau animasi** untuk "
+"membatasi area penerapan efek. Ini membuat efek menjadi jauh lebih tepat, "
+"karena Anda dapat menargetkan hanya subjek atau wilayah yang Anda pedulikan "
+"dan menggabungkan hasilnya dengan mulus ke dalam gambar asli."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:48
+msgid "Why this matters:"
+msgstr "Mengapa ini penting:"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:50
+msgid "Keep edits focused on one area (for example, blur only a face)."
+msgstr ""
+"Jaga agar suntingan terfokus pada satu area (misalnya, blur hanya pada "
+"wajah)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:51
+msgid ""
+"Stack multiple effects on the same subject without affecting the full frame."
+msgstr ""
+"Tumpuk beberapa efek pada subjek yang sama tanpa memengaruhi seluruh bingkai."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:52
+msgid "Animate how strongly or where an effect is applied over time."
+msgstr "Animasikan seberapa kuat atau di mana efek diterapkan seiring waktu."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:54
+msgid "How to use effect masks:"
+msgstr "Cara menggunakan masker efek:"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:56
+msgid "Add an effect to a clip."
+msgstr "Tambahkan efek ke klip."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:57
+msgid "Open the effect :guilabel:`Properties`."
+msgstr "Buka :guilabel:`Properti` efek."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:58
+msgid "Choose a mask source (static image or animated mask video)."
+msgstr "Pilih sumber masker (gambar statis atau video masker animasi)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:59
+msgid ""
+"Adjust :guilabel:`Mask Mode` (for example, *Limit to Mask* or *Vary "
+"Strength*)."
+msgstr ""
+"Sesuaikan :guilabel:`Mode Masker` (misalnya, *Batasi ke Masker* atau "
+"*Variasi Kekuatan*)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:61
+msgid ""
+"High-quality animated masks can also be generated with Advanced AI "
+"workflows. In many cases, you can click one or more subjects and let "
+"tracking build a mask automatically. See :ref:`ai_ref`."
+msgstr ""
+"Masker animasi berkualitas tinggi juga dapat dibuat dengan alur kerja AI "
+"Lanjutan. Dalam banyak kasus, Anda dapat mengklik satu atau lebih subjek dan "
+"membiarkan pelacakan membangun masker secara otomatis. Lihat :ref:`ai_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:65
+msgid "Mask controls to know:"
+msgstr "Kontrol masker yang perlu diketahui:"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:67
+msgid ""
+"Any effect mask can be inverted to flip between foreground and background."
+msgstr ""
+"Masker efek apa pun dapat dibalik untuk menukar antara latar depan dan latar "
+"belakang."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:68
+msgid "Animated mask videos can be looped."
+msgstr "Video masker animasi dapat diputar berulang."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:69
+msgid ""
+"When looping, set start/end mask trim carefully. If not adjusted, OpenShot "
+"loops the entire mask source, not just the segment you intended to repeat."
+msgstr ""
+"Saat memutar ulang, atur pemangkasan masker awal/akhir dengan hati-hati. "
+"Jika tidak disesuaikan, OpenShot akan memutar ulang seluruh sumber masker, "
+"bukan hanya segmen yang Anda maksudkan untuk diulang."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:72
+msgid "To adjust a property:"
+msgstr "Untuk menyesuaikan properti:"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:74
+msgid "Drag the slider for coarse changes."
+msgstr "Seret penggeser untuk perubahan kasar."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:75
+msgid "Double-click to enter precise values."
+msgstr "Klik dua kali untuk memasukkan nilai yang tepat."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:76
+msgid "Right/double-click for non-numerical options."
+msgstr "Klik kanan/dua kali untuk opsi non-numerik."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:78
+msgid ""
+"Effect properties are integral to the :ref:`animation_ref` system. When you "
+"modify an effect property, a keyframe is generated at the current playhead "
+"position. For a property to span the entire clip, position the playhead at "
+"or before the clip's start before making adjustments. A convenient way to "
+"identify a clip's start is by utilizing the 'next/previous marker' feature "
+"on the Timeline toolbar."
+msgstr ""
+"Properti efek merupakan bagian integral dari sistem :ref:`animation_ref`. "
+"Saat Anda memodifikasi properti efek, keyframe dibuat pada posisi playhead "
+"saat ini. Agar properti mencakup seluruh klip, posisikan playhead pada atau "
+"sebelum awal klip sebelum melakukan penyesuaian. Cara yang mudah untuk "
+"mengidentifikasi awal klip adalah dengan menggunakan fitur 'next/previous "
+"marker' pada toolbar Timeline."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:86
+msgid "List of Effects"
+msgstr "Daftar Efek"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:87
+msgid ""
+"OpenShot Video Editor has a total of 27 built-in video and audio effects: 18 "
+"video effects and 9 audio effects. These effects can be added to a clip by "
+"dragging the effect onto a clip. The following table contains the name and "
+"short description of each effect."
+msgstr ""
+"OpenShot Video Editor memiliki total 27 efek video dan audio bawaan: 18 efek "
+"video dan 9 efek audio. Efek-efek ini dapat ditambahkan ke klip dengan "
+"menyeret efek ke klip. Tabel berikut berisi nama dan deskripsi singkat dari "
+"setiap efek."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:227
+msgid "Icon"
+msgstr "Ikon"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:227
+msgid "Effect Name"
+msgstr "Nama Efek"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:227
+msgid "Effect Description"
+msgstr "Deskripsi Efek"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:229
+msgid "|analogtape_icon|"
+msgstr "|analogtape_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:91
+msgid "Analog Tape Icon"
+msgstr "Ikon Analog Tape"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:229 ../effects.rst:364
+msgid "Analog Tape"
+msgstr "Analog Tape"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:229
+msgid "Vintage home-video wobble, bleed, and snow."
+msgstr "Goyangan, kebocoran, dan salju video rumah vintage."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:230
+msgid "|mask_icon|"
+msgstr "|mask_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:95
+msgid "Alpha Mask / Wipe Transition Icon"
+msgstr "Ikon Alpha Mask / Wipe Transition"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:230 ../effects.rst:391
+msgid "Alpha Mask / Wipe Transition"
+msgstr "Alpha Mask / Wipe Transition"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:230
+msgid "Grayscale mask transition between images."
+msgstr "Transisi masker skala abu-abu antar gambar."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:231
+msgid "|bars_icon|"
+msgstr "|bars_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:99
+msgid "Bars Icon"
+msgstr "Ikon Bars"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:231 ../effects.rst:410
+msgid "Bars"
+msgstr "Bars"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:231
+msgid "Add colored bars around your video."
+msgstr "Tambahkan bar berwarna di sekitar video Anda."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:232
+msgid "|blur_icon|"
+msgstr "|blur_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:103
+msgid "Blur Icon"
+msgstr "Ikon Blur"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:232 ../effects.rst:429
+msgid "Blur"
+msgstr "Blur"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:232
+msgid "Adjust image blur."
+msgstr "Sesuaikan blur gambar."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:233
+msgid "|brightness_icon|"
+msgstr "|brightness_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:107
+msgid "Brightness & Contrast Icon"
+msgstr "Ikon Brightness & Contrast"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:233 ../effects.rst:447
+msgid "Brightness & Contrast"
+msgstr "Brightness & Contrast"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:233
+msgid "Modify frame’s brightness and contrast."
+msgstr "Ubah kecerahan dan kontras bingkai."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:234
+msgid "|caption_icon|"
+msgstr "|caption_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:111
+msgid "Caption Icon"
+msgstr "Ikon Caption"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:234 ../effects.rst:465
+msgid "Caption"
+msgstr "Caption"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:234
+msgid "Add text captions to any clip."
+msgstr "Tambahkan teks caption ke klip mana pun."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:235
+msgid "|chromakey_icon|"
+msgstr "|chromakey_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:115
+msgid "Chroma Key (Greenscreen) Icon"
+msgstr "Ikon Chroma Key (Greenscreen)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:235 ../effects.rst:506
+msgid "Chroma Key (Greenscreen)"
+msgstr "Chroma Key (Greenscreen)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:235
+msgid "Replace color with transparency."
+msgstr "Ganti warna dengan transparansi."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:236
+msgid "|colormap_icon|"
+msgstr "|colormap_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:119
+msgid "Color Map / Lookup Icon"
+msgstr "Ikon Color Map / Lookup"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:236 ../effects.rst:525
+msgid "Color Map / Lookup"
+msgstr "Color Map / Lookup"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:236
+msgid "Adjust colors using 3D LUT lookup tables (.cube format)."
+msgstr "Sesuaikan warna menggunakan tabel pencarian 3D LUT (format .cube)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:237
+msgid "|saturation_icon|"
+msgstr "|saturation_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:123
+msgid "Color Saturation Icon"
+msgstr "Ikon Color Saturation"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:237 ../effects.rst:745
+msgid "Color Saturation"
+msgstr "Color Saturation"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:237
+msgid "Adjust color intensity."
+msgstr "Sesuaikan intensitas warna."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:238
+msgid "|colorshift_icon|"
+msgstr "|colorshift_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:127
+msgid "Color Shift Icon"
+msgstr "Ikon Color Shift"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:238 ../effects.rst:763
+msgid "Color Shift"
+msgstr "Color Shift"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:238
+msgid "Shift image colors in various directions."
+msgstr "Geser warna gambar ke berbagai arah."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:239
+msgid "|crop_icon|"
+msgstr "|crop_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:131
+msgid "Crop Icon"
+msgstr "Ikon Crop"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:239 ../effects.rst:794
+msgid "Crop"
+msgstr "Crop"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:239
+msgid "Crop out parts of your video."
+msgstr "Potong bagian dari video Anda."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:240
+msgid "|deinterlace_icon|"
+msgstr "|deinterlace_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:135
+msgid "Deinterlace Icon"
+msgstr "Ikon Deinterlace"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:240 ../effects.rst:821
+msgid "Deinterlace"
+msgstr "Deinterlace"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:240
+msgid "Remove interlacing from video."
+msgstr "Hapus interlacing dari video."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:241
+msgid "|hue_icon|"
+msgstr "|hue_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:139
+msgid "Hue Icon"
+msgstr "Ikon Hue"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:241 ../effects.rst:836
+msgid "Hue"
+msgstr "Warna Hue"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:241
+msgid "Adjust hue / color."
+msgstr "Sesuaikan hue / warna."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:242
+msgid "|lensflare_icon|"
+msgstr "|lensflare_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:143
+msgid "Lens Flare Icon"
+msgstr "Ikon Lens Flare"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:242 ../effects.rst:851
+msgid "Lens Flare"
+msgstr "Lens Flare"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:242
+msgid "Simulate sunlight hitting a lens with flares."
+msgstr "Simulasikan sinar matahari mengenai lensa dengan flare."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:243
+msgid "|negate_icon|"
+msgstr "|negate_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:147
+msgid "Negative Icon"
+msgstr "Ikon Negatif"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:243 ../effects.rst:871
+msgid "Negative"
+msgstr "Negatif"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:243
+msgid "Produce a negative image."
+msgstr "Hasilkan gambar negatif."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:244
+msgid "|objectdetection_icon|"
+msgstr "|objectdetection_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:151
+msgid "Object Detector Icon"
+msgstr "Ikon Detektor Objek"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:244 ../effects.rst:877
+msgid "Object Detector"
+msgstr "Detektor Objek"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:244
+msgid "Detect objects in video."
+msgstr "Deteksi objek dalam video."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:245
+msgid "|outline_icon|"
+msgstr "|outline_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:155
+msgid "Outline Icon"
+msgstr "Ikon Garis Luar"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:245 ../effects.rst:936
+msgid "Outline"
+msgstr "Garis Luar"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:245
+msgid "Add outline around any image or text."
+msgstr "Tambahkan garis luar di sekitar gambar atau teks."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:246
+msgid "|pixelate_icon|"
+msgstr "|pixelate_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:159
+msgid "Pixelate Icon"
+msgstr "Ikon Pixelate"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:246 ../effects.rst:957
+msgid "Pixelate"
+msgstr "Pixelate"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:246
+msgid "Increase or decrease visible pixels."
+msgstr "Perbesar atau perkecil piksel yang terlihat."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:247
+msgid "|sharpen_icon|"
+msgstr "|sharpen_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:163
+msgid "Sharpen Icon"
+msgstr "Ikon Tajamkan"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:247 ../effects.rst:976
+msgid "Sharpen"
+msgstr "Tajamkan"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:247
+msgid "Boost edge contrast to make video details look crisper."
+msgstr ""
+"Tingkatkan kontras tepi untuk membuat detail video terlihat lebih tajam."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:248
+msgid "|shift_icon|"
+msgstr "|shift_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:167
+msgid "Shift Icon"
+msgstr "Ikon Geser"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:248 ../effects.rst:1015
+msgid "Shift"
+msgstr "Geser"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:248
+msgid "Shift image in different directions."
+msgstr "Geser gambar ke berbagai arah."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:249
+msgid "|sphericalprojection_icon|"
+msgstr "|sphericalprojection_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:171
+msgid "Spherical Projection Icon"
+msgstr "Ikon Proyeksi Bola"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:249 ../effects.rst:1031
+msgid "Spherical Projection"
+msgstr "Proyeksi Bola"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:249
+msgid "Flatten or project 360° and fisheye footage."
+msgstr "Ratakan atau proyeksikan rekaman 360° dan fisheye."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:250
+msgid "|stabilizer_icon|"
+msgstr "|stabilizer_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:175
+msgid "Stabilizer Icon"
+msgstr "Ikon Stabilisator"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:250 ../effects.rst:1082
+msgid "Stabilizer"
+msgstr "Stabilisator"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:250
+msgid "Reduce video shake."
+msgstr "Kurangi guncangan video."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:251
+msgid "|tracker_icon|"
+msgstr "|tracker_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:179
+msgid "Tracker Icon"
+msgstr "Ikon Pelacak"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:251 ../effects.rst:1097
+msgid "Tracker"
+msgstr "Pelacak"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:251
+msgid "Track bounding box in video."
+msgstr "Lacak kotak pembatas dalam video."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:252
+msgid "|wave_icon|"
+msgstr "|wave_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:183
+msgid "Wave Icon"
+msgstr "Ikon Gelombang"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:252 ../effects.rst:1154
+msgid "Wave"
+msgstr "Gelombang"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:252
+msgid "Distort image into a wave pattern."
+msgstr "Distorsi gambar menjadi pola gelombang."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:253
+msgid "|compressor_icon|"
+msgstr "|compressor_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:187
+msgid "Compressor Icon"
+msgstr "Ikon Kompresor"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:253 ../effects.rst:1179
+msgid "Compressor"
+msgstr "Kompresor"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:253
+msgid "Reduce loudness or amplify quiet sounds."
+msgstr "Kurangi volume keras atau perkuat suara pelan."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:254
+msgid "|delay_icon|"
+msgstr "|delay_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:191
+msgid "Delay Icon"
+msgstr "Ikon Delay"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:254 ../effects.rst:1199
+msgid "Delay"
+msgstr "Delay"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:254
+msgid "Adjust audio-video synchronism."
+msgstr "Sesuaikan sinkronisasi audio-video."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:255
+msgid "|distortion_icon|"
+msgstr "|distortion_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:195
+msgid "Distortion Icon"
+msgstr "Ikon Distorsi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:255 ../effects.rst:1214
+msgid "Distortion"
+msgstr "Distorsi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:255
+msgid "Clip audio signal for distortion."
+msgstr "Potong sinyal audio untuk distorsi."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:256
+msgid "|echo_icon|"
+msgstr "|echo_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:199
+msgid "Echo Icon"
+msgstr "Ikon Gema"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:256 ../effects.rst:1232
+msgid "Echo"
+msgstr "Gema"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:256
+msgid "Add delayed sound reflection."
+msgstr "Tambahkan pantulan suara tertunda."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:257
+msgid "|expander_icon|"
+msgstr "|expander_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:203
+msgid "Expander Icon"
+msgstr "Ikon Expander"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:257 ../effects.rst:1249
+msgid "Expander"
+msgstr "Expander"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:257
+msgid "Make loud parts relatively louder."
+msgstr "Buat bagian keras menjadi lebih keras secara relatif."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:258
+msgid "|noise_icon|"
+msgstr "|noise_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:207
+msgid "Noise Icon"
+msgstr "Ikon Noise"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:258 ../effects.rst:1269
+msgid "Noise"
+msgstr "Noise"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:258
+msgid "Add random equal-intensity signals."
+msgstr "Tambahkan sinyal acak dengan intensitas sama."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:259
+msgid "|parametriceq_icon|"
+msgstr "|parametriceq_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:211
+msgid "Parametric EQ Icon"
+msgstr "Ikon Parametric EQ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:259 ../effects.rst:1284
+msgid "Parametric EQ"
+msgstr "Parametric EQ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:259
+msgid "Adjust frequency volume in audio."
+msgstr "Sesuaikan volume frekuensi dalam audio."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:260
+msgid "|robotization_icon|"
+msgstr "|robotization_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:215
+msgid "Robotization Icon"
+msgstr "Ikon Robotisasi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:260 ../effects.rst:1302
+msgid "Robotization"
+msgstr "Robotisasi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:260
+msgid "Transform audio into robotic voice."
+msgstr "Ubah audio menjadi suara robotik."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:261
+msgid "|whisperization_icon|"
+msgstr "|whisperization_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:219
+msgid "Whisperization Icon"
+msgstr "Ikon Whisperisasi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:261 ../effects.rst:1319
+msgid "Whisperization"
+msgstr "Whisperisasi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:261
+msgid "Transform audio into whispers."
+msgstr "Ubah audio menjadi bisikan."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:266
+msgid "Effect Properties"
+msgstr "Properti Efek"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:267
+msgid ""
+"Below is a list of **common** effect properties, shared by all effects in "
+"OpenShot. To view an effect's properties, right click and choose :guilabel:"
+"`Properties`. The property editor will appear, where you can change these "
+"properties. Note: Pay close attention to where the play-head (i.e. red "
+"playback line) is. Key frames are automatically created at the current "
+"playback position, to help quickly create animations."
+msgstr ""
+"Berikut adalah daftar properti efek **umum**, yang dibagikan oleh semua efek "
+"di OpenShot. Untuk melihat properti efek, klik kanan dan pilih :guilabel:"
+"`Properties`. Editor properti akan muncul, di mana Anda dapat mengubah "
+"properti ini. Catatan: Perhatikan posisi play-head (yaitu garis pemutaran "
+"merah). Keyframe secara otomatis dibuat pada posisi pemutaran saat ini, "
+"untuk membantu membuat animasi dengan cepat."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:272
+msgid ""
+"See the table below for a list of common effect properties. Only the "
+"**common properties** that all effects share are listed here. Each effect "
+"also has many **unique properties**, which are specific to each effect, see :"
+"ref:`effect_video_effects_ref` for more information on individual effects "
+"and their unique properties."
+msgstr ""
+"Lihat tabel di bawah untuk daftar properti efek umum. Hanya **properti "
+"umum** yang dimiliki semua efek yang tercantum di sini. Setiap efek juga "
+"memiliki banyak **properti unik**, yang spesifik untuk setiap efek, lihat :"
+"ref:`effect_video_effects_ref` untuk informasi lebih lanjut tentang efek "
+"individual dan properti uniknya."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:280
+msgid "Effect Property Name"
+msgstr "Nama Properti Efek"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:280
+msgid "Type"
+msgstr "Tipe"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:280 ../effects.rst:372 ../effects.rst:401 ../effects.rst:419
+#: ../effects.rst:438 ../effects.rst:456 ../effects.rst:484 ../effects.rst:516
+#: ../effects.rst:539 ../effects.rst:754 ../effects.rst:779 ../effects.rst:809
+#: ../effects.rst:830 ../effects.rst:845 ../effects.rst:860 ../effects.rst:908
+#: ../effects.rst:947 ../effects.rst:966 ../effects.rst:1005
+#: ../effects.rst:1024 ../effects.rst:1042 ../effects.rst:1091
+#: ../effects.rst:1131 ../effects.rst:1162 ../effects.rst:1188
+#: ../effects.rst:1208 ../effects.rst:1223 ../effects.rst:1241
+#: ../effects.rst:1258 ../effects.rst:1278 ../effects.rst:1293
+#: ../effects.rst:1311 ../effects.rst:1328
+msgid "Description"
+msgstr "Deskripsi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:282 ../effects.rst:293
+msgid "Duration"
+msgstr "Durasi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:282 ../effects.rst:283 ../effects.rst:286 ../effects.rst:287
+msgid "Float"
+msgstr "Float"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:282
+msgid ""
+"The length of the effect (in seconds). Read-only property. Most effects "
+"default to the length of a clip. This property is hidden when an effect "
+"belongs to a clip."
+msgstr ""
+"Panjang efek (dalam detik). Properti hanya-baca. Sebagian besar efek default "
+"ke panjang klip. Properti ini disembunyikan saat efek menjadi bagian dari "
+"klip."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:283 ../effects.rst:300
+msgid "End"
+msgstr "Akhir"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:283
+msgid ""
+"The end trimming position of the effect (in seconds). This property is "
+"hidden when an effect belongs to a clip."
+msgstr ""
+"Posisi pemangkasan akhir efek (dalam detik). Properti ini disembunyikan saat "
+"efek menjadi bagian dari klip."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:284 ../effects.rst:307
+msgid "ID"
+msgstr "ID"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:284 ../effects.rst:285
+msgid "String"
+msgstr "String"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:284
+msgid ""
+"A randomly generated GUID (globally unique identifier) assigned to each "
+"effect. Read-only property."
+msgstr ""
+"GUID (pengidentifikasi unik global) yang dihasilkan secara acak dan "
+"diberikan ke setiap efek. Properti hanya-baca."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:285
+msgid "Parent"
+msgstr "Induk"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:285
+msgid ""
+"The parent object to this effect, which makes many of these keyframe values "
+"initialize to the parent value."
+msgstr ""
+"Objek induk dari efek ini, yang membuat banyak nilai keyframe ini "
+"diinisialisasi ke nilai induk."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:286 ../effects.rst:330
+msgid "Position"
+msgstr "Posisi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:286
+msgid ""
+"The position of the effect on the timeline (in seconds). This property is "
+"hidden when an effect belongs to a clip."
+msgstr ""
+"Posisi efek pada timeline (dalam detik). Properti ini disembunyikan saat "
+"efek menjadi bagian dari klip."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:287 ../effects.rst:336
+msgid "Start"
+msgstr "Mulai"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:287
+msgid ""
+"The start trimming position of the effect (in seconds). This property is "
+"hidden when an effect belongs to a clip."
+msgstr ""
+"Posisi pemangkasan awal efek (dalam detik). Properti ini disembunyikan saat "
+"efek menjadi bagian dari klip."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:288 ../effects.rst:312
+msgid "Track"
+msgstr "Track"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:288
+msgid "Int"
+msgstr "Int"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:288
+msgid ""
+"The layer which holds the effect (higher tracks are rendered on top of lower "
+"tracks). This property is hidden when an effect belongs to a clip."
+msgstr ""
+"Lapisan yang memegang efek (track yang lebih tinggi dirender di atas track "
+"yang lebih rendah). Properti ini disembunyikan saat efek menjadi bagian dari "
+"klip."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:289
+msgid "Apply Before Clip"
+msgstr "Terapkan Sebelum Klip"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:289
+msgid "Boolean"
+msgstr "Boolean"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:289
+msgid "Apply this effect before the Clip processes keyframes? (default is Yes)"
+msgstr "Terapkan efek ini sebelum Klip memproses keyframe? (default adalah Ya)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:294
+msgid ""
+"The :guilabel:`Duration` property is a float value indicating the length of "
+"the effect in seconds. This is a Read-only property. This is calculated by: "
+"End - Start. To modify duration, you must edit the :guilabel:`Start` and/or :"
+"guilabel:`End` effect properties."
+msgstr ""
+"Properti :guilabel:`Duration` adalah nilai float yang menunjukkan panjang "
+"efek dalam detik. Ini adalah properti hanya-baca. Dihitung dengan: Akhir - "
+"Mulai. Untuk mengubah durasi, Anda harus mengedit properti efek :guilabel:"
+"`Start` dan/atau :guilabel:`End`."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:297
+msgid ""
+"*NOTE: Most effects in OpenShot default the effect duration to the clip "
+"duration, and hide this property from the editor.*"
+msgstr ""
+"*CATATAN: Sebagian besar efek di OpenShot mengatur durasi efek sesuai durasi "
+"klip, dan menyembunyikan properti ini dari editor.*"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:301
+msgid ""
+"The :guilabel:`End` property defines the trimming point at the end of the "
+"effect in seconds, allowing you to control how much of the effect is visible "
+"in the timeline. Changing this property will impact the :guilabel:`Duration` "
+"effect property."
+msgstr ""
+"Properti :guilabel:`End` menentukan titik pemangkasan di akhir efek dalam "
+"detik, memungkinkan Anda mengontrol seberapa banyak efek yang terlihat di "
+"timeline. Mengubah properti ini akan memengaruhi properti efek :guilabel:"
+"`Duration`."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:304 ../effects.rst:316 ../effects.rst:333 ../effects.rst:340
+msgid ""
+"*NOTE: Most effects in OpenShot default this property to match the clip, and "
+"hide this property from the editor.*"
+msgstr ""
+"*CATATAN: Sebagian besar efek di OpenShot mengatur properti ini agar sesuai "
+"dengan klip, dan menyembunyikan properti ini dari editor.*"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:308
+msgid ""
+"The :guilabel:`ID` property holds a randomly generated GUID (Globally Unique "
+"Identifier) assigned to each effect, ensuring its uniqueness. This is a Read-"
+"only property, and assigned by OpenShot when an effect is created."
+msgstr ""
+"Properti :guilabel:`ID` memegang GUID (Pengidentifikasi Unik Global) yang "
+"dihasilkan secara acak dan diberikan ke setiap efek, memastikan keunikannya. "
+"Ini adalah properti hanya-baca, dan diberikan oleh OpenShot saat efek dibuat."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:313
+msgid ""
+"The :guilabel:`Track` property is an integer indicating the layer on which "
+"the effect is placed. Effects on higher tracks are rendered above those on "
+"lower tracks."
+msgstr ""
+"Properti :guilabel:`Track` adalah bilangan bulat yang menunjukkan lapisan "
+"tempat efek ditempatkan. Efek pada track yang lebih tinggi dirender di atas "
+"yang pada track lebih rendah."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:321
+msgid "Effect Parent"
+msgstr "Induk Efek"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:322
+msgid ""
+"The :guilabel:`Parent` property of an effect sets the initial keyframe "
+"values to a parent effect. For example, if many effects all point to the "
+"same parent effect, they will inherit all their initial properties, such as "
+"font size, font color, and background color for a ``Caption`` effect. In the "
+"example of many ``Caption`` effects using the same Parent effect, it is an "
+"efficient way to manage a large number of these effects."
+msgstr ""
+"Properti :guilabel:`Parent` dari sebuah efek mengatur nilai keyframe awal ke "
+"efek induk. Misalnya, jika banyak efek menunjuk ke efek induk yang sama, "
+"mereka akan mewarisi semua properti awalnya, seperti ukuran font, warna "
+"font, dan warna latar belakang untuk efek ``Caption``. Dalam contoh banyak "
+"efek ``Caption`` yang menggunakan efek Induk yang sama, ini adalah cara "
+"efisien untuk mengelola sejumlah besar efek tersebut."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:326
+msgid ""
+"NOTE: The ``parent`` property for effects should be linked to the **same "
+"type** of parent effect, otherwise their default initial values will not "
+"match. Also see :ref:`clip_parent_ref`."
+msgstr ""
+"CATATAN: Properti ``parent`` untuk efek harus terhubung ke efek induk dengan "
+"**jenis yang sama**, jika tidak nilai awal default mereka tidak akan cocok. "
+"Lihat juga :ref:`clip_parent_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:331
+msgid ""
+"The :guilabel:`Position` property determines the effect's position on the "
+"timeline in seconds, with 0.0 indicating the beginning."
+msgstr ""
+"Properti :guilabel:`Position` menentukan posisi efek pada timeline dalam "
+"detik, dengan 0.0 menunjukkan awal."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:337
+msgid ""
+"The :guilabel:`Start` property defines the trimming point at the beginning "
+"of the effect in seconds. Changing this property will impact the :guilabel:"
+"`Duration` effect property."
+msgstr ""
+"Properti :guilabel:`Start` menentukan titik pemangkasan di awal efek dalam "
+"detik. Mengubah properti ini akan memengaruhi properti efek :guilabel:"
+"`Duration`."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:343
+msgid "Sequencing"
+msgstr "Pengurutan"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:345
+msgid ""
+"Effects are normally applied **before** the Clip processes keyframes. This "
+"allows the effect to process the raw image of the clip, before the clip "
+"applies properties such as scaling, rotation, location, etc... Normally, "
+"this is the preferred sequence of events, and this is the default behavior "
+"of effects in OpenShot. However, you can optionally override this behavior "
+"with the ``Apply Before Clip Keyframes`` property."
+msgstr ""
+"Efek biasanya diterapkan **sebelum** Klip memproses keyframe. Ini "
+"memungkinkan efek memproses gambar mentah dari klip, sebelum klip menerapkan "
+"properti seperti skala, rotasi, lokasi, dll... Biasanya, ini adalah urutan "
+"kejadian yang disukai, dan ini adalah perilaku default efek di OpenShot. "
+"Namun, Anda dapat secara opsional mengganti perilaku ini dengan properti "
+"``Terapkan Sebelum Keyframe Klip``."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:350
+msgid ""
+"If you set the ``Apply Before Clip Keyframes`` property to ``No``, the "
+"effect will be sequenced **after** the clip scales, rotates, and applies "
+"keyframes to the image. This can be useful on certain effects, such as the "
+"**Mask** effect, when you want to animate a clip first and then apply a "
+"static mask to the clip."
+msgstr ""
+"Jika Anda mengatur properti ``Terapkan Sebelum Keyframe Klip`` ke ``Tidak``, "
+"efek akan dijalankan **setelah** klip melakukan skala, rotasi, dan "
+"menerapkan keyframe pada gambar. Ini bisa berguna pada efek tertentu, "
+"seperti efek **Masker**, ketika Anda ingin menganimasikan klip terlebih "
+"dahulu dan kemudian menerapkan masker statis pada klip."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:357
+msgid "Video Effects"
+msgstr "Efek Video"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:359
+msgid ""
+"Effects are generally divided into two categories: video and audio effects. "
+"Video effects modify the image and pixel data of a clip. Below is a list of "
+"video effects, and their properties. Often it is best to experiment with an "
+"effect, entering different values into the properties, and observing the "
+"results."
+msgstr ""
+"Efek umumnya dibagi menjadi dua kategori: efek video dan audio. Efek video "
+"memodifikasi gambar dan data piksel dari sebuah klip. Berikut adalah daftar "
+"efek video dan propertinya. Seringkali yang terbaik adalah bereksperimen "
+"dengan sebuah efek, memasukkan nilai yang berbeda ke dalam properti, dan "
+"mengamati hasilnya."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:365
+msgid ""
+"The **Analog Tape** effect emulates consumer tape playback: horizontal line "
+"wobble (\"tracking\"), chroma bleed, luma softness, grainy snow, a bottom "
+"**tracking stripe**, and short **static bursts**. All controls are key-"
+"framable and the noise is deterministic (seeded from the effect’s ID with an "
+"optional offset), so renders are repeatable."
+msgstr ""
+"Efek **Analog Tape** meniru pemutaran tape konsumen: goyangan garis "
+"horizontal (\"tracking\"), bleed kromatik, kelembutan luma, salju berbutir, "
+"**garis tracking** di bagian bawah, dan **ledakan statis** pendek. Semua "
+"kontrol dapat diberi keyframe dan noise bersifat deterministik (berasal dari "
+"ID efek dengan offset opsional), sehingga hasil render dapat diulang."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:372 ../effects.rst:401 ../effects.rst:419 ../effects.rst:438
+#: ../effects.rst:456 ../effects.rst:484 ../effects.rst:516 ../effects.rst:539
+#: ../effects.rst:754 ../effects.rst:779 ../effects.rst:809 ../effects.rst:830
+#: ../effects.rst:845 ../effects.rst:860 ../effects.rst:908 ../effects.rst:947
+#: ../effects.rst:966 ../effects.rst:1005 ../effects.rst:1024
+#: ../effects.rst:1042 ../effects.rst:1091 ../effects.rst:1131
+#: ../effects.rst:1162 ../effects.rst:1188 ../effects.rst:1208
+#: ../effects.rst:1223 ../effects.rst:1241 ../effects.rst:1258
+#: ../effects.rst:1278 ../effects.rst:1293 ../effects.rst:1311
+#: ../effects.rst:1328
+msgid "Property Name"
+msgstr "Nama Properti"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:374
+msgid "tracking"
+msgstr "tracking"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:374
+msgid ""
+"``(float, 0–1)`` Horizontal **line wobble** plus a subtle bottom **skew**. "
+"Higher values increase amplitude and skew height."
+msgstr ""
+"``(float, 0–1)`` **Goyangan garis horizontal** plus sedikit **kemiringan** "
+"di bagian bawah. Nilai lebih tinggi meningkatkan amplitudo dan tinggi "
+"kemiringan."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:375
+msgid "bleed"
+msgstr "bleed"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:375
+msgid ""
+"``(float, 0–1)`` **Chroma bleed / fringing.** Horizontal chroma shift + blur "
+"with a slight desaturation. Gives the “rainbow edge” look."
+msgstr ""
+"``(float, 0–1)`` **Bleed / fringing kromatik.** Pergeseran kromatik "
+"horizontal + blur dengan sedikit desaturasi. Memberikan tampilan “tepi "
+"pelangi”."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:376
+msgid "softness"
+msgstr "softness"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:376
+msgid ""
+"``(float, 0–1)`` **Luma softness.** Small horizontal blur on Y (approx. 0–2 "
+"px). Keep low to retain detail when noise is high."
+msgstr ""
+"``(float, 0–1)`` **Kelembutan luma.** Blur horizontal kecil pada Y (sekitar "
+"0–2 px). Jaga tetap rendah untuk mempertahankan detail saat noise tinggi."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:377
+msgid "noise"
+msgstr "noise"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:377
+msgid ""
+"``(float, 0–1)`` **Snow, hiss, and dropouts.** Controls grain strength, "
+"probability/length of white **streaks**, and a faint line hum."
+msgstr ""
+"``(float, 0–1)`` **Salju, desis, dan dropouts.** Mengontrol kekuatan "
+"butiran, probabilitas/panjang **garis putih**, dan dengungan garis samar."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:378
+msgid "stripe"
+msgstr "stripe"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:378
+msgid ""
+"``(float, 0–1)`` **Tracking stripe.** Lifts the bottom band, adds hiss/noise "
+"there, and widens the lifted region as the value increases."
+msgstr ""
+"``(float, 0–1)`` **Garis tracking.** Mengangkat pita bawah, menambahkan "
+"desis/noise di sana, dan memperlebar area yang diangkat saat nilai meningkat."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:379
+msgid "static_bands"
+msgstr "static_bands"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:379
+msgid ""
+"``(float, 0–1)`` **Static bursts.** Short bright bands with **row-clumped "
+"streaks** (many “shooting stars” across neighboring rows)."
+msgstr ""
+"``(float, 0–1)`` **Ledakan statis.** Pita terang pendek dengan **garis-garis "
+"terkumpul per baris** (banyak “bintang jatuh” di baris tetangga)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:380
+msgid "seed_offset"
+msgstr "seed_offset"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:380
+msgid ""
+"``(int, 0–1000)`` Adds to the internal seed (derived from the effect ID) for "
+"deterministic variation between clips."
+msgstr ""
+"``(int, 0–1000)`` Menambahkan ke seed internal (berasal dari ID efek) untuk "
+"variasi deterministik antar klip."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:383 ../effects.rst:1070
+msgid "**Usage notes**"
+msgstr "**Catatan penggunaan**"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:385
+msgid ""
+"**Subtle “home video”**: ``tracking=0.25``, ``bleed=0.20``, "
+"``softness=0.20``, ``noise=0.25``, ``stripe=0.10``, ``static_bands=0.05``."
+msgstr ""
+"**Video rumah yang halus**: ``tracking=0.25``, ``bleed=0.20``, "
+"``softness=0.20``, ``noise=0.25``, ``stripe=0.10``, ``static_bands=0.05``."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:386
+msgid ""
+"**Bad tracking / head clog**: ``tracking=0.8–1.0``, ``stripe=0.6–0.9``, "
+"``noise=0.6–0.8``, ``static_bands=0.4–0.6``, ``softness<=0.2``, and set "
+"``bleed`` to about 0.3."
+msgstr ""
+"**Tracking buruk / kepala tersumbat**: ``tracking=0.8–1.0``, ``stripe=0.6–"
+"0.9``, ``noise=0.6–0.8``, ``static_bands=0.4–0.6``, ``softness<=0.2``, dan "
+"atur ``bleed`` sekitar 0.3."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:387
+msgid ""
+"**Color fringing only**: raise ``bleed`` (about 0.5) and keep other controls "
+"low."
+msgstr ""
+"**Hanya fringing warna**: naikkan ``bleed`` (sekitar 0.5) dan jaga kontrol "
+"lain tetap rendah."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:388
+msgid ""
+"**Different but repeatable snow**: leave the effect ID alone (for "
+"deterministic output) and change ``seed_offset`` to get a new, still-"
+"repeatable pattern."
+msgstr ""
+"**Salju berbeda tapi dapat diulang**: biarkan ID efek tetap (untuk output "
+"deterministik) dan ubah ``seed_offset`` untuk mendapatkan pola baru yang "
+"masih dapat diulang."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:392
+msgid ""
+"The Alpha Mask / Wipe Transition effect leverages a grayscale mask to create "
+"a dynamic transition between two images or video clips. In this effect, the "
+"light areas of the mask reveal the new image, while the dark areas conceal "
+"it, allowing for creative and custom transitions that go beyond standard "
+"fade or wipe techniques. This effect only affects the image, and not the "
+"audio track."
+msgstr ""
+"Efek Transisi Alpha Mask / Wipe memanfaatkan masker skala abu-abu untuk "
+"membuat transisi dinamis antara dua gambar atau klip video. Dalam efek ini, "
+"area terang dari masker menampilkan gambar baru, sementara area gelap "
+"menyembunyikannya, memungkinkan transisi kreatif dan kustom yang melampaui "
+"teknik fade atau wipe standar. Efek ini hanya memengaruhi gambar, bukan trek "
+"audio."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:403 ../effects.rst:458 ../effects.rst:864
+msgid "brightness"
+msgstr "kecerahan"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:403
+msgid "``(float, -1 to 1)`` This curve controls the motion across the wipe"
+msgstr "``(float, -1 sampai 1)`` Kurva ini mengontrol gerakan di seluruh wipe"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:404 ../effects.rst:459
+msgid "contrast"
+msgstr "kontras"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:404
+msgid ""
+"``(float, 0 to 20)`` This curve controls the hardness and softness of the "
+"wipe edge"
+msgstr ""
+"``(float, 0 sampai 20)`` Kurva ini mengontrol kekerasan dan kelembutan tepi "
+"wipe"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:405
+msgid "reader"
+msgstr "pembaca"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:405
+msgid ""
+"``(reader)`` This reader can use any image or video as input for your "
+"grayscale wipe"
+msgstr ""
+"``(pembaca)`` Pembaca ini dapat menggunakan gambar atau video apa pun "
+"sebagai input untuk wipe skala abu-abu Anda"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:406
+msgid "replace_image"
+msgstr "ganti_gambar"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:406
+msgid ""
+"``(bool, choices: ['Yes', 'No'])`` Replace the clips image with the current "
+"grayscale wipe image, useful for troubleshooting"
+msgstr ""
+"``(bool, pilihan: ['Ya', 'Tidak'])`` Ganti gambar klip dengan gambar wipe "
+"skala abu-abu saat ini, berguna untuk pemecahan masalah"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:411
+msgid ""
+"The Bars effect adds colored bars around your video frame, which can be used "
+"for aesthetic purposes, to frame the video within a certain aspect ratio, or "
+"to simulate the appearance of viewing content on a different display device. "
+"This effect is particularly useful for creating a cinematic or broadcast "
+"look."
+msgstr ""
+"Efek Bars menambahkan bilah berwarna di sekitar bingkai video Anda, yang "
+"dapat digunakan untuk tujuan estetika, membingkai video dalam rasio aspek "
+"tertentu, atau mensimulasikan tampilan konten pada perangkat tampilan yang "
+"berbeda. Efek ini sangat berguna untuk menciptakan tampilan sinematik atau "
+"siaran."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:421 ../effects.rst:811 ../effects.rst:968
+msgid "bottom"
+msgstr "bawah"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:421
+msgid "``(float, 0 to 0.5)`` The curve to adjust the bottom bar size"
+msgstr "``(float, 0 sampai 0.5)`` Kurva untuk mengatur ukuran bilah bawah"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:422 ../effects.rst:492 ../effects.rst:518
+msgid "color"
+msgstr "warna"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:422
+msgid "``(color)`` The curve to adjust the color of bars"
+msgstr "``(warna)`` Kurva untuk mengatur warna bilah"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:423 ../effects.rst:497 ../effects.rst:812 ../effects.rst:969
+msgid "left"
+msgstr "kiri"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:423
+msgid "``(float, 0 to 0.5)`` The curve to adjust the left bar size"
+msgstr "``(float, 0 sampai 0.5)`` Kurva untuk mengatur ukuran bilah kiri"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:424 ../effects.rst:499 ../effects.rst:813 ../effects.rst:971
+msgid "right"
+msgstr "kanan"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:424
+msgid "``(float, 0 to 0.5)`` The curve to adjust the right bar size"
+msgstr "``(float, 0 sampai 0.5)`` Kurva untuk mengatur ukuran bilah kanan"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:425 ../effects.rst:502 ../effects.rst:814 ../effects.rst:972
+msgid "top"
+msgstr "atas"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:425
+msgid "``(float, 0 to 0.5)`` The curve to adjust the top bar size"
+msgstr "``(float, 0 sampai 0.5)`` Kurva untuk mengatur ukuran bilah atas"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:430
+msgid ""
+"The Blur effect softens the image, reducing detail and texture. This can be "
+"used to create a sense of depth, draw attention to specific parts of the "
+"frame, or simply to apply a stylistic choice for aesthetic purposes. The "
+"intensity of the blur can be adjusted to achieve the desired level of "
+"softness."
+msgstr ""
+"Efek Blur melembutkan gambar, mengurangi detail dan tekstur. Ini dapat "
+"digunakan untuk menciptakan kesan kedalaman, menarik perhatian ke bagian "
+"tertentu dari bingkai, atau sekadar menerapkan pilihan gaya untuk tujuan "
+"estetika. Intensitas blur dapat disesuaikan untuk mencapai tingkat "
+"kelembutan yang diinginkan."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:440
+msgid "horizontal_radius"
+msgstr "radius_horizontal"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:440
+msgid ""
+"``(float, 0 to 100)`` Horizontal blur radius keyframe. The size of the "
+"horizontal blur operation in pixels."
+msgstr ""
+"``(float, 0 sampai 100)`` Keyframe radius blur horizontal. Ukuran operasi "
+"blur horizontal dalam piksel."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:441
+msgid "iterations"
+msgstr "iterasi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:441
+msgid ""
+"``(float, 0 to 100)`` Iterations keyframe. The # of blur iterations per "
+"pixel. 3 iterations = Gaussian."
+msgstr ""
+"``(float, 0 sampai 100)`` Keyframe iterasi. Jumlah iterasi blur per piksel. "
+"3 iterasi = Gaussian."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:442
+msgid "sigma"
+msgstr "sigma"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:442
+msgid ""
+"``(float, 0 to 100)`` Sigma keyframe. The amount of spread in the blur "
+"operation. Should be larger than radius."
+msgstr ""
+"``(float, 0 sampai 100)`` Keyframe sigma. Jumlah penyebaran dalam operasi "
+"blur. Harus lebih besar dari radius."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:443
+msgid "vertical_radius"
+msgstr "radius_vertikal"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:443
+msgid ""
+"``(float, 0 to 100)`` Vertical blur radius keyframe. The size of the "
+"vertical blur operation in pixels."
+msgstr ""
+"``(float, 0 sampai 100)`` Keyframe radius blur vertikal. Ukuran operasi blur "
+"vertikal dalam piksel."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:448
+msgid ""
+"The Brightness & Contrast effect allows for the adjustment of the overall "
+"lightness or darkness of the image (brightness) and the difference between "
+"the darkest and lightest parts of the image (contrast). This effect can be "
+"used to correct poorly lit videos or to create dramatic lighting effects for "
+"artistic purposes."
+msgstr ""
+"Efek Brightness & Contrast memungkinkan penyesuaian kecerahan atau kegelapan "
+"keseluruhan gambar (brightness) dan perbedaan antara bagian tergelap dan "
+"terterang dari gambar (contrast). Efek ini dapat digunakan untuk memperbaiki "
+"video yang pencahayaannya buruk atau untuk menciptakan efek pencahayaan "
+"dramatis untuk tujuan artistik."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:458
+msgid "``(float, -1 to 1)`` The curve to adjust the brightness"
+msgstr "``(float, -1 sampai 1)`` Kurva untuk mengatur kecerahan"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:459
+msgid ""
+"``(float, 0 to 100)`` The curve to adjust the contrast (3 is typical, 20 is "
+"a lot, 100 is max. 0 is invalid)"
+msgstr ""
+"``(float, 0 sampai 100)`` Kurva untuk mengatur kontras (3 adalah tipikal, 20 "
+"banyak, 100 maksimum. 0 tidak valid)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:466
+msgid ""
+"Add text captions on top of your video. We support both VTT (WebVTT) and "
+"SubRip (SRT) subtitle file formats. These formats are used to display "
+"captions or subtitles in videos. They allow you to add text-based subtitles "
+"to video content, making it more accessible to a wider audience, especially "
+"for those who are deaf or hard of hearing. The Caption effect can even "
+"animate the text fading in/out, and supports any font, size, color, and "
+"margin. OpenShot also has an easy-to-use Caption editor, where you can "
+"quickly insert captions at the playhead position, or edit all your caption "
+"text in one place."
+msgstr ""
+"Tambahkan teks keterangan di atas video Anda. Kami mendukung format file "
+"subtitle VTT (WebVTT) dan SubRip (SRT). Format ini digunakan untuk "
+"menampilkan keterangan atau subtitle dalam video. Mereka memungkinkan Anda "
+"menambahkan subtitle berbasis teks ke konten video, membuatnya lebih mudah "
+"diakses oleh audiens yang lebih luas, terutama bagi mereka yang tuli atau "
+"sulit mendengar. Efek Caption bahkan dapat menganimasikan teks dengan efek "
+"memudar masuk/keluar, dan mendukung semua jenis font, ukuran, warna, dan "
+"margin. OpenShot juga memiliki editor Caption yang mudah digunakan, di mana "
+"Anda dapat dengan cepat menyisipkan keterangan pada posisi playhead, atau "
+"mengedit semua teks keterangan Anda di satu tempat."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:486 ../effects.rst:932 ../effects.rst:1150
+msgid "background"
+msgstr "latar belakang"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:486
+msgid "``(color)`` Color of caption area background"
+msgstr "``(warna)`` Warna latar belakang area keterangan"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:487 ../effects.rst:930 ../effects.rst:1148
+msgid "background_alpha"
+msgstr "alpha_latar_belakang"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:487
+msgid "``(float, 0 to 1)`` Background color alpha"
+msgstr "``(float, 0 sampai 1)`` Alpha warna latar belakang"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:488 ../effects.rst:931 ../effects.rst:1149
+msgid "background_corner"
+msgstr "sudut_latar_belakang"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:488
+msgid "``(float, 0 to 60)`` Background corner radius"
+msgstr "``(float, 0 sampai 60)`` Radius sudut latar belakang"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:489
+msgid "background_padding"
+msgstr "padding_latar_belakang"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:489
+msgid "``(float, 0 to 60)`` Background padding"
+msgstr "``(float, 0 sampai 60)`` Padding latar belakang"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:490
+msgid "caption_font"
+msgstr "font_keterangan"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:490
+msgid "``(font)`` Font name or family name"
+msgstr "``(font)`` Nama font atau nama keluarga font"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:491
+msgid "caption_text"
+msgstr "teks_keterangan"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:491
+msgid "``(caption)`` VTT/Subrip formatted caption text (multi-line)"
+msgstr "``(keterangan)`` Teks keterangan berformat VTT/Subrip (multi-baris)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:492
+msgid "``(color)`` Color of caption text"
+msgstr "``(warna)`` Warna teks keterangan"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:493
+msgid "fade_in"
+msgstr "memudar_masuk"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:493
+msgid "``(float, 0 to 3)`` Fade in per caption (# of seconds)"
+msgstr ""
+"``(float, 0 sampai 3)`` Durasi memudar masuk per keterangan (dalam detik)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:494
+msgid "fade_out"
+msgstr "memudar_keluar"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:494
+msgid "``(float, 0 to 3)`` Fade out per caption (# of seconds)"
+msgstr ""
+"``(float, 0 sampai 3)`` Durasi memudar keluar per keterangan (dalam detik)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:495
+msgid "font_alpha"
+msgstr "alpha_font"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:495
+msgid "``(float, 0 to 1)`` Font color alpha"
+msgstr "``(float, 0 sampai 1)`` Alpha warna font"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:496
+msgid "font_size"
+msgstr "ukuran_font"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:496
+msgid "``(float, 0 to 200)`` Font size in points"
+msgstr "``(float, 0 sampai 200)`` Ukuran font dalam poin"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:497
+msgid "``(float, 0 to 0.5)`` Size of left margin"
+msgstr "``(float, 0 sampai 0.5)`` Ukuran margin kiri"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:498
+msgid "line_spacing"
+msgstr "jarak_baris"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:498
+msgid "``(float, 0 to 5)`` Distance between lines (1.0 default)"
+msgstr "``(float, 0 sampai 5)`` Jarak antar baris (default 1.0)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:499
+msgid "``(float, 0 to 0.5)`` Size of right margin"
+msgstr "``(float, 0 sampai 0.5)`` Ukuran margin kanan"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:500 ../effects.rst:927 ../effects.rst:1145
+msgid "stroke"
+msgstr "garis_tepi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:500
+msgid "``(color)`` Color of text border / stroke"
+msgstr "``(warna)`` Warna garis tepi / stroke teks"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:501 ../effects.rst:928 ../effects.rst:1146
+msgid "stroke_width"
+msgstr "lebar_garis_tepi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:501
+msgid "``(float, 0 to 10)`` Width of text border / stroke"
+msgstr "``(float, 0 hingga 10)`` Lebar tepi / garis teks"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:502
+msgid "``(float, 0 to 1)`` Size of top margin"
+msgstr "``(float, 0 hingga 1)`` Ukuran margin atas"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:507
+msgid ""
+"The Chroma Key (Greenscreen) effect replaces a specific color (or chroma) in "
+"the video (commonly green or blue) with transparency, allowing for the "
+"compositing of the video over a different background. This effect is widely "
+"used in film and television production for creating visual effects and "
+"placing subjects in settings that would be otherwise impossible or "
+"impractical to shoot in."
+msgstr ""
+"Efek Chroma Key (Greenscreen) menggantikan warna tertentu (atau krom) dalam "
+"video (biasanya hijau atau biru) dengan transparansi, memungkinkan "
+"penggabungan video di atas latar belakang yang berbeda. Efek ini banyak "
+"digunakan dalam produksi film dan televisi untuk membuat efek visual dan "
+"menempatkan subjek dalam pengaturan yang sebaliknya tidak mungkin atau tidak "
+"praktis untuk direkam."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:518
+msgid "``(color)`` The color to match"
+msgstr "``(warna)`` Warna yang akan dicocokkan"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:519 ../effects.rst:1009 ../effects.rst:1195
+#: ../effects.rst:1265
+msgid "threshold"
+msgstr "ambang batas"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:519
+msgid ""
+"``(float, 0 to 125)`` The threshold (or fuzz factor) for matching similar "
+"colors. The larger the value the more colors that will be matched."
+msgstr ""
+"``(float, 0 hingga 125)`` Ambang batas (atau faktor kabur) untuk mencocokkan "
+"warna serupa. Semakin besar nilainya, semakin banyak warna yang akan "
+"dicocokkan."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:520
+msgid "halo"
+msgstr "halo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:520
+msgid "``(float, 0 to 125)`` The additional threshold for halo elimination."
+msgstr "``(float, 0 hingga 125)`` Ambang tambahan untuk penghilangan halo."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:521
+msgid "keymethod"
+msgstr "metode kunci"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:521
+msgid ""
+"``(int, choices: ['Basic keying', 'HSV/HSL hue', 'HSV saturation', 'HSL "
+"saturation', 'HSV value', 'HSL luminance', 'LCH luminosity', 'LCH chroma', "
+"'LCH hue', 'CIE Distance', 'Cb,Cr vector'])`` The keying method or algorithm "
+"to use."
+msgstr ""
+"``(int, pilihan: ['Basic keying', 'HSV/HSL hue', 'HSV saturation', 'HSL "
+"saturation', 'HSV value', 'HSL luminance', 'LCH luminosity', 'LCH chroma', "
+"'LCH hue', 'CIE Distance', 'Cb,Cr vector'])`` Metode atau algoritma kunci "
+"yang digunakan."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:526
+msgid ""
+"The Color Map effect applies a 3D LUT (Lookup Table) to your footage, "
+"instantly transforming its colors to achieve a consistent look or mood. A 3D "
+"LUT is simply a table that remaps every input hue to a new output palette. "
+"With separate keyframe curves for red, green, and blue channels, you can "
+"precisely control, and even animate, how much each channel is influenced by "
+"the LUT, making it easy to fine-tune or blend your grade over time."
+msgstr ""
+"Efek Color Map menerapkan 3D LUT (Lookup Table) ke rekaman Anda, secara "
+"instan mengubah warnanya untuk mencapai tampilan atau suasana yang "
+"konsisten. 3D LUT adalah tabel yang memetakan ulang setiap rona input ke "
+"palet output baru. Dengan kurva keyframe terpisah untuk saluran merah, "
+"hijau, dan biru, Anda dapat mengontrol dengan tepat, bahkan menganimasikan, "
+"seberapa besar pengaruh LUT pada setiap saluran, sehingga mudah untuk "
+"menyempurnakan atau mencampur gradasi Anda seiring waktu."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:531
+msgid ""
+"LUT files (`.cube` format) can be downloaded from many online resources, "
+"including free packs on photography blogs or marketplaces, such as https://"
+"freshluts.com/. OpenShot includes a selection of popular LUTs designed for "
+"**Rec 709** gamma out of the box."
+msgstr ""
+"File LUT (format `.cube`) dapat diunduh dari banyak sumber online, termasuk "
+"paket gratis di blog fotografi atau pasar, seperti https://freshluts.com/. "
+"OpenShot menyertakan pilihan LUT populer yang dirancang untuk gamma **Rec "
+"709** secara langsung."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:541
+msgid "lut_path"
+msgstr "jalur_lut"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:541
+msgid "``(string)`` Filesystem path to the `.cube` LUT file."
+msgstr "``(string)`` Jalur sistem berkas ke file LUT `.cube`."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:542
+msgid "intensity"
+msgstr "intensitas"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:542
+msgid ""
+"``(float, 0.0 to 1.0)`` % Blending overall intensity (0.0 = no LUT, 1.0 = "
+"full LUT)."
+msgstr ""
+"``(float, 0.0 hingga 1.0)`` % Perpaduan intensitas keseluruhan (0.0 = tanpa "
+"LUT, 1.0 = LUT penuh)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:543
+msgid "intensity_r"
+msgstr "intensitas_r"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:543
+msgid ""
+"``(float, 0.0 to 1.0)`` % Blending the LUT’s red channel (0.0 = no LUT, 1.0 "
+"= full LUT)."
+msgstr ""
+"``(float, 0.0 hingga 1.0)`` % Perpaduan saluran merah LUT (0.0 = tanpa LUT, "
+"1.0 = LUT penuh)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:544
+msgid "intensity_g"
+msgstr "intensitas_g"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:544
+msgid ""
+"``(float, 0.0 to 1.0)`` % Blending the LUT’s green channel (0.0 = no LUT, "
+"1.0 = full LUT)."
+msgstr ""
+"``(float, 0.0 hingga 1.0)`` % Perpaduan saluran hijau LUT (0.0 = tanpa LUT, "
+"1.0 = LUT penuh)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:545
+msgid "intensity_b"
+msgstr "intensitas_b"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:545
+msgid ""
+"``(float, 0.0 to 1.0)`` % Blending the LUT’s blue channel (0.0 = no LUT, 1.0 "
+"= full LUT)."
+msgstr ""
+"``(float, 0.0 hingga 1.0)`` % Perpaduan saluran biru LUT (0.0 = tanpa LUT, "
+"1.0 = LUT penuh)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:549
+msgid "Gamma and Rec 709"
+msgstr "Gamma dan Rec 709"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:550
+msgid ""
+"Gamma is the way video systems brighten or darken the midtones of an image. "
+"**Rec 709** is the standard gamma curve used for most HD and online video "
+"today. By shipping with **Rec 709** LUTs, OpenShot makes it simple to apply "
+"a grade that matches the vast majority of footage you’ll edit."
+msgstr ""
+"Gamma adalah cara sistem video mencerahkan atau menggelapkan nada tengah "
+"sebuah gambar. **Rec 709** adalah kurva gamma standar yang digunakan untuk "
+"sebagian besar video HD dan online saat ini. Dengan menyertakan LUT **Rec "
+"709**, OpenShot memudahkan penerapan gradasi yang sesuai dengan sebagian "
+"besar rekaman yang akan Anda sunting."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:554
+msgid ""
+"If your camera or workflow uses a different gamma (for example a LOG "
+"profile), you can still use a LUT made for that curve. Simply use a `.cube` "
+"file designed for your gamma under the Color Map effect’s **LUT Path**. Just "
+"be sure your footage gamma matches the LUT gamma—or the colors may look "
+"incorrect."
+msgstr ""
+"Jika kamera atau alur kerja Anda menggunakan gamma berbeda (misalnya profil "
+"LOG), Anda masih dapat menggunakan LUT yang dibuat untuk kurva tersebut. "
+"Cukup gunakan file `.cube` yang dirancang untuk gamma Anda di bawah **LUT "
+"Path** efek Color Map. Pastikan gamma rekaman Anda cocok dengan gamma LUT—"
+"atau warnanya mungkin terlihat salah."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:558
+msgid ""
+"The following **Rec 709** LUT files are included in OpenShot, organized into "
+"the following categories:"
+msgstr ""
+"File LUT **Rec 709** berikut disertakan dalam OpenShot, diorganisir ke dalam "
+"kategori berikut:"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:561
+msgid "Cinematic & Blockbuster"
+msgstr "Sinema & Blockbuster"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:600
+msgid "Dark & Moody"
+msgstr "Gelap & Moody"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:642
+msgid "Film Stock & Vintage"
+msgstr "Film Stock & Vintage"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:686
+msgid "Teal & Orange Vibes"
+msgstr "Nuansa Teal & Oranye"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:710
+msgid "Utility & Correction"
+msgstr "Utilitas & Koreksi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:725
+msgid "Vibrant & Colorful"
+msgstr "Hidup & Berwarna"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:746
+msgid ""
+"The Color Saturation effect adjusts the intensity and vibrancy of colors "
+"within the video. Increasing saturation can make colors more vivid and eye-"
+"catching, while decreasing it can create a more subdued, almost black-and-"
+"white appearance."
+msgstr ""
+"Efek Saturasi Warna mengatur intensitas dan kecerahan warna dalam video. "
+"Meningkatkan saturasi dapat membuat warna lebih hidup dan menarik perhatian, "
+"sementara menguranginya dapat menciptakan tampilan yang lebih redup, hampir "
+"seperti hitam-putih."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:756
+msgid "saturation"
+msgstr "saturasi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:756
+msgid ""
+"``(float, 0 to 4)`` The curve to adjust the overall saturation of the "
+"frame's image (0.0 = greyscale, 1.0 = normal, 2.0 = double saturation)"
+msgstr ""
+"``(float, 0 hingga 4)`` Kurva untuk mengatur saturasi keseluruhan gambar "
+"frame (0.0 = skala abu-abu, 1.0 = normal, 2.0 = saturasi ganda)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:757
+msgid "saturation_B"
+msgstr "saturasi_B"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:757
+msgid ""
+"``(float, 0 to 4)`` The curve to adjust blue saturation of the frame's image"
+msgstr ""
+"``(float, 0 hingga 4)`` Kurva untuk mengatur saturasi biru pada gambar frame"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:758
+msgid "saturation_G"
+msgstr "saturasi_G"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:758
+msgid ""
+"``(float, 0 to 4)`` The curve to adjust green saturation of the frame's "
+"image (0.0 = greyscale, 1.0 = normal, 2.0 = double saturation)"
+msgstr ""
+"``(float, 0 hingga 4)`` Kurva untuk mengatur saturasi hijau pada gambar "
+"frame (0.0 = skala abu-abu, 1.0 = normal, 2.0 = saturasi ganda)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:759
+msgid "saturation_R"
+msgstr "saturasi_R"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:759
+msgid ""
+"``(float, 0 to 4)`` The curve to adjust red saturation of the frame's image"
+msgstr ""
+"``(float, 0 hingga 4)`` Kurva untuk mengatur saturasi merah pada gambar frame"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:764
+msgid ""
+"Shift the colors of an image up, down, left, and right (with infinite "
+"wrapping)."
+msgstr ""
+"Geser warna gambar ke atas, bawah, kiri, dan kanan (dengan pembungkusan tak "
+"terbatas)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:766
+msgid "**Each pixel has 4 color channels:**"
+msgstr "**Setiap piksel memiliki 4 saluran warna:**"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:768
+msgid "Red, Green, Blue, and Alpha (i.e. transparency)"
+msgstr "Merah, Hijau, Biru, dan Alfa (yaitu transparansi)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:769
+msgid "Each channel value is between 0 and 255"
+msgstr "Nilai setiap saluran berada di antara 0 dan 255"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:771
+msgid ""
+"The Color Shift effect simply \"moves\" or \"translates\" a specific color "
+"channel on the X or Y axis. *Not all video and image formats support an "
+"alpha channel, and in those cases, you will not see any changes when "
+"adjusting the color shift of the alpha channel.*"
+msgstr ""
+"Efek Pergeseran Warna hanya \"menggeser\" atau \"mentranslasi\" saluran "
+"warna tertentu pada sumbu X atau Y. *Tidak semua format video dan gambar "
+"mendukung saluran alfa, dan dalam kasus tersebut, Anda tidak akan melihat "
+"perubahan saat mengatur pergeseran warna pada saluran alfa.*"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:781
+msgid "alpha_x"
+msgstr "alfa_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:781
+msgid "``(float, -1 to 1)`` Shift the Alpha X coordinates (left or right)"
+msgstr "``(float, -1 sampai 1)`` Geser koordinat Alfa X (kiri atau kanan)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:782
+msgid "alpha_y"
+msgstr "alfa_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:782
+msgid "``(float, -1 to 1)`` Shift the Alpha Y coordinates (up or down)"
+msgstr "``(float, -1 sampai 1)`` Geser koordinat Alfa Y (atas atau bawah)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:783
+msgid "blue_x"
+msgstr "biru_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:783
+msgid "``(float, -1 to 1)`` Shift the Blue X coordinates (left or right)"
+msgstr "``(float, -1 sampai 1)`` Geser koordinat Biru X (kiri atau kanan)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:784
+msgid "blue_y"
+msgstr "biru_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:784
+msgid "``(float, -1 to 1)`` Shift the Blue Y coordinates (up or down)"
+msgstr "``(float, -1 sampai 1)`` Geser koordinat Biru Y (atas atau bawah)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:785
+msgid "green_x"
+msgstr "hijau_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:785
+msgid "``(float, -1 to 1)`` Shift the Green X coordinates (left or right)"
+msgstr "``(float, -1 sampai 1)`` Geser koordinat Hijau X (kiri atau kanan)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:786
+msgid "green_y"
+msgstr "hijau_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:786
+msgid "``(float, -1 to 1)`` Shift the Green Y coordinates (up or down)"
+msgstr "``(float, -1 sampai 1)`` Geser koordinat Hijau Y (atas atau bawah)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:787
+msgid "red_x"
+msgstr "merah_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:787
+msgid "``(float, -1 to 1)`` Shift the Red X coordinates (left or right)"
+msgstr "``(float, -1 sampai 1)`` Geser koordinat Merah X (kiri atau kanan)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:788
+msgid "red_y"
+msgstr "merah_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:788
+msgid "``(float, -1 to 1)`` Shift the Red Y coordinates (up or down)"
+msgstr "``(float, -1 sampai 1)`` Geser koordinat Merah Y (atas atau bawah)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:795
+msgid ""
+"The Crop effect removes unwanted outer areas from the video frame, allowing "
+"you to focus on a particular part of the shot, change the aspect ratio, or "
+"remove distracting elements from the edges of the frame. This effect is the "
+"primary method for cropping a Clip in OpenShot. The ``left``, ``right``, "
+"``top``, and ``bottom`` key-frames can even be animated, for a moving and "
+"resizing cropped area. You can leave the cropped area blank, or you can "
+"dynamically resize the cropped area to fill the screen."
+msgstr ""
+"Efek Crop menghilangkan area luar yang tidak diinginkan dari bingkai video, "
+"memungkinkan Anda untuk fokus pada bagian tertentu dari rekaman, mengubah "
+"rasio aspek, atau menghapus elemen yang mengganggu dari tepi bingkai. Efek "
+"ini adalah metode utama untuk memotong Klip di OpenShot. Keyframe ``left``, "
+"``right``, ``top``, dan ``bottom`` bahkan dapat dianimasikan, untuk area "
+"crop yang bergerak dan berubah ukuran. Anda dapat membiarkan area crop "
+"kosong, atau Anda dapat mengubah ukuran area crop secara dinamis untuk "
+"mengisi layar."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:801
+msgid ""
+"You can quickly add this effect by right-clicking a clip and choosing :"
+"guilabel:`Crop`. When active, blue crop handles appear in the video preview "
+"so you can adjust the crop visually."
+msgstr ""
+"Anda dapat menambahkan efek ini dengan cepat dengan mengklik kanan klip dan "
+"memilih :guilabel:`Crop`. Saat aktif, pegangan crop berwarna biru muncul di "
+"pratinjau video sehingga Anda dapat menyesuaikan crop secara visual."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:811
+msgid "``(float, 0 to 1)`` Size of bottom bar"
+msgstr "``(float, 0 sampai 1)`` Ukuran bar bawah"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:812
+msgid "``(float, 0 to 1)`` Size of left bar"
+msgstr "``(float, 0 sampai 1)`` Ukuran bar kiri"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:813
+msgid "``(float, 0 to 1)`` Size of right bar"
+msgstr "``(float, 0 sampai 1)`` Ukuran bar kanan"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:814
+msgid "``(float, 0 to 1)`` Size of top bar"
+msgstr "``(float, 0 sampai 1)`` Ukuran bar atas"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:815 ../effects.rst:862 ../effects.rst:1026
+msgid "x"
+msgstr "x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:815
+msgid "``(float, -1 to 1)`` X-offset"
+msgstr "``(float, -1 sampai 1)`` Offset X"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:816 ../effects.rst:863 ../effects.rst:1027
+msgid "y"
+msgstr "y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:816
+msgid "``(float, -1 to 1)`` Y-offset"
+msgstr "``(float, -1 sampai 1)`` Offset Y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:817
+msgid "resize"
+msgstr "ubah_ukuran"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:817
+msgid ""
+"``(bool, choices: ['Yes', 'No'])`` Replace the frame image with the cropped "
+"area (allows automatic scaling of the cropped image)"
+msgstr ""
+"``(bool, pilihan: ['Ya', 'Tidak'])`` Ganti gambar bingkai dengan area crop "
+"(memungkinkan penskalaan otomatis gambar crop)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:822
+msgid ""
+"The Deinterlace effect is used to remove interlacing artifacts from video "
+"footage, which are commonly seen as horizontal lines across moving objects. "
+"This effect is essential for converting interlaced video (such as from older "
+"video cameras or broadcast sources) into a progressive format suitable for "
+"modern displays."
+msgstr ""
+"Efek Deinterlace digunakan untuk menghilangkan artefak interlacing dari "
+"rekaman video, yang biasanya terlihat sebagai garis horizontal pada objek "
+"yang bergerak. Efek ini penting untuk mengonversi video interlaced (seperti "
+"dari kamera video lama atau sumber siaran) menjadi format progresif yang "
+"cocok untuk tampilan modern."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:832
+msgid "isOdd"
+msgstr "adalah_ganjil"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:832
+msgid "``(bool, choices: ['Yes', 'No'])`` Use odd or even lines"
+msgstr "``(bool, pilihan: ['Ya', 'Tidak'])`` Gunakan baris ganjil atau genap"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:837
+msgid ""
+"The Hue effect adjusts the overall color balance of the video, changing the "
+"hues without affecting the brightness or saturation. This can be used for "
+"color correction or to apply dramatic color effects that transform the mood "
+"of the footage."
+msgstr ""
+"Efek Hue mengatur keseimbangan warna keseluruhan video, mengubah rona tanpa "
+"memengaruhi kecerahan atau saturasi. Ini dapat digunakan untuk koreksi warna "
+"atau menerapkan efek warna dramatis yang mengubah suasana rekaman."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:847
+msgid "hue"
+msgstr "hue"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:847
+msgid "``(float, 0 to 1)`` The curve to adjust the percentage of hue shift"
+msgstr "``(float, 0 sampai 1)`` Kurva untuk mengatur persentase pergeseran hue"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:852
+msgid ""
+"The Lens Flare effect simulates bright light hitting your camera lens, "
+"creating glowing halos, colored rings and gentle glares over your footage. "
+"Reflections are automatically placed along a line from the light source "
+"toward the center of the frame. You can animate any property with keyframes "
+"to follow your action or match your scene."
+msgstr ""
+"Efek Lens Flare mensimulasikan cahaya terang yang mengenai lensa kamera "
+"Anda, menciptakan halo bercahaya, cincin berwarna, dan silau lembut di atas "
+"rekaman Anda. Refleksi secara otomatis ditempatkan sepanjang garis dari "
+"sumber cahaya menuju pusat bingkai. Anda dapat menganimasikan properti apa "
+"pun dengan keyframe untuk mengikuti aksi Anda atau menyesuaikan dengan "
+"adegan Anda."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:862
+msgid ""
+"``(float, -1 to 1)`` Horizontal position of the light source. -1 is left "
+"edge, 0 is center, +1 is right edge."
+msgstr ""
+"``(float, -1 sampai 1)`` Posisi horizontal sumber cahaya. -1 adalah tepi "
+"kiri, 0 adalah tengah, +1 adalah tepi kanan."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:863
+msgid ""
+"``(float, -1 to 1)`` Vertical position of the light source. -1 is top edge, "
+"0 is center, +1 is bottom edge."
+msgstr ""
+"``(float, -1 sampai 1)`` Posisi vertikal sumber cahaya. -1 adalah tepi atas, "
+"0 adalah tengah, +1 adalah tepi bawah."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:864
+msgid ""
+"``(float, 0 to 1)`` Overall glow strength and transparency. Higher values "
+"make brighter, more opaque flares."
+msgstr ""
+"``(float, 0 sampai 1)`` Kekuatan dan transparansi cahaya menyeluruh. Nilai "
+"lebih tinggi membuat flare lebih terang dan lebih buram."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:865
+msgid "size"
+msgstr "ukuran"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:865
+msgid ""
+"``(float, 0.1 to 3)`` Scale of the entire flare effect. Larger values "
+"enlarge halos, rings and glows."
+msgstr ""
+"``(float, 0.1 sampai 3)`` Skala dari seluruh efek flare. Nilai lebih besar "
+"memperbesar halo, cincin, dan cahaya."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:866
+msgid "spread"
+msgstr "sebaran"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:866
+msgid ""
+"``(float, 0 to 1)`` How far secondary reflections travel. 0 keeps them close "
+"to the source, 1 pushes them all the way toward the opposite edge."
+msgstr ""
+"``(float, 0 sampai 1)`` Sejauh mana refleksi sekunder menyebar. 0 menjaga "
+"mereka dekat sumber, 1 mendorong mereka hingga ke tepi berlawanan."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:867
+msgid "tint_color"
+msgstr "warna_tint"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:867
+msgid ""
+"``(color)`` Shifts the flare colors to match your scene. Use the RGBA "
+"sliders to pick hue and transparency."
+msgstr ""
+"``(color)`` Menggeser warna flare agar sesuai dengan adegan Anda. Gunakan "
+"penggeser RGBA untuk memilih rona dan transparansi."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:872
+msgid ""
+"The Negative effect inverts the colors of the video, producing an image that "
+"resembles a photographic negative. This can be used for artistic effects, to "
+"create a surreal or otherworldly look, or to highlight specific elements "
+"within the frame."
+msgstr ""
+"Efek Negatif membalik warna video, menghasilkan gambar yang menyerupai "
+"negatif fotografi. Ini dapat digunakan untuk efek artistik, menciptakan "
+"tampilan sureal atau dunia lain, atau menyoroti elemen tertentu dalam "
+"bingkai."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:878
+msgid ""
+"The Object Detector effect employs machine learning algorithms (such as "
+"neural networks) to identify and highlight objects within the video frame. "
+"It can recognize multiple object types, such as vehicles, people, animals, "
+"and more! This can be used for analytical purposes, to add interactive "
+"elements to videos, or to track the movement of specific objects across the "
+"frame."
+msgstr ""
+"Efek Detektor Objek menggunakan algoritma pembelajaran mesin (seperti "
+"jaringan saraf) untuk mengidentifikasi dan menyoroti objek dalam bingkai "
+"video. Efek ini dapat mengenali berbagai jenis objek, seperti kendaraan, "
+"orang, hewan, dan lainnya! Ini dapat digunakan untuk tujuan analisis, "
+"menambahkan elemen interaktif ke video, atau melacak pergerakan objek "
+"tertentu di seluruh bingkai."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:884
+msgid "Class Filters & Confidence"
+msgstr "Filter Kelas & Kepercayaan"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:885
+msgid ""
+"To adjust the detection process to your specific needs, the Object Detector "
+"includes properties for ``class filters`` and ``confidence thresholds``. By "
+"setting a class filter, such as \"Truck\" or \"Person,\" you can instruct "
+"the detector to focus on specific types of objects, limiting the types of "
+"objects tracked. The confidence threshold allows you to set a minimum level "
+"of certainty for detections, ensuring that only objects detected with a "
+"confidence level above this threshold are considered, which helps in "
+"reducing false positives and focusing on more accurate detections."
+msgstr ""
+"Untuk menyesuaikan proses deteksi sesuai kebutuhan spesifik Anda, Detektor "
+"Objek menyertakan properti untuk ``filter kelas`` dan ``ambang "
+"kepercayaan``. Dengan mengatur filter kelas, seperti \"Truk\" atau \"Orang,"
+"\" Anda dapat menginstruksikan detektor untuk fokus pada jenis objek "
+"tertentu, membatasi jenis objek yang dilacak. Ambang kepercayaan "
+"memungkinkan Anda menetapkan tingkat kepastian minimum untuk deteksi, "
+"memastikan hanya objek yang terdeteksi dengan tingkat kepercayaan di atas "
+"ambang ini yang dipertimbangkan, yang membantu mengurangi positif palsu dan "
+"fokus pada deteksi yang lebih akurat."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:892 ../effects.rst:1115
+msgid "How Parenting Works"
+msgstr "Cara Kerja Parenting"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:893
+msgid ""
+"Once you have tracked objects, you can \"parent\" other :ref:`clips_ref` to "
+"them. This means that the second clip, which could be a graphic, text, or "
+"another video layer, will now follow the tracked object as if it's attached "
+"to it. If the tracked object moves to the left, the child clip moves to the "
+"left. If the tracked object grows in size (gets closer to the camera), the "
+"child clip also scales up. For parented clips to appear correctly, they must "
+"be on a Track higher than the tracked objects, and set the appropriate :ref:"
+"`clip_scale_ref` property."
+msgstr ""
+"Setelah Anda melacak objek, Anda dapat \"memparent\" :ref:`clips_ref` lain "
+"ke objek tersebut. Ini berarti klip kedua, yang bisa berupa grafik, teks, "
+"atau lapisan video lain, akan mengikuti objek yang dilacak seolah-olah "
+"terpasang padanya. Jika objek yang dilacak bergerak ke kiri, klip anak juga "
+"bergerak ke kiri. Jika objek yang dilacak membesar (mendekat ke kamera), "
+"klip anak juga akan diperbesar. Agar klip yang diparent tampil dengan benar, "
+"mereka harus berada di Track yang lebih tinggi dari objek yang dilacak, dan "
+"mengatur properti :ref:`clip_scale_ref` yang sesuai."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:899 ../effects.rst:1122
+msgid "See :ref:`clip_parent_ref`."
+msgstr "Lihat :ref:`clip_parent_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:902 ../effects.rst:999 ../effects.rst:1125
+msgid "Properties"
+msgstr "Properti"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:910
+msgid "class_filter"
+msgstr "filter_kelas"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:910
+msgid "``(string)`` Type of object class to filter (i.e. car, person)"
+msgstr "``(string)`` Jenis kelas objek untuk difilter (misal mobil, orang)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:911
+msgid "confidence_threshold"
+msgstr "ambang_kepercayaan"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:911
+msgid ""
+"``(float, 0 to 1)`` Minimum confidence value to display the detected objects"
+msgstr ""
+"``(float, 0 sampai 1)`` Nilai kepercayaan minimum untuk menampilkan objek "
+"yang terdeteksi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:912
+msgid "display_box_text"
+msgstr "tampilkan_teks_kotak"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:912
+msgid ""
+"``(int, choices: ['Yes', 'No'])`` Draw class name and ID of ALL tracked "
+"objects"
+msgstr ""
+"``(int, pilihan: ['Yes', 'No'])`` Gambar nama kelas dan ID dari SEMUA objek "
+"yang dilacak"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:913
+msgid "display_boxes"
+msgstr "tampilkan_kotak"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:913
+msgid ""
+"``(int, choices: ['Yes', 'No'])`` Draw bounding box around ALL tracked "
+"objects (a quick way to hide all tracked objects)"
+msgstr ""
+"``(int, pilihan: ['Yes', 'No'])`` Gambar kotak pembatas di sekitar SEMUA "
+"objek yang dilacak (cara cepat untuk menyembunyikan semua objek yang dilacak)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:914
+msgid "selected_object_index"
+msgstr "indeks_objek_terpilih"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:914
+msgid ""
+"``(int, 0 to 200)`` Index of the tracked object that is `selected` to modify "
+"its properties"
+msgstr ""
+"``(int, 0 sampai 200)`` Indeks objek yang dilacak yang `dipilih` untuk "
+"mengubah propertinya"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:915 ../effects.rst:1133
+msgid "draw_box"
+msgstr "gambar_kotak"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:915
+msgid ""
+"``(int, choices: ['Yes', 'No'])`` Whether to draw the box around the "
+"selected tracked object"
+msgstr ""
+"``(int, pilihan: ['Yes', 'No'])`` Apakah menggambar kotak di sekitar objek "
+"yang dilacak yang dipilih"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:916 ../effects.rst:1134
+msgid "box_id"
+msgstr "id_kotak"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:916 ../effects.rst:1134
+msgid ""
+"``(string)`` Internal ID of a tracked object box for identification purposes"
+msgstr ""
+"``(string)`` ID internal kotak objek yang dilacak untuk tujuan identifikasi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:917 ../effects.rst:1135
+msgid "x1"
+msgstr "x1"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:917 ../effects.rst:1135
+msgid ""
+"``(float, 0 to 1)`` Top left X coordinate of a tracked object box, "
+"normalized to the video frame width"
+msgstr ""
+"``(float, 0 sampai 1)`` Koordinat X kiri atas kotak objek yang dilacak, "
+"dinormalisasi terhadap lebar bingkai video"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:918 ../effects.rst:1136
+msgid "y1"
+msgstr "y1"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:918 ../effects.rst:1136
+msgid ""
+"``(float, 0 to 1)`` Top left Y coordinate of a tracked object box, "
+"normalized to the video frame height"
+msgstr ""
+"``(float, 0 sampai 1)`` Koordinat Y kiri atas kotak objek yang dilacak, "
+"dinormalisasi terhadap tinggi bingkai video"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:919 ../effects.rst:1137
+msgid "x2"
+msgstr "x2"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:919 ../effects.rst:1137
+msgid ""
+"``(float, 0 to 1)`` Bottom right X coordinate of a tracked object box, "
+"normalized to the video frame width"
+msgstr ""
+"``(float, 0 sampai 1)`` Koordinat X kanan bawah kotak objek yang dilacak, "
+"dinormalisasi terhadap lebar bingkai video"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:920 ../effects.rst:1138
+msgid "y2"
+msgstr "y2"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:920 ../effects.rst:1138
+msgid ""
+"``(float, 0 to 1)`` Bottom right Y coordinate of a tracked object box, "
+"normalized to the video frame height"
+msgstr ""
+"``(float, 0 sampai 1)`` Koordinat Y kanan bawah kotak objek yang dilacak, "
+"dinormalisasi terhadap tinggi bingkai video"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:921 ../effects.rst:1139
+msgid "delta_x"
+msgstr "delta_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:921 ../effects.rst:1139
+msgid ""
+"``(float, -1.0 to 1)`` Horizontal movement delta of the tracked object box "
+"from its previous position"
+msgstr ""
+"``(float, -1.0 sampai 1)`` Perubahan gerakan horizontal kotak objek yang "
+"dilacak dari posisi sebelumnya"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:922 ../effects.rst:1140
+msgid "delta_y"
+msgstr "delta_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:922 ../effects.rst:1140
+msgid ""
+"``(float, -1.0 to 1)`` Vertical movement delta of the tracked object box "
+"from its previous position"
+msgstr ""
+"``(float, -1.0 sampai 1)`` Perubahan gerakan vertikal kotak objek yang "
+"dilacak dari posisi sebelumnya"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:923 ../effects.rst:1141
+msgid "scale_x"
+msgstr "skala_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:923 ../effects.rst:1141
+msgid ""
+"``(float, 0 to 1)`` Scaling factor in the X direction for the tracked object "
+"box, relative to its original size"
+msgstr ""
+"``(float, 0 sampai 1)`` Faktor skala pada arah X untuk kotak objek yang "
+"dilacak, relatif terhadap ukuran aslinya"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:924 ../effects.rst:1142
+msgid "scale_y"
+msgstr "skala_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:924 ../effects.rst:1142
+msgid ""
+"``(float, 0 to 1)`` Scaling factor in the Y direction for the tracked object "
+"box, relative to its original size"
+msgstr ""
+"``(float, 0 sampai 1)`` Faktor skala pada arah Y untuk kotak objek yang "
+"dilacak, relatif terhadap ukuran aslinya"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:925 ../effects.rst:1143
+msgid "rotation"
+msgstr "rotasi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:925 ../effects.rst:1143
+msgid ""
+"``(float, 0 to 360)`` Rotation angle of the tracked object box, in degrees"
+msgstr ""
+"``(float, 0 sampai 360)`` Sudut rotasi kotak objek yang dilacak, dalam "
+"derajat"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:926 ../effects.rst:1144
+msgid "visible"
+msgstr "terlihat"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:926 ../effects.rst:1144
+msgid ""
+"``(bool)`` Is the tracked object box visible in the current frame. Read-only "
+"property."
+msgstr ""
+"``(bool)`` Apakah kotak objek yang dilacak terlihat dalam bingkai saat ini. "
+"Properti hanya baca."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:927 ../effects.rst:1145
+msgid "``(color)`` Color of the stroke (border) around the tracked object box"
+msgstr ""
+"``(color)`` Warna garis tepi (border) di sekitar kotak objek yang dilacak"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:928 ../effects.rst:1146
+msgid ""
+"``(int, 1 to 10)`` Width of the stroke (border) around the tracked object box"
+msgstr ""
+"``(int, 1 sampai 10)`` Lebar garis tepi (border) di sekitar kotak objek yang "
+"dilacak"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:929 ../effects.rst:1147
+msgid "stroke_alpha"
+msgstr "stroke_alpha"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:929 ../effects.rst:1147
+msgid ""
+"``(float, 0 to 1)`` Opacity of the stroke (border) around the tracked object "
+"box"
+msgstr ""
+"``(float, 0 sampai 1)`` Opasitas garis tepi (border) di sekitar kotak objek "
+"yang dilacak"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:930 ../effects.rst:1148
+msgid ""
+"``(float, 0 to 1)`` Opacity of the background fill inside the tracked object "
+"box"
+msgstr ""
+"``(float, 0 sampai 1)`` Opasitas isi latar belakang di dalam kotak objek "
+"yang dilacak"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:931 ../effects.rst:1149
+msgid ""
+"``(int, 0 to 150)`` Radius of the corners for the background fill inside the "
+"tracked object box"
+msgstr ""
+"``(int, 0 sampai 150)`` Radius sudut untuk isi latar belakang di dalam kotak "
+"objek yang dilacak"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:932 ../effects.rst:1150
+msgid "``(color)`` Color of the background fill inside the tracked object box"
+msgstr "``(warna)`` Warna isi latar belakang di dalam kotak objek yang dilacak"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:937
+msgid ""
+"The Outline effect adds a customizable border around images or text within a "
+"video frame. It works by extracting the image’s alpha channel, blurring it "
+"to generate a smooth outline mask, and then combining this mask with a solid "
+"color layer. Users can adjust the outline’s width as well as its color "
+"components (red, green, blue) and transparency (alpha), allowing for a wide "
+"range of visual styles. This effect is ideal for emphasizing text, creating "
+"visual separation, and adding an artistic flair to your videos."
+msgstr ""
+"Efek Outline menambahkan garis tepi yang dapat disesuaikan di sekitar gambar "
+"atau teks dalam bingkai video. Efek ini bekerja dengan mengekstrak saluran "
+"alfa gambar, mengaburkannya untuk menghasilkan masker garis tepi yang halus, "
+"lalu menggabungkan masker ini dengan lapisan warna solid. Pengguna dapat "
+"mengatur lebar garis tepi serta komponen warnanya (merah, hijau, biru) dan "
+"transparansi (alfa), memungkinkan berbagai gaya visual. Efek ini ideal untuk "
+"menonjolkan teks, menciptakan pemisahan visual, dan menambahkan sentuhan "
+"artistik pada video Anda."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:949
+msgid "width"
+msgstr "lebar"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:949
+msgid "``(float, 0 to 100)``   The width of the outline in pixels."
+msgstr "``(float, 0 sampai 100)``   Lebar garis tepi dalam piksel."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:950
+msgid "red"
+msgstr "merah"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:950
+msgid "``(float, 0 to 255)``   The red color component of the outline."
+msgstr "``(float, 0 sampai 255)``   Komponen warna merah dari garis tepi."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:951
+msgid "green"
+msgstr "hijau"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:951
+msgid "``(float, 0 to 255)``   The green color component of the outline."
+msgstr "``(float, 0 sampai 255)``   Komponen warna hijau dari garis tepi."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:952
+msgid "blue"
+msgstr "biru"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:952
+msgid "``(float, 0 to 255)``   The blue color component of the outline."
+msgstr "``(float, 0 sampai 255)``   Komponen warna biru dari garis tepi."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:953
+msgid "alpha"
+msgstr "alfa"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:953
+msgid "``(float, 0 to 255)``   The transparency (alpha) value for the outline."
+msgstr ""
+"``(float, 0 sampai 255)``   Nilai transparansi (alfa) untuk garis tepi."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:958
+msgid ""
+"The Pixelate effect increases or decreases the size of the pixels in the "
+"video, creating a mosaic-like appearance. This can be used to obscure "
+"details (such as faces or license plates for privacy reasons), or as a "
+"stylistic effect to evoke a retro, digital, or abstract aesthetic."
+msgstr ""
+"Efek Pixelate memperbesar atau memperkecil ukuran piksel dalam video, "
+"menciptakan tampilan seperti mozaik. Ini dapat digunakan untuk menyamarkan "
+"detail (seperti wajah atau plat nomor demi alasan privasi), atau sebagai "
+"efek gaya untuk menghadirkan estetika retro, digital, atau abstrak."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:968
+msgid "``(float, 0 to 1)`` The curve to adjust the bottom margin size"
+msgstr "``(float, 0 sampai 1)`` Kurva untuk mengatur ukuran margin bawah"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:969
+msgid "``(float, 0 to 1)`` The curve to adjust the left margin size"
+msgstr "``(float, 0 sampai 1)`` Kurva untuk mengatur ukuran margin kiri"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:970
+msgid "pixelization"
+msgstr "pikselisasi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:970
+msgid "``(float, 0 to 0.99)`` The curve to adjust the amount of pixelization"
+msgstr "``(float, 0 sampai 0.99)`` Kurva untuk mengatur tingkat pikselisasi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:971
+msgid "``(float, 0 to 1)`` The curve to adjust the right margin size"
+msgstr "``(float, 0 sampai 1)`` Kurva untuk mengatur ukuran margin kanan"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:972
+msgid "``(float, 0 to 1)`` The curve to adjust the top margin size"
+msgstr "``(float, 0 sampai 1)`` Kurva untuk mengatur ukuran margin atas"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:977
+msgid ""
+"The Sharpen effect enhances perceived detail by first blurring the frame "
+"slightly and then adding a scaled difference (the *un-sharp mask*) back on "
+"top. This boosts edge contrast, making textures and outlines appear crisper "
+"without changing overall brightness."
+msgstr ""
+"Efek Sharpen meningkatkan detail yang terlihat dengan terlebih dahulu "
+"mengaburkan bingkai sedikit, lalu menambahkan perbedaan yang diskalakan "
+"(masker *un-sharp*) di atasnya. Ini meningkatkan kontras tepi, membuat "
+"tekstur dan garis tepi tampak lebih tajam tanpa mengubah kecerahan "
+"keseluruhan."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:982
+msgid "Modes"
+msgstr "Mode"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:984
+msgid ""
+"**Unsharp** – Classic un-sharp mask: the edge detail is added back to the "
+"*original* frame. Produces the familiar punchy sharpen seen in photo editors."
+msgstr ""
+"**Unsharp** – Masker un-sharp klasik: detail tepi ditambahkan kembali ke "
+"bingkai *asli*. Menghasilkan efek tajam yang kuat seperti yang biasa "
+"terlihat di editor foto."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:987
+msgid ""
+"**HighPass** – High-pass blend: the edge detail is added to the *blurred* "
+"frame, then the result replaces the original.  Gives a softer, more "
+"“contrasty” look and can rescue highlights that would otherwise clip."
+msgstr ""
+"**HighPass** – Campuran high-pass: detail tepi ditambahkan ke bingkai yang "
+"*terkabur*, lalu hasilnya menggantikan bingkai asli. Memberikan tampilan "
+"yang lebih lembut dan kontras, serta dapat menyelamatkan highlight yang "
+"seharusnya terpotong."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:991
+msgid "Channels"
+msgstr "Saluran"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:993
+msgid ""
+"**All** – Apply the edge mask to the full RGB signal (strongest effect – "
+"colour and brightness sharpened)."
+msgstr ""
+"**All** – Terapkan masker tepi ke sinyal RGB penuh (efek terkuat – warna dan "
+"kecerahan diasah)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:994
+msgid ""
+"**Luma** – Apply only to luma (brightness).  Colours stay untouched, so "
+"chroma noise is not amplified."
+msgstr ""
+"**Luma** – Terapkan hanya pada luma (kecerahan). Warna tetap tidak "
+"tersentuh, sehingga noise kromatik tidak diperkuat."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:995
+msgid ""
+"**Chroma** – Apply only to the chroma (colour difference) channels.  Useful "
+"for gently reviving colour edges without changing perceived brightness."
+msgstr ""
+"**Chroma** – Terapkan hanya pada saluran krominansi (perbedaan warna). "
+"Berguna untuk menghidupkan kembali tepi warna secara halus tanpa mengubah "
+"kecerahan yang terlihat."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1007
+msgid "amount"
+msgstr "jumlah"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1007
+msgid "``(float, 0 to 40)`` Strength multiplier / up to 100% edge boost"
+msgstr ""
+"``(float, 0 sampai 40)`` Pengali kekuatan / hingga peningkatan tepi 100%"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1008
+msgid "radius"
+msgstr "radius"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1008
+msgid ""
+"``(float, 0 to 10)`` Blur radius in pixels at 720p (auto-scaled to clip size)"
+msgstr ""
+"``(float, 0 sampai 10)`` Radius blur dalam piksel pada 720p (diskalakan "
+"otomatis sesuai ukuran klip)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1009
+msgid "``(float, 0 to 1)`` Minimum luma difference that will be sharpened"
+msgstr "``(float, 0 sampai 1)`` Perbedaan luma minimum yang akan diasah"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1010
+msgid "mode"
+msgstr "mode"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1010
+msgid ""
+"``(int, choices: ['Unsharp', 'HighPass'])`` Math style of the sharpening mask"
+msgstr ""
+"``(int, pilihan: ['Unsharp', 'HighPass'])`` Gaya matematika masker pengasahan"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1011
+msgid "channel"
+msgstr "saluran"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1011
+msgid ""
+"``(int, choices: ['All', 'Luma', 'Chroma'])`` Which colour channels receive "
+"sharpening"
+msgstr ""
+"``(int, pilihan: ['All', 'Luma', 'Chroma'])`` Saluran warna mana yang "
+"menerima pengasahan"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1016
+msgid ""
+"The Shift effect moves the entire image in different directions (up, down, "
+"left, and right with infinite wrapping), creating a sense of motion or "
+"disorientation. This can be used for transitions, to simulate camera "
+"movement, or to add dynamic motion to static shots."
+msgstr ""
+"Efek Shift menggeser seluruh gambar ke berbagai arah (atas, bawah, kiri, dan "
+"kanan dengan pembungkusan tak terbatas), menciptakan kesan gerakan atau "
+"kebingungan. Ini dapat digunakan untuk transisi, mensimulasikan gerakan "
+"kamera, atau menambahkan gerakan dinamis pada bidikan statis."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1026
+msgid "``(float, -1 to 1)`` Shift the X coordinates (left or right)"
+msgstr "``(float, -1 sampai 1)`` Geser koordinat X (kiri atau kanan)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1027
+msgid "``(float, -1 to 1)`` Shift the Y coordinates (up or down)"
+msgstr "``(float, -1 sampai 1)`` Geser koordinat Y (atas atau bawah)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1033
+msgid ""
+"The Spherical Projection effect flattens 360° or fisheye footage into a "
+"normal rectangular view, or generates fisheye output. Steer a virtual camera "
+"with yaw, pitch, and roll. Control the output view with FOV. Choose the "
+"input type (equirect or one of the fisheye models), pick a projection mode "
+"for the output, and select a sampling mode that balances quality and speed. "
+"This is ideal for keyframed “virtual camera” moves inside 360° clips and for "
+"converting circular fisheye shots."
+msgstr ""
+"Efek Proyeksi Spherical meratakan rekaman 360° atau fisheye menjadi tampilan "
+"persegi panjang normal, atau menghasilkan output fisheye. Kendalikan kamera "
+"virtual dengan yaw, pitch, dan roll. Atur tampilan output dengan FOV. Pilih "
+"jenis input (equirect atau salah satu model fisheye), pilih mode proyeksi "
+"untuk output, dan pilih mode sampling yang menyeimbangkan kualitas dan "
+"kecepatan. Ini ideal untuk gerakan “kamera virtual” berkeyframe di dalam "
+"klip 360° dan untuk mengonversi rekaman fisheye melingkar."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1044
+msgid "yaw"
+msgstr "yaw"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1044
+msgid ""
+"``(float, -180 to 180)`` Horizontal rotation around the up axis (degrees)."
+msgstr ""
+"``(float, -180 hingga 180)`` Rotasi horizontal di sekitar sumbu atas "
+"(derajat)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1046
+msgid "pitch"
+msgstr "pitch"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1046
+msgid ""
+"``(float, -180 to 180)`` Vertical rotation around the right axis (degrees)."
+msgstr ""
+"``(float, -180 hingga 180)`` Rotasi vertikal di sekitar sumbu kanan "
+"(derajat)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1048
+msgid "roll"
+msgstr "roll"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1048
+msgid "``(float, -180 to 180)`` Rotation around the forward axis (degrees)."
+msgstr "``(float, -180 hingga 180)`` Rotasi di sekitar sumbu depan (derajat)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1050
+msgid "fov"
+msgstr "fov"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1050
+msgid ""
+"``(float, 0 to 179)`` **Out FOV.** Horizontal field of view of the virtual "
+"camera (degrees) for the output."
+msgstr ""
+"``(float, 0 hingga 179)`` **Out FOV.** Bidang pandang horizontal kamera "
+"virtual (derajat) untuk output."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1052
+msgid "in_fov"
+msgstr "in_fov"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1052
+msgid ""
+"``(float, 1 to 360)`` **In FOV.** Total coverage of the source lens. Used "
+"when **Input Model = Fisheye** (typical value 180). Ignored for equirect "
+"sources."
+msgstr ""
+"``(float, 1 hingga 360)`` **In FOV.** Cakupan total lensa sumber. Digunakan "
+"saat **Input Model = Fisheye** (nilai tipikal 180). Diabaikan untuk sumber "
+"equirect."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1054
+msgid "projection_mode"
+msgstr "projection_mode"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1054
+msgid ""
+"``(int)`` Output projection: **Sphere (0):** rectilinear output over the "
+"full sphere. **Hemisphere (1):** rectilinear output over a half sphere. "
+"**Fisheye: Equidistant (2)**, **Equisolid (3)**, **Stereographic (4)**, "
+"**Orthographic (5)**: circular fisheye output using the selected mapping."
+msgstr ""
+"``(int)`` Proyeksi output: **Sphere (0):** output rectilinear di seluruh "
+"bola. **Hemisphere (1):** output rectilinear di setengah bola. **Fisheye: "
+"Equidistant (2)**, **Equisolid (3)**, **Stereographic (4)**, **Orthographic "
+"(5)**: output fisheye melingkar menggunakan pemetaan yang dipilih."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1059
+msgid "input_model"
+msgstr "input_model"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1059
+msgid ""
+"``(int)`` Source lens model: **Equirectangular (0)**, **Fisheye: Equidistant "
+"(1)**, **Fisheye: Equisolid (2)**, **Fisheye: Stereographic (3)**, "
+"**Fisheye: Orthographic (4)**."
+msgstr ""
+"``(int)`` Model lensa sumber: **Equirectangular (0)**, **Fisheye: "
+"Equidistant (1)**, **Fisheye: Equisolid (2)**, **Fisheye: Stereographic "
+"(3)**, **Fisheye: Orthographic (4)**."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1062
+msgid "invert"
+msgstr "invert"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1062
+msgid ""
+"``(int)`` Flip the view by 180° without mirroring. **Normal (0)**, **Invert "
+"(1)**. For equirect sources this behaves like a 180° yaw. For fisheye inputs "
+"it swaps front/back hemispheres."
+msgstr ""
+"``(int)`` Balik tampilan sebesar 180° tanpa mencerminkan. **Normal (0)**, "
+"**Invert (1)**. Untuk sumber equirect ini berperilaku seperti yaw 180°. "
+"Untuk input fisheye, ini menukar hemisfer depan/belakang."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1065
+msgid "interpolation"
+msgstr "interpolasi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1065
+msgid ""
+"``(int)`` Sampling method: **Nearest (0)**, **Bilinear (1)**, **Bicubic "
+"(2)**, **Auto (3)**. Auto picks Bilinear at ~1:1, Bicubic when upscaling, "
+"and a mipmapped Bilinear when downscaling."
+msgstr ""
+"``(int)`` Metode sampling: **Nearest (0)**, **Bilinear (1)**, **Bicubic "
+"(2)**, **Auto (3)**. Auto memilih Bilinear pada ~1:1, Bicubic saat "
+"memperbesar, dan Bilinear mipmapped saat memperkecil."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1072
+msgid ""
+"**Flatten a fisheye clip to a normal view:** Set **Input Model** to the "
+"correct fisheye type, set **In FOV** to your lens coverage (often 180), "
+"choose **Projection Mode = Sphere** or **Hemisphere**, then frame with **Yaw/"
+"Pitch/Roll** and **Out FOV**."
+msgstr ""
+"**Ratakan klip fisheye ke tampilan normal:** Atur **Input Model** ke tipe "
+"fisheye yang benar, atur **In FOV** ke cakupan lensa Anda (sering 180), "
+"pilih **Projection Mode = Sphere** atau **Hemisphere**, lalu atur bingkai "
+"dengan **Yaw/Pitch/Roll** dan **Out FOV**."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1074
+msgid ""
+"**Reframe an equirect clip:** Set **Input Model = Equirectangular**, pick "
+"**Sphere** (full) or **Hemisphere** (front/back). **Invert** on equirect is "
+"equivalent to yaw +180 and does not mirror."
+msgstr ""
+"**Atur ulang bingkai klip equirect:** Atur **Input Model = "
+"Equirectangular**, pilih **Sphere** (penuh) atau **Hemisphere** (depan/"
+"belakang). **Invert** pada equirect setara dengan yaw +180 dan tidak "
+"mencerminkan."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1076
+msgid ""
+"**Create a fisheye output:** Choose one of the **Fisheye** projection modes "
+"(2..5). **Out FOV** controls disk coverage (180 gives a classic circular "
+"fisheye)."
+msgstr ""
+"**Buat output fisheye:** Pilih salah satu mode proyeksi **Fisheye** (2..5). "
+"**Out FOV** mengontrol cakupan disk (180 memberikan fisheye melingkar "
+"klasik)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1078
+msgid ""
+"If the image looks mirrored, turn **Invert** off. If you need the back view "
+"on equirect, use **Invert** or add +180 to **Yaw**."
+msgstr ""
+"Jika gambar terlihat terbalik, matikan **Invert**. Jika Anda membutuhkan "
+"tampilan belakang pada equirect, gunakan **Invert** atau tambahkan +180 pada "
+"**Yaw**."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1079
+msgid ""
+"If the output looks soft or aliased, reduce **Out FOV** or increase export "
+"resolution. **Auto** interpolation adapts the filter to scaling."
+msgstr ""
+"Jika output terlihat buram atau beralias, kurangi **Out FOV** atau "
+"tingkatkan resolusi ekspor. Interpolasi **Auto** menyesuaikan filter dengan "
+"skala."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1083
+msgid ""
+"The Stabilizer effect reduces unwanted shake and jitter in handheld or "
+"unstable video footage, resulting in smoother, more professional-looking "
+"shots. This is particularly useful for action scenes, handheld shots, or any "
+"footage where a tripod was not used."
+msgstr ""
+"Efek Stabilizer mengurangi guncangan dan getaran yang tidak diinginkan pada "
+"rekaman video genggam atau tidak stabil, menghasilkan rekaman yang lebih "
+"halus dan tampak lebih profesional. Ini sangat berguna untuk adegan aksi, "
+"rekaman genggam, atau rekaman yang tidak menggunakan tripod."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1093
+msgid "zoom"
+msgstr "zoom"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1093
+msgid ""
+"``(float, 0 to 2)`` Percentage to zoom into the clip, to crop off the "
+"shaking and uneven edges"
+msgstr ""
+"``(float, 0 hingga 2)`` Persentase untuk memperbesar klip, untuk memotong "
+"guncangan dan tepi yang tidak rata"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1098
+msgid ""
+"The Tracker effect allows for the tracking of a specific object or area "
+"within the video frame across multiple frames. This can be used for motion "
+"tracking, adding effects or annotations that follow the movement of objects, "
+"or for stabilizing footage based on a tracked point.When tracking an object, "
+"be sure to select the entire object, which is visible at the start of a "
+"clip, and choose one of the following ``Tracking Type`` algorithms. The "
+"tracking algorithm then follows this object from frame to frame, recording "
+"its position, scale, and sometimes rotation."
+msgstr ""
+"Efek Tracker memungkinkan pelacakan objek atau area tertentu dalam bingkai "
+"video di beberapa frame. Ini dapat digunakan untuk pelacakan gerak, "
+"menambahkan efek atau anotasi yang mengikuti pergerakan objek, atau untuk "
+"menstabilkan rekaman berdasarkan titik yang dilacak. Saat melacak objek, "
+"pastikan memilih seluruh objek yang terlihat di awal klip, dan pilih salah "
+"satu algoritma ``Tracking Type`` berikut. Algoritma pelacakan kemudian "
+"mengikuti objek ini dari frame ke frame, merekam posisi, skala, dan kadang "
+"rotasinya."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1105
+msgid "Tracking Type"
+msgstr "Jenis Pelacakan"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1106
+msgid ""
+"**KCF:** (default) A blend of Boosting and MIL strategies, employing "
+"correlation filters on overlapping areas from 'bags' to accurately track and "
+"predict object movement. It offers higher speed and accuracy and can stop "
+"tracking when the object is lost but struggles to resume tracking after "
+"losing the object."
+msgstr ""
+"**KCF:** (default) Gabungan strategi Boosting dan MIL, menggunakan filter "
+"korelasi pada area tumpang tindih dari 'bags' untuk melacak dan memprediksi "
+"pergerakan objek dengan akurat. Menawarkan kecepatan dan akurasi lebih "
+"tinggi serta dapat menghentikan pelacakan saat objek hilang, tetapi "
+"kesulitan melanjutkan pelacakan setelah kehilangan objek."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1107
+msgid ""
+"**MIL:** Improves upon Boosting by considering multiple potential positives "
+"('bags') around the definite positive object, increasing robustness to noise "
+"and maintaining good accuracy. However, it shares the Boosting Tracker's "
+"drawbacks of low speed and difficulty in stopping tracking when the object "
+"is lost."
+msgstr ""
+"**MIL:** Meningkatkan Boosting dengan mempertimbangkan beberapa potensi "
+"positif ('bags') di sekitar objek positif pasti, meningkatkan ketahanan "
+"terhadap noise dan mempertahankan akurasi yang baik. Namun, memiliki "
+"kekurangan yang sama dengan Boosting Tracker yaitu kecepatan rendah dan "
+"kesulitan menghentikan pelacakan saat objek hilang."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1108
+msgid ""
+"**BOOSTING:** Utilizes the online AdaBoost algorithm to enhance the "
+"classification of tracked objects by focusing on incorrectly classified "
+"ones. It requires setting the initial frame and treats nearby objects as "
+"background, adjusting to new frames based on maximum score areas. It's known "
+"for accurate tracking but suffers from low speed, noise sensitivity, and "
+"difficulty stopping tracking upon object loss."
+msgstr ""
+"**BOOSTING:** Menggunakan algoritma AdaBoost online untuk meningkatkan "
+"klasifikasi objek yang dilacak dengan memfokuskan pada objek yang salah "
+"diklasifikasikan. Memerlukan pengaturan frame awal dan memperlakukan objek "
+"di sekitarnya sebagai latar belakang, menyesuaikan dengan frame baru "
+"berdasarkan area skor maksimum. Dikenal karena pelacakan yang akurat tetapi "
+"memiliki kecepatan rendah, sensitif terhadap noise, dan kesulitan "
+"menghentikan pelacakan saat objek hilang."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1109
+msgid ""
+"**TLD:** Decomposes tracking into tracking, learning, and detection phases, "
+"allowing for adaptation and correction over time. While it can handle object "
+"scaling and occlusions reasonably well, it may behave unpredictably, with "
+"instability in tracking and detection."
+msgstr ""
+"**TLD:** Memecah pelacakan menjadi fase pelacakan, pembelajaran, dan "
+"deteksi, memungkinkan adaptasi dan koreksi seiring waktu. Meskipun dapat "
+"menangani skala objek dan oklusi dengan cukup baik, dapat berperilaku tidak "
+"terduga, dengan ketidakstabilan dalam pelacakan dan deteksi."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1110
+msgid ""
+"**MEDIANFLOW:** Based on the Lucas-Kanade method, it analyzes forward and "
+"backward movement to estimate trajectory errors for real-time position "
+"prediction. It's fast and accurate under certain conditions but can lose "
+"track of fast-moving objects."
+msgstr ""
+"**MEDIANFLOW:** Berdasarkan metode Lucas-Kanade, menganalisis gerakan maju "
+"dan mundur untuk memperkirakan kesalahan lintasan guna prediksi posisi "
+"secara real-time. Cepat dan akurat dalam kondisi tertentu tetapi dapat "
+"kehilangan jejak objek yang bergerak cepat."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1111
+msgid ""
+"**MOSSE:** Utilizes adaptive correlations in Fourier space to maintain "
+"robustness against lighting, scale, and pose changes. It boasts very high "
+"tracking speeds and is better at continuing tracking after loss, but it may "
+"persist in tracking an absent object."
+msgstr ""
+"**MOSSE:** Memanfaatkan korelasi adaptif di ruang Fourier untuk "
+"mempertahankan ketahanan terhadap perubahan pencahayaan, skala, dan pose. "
+"Memiliki kecepatan pelacakan sangat tinggi dan lebih baik dalam melanjutkan "
+"pelacakan setelah kehilangan, tetapi dapat terus melacak objek yang tidak "
+"ada."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1112
+msgid ""
+"**CSRT:** Employs spatial reliability maps to adjust filter support, "
+"enhancing the ability to track non-rectangular objects and perform well even "
+"with object overlaps. However, it is slower and may not operate reliably "
+"when the object is lost."
+msgstr ""
+"**CSRT:** Menggunakan peta keandalan spasial untuk menyesuaikan dukungan "
+"filter, meningkatkan kemampuan melacak objek non-persegi dan bekerja dengan "
+"baik bahkan saat objek tumpang tindih. Namun, lebih lambat dan mungkin tidak "
+"berfungsi dengan andal saat objek hilang."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1116
+msgid ""
+"Once you have a tracked object, you can \"parent\" other :ref:`clips_ref` to "
+"it. This means that the second clip, which could be a graphic, text, or "
+"another video layer, will now follow the tracked object as if it's attached "
+"to it. If the tracked object moves to the left, the child clip moves to the "
+"left. If the tracked object grows in size (gets closer to the camera), the "
+"child clip also scales up. For parented clips to appear correctly, they must "
+"be on a Track higher than the tracked objects, and set the appropriate :ref:"
+"`clip_scale_ref` property."
+msgstr ""
+"Setelah Anda memiliki objek yang dilacak, Anda dapat \"mengaitkan\" :ref:"
+"`clips_ref` lain ke objek tersebut. Ini berarti klip kedua, yang bisa berupa "
+"grafik, teks, atau lapisan video lain, akan mengikuti objek yang dilacak "
+"seolah-olah terpasang padanya. Jika objek yang dilacak bergerak ke kiri, "
+"klip anak juga bergerak ke kiri. Jika objek yang dilacak membesar (mendekat "
+"ke kamera), klip anak juga akan diperbesar. Agar klip yang di-\"parent\" "
+"tampil dengan benar, mereka harus berada di Track yang lebih tinggi dari "
+"objek yang dilacak, dan mengatur properti :ref:`clip_scale_ref` yang sesuai."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1133
+msgid ""
+"``(int, choices: ['Yes', 'No'])`` Whether to draw the box around the tracked "
+"object"
+msgstr ""
+"``(int, pilihan: ['Ya', 'Tidak'])`` Apakah akan menggambar kotak di sekitar "
+"objek yang dilacak"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1155
+msgid ""
+"The Wave effect distorts the image into a wave-like pattern, simulating "
+"effects like heat haze, water reflections, or other forms of distortion. The "
+"speed, amplitude, and direction of the waves can be adjusted."
+msgstr ""
+"Efek Gelombang mendistorsi gambar menjadi pola seperti gelombang, "
+"mensimulasikan efek seperti kabut panas, pantulan air, atau bentuk distorsi "
+"lainnya. Kecepatan, amplitudo, dan arah gelombang dapat disesuaikan."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1164
+msgid "amplitude"
+msgstr "amplitudo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1164
+msgid "``(float, 0 to 5)`` The height of the wave"
+msgstr "``(float, 0 sampai 5)`` Tinggi gelombang"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1165
+msgid "multiplier"
+msgstr "pengali"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1165
+msgid "``(float, 0 to 10)`` Amount to multiply the wave (make it bigger)"
+msgstr ""
+"``(float, 0 sampai 10)`` Jumlah untuk mengalikan gelombang (membuatnya lebih "
+"besar)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1166
+msgid "shift_x"
+msgstr "geser_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1166
+msgid "``(float, 0 to 1000)`` Amount to shift X-axis"
+msgstr "``(float, 0 sampai 1000)`` Jumlah pergeseran sumbu X"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1167
+msgid "speed_y"
+msgstr "kecepatan_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1167
+msgid "``(float, 0 to 300)`` Speed of the wave on the Y-axis"
+msgstr "``(float, 0 sampai 300)`` Kecepatan gelombang pada sumbu Y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1168
+msgid "wavelength"
+msgstr "panjang_gelombang"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1168
+msgid "``(float, 0 to 3)`` The length of the wave"
+msgstr "``(float, 0 sampai 3)`` Panjang gelombang"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1172
+msgid "Audio Effects"
+msgstr "Efek Audio"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1174
+msgid ""
+"Audio effects modify the waveforms and audio sample data of a clip. Below is "
+"a list of audio effects, and their properties. Often it is best to "
+"experiment with an effect, entering different values into the properties, "
+"and observing the results."
+msgstr ""
+"Efek audio memodifikasi bentuk gelombang dan data sampel audio dari sebuah "
+"klip. Berikut adalah daftar efek audio dan propertinya. Seringkali yang "
+"terbaik adalah bereksperimen dengan efek, memasukkan nilai berbeda ke "
+"properti, dan mengamati hasilnya."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1180
+msgid ""
+"The Compressor effect in audio processing reduces the dynamic range of the "
+"audio signal, making loud sounds quieter and quiet sounds louder. This "
+"creates a more consistent volume level, useful for balancing the loudness of "
+"different audio sources or for achieving a particular sound characteristic "
+"in music production."
+msgstr ""
+"Efek Kompresor dalam pemrosesan audio mengurangi rentang dinamis sinyal "
+"audio, membuat suara keras menjadi lebih pelan dan suara pelan menjadi lebih "
+"keras. Ini menciptakan tingkat volume yang lebih konsisten, berguna untuk "
+"menyeimbangkan kekerasan suara dari berbagai sumber audio atau untuk "
+"mencapai karakteristik suara tertentu dalam produksi musik."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1190 ../effects.rst:1260
+msgid "attack"
+msgstr "attack"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1190 ../effects.rst:1260
+msgid "``(float, 0.1 to 100)``"
+msgstr "``(float, 0.1 sampai 100)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1191 ../effects.rst:1261
+msgid "bypass"
+msgstr "bypass"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1191 ../effects.rst:1261
+msgid "``(bool)``"
+msgstr "``(bool)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1192 ../effects.rst:1262
+msgid "makeup_gain"
+msgstr "makeup_gain"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1192 ../effects.rst:1262
+msgid "``(float, -12 to 12)``"
+msgstr "``(float, -12 sampai 12)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1193 ../effects.rst:1263
+msgid "ratio"
+msgstr "rasio"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1193 ../effects.rst:1263
+msgid "``(float, 1 to 100)``"
+msgstr "``(float, 1 sampai 100)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1194 ../effects.rst:1264
+msgid "release"
+msgstr "release"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1194 ../effects.rst:1264
+msgid "``(float, 10 to 1000)``"
+msgstr "``(float, 10 sampai 1000)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1195 ../effects.rst:1265
+msgid "``(float, -60 to 0)``"
+msgstr "``(float, -60 sampai 0)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1200
+msgid ""
+"The Delay effect adds an echo to the audio signal, repeating the sound after "
+"a short delay. This can create a sense of space and depth in the audio, and "
+"is commonly used for creative effects in music, sound design, and audio post-"
+"production."
+msgstr ""
+"Efek Delay menambahkan gema pada sinyal audio, mengulangi suara setelah jeda "
+"singkat. Ini dapat menciptakan kesan ruang dan kedalaman dalam audio, dan "
+"umum digunakan untuk efek kreatif dalam musik, desain suara, dan pasca-"
+"produksi audio."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1210
+msgid "delay_time"
+msgstr "waktu_delay"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1210 ../effects.rst:1243
+msgid "``(float, 0 to 5)``"
+msgstr "``(float, 0 sampai 5)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1215
+msgid ""
+"The Distortion effect intentionally clips the audio signal, adding harmonic "
+"and non-harmonic overtones. This can create a gritty, aggressive sound "
+"characteristic of many electric guitar tones and is used for both musical "
+"and sound design purposes."
+msgstr ""
+"Efek Distorsi dengan sengaja memotong sinyal audio, menambahkan overtone "
+"harmonik dan non-harmonik. Ini dapat menciptakan suara kasar dan agresif "
+"yang menjadi ciri khas banyak nada gitar listrik dan digunakan untuk tujuan "
+"musik maupun desain suara."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1225
+msgid "distortion_type"
+msgstr "jenis_distorsi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1225
+msgid ""
+"``(int, choices: ['Hard Clipping', 'Soft Clipping', 'Exponential', 'Full "
+"Wave Rectifier', 'Half Wave Rectifier'])``"
+msgstr ""
+"``(int, pilihan: ['Hard Clipping', 'Soft Clipping', 'Exponential', 'Full "
+"Wave Rectifier', 'Half Wave Rectifier'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1226
+msgid "input_gain"
+msgstr "input_gain"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1226 ../effects.rst:1227 ../effects.rst:1228
+#: ../effects.rst:1297
+msgid "``(int, -24 to 24)``"
+msgstr "``(int, -24 sampai 24)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1227
+msgid "output_gain"
+msgstr "output_gain"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1228
+msgid "tone"
+msgstr "nada"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1233
+msgid ""
+"The Echo effect, similar to delay, repeats the audio signal at intervals, "
+"but with a focus on creating a distinct repetition of sound that mimics "
+"natural echoes. This can be used to simulate acoustic environments or for "
+"creative sound effects."
+msgstr ""
+"Efek Echo, mirip dengan delay, mengulangi sinyal audio secara berkala, "
+"dengan fokus pada penciptaan pengulangan suara yang khas yang meniru gema "
+"alami. Ini dapat digunakan untuk mensimulasikan lingkungan akustik atau "
+"untuk efek suara kreatif."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1243
+msgid "echo_time"
+msgstr "waktu_echo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1244
+msgid "feedback"
+msgstr "umpan balik"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1244 ../effects.rst:1245
+msgid "``(float, 0 to 1)``"
+msgstr "``(float, 0 sampai 1)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1245
+msgid "mix"
+msgstr "campuran"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1250
+msgid ""
+"The Expander effect increases the dynamic range of audio, making quiet "
+"sounds quieter and leaving loud sounds unaffected. This is the opposite of "
+"compression and is used to reduce background noise or increase the dynamic "
+"impact of audio."
+msgstr ""
+"Efek Expander meningkatkan rentang dinamis audio, membuat suara pelan "
+"menjadi lebih pelan dan membiarkan suara keras tidak terpengaruh. Ini adalah "
+"kebalikan dari kompresi dan digunakan untuk mengurangi kebisingan latar atau "
+"meningkatkan dampak dinamis audio."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1270
+msgid ""
+"The Noise effect adds random, equal-intensity signals across the frequency "
+"spectrum to the audio, simulating the sound of white noise. This can be used "
+"for sound masking, as a component in sound design, or for testing and "
+"calibration purposes."
+msgstr ""
+"Efek Noise menambahkan sinyal acak dengan intensitas sama di seluruh "
+"spektrum frekuensi ke audio, mensimulasikan suara noise putih. Ini dapat "
+"digunakan untuk penyamaran suara, sebagai komponen dalam desain suara, atau "
+"untuk tujuan pengujian dan kalibrasi."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1280
+msgid "level"
+msgstr "level"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1280
+msgid "``(int, 0 to 100)``"
+msgstr "``(int, 0 sampai 100)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1285
+msgid ""
+"The Parametric EQ (Equalizer) effect allows for precise adjustments to the "
+"volume level of specific frequency ranges in the audio signal. This can be "
+"used for corrective measures, such as removing unwanted tones, or "
+"creatively, to shape the tonal balance of the audio."
+msgstr ""
+"Efek Parametric EQ (Equalizer) memungkinkan penyesuaian tepat pada tingkat "
+"volume rentang frekuensi tertentu dalam sinyal audio. Ini dapat digunakan "
+"untuk tindakan korektif, seperti menghilangkan nada yang tidak diinginkan, "
+"atau secara kreatif, untuk membentuk keseimbangan tonal audio."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1295
+msgid "filter_type"
+msgstr "jenis_filter"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1295
+msgid ""
+"``(int, choices: ['Low Pass', 'High Pass', 'Low Shelf', 'High Shelf', 'Band "
+"Pass', 'Band Stop', 'Peaking Notch'])``"
+msgstr ""
+"``(int, pilihan: ['Low Pass', 'High Pass', 'Low Shelf', 'High Shelf', 'Band "
+"Pass', 'Band Stop', 'Peaking Notch'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1296
+msgid "frequency"
+msgstr "frekuensi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1296
+msgid "``(int, 20 to 20000)``"
+msgstr "``(int, 20 sampai 20000)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1297
+msgid "gain"
+msgstr "gain"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1298
+msgid "q_factor"
+msgstr "faktor_q"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1298
+msgid "``(float, 0 to 20)``"
+msgstr "``(float, 0 sampai 20)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1303
+msgid ""
+"The Robotization effect transforms the audio to sound mechanical or robotic, "
+"by applying a combination of pitch modulation and synthesis techniques. This "
+"effect is widely used for character voices in media, creative music "
+"production, and sound design."
+msgstr ""
+"Efek Robotization mengubah audio menjadi terdengar mekanis atau robotik, "
+"dengan menerapkan kombinasi modulasi pitch dan teknik sintesis. Efek ini "
+"banyak digunakan untuk suara karakter dalam media, produksi musik kreatif, "
+"dan desain suara."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1313 ../effects.rst:1330
+msgid "fft_size"
+msgstr "ukuran_fft"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1313 ../effects.rst:1330
+msgid "``(int, choices: ['128', '256', '512', '1024', '2048'])``"
+msgstr "``(int, pilihan: ['128', '256', '512', '1024', '2048'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1314 ../effects.rst:1331
+msgid "hop_size"
+msgstr "ukuran_hop"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1314 ../effects.rst:1331
+msgid "``(int, choices: ['1/2', '1/4', '1/8'])``"
+msgstr "``(int, pilihan: ['1/2', '1/4', '1/8'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1315 ../effects.rst:1332
+msgid "window_type"
+msgstr "jenis_jendela"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1315 ../effects.rst:1332
+msgid "``(int, choices: ['Rectangular', 'Bart Lett', 'Hann', 'Hamming'])``"
+msgstr "``(int, pilihan: ['Rectangular', 'Bart Lett', 'Hann', 'Hamming'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1320
+msgid ""
+"The Whisperization effect transforms the audio to mimic a whispering voice, "
+"often by filtering out certain frequencies and adding noise. This can be "
+"used for artistic effects in music, sound design for film and video, or in "
+"audio storytelling to convey secrecy or intimacy."
+msgstr ""
+"Efek Whisperization mengubah audio untuk meniru suara berbisik, sering "
+"dengan menyaring frekuensi tertentu dan menambahkan noise. Ini dapat "
+"digunakan untuk efek artistik dalam musik, desain suara untuk film dan "
+"video, atau dalam penceritaan audio untuk menyampaikan rahasia atau "
+"keintiman."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1335
+msgid "For more info on key frames and animation, see :ref:`animation_ref`."
+msgstr ""
+"Untuk informasi lebih lanjut tentang key frame dan animasi, lihat :ref:"
+"`animation_ref`."

@@ -1,0 +1,3850 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:23
+msgid "Effects"
+msgstr "افکت‌ها"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:25
+msgid ""
+"Effects are used in OpenShot to enhance or modify the audio or video of a "
+"clip. They can modify pixels and audio data, and can generally enhance your "
+"video projects. Each effect has its own set of properties, most of which can "
+"be animated over time, for example varying the :guilabel:`Brightness & "
+"Contrast` of a clip over time."
+msgstr ""
+"افکت‌ها در OpenShot برای بهبود یا تغییر صدای یا تصویر یک کلیپ استفاده می‌شوند. "
+"آن‌ها می‌توانند پیکسل‌ها و داده‌های صوتی را تغییر دهند و معمولاً پروژه‌های ویدیویی "
+"شما را بهبود می‌بخشند. هر افکت مجموعه‌ای از ویژگی‌ها دارد که بیشتر آن‌ها را "
+"می‌توان در طول زمان متحرک کرد، مثلاً تغییر :guilabel:`Brightness & Contrast` "
+"یک کلیپ در طول زمان."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:29
+msgid ""
+"Effects can be added to any clip by dragging and dropping them from the "
+"Effects tab onto a clip. Each effect is represented by a small colored icon "
+"and the first letter of the effect name. Note: Pay close attention to where "
+"the play-head (i.e. red playback line) is. Key frames are automatically "
+"created at the current playback position, to help create animations quickly."
+msgstr ""
+"می‌توان افکت‌ها را با کشیدن و رها کردن از تب Effects روی هر کلیپ اضافه کرد. هر "
+"افکت با یک آیکون رنگی کوچک و حرف اول نام افکت نمایش داده می‌شود. توجه: به محل "
+"play-head (خط قرمز پخش) دقت کنید. فریم‌های کلیدی به‌طور خودکار در موقعیت فعلی "
+"پخش ایجاد می‌شوند تا به ساخت سریع انیمیشن‌ها کمک کنند."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:34
+msgid ""
+"To view an effect's properties, right-click on the effect icon, revealing "
+"the context menu, and choose :guilabel:`Properties`. The property editor "
+"will appear, where you can edit these properties. Properties appear "
+"alphabetically in the dock, with filter options available at the top. Hold :"
+"kbd:`Ctrl` and click multiple effect icons to select them all, the "
+"Properties dock will show an entry such as ``3 Selections`` so you can "
+"adjust their common settings in one step. See :ref:`clip_properties_ref`."
+msgstr ""
+"برای مشاهده ویژگی‌های یک افکت، روی آیکون افکت راست‌کلیک کنید تا منوی زمینه باز "
+"شود و گزینه :guilabel:`Properties` را انتخاب کنید. ویرایشگر ویژگی‌ها ظاهر "
+"می‌شود که می‌توانید این ویژگی‌ها را ویرایش کنید. ویژگی‌ها به ترتیب حروف الفبا در "
+"داک نمایش داده می‌شوند و گزینه‌های فیلتر در بالا موجود است. کلید :kbd:`Ctrl` "
+"را نگه داشته و روی چند آیکون افکت کلیک کنید تا همه را انتخاب کنید، داک "
+"Properties ورودی‌ای مانند ``3 Selections`` نشان می‌دهد تا بتوانید تنظیمات "
+"مشترک آن‌ها را یکجا تغییر دهید. به :ref:`clip_properties_ref` مراجعه کنید."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:41
+msgid "Masks and Effects"
+msgstr "ماسک‌ها و افکت‌ها"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:43
+msgid ""
+"All effects can now use a **static or animated mask** to limit where the "
+"effect is applied. This makes effects much more precise, because you can "
+"target only the subject or region you care about and blend the result "
+"smoothly into the original image."
+msgstr ""
+"اکنون همه افکت‌ها می‌توانند از **ماسک ثابت یا متحرک** برای محدود کردن محل "
+"اعمال افکت استفاده کنند. این باعث می‌شود افکت‌ها بسیار دقیق‌تر باشند، زیرا "
+"می‌توانید فقط روی موضوع یا منطقه‌ای که برایتان مهم است تمرکز کنید و نتیجه را "
+"به‌صورت نرم در تصویر اصلی ترکیب کنید."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:48
+msgid "Why this matters:"
+msgstr "چرا این مهم است:"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:50
+msgid "Keep edits focused on one area (for example, blur only a face)."
+msgstr "ویرایش‌ها را روی یک ناحیه متمرکز نگه دارید (مثلاً فقط صورت را مات کنید)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:51
+msgid ""
+"Stack multiple effects on the same subject without affecting the full frame."
+msgstr ""
+"چندین افکت را روی یک موضوع قرار دهید بدون اینکه کل فریم تحت تأثیر قرار گیرد."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:52
+msgid "Animate how strongly or where an effect is applied over time."
+msgstr "شدت یا محل اعمال افکت را در طول زمان متحرک کنید."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:54
+msgid "How to use effect masks:"
+msgstr "نحوه استفاده از ماسک‌های افکت:"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:56
+msgid "Add an effect to a clip."
+msgstr "یک افکت به کلیپ اضافه کنید."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:57
+msgid "Open the effect :guilabel:`Properties`."
+msgstr "ویژگی‌های افکت :guilabel:`Properties` را باز کنید."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:58
+msgid "Choose a mask source (static image or animated mask video)."
+msgstr "یک منبع ماسک انتخاب کنید (تصویر ثابت یا ویدئوی ماسک متحرک)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:59
+msgid ""
+"Adjust :guilabel:`Mask Mode` (for example, *Limit to Mask* or *Vary "
+"Strength*)."
+msgstr ""
+"حالت :guilabel:`Mask Mode` را تنظیم کنید (مثلاً *محدود به ماسک* یا *تغییر "
+"شدت*)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:61
+msgid ""
+"High-quality animated masks can also be generated with Advanced AI "
+"workflows. In many cases, you can click one or more subjects and let "
+"tracking build a mask automatically. See :ref:`ai_ref`."
+msgstr ""
+"ماسک‌های متحرک با کیفیت بالا همچنین می‌توانند با جریان‌های کاری پیشرفته هوش "
+"مصنوعی تولید شوند. در بسیاری از موارد، می‌توانید روی یک یا چند موضوع کلیک "
+"کنید و اجازه دهید ردیابی به‌طور خودکار ماسک بسازد. به :ref:`ai_ref` مراجعه "
+"کنید."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:65
+msgid "Mask controls to know:"
+msgstr "کنترل‌های ماسک که باید بدانید:"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:67
+msgid ""
+"Any effect mask can be inverted to flip between foreground and background."
+msgstr "هر ماسک افکتی می‌تواند معکوس شود تا بین پیش‌زمینه و پس‌زمینه جابجا شود."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:68
+msgid "Animated mask videos can be looped."
+msgstr "ویدئوهای ماسک متحرک می‌توانند به صورت حلقه پخش شوند."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:69
+msgid ""
+"When looping, set start/end mask trim carefully. If not adjusted, OpenShot "
+"loops the entire mask source, not just the segment you intended to repeat."
+msgstr ""
+"هنگام حلقه کردن، برش شروع/پایان ماسک را با دقت تنظیم کنید. اگر تنظیم نشود، "
+"OpenShot کل منبع ماسک را حلقه می‌کند، نه فقط بخشی که قصد داشتید تکرار شود."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:72
+msgid "To adjust a property:"
+msgstr "برای تنظیم یک ویژگی:"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:74
+msgid "Drag the slider for coarse changes."
+msgstr "برای تغییرات کلی، لغزنده را بکشید."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:75
+msgid "Double-click to enter precise values."
+msgstr "برای وارد کردن مقادیر دقیق دوبار کلیک کنید."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:76
+msgid "Right/double-click for non-numerical options."
+msgstr "برای گزینه‌های غیرعددی راست‌کلیک یا دوبار کلیک کنید."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:78
+msgid ""
+"Effect properties are integral to the :ref:`animation_ref` system. When you "
+"modify an effect property, a keyframe is generated at the current playhead "
+"position. For a property to span the entire clip, position the playhead at "
+"or before the clip's start before making adjustments. A convenient way to "
+"identify a clip's start is by utilizing the 'next/previous marker' feature "
+"on the Timeline toolbar."
+msgstr ""
+"ویژگی‌های افکت بخش جدایی‌ناپذیر سیستم :ref:`animation_ref` هستند. وقتی یک "
+"ویژگی افکت را تغییر می‌دهید، یک فریم کلیدی در موقعیت فعلی playhead ایجاد "
+"می‌شود. برای اینکه یک ویژگی کل کلیپ را پوشش دهد، قبل از تنظیمات، playhead را "
+"در شروع کلیپ یا قبل از آن قرار دهید. راه آسان برای شناسایی شروع کلیپ استفاده "
+"از ویژگی 'نشانگر بعدی/قبلی' در نوار ابزار Timeline است."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:86
+msgid "List of Effects"
+msgstr "فهرست افکت‌ها"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:87
+msgid ""
+"OpenShot Video Editor has a total of 27 built-in video and audio effects: 18 "
+"video effects and 9 audio effects. These effects can be added to a clip by "
+"dragging the effect onto a clip. The following table contains the name and "
+"short description of each effect."
+msgstr ""
+"OpenShot Video Editor دارای ۲۷ افکت ویدیویی و صوتی داخلی است: ۱۸ افکت "
+"ویدیویی و ۹ افکت صوتی. این افکت‌ها را می‌توان با کشیدن روی کلیپ اضافه کرد. "
+"جدول زیر نام و توضیح کوتاه هر افکت را نشان می‌دهد."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:227
+msgid "Icon"
+msgstr "آیکون"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:227
+msgid "Effect Name"
+msgstr "نام افکت"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:227
+msgid "Effect Description"
+msgstr "توضیح افکت"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:229
+msgid "|analogtape_icon|"
+msgstr "|analogtape_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:91
+msgid "Analog Tape Icon"
+msgstr "آیکون نوار آنالوگ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:229 ../effects.rst:364
+msgid "Analog Tape"
+msgstr "نوار آنالوگ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:229
+msgid "Vintage home-video wobble, bleed, and snow."
+msgstr "لرزش، خونریزی رنگ و برفک ویدیوهای خانگی قدیمی."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:230
+msgid "|mask_icon|"
+msgstr "|mask_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:95
+msgid "Alpha Mask / Wipe Transition Icon"
+msgstr "آیکون ماسک آلفا / انتقال پاک‌کن"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:230 ../effects.rst:391
+msgid "Alpha Mask / Wipe Transition"
+msgstr "ماسک آلفا / انتقال پاک‌کن"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:230
+msgid "Grayscale mask transition between images."
+msgstr "انتقال ماسک خاکستری بین تصاویر."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:231
+msgid "|bars_icon|"
+msgstr "|bars_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:99
+msgid "Bars Icon"
+msgstr "آیکون نوارها"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:231 ../effects.rst:410
+msgid "Bars"
+msgstr "نوارها"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:231
+msgid "Add colored bars around your video."
+msgstr "اضافه کردن نوارهای رنگی به اطراف ویدیو."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:232
+msgid "|blur_icon|"
+msgstr "|blur_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:103
+msgid "Blur Icon"
+msgstr "آیکون تاری"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:232 ../effects.rst:429
+msgid "Blur"
+msgstr "تاری"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:232
+msgid "Adjust image blur."
+msgstr "تنظیم تاری تصویر."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:233
+msgid "|brightness_icon|"
+msgstr "|brightness_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:107
+msgid "Brightness & Contrast Icon"
+msgstr "آیکون روشنایی و کنتراست"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:233 ../effects.rst:447
+msgid "Brightness & Contrast"
+msgstr "روشنایی و کنتراست"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:233
+msgid "Modify frame’s brightness and contrast."
+msgstr "تغییر روشنایی و کنتراست فریم."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:234
+msgid "|caption_icon|"
+msgstr "|caption_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:111
+msgid "Caption Icon"
+msgstr "آیکون زیرنویس"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:234 ../effects.rst:465
+msgid "Caption"
+msgstr "زیرنویس"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:234
+msgid "Add text captions to any clip."
+msgstr "افزودن زیرنویس متنی به هر کلیپ."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:235
+msgid "|chromakey_icon|"
+msgstr "|chromakey_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:115
+msgid "Chroma Key (Greenscreen) Icon"
+msgstr "آیکون کروماکی (صفحه سبز)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:235 ../effects.rst:506
+msgid "Chroma Key (Greenscreen)"
+msgstr "کروماکی (صفحه سبز)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:235
+msgid "Replace color with transparency."
+msgstr "جایگزینی رنگ با شفافیت."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:236
+msgid "|colormap_icon|"
+msgstr "|colormap_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:119
+msgid "Color Map / Lookup Icon"
+msgstr "آیکون نقشه رنگ / جستجو"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:236 ../effects.rst:525
+msgid "Color Map / Lookup"
+msgstr "نقشه رنگ / جستجو"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:236
+msgid "Adjust colors using 3D LUT lookup tables (.cube format)."
+msgstr "تنظیم رنگ‌ها با استفاده از جداول جستجوی ۳D LUT (فرمت .cube)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:237
+msgid "|saturation_icon|"
+msgstr "|saturation_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:123
+msgid "Color Saturation Icon"
+msgstr "آیکون اشباع رنگ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:237 ../effects.rst:745
+msgid "Color Saturation"
+msgstr "اشباع رنگ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:237
+msgid "Adjust color intensity."
+msgstr "تنظیم شدت رنگ."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:238
+msgid "|colorshift_icon|"
+msgstr "|colorshift_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:127
+msgid "Color Shift Icon"
+msgstr "آیکون تغییر رنگ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:238 ../effects.rst:763
+msgid "Color Shift"
+msgstr "تغییر رنگ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:238
+msgid "Shift image colors in various directions."
+msgstr "جابجایی رنگ‌های تصویر در جهات مختلف."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:239
+msgid "|crop_icon|"
+msgstr "|crop_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:131
+msgid "Crop Icon"
+msgstr "آیکون برش"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:239 ../effects.rst:794
+msgid "Crop"
+msgstr "برش"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:239
+msgid "Crop out parts of your video."
+msgstr "برش بخش‌هایی از ویدیو."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:240
+msgid "|deinterlace_icon|"
+msgstr "|deinterlace_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:135
+msgid "Deinterlace Icon"
+msgstr "آیکون حذف اینترلیس"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:240 ../effects.rst:821
+msgid "Deinterlace"
+msgstr "حذف اینترلیس"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:240
+msgid "Remove interlacing from video."
+msgstr "حذف اینترلیس از ویدیو."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:241
+msgid "|hue_icon|"
+msgstr "|hue_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:139
+msgid "Hue Icon"
+msgstr "آیکون رنگ‌مایه"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:241 ../effects.rst:836
+msgid "Hue"
+msgstr "رنگ‌مایه"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:241
+msgid "Adjust hue / color."
+msgstr "تنظیم رنگ‌مایه / رنگ."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:242
+msgid "|lensflare_icon|"
+msgstr "|lensflare_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:143
+msgid "Lens Flare Icon"
+msgstr "نماد تابش لنز"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:242 ../effects.rst:851
+msgid "Lens Flare"
+msgstr "تابش لنز"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:242
+msgid "Simulate sunlight hitting a lens with flares."
+msgstr "شبیه‌سازی تابش نور خورشید به لنز با تابش‌های نوری."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:243
+msgid "|negate_icon|"
+msgstr "|negate_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:147
+msgid "Negative Icon"
+msgstr "نماد منفی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:243 ../effects.rst:871
+msgid "Negative"
+msgstr "منفی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:243
+msgid "Produce a negative image."
+msgstr "ایجاد تصویر منفی."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:244
+msgid "|objectdetection_icon|"
+msgstr "|objectdetection_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:151
+msgid "Object Detector Icon"
+msgstr "نماد شناسایی شیء"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:244 ../effects.rst:877
+msgid "Object Detector"
+msgstr "شناسایی شیء"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:244
+msgid "Detect objects in video."
+msgstr "شناسایی اشیاء در ویدئو."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:245
+msgid "|outline_icon|"
+msgstr "|outline_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:155
+msgid "Outline Icon"
+msgstr "نماد کادر"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:245 ../effects.rst:936
+msgid "Outline"
+msgstr "کادر"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:245
+msgid "Add outline around any image or text."
+msgstr "افزودن کادر به دور هر تصویر یا متن."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:246
+msgid "|pixelate_icon|"
+msgstr "|pixelate_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:159
+msgid "Pixelate Icon"
+msgstr "نماد پیکسله کردن"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:246 ../effects.rst:957
+msgid "Pixelate"
+msgstr "پیکسله کردن"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:246
+msgid "Increase or decrease visible pixels."
+msgstr "افزایش یا کاهش پیکسل‌های قابل مشاهده."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:247
+msgid "|sharpen_icon|"
+msgstr "|sharpen_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:163
+msgid "Sharpen Icon"
+msgstr "نماد تیز کردن"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:247 ../effects.rst:976
+msgid "Sharpen"
+msgstr "تیز کردن"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:247
+msgid "Boost edge contrast to make video details look crisper."
+msgstr "افزایش کنتراست لبه‌ها برای واضح‌تر شدن جزئیات ویدئو."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:248
+msgid "|shift_icon|"
+msgstr "|shift_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:167
+msgid "Shift Icon"
+msgstr "نماد جابجایی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:248 ../effects.rst:1015
+msgid "Shift"
+msgstr "جابجایی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:248
+msgid "Shift image in different directions."
+msgstr "جابجایی تصویر در جهت‌های مختلف."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:249
+msgid "|sphericalprojection_icon|"
+msgstr "|sphericalprojection_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:171
+msgid "Spherical Projection Icon"
+msgstr "نماد تصویر کروی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:249 ../effects.rst:1031
+msgid "Spherical Projection"
+msgstr "تصویر کروی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:249
+msgid "Flatten or project 360° and fisheye footage."
+msgstr "صاف کردن یا نمایش ویدئوهای ۳۶۰ درجه و چشم ماهی."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:250
+msgid "|stabilizer_icon|"
+msgstr "|stabilizer_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:175
+msgid "Stabilizer Icon"
+msgstr "نماد تثبیت‌کننده"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:250 ../effects.rst:1082
+msgid "Stabilizer"
+msgstr "تثبیت‌کننده"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:250
+msgid "Reduce video shake."
+msgstr "کاهش لرزش ویدئو."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:251
+msgid "|tracker_icon|"
+msgstr "|tracker_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:179
+msgid "Tracker Icon"
+msgstr "نماد ردیاب"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:251 ../effects.rst:1097
+msgid "Tracker"
+msgstr "ردیاب"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:251
+msgid "Track bounding box in video."
+msgstr "ردیابی کادر محدودکننده در ویدئو."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:252
+msgid "|wave_icon|"
+msgstr "|wave_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:183
+msgid "Wave Icon"
+msgstr "نماد موج"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:252 ../effects.rst:1154
+msgid "Wave"
+msgstr "موج"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:252
+msgid "Distort image into a wave pattern."
+msgstr "تحریف تصویر به شکل الگوی موجی."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:253
+msgid "|compressor_icon|"
+msgstr "|compressor_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:187
+msgid "Compressor Icon"
+msgstr "نماد کمپرسور"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:253 ../effects.rst:1179
+msgid "Compressor"
+msgstr "کمپرسور"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:253
+msgid "Reduce loudness or amplify quiet sounds."
+msgstr "کاهش بلندی صدا یا تقویت صداهای آرام."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:254
+msgid "|delay_icon|"
+msgstr "|delay_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:191
+msgid "Delay Icon"
+msgstr "نماد تأخیر"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:254 ../effects.rst:1199
+msgid "Delay"
+msgstr "تأخیر"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:254
+msgid "Adjust audio-video synchronism."
+msgstr "تنظیم هماهنگی صدا و تصویر."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:255
+msgid "|distortion_icon|"
+msgstr "|distortion_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:195
+msgid "Distortion Icon"
+msgstr "نماد تحریف"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:255 ../effects.rst:1214
+msgid "Distortion"
+msgstr "تحریف"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:255
+msgid "Clip audio signal for distortion."
+msgstr "برش سیگنال صوتی برای ایجاد تحریف."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:256
+msgid "|echo_icon|"
+msgstr "|echo_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:199
+msgid "Echo Icon"
+msgstr "نماد اکو"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:256 ../effects.rst:1232
+msgid "Echo"
+msgstr "اکو"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:256
+msgid "Add delayed sound reflection."
+msgstr "افزودن بازتاب صدای تأخیری."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:257
+msgid "|expander_icon|"
+msgstr "|expander_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:203
+msgid "Expander Icon"
+msgstr "نماد گسترش‌دهنده"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:257 ../effects.rst:1249
+msgid "Expander"
+msgstr "گسترش‌دهنده"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:257
+msgid "Make loud parts relatively louder."
+msgstr "بلندتر کردن نسبی بخش‌های بلند صدا."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:258
+msgid "|noise_icon|"
+msgstr "|noise_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:207
+msgid "Noise Icon"
+msgstr "نماد نویز"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:258 ../effects.rst:1269
+msgid "Noise"
+msgstr "نویز"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:258
+msgid "Add random equal-intensity signals."
+msgstr "افزودن سیگنال‌های تصادفی با شدت برابر."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:259
+msgid "|parametriceq_icon|"
+msgstr "|parametriceq_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:211
+msgid "Parametric EQ Icon"
+msgstr "نماد اکولایزر پارامتریک"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:259 ../effects.rst:1284
+msgid "Parametric EQ"
+msgstr "اکولایزر پارامتریک"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:259
+msgid "Adjust frequency volume in audio."
+msgstr "تنظیم حجم فرکانس در صدا."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:260
+msgid "|robotization_icon|"
+msgstr "|robotization_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:215
+msgid "Robotization Icon"
+msgstr "نماد رباتی‌سازی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:260 ../effects.rst:1302
+msgid "Robotization"
+msgstr "رباتی‌سازی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:260
+msgid "Transform audio into robotic voice."
+msgstr "تبدیل صدا به صدای رباتیک."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:261
+msgid "|whisperization_icon|"
+msgstr "|whisperization_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:219
+msgid "Whisperization Icon"
+msgstr "نماد نجوا"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:261 ../effects.rst:1319
+msgid "Whisperization"
+msgstr "نجوا"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:261
+msgid "Transform audio into whispers."
+msgstr "تبدیل صدا به نجوا."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:266
+msgid "Effect Properties"
+msgstr "ویژگی‌های افکت"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:267
+msgid ""
+"Below is a list of **common** effect properties, shared by all effects in "
+"OpenShot. To view an effect's properties, right click and choose :guilabel:"
+"`Properties`. The property editor will appear, where you can change these "
+"properties. Note: Pay close attention to where the play-head (i.e. red "
+"playback line) is. Key frames are automatically created at the current "
+"playback position, to help quickly create animations."
+msgstr ""
+"در زیر فهرستی از ویژگی‌های **مشترک** افکت‌ها که در تمام افکت‌های OpenShot وجود "
+"دارد آمده است. برای مشاهده ویژگی‌های یک افکت، روی آن راست‌کلیک کرده و گزینه :"
+"guilabel:`Properties` را انتخاب کنید. ویرایشگر ویژگی‌ها ظاهر می‌شود که "
+"می‌توانید این ویژگی‌ها را تغییر دهید. توجه: به محل سر پخش (خط قرمز پخش) دقت "
+"کنید. فریم‌های کلیدی به‌طور خودکار در موقعیت فعلی پخش ایجاد می‌شوند تا به سرعت "
+"انیمیشن‌ها ساخته شوند."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:272
+msgid ""
+"See the table below for a list of common effect properties. Only the "
+"**common properties** that all effects share are listed here. Each effect "
+"also has many **unique properties**, which are specific to each effect, see :"
+"ref:`effect_video_effects_ref` for more information on individual effects "
+"and their unique properties."
+msgstr ""
+"جدول زیر شامل فهرستی از ویژگی‌های رایج افکت‌ها است. تنها **ویژگی‌های مشترک** که "
+"همه افکت‌ها دارند در اینجا فهرست شده‌اند. هر افکت همچنین دارای ویژگی‌های "
+"**منحصر به فرد** زیادی است که مخصوص هر افکت است، برای اطلاعات بیشتر درباره "
+"افکت‌های فردی و ویژگی‌های منحصر به فرد آن‌ها به :ref:`effect_video_effects_ref` "
+"مراجعه کنید."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:280
+msgid "Effect Property Name"
+msgstr "نام ویژگی افکت"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:280
+msgid "Type"
+msgstr "نوع"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:280 ../effects.rst:372 ../effects.rst:401 ../effects.rst:419
+#: ../effects.rst:438 ../effects.rst:456 ../effects.rst:484 ../effects.rst:516
+#: ../effects.rst:539 ../effects.rst:754 ../effects.rst:779 ../effects.rst:809
+#: ../effects.rst:830 ../effects.rst:845 ../effects.rst:860 ../effects.rst:908
+#: ../effects.rst:947 ../effects.rst:966 ../effects.rst:1005
+#: ../effects.rst:1024 ../effects.rst:1042 ../effects.rst:1091
+#: ../effects.rst:1131 ../effects.rst:1162 ../effects.rst:1188
+#: ../effects.rst:1208 ../effects.rst:1223 ../effects.rst:1241
+#: ../effects.rst:1258 ../effects.rst:1278 ../effects.rst:1293
+#: ../effects.rst:1311 ../effects.rst:1328
+msgid "Description"
+msgstr "توضیحات"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:282 ../effects.rst:293
+msgid "Duration"
+msgstr "مدت زمان"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:282 ../effects.rst:283 ../effects.rst:286 ../effects.rst:287
+msgid "Float"
+msgstr "عدد اعشاری"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:282
+msgid ""
+"The length of the effect (in seconds). Read-only property. Most effects "
+"default to the length of a clip. This property is hidden when an effect "
+"belongs to a clip."
+msgstr ""
+"طول افکت (بر حسب ثانیه). ویژگی فقط خواندنی. بیشتر افکت‌ها به طور پیش‌فرض طول "
+"کلیپ را دارند. این ویژگی زمانی که افکت به یک کلیپ تعلق دارد، مخفی می‌شود."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:283 ../effects.rst:300
+msgid "End"
+msgstr "پایان"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:283
+msgid ""
+"The end trimming position of the effect (in seconds). This property is "
+"hidden when an effect belongs to a clip."
+msgstr ""
+"موقعیت برش انتهایی افکت (بر حسب ثانیه). این ویژگی زمانی که افکت به یک کلیپ "
+"تعلق دارد، مخفی می‌شود."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:284 ../effects.rst:307
+msgid "ID"
+msgstr "شناسه"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:284 ../effects.rst:285
+msgid "String"
+msgstr "رشته"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:284
+msgid ""
+"A randomly generated GUID (globally unique identifier) assigned to each "
+"effect. Read-only property."
+msgstr ""
+"یک شناسه منحصر به فرد جهانی (GUID) که به صورت تصادفی به هر افکت اختصاص داده "
+"می‌شود. ویژگی فقط خواندنی."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:285
+msgid "Parent"
+msgstr "والد"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:285
+msgid ""
+"The parent object to this effect, which makes many of these keyframe values "
+"initialize to the parent value."
+msgstr ""
+"شیء والد این افکت که باعث می‌شود بسیاری از مقادیر کلید فریم‌ها با مقدار والد "
+"مقداردهی اولیه شوند."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:286 ../effects.rst:330
+msgid "Position"
+msgstr "موقعیت"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:286
+msgid ""
+"The position of the effect on the timeline (in seconds). This property is "
+"hidden when an effect belongs to a clip."
+msgstr ""
+"موقعیت افکت روی جدول زمانی (بر حسب ثانیه). این ویژگی زمانی که افکت به یک "
+"کلیپ تعلق دارد، مخفی می‌شود."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:287 ../effects.rst:336
+msgid "Start"
+msgstr "شروع"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:287
+msgid ""
+"The start trimming position of the effect (in seconds). This property is "
+"hidden when an effect belongs to a clip."
+msgstr ""
+"موقعیت برش شروع افکت (بر حسب ثانیه). این ویژگی زمانی که افکت به یک کلیپ تعلق "
+"دارد، مخفی می‌شود."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:288 ../effects.rst:312
+msgid "Track"
+msgstr "ردیف"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:288
+msgid "Int"
+msgstr "عدد صحیح"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:288
+msgid ""
+"The layer which holds the effect (higher tracks are rendered on top of lower "
+"tracks). This property is hidden when an effect belongs to a clip."
+msgstr ""
+"لایه‌ای که افکت را نگه می‌دارد (ردیف‌های بالاتر روی ردیف‌های پایین‌تر نمایش داده "
+"می‌شوند). این ویژگی زمانی که افکت به یک کلیپ تعلق دارد، مخفی می‌شود."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:289
+msgid "Apply Before Clip"
+msgstr "اعمال قبل از کلیپ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:289
+msgid "Boolean"
+msgstr "بولین"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:289
+msgid "Apply this effect before the Clip processes keyframes? (default is Yes)"
+msgstr "آیا این افکت قبل از پردازش کلید فریم‌های کلیپ اعمال شود؟ (پیش‌فرض بله)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:294
+msgid ""
+"The :guilabel:`Duration` property is a float value indicating the length of "
+"the effect in seconds. This is a Read-only property. This is calculated by: "
+"End - Start. To modify duration, you must edit the :guilabel:`Start` and/or :"
+"guilabel:`End` effect properties."
+msgstr ""
+"ویژگی :guilabel:`Duration` یک مقدار عدد اعشاری است که طول افکت را بر حسب "
+"ثانیه نشان می‌دهد. این ویژگی فقط خواندنی است. این مقدار با فرمول End - Start "
+"محاسبه می‌شود. برای تغییر مدت زمان، باید ویژگی‌های :guilabel:`Start` و/یا :"
+"guilabel:`End` را ویرایش کنید."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:297
+msgid ""
+"*NOTE: Most effects in OpenShot default the effect duration to the clip "
+"duration, and hide this property from the editor.*"
+msgstr ""
+"*توجه: بیشتر افکت‌ها در OpenShot به طور پیش‌فرض مدت زمان افکت را برابر با مدت "
+"زمان کلیپ قرار می‌دهند و این ویژگی را از ویرایشگر مخفی می‌کنند.*"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:301
+msgid ""
+"The :guilabel:`End` property defines the trimming point at the end of the "
+"effect in seconds, allowing you to control how much of the effect is visible "
+"in the timeline. Changing this property will impact the :guilabel:`Duration` "
+"effect property."
+msgstr ""
+"ویژگی :guilabel:`End` نقطه برش انتهای افکت را بر حسب ثانیه تعریف می‌کند و به "
+"شما امکان می‌دهد میزان قابل مشاهده بودن افکت در جدول زمانی را کنترل کنید. "
+"تغییر این ویژگی بر ویژگی :guilabel:`Duration` تأثیر می‌گذارد."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:304 ../effects.rst:316 ../effects.rst:333 ../effects.rst:340
+msgid ""
+"*NOTE: Most effects in OpenShot default this property to match the clip, and "
+"hide this property from the editor.*"
+msgstr ""
+"*توجه: بیشتر افکت‌ها در OpenShot این ویژگی را به طور پیش‌فرض مطابق با کلیپ "
+"تنظیم می‌کنند و این ویژگی را از ویرایشگر مخفی می‌کنند.*"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:308
+msgid ""
+"The :guilabel:`ID` property holds a randomly generated GUID (Globally Unique "
+"Identifier) assigned to each effect, ensuring its uniqueness. This is a Read-"
+"only property, and assigned by OpenShot when an effect is created."
+msgstr ""
+"ویژگی :guilabel:`ID` شامل یک شناسه منحصر به فرد جهانی (GUID) است که به صورت "
+"تصادفی به هر افکت اختصاص داده می‌شود و یکتایی آن را تضمین می‌کند. این ویژگی "
+"فقط خواندنی است و توسط OpenShot هنگام ایجاد افکت اختصاص داده می‌شود."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:313
+msgid ""
+"The :guilabel:`Track` property is an integer indicating the layer on which "
+"the effect is placed. Effects on higher tracks are rendered above those on "
+"lower tracks."
+msgstr ""
+"ویژگی :guilabel:`Track` یک عدد صحیح است که لایه‌ای را که افکت روی آن قرار "
+"دارد نشان می‌دهد. افکت‌ها در ردیف‌های بالاتر بالاتر از ردیف‌های پایین‌تر نمایش "
+"داده می‌شوند."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:321
+msgid "Effect Parent"
+msgstr "والد افکت"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:322
+msgid ""
+"The :guilabel:`Parent` property of an effect sets the initial keyframe "
+"values to a parent effect. For example, if many effects all point to the "
+"same parent effect, they will inherit all their initial properties, such as "
+"font size, font color, and background color for a ``Caption`` effect. In the "
+"example of many ``Caption`` effects using the same Parent effect, it is an "
+"efficient way to manage a large number of these effects."
+msgstr ""
+"ویژگی :guilabel:`Parent` یک افکت، مقادیر اولیه کلید فریم‌ها را به افکت والد "
+"تنظیم می‌کند. برای مثال، اگر چندین افکت به یک افکت والد یکسان اشاره کنند، همه "
+"ویژگی‌های اولیه خود مانند اندازه فونت، رنگ فونت و رنگ پس‌زمینه برای افکت "
+"``Caption`` را به ارث می‌برند. در مثال چندین افکت ``Caption`` که از یک افکت "
+"والد استفاده می‌کنند، این روش کارآمدی برای مدیریت تعداد زیادی از این افکت‌ها "
+"است."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:326
+msgid ""
+"NOTE: The ``parent`` property for effects should be linked to the **same "
+"type** of parent effect, otherwise their default initial values will not "
+"match. Also see :ref:`clip_parent_ref`."
+msgstr ""
+"توجه: ویژگی ``parent`` برای افکت‌ها باید به نوع **یکسان** از افکت والد متصل "
+"شود، در غیر این صورت مقادیر اولیه پیش‌فرض آن‌ها مطابقت نخواهد داشت. همچنین به :"
+"ref:`clip_parent_ref` مراجعه کنید."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:331
+msgid ""
+"The :guilabel:`Position` property determines the effect's position on the "
+"timeline in seconds, with 0.0 indicating the beginning."
+msgstr ""
+"ویژگی :guilabel:`Position` موقعیت افکت را روی جدول زمانی بر حسب ثانیه تعیین "
+"می‌کند، که مقدار 0.0 نشان‌دهنده شروع است."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:337
+msgid ""
+"The :guilabel:`Start` property defines the trimming point at the beginning "
+"of the effect in seconds. Changing this property will impact the :guilabel:"
+"`Duration` effect property."
+msgstr ""
+"ویژگی :guilabel:`Start` نقطه برش شروع افکت را بر حسب ثانیه تعریف می‌کند. "
+"تغییر این ویژگی بر ویژگی :guilabel:`Duration` تأثیر می‌گذارد."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:343
+msgid "Sequencing"
+msgstr "ترتیب‌بندی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:345
+msgid ""
+"Effects are normally applied **before** the Clip processes keyframes. This "
+"allows the effect to process the raw image of the clip, before the clip "
+"applies properties such as scaling, rotation, location, etc... Normally, "
+"this is the preferred sequence of events, and this is the default behavior "
+"of effects in OpenShot. However, you can optionally override this behavior "
+"with the ``Apply Before Clip Keyframes`` property."
+msgstr ""
+"افکت‌ها معمولاً **قبل از** پردازش کی‌فریم‌های کلیپ اعمال می‌شوند. این امکان را "
+"می‌دهد که افکت تصویر خام کلیپ را پردازش کند، قبل از اینکه کلیپ ویژگی‌هایی "
+"مانند مقیاس‌دهی، چرخش، موقعیت و غیره را اعمال کند... معمولاً این ترتیب "
+"رویدادها ترجیح داده می‌شود و رفتار پیش‌فرض افکت‌ها در OpenShot است. با این حال، "
+"می‌توانید این رفتار را با ویژگی ``Apply Before Clip Keyframes`` به صورت "
+"اختیاری تغییر دهید."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:350
+msgid ""
+"If you set the ``Apply Before Clip Keyframes`` property to ``No``, the "
+"effect will be sequenced **after** the clip scales, rotates, and applies "
+"keyframes to the image. This can be useful on certain effects, such as the "
+"**Mask** effect, when you want to animate a clip first and then apply a "
+"static mask to the clip."
+msgstr ""
+"اگر ویژگی ``Apply Before Clip Keyframes`` را روی ``No`` تنظیم کنید، افکت "
+"**بعد از** مقیاس‌دهی، چرخش و اعمال کی‌فریم‌ها روی تصویر کلیپ قرار می‌گیرد. این "
+"می‌تواند در برخی افکت‌ها مانند افکت **ماسک** مفید باشد، زمانی که می‌خواهید "
+"ابتدا کلیپ را انیمیت کنید و سپس یک ماسک ثابت روی کلیپ اعمال کنید."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:357
+msgid "Video Effects"
+msgstr "افکت‌های ویدئویی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:359
+msgid ""
+"Effects are generally divided into two categories: video and audio effects. "
+"Video effects modify the image and pixel data of a clip. Below is a list of "
+"video effects, and their properties. Often it is best to experiment with an "
+"effect, entering different values into the properties, and observing the "
+"results."
+msgstr ""
+"افکت‌ها معمولاً به دو دسته تقسیم می‌شوند: افکت‌های ویدئویی و صوتی. افکت‌های "
+"ویدئویی تصویر و داده‌های پیکسلی کلیپ را تغییر می‌دهند. در زیر فهرستی از "
+"افکت‌های ویدئویی و ویژگی‌های آن‌ها آمده است. اغلب بهتر است با یک افکت آزمایش "
+"کنید، مقادیر مختلفی را در ویژگی‌ها وارد کنید و نتایج را مشاهده نمایید."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:365
+msgid ""
+"The **Analog Tape** effect emulates consumer tape playback: horizontal line "
+"wobble (\"tracking\"), chroma bleed, luma softness, grainy snow, a bottom "
+"**tracking stripe**, and short **static bursts**. All controls are key-"
+"framable and the noise is deterministic (seeded from the effect’s ID with an "
+"optional offset), so renders are repeatable."
+msgstr ""
+"افکت **Analog Tape** پخش نوار مصرف‌کننده را شبیه‌سازی می‌کند: لرزش خط افقی "
+"(«ردیابی»)، نشت رنگ (chroma bleed)، نرمی روشنایی (luma softness)، برف "
+"دانه‌دانه، یک **نوار ردیابی** در پایین و **انفجارهای استاتیک** کوتاه. همه "
+"کنترل‌ها قابل کی‌فریم‌گذاری هستند و نویز به صورت قطعی (با بذر گرفته شده از "
+"شناسه افکت با یک آفست اختیاری) است، بنابراین رندرها قابل تکرار هستند."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:372 ../effects.rst:401 ../effects.rst:419 ../effects.rst:438
+#: ../effects.rst:456 ../effects.rst:484 ../effects.rst:516 ../effects.rst:539
+#: ../effects.rst:754 ../effects.rst:779 ../effects.rst:809 ../effects.rst:830
+#: ../effects.rst:845 ../effects.rst:860 ../effects.rst:908 ../effects.rst:947
+#: ../effects.rst:966 ../effects.rst:1005 ../effects.rst:1024
+#: ../effects.rst:1042 ../effects.rst:1091 ../effects.rst:1131
+#: ../effects.rst:1162 ../effects.rst:1188 ../effects.rst:1208
+#: ../effects.rst:1223 ../effects.rst:1241 ../effects.rst:1258
+#: ../effects.rst:1278 ../effects.rst:1293 ../effects.rst:1311
+#: ../effects.rst:1328
+msgid "Property Name"
+msgstr "نام ویژگی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:374
+msgid "tracking"
+msgstr "ردیابی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:374
+msgid ""
+"``(float, 0–1)`` Horizontal **line wobble** plus a subtle bottom **skew**. "
+"Higher values increase amplitude and skew height."
+msgstr ""
+"``(float, 0–1)`` لرزش **خط افقی** به همراه یک **کجی** ظریف در پایین. مقادیر "
+"بالاتر دامنه و ارتفاع کجی را افزایش می‌دهند."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:375
+msgid "bleed"
+msgstr "نشت رنگ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:375
+msgid ""
+"``(float, 0–1)`` **Chroma bleed / fringing.** Horizontal chroma shift + blur "
+"with a slight desaturation. Gives the “rainbow edge” look."
+msgstr ""
+"``(float, 0–1)`` **نشت رنگ / حاشیه رنگی.** جابجایی رنگ افقی به همراه تاری و "
+"کمی کاهش اشباع. ظاهر «لبه رنگین‌کمانی» ایجاد می‌کند."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:376
+msgid "softness"
+msgstr "نرمی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:376
+msgid ""
+"``(float, 0–1)`` **Luma softness.** Small horizontal blur on Y (approx. 0–2 "
+"px). Keep low to retain detail when noise is high."
+msgstr ""
+"``(float, 0–1)`` **نرمی روشنایی (لوما).** تاری افقی کوچک روی کانال Y (حدود ۰–"
+"۲ پیکسل). برای حفظ جزئیات هنگام نویز بالا، مقدار را پایین نگه دارید."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:377
+msgid "noise"
+msgstr "نویز"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:377
+msgid ""
+"``(float, 0–1)`` **Snow, hiss, and dropouts.** Controls grain strength, "
+"probability/length of white **streaks**, and a faint line hum."
+msgstr ""
+"``(float, 0–1)`` **برف، صدای خش‌خش و افت سیگنال.** کنترل شدت دانه‌ها، احتمال/"
+"طول **خطوط سفید** و صدای ضعیف خط."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:378
+msgid "stripe"
+msgstr "نوار"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:378
+msgid ""
+"``(float, 0–1)`` **Tracking stripe.** Lifts the bottom band, adds hiss/noise "
+"there, and widens the lifted region as the value increases."
+msgstr ""
+"``(float, 0–1)`` **نوار ردیابی.** باند پایین را بالا می‌برد، صدای خش/نویز "
+"اضافه می‌کند و با افزایش مقدار، منطقه بلند شده را گسترش می‌دهد."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:379
+msgid "static_bands"
+msgstr "باندهای استاتیک"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:379
+msgid ""
+"``(float, 0–1)`` **Static bursts.** Short bright bands with **row-clumped "
+"streaks** (many “shooting stars” across neighboring rows)."
+msgstr ""
+"``(float, 0–1)`` **انفجارهای استاتیک.** باندهای روشن کوتاه با **خطوط خوشه‌ای "
+"ردیفی** (ستاره‌های دنباله‌دار متعدد در ردیف‌های مجاور)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:380
+msgid "seed_offset"
+msgstr "آفست بذر"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:380
+msgid ""
+"``(int, 0–1000)`` Adds to the internal seed (derived from the effect ID) for "
+"deterministic variation between clips."
+msgstr ""
+"``(int, 0–1000)`` به بذر داخلی (مشتق شده از شناسه افکت) اضافه می‌کند تا "
+"تغییرات قطعی بین کلیپ‌ها ایجاد شود."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:383 ../effects.rst:1070
+msgid "**Usage notes**"
+msgstr "**یادداشت‌های استفاده**"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:385
+msgid ""
+"**Subtle “home video”**: ``tracking=0.25``, ``bleed=0.20``, "
+"``softness=0.20``, ``noise=0.25``, ``stripe=0.10``, ``static_bands=0.05``."
+msgstr ""
+"**ویدئوی خانگی ظریف**: ``tracking=0.25``, ``bleed=0.20``, ``softness=0.20``, "
+"``noise=0.25``, ``stripe=0.10``, ``static_bands=0.05``."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:386
+msgid ""
+"**Bad tracking / head clog**: ``tracking=0.8–1.0``, ``stripe=0.6–0.9``, "
+"``noise=0.6–0.8``, ``static_bands=0.4–0.6``, ``softness<=0.2``, and set "
+"``bleed`` to about 0.3."
+msgstr ""
+"**ردیابی بد / گرفتگی هد**: ``tracking=0.8–1.0``, ``stripe=0.6–0.9``, "
+"``noise=0.6–0.8``, ``static_bands=0.4–0.6``, ``softness<=0.2``, و ``bleed`` "
+"را حدود ۰.۳ تنظیم کنید."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:387
+msgid ""
+"**Color fringing only**: raise ``bleed`` (about 0.5) and keep other controls "
+"low."
+msgstr ""
+"**فقط حاشیه رنگی**: ``bleed`` را افزایش دهید (حدود ۰.۵) و سایر کنترل‌ها را "
+"پایین نگه دارید."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:388
+msgid ""
+"**Different but repeatable snow**: leave the effect ID alone (for "
+"deterministic output) and change ``seed_offset`` to get a new, still-"
+"repeatable pattern."
+msgstr ""
+"**برف متفاوت اما قابل تکرار**: شناسه افکت را دست نزنید (برای خروجی قطعی) و "
+"``seed_offset`` را تغییر دهید تا الگوی جدید و قابل تکرار دریافت کنید."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:392
+msgid ""
+"The Alpha Mask / Wipe Transition effect leverages a grayscale mask to create "
+"a dynamic transition between two images or video clips. In this effect, the "
+"light areas of the mask reveal the new image, while the dark areas conceal "
+"it, allowing for creative and custom transitions that go beyond standard "
+"fade or wipe techniques. This effect only affects the image, and not the "
+"audio track."
+msgstr ""
+"افکت انتقال ماسک آلفا / پاک‌کن از یک ماسک خاکستری برای ایجاد انتقال دینامیک "
+"بین دو تصویر یا کلیپ ویدئویی استفاده می‌کند. در این افکت، نواحی روشن ماسک "
+"تصویر جدید را نشان می‌دهند، در حالی که نواحی تاریک آن را مخفی می‌کنند، که "
+"امکان انتقال‌های خلاقانه و سفارشی فراتر از تکنیک‌های استاندارد محو یا پاک‌کن را "
+"فراهم می‌کند. این افکت فقط روی تصویر تأثیر می‌گذارد و روی ترک صوتی تاثیری "
+"ندارد."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:403 ../effects.rst:458 ../effects.rst:864
+msgid "brightness"
+msgstr "روشنایی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:403
+msgid "``(float, -1 to 1)`` This curve controls the motion across the wipe"
+msgstr "``(float, -1 to 1)`` این منحنی حرکت روی پاک‌کن را کنترل می‌کند"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:404 ../effects.rst:459
+msgid "contrast"
+msgstr "کنتراست"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:404
+msgid ""
+"``(float, 0 to 20)`` This curve controls the hardness and softness of the "
+"wipe edge"
+msgstr "``(float, 0 to 20)`` این منحنی سختی و نرمی لبه پاک‌کن را کنترل می‌کند"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:405
+msgid "reader"
+msgstr "خواننده"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:405
+msgid ""
+"``(reader)`` This reader can use any image or video as input for your "
+"grayscale wipe"
+msgstr ""
+"``(reader)`` این خواننده می‌تواند هر تصویر یا ویدئویی را به عنوان ورودی برای "
+"پاک‌کن خاکستری شما استفاده کند"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:406
+msgid "replace_image"
+msgstr "جایگزینی تصویر"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:406
+msgid ""
+"``(bool, choices: ['Yes', 'No'])`` Replace the clips image with the current "
+"grayscale wipe image, useful for troubleshooting"
+msgstr ""
+"``(bool, choices: ['Yes', 'No'])`` تصویر کلیپ را با تصویر پاک‌کن خاکستری فعلی "
+"جایگزین می‌کند، مفید برای عیب‌یابی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:411
+msgid ""
+"The Bars effect adds colored bars around your video frame, which can be used "
+"for aesthetic purposes, to frame the video within a certain aspect ratio, or "
+"to simulate the appearance of viewing content on a different display device. "
+"This effect is particularly useful for creating a cinematic or broadcast "
+"look."
+msgstr ""
+"افکت Bars نوارهای رنگی را در اطراف قاب ویدیوی شما اضافه می‌کند که می‌توان از "
+"آن‌ها برای اهداف زیبایی‌شناسی، قاب‌بندی ویدیو در نسبت تصویر خاص یا شبیه‌سازی "
+"ظاهر مشاهده محتوا در دستگاه نمایش متفاوت استفاده کرد. این افکت به‌ویژه برای "
+"ایجاد ظاهر سینمایی یا پخش مفید است."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:421 ../effects.rst:811 ../effects.rst:968
+msgid "bottom"
+msgstr "پایین"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:421
+msgid "``(float, 0 to 0.5)`` The curve to adjust the bottom bar size"
+msgstr "``(float, 0 تا 0.5)`` منحنی برای تنظیم اندازه نوار پایین"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:422 ../effects.rst:492 ../effects.rst:518
+msgid "color"
+msgstr "رنگ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:422
+msgid "``(color)`` The curve to adjust the color of bars"
+msgstr "``(color)`` منحنی برای تنظیم رنگ نوارها"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:423 ../effects.rst:497 ../effects.rst:812 ../effects.rst:969
+msgid "left"
+msgstr "چپ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:423
+msgid "``(float, 0 to 0.5)`` The curve to adjust the left bar size"
+msgstr "``(float, 0 تا 0.5)`` منحنی برای تنظیم اندازه نوار چپ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:424 ../effects.rst:499 ../effects.rst:813 ../effects.rst:971
+msgid "right"
+msgstr "راست"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:424
+msgid "``(float, 0 to 0.5)`` The curve to adjust the right bar size"
+msgstr "``(float, 0 تا 0.5)`` منحنی برای تنظیم اندازه نوار راست"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:425 ../effects.rst:502 ../effects.rst:814 ../effects.rst:972
+msgid "top"
+msgstr "بالا"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:425
+msgid "``(float, 0 to 0.5)`` The curve to adjust the top bar size"
+msgstr "``(float, 0 تا 0.5)`` منحنی برای تنظیم اندازه نوار بالا"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:430
+msgid ""
+"The Blur effect softens the image, reducing detail and texture. This can be "
+"used to create a sense of depth, draw attention to specific parts of the "
+"frame, or simply to apply a stylistic choice for aesthetic purposes. The "
+"intensity of the blur can be adjusted to achieve the desired level of "
+"softness."
+msgstr ""
+"افکت Blur تصویر را نرم می‌کند و جزئیات و بافت را کاهش می‌دهد. این می‌تواند برای "
+"ایجاد حس عمق، جلب توجه به بخش‌های خاصی از قاب، یا صرفاً اعمال یک انتخاب "
+"سبک‌شناسی برای اهداف زیبایی‌شناسی استفاده شود. شدت تاری قابل تنظیم است تا سطح "
+"مطلوب نرمی به دست آید."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:440
+msgid "horizontal_radius"
+msgstr "شعاع افقی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:440
+msgid ""
+"``(float, 0 to 100)`` Horizontal blur radius keyframe. The size of the "
+"horizontal blur operation in pixels."
+msgstr ""
+"``(float, 0 تا 100)`` کلید فریم شعاع تاری افقی. اندازه عملیات تاری افقی بر "
+"حسب پیکسل."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:441
+msgid "iterations"
+msgstr "تکرارها"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:441
+msgid ""
+"``(float, 0 to 100)`` Iterations keyframe. The # of blur iterations per "
+"pixel. 3 iterations = Gaussian."
+msgstr ""
+"``(float, 0 تا 100)`` کلید فریم تعداد تکرارها. تعداد تکرارهای تاری به ازای "
+"هر پیکسل. ۳ تکرار = گوسی."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:442
+msgid "sigma"
+msgstr "سیگما"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:442
+msgid ""
+"``(float, 0 to 100)`` Sigma keyframe. The amount of spread in the blur "
+"operation. Should be larger than radius."
+msgstr ""
+"``(float, 0 تا 100)`` کلید فریم سیگما. میزان پخش در عملیات تاری. باید بزرگ‌تر "
+"از شعاع باشد."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:443
+msgid "vertical_radius"
+msgstr "شعاع عمودی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:443
+msgid ""
+"``(float, 0 to 100)`` Vertical blur radius keyframe. The size of the "
+"vertical blur operation in pixels."
+msgstr ""
+"``(float, 0 تا 100)`` کلید فریم شعاع تاری عمودی. اندازه عملیات تاری عمودی بر "
+"حسب پیکسل."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:448
+msgid ""
+"The Brightness & Contrast effect allows for the adjustment of the overall "
+"lightness or darkness of the image (brightness) and the difference between "
+"the darkest and lightest parts of the image (contrast). This effect can be "
+"used to correct poorly lit videos or to create dramatic lighting effects for "
+"artistic purposes."
+msgstr ""
+"افکت Brightness & Contrast امکان تنظیم روشنایی کلی تصویر (روشنایی) و تفاوت "
+"بین تاریک‌ترین و روشن‌ترین بخش‌های تصویر (کنتراست) را فراهم می‌کند. این افکت "
+"می‌تواند برای اصلاح ویدیوهای کم‌نور یا ایجاد جلوه‌های نوری دراماتیک برای اهداف "
+"هنری استفاده شود."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:458
+msgid "``(float, -1 to 1)`` The curve to adjust the brightness"
+msgstr "``(float, -1 تا 1)`` منحنی برای تنظیم روشنایی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:459
+msgid ""
+"``(float, 0 to 100)`` The curve to adjust the contrast (3 is typical, 20 is "
+"a lot, 100 is max. 0 is invalid)"
+msgstr ""
+"``(float, 0 تا 100)`` منحنی برای تنظیم کنتراست (۳ معمول است، ۲۰ زیاد، ۱۰۰ "
+"حداکثر. ۰ نامعتبر است)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:466
+msgid ""
+"Add text captions on top of your video. We support both VTT (WebVTT) and "
+"SubRip (SRT) subtitle file formats. These formats are used to display "
+"captions or subtitles in videos. They allow you to add text-based subtitles "
+"to video content, making it more accessible to a wider audience, especially "
+"for those who are deaf or hard of hearing. The Caption effect can even "
+"animate the text fading in/out, and supports any font, size, color, and "
+"margin. OpenShot also has an easy-to-use Caption editor, where you can "
+"quickly insert captions at the playhead position, or edit all your caption "
+"text in one place."
+msgstr ""
+"افزودن زیرنویس‌های متنی روی ویدیوی شما. ما از فرمت‌های فایل زیرنویس VTT "
+"(WebVTT) و SubRip (SRT) پشتیبانی می‌کنیم. این فرمت‌ها برای نمایش زیرنویس‌ها در "
+"ویدیوها استفاده می‌شوند و به شما امکان می‌دهند زیرنویس‌های متنی به محتوای ویدیو "
+"اضافه کنید، که آن را برای مخاطبان گسترده‌تر، به‌ویژه افراد ناشنوا یا کم‌شنوا، "
+"قابل دسترس‌تر می‌کند. افکت Caption حتی می‌تواند متن را با انیمیشن محو شدن ظاهر/"
+"ناپدید شدن کند و از هر فونت، اندازه، رنگ و حاشیه‌ای پشتیبانی می‌کند. همچنین "
+"OpenShot دارای ویرایشگر Caption آسانی است که می‌توانید به سرعت زیرنویس‌ها را "
+"در موقعیت پخش وارد کنید یا تمام متن زیرنویس‌ها را در یکجا ویرایش کنید."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:486 ../effects.rst:932 ../effects.rst:1150
+msgid "background"
+msgstr "پس‌زمینه"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:486
+msgid "``(color)`` Color of caption area background"
+msgstr "``(color)`` رنگ پس‌زمینه ناحیه زیرنویس"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:487 ../effects.rst:930 ../effects.rst:1148
+msgid "background_alpha"
+msgstr "شفافیت پس‌زمینه"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:487
+msgid "``(float, 0 to 1)`` Background color alpha"
+msgstr "``(float, 0 تا 1)`` شفافیت رنگ پس‌زمینه"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:488 ../effects.rst:931 ../effects.rst:1149
+msgid "background_corner"
+msgstr "گوشه پس‌زمینه"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:488
+msgid "``(float, 0 to 60)`` Background corner radius"
+msgstr "``(float, 0 تا 60)`` شعاع گوشه پس‌زمینه"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:489
+msgid "background_padding"
+msgstr "حاشیه پس‌زمینه"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:489
+msgid "``(float, 0 to 60)`` Background padding"
+msgstr "``(float, 0 تا 60)`` حاشیه پس‌زمینه"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:490
+msgid "caption_font"
+msgstr "فونت زیرنویس"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:490
+msgid "``(font)`` Font name or family name"
+msgstr "``(font)`` نام فونت یا خانواده فونت"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:491
+msgid "caption_text"
+msgstr "متن زیرنویس"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:491
+msgid "``(caption)`` VTT/Subrip formatted caption text (multi-line)"
+msgstr "``(caption)`` متن زیرنویس قالب‌بندی شده VTT/SubRip (چندخطی)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:492
+msgid "``(color)`` Color of caption text"
+msgstr "``(color)`` رنگ متن زیرنویس"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:493
+msgid "fade_in"
+msgstr "نمایش تدریجی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:493
+msgid "``(float, 0 to 3)`` Fade in per caption (# of seconds)"
+msgstr "``(float, 0 تا 3)`` مدت زمان نمایش تدریجی هر زیرنویس (ثانیه)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:494
+msgid "fade_out"
+msgstr "محو شدن"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:494
+msgid "``(float, 0 to 3)`` Fade out per caption (# of seconds)"
+msgstr "``(float, 0 تا 3)`` مدت زمان محو شدن هر زیرنویس (ثانیه)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:495
+msgid "font_alpha"
+msgstr "شفافیت فونت"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:495
+msgid "``(float, 0 to 1)`` Font color alpha"
+msgstr "``(float, 0 تا 1)`` شفافیت رنگ فونت"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:496
+msgid "font_size"
+msgstr "اندازه فونت"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:496
+msgid "``(float, 0 to 200)`` Font size in points"
+msgstr "``(float, 0 تا 200)`` اندازه فونت بر حسب پوینت"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:497
+msgid "``(float, 0 to 0.5)`` Size of left margin"
+msgstr "``(float, 0 تا 0.5)`` اندازه حاشیه چپ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:498
+msgid "line_spacing"
+msgstr "فاصله خطوط"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:498
+msgid "``(float, 0 to 5)`` Distance between lines (1.0 default)"
+msgstr "``(float, 0 تا 5)`` فاصله بین خطوط (پیش‌فرض ۱.۰)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:499
+msgid "``(float, 0 to 0.5)`` Size of right margin"
+msgstr "``(float, 0 تا 0.5)`` اندازه حاشیه راست"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:500 ../effects.rst:927 ../effects.rst:1145
+msgid "stroke"
+msgstr "حاشیه"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:500
+msgid "``(color)`` Color of text border / stroke"
+msgstr "``(color)`` رنگ حاشیه متن"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:501 ../effects.rst:928 ../effects.rst:1146
+msgid "stroke_width"
+msgstr "عرض حاشیه"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:501
+msgid "``(float, 0 to 10)`` Width of text border / stroke"
+msgstr "``(float, 0 تا 10)`` عرض حاشیه / خط دور متن"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:502
+msgid "``(float, 0 to 1)`` Size of top margin"
+msgstr "``(float, 0 تا 1)`` اندازه حاشیه بالایی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:507
+msgid ""
+"The Chroma Key (Greenscreen) effect replaces a specific color (or chroma) in "
+"the video (commonly green or blue) with transparency, allowing for the "
+"compositing of the video over a different background. This effect is widely "
+"used in film and television production for creating visual effects and "
+"placing subjects in settings that would be otherwise impossible or "
+"impractical to shoot in."
+msgstr ""
+"افکت کلید کرومایی (صفحه سبز) رنگ خاصی (معمولاً سبز یا آبی) در ویدیو را با "
+"شفافیت جایگزین می‌کند و امکان ترکیب ویدیو روی پس‌زمینه‌ای متفاوت را فراهم "
+"می‌آورد. این افکت به طور گسترده در تولید فیلم و تلویزیون برای ایجاد جلوه‌های "
+"بصری و قرار دادن سوژه‌ها در محیط‌هایی که فیلم‌برداری در آن‌ها غیرممکن یا غیرعملی "
+"است، استفاده می‌شود."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:518
+msgid "``(color)`` The color to match"
+msgstr "``(color)`` رنگی که باید تطبیق داده شود"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:519 ../effects.rst:1009 ../effects.rst:1195
+#: ../effects.rst:1265
+msgid "threshold"
+msgstr "آستانه"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:519
+msgid ""
+"``(float, 0 to 125)`` The threshold (or fuzz factor) for matching similar "
+"colors. The larger the value the more colors that will be matched."
+msgstr ""
+"``(float, 0 تا 125)`` آستانه (یا ضریب تاری) برای تطبیق رنگ‌های مشابه. هرچه "
+"مقدار بزرگ‌تر باشد، رنگ‌های بیشتری تطبیق داده می‌شوند."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:520
+msgid "halo"
+msgstr "هاله"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:520
+msgid "``(float, 0 to 125)`` The additional threshold for halo elimination."
+msgstr "``(float, 0 تا 125)`` آستانه اضافی برای حذف هاله."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:521
+msgid "keymethod"
+msgstr "روش کلید"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:521
+msgid ""
+"``(int, choices: ['Basic keying', 'HSV/HSL hue', 'HSV saturation', 'HSL "
+"saturation', 'HSV value', 'HSL luminance', 'LCH luminosity', 'LCH chroma', "
+"'LCH hue', 'CIE Distance', 'Cb,Cr vector'])`` The keying method or algorithm "
+"to use."
+msgstr ""
+"``(int, انتخاب‌ها: ['کلیدزنی پایه', 'رنگ‌مایه HSV/HSL', 'اشباع HSV', 'اشباع "
+"HSL', 'مقدار HSV', 'روشنایی HSL', 'درخشندگی LCH', 'کرومای LCH', 'رنگ‌مایه "
+"LCH', 'فاصله CIE', 'بردار Cb,Cr'])`` روش یا الگوریتم کلیدزنی برای استفاده."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:526
+msgid ""
+"The Color Map effect applies a 3D LUT (Lookup Table) to your footage, "
+"instantly transforming its colors to achieve a consistent look or mood. A 3D "
+"LUT is simply a table that remaps every input hue to a new output palette. "
+"With separate keyframe curves for red, green, and blue channels, you can "
+"precisely control, and even animate, how much each channel is influenced by "
+"the LUT, making it easy to fine-tune or blend your grade over time."
+msgstr ""
+"افکت نقشه رنگ یک LUT سه‌بعدی (جدول جستجو) را روی فیلم شما اعمال می‌کند و رنگ‌ها "
+"را فوراً تغییر می‌دهد تا ظاهر یا حالتی یکنواخت ایجاد کند. LUT سه‌بعدی جدولی است "
+"که هر رنگ ورودی را به پالت خروجی جدید نگاشت می‌کند. با منحنی‌های کی‌فریم "
+"جداگانه برای کانال‌های قرمز، سبز و آبی، می‌توانید دقیقاً کنترل کنید و حتی "
+"انیمیت کنید که هر کانال چقدر تحت تأثیر LUT قرار گیرد، که تنظیم یا ترکیب "
+"درجه‌بندی رنگ را در طول زمان آسان می‌کند."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:531
+msgid ""
+"LUT files (`.cube` format) can be downloaded from many online resources, "
+"including free packs on photography blogs or marketplaces, such as https://"
+"freshluts.com/. OpenShot includes a selection of popular LUTs designed for "
+"**Rec 709** gamma out of the box."
+msgstr ""
+"فایل‌های LUT (فرمت `.cube`) را می‌توان از منابع آنلاین مختلف، از جمله بسته‌های "
+"رایگان در وبلاگ‌های عکاسی یا بازارها مانند https://freshluts.com/ دانلود کرد. "
+"OpenShot شامل مجموعه‌ای از LUTهای محبوب طراحی شده برای گامای **Rec 709** به "
+"صورت پیش‌فرض است."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:541
+msgid "lut_path"
+msgstr "مسیر LUT"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:541
+msgid "``(string)`` Filesystem path to the `.cube` LUT file."
+msgstr "``(string)`` مسیر فایل سیستم به فایل LUT با فرمت `.cube`."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:542
+msgid "intensity"
+msgstr "شدت"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:542
+msgid ""
+"``(float, 0.0 to 1.0)`` % Blending overall intensity (0.0 = no LUT, 1.0 = "
+"full LUT)."
+msgstr ""
+"``(float, 0.0 تا 1.0)`` درصد ترکیب شدت کلی (0.0 = بدون LUT، 1.0 = LUT کامل)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:543
+msgid "intensity_r"
+msgstr "شدت قرمز"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:543
+msgid ""
+"``(float, 0.0 to 1.0)`` % Blending the LUT’s red channel (0.0 = no LUT, 1.0 "
+"= full LUT)."
+msgstr ""
+"``(float, 0.0 تا 1.0)`` درصد ترکیب کانال قرمز LUT (0.0 = بدون LUT، 1.0 = LUT "
+"کامل)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:544
+msgid "intensity_g"
+msgstr "شدت سبز"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:544
+msgid ""
+"``(float, 0.0 to 1.0)`` % Blending the LUT’s green channel (0.0 = no LUT, "
+"1.0 = full LUT)."
+msgstr ""
+"``(float, 0.0 تا 1.0)`` درصد ترکیب کانال سبز LUT (0.0 = بدون LUT، 1.0 = LUT "
+"کامل)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:545
+msgid "intensity_b"
+msgstr "شدت آبی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:545
+msgid ""
+"``(float, 0.0 to 1.0)`` % Blending the LUT’s blue channel (0.0 = no LUT, 1.0 "
+"= full LUT)."
+msgstr ""
+"``(float, 0.0 تا 1.0)`` درصد ترکیب کانال آبی LUT (0.0 = بدون LUT، 1.0 = LUT "
+"کامل)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:549
+msgid "Gamma and Rec 709"
+msgstr "گاما و Rec 709"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:550
+msgid ""
+"Gamma is the way video systems brighten or darken the midtones of an image. "
+"**Rec 709** is the standard gamma curve used for most HD and online video "
+"today. By shipping with **Rec 709** LUTs, OpenShot makes it simple to apply "
+"a grade that matches the vast majority of footage you’ll edit."
+msgstr ""
+"گاما روشی است که سیستم‌های ویدئویی برای روشن‌تر یا تاریک‌تر کردن تون‌های میانی "
+"تصویر استفاده می‌کنند. **Rec 709** منحنی گامای استاندارد است که برای بیشتر "
+"ویدئوهای HD و آنلاین امروزی استفاده می‌شود. با ارائه LUTهای **Rec 709**، "
+"OpenShot اعمال درجه‌بندی رنگی که با اکثریت فیلم‌های شما مطابقت دارد را ساده "
+"می‌کند."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:554
+msgid ""
+"If your camera or workflow uses a different gamma (for example a LOG "
+"profile), you can still use a LUT made for that curve. Simply use a `.cube` "
+"file designed for your gamma under the Color Map effect’s **LUT Path**. Just "
+"be sure your footage gamma matches the LUT gamma—or the colors may look "
+"incorrect."
+msgstr ""
+"اگر دوربین یا روند کاری شما از گامای متفاوتی استفاده می‌کند (مثلاً پروفایل "
+"LOG)، هنوز می‌توانید از LUT ساخته شده برای آن منحنی استفاده کنید. کافی است "
+"فایل `.cube` طراحی شده برای گامای خود را در مسیر **LUT Path** افکت نقشه رنگ "
+"قرار دهید. فقط مطمئن شوید گامای فیلم شما با گامای LUT مطابقت دارد، در غیر "
+"این صورت رنگ‌ها ممکن است نادرست به نظر برسند."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:558
+msgid ""
+"The following **Rec 709** LUT files are included in OpenShot, organized into "
+"the following categories:"
+msgstr ""
+"فایل‌های LUT **Rec 709** زیر در OpenShot گنجانده شده‌اند و در دسته‌های زیر "
+"سازماندهی شده‌اند:"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:561
+msgid "Cinematic & Blockbuster"
+msgstr "سینمایی و پرفروش"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:600
+msgid "Dark & Moody"
+msgstr "تاریک و حال‌وهوایی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:642
+msgid "Film Stock & Vintage"
+msgstr "فیلم استوک و کلاسیک"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:686
+msgid "Teal & Orange Vibes"
+msgstr "حالت‌های فیروزه‌ای و نارنجی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:710
+msgid "Utility & Correction"
+msgstr "ابزار و اصلاح"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:725
+msgid "Vibrant & Colorful"
+msgstr "زنده و رنگارنگ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:746
+msgid ""
+"The Color Saturation effect adjusts the intensity and vibrancy of colors "
+"within the video. Increasing saturation can make colors more vivid and eye-"
+"catching, while decreasing it can create a more subdued, almost black-and-"
+"white appearance."
+msgstr ""
+"افکت اشباع رنگ شدت و زنده‌بودن رنگ‌ها در ویدیو را تنظیم می‌کند. افزایش اشباع "
+"می‌تواند رنگ‌ها را زنده‌تر و چشم‌نوازتر کند، در حالی که کاهش آن ظاهر ملایم‌تر و "
+"تقریباً سیاه‌وسفید ایجاد می‌کند."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:756
+msgid "saturation"
+msgstr "اشباع"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:756
+msgid ""
+"``(float, 0 to 4)`` The curve to adjust the overall saturation of the "
+"frame's image (0.0 = greyscale, 1.0 = normal, 2.0 = double saturation)"
+msgstr ""
+"``(float, 0 تا 4)`` منحنی تنظیم اشباع کلی تصویر فریم (0.0 = خاکستری، 1.0 = "
+"عادی، 2.0 = دو برابر اشباع)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:757
+msgid "saturation_B"
+msgstr "اشباع آبی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:757
+msgid ""
+"``(float, 0 to 4)`` The curve to adjust blue saturation of the frame's image"
+msgstr "``(float, 0 تا 4)`` منحنی تنظیم اشباع آبی تصویر فریم"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:758
+msgid "saturation_G"
+msgstr "اشباع سبز"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:758
+msgid ""
+"``(float, 0 to 4)`` The curve to adjust green saturation of the frame's "
+"image (0.0 = greyscale, 1.0 = normal, 2.0 = double saturation)"
+msgstr ""
+"``(float, 0 تا 4)`` منحنی تنظیم اشباع سبز تصویر فریم (0.0 = خاکستری، 1.0 = "
+"عادی، 2.0 = دو برابر اشباع)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:759
+msgid "saturation_R"
+msgstr "اشباع قرمز"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:759
+msgid ""
+"``(float, 0 to 4)`` The curve to adjust red saturation of the frame's image"
+msgstr "``(float, 0 تا 4)`` منحنی تنظیم اشباع قرمز تصویر فریم"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:764
+msgid ""
+"Shift the colors of an image up, down, left, and right (with infinite "
+"wrapping)."
+msgstr ""
+"رنگ‌های تصویر را به بالا، پایین، چپ و راست منتقل کنید (با پیچش بی‌نهایت)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:766
+msgid "**Each pixel has 4 color channels:**"
+msgstr "**هر پیکسل دارای ۴ کانال رنگ است:**"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:768
+msgid "Red, Green, Blue, and Alpha (i.e. transparency)"
+msgstr "قرمز، سبز، آبی و آلفا (یعنی شفافیت)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:769
+msgid "Each channel value is between 0 and 255"
+msgstr "مقدار هر کانال بین ۰ تا ۲۵۵ است"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:771
+msgid ""
+"The Color Shift effect simply \"moves\" or \"translates\" a specific color "
+"channel on the X or Y axis. *Not all video and image formats support an "
+"alpha channel, and in those cases, you will not see any changes when "
+"adjusting the color shift of the alpha channel.*"
+msgstr ""
+"افکت تغییر رنگ به سادگی یک کانال رنگ خاص را در محور X یا Y «جابجا» یا "
+"«منتقل» می‌کند. *تمام فرمت‌های ویدئو و تصویر از کانال آلفا پشتیبانی نمی‌کنند و "
+"در این موارد، هنگام تنظیم تغییر رنگ کانال آلفا، هیچ تغییری مشاهده نخواهید "
+"کرد.*"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:781
+msgid "alpha_x"
+msgstr "آلفا ایکس"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:781
+msgid "``(float, -1 to 1)`` Shift the Alpha X coordinates (left or right)"
+msgstr "``(float, -1 تا 1)`` جابجایی مختصات آلفا در محور X (چپ یا راست)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:782
+msgid "alpha_y"
+msgstr "آلفا وای"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:782
+msgid "``(float, -1 to 1)`` Shift the Alpha Y coordinates (up or down)"
+msgstr "``(float, -1 تا 1)`` جابجایی مختصات آلفا در محور Y (بالا یا پایین)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:783
+msgid "blue_x"
+msgstr "آبی ایکس"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:783
+msgid "``(float, -1 to 1)`` Shift the Blue X coordinates (left or right)"
+msgstr "``(float, -1 تا 1)`` جابجایی مختصات آبی در محور X (چپ یا راست)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:784
+msgid "blue_y"
+msgstr "آبی وای"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:784
+msgid "``(float, -1 to 1)`` Shift the Blue Y coordinates (up or down)"
+msgstr "``(float, -1 تا 1)`` جابجایی مختصات آبی در محور Y (بالا یا پایین)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:785
+msgid "green_x"
+msgstr "سبز ایکس"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:785
+msgid "``(float, -1 to 1)`` Shift the Green X coordinates (left or right)"
+msgstr "``(float, -1 تا 1)`` جابجایی مختصات سبز در محور X (چپ یا راست)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:786
+msgid "green_y"
+msgstr "سبز وای"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:786
+msgid "``(float, -1 to 1)`` Shift the Green Y coordinates (up or down)"
+msgstr "``(float, -1 تا 1)`` جابجایی مختصات سبز در محور Y (بالا یا پایین)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:787
+msgid "red_x"
+msgstr "قرمز ایکس"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:787
+msgid "``(float, -1 to 1)`` Shift the Red X coordinates (left or right)"
+msgstr "``(float, -1 تا 1)`` جابجایی مختصات قرمز در محور X (چپ یا راست)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:788
+msgid "red_y"
+msgstr "قرمز وای"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:788
+msgid "``(float, -1 to 1)`` Shift the Red Y coordinates (up or down)"
+msgstr "``(float, -1 تا 1)`` جابجایی مختصات قرمز در محور Y (بالا یا پایین)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:795
+msgid ""
+"The Crop effect removes unwanted outer areas from the video frame, allowing "
+"you to focus on a particular part of the shot, change the aspect ratio, or "
+"remove distracting elements from the edges of the frame. This effect is the "
+"primary method for cropping a Clip in OpenShot. The ``left``, ``right``, "
+"``top``, and ``bottom`` key-frames can even be animated, for a moving and "
+"resizing cropped area. You can leave the cropped area blank, or you can "
+"dynamically resize the cropped area to fill the screen."
+msgstr ""
+"افکت برش نواحی ناخواسته بیرونی از قاب ویدئو را حذف می‌کند و به شما امکان "
+"می‌دهد روی بخش خاصی از نما تمرکز کنید، نسبت تصویر را تغییر دهید یا عناصر "
+"مزاحم در لبه‌های قاب را حذف کنید. این افکت روش اصلی برش کلیپ در OpenShot است. "
+"کلیدفریم‌های ``left``, ``right``, ``top`` و ``bottom`` حتی می‌توانند متحرک "
+"شوند تا ناحیه برش متحرک و تغییر اندازه داشته باشد. می‌توانید ناحیه برش داده "
+"شده را خالی بگذارید یا آن را به صورت پویا تغییر اندازه دهید تا صفحه را پر "
+"کند."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:801
+msgid ""
+"You can quickly add this effect by right-clicking a clip and choosing :"
+"guilabel:`Crop`. When active, blue crop handles appear in the video preview "
+"so you can adjust the crop visually."
+msgstr ""
+"می‌توانید این افکت را سریعاً با کلیک راست روی یک کلیپ و انتخاب :guilabel:"
+"`Crop` اضافه کنید. وقتی فعال باشد، دسته‌های آبی برش در پیش‌نمایش ویدئو ظاهر "
+"می‌شوند تا بتوانید برش را به صورت بصری تنظیم کنید."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:811
+msgid "``(float, 0 to 1)`` Size of bottom bar"
+msgstr "``(float, 0 تا 1)`` اندازه نوار پایین"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:812
+msgid "``(float, 0 to 1)`` Size of left bar"
+msgstr "``(float, 0 تا 1)`` اندازه نوار چپ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:813
+msgid "``(float, 0 to 1)`` Size of right bar"
+msgstr "``(float, 0 تا 1)`` اندازه نوار راست"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:814
+msgid "``(float, 0 to 1)`` Size of top bar"
+msgstr "``(float, 0 تا 1)`` اندازه نوار بالا"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:815 ../effects.rst:862 ../effects.rst:1026
+msgid "x"
+msgstr "x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:815
+msgid "``(float, -1 to 1)`` X-offset"
+msgstr "``(float, -1 تا 1)`` جابجایی X"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:816 ../effects.rst:863 ../effects.rst:1027
+msgid "y"
+msgstr "y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:816
+msgid "``(float, -1 to 1)`` Y-offset"
+msgstr "``(float, -1 تا 1)`` جابجایی Y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:817
+msgid "resize"
+msgstr "تغییر اندازه"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:817
+msgid ""
+"``(bool, choices: ['Yes', 'No'])`` Replace the frame image with the cropped "
+"area (allows automatic scaling of the cropped image)"
+msgstr ""
+"``(bool, choices: ['Yes', 'No'])`` جایگزینی تصویر قاب با ناحیه برش داده شده "
+"(امکان مقیاس‌بندی خودکار تصویر برش داده شده را فراهم می‌کند)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:822
+msgid ""
+"The Deinterlace effect is used to remove interlacing artifacts from video "
+"footage, which are commonly seen as horizontal lines across moving objects. "
+"This effect is essential for converting interlaced video (such as from older "
+"video cameras or broadcast sources) into a progressive format suitable for "
+"modern displays."
+msgstr ""
+"افکت حذف درهم‌تنیدگی برای حذف نویزهای درهم‌تنیده شده در تصاویر ویدئویی استفاده "
+"می‌شود که معمولاً به صورت خطوط افقی روی اشیاء متحرک دیده می‌شوند. این افکت برای "
+"تبدیل ویدئوی درهم‌تنیده (مانند دوربین‌های قدیمی یا منابع پخش) به فرمت پیش‌رونده "
+"مناسب نمایشگرهای مدرن ضروری است."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:832
+msgid "isOdd"
+msgstr "isOdd"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:832
+msgid "``(bool, choices: ['Yes', 'No'])`` Use odd or even lines"
+msgstr "``(bool, choices: ['Yes', 'No'])`` استفاده از خطوط فرد یا زوج"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:837
+msgid ""
+"The Hue effect adjusts the overall color balance of the video, changing the "
+"hues without affecting the brightness or saturation. This can be used for "
+"color correction or to apply dramatic color effects that transform the mood "
+"of the footage."
+msgstr ""
+"افکت رنگ‌مایه تعادل کلی رنگ ویدئو را تنظیم می‌کند و رنگ‌ها را بدون تأثیر بر "
+"روشنایی یا اشباع تغییر می‌دهد. این می‌تواند برای تصحیح رنگ یا اعمال افکت‌های "
+"رنگی دراماتیک که حال و هوای فیلم را تغییر می‌دهند، استفاده شود."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:847
+msgid "hue"
+msgstr "رنگ‌مایه"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:847
+msgid "``(float, 0 to 1)`` The curve to adjust the percentage of hue shift"
+msgstr "``(float, 0 تا 1)`` منحنی تنظیم درصد تغییر رنگ‌مایه"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:852
+msgid ""
+"The Lens Flare effect simulates bright light hitting your camera lens, "
+"creating glowing halos, colored rings and gentle glares over your footage. "
+"Reflections are automatically placed along a line from the light source "
+"toward the center of the frame. You can animate any property with keyframes "
+"to follow your action or match your scene."
+msgstr ""
+"افکت شعله لنز نور روشن برخوردکننده به لنز دوربین شما را شبیه‌سازی می‌کند و "
+"هاله‌های درخشان، حلقه‌های رنگی و تابش‌های ملایم روی فیلم ایجاد می‌کند. بازتاب‌ها "
+"به طور خودکار در امتداد خطی از منبع نور به سمت مرکز قاب قرار می‌گیرند. "
+"می‌توانید هر ویژگی را با کلیدفریم‌ها متحرک کنید تا با حرکت یا صحنه شما هماهنگ "
+"شود."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:862
+msgid ""
+"``(float, -1 to 1)`` Horizontal position of the light source. -1 is left "
+"edge, 0 is center, +1 is right edge."
+msgstr ""
+"``(float, -1 تا 1)`` موقعیت افقی منبع نور. -1 لبه چپ، 0 مرکز، +1 لبه راست "
+"است."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:863
+msgid ""
+"``(float, -1 to 1)`` Vertical position of the light source. -1 is top edge, "
+"0 is center, +1 is bottom edge."
+msgstr ""
+"``(float, -1 تا 1)`` موقعیت عمودی منبع نور. -1 لبه بالا، 0 مرکز، +1 لبه "
+"پایین است."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:864
+msgid ""
+"``(float, 0 to 1)`` Overall glow strength and transparency. Higher values "
+"make brighter, more opaque flares."
+msgstr ""
+"``(float, 0 تا 1)`` شدت کلی درخشش و شفافیت. مقادیر بالاتر شعله‌های روشن‌تر و "
+"مات‌تر ایجاد می‌کنند."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:865
+msgid "size"
+msgstr "اندازه"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:865
+msgid ""
+"``(float, 0.1 to 3)`` Scale of the entire flare effect. Larger values "
+"enlarge halos, rings and glows."
+msgstr ""
+"``(float, 0.1 تا 3)`` مقیاس کل افکت شعله. مقادیر بزرگ‌تر هاله‌ها، حلقه‌ها و "
+"درخشش‌ها را بزرگ‌تر می‌کند."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:866
+msgid "spread"
+msgstr "گسترش"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:866
+msgid ""
+"``(float, 0 to 1)`` How far secondary reflections travel. 0 keeps them close "
+"to the source, 1 pushes them all the way toward the opposite edge."
+msgstr ""
+"``(float, 0 تا 1)`` میزان فاصله بازتاب‌های ثانویه. 0 آنها را نزدیک منبع نگه "
+"می‌دارد، 1 آنها را تا لبه مقابل می‌فرستد."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:867
+msgid "tint_color"
+msgstr "رنگ سایه"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:867
+msgid ""
+"``(color)`` Shifts the flare colors to match your scene. Use the RGBA "
+"sliders to pick hue and transparency."
+msgstr ""
+"``(color)`` رنگ‌های شعله را برای هماهنگی با صحنه شما تغییر می‌دهد. از "
+"لغزنده‌های RGBA برای انتخاب رنگ‌مایه و شفافیت استفاده کنید."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:872
+msgid ""
+"The Negative effect inverts the colors of the video, producing an image that "
+"resembles a photographic negative. This can be used for artistic effects, to "
+"create a surreal or otherworldly look, or to highlight specific elements "
+"within the frame."
+msgstr ""
+"افکت منفی رنگ‌های ویدئو را معکوس می‌کند و تصویری شبیه به نگاتیو عکاسی ایجاد "
+"می‌کند. این می‌تواند برای افکت‌های هنری، ایجاد ظاهری سورئال یا فرازمینی، یا "
+"برجسته کردن عناصر خاص در قاب استفاده شود."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:878
+msgid ""
+"The Object Detector effect employs machine learning algorithms (such as "
+"neural networks) to identify and highlight objects within the video frame. "
+"It can recognize multiple object types, such as vehicles, people, animals, "
+"and more! This can be used for analytical purposes, to add interactive "
+"elements to videos, or to track the movement of specific objects across the "
+"frame."
+msgstr ""
+"افکت شناسایی شیء از الگوریتم‌های یادگیری ماشین (مانند شبکه‌های عصبی) برای "
+"شناسایی و برجسته‌سازی اشیاء درون فریم ویدیو استفاده می‌کند. این افکت می‌تواند "
+"انواع مختلفی از اشیاء مانند وسایل نقلیه، افراد، حیوانات و غیره را تشخیص دهد! "
+"این قابلیت می‌تواند برای اهداف تحلیلی، افزودن عناصر تعاملی به ویدیوها یا "
+"ردیابی حرکت اشیاء خاص در فریم استفاده شود."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:884
+msgid "Class Filters & Confidence"
+msgstr "فیلترهای کلاس و اطمینان"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:885
+msgid ""
+"To adjust the detection process to your specific needs, the Object Detector "
+"includes properties for ``class filters`` and ``confidence thresholds``. By "
+"setting a class filter, such as \"Truck\" or \"Person,\" you can instruct "
+"the detector to focus on specific types of objects, limiting the types of "
+"objects tracked. The confidence threshold allows you to set a minimum level "
+"of certainty for detections, ensuring that only objects detected with a "
+"confidence level above this threshold are considered, which helps in "
+"reducing false positives and focusing on more accurate detections."
+msgstr ""
+"برای تنظیم فرآیند شناسایی بر اساس نیازهای خاص خود، افکت شناسایی شیء شامل "
+"ویژگی‌هایی برای ``فیلترهای کلاس`` و ``آستانه‌های اطمینان`` است. با تنظیم فیلتر "
+"کلاس، مانند «کامیون» یا «شخص»، می‌توانید به شناسایی‌کننده دستور دهید که روی "
+"انواع خاصی از اشیاء تمرکز کند و انواع اشیاء ردیابی شده را محدود کند. آستانه "
+"اطمینان به شما امکان می‌دهد حداقل سطح اطمینان برای شناسایی‌ها را تعیین کنید، "
+"به طوری که فقط اشیایی که با سطح اطمینان بالاتر از این آستانه شناسایی شده‌اند "
+"در نظر گرفته شوند، که به کاهش مثبت‌های کاذب و تمرکز بر شناسایی‌های دقیق‌تر کمک "
+"می‌کند."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:892 ../effects.rst:1115
+msgid "How Parenting Works"
+msgstr "نحوه عملکرد والدین‌سازی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:893
+msgid ""
+"Once you have tracked objects, you can \"parent\" other :ref:`clips_ref` to "
+"them. This means that the second clip, which could be a graphic, text, or "
+"another video layer, will now follow the tracked object as if it's attached "
+"to it. If the tracked object moves to the left, the child clip moves to the "
+"left. If the tracked object grows in size (gets closer to the camera), the "
+"child clip also scales up. For parented clips to appear correctly, they must "
+"be on a Track higher than the tracked objects, and set the appropriate :ref:"
+"`clip_scale_ref` property."
+msgstr ""
+"پس از ردیابی اشیاء، می‌توانید سایر :ref:`clips_ref` را به آن‌ها «والدین‌سازی» "
+"کنید. این بدان معناست که کلیپ دوم، که می‌تواند یک گرافیک، متن یا لایه ویدیویی "
+"دیگر باشد، اکنون به دنبال شیء ردیابی شده حرکت می‌کند، گویی به آن متصل است. "
+"اگر شیء ردیابی شده به سمت چپ حرکت کند، کلیپ فرزند نیز به سمت چپ حرکت می‌کند. "
+"اگر شیء ردیابی شده بزرگ‌تر شود (به دوربین نزدیک‌تر شود)، کلیپ فرزند نیز بزرگ‌تر "
+"می‌شود. برای اینکه کلیپ‌های والدین‌سازی شده به درستی نمایش داده شوند، باید روی "
+"یک ترک بالاتر از اشیاء ردیابی شده قرار داشته باشند و ویژگی مناسب :ref:"
+"`clip_scale_ref` تنظیم شود."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:899 ../effects.rst:1122
+msgid "See :ref:`clip_parent_ref`."
+msgstr "رجوع کنید به :ref:`clip_parent_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:902 ../effects.rst:999 ../effects.rst:1125
+msgid "Properties"
+msgstr "ویژگی‌ها"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:910
+msgid "class_filter"
+msgstr "فیلتر_کلاس"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:910
+msgid "``(string)`` Type of object class to filter (i.e. car, person)"
+msgstr "``(رشته)`` نوع کلاس شیء برای فیلتر کردن (مثلاً ماشین، شخص)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:911
+msgid "confidence_threshold"
+msgstr "آستانه_اطمینان"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:911
+msgid ""
+"``(float, 0 to 1)`` Minimum confidence value to display the detected objects"
+msgstr ""
+"``(عدد اعشاری، ۰ تا ۱)`` حداقل مقدار اطمینان برای نمایش اشیاء شناسایی شده"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:912
+msgid "display_box_text"
+msgstr "نمایش_متن_کادر"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:912
+msgid ""
+"``(int, choices: ['Yes', 'No'])`` Draw class name and ID of ALL tracked "
+"objects"
+msgstr ""
+"``(عدد صحیح، گزینه‌ها: ['بله', 'خیر'])`` نمایش نام کلاس و شناسه تمام اشیاء "
+"ردیابی شده"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:913
+msgid "display_boxes"
+msgstr "نمایش_کادرها"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:913
+msgid ""
+"``(int, choices: ['Yes', 'No'])`` Draw bounding box around ALL tracked "
+"objects (a quick way to hide all tracked objects)"
+msgstr ""
+"``(عدد صحیح، گزینه‌ها: ['بله', 'خیر'])`` رسم کادر دور تمام اشیاء ردیابی شده "
+"(راهی سریع برای مخفی کردن همه اشیاء ردیابی شده)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:914
+msgid "selected_object_index"
+msgstr "شاخص_شیء_انتخاب‌شده"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:914
+msgid ""
+"``(int, 0 to 200)`` Index of the tracked object that is `selected` to modify "
+"its properties"
+msgstr ""
+"``(عدد صحیح، ۰ تا ۲۰۰)`` شاخص شیء ردیابی شده که برای تغییر ویژگی‌های آن "
+"انتخاب شده است"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:915 ../effects.rst:1133
+msgid "draw_box"
+msgstr "رسم_کادر"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:915
+msgid ""
+"``(int, choices: ['Yes', 'No'])`` Whether to draw the box around the "
+"selected tracked object"
+msgstr ""
+"``(عدد صحیح، گزینه‌ها: ['بله', 'خیر'])`` آیا کادر دور شیء ردیابی شده انتخاب "
+"شده رسم شود"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:916 ../effects.rst:1134
+msgid "box_id"
+msgstr "شناسه_کادر"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:916 ../effects.rst:1134
+msgid ""
+"``(string)`` Internal ID of a tracked object box for identification purposes"
+msgstr "``(رشته)`` شناسه داخلی کادر شیء ردیابی شده برای اهداف شناسایی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:917 ../effects.rst:1135
+msgid "x1"
+msgstr "x1"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:917 ../effects.rst:1135
+msgid ""
+"``(float, 0 to 1)`` Top left X coordinate of a tracked object box, "
+"normalized to the video frame width"
+msgstr ""
+"``(عدد اعشاری، ۰ تا ۱)`` مختصات X گوشه بالا سمت چپ کادر شیء ردیابی شده، "
+"نرمال شده به عرض فریم ویدیو"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:918 ../effects.rst:1136
+msgid "y1"
+msgstr "y1"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:918 ../effects.rst:1136
+msgid ""
+"``(float, 0 to 1)`` Top left Y coordinate of a tracked object box, "
+"normalized to the video frame height"
+msgstr ""
+"``(عدد اعشاری، ۰ تا ۱)`` مختصات Y گوشه بالا سمت چپ کادر شیء ردیابی شده، "
+"نرمال شده به ارتفاع فریم ویدیو"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:919 ../effects.rst:1137
+msgid "x2"
+msgstr "x2"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:919 ../effects.rst:1137
+msgid ""
+"``(float, 0 to 1)`` Bottom right X coordinate of a tracked object box, "
+"normalized to the video frame width"
+msgstr ""
+"``(عدد اعشاری، ۰ تا ۱)`` مختصات X گوشه پایین سمت راست کادر شیء ردیابی شده، "
+"نرمال شده به عرض فریم ویدیو"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:920 ../effects.rst:1138
+msgid "y2"
+msgstr "y2"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:920 ../effects.rst:1138
+msgid ""
+"``(float, 0 to 1)`` Bottom right Y coordinate of a tracked object box, "
+"normalized to the video frame height"
+msgstr ""
+"``(عدد اعشاری، ۰ تا ۱)`` مختصات Y گوشه پایین سمت راست کادر شیء ردیابی شده، "
+"نرمال شده به ارتفاع فریم ویدیو"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:921 ../effects.rst:1139
+msgid "delta_x"
+msgstr "دلتا_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:921 ../effects.rst:1139
+msgid ""
+"``(float, -1.0 to 1)`` Horizontal movement delta of the tracked object box "
+"from its previous position"
+msgstr ""
+"``(عدد اعشاری، -۱.۰ تا ۱)`` تغییر حرکت افقی کادر شیء ردیابی شده نسبت به "
+"موقعیت قبلی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:922 ../effects.rst:1140
+msgid "delta_y"
+msgstr "دلتا_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:922 ../effects.rst:1140
+msgid ""
+"``(float, -1.0 to 1)`` Vertical movement delta of the tracked object box "
+"from its previous position"
+msgstr ""
+"``(عدد اعشاری، -۱.۰ تا ۱)`` تغییر حرکت عمودی کادر شیء ردیابی شده نسبت به "
+"موقعیت قبلی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:923 ../effects.rst:1141
+msgid "scale_x"
+msgstr "مقیاس_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:923 ../effects.rst:1141
+msgid ""
+"``(float, 0 to 1)`` Scaling factor in the X direction for the tracked object "
+"box, relative to its original size"
+msgstr ""
+"``(عدد اعشاری، ۰ تا ۱)`` ضریب مقیاس در جهت X برای کادر شیء ردیابی شده، نسبت "
+"به اندازه اصلی آن"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:924 ../effects.rst:1142
+msgid "scale_y"
+msgstr "مقیاس_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:924 ../effects.rst:1142
+msgid ""
+"``(float, 0 to 1)`` Scaling factor in the Y direction for the tracked object "
+"box, relative to its original size"
+msgstr ""
+"``(عدد اعشاری، ۰ تا ۱)`` ضریب مقیاس در جهت Y برای کادر شیء ردیابی شده، نسبت "
+"به اندازه اصلی آن"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:925 ../effects.rst:1143
+msgid "rotation"
+msgstr "چرخش"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:925 ../effects.rst:1143
+msgid ""
+"``(float, 0 to 360)`` Rotation angle of the tracked object box, in degrees"
+msgstr "``(عدد اعشاری، ۰ تا ۳۶۰)`` زاویه چرخش کادر شیء ردیابی شده، بر حسب درجه"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:926 ../effects.rst:1144
+msgid "visible"
+msgstr "قابل‌مشاهده"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:926 ../effects.rst:1144
+msgid ""
+"``(bool)`` Is the tracked object box visible in the current frame. Read-only "
+"property."
+msgstr ""
+"``(بولی)`` آیا کادر شیء ردیابی شده در فریم فعلی قابل مشاهده است. ویژگی فقط "
+"خواندنی."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:927 ../effects.rst:1145
+msgid "``(color)`` Color of the stroke (border) around the tracked object box"
+msgstr "``(رنگ)`` رنگ خط دور (حاشیه) کادر شیء ردیابی شده"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:928 ../effects.rst:1146
+msgid ""
+"``(int, 1 to 10)`` Width of the stroke (border) around the tracked object box"
+msgstr "``(عدد صحیح، ۱ تا ۱۰)`` عرض خط دور (حاشیه) کادر شیء ردیابی شده"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:929 ../effects.rst:1147
+msgid "stroke_alpha"
+msgstr "شفافیت خط دور"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:929 ../effects.rst:1147
+msgid ""
+"``(float, 0 to 1)`` Opacity of the stroke (border) around the tracked object "
+"box"
+msgstr "``(float, 0 تا 1)`` شفافیت خط دور (حاشیه) اطراف کادر شیء ردیابی شده"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:930 ../effects.rst:1148
+msgid ""
+"``(float, 0 to 1)`` Opacity of the background fill inside the tracked object "
+"box"
+msgstr "``(float, 0 تا 1)`` شفافیت پرکننده پس‌زمینه داخل کادر شیء ردیابی شده"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:931 ../effects.rst:1149
+msgid ""
+"``(int, 0 to 150)`` Radius of the corners for the background fill inside the "
+"tracked object box"
+msgstr ""
+"``(int, 0 تا 150)`` شعاع گوشه‌ها برای پرکننده پس‌زمینه داخل کادر شیء ردیابی شده"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:932 ../effects.rst:1150
+msgid "``(color)`` Color of the background fill inside the tracked object box"
+msgstr "``(color)`` رنگ پرکننده پس‌زمینه داخل کادر شیء ردیابی شده"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:937
+msgid ""
+"The Outline effect adds a customizable border around images or text within a "
+"video frame. It works by extracting the image’s alpha channel, blurring it "
+"to generate a smooth outline mask, and then combining this mask with a solid "
+"color layer. Users can adjust the outline’s width as well as its color "
+"components (red, green, blue) and transparency (alpha), allowing for a wide "
+"range of visual styles. This effect is ideal for emphasizing text, creating "
+"visual separation, and adding an artistic flair to your videos."
+msgstr ""
+"افکت خط دور یک حاشیه قابل تنظیم به دور تصاویر یا متن درون فریم ویدیو اضافه "
+"می‌کند. این افکت با استخراج کانال آلفای تصویر، تار کردن آن برای ایجاد ماسک خط "
+"دور صاف، و سپس ترکیب این ماسک با یک لایه رنگی جامد کار می‌کند. کاربران "
+"می‌توانند عرض خط دور و همچنین اجزای رنگی آن (قرمز، سبز، آبی) و شفافیت (آلفا) "
+"را تنظیم کنند که امکان ایجاد سبک‌های بصری متنوع را فراهم می‌آورد. این افکت "
+"برای برجسته‌سازی متن، ایجاد جداسازی بصری و افزودن جلوه هنری به ویدیوها ایده‌آل "
+"است."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:949
+msgid "width"
+msgstr "عرض"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:949
+msgid "``(float, 0 to 100)``   The width of the outline in pixels."
+msgstr "``(float, 0 تا 100)`` عرض خط دور به پیکسل."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:950
+msgid "red"
+msgstr "قرمز"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:950
+msgid "``(float, 0 to 255)``   The red color component of the outline."
+msgstr "``(float, 0 تا 255)`` مؤلفه رنگ قرمز خط دور."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:951
+msgid "green"
+msgstr "سبز"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:951
+msgid "``(float, 0 to 255)``   The green color component of the outline."
+msgstr "``(float, 0 تا 255)`` مؤلفه رنگ سبز خط دور."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:952
+msgid "blue"
+msgstr "آبی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:952
+msgid "``(float, 0 to 255)``   The blue color component of the outline."
+msgstr "``(float, 0 تا 255)`` مؤلفه رنگ آبی خط دور."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:953
+msgid "alpha"
+msgstr "آلفا"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:953
+msgid "``(float, 0 to 255)``   The transparency (alpha) value for the outline."
+msgstr "``(float, 0 تا 255)`` مقدار شفافیت (آلفا) برای خط دور."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:958
+msgid ""
+"The Pixelate effect increases or decreases the size of the pixels in the "
+"video, creating a mosaic-like appearance. This can be used to obscure "
+"details (such as faces or license plates for privacy reasons), or as a "
+"stylistic effect to evoke a retro, digital, or abstract aesthetic."
+msgstr ""
+"افکت پیکسل‌سازی اندازه پیکسل‌ها در ویدیو را افزایش یا کاهش می‌دهد و ظاهری شبیه "
+"موزاییک ایجاد می‌کند. این می‌تواند برای مخفی کردن جزئیات (مانند چهره‌ها یا پلاک "
+"خودروها به دلایل حفظ حریم خصوصی) یا به عنوان یک افکت سبک‌شناسی برای ایجاد حس "
+"رترو، دیجیتال یا انتزاعی استفاده شود."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:968
+msgid "``(float, 0 to 1)`` The curve to adjust the bottom margin size"
+msgstr "``(float, 0 تا 1)`` منحنی تنظیم اندازه حاشیه پایین"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:969
+msgid "``(float, 0 to 1)`` The curve to adjust the left margin size"
+msgstr "``(float, 0 تا 1)`` منحنی تنظیم اندازه حاشیه چپ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:970
+msgid "pixelization"
+msgstr "پیکسل‌سازی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:970
+msgid "``(float, 0 to 0.99)`` The curve to adjust the amount of pixelization"
+msgstr "``(float, 0 تا 0.99)`` منحنی تنظیم میزان پیکسل‌سازی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:971
+msgid "``(float, 0 to 1)`` The curve to adjust the right margin size"
+msgstr "``(float, 0 تا 1)`` منحنی تنظیم اندازه حاشیه راست"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:972
+msgid "``(float, 0 to 1)`` The curve to adjust the top margin size"
+msgstr "``(float, 0 تا 1)`` منحنی تنظیم اندازه حاشیه بالا"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:977
+msgid ""
+"The Sharpen effect enhances perceived detail by first blurring the frame "
+"slightly and then adding a scaled difference (the *un-sharp mask*) back on "
+"top. This boosts edge contrast, making textures and outlines appear crisper "
+"without changing overall brightness."
+msgstr ""
+"افکت تیزکردن با ابتدا کمی تار کردن فریم و سپس افزودن تفاوت مقیاس‌یافته (ماسک "
+"غیرتیز) روی آن، جزئیات قابل مشاهده را افزایش می‌دهد. این کنتراست لبه‌ها را "
+"تقویت می‌کند و باعث می‌شود بافت‌ها و خطوط واضح‌تر به نظر برسند بدون اینکه "
+"روشنایی کلی تغییر کند."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:982
+msgid "Modes"
+msgstr "حالت‌ها"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:984
+msgid ""
+"**Unsharp** – Classic un-sharp mask: the edge detail is added back to the "
+"*original* frame. Produces the familiar punchy sharpen seen in photo editors."
+msgstr ""
+"**Unsharp** – ماسک غیرتیز کلاسیک: جزئیات لبه به فریم *اصلی* اضافه می‌شود. "
+"تیزشدن قوی و آشنایی که در ویرایشگرهای عکس دیده می‌شود را ایجاد می‌کند."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:987
+msgid ""
+"**HighPass** – High-pass blend: the edge detail is added to the *blurred* "
+"frame, then the result replaces the original.  Gives a softer, more "
+"“contrasty” look and can rescue highlights that would otherwise clip."
+msgstr ""
+"**HighPass** – ترکیب گذر بالا: جزئیات لبه به فریم *تار شده* اضافه می‌شود، سپس "
+"نتیجه جایگزین فریم اصلی می‌شود. ظاهری نرم‌تر و با کنتراست بیشتر ایجاد می‌کند و "
+"می‌تواند هایلایت‌هایی که ممکن است بریده شوند را حفظ کند."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:991
+msgid "Channels"
+msgstr "کانال‌ها"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:993
+msgid ""
+"**All** – Apply the edge mask to the full RGB signal (strongest effect – "
+"colour and brightness sharpened)."
+msgstr ""
+"**All** – اعمال ماسک لبه به کل سیگنال RGB (قوی‌ترین افکت – رنگ و روشنایی تیز "
+"شده)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:994
+msgid ""
+"**Luma** – Apply only to luma (brightness).  Colours stay untouched, so "
+"chroma noise is not amplified."
+msgstr ""
+"**Luma** – اعمال فقط به لومای (روشنایی). رنگ‌ها دست نخورده باقی می‌مانند، "
+"بنابراین نویز کرومایی تقویت نمی‌شود."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:995
+msgid ""
+"**Chroma** – Apply only to the chroma (colour difference) channels.  Useful "
+"for gently reviving colour edges without changing perceived brightness."
+msgstr ""
+"**Chroma** – اعمال فقط به کانال‌های کرومایی (تفاوت رنگ). برای احیای ملایم "
+"لبه‌های رنگی بدون تغییر روشنایی درک شده مفید است."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1007
+msgid "amount"
+msgstr "مقدار"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1007
+msgid "``(float, 0 to 40)`` Strength multiplier / up to 100% edge boost"
+msgstr "``(float, 0 تا 40)`` ضریب قدرت / تا ۱۰۰٪ افزایش لبه"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1008
+msgid "radius"
+msgstr "شعاع"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1008
+msgid ""
+"``(float, 0 to 10)`` Blur radius in pixels at 720p (auto-scaled to clip size)"
+msgstr ""
+"``(float, 0 تا 10)`` شعاع تاری به پیکسل در ۷۲۰p (به صورت خودکار متناسب با "
+"اندازه کلیپ مقیاس می‌شود)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1009
+msgid "``(float, 0 to 1)`` Minimum luma difference that will be sharpened"
+msgstr "``(float, 0 تا 1)`` حداقل اختلاف لومایی که تیز خواهد شد"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1010
+msgid "mode"
+msgstr "حالت"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1010
+msgid ""
+"``(int, choices: ['Unsharp', 'HighPass'])`` Math style of the sharpening mask"
+msgstr "``(int, choices: ['Unsharp', 'HighPass'])`` سبک ریاضی ماسک تیزکردن"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1011
+msgid "channel"
+msgstr "کانال"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1011
+msgid ""
+"``(int, choices: ['All', 'Luma', 'Chroma'])`` Which colour channels receive "
+"sharpening"
+msgstr ""
+"``(int, choices: ['All', 'Luma', 'Chroma'])`` کدام کانال‌های رنگی تیز می‌شوند"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1016
+msgid ""
+"The Shift effect moves the entire image in different directions (up, down, "
+"left, and right with infinite wrapping), creating a sense of motion or "
+"disorientation. This can be used for transitions, to simulate camera "
+"movement, or to add dynamic motion to static shots."
+msgstr ""
+"افکت جابجایی کل تصویر را در جهات مختلف (بالا، پایین، چپ و راست با پیچش "
+"بی‌نهایت) حرکت می‌دهد و حس حرکت یا سردرگمی ایجاد می‌کند. این می‌تواند برای "
+"انتقال‌ها، شبیه‌سازی حرکت دوربین یا افزودن حرکت پویا به نماهای ثابت استفاده "
+"شود."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1026
+msgid "``(float, -1 to 1)`` Shift the X coordinates (left or right)"
+msgstr "``(float, -1 تا 1)`` جابجایی مختصات X (چپ یا راست)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1027
+msgid "``(float, -1 to 1)`` Shift the Y coordinates (up or down)"
+msgstr "``(float, -1 تا 1)`` جابجایی مختصات Y (بالا یا پایین)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1033
+msgid ""
+"The Spherical Projection effect flattens 360° or fisheye footage into a "
+"normal rectangular view, or generates fisheye output. Steer a virtual camera "
+"with yaw, pitch, and roll. Control the output view with FOV. Choose the "
+"input type (equirect or one of the fisheye models), pick a projection mode "
+"for the output, and select a sampling mode that balances quality and speed. "
+"This is ideal for keyframed “virtual camera” moves inside 360° clips and for "
+"converting circular fisheye shots."
+msgstr ""
+"افکت پرتاب کروی، فیلم‌های ۳۶۰ درجه یا فیش‌آی را به نمای مستطیلی معمولی تبدیل "
+"می‌کند یا خروجی فیش‌آی تولید می‌کند. با استفاده از yaw، pitch و roll دوربین "
+"مجازی را هدایت کنید. نمای خروجی را با FOV کنترل کنید. نوع ورودی (equirect یا "
+"یکی از مدل‌های فیش‌آی) را انتخاب کنید، حالت پرتاب برای خروجی را تعیین کنید و "
+"حالت نمونه‌برداری را که تعادل بین کیفیت و سرعت است، انتخاب کنید. این برای "
+"حرکت‌های کلید‌فریم‌شده «دوربین مجازی» در کلیپ‌های ۳۶۰ درجه و تبدیل شات‌های "
+"دایره‌ای فیش‌آی ایده‌آل است."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1044
+msgid "yaw"
+msgstr "یاو"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1044
+msgid ""
+"``(float, -180 to 180)`` Horizontal rotation around the up axis (degrees)."
+msgstr "``(float, -۱۸۰ تا ۱۸۰)`` چرخش افقی حول محور بالا (درجه)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1046
+msgid "pitch"
+msgstr "پیتچ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1046
+msgid ""
+"``(float, -180 to 180)`` Vertical rotation around the right axis (degrees)."
+msgstr "``(float, -۱۸۰ تا ۱۸۰)`` چرخش عمودی حول محور راست (درجه)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1048
+msgid "roll"
+msgstr "رول"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1048
+msgid "``(float, -180 to 180)`` Rotation around the forward axis (degrees)."
+msgstr "``(float, -۱۸۰ تا ۱۸۰)`` چرخش حول محور جلو (درجه)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1050
+msgid "fov"
+msgstr "FOV"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1050
+msgid ""
+"``(float, 0 to 179)`` **Out FOV.** Horizontal field of view of the virtual "
+"camera (degrees) for the output."
+msgstr ""
+"``(float, ۰ تا ۱۷۹)`` **FOV خروجی.** میدان دید افقی دوربین مجازی (درجه) برای "
+"خروجی."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1052
+msgid "in_fov"
+msgstr "FOV ورودی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1052
+msgid ""
+"``(float, 1 to 360)`` **In FOV.** Total coverage of the source lens. Used "
+"when **Input Model = Fisheye** (typical value 180). Ignored for equirect "
+"sources."
+msgstr ""
+"``(float, ۱ تا ۳۶۰)`` **FOV ورودی.** پوشش کلی لنز منبع. زمانی استفاده می‌شود "
+"که **مدل ورودی = فیش‌آی** باشد (مقدار معمول ۱۸۰). برای منابع equirect نادیده "
+"گرفته می‌شود."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1054
+msgid "projection_mode"
+msgstr "حالت پرتاب"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1054
+msgid ""
+"``(int)`` Output projection: **Sphere (0):** rectilinear output over the "
+"full sphere. **Hemisphere (1):** rectilinear output over a half sphere. "
+"**Fisheye: Equidistant (2)**, **Equisolid (3)**, **Stereographic (4)**, "
+"**Orthographic (5)**: circular fisheye output using the selected mapping."
+msgstr ""
+"``(int)`` تصویر خروجی: **کره (0):** خروجی رکتیلینیر روی کل کره. **نیم‌کره (1):"
+"** خروجی رکتیلینیر روی نیم‌کره. **چشم ماهی: فاصله مساوی (2)**، **اکویسولید "
+"(3)**، **استریوگرافیک (4)**، **ارتوگرافیک (5):** خروجی دایره‌ای چشم ماهی با "
+"استفاده از نگاشت انتخاب شده."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1059
+msgid "input_model"
+msgstr "مدل ورودی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1059
+msgid ""
+"``(int)`` Source lens model: **Equirectangular (0)**, **Fisheye: Equidistant "
+"(1)**, **Fisheye: Equisolid (2)**, **Fisheye: Stereographic (3)**, "
+"**Fisheye: Orthographic (4)**."
+msgstr ""
+"``(int)`` مدل لنز منبع: **Equirectangular (۰)**، **فیش‌آی: فاصله مساوی (۱)**، "
+"**فیش‌آی: Equisolid (۲)**، **فیش‌آی: استریوگرافیک (۳)**، **فیش‌آی: ارتوگرافیک "
+"(۴)**."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1062
+msgid "invert"
+msgstr "معکوس"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1062
+msgid ""
+"``(int)`` Flip the view by 180° without mirroring. **Normal (0)**, **Invert "
+"(1)**. For equirect sources this behaves like a 180° yaw. For fisheye inputs "
+"it swaps front/back hemispheres."
+msgstr ""
+"``(int)`` چرخش نما به اندازه ۱۸۰ درجه بدون آینه‌ای کردن. **عادی (۰)**، "
+"**معکوس (۱)**. برای منابع equirect مانند yaw ۱۸۰ درجه عمل می‌کند. برای "
+"ورودی‌های فیش‌آی نیم‌کره‌های جلو و عقب را جابجا می‌کند."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1065
+msgid "interpolation"
+msgstr "درون‌یابی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1065
+msgid ""
+"``(int)`` Sampling method: **Nearest (0)**, **Bilinear (1)**, **Bicubic "
+"(2)**, **Auto (3)**. Auto picks Bilinear at ~1:1, Bicubic when upscaling, "
+"and a mipmapped Bilinear when downscaling."
+msgstr ""
+"``(int)`` روش نمونه‌برداری: **نزدیک‌ترین (۰)**، **دوخطی (۱)**، **دو‌مکعبی "
+"(۲)**، **خودکار (۳)**. حالت خودکار در نسبت ~۱:۱ دوخطی، هنگام بزرگ‌نمایی "
+"دو‌مکعبی و هنگام کوچک‌نمایی دوخطی mipmapped را انتخاب می‌کند."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1072
+msgid ""
+"**Flatten a fisheye clip to a normal view:** Set **Input Model** to the "
+"correct fisheye type, set **In FOV** to your lens coverage (often 180), "
+"choose **Projection Mode = Sphere** or **Hemisphere**, then frame with **Yaw/"
+"Pitch/Roll** and **Out FOV**."
+msgstr ""
+"**تبدیل کلیپ فیش‌آی به نمای معمولی:** **مدل ورودی** را به نوع صحیح فیش‌آی "
+"تنظیم کنید، **FOV ورودی** را به پوشش لنز خود (معمولاً ۱۸۰) تنظیم کنید، **حالت "
+"پرتاب = کره** یا **نیم‌کره** را انتخاب کنید، سپس با **Yaw/Pitch/Roll** و "
+"**FOV خروجی** قاب‌بندی کنید."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1074
+msgid ""
+"**Reframe an equirect clip:** Set **Input Model = Equirectangular**, pick "
+"**Sphere** (full) or **Hemisphere** (front/back). **Invert** on equirect is "
+"equivalent to yaw +180 and does not mirror."
+msgstr ""
+"**بازقاب‌بندی کلیپ equirect:** **مدل ورودی = Equirectangular** را تنظیم کنید، "
+"**کره** (کامل) یا **نیم‌کره** (جلو/عقب) را انتخاب کنید. **معکوس** در equirect "
+"معادل yaw +۱۸۰ است و آینه‌ای نمی‌کند."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1076
+msgid ""
+"**Create a fisheye output:** Choose one of the **Fisheye** projection modes "
+"(2..5). **Out FOV** controls disk coverage (180 gives a classic circular "
+"fisheye)."
+msgstr ""
+"**ایجاد خروجی فیش‌آی:** یکی از حالت‌های پرتاب **فیش‌آی** (۲ تا ۵) را انتخاب "
+"کنید. **FOV خروجی** پوشش دیسک را کنترل می‌کند (۱۸۰ خروجی دایره‌ای کلاسیک فیش‌آی "
+"می‌دهد)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1078
+msgid ""
+"If the image looks mirrored, turn **Invert** off. If you need the back view "
+"on equirect, use **Invert** or add +180 to **Yaw**."
+msgstr ""
+"اگر تصویر آینه‌ای به نظر می‌رسد، **معکوس** را خاموش کنید. اگر نمای پشت در "
+"equirect نیاز دارید، از **معکوس** استفاده کنید یا +۱۸۰ به **Yaw** اضافه کنید."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1079
+msgid ""
+"If the output looks soft or aliased, reduce **Out FOV** or increase export "
+"resolution. **Auto** interpolation adapts the filter to scaling."
+msgstr ""
+"اگر خروجی نرم یا دارای لبه‌های دندانه‌دار است، **FOV خروجی** را کاهش دهید یا "
+"وضوح خروجی را افزایش دهید. درون‌یابی **خودکار** فیلتر را با مقیاس تطبیق می‌دهد."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1083
+msgid ""
+"The Stabilizer effect reduces unwanted shake and jitter in handheld or "
+"unstable video footage, resulting in smoother, more professional-looking "
+"shots. This is particularly useful for action scenes, handheld shots, or any "
+"footage where a tripod was not used."
+msgstr ""
+"افکت تثبیت‌کننده لرزش و تکان‌های ناخواسته در فیلم‌های دستی یا ناپایدار را کاهش "
+"می‌دهد و باعث ایجاد شات‌های صاف‌تر و حرفه‌ای‌تر می‌شود. این برای صحنه‌های اکشن، "
+"فیلم‌های دستی یا هر فیلمی که از سه‌پایه استفاده نشده باشد، بسیار مفید است."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1093
+msgid "zoom"
+msgstr "بزرگ‌نمایی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1093
+msgid ""
+"``(float, 0 to 2)`` Percentage to zoom into the clip, to crop off the "
+"shaking and uneven edges"
+msgstr ""
+"``(float, ۰ تا ۲)`` درصد بزرگ‌نمایی روی کلیپ برای برش لرزش و لبه‌های ناهموار"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1098
+msgid ""
+"The Tracker effect allows for the tracking of a specific object or area "
+"within the video frame across multiple frames. This can be used for motion "
+"tracking, adding effects or annotations that follow the movement of objects, "
+"or for stabilizing footage based on a tracked point.When tracking an object, "
+"be sure to select the entire object, which is visible at the start of a "
+"clip, and choose one of the following ``Tracking Type`` algorithms. The "
+"tracking algorithm then follows this object from frame to frame, recording "
+"its position, scale, and sometimes rotation."
+msgstr ""
+"افکت ردیاب امکان ردیابی یک شیء یا ناحیه خاص در فریم ویدیو در چندین فریم را "
+"فراهم می‌کند. این می‌تواند برای ردیابی حرکت، افزودن افکت‌ها یا یادداشت‌هایی که "
+"حرکت اشیاء را دنبال می‌کنند، یا تثبیت فیلم بر اساس نقطه ردیابی شده استفاده "
+"شود. هنگام ردیابی یک شیء، مطمئن شوید کل شیء که در ابتدای کلیپ قابل مشاهده "
+"است انتخاب شده و یکی از الگوریتم‌های ``نوع ردیابی`` زیر را انتخاب کنید. "
+"الگوریتم ردیابی سپس این شیء را از فریم به فریم دنبال کرده و موقعیت، مقیاس و "
+"گاهی چرخش آن را ثبت می‌کند."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1105
+msgid "Tracking Type"
+msgstr "نوع ردیابی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1106
+msgid ""
+"**KCF:** (default) A blend of Boosting and MIL strategies, employing "
+"correlation filters on overlapping areas from 'bags' to accurately track and "
+"predict object movement. It offers higher speed and accuracy and can stop "
+"tracking when the object is lost but struggles to resume tracking after "
+"losing the object."
+msgstr ""
+"**KCF:** (پیش‌فرض) ترکیبی از استراتژی‌های Boosting و MIL است که از فیلترهای "
+"همبستگی روی نواحی همپوشان از «کیسه‌ها» برای ردیابی دقیق و پیش‌بینی حرکت شیء "
+"استفاده می‌کند. سرعت و دقت بالاتری دارد و می‌تواند ردیابی را هنگام از دست دادن "
+"شیء متوقف کند اما در از سرگیری ردیابی پس از از دست دادن شیء مشکل دارد."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1107
+msgid ""
+"**MIL:** Improves upon Boosting by considering multiple potential positives "
+"('bags') around the definite positive object, increasing robustness to noise "
+"and maintaining good accuracy. However, it shares the Boosting Tracker's "
+"drawbacks of low speed and difficulty in stopping tracking when the object "
+"is lost."
+msgstr ""
+"**MIL:** نسبت به Boosting با در نظر گرفتن چندین مثبت احتمالی («کیسه‌ها») "
+"اطراف شیء مثبت قطعی بهبود یافته است، که مقاومت در برابر نویز را افزایش داده "
+"و دقت خوبی حفظ می‌کند. با این حال، معایب ردیاب Boosting مانند سرعت پایین و "
+"دشواری در توقف ردیابی هنگام از دست دادن شیء را دارد."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1108
+msgid ""
+"**BOOSTING:** Utilizes the online AdaBoost algorithm to enhance the "
+"classification of tracked objects by focusing on incorrectly classified "
+"ones. It requires setting the initial frame and treats nearby objects as "
+"background, adjusting to new frames based on maximum score areas. It's known "
+"for accurate tracking but suffers from low speed, noise sensitivity, and "
+"difficulty stopping tracking upon object loss."
+msgstr ""
+"**BOOSTING:** از الگوریتم آنلاین AdaBoost برای بهبود طبقه‌بندی اشیاء "
+"ردیابی‌شده با تمرکز بر اشیاء طبقه‌بندی‌شده نادرست استفاده می‌کند. نیاز به تنظیم "
+"فریم اولیه دارد و اشیاء نزدیک را به عنوان پس‌زمینه در نظر می‌گیرد و بر اساس "
+"مناطق با بیشترین امتیاز به فریم‌های جدید تنظیم می‌شود. این الگوریتم به دلیل "
+"دقت بالا در ردیابی شناخته شده است اما سرعت پایین، حساسیت به نویز و دشواری در "
+"توقف ردیابی هنگام از دست دادن شیء دارد."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1109
+msgid ""
+"**TLD:** Decomposes tracking into tracking, learning, and detection phases, "
+"allowing for adaptation and correction over time. While it can handle object "
+"scaling and occlusions reasonably well, it may behave unpredictably, with "
+"instability in tracking and detection."
+msgstr ""
+"**TLD:** ردیابی را به مراحل ردیابی، یادگیری و تشخیص تقسیم می‌کند که امکان "
+"سازگاری و اصلاح در طول زمان را فراهم می‌کند. در حالی که می‌تواند مقیاس‌بندی "
+"اشیاء و انسدادها را به خوبی مدیریت کند، ممکن است رفتار غیرقابل پیش‌بینی داشته "
+"باشد و در ردیابی و تشخیص ناپایدار باشد."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1110
+msgid ""
+"**MEDIANFLOW:** Based on the Lucas-Kanade method, it analyzes forward and "
+"backward movement to estimate trajectory errors for real-time position "
+"prediction. It's fast and accurate under certain conditions but can lose "
+"track of fast-moving objects."
+msgstr ""
+"**MEDIANFLOW:** بر اساس روش Lucas-Kanade، حرکت رو به جلو و عقب را تحلیل "
+"می‌کند تا خطاهای مسیر را برای پیش‌بینی موقعیت در زمان واقعی تخمین بزند. در "
+"شرایط خاص سریع و دقیق است اما ممکن است اشیاء با حرکت سریع را از دست بدهد."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1111
+msgid ""
+"**MOSSE:** Utilizes adaptive correlations in Fourier space to maintain "
+"robustness against lighting, scale, and pose changes. It boasts very high "
+"tracking speeds and is better at continuing tracking after loss, but it may "
+"persist in tracking an absent object."
+msgstr ""
+"**MOSSE:** از همبستگی‌های تطبیقی در فضای فوریه برای حفظ مقاومت در برابر "
+"تغییرات نور، مقیاس و حالت استفاده می‌کند. سرعت ردیابی بسیار بالایی دارد و در "
+"ادامه ردیابی پس از از دست دادن بهتر عمل می‌کند، اما ممکن است به ردیابی شیء "
+"غایب ادامه دهد."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1112
+msgid ""
+"**CSRT:** Employs spatial reliability maps to adjust filter support, "
+"enhancing the ability to track non-rectangular objects and perform well even "
+"with object overlaps. However, it is slower and may not operate reliably "
+"when the object is lost."
+msgstr ""
+"**CSRT:** از نقشه‌های قابلیت اطمینان فضایی برای تنظیم پشتیبانی فیلتر استفاده "
+"می‌کند که توانایی ردیابی اشیاء غیرمستطیلی و عملکرد خوب حتی در صورت همپوشانی "
+"اشیاء را افزایش می‌دهد. با این حال، کندتر است و ممکن است هنگام از دست دادن "
+"شیء به طور قابل اعتماد عمل نکند."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1116
+msgid ""
+"Once you have a tracked object, you can \"parent\" other :ref:`clips_ref` to "
+"it. This means that the second clip, which could be a graphic, text, or "
+"another video layer, will now follow the tracked object as if it's attached "
+"to it. If the tracked object moves to the left, the child clip moves to the "
+"left. If the tracked object grows in size (gets closer to the camera), the "
+"child clip also scales up. For parented clips to appear correctly, they must "
+"be on a Track higher than the tracked objects, and set the appropriate :ref:"
+"`clip_scale_ref` property."
+msgstr ""
+"پس از ردیابی یک شیء، می‌توانید سایر :ref:`clips_ref` را به آن «والد» کنید. "
+"این بدان معناست که کلیپ دوم، که می‌تواند یک گرافیک، متن یا لایه ویدیویی دیگر "
+"باشد، اکنون مانند اینکه به شیء ردیابی شده متصل است، دنبال آن حرکت می‌کند. اگر "
+"شیء ردیابی شده به سمت چپ حرکت کند، کلیپ فرزند نیز به سمت چپ حرکت می‌کند. اگر "
+"شیء ردیابی شده بزرگ‌تر شود (به دوربین نزدیک‌تر شود)، کلیپ فرزند نیز بزرگ "
+"می‌شود. برای نمایش صحیح کلیپ‌های والد شده، باید روی یک ترک بالاتر از اشیاء "
+"ردیابی شده قرار داشته باشند و ویژگی مناسب :ref:`clip_scale_ref` تنظیم شود."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1133
+msgid ""
+"``(int, choices: ['Yes', 'No'])`` Whether to draw the box around the tracked "
+"object"
+msgstr ""
+"``(int, choices: ['Yes', 'No'])`` آیا کادر دور شیء ردیابی شده کشیده شود"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1155
+msgid ""
+"The Wave effect distorts the image into a wave-like pattern, simulating "
+"effects like heat haze, water reflections, or other forms of distortion. The "
+"speed, amplitude, and direction of the waves can be adjusted."
+msgstr ""
+"افکت موج تصویر را به الگوی موج‌مانند تحریف می‌کند و اثراتی مانند هاله گرمایی، "
+"بازتاب آب یا سایر اشکال تحریف را شبیه‌سازی می‌کند. سرعت، دامنه و جهت امواج "
+"قابل تنظیم است."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1164
+msgid "amplitude"
+msgstr "دامنه"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1164
+msgid "``(float, 0 to 5)`` The height of the wave"
+msgstr "``(float, 0 to 5)`` ارتفاع موج"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1165
+msgid "multiplier"
+msgstr "ضریب"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1165
+msgid "``(float, 0 to 10)`` Amount to multiply the wave (make it bigger)"
+msgstr "``(float, 0 to 10)`` مقدار ضرب موج (بزرگ‌تر کردن آن)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1166
+msgid "shift_x"
+msgstr "جابجایی_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1166
+msgid "``(float, 0 to 1000)`` Amount to shift X-axis"
+msgstr "``(float, 0 to 1000)`` مقدار جابجایی محور X"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1167
+msgid "speed_y"
+msgstr "سرعت_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1167
+msgid "``(float, 0 to 300)`` Speed of the wave on the Y-axis"
+msgstr "``(float, 0 to 300)`` سرعت موج در محور Y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1168
+msgid "wavelength"
+msgstr "طول موج"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1168
+msgid "``(float, 0 to 3)`` The length of the wave"
+msgstr "``(float, 0 to 3)`` طول موج"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1172
+msgid "Audio Effects"
+msgstr "افکت‌های صوتی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1174
+msgid ""
+"Audio effects modify the waveforms and audio sample data of a clip. Below is "
+"a list of audio effects, and their properties. Often it is best to "
+"experiment with an effect, entering different values into the properties, "
+"and observing the results."
+msgstr ""
+"افکت‌های صوتی شکل موج‌ها و داده‌های نمونه صوتی یک کلیپ را تغییر می‌دهند. در زیر "
+"فهرستی از افکت‌های صوتی و ویژگی‌های آن‌ها آمده است. اغلب بهترین روش آزمایش یک "
+"افکت با وارد کردن مقادیر مختلف در ویژگی‌ها و مشاهده نتایج است."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1180
+msgid ""
+"The Compressor effect in audio processing reduces the dynamic range of the "
+"audio signal, making loud sounds quieter and quiet sounds louder. This "
+"creates a more consistent volume level, useful for balancing the loudness of "
+"different audio sources or for achieving a particular sound characteristic "
+"in music production."
+msgstr ""
+"افکت کمپرسور در پردازش صوتی دامنه دینامیکی سیگنال صوتی را کاهش می‌دهد، صداهای "
+"بلند را آرام‌تر و صداهای آرام را بلندتر می‌کند. این باعث ایجاد سطح صدای "
+"یکنواخت‌تر می‌شود که برای متعادل‌سازی بلندی صداهای مختلف یا دستیابی به ویژگی "
+"صوتی خاص در تولید موسیقی مفید است."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1190 ../effects.rst:1260
+msgid "attack"
+msgstr "حمله"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1190 ../effects.rst:1260
+msgid "``(float, 0.1 to 100)``"
+msgstr "``(float, 0.1 to 100)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1191 ../effects.rst:1261
+msgid "bypass"
+msgstr "عبور"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1191 ../effects.rst:1261
+msgid "``(bool)``"
+msgstr "``(bool)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1192 ../effects.rst:1262
+msgid "makeup_gain"
+msgstr "تقویت جبران"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1192 ../effects.rst:1262
+msgid "``(float, -12 to 12)``"
+msgstr "``(float, -12 to 12)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1193 ../effects.rst:1263
+msgid "ratio"
+msgstr "نسبت"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1193 ../effects.rst:1263
+msgid "``(float, 1 to 100)``"
+msgstr "``(float, 1 to 100)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1194 ../effects.rst:1264
+msgid "release"
+msgstr "رهاسازی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1194 ../effects.rst:1264
+msgid "``(float, 10 to 1000)``"
+msgstr "``(float, 10 to 1000)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1195 ../effects.rst:1265
+msgid "``(float, -60 to 0)``"
+msgstr "``(float, -60 to 0)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1200
+msgid ""
+"The Delay effect adds an echo to the audio signal, repeating the sound after "
+"a short delay. This can create a sense of space and depth in the audio, and "
+"is commonly used for creative effects in music, sound design, and audio post-"
+"production."
+msgstr ""
+"افکت تأخیر یک اکو به سیگنال صوتی اضافه می‌کند و صدا را پس از تأخیر کوتاه "
+"تکرار می‌کند. این می‌تواند حس فضا و عمق در صدا ایجاد کند و معمولاً برای افکت‌های "
+"خلاقانه در موسیقی، طراحی صدا و پس‌تولید صوتی استفاده می‌شود."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1210
+msgid "delay_time"
+msgstr "زمان تأخیر"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1210 ../effects.rst:1243
+msgid "``(float, 0 to 5)``"
+msgstr "``(float, 0 to 5)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1215
+msgid ""
+"The Distortion effect intentionally clips the audio signal, adding harmonic "
+"and non-harmonic overtones. This can create a gritty, aggressive sound "
+"characteristic of many electric guitar tones and is used for both musical "
+"and sound design purposes."
+msgstr ""
+"افکت دیستورشن به طور عمدی سیگنال صوتی را قطع می‌کند و اورتون‌های هارمونیک و "
+"غیرهارمونیک اضافه می‌کند. این می‌تواند صدایی خشن و تهاجمی ایجاد کند که مشخصه "
+"بسیاری از صداهای گیتار الکتریک است و برای اهداف موسیقی و طراحی صدا استفاده "
+"می‌شود."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1225
+msgid "distortion_type"
+msgstr "نوع دیستورشن"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1225
+msgid ""
+"``(int, choices: ['Hard Clipping', 'Soft Clipping', 'Exponential', 'Full "
+"Wave Rectifier', 'Half Wave Rectifier'])``"
+msgstr ""
+"``(int, choices: ['Hard Clipping', 'Soft Clipping', 'Exponential', 'Full "
+"Wave Rectifier', 'Half Wave Rectifier'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1226
+msgid "input_gain"
+msgstr "تقویت ورودی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1226 ../effects.rst:1227 ../effects.rst:1228
+#: ../effects.rst:1297
+msgid "``(int, -24 to 24)``"
+msgstr "``(int, از -۲۴ تا ۲۴)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1227
+msgid "output_gain"
+msgstr "تقویت خروجی"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1228
+msgid "tone"
+msgstr "تن"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1233
+msgid ""
+"The Echo effect, similar to delay, repeats the audio signal at intervals, "
+"but with a focus on creating a distinct repetition of sound that mimics "
+"natural echoes. This can be used to simulate acoustic environments or for "
+"creative sound effects."
+msgstr ""
+"افکت اکو، مشابه تأخیر، سیگنال صوتی را در فواصل زمانی تکرار می‌کند، اما با "
+"تمرکز بر ایجاد تکرار مشخصی از صدا که شبیه اکوهای طبیعی است. این می‌تواند برای "
+"شبیه‌سازی محیط‌های صوتی یا افکت‌های خلاقانه صوتی استفاده شود."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1243
+msgid "echo_time"
+msgstr "زمان اکو"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1244
+msgid "feedback"
+msgstr "بازخورد"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1244 ../effects.rst:1245
+msgid "``(float, 0 to 1)``"
+msgstr "``(float, از ۰ تا ۱)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1245
+msgid "mix"
+msgstr "میکس"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1250
+msgid ""
+"The Expander effect increases the dynamic range of audio, making quiet "
+"sounds quieter and leaving loud sounds unaffected. This is the opposite of "
+"compression and is used to reduce background noise or increase the dynamic "
+"impact of audio."
+msgstr ""
+"افکت اکسپندر دامنه دینامیکی صدا را افزایش می‌دهد، به طوری که صداهای آرام‌تر را "
+"آرام‌تر و صداهای بلند را بدون تغییر باقی می‌گذارد. این برعکس کمپرسور است و "
+"برای کاهش نویز پس‌زمینه یا افزایش تأثیر دینامیکی صدا استفاده می‌شود."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1270
+msgid ""
+"The Noise effect adds random, equal-intensity signals across the frequency "
+"spectrum to the audio, simulating the sound of white noise. This can be used "
+"for sound masking, as a component in sound design, or for testing and "
+"calibration purposes."
+msgstr ""
+"افکت نویز سیگنال‌های تصادفی با شدت برابر در سراسر طیف فرکانسی به صدا اضافه "
+"می‌کند و صدای نویز سفید را شبیه‌سازی می‌کند. این می‌تواند برای ماسک کردن صدا، به "
+"عنوان بخشی از طراحی صدا یا برای تست و کالیبراسیون استفاده شود."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1280
+msgid "level"
+msgstr "سطح"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1280
+msgid "``(int, 0 to 100)``"
+msgstr "``(int, از ۰ تا ۱۰۰)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1285
+msgid ""
+"The Parametric EQ (Equalizer) effect allows for precise adjustments to the "
+"volume level of specific frequency ranges in the audio signal. This can be "
+"used for corrective measures, such as removing unwanted tones, or "
+"creatively, to shape the tonal balance of the audio."
+msgstr ""
+"افکت اکولایزر پارامتریک امکان تنظیم دقیق سطح حجم در بازه‌های فرکانسی خاص "
+"سیگنال صوتی را فراهم می‌کند. این می‌تواند برای اصلاحات مانند حذف صداهای "
+"ناخواسته یا به صورت خلاقانه برای شکل‌دهی تعادل صوتی استفاده شود."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1295
+msgid "filter_type"
+msgstr "نوع فیلتر"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1295
+msgid ""
+"``(int, choices: ['Low Pass', 'High Pass', 'Low Shelf', 'High Shelf', 'Band "
+"Pass', 'Band Stop', 'Peaking Notch'])``"
+msgstr ""
+"``(int, انتخاب‌ها: ['پایین‌گذر', 'بالاگذر', 'شلف پایین', 'شلف بالا', "
+"'باند‌گذر', 'باند‌استاپ', 'پیکینگ ناچ'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1296
+msgid "frequency"
+msgstr "فرکانس"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1296
+msgid "``(int, 20 to 20000)``"
+msgstr "``(int, از ۲۰ تا ۲۰۰۰۰)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1297
+msgid "gain"
+msgstr "تقویت"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1298
+msgid "q_factor"
+msgstr "ضریب Q"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1298
+msgid "``(float, 0 to 20)``"
+msgstr "``(float, از ۰ تا ۲۰)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1303
+msgid ""
+"The Robotization effect transforms the audio to sound mechanical or robotic, "
+"by applying a combination of pitch modulation and synthesis techniques. This "
+"effect is widely used for character voices in media, creative music "
+"production, and sound design."
+msgstr ""
+"افکت رباتیک‌سازی صدا را به صورت مکانیکی یا رباتی تبدیل می‌کند، با اعمال ترکیبی "
+"از مدولاسیون زیر و تکنیک‌های سنتز. این افکت به طور گسترده برای صداهای شخصیت‌ها "
+"در رسانه، تولید موسیقی خلاقانه و طراحی صدا استفاده می‌شود."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1313 ../effects.rst:1330
+msgid "fft_size"
+msgstr "اندازه FFT"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1313 ../effects.rst:1330
+msgid "``(int, choices: ['128', '256', '512', '1024', '2048'])``"
+msgstr "``(int, انتخاب‌ها: ['۱۲۸', '۲۵۶', '۵۱۲', '۱۰۲۴', '۲۰۴۸'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1314 ../effects.rst:1331
+msgid "hop_size"
+msgstr "اندازه هاپ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1314 ../effects.rst:1331
+msgid "``(int, choices: ['1/2', '1/4', '1/8'])``"
+msgstr "``(int, انتخاب‌ها: ['۱/۲', '۱/۴', '۱/۸'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1315 ../effects.rst:1332
+msgid "window_type"
+msgstr "نوع پنجره"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1315 ../effects.rst:1332
+msgid "``(int, choices: ['Rectangular', 'Bart Lett', 'Hann', 'Hamming'])``"
+msgstr "``(int, انتخاب‌ها: ['مستطیلی', 'بارت لت', 'هان', 'هامینگ'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1320
+msgid ""
+"The Whisperization effect transforms the audio to mimic a whispering voice, "
+"often by filtering out certain frequencies and adding noise. This can be "
+"used for artistic effects in music, sound design for film and video, or in "
+"audio storytelling to convey secrecy or intimacy."
+msgstr ""
+"افکت ویسپرایزینگ صدا را به گونه‌ای تغییر می‌دهد که شبیه صدای نجوا باشد، معمولاً "
+"با فیلتر کردن فرکانس‌های خاص و افزودن نویز. این می‌تواند برای افکت‌های هنری در "
+"موسیقی، طراحی صدا برای فیلم و ویدئو یا روایت صوتی برای انتقال حس رازآلودگی "
+"یا صمیمیت استفاده شود."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1335
+msgid "For more info on key frames and animation, see :ref:`animation_ref`."
+msgstr ""
+"برای اطلاعات بیشتر درباره کلید فریم‌ها و انیمیشن، به :ref:`animation_ref` "
+"مراجعه کنید."

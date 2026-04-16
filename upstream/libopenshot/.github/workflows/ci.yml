@@ -1,0 +1,145 @@
+# © OpenShot Studios, LLC
+#
+# SPDX-License-Identifier: LGPL-3.0-or-later
+
+name: libopenshot CI Build
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ${{ matrix.sys.os }}
+    strategy:
+      matrix:
+        sys:
+          - { os: ubuntu-22.04, shell: bash }
+          - { os: ubuntu-24.04, shell: bash }
+          #- { os: windows-2022, shell: 'msys2 {0}' } Disabled until we upgrade to C++17 and find_package(Protobuf CONFIG REQUIRED)
+        compiler:
+          - { cc: gcc, cxx: g++ }
+          - { cc: clang, cxx: clang++ }
+        exclude:
+          # Windows clang isn't being our friend,
+          # JUCE seems to think it can use _get_tzname there
+          # (it can't)
+          - sys: { os: windows-2022, shell: 'msys2 {0}' }
+            compiler: { cc: clang, cxx: clang++ }
+    defaults:
+      run:
+        shell: "${{ matrix.sys.shell }}"
+    env:
+      CC: ${{ matrix.compiler.cc }}
+      CXX: ${{ matrix.compiler.cxx }}
+      CODECOV_TOKEN: 'dc94d508-39d3-4369-b1c6-321749f96f7c'
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          # Work around a codecov issue detecting commit SHAs
+          # see: https://community.codecov.io/t/issue-detecting-commit-sha-please-run-actions-checkout-with-fetch-depth-1-or-set-to-0/2571
+          fetch-depth: 0
+
+      - name: Checkout OpenShotAudio
+        uses: actions/checkout@v3
+        with:
+          repository: OpenShot/libopenshot-audio
+          path: audio
+
+      - name: Checkout Resvg
+        if: ${{ matrix.compiler.cc == 'clang' && runner.os == 'linux' }}
+        uses: actions/checkout@v3
+        with:
+          repository: RazrFalcon/resvg
+          path: resvg
+          ref: v0.19.0
+
+      - uses: haya14busa/action-cond@v1
+        id: generator
+        with:
+          cond: ${{ runner.os == 'Windows' }}
+          if_true: "MinGW Makefiles"
+          if_false: "Unix Makefiles"
+
+      - uses: haya14busa/action-cond@v1
+        id: coverage
+        with:
+          cond: ${{ matrix.compiler.cc == 'gcc' && runner.os == 'linux' }}
+          if_true: "-DENABLE_COVERAGE:BOOL=1"
+
+      - uses: haya14busa/action-cond@v1
+        id: use-resvg
+        with:
+          cond: ${{ matrix.compiler.cc == 'clang' && runner.os == 'linux' }}
+          if_true: "-DResvg_ROOT:PATH=./resvg"
+
+      - name: Install Linux dependencies
+        if: ${{ runner.os == 'linux' }}
+        run: |
+          sudo apt update
+          sudo apt remove libzmq5  # See actions/virtual-environments#3317
+          sudo apt install \
+            cmake swig doxygen graphviz curl lcov \
+            libasound2-dev \
+            qtbase5-dev qtbase5-dev-tools libqt5svg5-dev \
+            libfdk-aac-dev libavcodec-dev libavformat-dev \
+            libavutil-dev libswscale-dev libswresample-dev \
+            libzmq3-dev libbabl-dev \
+            libopencv-dev libprotobuf-dev protobuf-compiler \
+            cargo libomp5 libomp-dev
+
+          # Install catch2 package from source
+          git clone https://github.com/catchorg/Catch2.git
+          pushd Catch2
+          cmake -Bbuild -H. -DBUILD_TESTING=OFF
+          sudo cmake --build build/ --target install
+          popd
+
+          wget https://launchpad.net/ubuntu/+archive/primary/+files/catch2_2.13.8-1_amd64.deb
+          sudo dpkg -i catch2_2.13.8-1_amd64.deb
+
+      - name: Build OpenShotAudio
+        run: |
+          pushd audio
+          mkdir -p build
+          cmake -B build -S . -G "${{ steps.generator.outputs.value }}" \
+            -DCMAKE_BUILD_TYPE="Debug" \
+            -DCMAKE_INSTALL_PREFIX="${{ github.workspace }}/install"
+          cmake --build build
+          popd
+
+      - name: Build Resvg (if enabled)
+        if: steps.use-resvg
+        run: |
+          if [ -d "resvg/c-api" ]; then
+            pushd resvg/c-api
+            cargo build --release
+            popd
+          fi
+
+      - name: Build libopenshot
+        run: |
+          mkdir build
+          cmake -B build -S . -G "${{ steps.generator.outputs.value }}" \
+            -DCMAKE_BUILD_TYPE="Debug" \
+            -DCMAKE_INSTALL_PREFIX="${{ github.workspace }}/install" \
+            -DOpenShotAudio_ROOT="./audio/build" \
+            ${CMAKE_EXTRA} \
+            "${{ steps.coverage.outputs.value }}" \
+            "${{ steps.use-resvg.outputs.value }}"
+          cmake --build build -- VERBOSE=1
+
+      - name: Test libopenshot
+        run: |
+          # Allow unit tests which require a display screen
+          export DISPLAY=:0.0
+          export QT_QPA_PLATFORM=offscreen
+          cmake --build build --target coverage -- VERBOSE=1 || true
+
+      - name: Install libopenshot
+        run: |
+          # Stage all installs (including absolute Python paths) under our workspace/install
+          DESTDIR="${GITHUB_WORKSPACE}/install" cmake --build build --target install -- VERBOSE=1
+
+      - uses: codecov/codecov-action@v3.1.4
+        if: ${{ steps.coverage.outputs.value }}
+        with:
+          file: build/coverage.info

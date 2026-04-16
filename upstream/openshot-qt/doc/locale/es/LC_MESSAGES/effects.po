@@ -1,0 +1,3998 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:23
+msgid "Effects"
+msgstr "Efectos"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:25
+msgid ""
+"Effects are used in OpenShot to enhance or modify the audio or video of a "
+"clip. They can modify pixels and audio data, and can generally enhance your "
+"video projects. Each effect has its own set of properties, most of which can "
+"be animated over time, for example varying the :guilabel:`Brightness & "
+"Contrast` of a clip over time."
+msgstr ""
+"Los efectos se usan en OpenShot para mejorar o modificar el audio o video de "
+"un clip. Pueden modificar píxeles y datos de audio, y generalmente pueden "
+"mejorar tus proyectos de video. Cada efecto tiene su propio conjunto de "
+"propiedades, la mayoría de las cuales pueden animarse con el tiempo, por "
+"ejemplo, variando el :guilabel:`Brillo y Contraste` de un clip a lo largo "
+"del tiempo."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:29
+msgid ""
+"Effects can be added to any clip by dragging and dropping them from the "
+"Effects tab onto a clip. Each effect is represented by a small colored icon "
+"and the first letter of the effect name. Note: Pay close attention to where "
+"the play-head (i.e. red playback line) is. Key frames are automatically "
+"created at the current playback position, to help create animations quickly."
+msgstr ""
+"Los efectos pueden añadirse a cualquier clip arrastrándolos y soltándolos "
+"desde la pestaña Efectos sobre un clip. Cada efecto está representado por un "
+"pequeño ícono coloreado y la primera letra del nombre del efecto. Nota: "
+"Presta mucha atención a la posición del cabezal de reproducción (es decir, "
+"la línea roja de reproducción). Los fotogramas clave se crean "
+"automáticamente en la posición actual de reproducción para ayudar a crear "
+"animaciones rápidamente."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:34
+msgid ""
+"To view an effect's properties, right-click on the effect icon, revealing "
+"the context menu, and choose :guilabel:`Properties`. The property editor "
+"will appear, where you can edit these properties. Properties appear "
+"alphabetically in the dock, with filter options available at the top. Hold :"
+"kbd:`Ctrl` and click multiple effect icons to select them all, the "
+"Properties dock will show an entry such as ``3 Selections`` so you can "
+"adjust their common settings in one step. See :ref:`clip_properties_ref`."
+msgstr ""
+"Para ver las propiedades de un efecto, haz clic derecho en el ícono del "
+"efecto para mostrar el menú contextual y elige :guilabel:`Propiedades`. "
+"Aparecerá el editor de propiedades, donde puedes editar estas propiedades. "
+"Las propiedades aparecen en orden alfabético en el panel, con opciones de "
+"filtro disponibles en la parte superior. Mantén presionada la tecla :kbd:"
+"`Ctrl` y haz clic en varios íconos de efectos para seleccionarlos todos; el "
+"panel de Propiedades mostrará una entrada como ``3 selecciones`` para que "
+"puedas ajustar sus configuraciones comunes en un solo paso. Consulta :ref:"
+"`clip_properties_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:41
+msgid "Masks and Effects"
+msgstr "Máscaras y Efectos"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:43
+msgid ""
+"All effects can now use a **static or animated mask** to limit where the "
+"effect is applied. This makes effects much more precise, because you can "
+"target only the subject or region you care about and blend the result "
+"smoothly into the original image."
+msgstr ""
+"Todos los efectos ahora pueden usar una **máscara estática o animada** para "
+"limitar dónde se aplica el efecto. Esto hace que los efectos sean mucho más "
+"precisos, porque puedes enfocar solo el sujeto o la región que te interesa y "
+"mezclar el resultado suavemente con la imagen original."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:48
+msgid "Why this matters:"
+msgstr "Por qué esto es importante:"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:50
+msgid "Keep edits focused on one area (for example, blur only a face)."
+msgstr ""
+"Mantén las ediciones enfocadas en un área (por ejemplo, desenfocar solo un "
+"rostro)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:51
+msgid ""
+"Stack multiple effects on the same subject without affecting the full frame."
+msgstr "Apila múltiples efectos en el mismo sujeto sin afectar todo el cuadro."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:52
+msgid "Animate how strongly or where an effect is applied over time."
+msgstr ""
+"Anima la intensidad o la ubicación donde se aplica un efecto a lo largo del "
+"tiempo."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:54
+msgid "How to use effect masks:"
+msgstr "Cómo usar máscaras de efecto:"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:56
+msgid "Add an effect to a clip."
+msgstr "Agrega un efecto a un clip."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:57
+msgid "Open the effect :guilabel:`Properties`."
+msgstr "Abre las :guilabel:`Propiedades` del efecto."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:58
+msgid "Choose a mask source (static image or animated mask video)."
+msgstr ""
+"Elige una fuente de máscara (imagen estática o video de máscara animada)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:59
+msgid ""
+"Adjust :guilabel:`Mask Mode` (for example, *Limit to Mask* or *Vary "
+"Strength*)."
+msgstr ""
+"Ajusta el :guilabel:`Modo de Máscara` (por ejemplo, *Limitar a Máscara* o "
+"*Variar Intensidad*)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:61
+msgid ""
+"High-quality animated masks can also be generated with Advanced AI "
+"workflows. In many cases, you can click one or more subjects and let "
+"tracking build a mask automatically. See :ref:`ai_ref`."
+msgstr ""
+"Las máscaras animadas de alta calidad también pueden generarse con flujos de "
+"trabajo avanzados de IA. En muchos casos, puedes hacer clic en uno o más "
+"sujetos y dejar que el seguimiento construya una máscara automáticamente. "
+"Consulta :ref:`ai_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:65
+msgid "Mask controls to know:"
+msgstr "Controles de máscara que debes conocer:"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:67
+msgid ""
+"Any effect mask can be inverted to flip between foreground and background."
+msgstr ""
+"Cualquier máscara de efecto puede invertirse para cambiar entre primer plano "
+"y fondo."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:68
+msgid "Animated mask videos can be looped."
+msgstr "Los videos de máscaras animadas pueden reproducirse en bucle."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:69
+msgid ""
+"When looping, set start/end mask trim carefully. If not adjusted, OpenShot "
+"loops the entire mask source, not just the segment you intended to repeat."
+msgstr ""
+"Al reproducir en bucle, ajusta cuidadosamente el recorte de inicio/fin de la "
+"máscara. Si no se ajusta, OpenShot repetirá toda la fuente de la máscara, no "
+"solo el segmento que querías repetir."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:72
+msgid "To adjust a property:"
+msgstr "Para ajustar una propiedad:"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:74
+msgid "Drag the slider for coarse changes."
+msgstr "Arrastra el control deslizante para cambios aproximados."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:75
+msgid "Double-click to enter precise values."
+msgstr "Haz doble clic para ingresar valores precisos."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:76
+msgid "Right/double-click for non-numerical options."
+msgstr "Haz clic derecho/doble clic para opciones no numéricas."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:78
+msgid ""
+"Effect properties are integral to the :ref:`animation_ref` system. When you "
+"modify an effect property, a keyframe is generated at the current playhead "
+"position. For a property to span the entire clip, position the playhead at "
+"or before the clip's start before making adjustments. A convenient way to "
+"identify a clip's start is by utilizing the 'next/previous marker' feature "
+"on the Timeline toolbar."
+msgstr ""
+"Las propiedades de los efectos son parte integral del sistema :ref:"
+"`animation_ref`. Cuando modificas una propiedad de efecto, se genera un "
+"fotograma clave en la posición actual del cabezal de reproducción. Para que "
+"una propiedad abarque todo el clip, posiciona el cabezal de reproducción en "
+"o antes del inicio del clip antes de hacer ajustes. Una forma conveniente de "
+"identificar el inicio de un clip es utilizando la función de 'marcador "
+"siguiente/anterior' en la barra de herramientas de la Línea de Tiempo."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:86
+msgid "List of Effects"
+msgstr "Lista de Efectos"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:87
+msgid ""
+"OpenShot Video Editor has a total of 27 built-in video and audio effects: 18 "
+"video effects and 9 audio effects. These effects can be added to a clip by "
+"dragging the effect onto a clip. The following table contains the name and "
+"short description of each effect."
+msgstr ""
+"OpenShot Video Editor tiene un total de 27 efectos integrados de video y "
+"audio: 18 efectos de video y 9 efectos de audio. Estos efectos pueden "
+"añadirse a un clip arrastrando el efecto sobre el clip. La siguiente tabla "
+"contiene el nombre y una breve descripción de cada efecto."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:227
+msgid "Icon"
+msgstr "Ícono"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:227
+msgid "Effect Name"
+msgstr "Nombre del Efecto"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:227
+msgid "Effect Description"
+msgstr "Descripción del Efecto"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:229
+msgid "|analogtape_icon|"
+msgstr "|analogtape_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:91
+msgid "Analog Tape Icon"
+msgstr "Ícono de Cinta Analógica"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:229 ../effects.rst:364
+msgid "Analog Tape"
+msgstr "Cinta Analógica"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:229
+msgid "Vintage home-video wobble, bleed, and snow."
+msgstr "Ondulación, sangrado y nieve vintage de video casero."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:230
+msgid "|mask_icon|"
+msgstr "|mask_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:95
+msgid "Alpha Mask / Wipe Transition Icon"
+msgstr "Ícono de Máscara Alfa / Transición de Barrido"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:230 ../effects.rst:391
+msgid "Alpha Mask / Wipe Transition"
+msgstr "Máscara Alfa / Transición de Barrido"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:230
+msgid "Grayscale mask transition between images."
+msgstr "Transición de máscara en escala de grises entre imágenes."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:231
+msgid "|bars_icon|"
+msgstr "|bars_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:99
+msgid "Bars Icon"
+msgstr "Ícono de Barras"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:231 ../effects.rst:410
+msgid "Bars"
+msgstr "Barras"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:231
+msgid "Add colored bars around your video."
+msgstr "Agrega barras de color alrededor de tu video."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:232
+msgid "|blur_icon|"
+msgstr "|blur_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:103
+msgid "Blur Icon"
+msgstr "Ícono de Desenfoque"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:232 ../effects.rst:429
+msgid "Blur"
+msgstr "Desenfoque"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:232
+msgid "Adjust image blur."
+msgstr "Ajusta el desenfoque de la imagen."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:233
+msgid "|brightness_icon|"
+msgstr "|brightness_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:107
+msgid "Brightness & Contrast Icon"
+msgstr "Ícono de Brillo y Contraste"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:233 ../effects.rst:447
+msgid "Brightness & Contrast"
+msgstr "Brillo y Contraste"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:233
+msgid "Modify frame’s brightness and contrast."
+msgstr "Modifica el brillo y contraste del fotograma."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:234
+msgid "|caption_icon|"
+msgstr "|caption_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:111
+msgid "Caption Icon"
+msgstr "Ícono de Subtítulo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:234 ../effects.rst:465
+msgid "Caption"
+msgstr "Subtítulo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:234
+msgid "Add text captions to any clip."
+msgstr "Agrega subtítulos de texto a cualquier clip."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:235
+msgid "|chromakey_icon|"
+msgstr "|chromakey_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:115
+msgid "Chroma Key (Greenscreen) Icon"
+msgstr "Ícono de Croma (Pantalla Verde)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:235 ../effects.rst:506
+msgid "Chroma Key (Greenscreen)"
+msgstr "Croma (Pantalla Verde)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:235
+msgid "Replace color with transparency."
+msgstr "Reemplaza color con transparencia."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:236
+msgid "|colormap_icon|"
+msgstr "|colormap_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:119
+msgid "Color Map / Lookup Icon"
+msgstr "Ícono de Mapa de Color / Búsqueda"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:236 ../effects.rst:525
+msgid "Color Map / Lookup"
+msgstr "Mapa de Color / Búsqueda"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:236
+msgid "Adjust colors using 3D LUT lookup tables (.cube format)."
+msgstr "Ajusta colores usando tablas de búsqueda 3D LUT (formato .cube)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:237
+msgid "|saturation_icon|"
+msgstr "|saturation_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:123
+msgid "Color Saturation Icon"
+msgstr "Ícono de Saturación de Color"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:237 ../effects.rst:745
+msgid "Color Saturation"
+msgstr "Saturación de Color"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:237
+msgid "Adjust color intensity."
+msgstr "Ajusta la intensidad del color."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:238
+msgid "|colorshift_icon|"
+msgstr "|colorshift_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:127
+msgid "Color Shift Icon"
+msgstr "Ícono de Desplazamiento de Color"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:238 ../effects.rst:763
+msgid "Color Shift"
+msgstr "Desplazamiento de Color"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:238
+msgid "Shift image colors in various directions."
+msgstr "Desplaza los colores de la imagen en varias direcciones."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:239
+msgid "|crop_icon|"
+msgstr "|crop_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:131
+msgid "Crop Icon"
+msgstr "Ícono de Recorte"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:239 ../effects.rst:794
+msgid "Crop"
+msgstr "Recortar"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:239
+msgid "Crop out parts of your video."
+msgstr "Recorta partes de tu video."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:240
+msgid "|deinterlace_icon|"
+msgstr "|deinterlace_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:135
+msgid "Deinterlace Icon"
+msgstr "Ícono de Desentrelazado"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:240 ../effects.rst:821
+msgid "Deinterlace"
+msgstr "Desentrelazar"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:240
+msgid "Remove interlacing from video."
+msgstr "Elimina el entrelazado del video."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:241
+msgid "|hue_icon|"
+msgstr "|hue_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:139
+msgid "Hue Icon"
+msgstr "Icono de tono"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:241 ../effects.rst:836
+msgid "Hue"
+msgstr "Tono"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:241
+msgid "Adjust hue / color."
+msgstr "Ajustar tono / color."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:242
+msgid "|lensflare_icon|"
+msgstr "|lensflare_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:143
+msgid "Lens Flare Icon"
+msgstr "Icono de destello de lente"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:242 ../effects.rst:851
+msgid "Lens Flare"
+msgstr "Destello de lente"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:242
+msgid "Simulate sunlight hitting a lens with flares."
+msgstr "Simular la luz solar golpeando una lente con destellos."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:243
+msgid "|negate_icon|"
+msgstr "|negate_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:147
+msgid "Negative Icon"
+msgstr "Icono negativo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:243 ../effects.rst:871
+msgid "Negative"
+msgstr "Negativo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:243
+msgid "Produce a negative image."
+msgstr "Producir una imagen negativa."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:244
+msgid "|objectdetection_icon|"
+msgstr "|objectdetection_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:151
+msgid "Object Detector Icon"
+msgstr "Icono de detector de objetos"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:244 ../effects.rst:877
+msgid "Object Detector"
+msgstr "Detector de objetos"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:244
+msgid "Detect objects in video."
+msgstr "Detectar objetos en el video."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:245
+msgid "|outline_icon|"
+msgstr "|outline_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:155
+msgid "Outline Icon"
+msgstr "Icono de contorno"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:245 ../effects.rst:936
+msgid "Outline"
+msgstr "Contorno"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:245
+msgid "Add outline around any image or text."
+msgstr "Agregar contorno alrededor de cualquier imagen o texto."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:246
+msgid "|pixelate_icon|"
+msgstr "|pixelate_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:159
+msgid "Pixelate Icon"
+msgstr "Icono de pixelado"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:246 ../effects.rst:957
+msgid "Pixelate"
+msgstr "Pixelar"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:246
+msgid "Increase or decrease visible pixels."
+msgstr "Aumentar o disminuir los píxeles visibles."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:247
+msgid "|sharpen_icon|"
+msgstr "|sharpen_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:163
+msgid "Sharpen Icon"
+msgstr "Icono de enfoque"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:247 ../effects.rst:976
+msgid "Sharpen"
+msgstr "Enfocar"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:247
+msgid "Boost edge contrast to make video details look crisper."
+msgstr ""
+"Aumentar el contraste de los bordes para que los detalles del video se vean "
+"más nítidos."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:248
+msgid "|shift_icon|"
+msgstr "|shift_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:167
+msgid "Shift Icon"
+msgstr "Icono de desplazamiento"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:248 ../effects.rst:1015
+msgid "Shift"
+msgstr "Desplazar"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:248
+msgid "Shift image in different directions."
+msgstr "Desplazar la imagen en diferentes direcciones."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:249
+msgid "|sphericalprojection_icon|"
+msgstr "|sphericalprojection_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:171
+msgid "Spherical Projection Icon"
+msgstr "Icono de proyección esférica"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:249 ../effects.rst:1031
+msgid "Spherical Projection"
+msgstr "Proyección esférica"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:249
+msgid "Flatten or project 360° and fisheye footage."
+msgstr "Aplanar o proyectar metraje de 360° y ojo de pez."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:250
+msgid "|stabilizer_icon|"
+msgstr "|stabilizer_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:175
+msgid "Stabilizer Icon"
+msgstr "Icono de estabilizador"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:250 ../effects.rst:1082
+msgid "Stabilizer"
+msgstr "Estabilizador"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:250
+msgid "Reduce video shake."
+msgstr "Reducir el movimiento de la imagen."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:251
+msgid "|tracker_icon|"
+msgstr "|tracker_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:179
+msgid "Tracker Icon"
+msgstr "Icono de rastreador"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:251 ../effects.rst:1097
+msgid "Tracker"
+msgstr "Rastreador"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:251
+msgid "Track bounding box in video."
+msgstr "Rastrear el cuadro delimitador en el video."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:252
+msgid "|wave_icon|"
+msgstr "|wave_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:183
+msgid "Wave Icon"
+msgstr "Icono de onda"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:252 ../effects.rst:1154
+msgid "Wave"
+msgstr "Onda"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:252
+msgid "Distort image into a wave pattern."
+msgstr "Distorsionar la imagen en un patrón de onda."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:253
+msgid "|compressor_icon|"
+msgstr "|compressor_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:187
+msgid "Compressor Icon"
+msgstr "Icono de compresor"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:253 ../effects.rst:1179
+msgid "Compressor"
+msgstr "Compresor"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:253
+msgid "Reduce loudness or amplify quiet sounds."
+msgstr "Reducir la sonoridad o amplificar sonidos suaves."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:254
+msgid "|delay_icon|"
+msgstr "|delay_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:191
+msgid "Delay Icon"
+msgstr "Icono de retardo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:254 ../effects.rst:1199
+msgid "Delay"
+msgstr "Retardo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:254
+msgid "Adjust audio-video synchronism."
+msgstr "Ajustar la sincronización audio-video."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:255
+msgid "|distortion_icon|"
+msgstr "|distortion_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:195
+msgid "Distortion Icon"
+msgstr "Icono de distorsión"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:255 ../effects.rst:1214
+msgid "Distortion"
+msgstr "Distorsión"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:255
+msgid "Clip audio signal for distortion."
+msgstr "Recortar la señal de audio para distorsión."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:256
+msgid "|echo_icon|"
+msgstr "|echo_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:199
+msgid "Echo Icon"
+msgstr "Icono de eco"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:256 ../effects.rst:1232
+msgid "Echo"
+msgstr "Eco"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:256
+msgid "Add delayed sound reflection."
+msgstr "Agregar reflexión de sonido retardada."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:257
+msgid "|expander_icon|"
+msgstr "|expander_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:203
+msgid "Expander Icon"
+msgstr "Icono de expansor"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:257 ../effects.rst:1249
+msgid "Expander"
+msgstr "Expansor"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:257
+msgid "Make loud parts relatively louder."
+msgstr "Hacer que las partes fuertes sean relativamente más fuertes."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:258
+msgid "|noise_icon|"
+msgstr "|noise_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:207
+msgid "Noise Icon"
+msgstr "Icono de ruido"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:258 ../effects.rst:1269
+msgid "Noise"
+msgstr "Ruido"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:258
+msgid "Add random equal-intensity signals."
+msgstr "Agregar señales aleatorias de intensidad igual."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:259
+msgid "|parametriceq_icon|"
+msgstr "|parametriceq_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:211
+msgid "Parametric EQ Icon"
+msgstr "Icono de ecualizador paramétrico"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:259 ../effects.rst:1284
+msgid "Parametric EQ"
+msgstr "Ecualizador paramétrico"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:259
+msgid "Adjust frequency volume in audio."
+msgstr "Ajustar el volumen de frecuencia en el audio."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:260
+msgid "|robotization_icon|"
+msgstr "|robotization_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:215
+msgid "Robotization Icon"
+msgstr "Icono de robotización"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:260 ../effects.rst:1302
+msgid "Robotization"
+msgstr "Robotización"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:260
+msgid "Transform audio into robotic voice."
+msgstr "Transformar el audio en voz robótica."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:261
+msgid "|whisperization_icon|"
+msgstr "|whisperization_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:219
+msgid "Whisperization Icon"
+msgstr "Icono de susurrización"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:261 ../effects.rst:1319
+msgid "Whisperization"
+msgstr "Susurrización"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:261
+msgid "Transform audio into whispers."
+msgstr "Transformar el audio en susurros."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:266
+msgid "Effect Properties"
+msgstr "Propiedades del efecto"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:267
+msgid ""
+"Below is a list of **common** effect properties, shared by all effects in "
+"OpenShot. To view an effect's properties, right click and choose :guilabel:"
+"`Properties`. The property editor will appear, where you can change these "
+"properties. Note: Pay close attention to where the play-head (i.e. red "
+"playback line) is. Key frames are automatically created at the current "
+"playback position, to help quickly create animations."
+msgstr ""
+"A continuación se muestra una lista de propiedades **comunes** de efectos, "
+"compartidas por todos los efectos en OpenShot. Para ver las propiedades de "
+"un efecto, haga clic derecho y elija :guilabel:`Propiedades`. Aparecerá el "
+"editor de propiedades, donde puede cambiar estas propiedades. Nota: Preste "
+"mucha atención a la posición del cabezal de reproducción (es decir, la línea "
+"roja de reproducción). Los fotogramas clave se crean automáticamente en la "
+"posición actual de reproducción para ayudar a crear animaciones rápidamente."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:272
+msgid ""
+"See the table below for a list of common effect properties. Only the "
+"**common properties** that all effects share are listed here. Each effect "
+"also has many **unique properties**, which are specific to each effect, see :"
+"ref:`effect_video_effects_ref` for more information on individual effects "
+"and their unique properties."
+msgstr ""
+"Consulte la tabla a continuación para ver una lista de propiedades comunes "
+"de efectos. Solo se enumeran aquí las **propiedades comunes** que comparten "
+"todos los efectos. Cada efecto también tiene muchas **propiedades únicas**, "
+"específicas de cada efecto; consulte :ref:`effect_video_effects_ref` para "
+"más información sobre efectos individuales y sus propiedades únicas."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:280
+msgid "Effect Property Name"
+msgstr "Nombre de la propiedad del efecto"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:280
+msgid "Type"
+msgstr "Tipo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:280 ../effects.rst:372 ../effects.rst:401 ../effects.rst:419
+#: ../effects.rst:438 ../effects.rst:456 ../effects.rst:484 ../effects.rst:516
+#: ../effects.rst:539 ../effects.rst:754 ../effects.rst:779 ../effects.rst:809
+#: ../effects.rst:830 ../effects.rst:845 ../effects.rst:860 ../effects.rst:908
+#: ../effects.rst:947 ../effects.rst:966 ../effects.rst:1005
+#: ../effects.rst:1024 ../effects.rst:1042 ../effects.rst:1091
+#: ../effects.rst:1131 ../effects.rst:1162 ../effects.rst:1188
+#: ../effects.rst:1208 ../effects.rst:1223 ../effects.rst:1241
+#: ../effects.rst:1258 ../effects.rst:1278 ../effects.rst:1293
+#: ../effects.rst:1311 ../effects.rst:1328
+msgid "Description"
+msgstr "Descripción"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:282 ../effects.rst:293
+msgid "Duration"
+msgstr "Duración"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:282 ../effects.rst:283 ../effects.rst:286 ../effects.rst:287
+msgid "Float"
+msgstr "Flotante"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:282
+msgid ""
+"The length of the effect (in seconds). Read-only property. Most effects "
+"default to the length of a clip. This property is hidden when an effect "
+"belongs to a clip."
+msgstr ""
+"La duración del efecto (en segundos). Propiedad de solo lectura. La mayoría "
+"de los efectos tienen por defecto la duración de un clip. Esta propiedad "
+"está oculta cuando un efecto pertenece a un clip."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:283 ../effects.rst:300
+msgid "End"
+msgstr "Fin"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:283
+msgid ""
+"The end trimming position of the effect (in seconds). This property is "
+"hidden when an effect belongs to a clip."
+msgstr ""
+"La posición de recorte final del efecto (en segundos). Esta propiedad está "
+"oculta cuando un efecto pertenece a un clip."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:284 ../effects.rst:307
+msgid "ID"
+msgstr "ID"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:284 ../effects.rst:285
+msgid "String"
+msgstr "Cadena"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:284
+msgid ""
+"A randomly generated GUID (globally unique identifier) assigned to each "
+"effect. Read-only property."
+msgstr ""
+"Un GUID generado aleatoriamente (identificador único global) asignado a cada "
+"efecto. Propiedad de solo lectura."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:285
+msgid "Parent"
+msgstr "Padre"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:285
+msgid ""
+"The parent object to this effect, which makes many of these keyframe values "
+"initialize to the parent value."
+msgstr ""
+"El objeto padre de este efecto, que hace que muchos de estos valores de "
+"fotogramas clave se inicialicen con el valor del padre."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:286 ../effects.rst:330
+msgid "Position"
+msgstr "Posición"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:286
+msgid ""
+"The position of the effect on the timeline (in seconds). This property is "
+"hidden when an effect belongs to a clip."
+msgstr ""
+"La posición del efecto en la línea de tiempo (en segundos). Esta propiedad "
+"está oculta cuando un efecto pertenece a un clip."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:287 ../effects.rst:336
+msgid "Start"
+msgstr "Inicio"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:287
+msgid ""
+"The start trimming position of the effect (in seconds). This property is "
+"hidden when an effect belongs to a clip."
+msgstr ""
+"La posición de recorte inicial del efecto (en segundos). Esta propiedad está "
+"oculta cuando un efecto pertenece a un clip."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:288 ../effects.rst:312
+msgid "Track"
+msgstr "Pista"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:288
+msgid "Int"
+msgstr "Entero"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:288
+msgid ""
+"The layer which holds the effect (higher tracks are rendered on top of lower "
+"tracks). This property is hidden when an effect belongs to a clip."
+msgstr ""
+"La capa que contiene el efecto (las pistas superiores se renderizan sobre "
+"las inferiores). Esta propiedad está oculta cuando un efecto pertenece a un "
+"clip."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:289
+msgid "Apply Before Clip"
+msgstr "Aplicar antes del clip"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:289
+msgid "Boolean"
+msgstr "Booleano"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:289
+msgid "Apply this effect before the Clip processes keyframes? (default is Yes)"
+msgstr ""
+"¿Aplicar este efecto antes de que el clip procese los fotogramas clave? (el "
+"valor predeterminado es Sí)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:294
+msgid ""
+"The :guilabel:`Duration` property is a float value indicating the length of "
+"the effect in seconds. This is a Read-only property. This is calculated by: "
+"End - Start. To modify duration, you must edit the :guilabel:`Start` and/or :"
+"guilabel:`End` effect properties."
+msgstr ""
+"La propiedad :guilabel:`Duration` es un valor flotante que indica la "
+"duración del efecto en segundos. Es una propiedad de solo lectura. Se "
+"calcula como: Fin - Inicio. Para modificar la duración, debe editar las "
+"propiedades del efecto :guilabel:`Start` y/o :guilabel:`End`."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:297
+msgid ""
+"*NOTE: Most effects in OpenShot default the effect duration to the clip "
+"duration, and hide this property from the editor.*"
+msgstr ""
+"*NOTA: La mayoría de los efectos en OpenShot establecen por defecto la "
+"duración del efecto igual a la duración del clip, y ocultan esta propiedad "
+"en el editor.*"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:301
+msgid ""
+"The :guilabel:`End` property defines the trimming point at the end of the "
+"effect in seconds, allowing you to control how much of the effect is visible "
+"in the timeline. Changing this property will impact the :guilabel:`Duration` "
+"effect property."
+msgstr ""
+"La propiedad :guilabel:`End` define el punto de recorte al final del efecto "
+"en segundos, permitiéndole controlar cuánto del efecto es visible en la "
+"línea de tiempo. Cambiar esta propiedad afectará la propiedad :guilabel:"
+"`Duration` del efecto."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:304 ../effects.rst:316 ../effects.rst:333 ../effects.rst:340
+msgid ""
+"*NOTE: Most effects in OpenShot default this property to match the clip, and "
+"hide this property from the editor.*"
+msgstr ""
+"*NOTA: La mayoría de los efectos en OpenShot establecen esta propiedad por "
+"defecto para que coincida con el clip, y ocultan esta propiedad en el editor."
+"*"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:308
+msgid ""
+"The :guilabel:`ID` property holds a randomly generated GUID (Globally Unique "
+"Identifier) assigned to each effect, ensuring its uniqueness. This is a Read-"
+"only property, and assigned by OpenShot when an effect is created."
+msgstr ""
+"La propiedad :guilabel:`ID` contiene un GUID generado aleatoriamente "
+"(Identificador Único Global) asignado a cada efecto, garantizando su "
+"unicidad. Es una propiedad de solo lectura, asignada por OpenShot cuando se "
+"crea un efecto."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:313
+msgid ""
+"The :guilabel:`Track` property is an integer indicating the layer on which "
+"the effect is placed. Effects on higher tracks are rendered above those on "
+"lower tracks."
+msgstr ""
+"La propiedad :guilabel:`Track` es un entero que indica la capa en la que se "
+"coloca el efecto. Los efectos en pistas superiores se renderizan por encima "
+"de los de pistas inferiores."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:321
+msgid "Effect Parent"
+msgstr "Padre del efecto"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:322
+msgid ""
+"The :guilabel:`Parent` property of an effect sets the initial keyframe "
+"values to a parent effect. For example, if many effects all point to the "
+"same parent effect, they will inherit all their initial properties, such as "
+"font size, font color, and background color for a ``Caption`` effect. In the "
+"example of many ``Caption`` effects using the same Parent effect, it is an "
+"efficient way to manage a large number of these effects."
+msgstr ""
+"La propiedad :guilabel:`Parent` de un efecto establece los valores iniciales "
+"de los fotogramas clave a un efecto padre. Por ejemplo, si muchos efectos "
+"apuntan al mismo efecto padre, heredarán todas sus propiedades iniciales, "
+"como tamaño de fuente, color de fuente y color de fondo para un efecto "
+"``Caption``. En el caso de muchos efectos ``Caption`` que usan el mismo "
+"efecto padre, es una forma eficiente de gestionar un gran número de estos "
+"efectos."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:326
+msgid ""
+"NOTE: The ``parent`` property for effects should be linked to the **same "
+"type** of parent effect, otherwise their default initial values will not "
+"match. Also see :ref:`clip_parent_ref`."
+msgstr ""
+"NOTA: La propiedad ``parent`` para efectos debe estar vinculada al efecto "
+"padre del **mismo tipo**, de lo contrario sus valores iniciales "
+"predeterminados no coincidirán. Véase también :ref:`clip_parent_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:331
+msgid ""
+"The :guilabel:`Position` property determines the effect's position on the "
+"timeline in seconds, with 0.0 indicating the beginning."
+msgstr ""
+"La propiedad :guilabel:`Position` determina la posición del efecto en la "
+"línea de tiempo en segundos, siendo 0.0 el inicio."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:337
+msgid ""
+"The :guilabel:`Start` property defines the trimming point at the beginning "
+"of the effect in seconds. Changing this property will impact the :guilabel:"
+"`Duration` effect property."
+msgstr ""
+"La propiedad :guilabel:`Start` define el punto de recorte al inicio del "
+"efecto en segundos. Cambiar esta propiedad afectará la propiedad :guilabel:"
+"`Duration` del efecto."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:343
+msgid "Sequencing"
+msgstr "Secuenciación"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:345
+msgid ""
+"Effects are normally applied **before** the Clip processes keyframes. This "
+"allows the effect to process the raw image of the clip, before the clip "
+"applies properties such as scaling, rotation, location, etc... Normally, "
+"this is the preferred sequence of events, and this is the default behavior "
+"of effects in OpenShot. However, you can optionally override this behavior "
+"with the ``Apply Before Clip Keyframes`` property."
+msgstr ""
+"Normalmente, los efectos se aplican **antes** de que el Clip procese los "
+"fotogramas clave. Esto permite que el efecto procese la imagen en bruto del "
+"clip, antes de que el clip aplique propiedades como escala, rotación, "
+"ubicación, etc. Normalmente, esta es la secuencia preferida y es el "
+"comportamiento predeterminado de los efectos en OpenShot. Sin embargo, "
+"opcionalmente puedes anular este comportamiento con la propiedad ``Apply "
+"Before Clip Keyframes``."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:350
+msgid ""
+"If you set the ``Apply Before Clip Keyframes`` property to ``No``, the "
+"effect will be sequenced **after** the clip scales, rotates, and applies "
+"keyframes to the image. This can be useful on certain effects, such as the "
+"**Mask** effect, when you want to animate a clip first and then apply a "
+"static mask to the clip."
+msgstr ""
+"Si configuras la propiedad ``Apply Before Clip Keyframes`` en ``No``, el "
+"efecto se aplicará **después** de que el clip escale, rote y aplique "
+"fotogramas clave a la imagen. Esto puede ser útil en ciertos efectos, como "
+"el efecto **Mask**, cuando quieres animar primero un clip y luego aplicar "
+"una máscara estática al clip."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:357
+msgid "Video Effects"
+msgstr "Efectos de video"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:359
+msgid ""
+"Effects are generally divided into two categories: video and audio effects. "
+"Video effects modify the image and pixel data of a clip. Below is a list of "
+"video effects, and their properties. Often it is best to experiment with an "
+"effect, entering different values into the properties, and observing the "
+"results."
+msgstr ""
+"Los efectos generalmente se dividen en dos categorías: efectos de video y "
+"efectos de audio. Los efectos de video modifican la imagen y los datos de "
+"píxeles de un clip. A continuación hay una lista de efectos de video y sus "
+"propiedades. A menudo es mejor experimentar con un efecto, ingresando "
+"diferentes valores en las propiedades y observando los resultados."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:365
+msgid ""
+"The **Analog Tape** effect emulates consumer tape playback: horizontal line "
+"wobble (\"tracking\"), chroma bleed, luma softness, grainy snow, a bottom "
+"**tracking stripe**, and short **static bursts**. All controls are key-"
+"framable and the noise is deterministic (seeded from the effect’s ID with an "
+"optional offset), so renders are repeatable."
+msgstr ""
+"El efecto **Analog Tape** emula la reproducción de cinta de consumo: "
+"oscilación horizontal de línea (\"tracking\"), sangrado de croma, suavidad "
+"de luminancia, nieve granulada, una **franja de seguimiento** inferior y "
+"**estallidos estáticos** cortos. Todos los controles pueden tener fotogramas "
+"clave y el ruido es determinista (sembrado desde el ID del efecto con un "
+"desplazamiento opcional), por lo que las renderizaciones son repetibles."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:372 ../effects.rst:401 ../effects.rst:419 ../effects.rst:438
+#: ../effects.rst:456 ../effects.rst:484 ../effects.rst:516 ../effects.rst:539
+#: ../effects.rst:754 ../effects.rst:779 ../effects.rst:809 ../effects.rst:830
+#: ../effects.rst:845 ../effects.rst:860 ../effects.rst:908 ../effects.rst:947
+#: ../effects.rst:966 ../effects.rst:1005 ../effects.rst:1024
+#: ../effects.rst:1042 ../effects.rst:1091 ../effects.rst:1131
+#: ../effects.rst:1162 ../effects.rst:1188 ../effects.rst:1208
+#: ../effects.rst:1223 ../effects.rst:1241 ../effects.rst:1258
+#: ../effects.rst:1278 ../effects.rst:1293 ../effects.rst:1311
+#: ../effects.rst:1328
+msgid "Property Name"
+msgstr "Nombre de la propiedad"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:374
+msgid "tracking"
+msgstr "tracking"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:374
+msgid ""
+"``(float, 0–1)`` Horizontal **line wobble** plus a subtle bottom **skew**. "
+"Higher values increase amplitude and skew height."
+msgstr ""
+"``(float, 0–1)`` Oscilación horizontal de **línea** más una sutil "
+"**inclinación** inferior. Valores más altos aumentan la amplitud y la altura "
+"de la inclinación."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:375
+msgid "bleed"
+msgstr "bleed"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:375
+msgid ""
+"``(float, 0–1)`` **Chroma bleed / fringing.** Horizontal chroma shift + blur "
+"with a slight desaturation. Gives the “rainbow edge” look."
+msgstr ""
+"``(float, 0–1)`` **Sangrado / franja de croma.** Desplazamiento horizontal "
+"de croma + desenfoque con una ligera desaturación. Da el aspecto de “borde "
+"arcoíris”."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:376
+msgid "softness"
+msgstr "softness"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:376
+msgid ""
+"``(float, 0–1)`` **Luma softness.** Small horizontal blur on Y (approx. 0–2 "
+"px). Keep low to retain detail when noise is high."
+msgstr ""
+"``(float, 0–1)`` **Suavidad de luminancia.** Pequeño desenfoque horizontal "
+"en Y (aprox. 0–2 px). Mantener bajo para conservar detalles cuando el ruido "
+"es alto."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:377
+msgid "noise"
+msgstr "noise"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:377
+msgid ""
+"``(float, 0–1)`` **Snow, hiss, and dropouts.** Controls grain strength, "
+"probability/length of white **streaks**, and a faint line hum."
+msgstr ""
+"``(float, 0–1)`` **Nieve, siseo y caídas.** Controla la fuerza del grano, la "
+"probabilidad/longitud de las **rayas** blancas y un leve zumbido de línea."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:378
+msgid "stripe"
+msgstr "stripe"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:378
+msgid ""
+"``(float, 0–1)`` **Tracking stripe.** Lifts the bottom band, adds hiss/noise "
+"there, and widens the lifted region as the value increases."
+msgstr ""
+"``(float, 0–1)`` **Franja de seguimiento.** Eleva la banda inferior, añade "
+"siseo/ruido allí y ensancha la región elevada a medida que aumenta el valor."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:379
+msgid "static_bands"
+msgstr "static_bands"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:379
+msgid ""
+"``(float, 0–1)`` **Static bursts.** Short bright bands with **row-clumped "
+"streaks** (many “shooting stars” across neighboring rows)."
+msgstr ""
+"``(float, 0–1)`` **Estallidos estáticos.** Bandas cortas y brillantes con "
+"**rayas agrupadas por filas** (muchas “estrellas fugaces” a través de filas "
+"vecinas)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:380
+msgid "seed_offset"
+msgstr "seed_offset"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:380
+msgid ""
+"``(int, 0–1000)`` Adds to the internal seed (derived from the effect ID) for "
+"deterministic variation between clips."
+msgstr ""
+"``(int, 0–1000)`` Añade a la semilla interna (derivada del ID del efecto) "
+"para variación determinista entre clips."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:383 ../effects.rst:1070
+msgid "**Usage notes**"
+msgstr "**Notas de uso**"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:385
+msgid ""
+"**Subtle “home video”**: ``tracking=0.25``, ``bleed=0.20``, "
+"``softness=0.20``, ``noise=0.25``, ``stripe=0.10``, ``static_bands=0.05``."
+msgstr ""
+"**“Video casero” sutil**: ``tracking=0.25``, ``bleed=0.20``, "
+"``softness=0.20``, ``noise=0.25``, ``stripe=0.10``, ``static_bands=0.05``."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:386
+msgid ""
+"**Bad tracking / head clog**: ``tracking=0.8–1.0``, ``stripe=0.6–0.9``, "
+"``noise=0.6–0.8``, ``static_bands=0.4–0.6``, ``softness<=0.2``, and set "
+"``bleed`` to about 0.3."
+msgstr ""
+"**Mal tracking / obstrucción de cabezal**: ``tracking=0.8–1.0``, "
+"``stripe=0.6–0.9``, ``noise=0.6–0.8``, ``static_bands=0.4–0.6``, "
+"``softness<=0.2``, y ajusta ``bleed`` a aproximadamente 0.3."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:387
+msgid ""
+"**Color fringing only**: raise ``bleed`` (about 0.5) and keep other controls "
+"low."
+msgstr ""
+"**Solo franja de color**: aumenta ``bleed`` (alrededor de 0.5) y mantén "
+"bajos los otros controles."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:388
+msgid ""
+"**Different but repeatable snow**: leave the effect ID alone (for "
+"deterministic output) and change ``seed_offset`` to get a new, still-"
+"repeatable pattern."
+msgstr ""
+"**Nieve diferente pero repetible**: deja el ID del efecto sin cambios (para "
+"salida determinista) y cambia ``seed_offset`` para obtener un patrón nuevo, "
+"pero aún repetible."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:392
+msgid ""
+"The Alpha Mask / Wipe Transition effect leverages a grayscale mask to create "
+"a dynamic transition between two images or video clips. In this effect, the "
+"light areas of the mask reveal the new image, while the dark areas conceal "
+"it, allowing for creative and custom transitions that go beyond standard "
+"fade or wipe techniques. This effect only affects the image, and not the "
+"audio track."
+msgstr ""
+"El efecto de transición Alpha Mask / Wipe utiliza una máscara en escala de "
+"grises para crear una transición dinámica entre dos imágenes o clips de "
+"video. En este efecto, las áreas claras de la máscara revelan la nueva "
+"imagen, mientras que las áreas oscuras la ocultan, permitiendo transiciones "
+"creativas y personalizadas que van más allá de las técnicas estándar de "
+"fundido o barrido. Este efecto solo afecta la imagen, no la pista de audio."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:403 ../effects.rst:458 ../effects.rst:864
+msgid "brightness"
+msgstr "brillo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:403
+msgid "``(float, -1 to 1)`` This curve controls the motion across the wipe"
+msgstr ""
+"``(float, -1 a 1)`` Esta curva controla el movimiento a través del barrido"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:404 ../effects.rst:459
+msgid "contrast"
+msgstr "contraste"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:404
+msgid ""
+"``(float, 0 to 20)`` This curve controls the hardness and softness of the "
+"wipe edge"
+msgstr ""
+"``(float, 0 a 20)`` Esta curva controla la dureza y suavidad del borde del "
+"barrido"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:405
+msgid "reader"
+msgstr "lector"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:405
+msgid ""
+"``(reader)`` This reader can use any image or video as input for your "
+"grayscale wipe"
+msgstr ""
+"``(lector)`` Este lector puede usar cualquier imagen o video como entrada "
+"para tu barrido en escala de grises"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:406
+msgid "replace_image"
+msgstr "replace_image"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:406
+msgid ""
+"``(bool, choices: ['Yes', 'No'])`` Replace the clips image with the current "
+"grayscale wipe image, useful for troubleshooting"
+msgstr ""
+"``(bool, opciones: ['Yes', 'No'])`` Reemplaza la imagen del clip con la "
+"imagen actual del barrido en escala de grises, útil para solucionar problemas"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:411
+msgid ""
+"The Bars effect adds colored bars around your video frame, which can be used "
+"for aesthetic purposes, to frame the video within a certain aspect ratio, or "
+"to simulate the appearance of viewing content on a different display device. "
+"This effect is particularly useful for creating a cinematic or broadcast "
+"look."
+msgstr ""
+"El efecto Barras añade barras de colores alrededor del marco de tu video, "
+"que pueden usarse con fines estéticos, para enmarcar el video dentro de una "
+"relación de aspecto determinada o para simular la apariencia de ver "
+"contenido en un dispositivo de visualización diferente. Este efecto es "
+"especialmente útil para crear un aspecto cinematográfico o de transmisión."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:421 ../effects.rst:811 ../effects.rst:968
+msgid "bottom"
+msgstr "inferior"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:421
+msgid "``(float, 0 to 0.5)`` The curve to adjust the bottom bar size"
+msgstr ""
+"``(float, 0 a 0.5)`` La curva para ajustar el tamaño de la barra inferior"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:422 ../effects.rst:492 ../effects.rst:518
+msgid "color"
+msgstr "color"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:422
+msgid "``(color)`` The curve to adjust the color of bars"
+msgstr "``(color)`` La curva para ajustar el color de las barras"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:423 ../effects.rst:497 ../effects.rst:812 ../effects.rst:969
+msgid "left"
+msgstr "izquierda"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:423
+msgid "``(float, 0 to 0.5)`` The curve to adjust the left bar size"
+msgstr ""
+"``(float, 0 a 0.5)`` La curva para ajustar el tamaño de la barra izquierda"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:424 ../effects.rst:499 ../effects.rst:813 ../effects.rst:971
+msgid "right"
+msgstr "derecha"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:424
+msgid "``(float, 0 to 0.5)`` The curve to adjust the right bar size"
+msgstr ""
+"``(float, 0 a 0.5)`` La curva para ajustar el tamaño de la barra derecha"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:425 ../effects.rst:502 ../effects.rst:814 ../effects.rst:972
+msgid "top"
+msgstr "superior"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:425
+msgid "``(float, 0 to 0.5)`` The curve to adjust the top bar size"
+msgstr ""
+"``(float, 0 a 0.5)`` La curva para ajustar el tamaño de la barra superior"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:430
+msgid ""
+"The Blur effect softens the image, reducing detail and texture. This can be "
+"used to create a sense of depth, draw attention to specific parts of the "
+"frame, or simply to apply a stylistic choice for aesthetic purposes. The "
+"intensity of the blur can be adjusted to achieve the desired level of "
+"softness."
+msgstr ""
+"El efecto Desenfoque suaviza la imagen, reduciendo detalles y texturas. Esto "
+"puede usarse para crear una sensación de profundidad, atraer la atención a "
+"partes específicas del marco o simplemente para aplicar una elección "
+"estilística con fines estéticos. La intensidad del desenfoque puede "
+"ajustarse para lograr el nivel deseado de suavidad."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:440
+msgid "horizontal_radius"
+msgstr "radio_horizontal"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:440
+msgid ""
+"``(float, 0 to 100)`` Horizontal blur radius keyframe. The size of the "
+"horizontal blur operation in pixels."
+msgstr ""
+"``(float, 0 a 100)`` Fotograma clave del radio de desenfoque horizontal. El "
+"tamaño de la operación de desenfoque horizontal en píxeles."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:441
+msgid "iterations"
+msgstr "iteraciones"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:441
+msgid ""
+"``(float, 0 to 100)`` Iterations keyframe. The # of blur iterations per "
+"pixel. 3 iterations = Gaussian."
+msgstr ""
+"``(float, 0 a 100)`` Fotograma clave de iteraciones. Número de iteraciones "
+"de desenfoque por píxel. 3 iteraciones = Gaussiano."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:442
+msgid "sigma"
+msgstr "sigma"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:442
+msgid ""
+"``(float, 0 to 100)`` Sigma keyframe. The amount of spread in the blur "
+"operation. Should be larger than radius."
+msgstr ""
+"``(float, 0 a 100)`` Fotograma clave de sigma. La cantidad de dispersión en "
+"la operación de desenfoque. Debe ser mayor que el radio."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:443
+msgid "vertical_radius"
+msgstr "radio_vertical"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:443
+msgid ""
+"``(float, 0 to 100)`` Vertical blur radius keyframe. The size of the "
+"vertical blur operation in pixels."
+msgstr ""
+"``(float, 0 a 100)`` Fotograma clave del radio de desenfoque vertical. El "
+"tamaño de la operación de desenfoque vertical en píxeles."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:448
+msgid ""
+"The Brightness & Contrast effect allows for the adjustment of the overall "
+"lightness or darkness of the image (brightness) and the difference between "
+"the darkest and lightest parts of the image (contrast). This effect can be "
+"used to correct poorly lit videos or to create dramatic lighting effects for "
+"artistic purposes."
+msgstr ""
+"El efecto Brillo y Contraste permite ajustar la luminosidad general de la "
+"imagen (brillo) y la diferencia entre las partes más oscuras y más claras de "
+"la imagen (contraste). Este efecto puede usarse para corregir videos con "
+"poca iluminación o para crear efectos de iluminación dramáticos con fines "
+"artísticos."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:458
+msgid "``(float, -1 to 1)`` The curve to adjust the brightness"
+msgstr "``(float, -1 a 1)`` La curva para ajustar el brillo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:459
+msgid ""
+"``(float, 0 to 100)`` The curve to adjust the contrast (3 is typical, 20 is "
+"a lot, 100 is max. 0 is invalid)"
+msgstr ""
+"``(float, 0 a 100)`` La curva para ajustar el contraste (3 es típico, 20 es "
+"mucho, 100 es el máximo. 0 es inválido)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:466
+msgid ""
+"Add text captions on top of your video. We support both VTT (WebVTT) and "
+"SubRip (SRT) subtitle file formats. These formats are used to display "
+"captions or subtitles in videos. They allow you to add text-based subtitles "
+"to video content, making it more accessible to a wider audience, especially "
+"for those who are deaf or hard of hearing. The Caption effect can even "
+"animate the text fading in/out, and supports any font, size, color, and "
+"margin. OpenShot also has an easy-to-use Caption editor, where you can "
+"quickly insert captions at the playhead position, or edit all your caption "
+"text in one place."
+msgstr ""
+"Agrega subtítulos de texto sobre tu video. Soportamos los formatos de "
+"archivo de subtítulos VTT (WebVTT) y SubRip (SRT). Estos formatos se usan "
+"para mostrar subtítulos en videos. Permiten añadir subtítulos basados en "
+"texto al contenido de video, haciéndolo más accesible para una audiencia más "
+"amplia, especialmente para personas sordas o con dificultades auditivas. El "
+"efecto de Subtítulos puede incluso animar el texto con desvanecimientos de "
+"entrada/salida, y soporta cualquier fuente, tamaño, color y margen. OpenShot "
+"también cuenta con un editor de subtítulos fácil de usar, donde puedes "
+"insertar rápidamente subtítulos en la posición del cabezal de reproducción o "
+"editar todo el texto de los subtítulos en un solo lugar."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:486 ../effects.rst:932 ../effects.rst:1150
+msgid "background"
+msgstr "fondo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:486
+msgid "``(color)`` Color of caption area background"
+msgstr "``(color)`` Color del fondo del área de subtítulos"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:487 ../effects.rst:930 ../effects.rst:1148
+msgid "background_alpha"
+msgstr "alfa_fondo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:487
+msgid "``(float, 0 to 1)`` Background color alpha"
+msgstr "``(float, 0 a 1)`` Alfa del color de fondo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:488 ../effects.rst:931 ../effects.rst:1149
+msgid "background_corner"
+msgstr "esquina_fondo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:488
+msgid "``(float, 0 to 60)`` Background corner radius"
+msgstr "``(float, 0 a 60)`` Radio de la esquina del fondo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:489
+msgid "background_padding"
+msgstr "relleno_fondo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:489
+msgid "``(float, 0 to 60)`` Background padding"
+msgstr "``(float, 0 a 60)`` Relleno del fondo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:490
+msgid "caption_font"
+msgstr "fuente_subtítulo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:490
+msgid "``(font)`` Font name or family name"
+msgstr "``(fuente)`` Nombre de la fuente o familia"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:491
+msgid "caption_text"
+msgstr "texto_subtítulo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:491
+msgid "``(caption)`` VTT/Subrip formatted caption text (multi-line)"
+msgstr ""
+"``(subtítulo)`` Texto de subtítulo formateado en VTT/Subrip (multilínea)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:492
+msgid "``(color)`` Color of caption text"
+msgstr "``(color)`` Color del texto del subtítulo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:493
+msgid "fade_in"
+msgstr "desvanecer_entrada"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:493
+msgid "``(float, 0 to 3)`` Fade in per caption (# of seconds)"
+msgstr ""
+"``(float, 0 a 3)`` Desvanecimiento de entrada por subtítulo (número de "
+"segundos)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:494
+msgid "fade_out"
+msgstr "desvanecer_salida"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:494
+msgid "``(float, 0 to 3)`` Fade out per caption (# of seconds)"
+msgstr ""
+"``(float, 0 a 3)`` Desvanecimiento de salida por subtítulo (número de "
+"segundos)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:495
+msgid "font_alpha"
+msgstr "alfa_fuente"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:495
+msgid "``(float, 0 to 1)`` Font color alpha"
+msgstr "``(float, 0 a 1)`` Alfa del color de la fuente"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:496
+msgid "font_size"
+msgstr "tamaño_fuente"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:496
+msgid "``(float, 0 to 200)`` Font size in points"
+msgstr "``(float, 0 a 200)`` Tamaño de la fuente en puntos"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:497
+msgid "``(float, 0 to 0.5)`` Size of left margin"
+msgstr "``(float, 0 a 0.5)`` Tamaño del margen izquierdo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:498
+msgid "line_spacing"
+msgstr "espaciado_líneas"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:498
+msgid "``(float, 0 to 5)`` Distance between lines (1.0 default)"
+msgstr "``(float, 0 a 5)`` Distancia entre líneas (1.0 por defecto)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:499
+msgid "``(float, 0 to 0.5)`` Size of right margin"
+msgstr "``(float, 0 a 0.5)`` Tamaño del margen derecho"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:500 ../effects.rst:927 ../effects.rst:1145
+msgid "stroke"
+msgstr "contorno"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:500
+msgid "``(color)`` Color of text border / stroke"
+msgstr "``(color)`` Color del borde / contorno del texto"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:501 ../effects.rst:928 ../effects.rst:1146
+msgid "stroke_width"
+msgstr "ancho_contorno"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:501
+msgid "``(float, 0 to 10)`` Width of text border / stroke"
+msgstr "``(float, 0 a 10)`` Ancho del borde / trazo del texto"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:502
+msgid "``(float, 0 to 1)`` Size of top margin"
+msgstr "``(float, 0 a 1)`` Tamaño del margen superior"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:507
+msgid ""
+"The Chroma Key (Greenscreen) effect replaces a specific color (or chroma) in "
+"the video (commonly green or blue) with transparency, allowing for the "
+"compositing of the video over a different background. This effect is widely "
+"used in film and television production for creating visual effects and "
+"placing subjects in settings that would be otherwise impossible or "
+"impractical to shoot in."
+msgstr ""
+"El efecto Chroma Key (pantalla verde) reemplaza un color específico (o "
+"croma) en el video (comúnmente verde o azul) con transparencia, permitiendo "
+"la composición del video sobre un fondo diferente. Este efecto se usa "
+"ampliamente en la producción de cine y televisión para crear efectos "
+"visuales y colocar sujetos en escenarios que de otro modo serían imposibles "
+"o poco prácticos de filmar."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:518
+msgid "``(color)`` The color to match"
+msgstr "``(color)`` El color a igualar"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:519 ../effects.rst:1009 ../effects.rst:1195
+#: ../effects.rst:1265
+msgid "threshold"
+msgstr "umbral"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:519
+msgid ""
+"``(float, 0 to 125)`` The threshold (or fuzz factor) for matching similar "
+"colors. The larger the value the more colors that will be matched."
+msgstr ""
+"``(float, 0 a 125)`` El umbral (o factor de difuminado) para igualar colores "
+"similares. Cuanto mayor sea el valor, más colores serán igualados."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:520
+msgid "halo"
+msgstr "halo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:520
+msgid "``(float, 0 to 125)`` The additional threshold for halo elimination."
+msgstr "``(float, 0 a 125)`` El umbral adicional para la eliminación de halos."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:521
+msgid "keymethod"
+msgstr "método de clave"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:521
+msgid ""
+"``(int, choices: ['Basic keying', 'HSV/HSL hue', 'HSV saturation', 'HSL "
+"saturation', 'HSV value', 'HSL luminance', 'LCH luminosity', 'LCH chroma', "
+"'LCH hue', 'CIE Distance', 'Cb,Cr vector'])`` The keying method or algorithm "
+"to use."
+msgstr ""
+"``(int, opciones: ['Clave básica', 'Matiz HSV/HSL', 'Saturación HSV', "
+"'Saturación HSL', 'Valor HSV', 'Luminancia HSL', 'Luminosidad LCH', 'Croma "
+"LCH', 'Matiz LCH', 'Distancia CIE', 'Vector Cb,Cr'])`` El método o algoritmo "
+"de clave a usar."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:526
+msgid ""
+"The Color Map effect applies a 3D LUT (Lookup Table) to your footage, "
+"instantly transforming its colors to achieve a consistent look or mood. A 3D "
+"LUT is simply a table that remaps every input hue to a new output palette. "
+"With separate keyframe curves for red, green, and blue channels, you can "
+"precisely control, and even animate, how much each channel is influenced by "
+"the LUT, making it easy to fine-tune or blend your grade over time."
+msgstr ""
+"El efecto Mapa de Color aplica una LUT 3D (Tabla de Consulta) a tu metraje, "
+"transformando instantáneamente sus colores para lograr un aspecto o ambiente "
+"consistente. Una LUT 3D es simplemente una tabla que reasigna cada matiz de "
+"entrada a una nueva paleta de salida. Con curvas de fotogramas clave "
+"separadas para los canales rojo, verde y azul, puedes controlar con "
+"precisión, e incluso animar, cuánto influye la LUT en cada canal, "
+"facilitando el ajuste fino o la mezcla de tu gradación con el tiempo."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:531
+msgid ""
+"LUT files (`.cube` format) can be downloaded from many online resources, "
+"including free packs on photography blogs or marketplaces, such as https://"
+"freshluts.com/. OpenShot includes a selection of popular LUTs designed for "
+"**Rec 709** gamma out of the box."
+msgstr ""
+"Los archivos LUT (formato `.cube`) pueden descargarse de muchos recursos en "
+"línea, incluyendo paquetes gratuitos en blogs de fotografía o mercados, como "
+"https://freshluts.com/. OpenShot incluye una selección de LUTs populares "
+"diseñados para gamma **Rec 709** listos para usar."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:541
+msgid "lut_path"
+msgstr "ruta_lut"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:541
+msgid "``(string)`` Filesystem path to the `.cube` LUT file."
+msgstr "``(cadena)`` Ruta del sistema de archivos al archivo LUT `.cube`."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:542
+msgid "intensity"
+msgstr "intensidad"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:542
+msgid ""
+"``(float, 0.0 to 1.0)`` % Blending overall intensity (0.0 = no LUT, 1.0 = "
+"full LUT)."
+msgstr ""
+"``(float, 0.0 a 1.0)`` % Mezcla de intensidad general (0.0 = sin LUT, 1.0 = "
+"LUT completa)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:543
+msgid "intensity_r"
+msgstr "intensidad_r"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:543
+msgid ""
+"``(float, 0.0 to 1.0)`` % Blending the LUT’s red channel (0.0 = no LUT, 1.0 "
+"= full LUT)."
+msgstr ""
+"``(float, 0.0 a 1.0)`` % Mezcla del canal rojo de la LUT (0.0 = sin LUT, 1.0 "
+"= LUT completa)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:544
+msgid "intensity_g"
+msgstr "intensidad_g"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:544
+msgid ""
+"``(float, 0.0 to 1.0)`` % Blending the LUT’s green channel (0.0 = no LUT, "
+"1.0 = full LUT)."
+msgstr ""
+"``(float, 0.0 a 1.0)`` % Mezcla del canal verde de la LUT (0.0 = sin LUT, "
+"1.0 = LUT completa)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:545
+msgid "intensity_b"
+msgstr "intensidad_b"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:545
+msgid ""
+"``(float, 0.0 to 1.0)`` % Blending the LUT’s blue channel (0.0 = no LUT, 1.0 "
+"= full LUT)."
+msgstr ""
+"``(float, 0.0 a 1.0)`` % Mezcla del canal azul de la LUT (0.0 = sin LUT, 1.0 "
+"= LUT completa)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:549
+msgid "Gamma and Rec 709"
+msgstr "Gamma y Rec 709"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:550
+msgid ""
+"Gamma is the way video systems brighten or darken the midtones of an image. "
+"**Rec 709** is the standard gamma curve used for most HD and online video "
+"today. By shipping with **Rec 709** LUTs, OpenShot makes it simple to apply "
+"a grade that matches the vast majority of footage you’ll edit."
+msgstr ""
+"Gamma es la forma en que los sistemas de video aclaran u oscurecen los tonos "
+"medios de una imagen. **Rec 709** es la curva gamma estándar utilizada para "
+"la mayoría de videos HD y en línea hoy en día. Al incluir LUTs **Rec 709**, "
+"OpenShot facilita aplicar una gradación que coincide con la gran mayoría del "
+"metraje que editarás."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:554
+msgid ""
+"If your camera or workflow uses a different gamma (for example a LOG "
+"profile), you can still use a LUT made for that curve. Simply use a `.cube` "
+"file designed for your gamma under the Color Map effect’s **LUT Path**. Just "
+"be sure your footage gamma matches the LUT gamma—or the colors may look "
+"incorrect."
+msgstr ""
+"Si tu cámara o flujo de trabajo usa una gamma diferente (por ejemplo, un "
+"perfil LOG), aún puedes usar una LUT hecha para esa curva. Simplemente usa "
+"un archivo `.cube` diseñado para tu gamma en la **Ruta LUT** del efecto Mapa "
+"de Color. Solo asegúrate de que la gamma de tu metraje coincida con la gamma "
+"de la LUT, o los colores podrían verse incorrectos."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:558
+msgid ""
+"The following **Rec 709** LUT files are included in OpenShot, organized into "
+"the following categories:"
+msgstr ""
+"Los siguientes archivos LUT **Rec 709** están incluidos en OpenShot, "
+"organizados en las siguientes categorías:"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:561
+msgid "Cinematic & Blockbuster"
+msgstr "Cinematográfico y Taquillero"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:600
+msgid "Dark & Moody"
+msgstr "Oscuro y Melancólico"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:642
+msgid "Film Stock & Vintage"
+msgstr "Película y Vintage"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:686
+msgid "Teal & Orange Vibes"
+msgstr "Ambiente Turquesa y Naranja"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:710
+msgid "Utility & Correction"
+msgstr "Utilidad y Corrección"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:725
+msgid "Vibrant & Colorful"
+msgstr "Vibrante y Colorido"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:746
+msgid ""
+"The Color Saturation effect adjusts the intensity and vibrancy of colors "
+"within the video. Increasing saturation can make colors more vivid and eye-"
+"catching, while decreasing it can create a more subdued, almost black-and-"
+"white appearance."
+msgstr ""
+"El efecto Saturación de Color ajusta la intensidad y viveza de los colores "
+"dentro del video. Aumentar la saturación puede hacer que los colores sean "
+"más vivos y llamativos, mientras que disminuirla puede crear una apariencia "
+"más apagada, casi en blanco y negro."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:756
+msgid "saturation"
+msgstr "saturación"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:756
+msgid ""
+"``(float, 0 to 4)`` The curve to adjust the overall saturation of the "
+"frame's image (0.0 = greyscale, 1.0 = normal, 2.0 = double saturation)"
+msgstr ""
+"``(float, 0 a 4)`` La curva para ajustar la saturación general de la imagen "
+"del fotograma (0.0 = escala de grises, 1.0 = normal, 2.0 = saturación doble)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:757
+msgid "saturation_B"
+msgstr "saturación_B"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:757
+msgid ""
+"``(float, 0 to 4)`` The curve to adjust blue saturation of the frame's image"
+msgstr ""
+"``(float, 0 a 4)`` La curva para ajustar la saturación azul de la imagen del "
+"fotograma"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:758
+msgid "saturation_G"
+msgstr "saturación_G"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:758
+msgid ""
+"``(float, 0 to 4)`` The curve to adjust green saturation of the frame's "
+"image (0.0 = greyscale, 1.0 = normal, 2.0 = double saturation)"
+msgstr ""
+"``(float, 0 a 4)`` La curva para ajustar la saturación verde de la imagen "
+"del fotograma (0.0 = escala de grises, 1.0 = normal, 2.0 = saturación doble)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:759
+msgid "saturation_R"
+msgstr "saturación_R"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:759
+msgid ""
+"``(float, 0 to 4)`` The curve to adjust red saturation of the frame's image"
+msgstr ""
+"``(float, 0 a 4)`` La curva para ajustar la saturación roja de la imagen del "
+"fotograma"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:764
+msgid ""
+"Shift the colors of an image up, down, left, and right (with infinite "
+"wrapping)."
+msgstr ""
+"Desplaza los colores de una imagen hacia arriba, abajo, izquierda y derecha "
+"(con envoltura infinita)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:766
+msgid "**Each pixel has 4 color channels:**"
+msgstr "**Cada píxel tiene 4 canales de color:**"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:768
+msgid "Red, Green, Blue, and Alpha (i.e. transparency)"
+msgstr "Rojo, Verde, Azul y Alfa (es decir, transparencia)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:769
+msgid "Each channel value is between 0 and 255"
+msgstr "El valor de cada canal está entre 0 y 255"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:771
+msgid ""
+"The Color Shift effect simply \"moves\" or \"translates\" a specific color "
+"channel on the X or Y axis. *Not all video and image formats support an "
+"alpha channel, and in those cases, you will not see any changes when "
+"adjusting the color shift of the alpha channel.*"
+msgstr ""
+"El efecto Desplazamiento de Color simplemente \"mueve\" o \"traslada\" un "
+"canal de color específico en el eje X o Y. *No todos los formatos de video e "
+"imagen soportan un canal alfa, y en esos casos, no verá cambios al ajustar "
+"el desplazamiento de color del canal alfa.*"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:781
+msgid "alpha_x"
+msgstr "alfa_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:781
+msgid "``(float, -1 to 1)`` Shift the Alpha X coordinates (left or right)"
+msgstr ""
+"``(float, -1 a 1)`` Desplaza las coordenadas X del canal alfa (izquierda o "
+"derecha)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:782
+msgid "alpha_y"
+msgstr "alfa_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:782
+msgid "``(float, -1 to 1)`` Shift the Alpha Y coordinates (up or down)"
+msgstr ""
+"``(float, -1 a 1)`` Desplaza las coordenadas Y del canal alfa (arriba o "
+"abajo)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:783
+msgid "blue_x"
+msgstr "azul_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:783
+msgid "``(float, -1 to 1)`` Shift the Blue X coordinates (left or right)"
+msgstr ""
+"``(float, -1 a 1)`` Desplaza las coordenadas X del canal azul (izquierda o "
+"derecha)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:784
+msgid "blue_y"
+msgstr "azul_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:784
+msgid "``(float, -1 to 1)`` Shift the Blue Y coordinates (up or down)"
+msgstr ""
+"``(float, -1 a 1)`` Desplaza las coordenadas Y del canal azul (arriba o "
+"abajo)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:785
+msgid "green_x"
+msgstr "verde_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:785
+msgid "``(float, -1 to 1)`` Shift the Green X coordinates (left or right)"
+msgstr ""
+"``(float, -1 a 1)`` Desplaza las coordenadas X del canal verde (izquierda o "
+"derecha)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:786
+msgid "green_y"
+msgstr "verde_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:786
+msgid "``(float, -1 to 1)`` Shift the Green Y coordinates (up or down)"
+msgstr ""
+"``(float, -1 a 1)`` Desplaza las coordenadas Y del canal verde (arriba o "
+"abajo)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:787
+msgid "red_x"
+msgstr "rojo_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:787
+msgid "``(float, -1 to 1)`` Shift the Red X coordinates (left or right)"
+msgstr ""
+"``(float, -1 a 1)`` Desplaza las coordenadas X del canal rojo (izquierda o "
+"derecha)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:788
+msgid "red_y"
+msgstr "rojo_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:788
+msgid "``(float, -1 to 1)`` Shift the Red Y coordinates (up or down)"
+msgstr ""
+"``(float, -1 a 1)`` Desplaza las coordenadas Y del canal rojo (arriba o "
+"abajo)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:795
+msgid ""
+"The Crop effect removes unwanted outer areas from the video frame, allowing "
+"you to focus on a particular part of the shot, change the aspect ratio, or "
+"remove distracting elements from the edges of the frame. This effect is the "
+"primary method for cropping a Clip in OpenShot. The ``left``, ``right``, "
+"``top``, and ``bottom`` key-frames can even be animated, for a moving and "
+"resizing cropped area. You can leave the cropped area blank, or you can "
+"dynamically resize the cropped area to fill the screen."
+msgstr ""
+"El efecto Recortar elimina áreas externas no deseadas del cuadro de video, "
+"permitiéndote enfocarte en una parte particular de la toma, cambiar la "
+"relación de aspecto o eliminar elementos distractores de los bordes del "
+"cuadro. Este efecto es el método principal para recortar un Clip en "
+"OpenShot. Los fotogramas clave ``left``, ``right``, ``top`` y ``bottom`` "
+"pueden incluso animarse, para un área recortada que se mueve y redimensiona. "
+"Puedes dejar el área recortada en blanco o redimensionarla dinámicamente "
+"para llenar la pantalla."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:801
+msgid ""
+"You can quickly add this effect by right-clicking a clip and choosing :"
+"guilabel:`Crop`. When active, blue crop handles appear in the video preview "
+"so you can adjust the crop visually."
+msgstr ""
+"Puedes agregar rápidamente este efecto haciendo clic derecho en un clip y "
+"eligiendo :guilabel:`Recortar`. Cuando está activo, aparecen manejadores "
+"azules de recorte en la vista previa del video para que puedas ajustar el "
+"recorte visualmente."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:811
+msgid "``(float, 0 to 1)`` Size of bottom bar"
+msgstr "``(float, 0 a 1)`` Tamaño de la barra inferior"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:812
+msgid "``(float, 0 to 1)`` Size of left bar"
+msgstr "``(float, 0 a 1)`` Tamaño de la barra izquierda"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:813
+msgid "``(float, 0 to 1)`` Size of right bar"
+msgstr "``(float, 0 a 1)`` Tamaño de la barra derecha"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:814
+msgid "``(float, 0 to 1)`` Size of top bar"
+msgstr "``(float, 0 a 1)`` Tamaño de la barra superior"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:815 ../effects.rst:862 ../effects.rst:1026
+msgid "x"
+msgstr "x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:815
+msgid "``(float, -1 to 1)`` X-offset"
+msgstr "``(float, -1 a 1)`` Desplazamiento en X"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:816 ../effects.rst:863 ../effects.rst:1027
+msgid "y"
+msgstr "y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:816
+msgid "``(float, -1 to 1)`` Y-offset"
+msgstr "``(float, -1 a 1)`` Desplazamiento en Y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:817
+msgid "resize"
+msgstr "redimensionar"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:817
+msgid ""
+"``(bool, choices: ['Yes', 'No'])`` Replace the frame image with the cropped "
+"area (allows automatic scaling of the cropped image)"
+msgstr ""
+"``(bool, opciones: ['Sí', 'No'])`` Reemplaza la imagen del cuadro con el "
+"área recortada (permite el escalado automático de la imagen recortada)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:822
+msgid ""
+"The Deinterlace effect is used to remove interlacing artifacts from video "
+"footage, which are commonly seen as horizontal lines across moving objects. "
+"This effect is essential for converting interlaced video (such as from older "
+"video cameras or broadcast sources) into a progressive format suitable for "
+"modern displays."
+msgstr ""
+"El efecto Desentrelazado se usa para eliminar artefactos de entrelazado en "
+"metraje de video, que comúnmente se ven como líneas horizontales sobre "
+"objetos en movimiento. Este efecto es esencial para convertir video "
+"entrelazado (como el de cámaras antiguas o fuentes de transmisión) en un "
+"formato progresivo adecuado para pantallas modernas."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:832
+msgid "isOdd"
+msgstr "esImpar"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:832
+msgid "``(bool, choices: ['Yes', 'No'])`` Use odd or even lines"
+msgstr "``(bool, opciones: ['Sí', 'No'])`` Usar líneas impares o pares"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:837
+msgid ""
+"The Hue effect adjusts the overall color balance of the video, changing the "
+"hues without affecting the brightness or saturation. This can be used for "
+"color correction or to apply dramatic color effects that transform the mood "
+"of the footage."
+msgstr ""
+"El efecto Matiz ajusta el balance general de color del video, cambiando los "
+"matices sin afectar el brillo o la saturación. Esto puede usarse para "
+"corrección de color o para aplicar efectos de color dramáticos que "
+"transforman el ambiente del metraje."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:847
+msgid "hue"
+msgstr "matiz"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:847
+msgid "``(float, 0 to 1)`` The curve to adjust the percentage of hue shift"
+msgstr ""
+"``(float, 0 a 1)`` La curva para ajustar el porcentaje de cambio de matiz"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:852
+msgid ""
+"The Lens Flare effect simulates bright light hitting your camera lens, "
+"creating glowing halos, colored rings and gentle glares over your footage. "
+"Reflections are automatically placed along a line from the light source "
+"toward the center of the frame. You can animate any property with keyframes "
+"to follow your action or match your scene."
+msgstr ""
+"El efecto Destello de Lente simula luz brillante que incide en el lente de "
+"tu cámara, creando halos brillantes, anillos de colores y reflejos suaves "
+"sobre tu metraje. Las reflexiones se colocan automáticamente a lo largo de "
+"una línea desde la fuente de luz hacia el centro del cuadro. Puedes animar "
+"cualquier propiedad con fotogramas clave para seguir tu acción o coincidir "
+"con tu escena."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:862
+msgid ""
+"``(float, -1 to 1)`` Horizontal position of the light source. -1 is left "
+"edge, 0 is center, +1 is right edge."
+msgstr ""
+"``(float, -1 a 1)`` Posición horizontal de la fuente de luz. -1 es el borde "
+"izquierdo, 0 es el centro, +1 es el borde derecho."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:863
+msgid ""
+"``(float, -1 to 1)`` Vertical position of the light source. -1 is top edge, "
+"0 is center, +1 is bottom edge."
+msgstr ""
+"``(float, -1 a 1)`` Posición vertical de la fuente de luz. -1 es el borde "
+"superior, 0 es el centro, +1 es el borde inferior."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:864
+msgid ""
+"``(float, 0 to 1)`` Overall glow strength and transparency. Higher values "
+"make brighter, more opaque flares."
+msgstr ""
+"``(float, 0 a 1)`` Intensidad general del resplandor y transparencia. "
+"Valores más altos hacen destellos más brillantes y opacos."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:865
+msgid "size"
+msgstr "tamaño"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:865
+msgid ""
+"``(float, 0.1 to 3)`` Scale of the entire flare effect. Larger values "
+"enlarge halos, rings and glows."
+msgstr ""
+"``(float, 0.1 a 3)`` Escala de todo el efecto de destello. Valores mayores "
+"agrandan halos, anillos y resplandores."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:866
+msgid "spread"
+msgstr "dispersión"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:866
+msgid ""
+"``(float, 0 to 1)`` How far secondary reflections travel. 0 keeps them close "
+"to the source, 1 pushes them all the way toward the opposite edge."
+msgstr ""
+"``(float, 0 a 1)`` Qué tan lejos viajan las reflexiones secundarias. 0 las "
+"mantiene cerca de la fuente, 1 las empuja hasta el borde opuesto."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:867
+msgid "tint_color"
+msgstr "color_tinte"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:867
+msgid ""
+"``(color)`` Shifts the flare colors to match your scene. Use the RGBA "
+"sliders to pick hue and transparency."
+msgstr ""
+"``(color)`` Cambia los colores del destello para que coincidan con tu "
+"escena. Usa los controles deslizantes RGBA para elegir matiz y transparencia."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:872
+msgid ""
+"The Negative effect inverts the colors of the video, producing an image that "
+"resembles a photographic negative. This can be used for artistic effects, to "
+"create a surreal or otherworldly look, or to highlight specific elements "
+"within the frame."
+msgstr ""
+"El efecto Negativo invierte los colores del video, produciendo una imagen "
+"que se asemeja a un negativo fotográfico. Esto puede usarse para efectos "
+"artísticos, para crear un aspecto surrealista o de otro mundo, o para "
+"resaltar elementos específicos dentro del cuadro."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:878
+msgid ""
+"The Object Detector effect employs machine learning algorithms (such as "
+"neural networks) to identify and highlight objects within the video frame. "
+"It can recognize multiple object types, such as vehicles, people, animals, "
+"and more! This can be used for analytical purposes, to add interactive "
+"elements to videos, or to track the movement of specific objects across the "
+"frame."
+msgstr ""
+"El efecto Detector de Objetos emplea algoritmos de aprendizaje automático "
+"(como redes neuronales) para identificar y resaltar objetos dentro del "
+"cuadro de video. Puede reconocer múltiples tipos de objetos, como vehículos, "
+"personas, animales y más. ¡Esto puede usarse con fines analíticos, para "
+"agregar elementos interactivos a los videos o para rastrear el movimiento de "
+"objetos específicos a través del cuadro."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:884
+msgid "Class Filters & Confidence"
+msgstr "Filtros de Clase y Confianza"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:885
+msgid ""
+"To adjust the detection process to your specific needs, the Object Detector "
+"includes properties for ``class filters`` and ``confidence thresholds``. By "
+"setting a class filter, such as \"Truck\" or \"Person,\" you can instruct "
+"the detector to focus on specific types of objects, limiting the types of "
+"objects tracked. The confidence threshold allows you to set a minimum level "
+"of certainty for detections, ensuring that only objects detected with a "
+"confidence level above this threshold are considered, which helps in "
+"reducing false positives and focusing on more accurate detections."
+msgstr ""
+"Para ajustar el proceso de detección a sus necesidades específicas, el "
+"Detector de Objetos incluye propiedades para ``filtros de clase`` y "
+"``umbrales de confianza``. Al establecer un filtro de clase, como \"Camión\" "
+"o \"Persona\", puede indicar al detector que se enfoque en tipos específicos "
+"de objetos, limitando los tipos de objetos rastreados. El umbral de "
+"confianza le permite establecer un nivel mínimo de certeza para las "
+"detecciones, asegurando que solo se consideren los objetos detectados con un "
+"nivel de confianza superior a este umbral, lo que ayuda a reducir falsos "
+"positivos y a centrarse en detecciones más precisas."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:892 ../effects.rst:1115
+msgid "How Parenting Works"
+msgstr "Cómo Funciona la Paternidad"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:893
+msgid ""
+"Once you have tracked objects, you can \"parent\" other :ref:`clips_ref` to "
+"them. This means that the second clip, which could be a graphic, text, or "
+"another video layer, will now follow the tracked object as if it's attached "
+"to it. If the tracked object moves to the left, the child clip moves to the "
+"left. If the tracked object grows in size (gets closer to the camera), the "
+"child clip also scales up. For parented clips to appear correctly, they must "
+"be on a Track higher than the tracked objects, and set the appropriate :ref:"
+"`clip_scale_ref` property."
+msgstr ""
+"Una vez que haya rastreado objetos, puede \"parentar\" otros :ref:"
+"`clips_ref` a ellos. Esto significa que el segundo clip, que podría ser un "
+"gráfico, texto u otra capa de video, seguirá al objeto rastreado como si "
+"estuviera adjunto a él. Si el objeto rastreado se mueve hacia la izquierda, "
+"el clip hijo se mueve hacia la izquierda. Si el objeto rastreado crece en "
+"tamaño (se acerca a la cámara), el clip hijo también se escala. Para que los "
+"clips parentados aparezcan correctamente, deben estar en una Pista superior "
+"a los objetos rastreados y configurar la propiedad :ref:`clip_scale_ref` "
+"adecuada."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:899 ../effects.rst:1122
+msgid "See :ref:`clip_parent_ref`."
+msgstr "Vea :ref:`clip_parent_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:902 ../effects.rst:999 ../effects.rst:1125
+msgid "Properties"
+msgstr "Propiedades"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:910
+msgid "class_filter"
+msgstr "filtro_de_clase"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:910
+msgid "``(string)`` Type of object class to filter (i.e. car, person)"
+msgstr ""
+"``(cadena)`` Tipo de clase de objeto a filtrar (p. ej., coche, persona)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:911
+msgid "confidence_threshold"
+msgstr "umbral_de_confianza"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:911
+msgid ""
+"``(float, 0 to 1)`` Minimum confidence value to display the detected objects"
+msgstr ""
+"``(flotante, 0 a 1)`` Valor mínimo de confianza para mostrar los objetos "
+"detectados"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:912
+msgid "display_box_text"
+msgstr "mostrar_texto_caja"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:912
+msgid ""
+"``(int, choices: ['Yes', 'No'])`` Draw class name and ID of ALL tracked "
+"objects"
+msgstr ""
+"``(int, opciones: ['Sí', 'No'])`` Dibujar nombre de clase e ID de TODOS los "
+"objetos rastreados"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:913
+msgid "display_boxes"
+msgstr "mostrar_cajas"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:913
+msgid ""
+"``(int, choices: ['Yes', 'No'])`` Draw bounding box around ALL tracked "
+"objects (a quick way to hide all tracked objects)"
+msgstr ""
+"``(int, opciones: ['Sí', 'No'])`` Dibujar cuadro delimitador alrededor de "
+"TODOS los objetos rastreados (una forma rápida de ocultar todos los objetos "
+"rastreados)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:914
+msgid "selected_object_index"
+msgstr "índice_objeto_seleccionado"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:914
+msgid ""
+"``(int, 0 to 200)`` Index of the tracked object that is `selected` to modify "
+"its properties"
+msgstr ""
+"``(int, 0 a 200)`` Índice del objeto rastreado que está `seleccionado` para "
+"modificar sus propiedades"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:915 ../effects.rst:1133
+msgid "draw_box"
+msgstr "dibujar_caja"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:915
+msgid ""
+"``(int, choices: ['Yes', 'No'])`` Whether to draw the box around the "
+"selected tracked object"
+msgstr ""
+"``(int, opciones: ['Sí', 'No'])`` Indica si dibujar la caja alrededor del "
+"objeto rastreado seleccionado"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:916 ../effects.rst:1134
+msgid "box_id"
+msgstr "id_caja"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:916 ../effects.rst:1134
+msgid ""
+"``(string)`` Internal ID of a tracked object box for identification purposes"
+msgstr ""
+"``(cadena)`` ID interno de una caja de objeto rastreado para fines de "
+"identificación"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:917 ../effects.rst:1135
+msgid "x1"
+msgstr "x1"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:917 ../effects.rst:1135
+msgid ""
+"``(float, 0 to 1)`` Top left X coordinate of a tracked object box, "
+"normalized to the video frame width"
+msgstr ""
+"``(flotante, 0 a 1)`` Coordenada X superior izquierda de una caja de objeto "
+"rastreado, normalizada al ancho del cuadro de video"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:918 ../effects.rst:1136
+msgid "y1"
+msgstr "y1"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:918 ../effects.rst:1136
+msgid ""
+"``(float, 0 to 1)`` Top left Y coordinate of a tracked object box, "
+"normalized to the video frame height"
+msgstr ""
+"``(flotante, 0 a 1)`` Coordenada Y superior izquierda de una caja de objeto "
+"rastreado, normalizada a la altura del cuadro de video"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:919 ../effects.rst:1137
+msgid "x2"
+msgstr "x2"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:919 ../effects.rst:1137
+msgid ""
+"``(float, 0 to 1)`` Bottom right X coordinate of a tracked object box, "
+"normalized to the video frame width"
+msgstr ""
+"``(flotante, 0 a 1)`` Coordenada X inferior derecha de una caja de objeto "
+"rastreado, normalizada al ancho del cuadro de video"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:920 ../effects.rst:1138
+msgid "y2"
+msgstr "y2"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:920 ../effects.rst:1138
+msgid ""
+"``(float, 0 to 1)`` Bottom right Y coordinate of a tracked object box, "
+"normalized to the video frame height"
+msgstr ""
+"``(flotante, 0 a 1)`` Coordenada Y inferior derecha de una caja de objeto "
+"rastreado, normalizada a la altura del cuadro de video"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:921 ../effects.rst:1139
+msgid "delta_x"
+msgstr "delta_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:921 ../effects.rst:1139
+msgid ""
+"``(float, -1.0 to 1)`` Horizontal movement delta of the tracked object box "
+"from its previous position"
+msgstr ""
+"``(flotante, -1.0 a 1)`` Delta de movimiento horizontal de la caja del "
+"objeto rastreado desde su posición anterior"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:922 ../effects.rst:1140
+msgid "delta_y"
+msgstr "delta_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:922 ../effects.rst:1140
+msgid ""
+"``(float, -1.0 to 1)`` Vertical movement delta of the tracked object box "
+"from its previous position"
+msgstr ""
+"``(flotante, -1.0 a 1)`` Delta de movimiento vertical de la caja del objeto "
+"rastreado desde su posición anterior"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:923 ../effects.rst:1141
+msgid "scale_x"
+msgstr "escala_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:923 ../effects.rst:1141
+msgid ""
+"``(float, 0 to 1)`` Scaling factor in the X direction for the tracked object "
+"box, relative to its original size"
+msgstr ""
+"``(flotante, 0 a 1)`` Factor de escala en la dirección X para la caja del "
+"objeto rastreado, relativo a su tamaño original"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:924 ../effects.rst:1142
+msgid "scale_y"
+msgstr "escala_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:924 ../effects.rst:1142
+msgid ""
+"``(float, 0 to 1)`` Scaling factor in the Y direction for the tracked object "
+"box, relative to its original size"
+msgstr ""
+"``(flotante, 0 a 1)`` Factor de escala en la dirección Y para la caja del "
+"objeto rastreado, relativo a su tamaño original"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:925 ../effects.rst:1143
+msgid "rotation"
+msgstr "rotación"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:925 ../effects.rst:1143
+msgid ""
+"``(float, 0 to 360)`` Rotation angle of the tracked object box, in degrees"
+msgstr ""
+"``(flotante, 0 a 360)`` Ángulo de rotación de la caja del objeto rastreado, "
+"en grados"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:926 ../effects.rst:1144
+msgid "visible"
+msgstr "visible"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:926 ../effects.rst:1144
+msgid ""
+"``(bool)`` Is the tracked object box visible in the current frame. Read-only "
+"property."
+msgstr ""
+"``(bool)`` Indica si la caja del objeto rastreado es visible en el cuadro "
+"actual. Propiedad de solo lectura."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:927 ../effects.rst:1145
+msgid "``(color)`` Color of the stroke (border) around the tracked object box"
+msgstr ""
+"``(color)`` Color del trazo (borde) alrededor de la caja del objeto rastreado"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:928 ../effects.rst:1146
+msgid ""
+"``(int, 1 to 10)`` Width of the stroke (border) around the tracked object box"
+msgstr ""
+"``(int, 1 a 10)`` Ancho del trazo (borde) alrededor de la caja del objeto "
+"rastreado"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:929 ../effects.rst:1147
+msgid "stroke_alpha"
+msgstr "opacidad_del_trazo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:929 ../effects.rst:1147
+msgid ""
+"``(float, 0 to 1)`` Opacity of the stroke (border) around the tracked object "
+"box"
+msgstr ""
+"``(float, 0 a 1)`` Opacidad del trazo (borde) alrededor del cuadro del "
+"objeto rastreado"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:930 ../effects.rst:1148
+msgid ""
+"``(float, 0 to 1)`` Opacity of the background fill inside the tracked object "
+"box"
+msgstr ""
+"``(float, 0 a 1)`` Opacidad del relleno de fondo dentro del cuadro del "
+"objeto rastreado"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:931 ../effects.rst:1149
+msgid ""
+"``(int, 0 to 150)`` Radius of the corners for the background fill inside the "
+"tracked object box"
+msgstr ""
+"``(int, 0 a 150)`` Radio de las esquinas para el relleno de fondo dentro del "
+"cuadro del objeto rastreado"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:932 ../effects.rst:1150
+msgid "``(color)`` Color of the background fill inside the tracked object box"
+msgstr ""
+"``(color)`` Color del relleno de fondo dentro del cuadro del objeto rastreado"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:937
+msgid ""
+"The Outline effect adds a customizable border around images or text within a "
+"video frame. It works by extracting the image’s alpha channel, blurring it "
+"to generate a smooth outline mask, and then combining this mask with a solid "
+"color layer. Users can adjust the outline’s width as well as its color "
+"components (red, green, blue) and transparency (alpha), allowing for a wide "
+"range of visual styles. This effect is ideal for emphasizing text, creating "
+"visual separation, and adding an artistic flair to your videos."
+msgstr ""
+"El efecto Contorno añade un borde personalizable alrededor de imágenes o "
+"texto dentro de un fotograma de video. Funciona extrayendo el canal alfa de "
+"la imagen, difuminándolo para generar una máscara de contorno suave, y luego "
+"combinando esta máscara con una capa de color sólido. Los usuarios pueden "
+"ajustar el ancho del contorno así como sus componentes de color (rojo, "
+"verde, azul) y transparencia (alfa), permitiendo una amplia gama de estilos "
+"visuales. Este efecto es ideal para enfatizar texto, crear separación visual "
+"y añadir un toque artístico a tus videos."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:949
+msgid "width"
+msgstr "ancho"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:949
+msgid "``(float, 0 to 100)``   The width of the outline in pixels."
+msgstr "``(float, 0 a 100)``   El ancho del contorno en píxeles."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:950
+msgid "red"
+msgstr "rojo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:950
+msgid "``(float, 0 to 255)``   The red color component of the outline."
+msgstr "``(float, 0 a 255)``   El componente rojo del color del contorno."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:951
+msgid "green"
+msgstr "verde"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:951
+msgid "``(float, 0 to 255)``   The green color component of the outline."
+msgstr "``(float, 0 a 255)``   El componente verde del color del contorno."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:952
+msgid "blue"
+msgstr "azul"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:952
+msgid "``(float, 0 to 255)``   The blue color component of the outline."
+msgstr "``(float, 0 a 255)``   El componente azul del color del contorno."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:953
+msgid "alpha"
+msgstr "alfa"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:953
+msgid "``(float, 0 to 255)``   The transparency (alpha) value for the outline."
+msgstr ""
+"``(float, 0 a 255)``   El valor de transparencia (alfa) para el contorno."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:958
+msgid ""
+"The Pixelate effect increases or decreases the size of the pixels in the "
+"video, creating a mosaic-like appearance. This can be used to obscure "
+"details (such as faces or license plates for privacy reasons), or as a "
+"stylistic effect to evoke a retro, digital, or abstract aesthetic."
+msgstr ""
+"El efecto Pixelar aumenta o disminuye el tamaño de los píxeles en el video, "
+"creando una apariencia similar a un mosaico. Esto puede usarse para ocultar "
+"detalles (como rostros o matrículas por razones de privacidad), o como un "
+"efecto estilístico para evocar una estética retro, digital o abstracta."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:968
+msgid "``(float, 0 to 1)`` The curve to adjust the bottom margin size"
+msgstr "``(float, 0 a 1)`` La curva para ajustar el tamaño del margen inferior"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:969
+msgid "``(float, 0 to 1)`` The curve to adjust the left margin size"
+msgstr ""
+"``(float, 0 a 1)`` La curva para ajustar el tamaño del margen izquierdo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:970
+msgid "pixelization"
+msgstr "pixelización"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:970
+msgid "``(float, 0 to 0.99)`` The curve to adjust the amount of pixelization"
+msgstr ""
+"``(float, 0 a 0.99)`` La curva para ajustar la cantidad de pixelización"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:971
+msgid "``(float, 0 to 1)`` The curve to adjust the right margin size"
+msgstr "``(float, 0 a 1)`` La curva para ajustar el tamaño del margen derecho"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:972
+msgid "``(float, 0 to 1)`` The curve to adjust the top margin size"
+msgstr "``(float, 0 a 1)`` La curva para ajustar el tamaño del margen superior"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:977
+msgid ""
+"The Sharpen effect enhances perceived detail by first blurring the frame "
+"slightly and then adding a scaled difference (the *un-sharp mask*) back on "
+"top. This boosts edge contrast, making textures and outlines appear crisper "
+"without changing overall brightness."
+msgstr ""
+"El efecto Enfocar mejora el detalle percibido al difuminar ligeramente el "
+"fotograma y luego añadir una diferencia escalada (la *máscara de desenfoque "
+"inverso*) encima. Esto aumenta el contraste de los bordes, haciendo que las "
+"texturas y contornos se vean más nítidos sin cambiar el brillo general."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:982
+msgid "Modes"
+msgstr "Modos"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:984
+msgid ""
+"**Unsharp** – Classic un-sharp mask: the edge detail is added back to the "
+"*original* frame. Produces the familiar punchy sharpen seen in photo editors."
+msgstr ""
+"**Unsharp** – Máscara clásica de desenfoque inverso: el detalle de los "
+"bordes se añade de nuevo al fotograma *original*. Produce el enfoque marcado "
+"familiar en editores de fotos."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:987
+msgid ""
+"**HighPass** – High-pass blend: the edge detail is added to the *blurred* "
+"frame, then the result replaces the original.  Gives a softer, more "
+"“contrasty” look and can rescue highlights that would otherwise clip."
+msgstr ""
+"**HighPass** – Mezcla de paso alto: el detalle de los bordes se añade al "
+"fotograma *difuminado*, luego el resultado reemplaza al original. Da un "
+"aspecto más suave y “contrastado” y puede recuperar luces que de otro modo "
+"se recortarían."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:991
+msgid "Channels"
+msgstr "Canales"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:993
+msgid ""
+"**All** – Apply the edge mask to the full RGB signal (strongest effect – "
+"colour and brightness sharpened)."
+msgstr ""
+"**All** – Aplica la máscara de bordes a toda la señal RGB (efecto más fuerte "
+"– color y brillo enfocados)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:994
+msgid ""
+"**Luma** – Apply only to luma (brightness).  Colours stay untouched, so "
+"chroma noise is not amplified."
+msgstr ""
+"**Luma** – Aplica solo a la luma (brillo). Los colores permanecen intactos, "
+"por lo que el ruido de croma no se amplifica."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:995
+msgid ""
+"**Chroma** – Apply only to the chroma (colour difference) channels.  Useful "
+"for gently reviving colour edges without changing perceived brightness."
+msgstr ""
+"**Chroma** – Aplica solo a los canales de croma (diferencia de color). Útil "
+"para revivir suavemente los bordes de color sin cambiar el brillo percibido."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1007
+msgid "amount"
+msgstr "cantidad"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1007
+msgid "``(float, 0 to 40)`` Strength multiplier / up to 100% edge boost"
+msgstr ""
+"``(float, 0 a 40)`` Multiplicador de fuerza / hasta 100% de aumento en los "
+"bordes"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1008
+msgid "radius"
+msgstr "radio"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1008
+msgid ""
+"``(float, 0 to 10)`` Blur radius in pixels at 720p (auto-scaled to clip size)"
+msgstr ""
+"``(float, 0 a 10)`` Radio de desenfoque en píxeles a 720p (escalado "
+"automático al tamaño del clip)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1009
+msgid "``(float, 0 to 1)`` Minimum luma difference that will be sharpened"
+msgstr "``(float, 0 a 1)`` Diferencia mínima de luma que será enfocada"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1010
+msgid "mode"
+msgstr "modo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1010
+msgid ""
+"``(int, choices: ['Unsharp', 'HighPass'])`` Math style of the sharpening mask"
+msgstr ""
+"``(int, opciones: ['Unsharp', 'HighPass'])`` Estilo matemático de la máscara "
+"de enfoque"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1011
+msgid "channel"
+msgstr "canal"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1011
+msgid ""
+"``(int, choices: ['All', 'Luma', 'Chroma'])`` Which colour channels receive "
+"sharpening"
+msgstr ""
+"``(int, opciones: ['All', 'Luma', 'Chroma'])`` Qué canales de color reciben "
+"el enfoque"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1016
+msgid ""
+"The Shift effect moves the entire image in different directions (up, down, "
+"left, and right with infinite wrapping), creating a sense of motion or "
+"disorientation. This can be used for transitions, to simulate camera "
+"movement, or to add dynamic motion to static shots."
+msgstr ""
+"El efecto Desplazar mueve toda la imagen en diferentes direcciones (arriba, "
+"abajo, izquierda y derecha con envoltura infinita), creando una sensación de "
+"movimiento o desorientación. Esto puede usarse para transiciones, simular "
+"movimiento de cámara o añadir movimiento dinámico a tomas estáticas."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1026
+msgid "``(float, -1 to 1)`` Shift the X coordinates (left or right)"
+msgstr "``(float, -1 a 1)`` Desplaza las coordenadas X (izquierda o derecha)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1027
+msgid "``(float, -1 to 1)`` Shift the Y coordinates (up or down)"
+msgstr "``(float, -1 a 1)`` Desplaza las coordenadas Y (arriba o abajo)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1033
+msgid ""
+"The Spherical Projection effect flattens 360° or fisheye footage into a "
+"normal rectangular view, or generates fisheye output. Steer a virtual camera "
+"with yaw, pitch, and roll. Control the output view with FOV. Choose the "
+"input type (equirect or one of the fisheye models), pick a projection mode "
+"for the output, and select a sampling mode that balances quality and speed. "
+"This is ideal for keyframed “virtual camera” moves inside 360° clips and for "
+"converting circular fisheye shots."
+msgstr ""
+"El efecto de Proyección Esférica aplana metraje 360° o de ojo de pez en una "
+"vista rectangular normal, o genera salida de ojo de pez. Controla una cámara "
+"virtual con guiñada, cabeceo y alabeo. Controla la vista de salida con el "
+"FOV. Elige el tipo de entrada (equirectangular o uno de los modelos de ojo "
+"de pez), selecciona un modo de proyección para la salida y elige un modo de "
+"muestreo que equilibre calidad y velocidad. Esto es ideal para movimientos "
+"de “cámara virtual” con fotogramas clave dentro de clips 360° y para "
+"convertir tomas circulares de ojo de pez."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1044
+msgid "yaw"
+msgstr "guiñada"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1044
+msgid ""
+"``(float, -180 to 180)`` Horizontal rotation around the up axis (degrees)."
+msgstr ""
+"``(float, -180 a 180)`` Rotación horizontal alrededor del eje vertical "
+"(grados)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1046
+msgid "pitch"
+msgstr "cabeceo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1046
+msgid ""
+"``(float, -180 to 180)`` Vertical rotation around the right axis (degrees)."
+msgstr ""
+"``(float, -180 a 180)`` Rotación vertical alrededor del eje derecho (grados)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1048
+msgid "roll"
+msgstr "alabeo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1048
+msgid "``(float, -180 to 180)`` Rotation around the forward axis (degrees)."
+msgstr "``(float, -180 a 180)`` Rotación alrededor del eje frontal (grados)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1050
+msgid "fov"
+msgstr "fov"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1050
+msgid ""
+"``(float, 0 to 179)`` **Out FOV.** Horizontal field of view of the virtual "
+"camera (degrees) for the output."
+msgstr ""
+"``(float, 0 a 179)`` **FOV de salida.** Campo de visión horizontal de la "
+"cámara virtual (grados) para la salida."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1052
+msgid "in_fov"
+msgstr "fov_entrada"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1052
+msgid ""
+"``(float, 1 to 360)`` **In FOV.** Total coverage of the source lens. Used "
+"when **Input Model = Fisheye** (typical value 180). Ignored for equirect "
+"sources."
+msgstr ""
+"``(float, 1 a 360)`` **FOV de entrada.** Cobertura total de la lente de "
+"origen. Usado cuando **Modelo de Entrada = Ojo de pez** (valor típico 180). "
+"Ignorado para fuentes equirectangulares."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1054
+msgid "projection_mode"
+msgstr "modo_proyección"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1054
+msgid ""
+"``(int)`` Output projection: **Sphere (0):** rectilinear output over the "
+"full sphere. **Hemisphere (1):** rectilinear output over a half sphere. "
+"**Fisheye: Equidistant (2)**, **Equisolid (3)**, **Stereographic (4)**, "
+"**Orthographic (5)**: circular fisheye output using the selected mapping."
+msgstr ""
+"``(int)`` Proyección de salida: **Esfera (0):** salida rectilínea sobre la "
+"esfera completa. **Hemisferio (1):** salida rectilínea sobre media esfera. "
+"**Ojo de pez: Equidistante (2)**, **Equisólido (3)**, **Estereográfica "
+"(4)**, **Ortográfica (5):** salida circular ojo de pez usando el mapeo "
+"seleccionado."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1059
+msgid "input_model"
+msgstr "modelo_entrada"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1059
+msgid ""
+"``(int)`` Source lens model: **Equirectangular (0)**, **Fisheye: Equidistant "
+"(1)**, **Fisheye: Equisolid (2)**, **Fisheye: Stereographic (3)**, "
+"**Fisheye: Orthographic (4)**."
+msgstr ""
+"``(int)`` Modelo de lente de origen: **Equirectangular (0)**, **Ojo de pez: "
+"Equidistante (1)**, **Ojo de pez: Equisólido (2)**, **Ojo de pez: "
+"Estereográfica (3)**, **Ojo de pez: Ortográfica (4)**."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1062
+msgid "invert"
+msgstr "invertir"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1062
+msgid ""
+"``(int)`` Flip the view by 180° without mirroring. **Normal (0)**, **Invert "
+"(1)**. For equirect sources this behaves like a 180° yaw. For fisheye inputs "
+"it swaps front/back hemispheres."
+msgstr ""
+"``(int)`` Voltea la vista 180° sin espejar. **Normal (0)**, **Invertir "
+"(1)**. Para fuentes equirectangulares se comporta como una guiñada de 180°. "
+"Para entradas de ojo de pez intercambia hemisferios delantero/trasero."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1065
+msgid "interpolation"
+msgstr "interpolación"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1065
+msgid ""
+"``(int)`` Sampling method: **Nearest (0)**, **Bilinear (1)**, **Bicubic "
+"(2)**, **Auto (3)**. Auto picks Bilinear at ~1:1, Bicubic when upscaling, "
+"and a mipmapped Bilinear when downscaling."
+msgstr ""
+"``(int)`` Método de muestreo: **El más cercano (0)**, **Bilineal (1)**, "
+"**Bicúbico (2)**, **Automático (3)**. Automático elige Bilineal a ~1:1, "
+"Bicúbico al aumentar escala, y Bilineal con mipmap al reducir escala."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1072
+msgid ""
+"**Flatten a fisheye clip to a normal view:** Set **Input Model** to the "
+"correct fisheye type, set **In FOV** to your lens coverage (often 180), "
+"choose **Projection Mode = Sphere** or **Hemisphere**, then frame with **Yaw/"
+"Pitch/Roll** and **Out FOV**."
+msgstr ""
+"**Aplanar un clip de ojo de pez a una vista normal:** Establece **Modelo de "
+"Entrada** al tipo correcto de ojo de pez, ajusta **FOV de entrada** a la "
+"cobertura de tu lente (a menudo 180), elige **Modo de Proyección = Esfera** "
+"o **Hemisferio**, luego encuadra con **Guiñada/Cabeceo/Alabeo** y **FOV de "
+"salida**."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1074
+msgid ""
+"**Reframe an equirect clip:** Set **Input Model = Equirectangular**, pick "
+"**Sphere** (full) or **Hemisphere** (front/back). **Invert** on equirect is "
+"equivalent to yaw +180 and does not mirror."
+msgstr ""
+"**Reencuadrar un clip equirectangular:** Establece **Modelo de Entrada = "
+"Equirectangular**, elige **Esfera** (completa) o **Hemisferio** (frontal/"
+"trasero). **Invertir** en equirect es equivalente a guiñada +180 y no espeja."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1076
+msgid ""
+"**Create a fisheye output:** Choose one of the **Fisheye** projection modes "
+"(2..5). **Out FOV** controls disk coverage (180 gives a classic circular "
+"fisheye)."
+msgstr ""
+"**Crear una salida de ojo de pez:** Elige uno de los modos de proyección "
+"**Ojo de pez** (2..5). **FOV de salida** controla la cobertura del disco "
+"(180 da un ojo de pez circular clásico)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1078
+msgid ""
+"If the image looks mirrored, turn **Invert** off. If you need the back view "
+"on equirect, use **Invert** or add +180 to **Yaw**."
+msgstr ""
+"Si la imagen parece espejada, desactiva **Invertir**. Si necesitas la vista "
+"trasera en equirect, usa **Invertir** o añade +180 a **Guiñada**."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1079
+msgid ""
+"If the output looks soft or aliased, reduce **Out FOV** or increase export "
+"resolution. **Auto** interpolation adapts the filter to scaling."
+msgstr ""
+"Si la salida se ve borrosa o con aliasing, reduce el **FOV de salida** o "
+"aumenta la resolución de exportación. La interpolación **Automática** adapta "
+"el filtro al escalado."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1083
+msgid ""
+"The Stabilizer effect reduces unwanted shake and jitter in handheld or "
+"unstable video footage, resulting in smoother, more professional-looking "
+"shots. This is particularly useful for action scenes, handheld shots, or any "
+"footage where a tripod was not used."
+msgstr ""
+"El efecto Estabilizador reduce el movimiento y temblor no deseados en "
+"metraje de video inestable o grabado a mano, resultando en tomas más suaves "
+"y profesionales. Es especialmente útil para escenas de acción, tomas a mano "
+"alzada o cualquier metraje donde no se usó trípode."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1093
+msgid "zoom"
+msgstr "zoom"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1093
+msgid ""
+"``(float, 0 to 2)`` Percentage to zoom into the clip, to crop off the "
+"shaking and uneven edges"
+msgstr ""
+"``(float, 0 a 2)`` Porcentaje para hacer zoom en el clip, para recortar el "
+"temblor y bordes irregulares."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1098
+msgid ""
+"The Tracker effect allows for the tracking of a specific object or area "
+"within the video frame across multiple frames. This can be used for motion "
+"tracking, adding effects or annotations that follow the movement of objects, "
+"or for stabilizing footage based on a tracked point.When tracking an object, "
+"be sure to select the entire object, which is visible at the start of a "
+"clip, and choose one of the following ``Tracking Type`` algorithms. The "
+"tracking algorithm then follows this object from frame to frame, recording "
+"its position, scale, and sometimes rotation."
+msgstr ""
+"El efecto Rastreador permite el seguimiento de un objeto o área específica "
+"dentro del cuadro de video a través de múltiples fotogramas. Esto puede "
+"usarse para seguimiento de movimiento, añadir efectos o anotaciones que "
+"sigan el movimiento de objetos, o para estabilizar metraje basado en un "
+"punto rastreado. Al rastrear un objeto, asegúrate de seleccionar el objeto "
+"completo, visible al inicio del clip, y elige uno de los siguientes "
+"algoritmos de ``Tipo de Rastreo``. El algoritmo de rastreo sigue este objeto "
+"de fotograma a fotograma, registrando su posición, escala y a veces rotación."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1105
+msgid "Tracking Type"
+msgstr "Tipo de Rastreo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1106
+msgid ""
+"**KCF:** (default) A blend of Boosting and MIL strategies, employing "
+"correlation filters on overlapping areas from 'bags' to accurately track and "
+"predict object movement. It offers higher speed and accuracy and can stop "
+"tracking when the object is lost but struggles to resume tracking after "
+"losing the object."
+msgstr ""
+"**KCF:** (por defecto) Una mezcla de estrategias Boosting y MIL, que emplea "
+"filtros de correlación en áreas superpuestas de 'bolsas' para rastrear y "
+"predecir con precisión el movimiento del objeto. Ofrece mayor velocidad y "
+"precisión, y puede detener el rastreo cuando se pierde el objeto, pero tiene "
+"dificultades para reanudar el rastreo después de perderlo."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1107
+msgid ""
+"**MIL:** Improves upon Boosting by considering multiple potential positives "
+"('bags') around the definite positive object, increasing robustness to noise "
+"and maintaining good accuracy. However, it shares the Boosting Tracker's "
+"drawbacks of low speed and difficulty in stopping tracking when the object "
+"is lost."
+msgstr ""
+"**MIL:** Mejora sobre Boosting considerando múltiples posibles positivos "
+"('bolsas') alrededor del objeto positivo definido, aumentando la robustez al "
+"ruido y manteniendo buena precisión. Sin embargo, comparte las desventajas "
+"del Rastreador Boosting de baja velocidad y dificultad para detener el "
+"rastreo cuando se pierde el objeto."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1108
+msgid ""
+"**BOOSTING:** Utilizes the online AdaBoost algorithm to enhance the "
+"classification of tracked objects by focusing on incorrectly classified "
+"ones. It requires setting the initial frame and treats nearby objects as "
+"background, adjusting to new frames based on maximum score areas. It's known "
+"for accurate tracking but suffers from low speed, noise sensitivity, and "
+"difficulty stopping tracking upon object loss."
+msgstr ""
+"**BOOSTING:** Utiliza el algoritmo AdaBoost en línea para mejorar la "
+"clasificación de objetos rastreados enfocándose en los que fueron "
+"clasificados incorrectamente. Requiere establecer el cuadro inicial y trata "
+"los objetos cercanos como fondo, ajustándose a nuevos cuadros basándose en "
+"las áreas de puntuación máxima. Es conocido por su seguimiento preciso, pero "
+"sufre de baja velocidad, sensibilidad al ruido y dificultad para detener el "
+"seguimiento al perder el objeto."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1109
+msgid ""
+"**TLD:** Decomposes tracking into tracking, learning, and detection phases, "
+"allowing for adaptation and correction over time. While it can handle object "
+"scaling and occlusions reasonably well, it may behave unpredictably, with "
+"instability in tracking and detection."
+msgstr ""
+"**TLD:** Descompone el seguimiento en fases de seguimiento, aprendizaje y "
+"detección, permitiendo la adaptación y corrección con el tiempo. Aunque "
+"puede manejar razonablemente bien el escalado de objetos y las oclusiones, "
+"puede comportarse de manera impredecible, con inestabilidad en el "
+"seguimiento y la detección."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1110
+msgid ""
+"**MEDIANFLOW:** Based on the Lucas-Kanade method, it analyzes forward and "
+"backward movement to estimate trajectory errors for real-time position "
+"prediction. It's fast and accurate under certain conditions but can lose "
+"track of fast-moving objects."
+msgstr ""
+"**MEDIANFLOW:** Basado en el método Lucas-Kanade, analiza el movimiento "
+"hacia adelante y hacia atrás para estimar errores de trayectoria y predecir "
+"la posición en tiempo real. Es rápido y preciso bajo ciertas condiciones, "
+"pero puede perder el seguimiento de objetos que se mueven rápidamente."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1111
+msgid ""
+"**MOSSE:** Utilizes adaptive correlations in Fourier space to maintain "
+"robustness against lighting, scale, and pose changes. It boasts very high "
+"tracking speeds and is better at continuing tracking after loss, but it may "
+"persist in tracking an absent object."
+msgstr ""
+"**MOSSE:** Utiliza correlaciones adaptativas en el espacio de Fourier para "
+"mantener robustez frente a cambios de iluminación, escala y pose. Ofrece "
+"velocidades de seguimiento muy altas y es mejor para continuar el "
+"seguimiento tras pérdidas, pero puede persistir en rastrear un objeto "
+"ausente."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1112
+msgid ""
+"**CSRT:** Employs spatial reliability maps to adjust filter support, "
+"enhancing the ability to track non-rectangular objects and perform well even "
+"with object overlaps. However, it is slower and may not operate reliably "
+"when the object is lost."
+msgstr ""
+"**CSRT:** Emplea mapas de confiabilidad espacial para ajustar el soporte del "
+"filtro, mejorando la capacidad de rastrear objetos no rectangulares y "
+"funcionar bien incluso con superposiciones de objetos. Sin embargo, es más "
+"lento y puede no operar de manera confiable cuando se pierde el objeto."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1116
+msgid ""
+"Once you have a tracked object, you can \"parent\" other :ref:`clips_ref` to "
+"it. This means that the second clip, which could be a graphic, text, or "
+"another video layer, will now follow the tracked object as if it's attached "
+"to it. If the tracked object moves to the left, the child clip moves to the "
+"left. If the tracked object grows in size (gets closer to the camera), the "
+"child clip also scales up. For parented clips to appear correctly, they must "
+"be on a Track higher than the tracked objects, and set the appropriate :ref:"
+"`clip_scale_ref` property."
+msgstr ""
+"Una vez que tienes un objeto rastreado, puedes \"vincular\" otros :ref:"
+"`clips_ref` a él. Esto significa que el segundo clip, que puede ser un "
+"gráfico, texto u otra capa de video, seguirá al objeto rastreado como si "
+"estuviera adjunto a él. Si el objeto rastreado se mueve hacia la izquierda, "
+"el clip hijo se mueve hacia la izquierda. Si el objeto rastreado crece en "
+"tamaño (se acerca a la cámara), el clip hijo también se escala. Para que los "
+"clips vinculados aparezcan correctamente, deben estar en una pista superior "
+"a los objetos rastreados y configurar la propiedad :ref:`clip_scale_ref` "
+"adecuada."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1133
+msgid ""
+"``(int, choices: ['Yes', 'No'])`` Whether to draw the box around the tracked "
+"object"
+msgstr ""
+"``(int, opciones: ['Sí', 'No'])`` Indica si se debe dibujar el cuadro "
+"alrededor del objeto rastreado"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1155
+msgid ""
+"The Wave effect distorts the image into a wave-like pattern, simulating "
+"effects like heat haze, water reflections, or other forms of distortion. The "
+"speed, amplitude, and direction of the waves can be adjusted."
+msgstr ""
+"El efecto Onda distorsiona la imagen en un patrón ondulatorio, simulando "
+"efectos como la refracción del calor, reflejos en el agua u otras formas de "
+"distorsión. Se pueden ajustar la velocidad, amplitud y dirección de las "
+"ondas."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1164
+msgid "amplitude"
+msgstr "amplitud"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1164
+msgid "``(float, 0 to 5)`` The height of the wave"
+msgstr "``(float, 0 a 5)`` La altura de la onda"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1165
+msgid "multiplier"
+msgstr "multiplicador"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1165
+msgid "``(float, 0 to 10)`` Amount to multiply the wave (make it bigger)"
+msgstr ""
+"``(float, 0 a 10)`` Cantidad para multiplicar la onda (hacerla más grande)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1166
+msgid "shift_x"
+msgstr "desplazamiento_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1166
+msgid "``(float, 0 to 1000)`` Amount to shift X-axis"
+msgstr "``(float, 0 a 1000)`` Cantidad para desplazar el eje X"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1167
+msgid "speed_y"
+msgstr "velocidad_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1167
+msgid "``(float, 0 to 300)`` Speed of the wave on the Y-axis"
+msgstr "``(float, 0 a 300)`` Velocidad de la onda en el eje Y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1168
+msgid "wavelength"
+msgstr "longitud_de_onda"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1168
+msgid "``(float, 0 to 3)`` The length of the wave"
+msgstr "``(float, 0 a 3)`` La longitud de la onda"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1172
+msgid "Audio Effects"
+msgstr "Efectos de Audio"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1174
+msgid ""
+"Audio effects modify the waveforms and audio sample data of a clip. Below is "
+"a list of audio effects, and their properties. Often it is best to "
+"experiment with an effect, entering different values into the properties, "
+"and observing the results."
+msgstr ""
+"Los efectos de audio modifican las formas de onda y los datos de muestra de "
+"audio de un clip. A continuación hay una lista de efectos de audio y sus "
+"propiedades. A menudo es mejor experimentar con un efecto, ingresando "
+"diferentes valores en las propiedades y observando los resultados."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1180
+msgid ""
+"The Compressor effect in audio processing reduces the dynamic range of the "
+"audio signal, making loud sounds quieter and quiet sounds louder. This "
+"creates a more consistent volume level, useful for balancing the loudness of "
+"different audio sources or for achieving a particular sound characteristic "
+"in music production."
+msgstr ""
+"El efecto Compresor en el procesamiento de audio reduce el rango dinámico de "
+"la señal de audio, haciendo que los sonidos fuertes sean más silenciosos y "
+"los sonidos suaves más fuertes. Esto crea un nivel de volumen más "
+"consistente, útil para equilibrar la sonoridad de diferentes fuentes de "
+"audio o para lograr una característica sonora particular en la producción "
+"musical."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1190 ../effects.rst:1260
+msgid "attack"
+msgstr "ataque"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1190 ../effects.rst:1260
+msgid "``(float, 0.1 to 100)``"
+msgstr "``(float, 0.1 a 100)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1191 ../effects.rst:1261
+msgid "bypass"
+msgstr "omitir"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1191 ../effects.rst:1261
+msgid "``(bool)``"
+msgstr "``(bool)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1192 ../effects.rst:1262
+msgid "makeup_gain"
+msgstr "ganancia_de_compensación"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1192 ../effects.rst:1262
+msgid "``(float, -12 to 12)``"
+msgstr "``(float, -12 a 12)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1193 ../effects.rst:1263
+msgid "ratio"
+msgstr "relación"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1193 ../effects.rst:1263
+msgid "``(float, 1 to 100)``"
+msgstr "``(float, 1 a 100)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1194 ../effects.rst:1264
+msgid "release"
+msgstr "liberación"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1194 ../effects.rst:1264
+msgid "``(float, 10 to 1000)``"
+msgstr "``(float, 10 a 1000)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1195 ../effects.rst:1265
+msgid "``(float, -60 to 0)``"
+msgstr "``(float, -60 a 0)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1200
+msgid ""
+"The Delay effect adds an echo to the audio signal, repeating the sound after "
+"a short delay. This can create a sense of space and depth in the audio, and "
+"is commonly used for creative effects in music, sound design, and audio post-"
+"production."
+msgstr ""
+"El efecto Retardo añade un eco a la señal de audio, repitiendo el sonido "
+"después de un breve retraso. Esto puede crear una sensación de espacio y "
+"profundidad en el audio, y se usa comúnmente para efectos creativos en "
+"música, diseño de sonido y postproducción de audio."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1210
+msgid "delay_time"
+msgstr "tiempo_de_retraso"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1210 ../effects.rst:1243
+msgid "``(float, 0 to 5)``"
+msgstr "``(float, 0 a 5)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1215
+msgid ""
+"The Distortion effect intentionally clips the audio signal, adding harmonic "
+"and non-harmonic overtones. This can create a gritty, aggressive sound "
+"characteristic of many electric guitar tones and is used for both musical "
+"and sound design purposes."
+msgstr ""
+"El efecto Distorsión recorta intencionalmente la señal de audio, añadiendo "
+"armónicos y sobretonos no armónicos. Esto puede crear un sonido áspero y "
+"agresivo característico de muchos tonos de guitarra eléctrica y se usa tanto "
+"para propósitos musicales como de diseño sonoro."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1225
+msgid "distortion_type"
+msgstr "tipo_de_distorsión"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1225
+msgid ""
+"``(int, choices: ['Hard Clipping', 'Soft Clipping', 'Exponential', 'Full "
+"Wave Rectifier', 'Half Wave Rectifier'])``"
+msgstr ""
+"``(int, opciones: ['Recorte Duro', 'Recorte Suave', 'Exponencial', "
+"'Rectificador de Onda Completa', 'Rectificador de Media Onda'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1226
+msgid "input_gain"
+msgstr "ganancia_de_entrada"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1226 ../effects.rst:1227 ../effects.rst:1228
+#: ../effects.rst:1297
+msgid "``(int, -24 to 24)``"
+msgstr "``(int, -24 a 24)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1227
+msgid "output_gain"
+msgstr "ganancia_de_salida"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1228
+msgid "tone"
+msgstr "tono"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1233
+msgid ""
+"The Echo effect, similar to delay, repeats the audio signal at intervals, "
+"but with a focus on creating a distinct repetition of sound that mimics "
+"natural echoes. This can be used to simulate acoustic environments or for "
+"creative sound effects."
+msgstr ""
+"El efecto Eco, similar al retardo, repite la señal de audio en intervalos, "
+"pero con un enfoque en crear una repetición distinta del sonido que imita "
+"ecos naturales. Esto puede usarse para simular ambientes acústicos o para "
+"efectos de sonido creativos."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1243
+msgid "echo_time"
+msgstr "tiempo_de_eco"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1244
+msgid "feedback"
+msgstr "retroalimentación"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1244 ../effects.rst:1245
+msgid "``(float, 0 to 1)``"
+msgstr "``(float, 0 a 1)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1245
+msgid "mix"
+msgstr "mezcla"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1250
+msgid ""
+"The Expander effect increases the dynamic range of audio, making quiet "
+"sounds quieter and leaving loud sounds unaffected. This is the opposite of "
+"compression and is used to reduce background noise or increase the dynamic "
+"impact of audio."
+msgstr ""
+"El efecto Expansor aumenta el rango dinámico del audio, haciendo que los "
+"sonidos suaves sean más suaves y dejando los sonidos fuertes sin afectar. Es "
+"lo opuesto a la compresión y se usa para reducir el ruido de fondo o "
+"aumentar el impacto dinámico del audio."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1270
+msgid ""
+"The Noise effect adds random, equal-intensity signals across the frequency "
+"spectrum to the audio, simulating the sound of white noise. This can be used "
+"for sound masking, as a component in sound design, or for testing and "
+"calibration purposes."
+msgstr ""
+"El efecto Ruido añade señales aleatorias de intensidad igual a través del "
+"espectro de frecuencias al audio, simulando el sonido de ruido blanco. Esto "
+"puede usarse para enmascaramiento de sonido, como componente en diseño de "
+"sonido, o para pruebas y calibración."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1280
+msgid "level"
+msgstr "nivel"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1280
+msgid "``(int, 0 to 100)``"
+msgstr "``(int, 0 a 100)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1285
+msgid ""
+"The Parametric EQ (Equalizer) effect allows for precise adjustments to the "
+"volume level of specific frequency ranges in the audio signal. This can be "
+"used for corrective measures, such as removing unwanted tones, or "
+"creatively, to shape the tonal balance of the audio."
+msgstr ""
+"El efecto EQ Paramétrico (Ecualizador) permite ajustes precisos al nivel de "
+"volumen de rangos específicos de frecuencia en la señal de audio. Esto puede "
+"usarse para medidas correctivas, como eliminar tonos no deseados, o "
+"creativamente, para moldear el balance tonal del audio."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1295
+msgid "filter_type"
+msgstr "tipo_de_filtro"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1295
+msgid ""
+"``(int, choices: ['Low Pass', 'High Pass', 'Low Shelf', 'High Shelf', 'Band "
+"Pass', 'Band Stop', 'Peaking Notch'])``"
+msgstr ""
+"``(int, opciones: ['Pasa Bajos', 'Pasa Altos', 'Estantería Baja', "
+"'Estantería Alta', 'Pasa Banda', 'Rechaza Banda', 'Pico Notch'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1296
+msgid "frequency"
+msgstr "frecuencia"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1296
+msgid "``(int, 20 to 20000)``"
+msgstr "``(int, 20 a 20000)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1297
+msgid "gain"
+msgstr "ganancia"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1298
+msgid "q_factor"
+msgstr "factor_q"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1298
+msgid "``(float, 0 to 20)``"
+msgstr "``(float, 0 a 20)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1303
+msgid ""
+"The Robotization effect transforms the audio to sound mechanical or robotic, "
+"by applying a combination of pitch modulation and synthesis techniques. This "
+"effect is widely used for character voices in media, creative music "
+"production, and sound design."
+msgstr ""
+"El efecto Robotización transforma el audio para sonar mecánico o robótico, "
+"aplicando una combinación de modulación de tono y técnicas de síntesis. Este "
+"efecto se usa ampliamente para voces de personajes en medios, producción "
+"musical creativa y diseño de sonido."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1313 ../effects.rst:1330
+msgid "fft_size"
+msgstr "tamaño_fft"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1313 ../effects.rst:1330
+msgid "``(int, choices: ['128', '256', '512', '1024', '2048'])``"
+msgstr "``(int, opciones: ['128', '256', '512', '1024', '2048'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1314 ../effects.rst:1331
+msgid "hop_size"
+msgstr "tamaño_hop"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1314 ../effects.rst:1331
+msgid "``(int, choices: ['1/2', '1/4', '1/8'])``"
+msgstr "``(int, opciones: ['1/2', '1/4', '1/8'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1315 ../effects.rst:1332
+msgid "window_type"
+msgstr "tipo_de_ventana"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1315 ../effects.rst:1332
+msgid "``(int, choices: ['Rectangular', 'Bart Lett', 'Hann', 'Hamming'])``"
+msgstr "``(int, opciones: ['Rectangular', 'Bart Lett', 'Hann', 'Hamming'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1320
+msgid ""
+"The Whisperization effect transforms the audio to mimic a whispering voice, "
+"often by filtering out certain frequencies and adding noise. This can be "
+"used for artistic effects in music, sound design for film and video, or in "
+"audio storytelling to convey secrecy or intimacy."
+msgstr ""
+"El efecto Susurrización transforma el audio para imitar una voz susurrante, "
+"a menudo filtrando ciertas frecuencias y añadiendo ruido. Esto puede usarse "
+"para efectos artísticos en música, diseño de sonido para cine y video, o en "
+"narración de audio para transmitir secreto o intimidad."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1335
+msgid "For more info on key frames and animation, see :ref:`animation_ref`."
+msgstr ""
+"Para más información sobre fotogramas clave y animación, consulte :ref:"
+"`animation_ref`."

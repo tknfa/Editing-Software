@@ -1,0 +1,3844 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: bn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:23
+msgid "Effects"
+msgstr "ইফেক্টস"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:25
+msgid ""
+"Effects are used in OpenShot to enhance or modify the audio or video of a "
+"clip. They can modify pixels and audio data, and can generally enhance your "
+"video projects. Each effect has its own set of properties, most of which can "
+"be animated over time, for example varying the :guilabel:`Brightness & "
+"Contrast` of a clip over time."
+msgstr ""
+"OpenShot-এ ইফেক্টস ব্যবহার করা হয় ক্লিপের অডিও বা ভিডিও উন্নত বা পরিবর্তন করার "
+"জন্য। এগুলি পিক্সেল এবং অডিও ডেটা পরিবর্তন করতে পারে, এবং সাধারণত আপনার ভিডিও "
+"প্রকল্পগুলি উন্নত করতে পারে। প্রতিটি ইফেক্টের নিজস্ব বৈশিষ্ট্য থাকে, যাদের বেশিরভাগ "
+"সময়ের সাথে অ্যানিমেট করা যায়, যেমন একটি ক্লিপের :guilabel:`Brightness & "
+"Contrast` সময়ের সাথে পরিবর্তন করা।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:29
+msgid ""
+"Effects can be added to any clip by dragging and dropping them from the "
+"Effects tab onto a clip. Each effect is represented by a small colored icon "
+"and the first letter of the effect name. Note: Pay close attention to where "
+"the play-head (i.e. red playback line) is. Key frames are automatically "
+"created at the current playback position, to help create animations quickly."
+msgstr ""
+"ইফেক্টস যেকোনো ক্লিপে যোগ করা যায় Effects ট্যাব থেকে ক্লিপে ড্র্যাগ এবং ড্রপ করে। "
+"প্রতিটি ইফেক্ট একটি ছোট রঙিন আইকন এবং ইফেক্টের নামের প্রথম অক্ষর দ্বারা প্রতিনিধিত্ব "
+"করা হয়। নোট: প্লে-হেড (অর্থাৎ লাল প্লেব্যাক লাইন) কোথায় আছে তা মনোযোগ দিয়ে দেখুন। "
+"কী ফ্রেমগুলি স্বয়ংক্রিয়ভাবে বর্তমান প্লেব্যাক অবস্থানে তৈরি হয়, যা দ্রুত অ্যানিমেশন "
+"তৈরি করতে সাহায্য করে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:34
+msgid ""
+"To view an effect's properties, right-click on the effect icon, revealing "
+"the context menu, and choose :guilabel:`Properties`. The property editor "
+"will appear, where you can edit these properties. Properties appear "
+"alphabetically in the dock, with filter options available at the top. Hold :"
+"kbd:`Ctrl` and click multiple effect icons to select them all, the "
+"Properties dock will show an entry such as ``3 Selections`` so you can "
+"adjust their common settings in one step. See :ref:`clip_properties_ref`."
+msgstr ""
+"একটি ইফেক্টের বৈশিষ্ট্য দেখতে, ইফেক্ট আইকনে রাইট-ক্লিক করুন, কনটেক্সট মেনু খুলবে, "
+"এবং :guilabel:`Properties` নির্বাচন করুন। প্রপার্টি এডিটর প্রদর্শিত হবে, যেখানে "
+"আপনি এই বৈশিষ্ট্যগুলি সম্পাদনা করতে পারবেন। বৈশিষ্ট্যগুলি ডক-এ বর্ণানুক্রমিকভাবে "
+"প্রদর্শিত হয়, উপরে ফিল্টার অপশন উপলব্ধ থাকে। :kbd:`Ctrl` চেপে ধরে একাধিক ইফেক্ট "
+"আইকনে ক্লিক করে সব নির্বাচন করুন, Properties ডক ``3 Selections`` এর মতো একটি "
+"এন্ট্রি দেখাবে যাতে আপনি তাদের সাধারণ সেটিং একবারে সামঞ্জস্য করতে পারেন। দেখুন :"
+"ref:`clip_properties_ref`।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:41
+msgid "Masks and Effects"
+msgstr "মাস্ক এবং প্রভাব"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:43
+msgid ""
+"All effects can now use a **static or animated mask** to limit where the "
+"effect is applied. This makes effects much more precise, because you can "
+"target only the subject or region you care about and blend the result "
+"smoothly into the original image."
+msgstr ""
+"এখন সব প্রভাব **স্থির বা অ্যানিমেটেড মাস্ক** ব্যবহার করতে পারে যেখানে প্রভাব প্রয়োগ "
+"করা হবে তা সীমাবদ্ধ করার জন্য। এটি প্রভাবগুলোকে অনেক বেশি সঠিক করে তোলে, কারণ "
+"আপনি শুধুমাত্র যে বিষয় বা অঞ্চলটি নিয়ে কাজ করতে চান তা লক্ষ্য করতে পারেন এবং "
+"ফলাফলটি মসৃণভাবে মূল ছবির সাথে মিশিয়ে দিতে পারেন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:48
+msgid "Why this matters:"
+msgstr "এটি কেন গুরুত্বপূর্ণ:"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:50
+msgid "Keep edits focused on one area (for example, blur only a face)."
+msgstr ""
+"সম্পাদনাগুলো একটি নির্দিষ্ট এলাকায় কেন্দ্রীভূত রাখুন (যেমন, শুধুমাত্র একটি মুখ ঝাপসা "
+"করা)।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:51
+msgid ""
+"Stack multiple effects on the same subject without affecting the full frame."
+msgstr "পুরো ফ্রেমকে প্রভাবিত না করে একই বিষয়ের উপর একাধিক প্রভাব স্তর করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:52
+msgid "Animate how strongly or where an effect is applied over time."
+msgstr "সময়ের সাথে প্রভাব কতটা শক্তিশালী বা কোথায় প্রয়োগ হবে তা অ্যানিমেট করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:54
+msgid "How to use effect masks:"
+msgstr "কিভাবে প্রভাব মাস্ক ব্যবহার করবেন:"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:56
+msgid "Add an effect to a clip."
+msgstr "একটি ক্লিপে প্রভাব যোগ করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:57
+msgid "Open the effect :guilabel:`Properties`."
+msgstr "প্রভাবের :guilabel:`গুণাবলী` খুলুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:58
+msgid "Choose a mask source (static image or animated mask video)."
+msgstr "একটি মাস্ক উৎস নির্বাচন করুন (স্থির ছবি বা অ্যানিমেটেড মাস্ক ভিডিও)।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:59
+msgid ""
+"Adjust :guilabel:`Mask Mode` (for example, *Limit to Mask* or *Vary "
+"Strength*)."
+msgstr ""
+":guilabel:`মাস্ক মোড` সামঞ্জস্য করুন (যেমন, *মাস্কে সীমাবদ্ধ* বা *শক্তি পরিবর্তন*)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:61
+msgid ""
+"High-quality animated masks can also be generated with Advanced AI "
+"workflows. In many cases, you can click one or more subjects and let "
+"tracking build a mask automatically. See :ref:`ai_ref`."
+msgstr ""
+"উন্নত AI ওয়ার্কফ্লো ব্যবহার করে উচ্চ-মানের অ্যানিমেটেড মাস্কও তৈরি করা যায়। অনেক "
+"ক্ষেত্রে, আপনি এক বা একাধিক বিষয় ক্লিক করে ট্র্যাকিংকে স্বয়ংক্রিয়ভাবে মাস্ক তৈরি "
+"করতে দিতে পারেন। দেখুন :ref:`ai_ref`।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:65
+msgid "Mask controls to know:"
+msgstr "জানার জন্য মাস্ক নিয়ন্ত্রণসমূহ:"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:67
+msgid ""
+"Any effect mask can be inverted to flip between foreground and background."
+msgstr ""
+"যেকোনো প্রভাব মাস্ক উল্টানো যেতে পারে যাতে সামনের এবং পেছনের অংশ পরিবর্তিত হয়।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:68
+msgid "Animated mask videos can be looped."
+msgstr "অ্যানিমেটেড মাস্ক ভিডিও লুপ করা যেতে পারে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:69
+msgid ""
+"When looping, set start/end mask trim carefully. If not adjusted, OpenShot "
+"loops the entire mask source, not just the segment you intended to repeat."
+msgstr ""
+"লুপ করার সময়, শুরু/শেষ মাস্ক ট্রিম সাবধানে সেট করুন। যদি সামঞ্জস্য না করা হয়, "
+"OpenShot পুরো মাস্ক উৎস লুপ করবে, শুধুমাত্র আপনি যে অংশটি পুনরাবৃত্তি করতে চেয়েছিলেন "
+"তা নয়।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:72
+msgid "To adjust a property:"
+msgstr "একটি বৈশিষ্ট্য সামঞ্জস্য করতে:"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:74
+msgid "Drag the slider for coarse changes."
+msgstr "মোটামুটি পরিবর্তনের জন্য স্লাইডার টেনে আনুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:75
+msgid "Double-click to enter precise values."
+msgstr "নির্দিষ্ট মান প্রবেশের জন্য ডাবল-ক্লিক করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:76
+msgid "Right/double-click for non-numerical options."
+msgstr "অসংখ্যাত্মক বিকল্পের জন্য রাইট/ডাবল-ক্লিক করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:78
+msgid ""
+"Effect properties are integral to the :ref:`animation_ref` system. When you "
+"modify an effect property, a keyframe is generated at the current playhead "
+"position. For a property to span the entire clip, position the playhead at "
+"or before the clip's start before making adjustments. A convenient way to "
+"identify a clip's start is by utilizing the 'next/previous marker' feature "
+"on the Timeline toolbar."
+msgstr ""
+"ইফেক্ট বৈশিষ্ট্যগুলি :ref:`animation_ref` সিস্টেমের অবিচ্ছেদ্য অংশ। যখন আপনি একটি "
+"ইফেক্ট বৈশিষ্ট্য পরিবর্তন করেন, তখন বর্তমান প্লে-হেড অবস্থানে একটি কীফ্রেম তৈরি হয়। "
+"একটি বৈশিষ্ট্য পুরো ক্লিপ জুড়ে বিস্তৃত করতে, প্লে-হেডকে ক্লিপের শুরুতে বা তার আগে "
+"অবস্থান করুন এবং তারপর পরিবর্তন করুন। ক্লিপের শুরু চিহ্নিত করার সুবিধাজনক উপায় হল "
+"Timeline টুলবারের 'next/previous marker' ফিচার ব্যবহার করা।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:86
+msgid "List of Effects"
+msgstr "ইফেক্টসের তালিকা"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:87
+msgid ""
+"OpenShot Video Editor has a total of 27 built-in video and audio effects: 18 "
+"video effects and 9 audio effects. These effects can be added to a clip by "
+"dragging the effect onto a clip. The following table contains the name and "
+"short description of each effect."
+msgstr ""
+"OpenShot Video Editor-এ মোট ২৭টি বিল্ট-ইন ভিডিও এবং অডিও ইফেক্ট রয়েছে: ১৮টি "
+"ভিডিও ইফেক্ট এবং ৯টি অডিও ইফেক্ট। এই ইফেক্টগুলি একটি ক্লিপে ড্র্যাগ করে যোগ করা "
+"যায়। নিচের টেবিলে প্রতিটি ইফেক্টের নাম এবং সংক্ষিপ্ত বর্ণনা দেওয়া হয়েছে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:227
+msgid "Icon"
+msgstr "আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:227
+msgid "Effect Name"
+msgstr "ইফেক্টের নাম"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:227
+msgid "Effect Description"
+msgstr "ইফেক্টের বর্ণনা"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:229
+msgid "|analogtape_icon|"
+msgstr "|analogtape_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:91
+msgid "Analog Tape Icon"
+msgstr "অ্যানালগ টেপ আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:229 ../effects.rst:364
+msgid "Analog Tape"
+msgstr "অ্যানালগ টেপ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:229
+msgid "Vintage home-video wobble, bleed, and snow."
+msgstr "পুরানো হোম-ভিডিওর কম্পন, ব্লিড এবং স্নো ইফেক্ট।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:230
+msgid "|mask_icon|"
+msgstr "|mask_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:95
+msgid "Alpha Mask / Wipe Transition Icon"
+msgstr "আলফা মাস্ক / ওয়াইপ ট্রানজিশন আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:230 ../effects.rst:391
+msgid "Alpha Mask / Wipe Transition"
+msgstr "আলফা মাস্ক / ওয়াইপ ট্রানজিশন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:230
+msgid "Grayscale mask transition between images."
+msgstr "ছবির মধ্যে গ্রেস্কেল মাস্ক ট্রানজিশন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:231
+msgid "|bars_icon|"
+msgstr "|bars_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:99
+msgid "Bars Icon"
+msgstr "বারস আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:231 ../effects.rst:410
+msgid "Bars"
+msgstr "বারস"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:231
+msgid "Add colored bars around your video."
+msgstr "আপনার ভিডিওর চারপাশে রঙিন বার যোগ করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:232
+msgid "|blur_icon|"
+msgstr "|blur_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:103
+msgid "Blur Icon"
+msgstr "ব্লার আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:232 ../effects.rst:429
+msgid "Blur"
+msgstr "ব্লার"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:232
+msgid "Adjust image blur."
+msgstr "ছবির ব্লার সামঞ্জস্য করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:233
+msgid "|brightness_icon|"
+msgstr "|brightness_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:107
+msgid "Brightness & Contrast Icon"
+msgstr "ব্রাইটনেস ও কনট্রাস্ট আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:233 ../effects.rst:447
+msgid "Brightness & Contrast"
+msgstr "ব্রাইটনেস ও কনট্রাস্ট"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:233
+msgid "Modify frame’s brightness and contrast."
+msgstr "ফ্রেমের উজ্জ্বলতা এবং কনট্রাস্ট পরিবর্তন করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:234
+msgid "|caption_icon|"
+msgstr "|caption_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:111
+msgid "Caption Icon"
+msgstr "ক্যাপশন আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:234 ../effects.rst:465
+msgid "Caption"
+msgstr "ক্যাপশন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:234
+msgid "Add text captions to any clip."
+msgstr "যেকোনো ক্লিপে টেক্সট ক্যাপশন যোগ করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:235
+msgid "|chromakey_icon|"
+msgstr "|chromakey_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:115
+msgid "Chroma Key (Greenscreen) Icon"
+msgstr "ক্রোমা কী (গ্রিনস্ক্রিন) আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:235 ../effects.rst:506
+msgid "Chroma Key (Greenscreen)"
+msgstr "ক্রোমা কী (গ্রিনস্ক্রিন)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:235
+msgid "Replace color with transparency."
+msgstr "রঙকে স্বচ্ছতায় পরিবর্তন করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:236
+msgid "|colormap_icon|"
+msgstr "|colormap_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:119
+msgid "Color Map / Lookup Icon"
+msgstr "কালার ম্যাপ / লুকআপ আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:236 ../effects.rst:525
+msgid "Color Map / Lookup"
+msgstr "কালার ম্যাপ / লুকআপ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:236
+msgid "Adjust colors using 3D LUT lookup tables (.cube format)."
+msgstr "৩ডি LUT লুকআপ টেবিল (.cube ফরম্যাট) ব্যবহার করে রঙ সামঞ্জস্য করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:237
+msgid "|saturation_icon|"
+msgstr "|saturation_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:123
+msgid "Color Saturation Icon"
+msgstr "কালার স্যাচুরেশন আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:237 ../effects.rst:745
+msgid "Color Saturation"
+msgstr "কালার স্যাচুরেশন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:237
+msgid "Adjust color intensity."
+msgstr "রঙের তীব্রতা সামঞ্জস্য করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:238
+msgid "|colorshift_icon|"
+msgstr "|colorshift_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:127
+msgid "Color Shift Icon"
+msgstr "কালার শিফট আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:238 ../effects.rst:763
+msgid "Color Shift"
+msgstr "কালার শিফট"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:238
+msgid "Shift image colors in various directions."
+msgstr "ছবির রঙ বিভিন্ন দিক থেকে সরান।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:239
+msgid "|crop_icon|"
+msgstr "|crop_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:131
+msgid "Crop Icon"
+msgstr "ক্রপ আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:239 ../effects.rst:794
+msgid "Crop"
+msgstr "ক্রপ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:239
+msgid "Crop out parts of your video."
+msgstr "আপনার ভিডিওর কিছু অংশ ক্রপ করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:240
+msgid "|deinterlace_icon|"
+msgstr "|deinterlace_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:135
+msgid "Deinterlace Icon"
+msgstr "ডি-ইন্টারলেস আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:240 ../effects.rst:821
+msgid "Deinterlace"
+msgstr "ডি-ইন্টারলেস"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:240
+msgid "Remove interlacing from video."
+msgstr "ভিডিও থেকে ইন্টারলেসিং সরান।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:241
+msgid "|hue_icon|"
+msgstr "|hue_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:139
+msgid "Hue Icon"
+msgstr "রঙের ছায়া আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:241 ../effects.rst:836
+msgid "Hue"
+msgstr "রঙের ছায়া"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:241
+msgid "Adjust hue / color."
+msgstr "রঙের ছায়া / রঙ সামঞ্জস্য করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:242
+msgid "|lensflare_icon|"
+msgstr "|lensflare_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:143
+msgid "Lens Flare Icon"
+msgstr "লেন্স ফ্লেয়ার আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:242 ../effects.rst:851
+msgid "Lens Flare"
+msgstr "লেন্স ফ্লেয়ার"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:242
+msgid "Simulate sunlight hitting a lens with flares."
+msgstr "লেন্সে সূর্যালোক পড়ার ফ্লেয়ার অনুকরণ করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:243
+msgid "|negate_icon|"
+msgstr "|negate_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:147
+msgid "Negative Icon"
+msgstr "নেগেটিভ আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:243 ../effects.rst:871
+msgid "Negative"
+msgstr "নেগেটিভ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:243
+msgid "Produce a negative image."
+msgstr "একটি নেগেটিভ ছবি তৈরি করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:244
+msgid "|objectdetection_icon|"
+msgstr "|objectdetection_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:151
+msgid "Object Detector Icon"
+msgstr "অবজেক্ট ডিটেক্টর আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:244 ../effects.rst:877
+msgid "Object Detector"
+msgstr "অবজেক্ট ডিটেক্টর"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:244
+msgid "Detect objects in video."
+msgstr "ভিডিওতে অবজেক্ট সনাক্ত করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:245
+msgid "|outline_icon|"
+msgstr "|outline_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:155
+msgid "Outline Icon"
+msgstr "আউটলাইন আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:245 ../effects.rst:936
+msgid "Outline"
+msgstr "আউটলাইন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:245
+msgid "Add outline around any image or text."
+msgstr "যেকোনো ছবি বা টেক্সটের চারপাশে আউটলাইন যোগ করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:246
+msgid "|pixelate_icon|"
+msgstr "|pixelate_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:159
+msgid "Pixelate Icon"
+msgstr "পিক্সেলেট আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:246 ../effects.rst:957
+msgid "Pixelate"
+msgstr "পিক্সেলেট"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:246
+msgid "Increase or decrease visible pixels."
+msgstr "দৃশ্যমান পিক্সেল বাড়ান বা কমান।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:247
+msgid "|sharpen_icon|"
+msgstr "|sharpen_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:163
+msgid "Sharpen Icon"
+msgstr "শার্পেন আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:247 ../effects.rst:976
+msgid "Sharpen"
+msgstr "শার্পেন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:247
+msgid "Boost edge contrast to make video details look crisper."
+msgstr "ভিডিওর বিস্তারিত আরও স্পষ্ট করতে এজ কনট্রাস্ট বাড়ান।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:248
+msgid "|shift_icon|"
+msgstr "|shift_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:167
+msgid "Shift Icon"
+msgstr "শিফট আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:248 ../effects.rst:1015
+msgid "Shift"
+msgstr "শিফট"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:248
+msgid "Shift image in different directions."
+msgstr "ছবিকে বিভিন্ন দিকে সরান।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:249
+msgid "|sphericalprojection_icon|"
+msgstr "|sphericalprojection_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:171
+msgid "Spherical Projection Icon"
+msgstr "স্ফেরিক্যাল প্রজেকশন আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:249 ../effects.rst:1031
+msgid "Spherical Projection"
+msgstr "স্ফেরিক্যাল প্রজেকশন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:249
+msgid "Flatten or project 360° and fisheye footage."
+msgstr "৩৬০° এবং ফিশআই ফুটেজ সমতল বা প্রজেক্ট করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:250
+msgid "|stabilizer_icon|"
+msgstr "|stabilizer_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:175
+msgid "Stabilizer Icon"
+msgstr "স্ট্যাবিলাইজার আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:250 ../effects.rst:1082
+msgid "Stabilizer"
+msgstr "স্ট্যাবিলাইজার"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:250
+msgid "Reduce video shake."
+msgstr "ভিডিও কম্পন কমান।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:251
+msgid "|tracker_icon|"
+msgstr "|tracker_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:179
+msgid "Tracker Icon"
+msgstr "ট্র্যাকার আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:251 ../effects.rst:1097
+msgid "Tracker"
+msgstr "ট্র্যাকার"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:251
+msgid "Track bounding box in video."
+msgstr "ভিডিওতে বাউন্ডিং বক্স ট্র্যাক করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:252
+msgid "|wave_icon|"
+msgstr "|wave_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:183
+msgid "Wave Icon"
+msgstr "ওয়েভ আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:252 ../effects.rst:1154
+msgid "Wave"
+msgstr "ওয়েভ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:252
+msgid "Distort image into a wave pattern."
+msgstr "ছবিকে ওয়েভ প্যাটার্নে বিকৃত করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:253
+msgid "|compressor_icon|"
+msgstr "|compressor_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:187
+msgid "Compressor Icon"
+msgstr "কম্প্রেসর আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:253 ../effects.rst:1179
+msgid "Compressor"
+msgstr "কম্প্রেসর"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:253
+msgid "Reduce loudness or amplify quiet sounds."
+msgstr "শব্দের তীব্রতা কমান বা নীরব শব্দ বাড়ান।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:254
+msgid "|delay_icon|"
+msgstr "|delay_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:191
+msgid "Delay Icon"
+msgstr "ডিলে আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:254 ../effects.rst:1199
+msgid "Delay"
+msgstr "ডিলে"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:254
+msgid "Adjust audio-video synchronism."
+msgstr "অডিও-ভিডিও সিঙ্ক্রোনাইজেশন সামঞ্জস্য করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:255
+msgid "|distortion_icon|"
+msgstr "|distortion_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:195
+msgid "Distortion Icon"
+msgstr "ডিস্টরশন আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:255 ../effects.rst:1214
+msgid "Distortion"
+msgstr "ডিস্টরশন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:255
+msgid "Clip audio signal for distortion."
+msgstr "ডিস্টরশনের জন্য অডিও সিগন্যাল ক্লিপ করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:256
+msgid "|echo_icon|"
+msgstr "|echo_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:199
+msgid "Echo Icon"
+msgstr "একো আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:256 ../effects.rst:1232
+msgid "Echo"
+msgstr "একো"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:256
+msgid "Add delayed sound reflection."
+msgstr "বিলম্বিত শব্দ প্রতিফলন যোগ করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:257
+msgid "|expander_icon|"
+msgstr "|expander_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:203
+msgid "Expander Icon"
+msgstr "এক্সপ্যান্ডার আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:257 ../effects.rst:1249
+msgid "Expander"
+msgstr "এক্সপ্যান্ডার"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:257
+msgid "Make loud parts relatively louder."
+msgstr "শব্দের উচ্চ অংশকে অপেক্ষাকৃত আরও জোরালো করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:258
+msgid "|noise_icon|"
+msgstr "|noise_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:207
+msgid "Noise Icon"
+msgstr "নয়েজ আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:258 ../effects.rst:1269
+msgid "Noise"
+msgstr "নয়েজ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:258
+msgid "Add random equal-intensity signals."
+msgstr "যথাক্রমে সমান তীব্রতার এলোমেলো সিগন্যাল যোগ করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:259
+msgid "|parametriceq_icon|"
+msgstr "|parametriceq_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:211
+msgid "Parametric EQ Icon"
+msgstr "প্যারামেট্রিক ইকু আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:259 ../effects.rst:1284
+msgid "Parametric EQ"
+msgstr "প্যারামেট্রিক ইকু"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:259
+msgid "Adjust frequency volume in audio."
+msgstr "অডিওর ফ্রিকোয়েন্সি ভলিউম সামঞ্জস্য করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:260
+msgid "|robotization_icon|"
+msgstr "|robotization_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:215
+msgid "Robotization Icon"
+msgstr "রোবোটাইজেশন আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:260 ../effects.rst:1302
+msgid "Robotization"
+msgstr "রোবোটাইজেশন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:260
+msgid "Transform audio into robotic voice."
+msgstr "অডিওকে রোবোটিক কণ্ঠে রূপান্তর করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:261
+msgid "|whisperization_icon|"
+msgstr "|whisperization_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:219
+msgid "Whisperization Icon"
+msgstr "হিস্পারাইজেশন আইকন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:261 ../effects.rst:1319
+msgid "Whisperization"
+msgstr "হিস্পারাইজেশন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:261
+msgid "Transform audio into whispers."
+msgstr "অডিওকে ফিসফিসে রূপান্তর করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:266
+msgid "Effect Properties"
+msgstr "ইফেক্ট বৈশিষ্ট্যসমূহ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:267
+msgid ""
+"Below is a list of **common** effect properties, shared by all effects in "
+"OpenShot. To view an effect's properties, right click and choose :guilabel:"
+"`Properties`. The property editor will appear, where you can change these "
+"properties. Note: Pay close attention to where the play-head (i.e. red "
+"playback line) is. Key frames are automatically created at the current "
+"playback position, to help quickly create animations."
+msgstr ""
+"নিচে OpenShot-এর সব ইফেক্টে ব্যবহৃত **সাধারণ** ইফেক্ট বৈশিষ্ট্যগুলোর তালিকা দেওয়া "
+"হয়েছে। কোনো ইফেক্টের বৈশিষ্ট্য দেখতে, ডান-ক্লিক করে :guilabel:`Properties` "
+"নির্বাচন করুন। বৈশিষ্ট্য সম্পাদক খুলবে, যেখানে আপনি এই বৈশিষ্ট্যগুলো পরিবর্তন করতে "
+"পারবেন। দ্রষ্টব্য: প্লে-হেড (অর্থাৎ লাল প্লেব্যাক লাইন) কোথায় আছে তা ভালোভাবে লক্ষ্য "
+"করুন। বর্তমান প্লেব্যাক অবস্থানে স্বয়ংক্রিয়ভাবে কী ফ্রেম তৈরি হয়, যা দ্রুত অ্যানিমেশন "
+"তৈরিতে সাহায্য করে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:272
+msgid ""
+"See the table below for a list of common effect properties. Only the "
+"**common properties** that all effects share are listed here. Each effect "
+"also has many **unique properties**, which are specific to each effect, see :"
+"ref:`effect_video_effects_ref` for more information on individual effects "
+"and their unique properties."
+msgstr ""
+"সাধারণ ইফেক্ট বৈশিষ্ট্যের তালিকার জন্য নিচের টেবিলটি দেখুন। এখানে শুধুমাত্র সমস্ত "
+"ইফেক্টের জন্য সাধারণ **সাধারণ বৈশিষ্ট্যগুলি** তালিকাভুক্ত করা হয়েছে। প্রতিটি ইফেক্টের "
+"অনেক **অনন্য বৈশিষ্ট্যও** রয়েছে, যা প্রতিটি ইফেক্টের জন্য নির্দিষ্ট, ব্যক্তিগত ইফেক্ট "
+"এবং তাদের অনন্য বৈশিষ্ট্য সম্পর্কে আরও তথ্যের জন্য :ref:`effect_video_effects_ref` "
+"দেখুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:280
+msgid "Effect Property Name"
+msgstr "ইফেক্ট বৈশিষ্ট্যের নাম"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:280
+msgid "Type"
+msgstr "ধরন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:280 ../effects.rst:372 ../effects.rst:401 ../effects.rst:419
+#: ../effects.rst:438 ../effects.rst:456 ../effects.rst:484 ../effects.rst:516
+#: ../effects.rst:539 ../effects.rst:754 ../effects.rst:779 ../effects.rst:809
+#: ../effects.rst:830 ../effects.rst:845 ../effects.rst:860 ../effects.rst:908
+#: ../effects.rst:947 ../effects.rst:966 ../effects.rst:1005
+#: ../effects.rst:1024 ../effects.rst:1042 ../effects.rst:1091
+#: ../effects.rst:1131 ../effects.rst:1162 ../effects.rst:1188
+#: ../effects.rst:1208 ../effects.rst:1223 ../effects.rst:1241
+#: ../effects.rst:1258 ../effects.rst:1278 ../effects.rst:1293
+#: ../effects.rst:1311 ../effects.rst:1328
+msgid "Description"
+msgstr "বর্ণনা"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:282 ../effects.rst:293
+msgid "Duration"
+msgstr "সময়কাল"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:282 ../effects.rst:283 ../effects.rst:286 ../effects.rst:287
+msgid "Float"
+msgstr "ফ্লোট"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:282
+msgid ""
+"The length of the effect (in seconds). Read-only property. Most effects "
+"default to the length of a clip. This property is hidden when an effect "
+"belongs to a clip."
+msgstr ""
+"ইফেক্টের দৈর্ঘ্য (সেকেন্ডে)। শুধুমাত্র-পড়ার জন্য বৈশিষ্ট্য। বেশিরভাগ ইফেক্ট ডিফল্টভাবে "
+"একটি ক্লিপের দৈর্ঘ্যের সমান হয়। যখন একটি ইফেক্ট একটি ক্লিপের অন্তর্গত হয়, তখন এই "
+"বৈশিষ্ট্যটি লুকানো থাকে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:283 ../effects.rst:300
+msgid "End"
+msgstr "শেষ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:283
+msgid ""
+"The end trimming position of the effect (in seconds). This property is "
+"hidden when an effect belongs to a clip."
+msgstr ""
+"ইফেক্টের শেষ ট্রিমিং অবস্থান (সেকেন্ডে)। যখন একটি ইফেক্ট একটি ক্লিপের অন্তর্গত হয়, "
+"তখন এই বৈশিষ্ট্যটি লুকানো থাকে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:284 ../effects.rst:307
+msgid "ID"
+msgstr "আইডি"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:284 ../effects.rst:285
+msgid "String"
+msgstr "স্ট্রিং"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:284
+msgid ""
+"A randomly generated GUID (globally unique identifier) assigned to each "
+"effect. Read-only property."
+msgstr ""
+"প্রতিটি ইফেক্টের জন্য এলোমেলোভাবে তৈরি করা GUID (গ্লোবালি ইউনিক আইডেন্টিফায়ার) "
+"বরাদ্দ করা হয়। শুধুমাত্র-পড়ার জন্য বৈশিষ্ট্য।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:285
+msgid "Parent"
+msgstr "প্যারেন্ট"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:285
+msgid ""
+"The parent object to this effect, which makes many of these keyframe values "
+"initialize to the parent value."
+msgstr "এই ইফেক্টের প্যারেন্ট অবজেক্ট, যা অনেক কীফ্রেম মানকে প্যারেন্ট মানে আরম্ভ করে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:286 ../effects.rst:330
+msgid "Position"
+msgstr "অবস্থান"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:286
+msgid ""
+"The position of the effect on the timeline (in seconds). This property is "
+"hidden when an effect belongs to a clip."
+msgstr ""
+"টাইমলাইনে ইফেক্টের অবস্থান (সেকেন্ডে)। যখন একটি ইফেক্ট একটি ক্লিপের অন্তর্গত হয়, "
+"তখন এই বৈশিষ্ট্যটি লুকানো থাকে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:287 ../effects.rst:336
+msgid "Start"
+msgstr "শুরু"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:287
+msgid ""
+"The start trimming position of the effect (in seconds). This property is "
+"hidden when an effect belongs to a clip."
+msgstr ""
+"ইফেক্টের শুরু ট্রিমিং অবস্থান (সেকেন্ডে)। যখন একটি ইফেক্ট একটি ক্লিপের অন্তর্গত হয়, "
+"তখন এই বৈশিষ্ট্যটি লুকানো থাকে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:288 ../effects.rst:312
+msgid "Track"
+msgstr "ট্র্যাক"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:288
+msgid "Int"
+msgstr "ইন্ট"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:288
+msgid ""
+"The layer which holds the effect (higher tracks are rendered on top of lower "
+"tracks). This property is hidden when an effect belongs to a clip."
+msgstr ""
+"যে স্তরটি ইফেক্ট ধারণ করে (উচ্চতর ট্র্যাকগুলি নিম্নতর ট্র্যাকের উপরে রেন্ডার হয়)। যখন "
+"একটি ইফেক্ট একটি ক্লিপের অন্তর্গত হয়, তখন এই বৈশিষ্ট্যটি লুকানো থাকে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:289
+msgid "Apply Before Clip"
+msgstr "ক্লিপের আগে প্রয়োগ করুন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:289
+msgid "Boolean"
+msgstr "বুলিয়ান"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:289
+msgid "Apply this effect before the Clip processes keyframes? (default is Yes)"
+msgstr "ক্লিপ কীফ্রেম প্রক্রিয়াকরণের আগে এই ইফেক্টটি প্রয়োগ করবেন? (ডিফল্ট হল হ্যাঁ)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:294
+msgid ""
+"The :guilabel:`Duration` property is a float value indicating the length of "
+"the effect in seconds. This is a Read-only property. This is calculated by: "
+"End - Start. To modify duration, you must edit the :guilabel:`Start` and/or :"
+"guilabel:`End` effect properties."
+msgstr ""
+":guilabel:`Duration` বৈশিষ্ট্যটি একটি ফ্লোট মান যা ইফেক্টের দৈর্ঘ্য সেকেন্ডে নির্দেশ "
+"করে। এটি শুধুমাত্র-পড়ার জন্য বৈশিষ্ট্য। এটি হিসাব করা হয়: End - Start। সময়কাল "
+"পরিবর্তন করতে, আপনাকে :guilabel:`Start` এবং/অথবা :guilabel:`End` ইফেক্ট "
+"বৈশিষ্ট্যগুলি সম্পাদনা করতে হবে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:297
+msgid ""
+"*NOTE: Most effects in OpenShot default the effect duration to the clip "
+"duration, and hide this property from the editor.*"
+msgstr ""
+"*নোট: OpenShot-এর বেশিরভাগ ইফেক্ট ডিফল্টভাবে ইফেক্টের সময়কাল ক্লিপের সময়কাল "
+"হিসেবে সেট করে এবং এই বৈশিষ্ট্যটি সম্পাদক থেকে লুকিয়ে রাখে।*"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:301
+msgid ""
+"The :guilabel:`End` property defines the trimming point at the end of the "
+"effect in seconds, allowing you to control how much of the effect is visible "
+"in the timeline. Changing this property will impact the :guilabel:`Duration` "
+"effect property."
+msgstr ""
+":guilabel:`End` বৈশিষ্ট্যটি ইফেক্টের শেষের ট্রিমিং পয়েন্ট সেকেন্ডে নির্ধারণ করে, যা "
+"আপনাকে নিয়ন্ত্রণ করতে দেয় কতটা ইফেক্ট টাইমলাইনে দৃশ্যমান হবে। এই বৈশিষ্ট্য পরিবর্তন "
+"করলে :guilabel:`Duration` ইফেক্ট বৈশিষ্ট্যে প্রভাব পড়বে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:304 ../effects.rst:316 ../effects.rst:333 ../effects.rst:340
+msgid ""
+"*NOTE: Most effects in OpenShot default this property to match the clip, and "
+"hide this property from the editor.*"
+msgstr ""
+"*নোট: OpenShot-এর বেশিরভাগ ইফেক্ট এই বৈশিষ্ট্যটি ডিফল্টভাবে ক্লিপের সাথে মেলাতে "
+"সেট করে এবং এই বৈশিষ্ট্যটি সম্পাদক থেকে লুকিয়ে রাখে।*"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:308
+msgid ""
+"The :guilabel:`ID` property holds a randomly generated GUID (Globally Unique "
+"Identifier) assigned to each effect, ensuring its uniqueness. This is a Read-"
+"only property, and assigned by OpenShot when an effect is created."
+msgstr ""
+":guilabel:`ID` বৈশিষ্ট্যটি প্রতিটি ইফেক্টের জন্য এলোমেলোভাবে তৈরি GUID (গ্লোবালি "
+"ইউনিক আইডেন্টিফায়ার) ধারণ করে, যা এর অনন্যতা নিশ্চিত করে। এটি শুধুমাত্র-পড়ার জন্য "
+"বৈশিষ্ট্য এবং ইফেক্ট তৈরি করার সময় OpenShot দ্বারা বরাদ্দ করা হয়।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:313
+msgid ""
+"The :guilabel:`Track` property is an integer indicating the layer on which "
+"the effect is placed. Effects on higher tracks are rendered above those on "
+"lower tracks."
+msgstr ""
+":guilabel:`Track` বৈশিষ্ট্যটি একটি পূর্ণসংখ্যা যা নির্দেশ করে কোন স্তরে ইফেক্টটি "
+"রাখা হয়েছে। উচ্চতর ট্র্যাকের ইফেক্টগুলি নিম্নতর ট্র্যাকের উপরে রেন্ডার হয়।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:321
+msgid "Effect Parent"
+msgstr "ইফেক্ট প্যারেন্ট"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:322
+msgid ""
+"The :guilabel:`Parent` property of an effect sets the initial keyframe "
+"values to a parent effect. For example, if many effects all point to the "
+"same parent effect, they will inherit all their initial properties, such as "
+"font size, font color, and background color for a ``Caption`` effect. In the "
+"example of many ``Caption`` effects using the same Parent effect, it is an "
+"efficient way to manage a large number of these effects."
+msgstr ""
+"একটি ইফেক্টের :guilabel:`Parent` বৈশিষ্ট্যটি প্রাথমিক কীফ্রেম মানগুলি একটি প্যারেন্ট "
+"ইফেক্টে সেট করে। উদাহরণস্বরূপ, যদি অনেক ইফেক্ট একই প্যারেন্ট ইফেক্টের দিকে নির্দেশ "
+"করে, তারা তাদের সমস্ত প্রাথমিক বৈশিষ্ট্য যেমন ফন্ট সাইজ, ফন্ট রঙ, এবং ``Caption`` "
+"ইফেক্টের ব্যাকগ্রাউন্ড রঙ উত্তরাধিকারসূত্রে পাবে। একই প্যারেন্ট ইফেক্ট ব্যবহার করে অনেক "
+"``Caption`` ইফেক্টের উদাহরণে, এটি এই ইফেক্টগুলির একটি বড় সংখ্যা পরিচালনার একটি "
+"কার্যকর উপায়।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:326
+msgid ""
+"NOTE: The ``parent`` property for effects should be linked to the **same "
+"type** of parent effect, otherwise their default initial values will not "
+"match. Also see :ref:`clip_parent_ref`."
+msgstr ""
+"নোট: ইফেক্টের ``parent`` বৈশিষ্ট্যটি একই ধরনের প্যারেন্ট ইফেক্টের সাথে সংযুক্ত হওয়া "
+"উচিত, অন্যথায় তাদের ডিফল্ট প্রাথমিক মানগুলি মেলবে না। এছাড়াও দেখুন :ref:"
+"`clip_parent_ref`।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:331
+msgid ""
+"The :guilabel:`Position` property determines the effect's position on the "
+"timeline in seconds, with 0.0 indicating the beginning."
+msgstr ""
+":guilabel:`Position` বৈশিষ্ট্যটি টাইমলাইনে ইফেক্টের অবস্থান সেকেন্ডে নির্ধারণ করে, "
+"যেখানে 0.0 শুরু নির্দেশ করে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:337
+msgid ""
+"The :guilabel:`Start` property defines the trimming point at the beginning "
+"of the effect in seconds. Changing this property will impact the :guilabel:"
+"`Duration` effect property."
+msgstr ""
+":guilabel:`Start` বৈশিষ্ট্যটি ইফেক্টের শুরুতে ট্রিমিং পয়েন্ট সেকেন্ডে নির্ধারণ করে। "
+"এই বৈশিষ্ট্য পরিবর্তন করলে :guilabel:`Duration` ইফেক্ট বৈশিষ্ট্যে প্রভাব পড়বে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:343
+msgid "Sequencing"
+msgstr "ক্রমবিন্যাস"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:345
+msgid ""
+"Effects are normally applied **before** the Clip processes keyframes. This "
+"allows the effect to process the raw image of the clip, before the clip "
+"applies properties such as scaling, rotation, location, etc... Normally, "
+"this is the preferred sequence of events, and this is the default behavior "
+"of effects in OpenShot. However, you can optionally override this behavior "
+"with the ``Apply Before Clip Keyframes`` property."
+msgstr ""
+"সাধারণত ইফেক্টগুলি ক্লিপের কীফ্রেম প্রক্রিয়াকরণের **আগে** প্রয়োগ করা হয়। এটি "
+"ইফেক্টকে ক্লিপের কাঁচা চিত্র প্রক্রিয়াকরণ করতে দেয়, ক্লিপ স্কেলিং, ঘূর্ণন, অবস্থান "
+"ইত্যাদি প্রোপার্টি প্রয়োগ করার আগে। সাধারণত, এটি পছন্দসই ক্রম এবং OpenShot-এ "
+"ইফেক্টগুলির ডিফল্ট আচরণ। তবে, আপনি ঐচ্ছিকভাবে ``Apply Before Clip Keyframes`` "
+"প্রোপার্টি দিয়ে এই আচরণ ওভাররাইড করতে পারেন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:350
+msgid ""
+"If you set the ``Apply Before Clip Keyframes`` property to ``No``, the "
+"effect will be sequenced **after** the clip scales, rotates, and applies "
+"keyframes to the image. This can be useful on certain effects, such as the "
+"**Mask** effect, when you want to animate a clip first and then apply a "
+"static mask to the clip."
+msgstr ""
+"যদি আপনি ``Apply Before Clip Keyframes`` প্রোপার্টি ``No`` এ সেট করেন, তাহলে "
+"ইফেক্টটি ক্লিপের স্কেল, ঘূর্ণন এবং কীফ্রেম প্রয়োগের **পরে** সিকোয়েন্স করা হবে। এটি "
+"কিছু ইফেক্টের জন্য উপকারী হতে পারে, যেমন **Mask** ইফেক্ট, যখন আপনি প্রথমে একটি "
+"ক্লিপ অ্যানিমেট করতে চান এবং তারপর ক্লিপে একটি স্থির মাস্ক প্রয়োগ করতে চান।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:357
+msgid "Video Effects"
+msgstr "ভিডিও ইফেক্টস"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:359
+msgid ""
+"Effects are generally divided into two categories: video and audio effects. "
+"Video effects modify the image and pixel data of a clip. Below is a list of "
+"video effects, and their properties. Often it is best to experiment with an "
+"effect, entering different values into the properties, and observing the "
+"results."
+msgstr ""
+"ইফেক্টগুলি সাধারণত দুইটি বিভাগে বিভক্ত: ভিডিও এবং অডিও ইফেক্টস। ভিডিও ইফেক্টস "
+"ক্লিপের চিত্র এবং পিক্সেল ডেটা পরিবর্তন করে। নিচে ভিডিও ইফেক্টস এবং তাদের "
+"প্রোপার্টিগুলির একটি তালিকা রয়েছে। প্রায়শই একটি ইফেক্ট নিয়ে পরীক্ষা-নিরীক্ষা করা "
+"ভাল, প্রোপার্টিতে বিভিন্ন মান প্রবেশ করিয়ে এবং ফলাফল পর্যবেক্ষণ করে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:365
+msgid ""
+"The **Analog Tape** effect emulates consumer tape playback: horizontal line "
+"wobble (\"tracking\"), chroma bleed, luma softness, grainy snow, a bottom "
+"**tracking stripe**, and short **static bursts**. All controls are key-"
+"framable and the noise is deterministic (seeded from the effect’s ID with an "
+"optional offset), so renders are repeatable."
+msgstr ""
+"**Analog Tape** ইফেক্টটি কনজিউমার টেপ প্লেব্যাক অনুকরণ করে: অনুভূমিক লাইন কম্পন "
+"(\"tracking\"), ক্রোমা ব্লিড, লুমা সফটনেস, দানাদার তুষার, নিচের **tracking "
+"stripe**, এবং ছোট **static bursts**। সব নিয়ন্ত্রণ কী-ফ্রেমযোগ্য এবং শব্দ নির্ধারিত "
+"(ইফেক্টের আইডি থেকে সীড করা হয়েছে একটি ঐচ্ছিক অফসেট সহ), তাই রেন্ডারগুলি "
+"পুনরাবৃত্তিযোগ্য।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:372 ../effects.rst:401 ../effects.rst:419 ../effects.rst:438
+#: ../effects.rst:456 ../effects.rst:484 ../effects.rst:516 ../effects.rst:539
+#: ../effects.rst:754 ../effects.rst:779 ../effects.rst:809 ../effects.rst:830
+#: ../effects.rst:845 ../effects.rst:860 ../effects.rst:908 ../effects.rst:947
+#: ../effects.rst:966 ../effects.rst:1005 ../effects.rst:1024
+#: ../effects.rst:1042 ../effects.rst:1091 ../effects.rst:1131
+#: ../effects.rst:1162 ../effects.rst:1188 ../effects.rst:1208
+#: ../effects.rst:1223 ../effects.rst:1241 ../effects.rst:1258
+#: ../effects.rst:1278 ../effects.rst:1293 ../effects.rst:1311
+#: ../effects.rst:1328
+msgid "Property Name"
+msgstr "প্রোপার্টি নাম"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:374
+msgid "tracking"
+msgstr "ট্র্যাকিং"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:374
+msgid ""
+"``(float, 0–1)`` Horizontal **line wobble** plus a subtle bottom **skew**. "
+"Higher values increase amplitude and skew height."
+msgstr ""
+"``(float, 0–1)`` অনুভূমিক **লাইন কম্পন** এবং সূক্ষ্ম নিচের **স্কিউ**। উচ্চ মান "
+"অ্যাম্প্লিটিউড এবং স্কিউ উচ্চতা বৃদ্ধি করে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:375
+msgid "bleed"
+msgstr "ব্লিড"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:375
+msgid ""
+"``(float, 0–1)`` **Chroma bleed / fringing.** Horizontal chroma shift + blur "
+"with a slight desaturation. Gives the “rainbow edge” look."
+msgstr ""
+"``(float, 0–1)`` **ক্রোমা ব্লিড / ফ্রিঞ্জিং।** অনুভূমিক ক্রোমা শিফট + ব্লার সহ "
+"সামান্য ডেস্যাচুরেশন। “রেইনবো এজ” লুক দেয়।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:376
+msgid "softness"
+msgstr "সফটনেস"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:376
+msgid ""
+"``(float, 0–1)`` **Luma softness.** Small horizontal blur on Y (approx. 0–2 "
+"px). Keep low to retain detail when noise is high."
+msgstr ""
+"``(float, 0–1)`` **লুমা সফটনেস।** Y-অক্ষ বরাবর ছোট অনুভূমিক ব্লার (প্রায় 0–2 "
+"পিক্সেল)। শব্দ বেশি হলে বিস্তারিত ধরে রাখতে কম রাখুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:377
+msgid "noise"
+msgstr "শব্দ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:377
+msgid ""
+"``(float, 0–1)`` **Snow, hiss, and dropouts.** Controls grain strength, "
+"probability/length of white **streaks**, and a faint line hum."
+msgstr ""
+"``(float, 0–1)`` **তুষার, হিস এবং ড্রপআউট।** দানার শক্তি, সাদা **স্ট্রিকের** "
+"সম্ভাবনা/দৈর্ঘ্য এবং একটি হালকা লাইন হাম নিয়ন্ত্রণ করে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:378
+msgid "stripe"
+msgstr "স্ট্রাইপ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:378
+msgid ""
+"``(float, 0–1)`` **Tracking stripe.** Lifts the bottom band, adds hiss/noise "
+"there, and widens the lifted region as the value increases."
+msgstr ""
+"``(float, 0–1)`` **ট্র্যাকিং স্ট্রাইপ।** নিচের ব্যান্ড উত্তোলন করে, সেখানে হিস/শব্দ "
+"যোগ করে, এবং মান বাড়ার সাথে উত্তোলিত অঞ্চল প্রশস্ত করে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:379
+msgid "static_bands"
+msgstr "স্ট্যাটিক ব্যান্ডস"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:379
+msgid ""
+"``(float, 0–1)`` **Static bursts.** Short bright bands with **row-clumped "
+"streaks** (many “shooting stars” across neighboring rows)."
+msgstr ""
+"``(float, 0–1)`` **স্ট্যাটিক বার্স্ট।** ছোট উজ্জ্বল ব্যান্ডস সহ **সারি-গুচ্ছিত "
+"স্ট্রিকস** (পাশের সারিগুলোর মধ্যে অনেক “শুটিং স্টার”)।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:380
+msgid "seed_offset"
+msgstr "সিড অফসেট"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:380
+msgid ""
+"``(int, 0–1000)`` Adds to the internal seed (derived from the effect ID) for "
+"deterministic variation between clips."
+msgstr ""
+"``(int, 0–1000)`` ক্লিপগুলোর মধ্যে নির্ধারিত পরিবর্তনের জন্য অভ্যন্তরীণ সিডে (ইফেক্ট "
+"আইডি থেকে প্রাপ্ত) যোগ করে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:383 ../effects.rst:1070
+msgid "**Usage notes**"
+msgstr "**ব্যবহারের নোটস**"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:385
+msgid ""
+"**Subtle “home video”**: ``tracking=0.25``, ``bleed=0.20``, "
+"``softness=0.20``, ``noise=0.25``, ``stripe=0.10``, ``static_bands=0.05``."
+msgstr ""
+"**সূক্ষ্ম “হোম ভিডিও”**: ``tracking=0.25``, ``bleed=0.20``, ``softness=0.20``, "
+"``noise=0.25``, ``stripe=0.10``, ``static_bands=0.05``।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:386
+msgid ""
+"**Bad tracking / head clog**: ``tracking=0.8–1.0``, ``stripe=0.6–0.9``, "
+"``noise=0.6–0.8``, ``static_bands=0.4–0.6``, ``softness<=0.2``, and set "
+"``bleed`` to about 0.3."
+msgstr ""
+"**খারাপ ট্র্যাকিং / হেড ক্লগ**: ``tracking=0.8–1.0``, ``stripe=0.6–0.9``, "
+"``noise=0.6–0.8``, ``static_bands=0.4–0.6``, ``softness<=0.2``, এবং "
+"``bleed`` প্রায় 0.3 এ সেট করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:387
+msgid ""
+"**Color fringing only**: raise ``bleed`` (about 0.5) and keep other controls "
+"low."
+msgstr ""
+"**শুধুমাত্র রঙের ফ্রিঞ্জিং**: ``bleed`` বাড়ান (প্রায় 0.5) এবং অন্যান্য নিয়ন্ত্রণ কম "
+"রাখুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:388
+msgid ""
+"**Different but repeatable snow**: leave the effect ID alone (for "
+"deterministic output) and change ``seed_offset`` to get a new, still-"
+"repeatable pattern."
+msgstr ""
+"**ভিন্ন কিন্তু পুনরাবৃত্তিযোগ্য তুষার**: ইফেক্ট আইডি অপরিবর্তিত রাখুন (নির্ধারিত আউটপুটের "
+"জন্য) এবং নতুন, এখনও পুনরাবৃত্তিযোগ্য প্যাটার্ন পেতে ``seed_offset`` পরিবর্তন করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:392
+msgid ""
+"The Alpha Mask / Wipe Transition effect leverages a grayscale mask to create "
+"a dynamic transition between two images or video clips. In this effect, the "
+"light areas of the mask reveal the new image, while the dark areas conceal "
+"it, allowing for creative and custom transitions that go beyond standard "
+"fade or wipe techniques. This effect only affects the image, and not the "
+"audio track."
+msgstr ""
+"Alpha Mask / Wipe Transition ইফেক্টটি গ্রেস্কেল মাস্ক ব্যবহার করে দুটি ছবি বা "
+"ভিডিও ক্লিপের মধ্যে গতিশীল ট্রানজিশন তৈরি করে। এই ইফেক্টে, মাস্কের হালকা অংশ নতুন "
+"ছবি প্রকাশ করে, আর অন্ধকার অংশ গোপন করে, যা সৃজনশীল এবং কাস্টম ট্রানজিশন তৈরি "
+"করতে দেয় যা স্ট্যান্ডার্ড ফেড বা ওয়াইপ প্রযুক্তির বাইরে যায়। এই ইফেক্ট শুধুমাত্র ছবিতে "
+"প্রভাব ফেলে, অডিও ট্র্যাকে নয়।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:403 ../effects.rst:458 ../effects.rst:864
+msgid "brightness"
+msgstr "উজ্জ্বলতা"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:403
+msgid "``(float, -1 to 1)`` This curve controls the motion across the wipe"
+msgstr "``(float, -1 থেকে 1)`` এই কার্ভটি ওয়াইপ জুড়ে গতি নিয়ন্ত্রণ করে"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:404 ../effects.rst:459
+msgid "contrast"
+msgstr "বৈপরীত্য"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:404
+msgid ""
+"``(float, 0 to 20)`` This curve controls the hardness and softness of the "
+"wipe edge"
+msgstr ""
+"``(float, 0 থেকে 20)`` এই কার্ভটি ওয়াইপ এজের কঠোরতা এবং নরমত্ব নিয়ন্ত্রণ করে"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:405
+msgid "reader"
+msgstr "রিডার"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:405
+msgid ""
+"``(reader)`` This reader can use any image or video as input for your "
+"grayscale wipe"
+msgstr ""
+"``(reader)`` এই রিডারটি আপনার গ্রেস্কেল ওয়াইপের জন্য যেকোনো ছবি বা ভিডিও ইনপুট "
+"হিসেবে ব্যবহার করতে পারে"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:406
+msgid "replace_image"
+msgstr "ছবি প্রতিস্থাপন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:406
+msgid ""
+"``(bool, choices: ['Yes', 'No'])`` Replace the clips image with the current "
+"grayscale wipe image, useful for troubleshooting"
+msgstr ""
+"``(bool, choices: ['Yes', 'No'])`` ক্লিপের ছবিটি বর্তমান গ্রেস্কেল ওয়াইপ ছবির "
+"সাথে প্রতিস্থাপন করুন, যা সমস্যা সমাধানের জন্য উপকারী"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:411
+msgid ""
+"The Bars effect adds colored bars around your video frame, which can be used "
+"for aesthetic purposes, to frame the video within a certain aspect ratio, or "
+"to simulate the appearance of viewing content on a different display device. "
+"This effect is particularly useful for creating a cinematic or broadcast "
+"look."
+msgstr ""
+"বারস ইফেক্টটি আপনার ভিডিও ফ্রেমের চারপাশে রঙিন বার যোগ করে, যা নান্দনিক "
+"উদ্দেশ্যে, নির্দিষ্ট অনুপাতের মধ্যে ভিডিও ফ্রেম করার জন্য, অথবা ভিন্ন ডিসপ্লে ডিভাইসে "
+"কন্টেন্ট দেখার অভিজ্ঞতা অনুকরণ করার জন্য ব্যবহার করা যেতে পারে। এই ইফেক্টটি "
+"সিনেমাটিক বা সম্প্রচার লুক তৈরিতে বিশেষভাবে কার্যকর।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:421 ../effects.rst:811 ../effects.rst:968
+msgid "bottom"
+msgstr "নিচে"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:421
+msgid "``(float, 0 to 0.5)`` The curve to adjust the bottom bar size"
+msgstr "``(float, 0 থেকে 0.5)`` নিচের বারের আকার সামঞ্জস্য করার কার্ভ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:422 ../effects.rst:492 ../effects.rst:518
+msgid "color"
+msgstr "রঙ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:422
+msgid "``(color)`` The curve to adjust the color of bars"
+msgstr "``(color)`` বারের রঙ সামঞ্জস্য করার কার্ভ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:423 ../effects.rst:497 ../effects.rst:812 ../effects.rst:969
+msgid "left"
+msgstr "বামে"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:423
+msgid "``(float, 0 to 0.5)`` The curve to adjust the left bar size"
+msgstr "``(float, 0 থেকে 0.5)`` বাম বারের আকার সামঞ্জস্য করার কার্ভ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:424 ../effects.rst:499 ../effects.rst:813 ../effects.rst:971
+msgid "right"
+msgstr "ডানে"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:424
+msgid "``(float, 0 to 0.5)`` The curve to adjust the right bar size"
+msgstr "``(float, 0 থেকে 0.5)`` ডান বারের আকার সামঞ্জস্য করার কার্ভ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:425 ../effects.rst:502 ../effects.rst:814 ../effects.rst:972
+msgid "top"
+msgstr "উপরে"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:425
+msgid "``(float, 0 to 0.5)`` The curve to adjust the top bar size"
+msgstr "``(float, 0 থেকে 0.5)`` উপরের বারের আকার সামঞ্জস্য করার কার্ভ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:430
+msgid ""
+"The Blur effect softens the image, reducing detail and texture. This can be "
+"used to create a sense of depth, draw attention to specific parts of the "
+"frame, or simply to apply a stylistic choice for aesthetic purposes. The "
+"intensity of the blur can be adjusted to achieve the desired level of "
+"softness."
+msgstr ""
+"ব্লার ইফেক্টটি ছবিকে নরম করে, বিস্তারিত এবং টেক্সচার কমায়। এটি গভীরতার অনুভূতি "
+"তৈরি করতে, ফ্রেমের নির্দিষ্ট অংশে মনোযোগ আকর্ষণ করতে, অথবা নান্দনিক উদ্দেশ্যে "
+"স্টাইলিশ পছন্দ প্রয়োগ করতে ব্যবহার করা যেতে পারে। ব্লারের তীব্রতা সামঞ্জস্য করে "
+"কাঙ্ক্ষিত নরমতার স্তর অর্জন করা যায়।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:440
+msgid "horizontal_radius"
+msgstr "অনুভূমিক_ব্যাসার্ধ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:440
+msgid ""
+"``(float, 0 to 100)`` Horizontal blur radius keyframe. The size of the "
+"horizontal blur operation in pixels."
+msgstr ""
+"``(float, 0 থেকে 100)`` অনুভূমিক ব্লার ব্যাসার্ধ কীফ্রেম। পিক্সেলে অনুভূমিক ব্লার "
+"অপারেশনের আকার।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:441
+msgid "iterations"
+msgstr "পুনরাবৃত্তি"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:441
+msgid ""
+"``(float, 0 to 100)`` Iterations keyframe. The # of blur iterations per "
+"pixel. 3 iterations = Gaussian."
+msgstr ""
+"``(float, 0 থেকে 100)`` পুনরাবৃত্তির কীফ্রেম। প্রতি পিক্সেলে ব্লার পুনরাবৃত্তির সংখ্যা। "
+"৩ পুনরাবৃত্তি = গাউসিয়ান।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:442
+msgid "sigma"
+msgstr "সিগমা"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:442
+msgid ""
+"``(float, 0 to 100)`` Sigma keyframe. The amount of spread in the blur "
+"operation. Should be larger than radius."
+msgstr ""
+"``(float, 0 থেকে 100)`` সিগমা কীফ্রেম। ব্লার অপারেশনে ছড়ানোর পরিমাণ। ব্যাসার্ধের "
+"চেয়ে বড় হওয়া উচিত।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:443
+msgid "vertical_radius"
+msgstr "উল্লম্ব_ব্যাসার্ধ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:443
+msgid ""
+"``(float, 0 to 100)`` Vertical blur radius keyframe. The size of the "
+"vertical blur operation in pixels."
+msgstr ""
+"``(float, 0 থেকে 100)`` উল্লম্ব ব্লার ব্যাসার্ধ কীফ্রেম। পিক্সেলে উল্লম্ব ব্লার "
+"অপারেশনের আকার।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:448
+msgid ""
+"The Brightness & Contrast effect allows for the adjustment of the overall "
+"lightness or darkness of the image (brightness) and the difference between "
+"the darkest and lightest parts of the image (contrast). This effect can be "
+"used to correct poorly lit videos or to create dramatic lighting effects for "
+"artistic purposes."
+msgstr ""
+"ব্রাইটনেস ও কনট্রাস্ট ইফেক্ট ছবির সামগ্রিক উজ্জ্বলতা বা অন্ধকারতা (ব্রাইটনেস) এবং "
+"ছবির সবচেয়ে অন্ধকার ও সবচেয়ে উজ্জ্বল অংশের পার্থক্য (কনট্রাস্ট) সামঞ্জস্য করার সুযোগ "
+"দেয়। এই ইফেক্টটি দুর্বল আলোযুক্ত ভিডিও সংশোধন করতে বা শিল্পগত উদ্দেশ্যে নাটকীয় আলো "
+"প্রভাব তৈরি করতে ব্যবহার করা যেতে পারে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:458
+msgid "``(float, -1 to 1)`` The curve to adjust the brightness"
+msgstr "``(float, -1 থেকে 1)`` ব্রাইটনেস সামঞ্জস্য করার কার্ভ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:459
+msgid ""
+"``(float, 0 to 100)`` The curve to adjust the contrast (3 is typical, 20 is "
+"a lot, 100 is max. 0 is invalid)"
+msgstr ""
+"``(float, 0 থেকে 100)`` কনট্রাস্ট সামঞ্জস্য করার কার্ভ (৩ সাধারণ, ২০ অনেক, ১০০ "
+"সর্বোচ্চ। ০ অবৈধ)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:466
+msgid ""
+"Add text captions on top of your video. We support both VTT (WebVTT) and "
+"SubRip (SRT) subtitle file formats. These formats are used to display "
+"captions or subtitles in videos. They allow you to add text-based subtitles "
+"to video content, making it more accessible to a wider audience, especially "
+"for those who are deaf or hard of hearing. The Caption effect can even "
+"animate the text fading in/out, and supports any font, size, color, and "
+"margin. OpenShot also has an easy-to-use Caption editor, where you can "
+"quickly insert captions at the playhead position, or edit all your caption "
+"text in one place."
+msgstr ""
+"আপনার ভিডিওর উপরে টেক্সট ক্যাপশন যোগ করুন। আমরা VTT (WebVTT) এবং SubRip (SRT) "
+"সাবটাইটেল ফাইল ফরম্যাট দুটোই সমর্থন করি। এই ফরম্যাটগুলো ভিডিওতে ক্যাপশন বা "
+"সাবটাইটেল প্রদর্শনের জন্য ব্যবহৃত হয়। এগুলো আপনাকে ভিডিও কন্টেন্টে টেক্সট-ভিত্তিক "
+"সাবটাইটেল যোগ করার সুযোগ দেয়, যা বিশেষ করে বধির বা শ্রবণ প্রতিবন্ধীদের জন্য "
+"ভিডিওকে আরও প্রবেশযোগ্য করে তোলে। ক্যাপশন ইফেক্ট টেক্সটের ফেড ইন/আউট অ্যানিমেশনও "
+"করতে পারে, এবং যেকোনো ফন্ট, সাইজ, রঙ, ও মার্জিন সমর্থন করে। OpenShot-এ একটি "
+"সহজে ব্যবহারযোগ্য ক্যাপশন এডিটরও রয়েছে, যেখানে আপনি দ্রুত প্লেহেড অবস্থানে ক্যাপশন "
+"প্রবেশ করাতে পারেন, অথবা সব ক্যাপশন টেক্সট এক জায়গায় সম্পাদনা করতে পারেন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:486 ../effects.rst:932 ../effects.rst:1150
+msgid "background"
+msgstr "পটভূমি"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:486
+msgid "``(color)`` Color of caption area background"
+msgstr "``(color)`` ক্যাপশন এলাকার পটভূমির রঙ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:487 ../effects.rst:930 ../effects.rst:1148
+msgid "background_alpha"
+msgstr "পটভূমি_আলফা"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:487
+msgid "``(float, 0 to 1)`` Background color alpha"
+msgstr "``(float, 0 থেকে 1)`` পটভূমির রঙের আলফা"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:488 ../effects.rst:931 ../effects.rst:1149
+msgid "background_corner"
+msgstr "পটভূমির_কোণা"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:488
+msgid "``(float, 0 to 60)`` Background corner radius"
+msgstr "``(float, 0 থেকে 60)`` পটভূমির কোণার ব্যাসার্ধ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:489
+msgid "background_padding"
+msgstr "পটভূমির_প্যাডিং"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:489
+msgid "``(float, 0 to 60)`` Background padding"
+msgstr "``(float, 0 থেকে 60)`` পটভূমির প্যাডিং"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:490
+msgid "caption_font"
+msgstr "ক্যাপশন_ফন্ট"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:490
+msgid "``(font)`` Font name or family name"
+msgstr "``(font)`` ফন্টের নাম বা ফন্ট পরিবারের নাম"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:491
+msgid "caption_text"
+msgstr "ক্যাপশন_টেক্সট"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:491
+msgid "``(caption)`` VTT/Subrip formatted caption text (multi-line)"
+msgstr "``(caption)`` VTT/Subrip ফরম্যাটের ক্যাপশন টেক্সট (বহু-লাইন)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:492
+msgid "``(color)`` Color of caption text"
+msgstr "``(color)`` ক্যাপশন টেক্সটের রঙ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:493
+msgid "fade_in"
+msgstr "ফেড_ইন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:493
+msgid "``(float, 0 to 3)`` Fade in per caption (# of seconds)"
+msgstr "``(float, 0 থেকে 3)`` প্রতি ক্যাপশনের ফেড ইন (সেকেন্ডে)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:494
+msgid "fade_out"
+msgstr "ফেড_আউট"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:494
+msgid "``(float, 0 to 3)`` Fade out per caption (# of seconds)"
+msgstr "``(float, 0 থেকে 3)`` প্রতি ক্যাপশনের ফেড আউট (সেকেন্ডে)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:495
+msgid "font_alpha"
+msgstr "ফন্ট_আলফা"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:495
+msgid "``(float, 0 to 1)`` Font color alpha"
+msgstr "``(float, 0 থেকে 1)`` ফন্ট রঙের আলফা"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:496
+msgid "font_size"
+msgstr "ফন্ট_সাইজ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:496
+msgid "``(float, 0 to 200)`` Font size in points"
+msgstr "``(float, 0 থেকে 200)`` পয়েন্টে ফন্ট সাইজ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:497
+msgid "``(float, 0 to 0.5)`` Size of left margin"
+msgstr "``(float, 0 থেকে 0.5)`` বাম মার্জিনের আকার"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:498
+msgid "line_spacing"
+msgstr "লাইন_স্পেসিং"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:498
+msgid "``(float, 0 to 5)`` Distance between lines (1.0 default)"
+msgstr "``(float, 0 থেকে 5)`` লাইনের মধ্যে দূরত্ব (ডিফল্ট ১.০)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:499
+msgid "``(float, 0 to 0.5)`` Size of right margin"
+msgstr "``(float, 0 থেকে 0.5)`` ডান মার্জিনের আকার"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:500 ../effects.rst:927 ../effects.rst:1145
+msgid "stroke"
+msgstr "স্ট্রোক"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:500
+msgid "``(color)`` Color of text border / stroke"
+msgstr "``(color)`` টেক্সটের বর্ডার / স্ট্রোকের রঙ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:501 ../effects.rst:928 ../effects.rst:1146
+msgid "stroke_width"
+msgstr "স্ট্রোক_প্রস্থ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:501
+msgid "``(float, 0 to 10)`` Width of text border / stroke"
+msgstr "``(ফ্লোট, ০ থেকে ১০)`` টেক্সট বর্ডার / স্ট্রোকের প্রস্থ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:502
+msgid "``(float, 0 to 1)`` Size of top margin"
+msgstr "``(ফ্লোট, ০ থেকে ১)`` উপরের মার্জিনের আকার"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:507
+msgid ""
+"The Chroma Key (Greenscreen) effect replaces a specific color (or chroma) in "
+"the video (commonly green or blue) with transparency, allowing for the "
+"compositing of the video over a different background. This effect is widely "
+"used in film and television production for creating visual effects and "
+"placing subjects in settings that would be otherwise impossible or "
+"impractical to shoot in."
+msgstr ""
+"ক্রোমা কী (গ্রিনস্ক্রিন) ইফেক্ট ভিডিওর একটি নির্দিষ্ট রঙ (সাধারণত সবুজ বা নীল) "
+"স্বচ্ছতায় প্রতিস্থাপন করে, যা ভিডিওকে ভিন্ন পটভূমির উপর সংমিশ্রণ করার সুযোগ দেয়। এই "
+"ইফেক্টটি চলচ্চিত্র ও টেলিভিশন প্রোডাকশনে ভিজ্যুয়াল ইফেক্ট তৈরি এবং এমন পরিবেশে "
+"বিষয়বস্তু স্থাপনের জন্য ব্যাপকভাবে ব্যবহৃত হয় যা অন্যথায় শুট করা অসম্ভব বা অপ্রায়োগিক।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:518
+msgid "``(color)`` The color to match"
+msgstr "``(রঙ)`` মিলানোর জন্য রঙ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:519 ../effects.rst:1009 ../effects.rst:1195
+#: ../effects.rst:1265
+msgid "threshold"
+msgstr "সীমা"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:519
+msgid ""
+"``(float, 0 to 125)`` The threshold (or fuzz factor) for matching similar "
+"colors. The larger the value the more colors that will be matched."
+msgstr ""
+"``(ফ্লোট, ০ থেকে ১২৫)`` মিল থাকা রঙের জন্য সীমা (বা ফাজ ফ্যাক্টর)। মান যত বড় "
+"হবে, তত বেশি রঙ মিলবে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:520
+msgid "halo"
+msgstr "হ্যালো"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:520
+msgid "``(float, 0 to 125)`` The additional threshold for halo elimination."
+msgstr "``(ফ্লোট, ০ থেকে ১২৫)`` হ্যালো অপসারণের জন্য অতিরিক্ত সীমা।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:521
+msgid "keymethod"
+msgstr "কী পদ্ধতি"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:521
+msgid ""
+"``(int, choices: ['Basic keying', 'HSV/HSL hue', 'HSV saturation', 'HSL "
+"saturation', 'HSV value', 'HSL luminance', 'LCH luminosity', 'LCH chroma', "
+"'LCH hue', 'CIE Distance', 'Cb,Cr vector'])`` The keying method or algorithm "
+"to use."
+msgstr ""
+"``(ইন্ট, পছন্দসমূহ: ['বেসিক কীং', 'HSV/HSL হিউ', 'HSV স্যাচুরেশন', 'HSL "
+"স্যাচুরেশন', 'HSV মান', 'HSL লুমিন্যান্স', 'LCH লুমিনোসিটি', 'LCH ক্রোমা', 'LCH "
+"হিউ', 'CIE দূরত্ব', 'Cb,Cr ভেক্টর'])`` ব্যবহারের জন্য কীং পদ্ধতি বা অ্যালগরিদম।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:526
+msgid ""
+"The Color Map effect applies a 3D LUT (Lookup Table) to your footage, "
+"instantly transforming its colors to achieve a consistent look or mood. A 3D "
+"LUT is simply a table that remaps every input hue to a new output palette. "
+"With separate keyframe curves for red, green, and blue channels, you can "
+"precisely control, and even animate, how much each channel is influenced by "
+"the LUT, making it easy to fine-tune or blend your grade over time."
+msgstr ""
+"কালার ম্যাপ ইফেক্ট আপনার ফুটেজে ৩ডি LUT (লুকআপ টেবিল) প্রয়োগ করে, তাৎক্ষণিকভাবে এর "
+"রঙ পরিবর্তন করে একটি সঙ্গতিপূর্ণ চেহারা বা মেজাজ অর্জন করে। ৩ডি LUT হল একটি টেবিল "
+"যা প্রতিটি ইনপুট হিউকে নতুন আউটপুট প্যালেটে ম্যাপ করে। লাল, সবুজ, এবং নীল চ্যানেলের "
+"জন্য পৃথক কীফ্রেম কার্ভ সহ, আপনি নির্ভুলভাবে নিয়ন্ত্রণ করতে পারেন এবং এমনকি অ্যানিমেট "
+"করতে পারেন LUT কতটা প্রভাব ফেলে, যা সময়ের সাথে আপনার গ্রেড সূক্ষ্ম সমন্বয় বা মিশ্রণ "
+"সহজ করে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:531
+msgid ""
+"LUT files (`.cube` format) can be downloaded from many online resources, "
+"including free packs on photography blogs or marketplaces, such as https://"
+"freshluts.com/. OpenShot includes a selection of popular LUTs designed for "
+"**Rec 709** gamma out of the box."
+msgstr ""
+"LUT ফাইলগুলি (`.cube` ফরম্যাট) অনেক অনলাইন উৎস থেকে ডাউনলোড করা যায়, যার মধ্যে "
+"ফটোগ্রাফি ব্লগ বা মার্কেটপ্লেসে ফ্রি প্যাক রয়েছে, যেমন https://freshluts.com/। "
+"OpenShot ডিফল্টভাবে **Rec 709** গামার জন্য ডিজাইন করা জনপ্রিয় LUT এর একটি "
+"নির্বাচন অন্তর্ভুক্ত করে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:541
+msgid "lut_path"
+msgstr "lut_পথ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:541
+msgid "``(string)`` Filesystem path to the `.cube` LUT file."
+msgstr "``(স্ট্রিং)`` `.cube` LUT ফাইলের ফাইলসিস্টেম পথ।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:542
+msgid "intensity"
+msgstr "তীব্রতা"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:542
+msgid ""
+"``(float, 0.0 to 1.0)`` % Blending overall intensity (0.0 = no LUT, 1.0 = "
+"full LUT)."
+msgstr ""
+"``(ফ্লোট, ০.০ থেকে ১.০)`` % মিশ্রণের সামগ্রিক তীব্রতা (০.০ = কোন LUT নয়, ১.০ = "
+"সম্পূর্ণ LUT)।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:543
+msgid "intensity_r"
+msgstr "তীব্রতা_রেড"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:543
+msgid ""
+"``(float, 0.0 to 1.0)`` % Blending the LUT’s red channel (0.0 = no LUT, 1.0 "
+"= full LUT)."
+msgstr ""
+"``(ফ্লোট, ০.০ থেকে ১.০)`` % LUT এর লাল চ্যানেল মিশ্রণ (০.০ = কোন LUT নয়, ১.০ = "
+"সম্পূর্ণ LUT)।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:544
+msgid "intensity_g"
+msgstr "তীব্রতা_সবুজ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:544
+msgid ""
+"``(float, 0.0 to 1.0)`` % Blending the LUT’s green channel (0.0 = no LUT, "
+"1.0 = full LUT)."
+msgstr ""
+"``(ফ্লোট, ০.০ থেকে ১.০)`` % LUT এর সবুজ চ্যানেল মিশ্রণ (০.০ = কোন LUT নয়, ১.০ = "
+"সম্পূর্ণ LUT)।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:545
+msgid "intensity_b"
+msgstr "তীব্রতা_নীল"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:545
+msgid ""
+"``(float, 0.0 to 1.0)`` % Blending the LUT’s blue channel (0.0 = no LUT, 1.0 "
+"= full LUT)."
+msgstr ""
+"``(ফ্লোট, ০.০ থেকে ১.০)`` % LUT এর নীল চ্যানেল মিশ্রণ (০.০ = কোন LUT নয়, ১.০ = "
+"সম্পূর্ণ LUT)।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:549
+msgid "Gamma and Rec 709"
+msgstr "গামা এবং Rec 709"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:550
+msgid ""
+"Gamma is the way video systems brighten or darken the midtones of an image. "
+"**Rec 709** is the standard gamma curve used for most HD and online video "
+"today. By shipping with **Rec 709** LUTs, OpenShot makes it simple to apply "
+"a grade that matches the vast majority of footage you’ll edit."
+msgstr ""
+"গামা হল ভিডিও সিস্টেমের একটি পদ্ধতি যা ছবির মধ্যম টোন উজ্জ্বল বা অন্ধকার করে। "
+"**Rec 709** হল আজকের অধিকাংশ HD এবং অনলাইন ভিডিওর জন্য ব্যবহৃত স্ট্যান্ডার্ড গামা "
+"কার্ভ। **Rec 709** LUT সহ OpenShot সরবরাহ করে, যা আপনার সম্পাদিত অধিকাংশ "
+"ফুটেজের সাথে মিল রেখে গ্রেড প্রয়োগ করা সহজ করে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:554
+msgid ""
+"If your camera or workflow uses a different gamma (for example a LOG "
+"profile), you can still use a LUT made for that curve. Simply use a `.cube` "
+"file designed for your gamma under the Color Map effect’s **LUT Path**. Just "
+"be sure your footage gamma matches the LUT gamma—or the colors may look "
+"incorrect."
+msgstr ""
+"যদি আপনার ক্যামেরা বা ওয়ার্কফ্লো ভিন্ন গামা ব্যবহার করে (যেমন একটি LOG প্রোফাইল), "
+"আপনি সেই কার্ভের জন্য তৈরি LUT ব্যবহার করতে পারেন। শুধু কালার ম্যাপ ইফেক্টের **LUT "
+"Path** এ আপনার গামার জন্য ডিজাইন করা `.cube` ফাইল ব্যবহার করুন। নিশ্চিত করুন "
+"আপনার ফুটেজের গামা LUT গামার সাথে মেলে—অন্যথায় রঙগুলি ভুল দেখাতে পারে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:558
+msgid ""
+"The following **Rec 709** LUT files are included in OpenShot, organized into "
+"the following categories:"
+msgstr ""
+"OpenShot এ নিম্নলিখিত **Rec 709** LUT ফাইলগুলি অন্তর্ভুক্ত রয়েছে, নিম্নলিখিত বিভাগে "
+"সংগঠিত:"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:561
+msgid "Cinematic & Blockbuster"
+msgstr "সিনেম্যাটিক ও ব্লকবাস্টার"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:600
+msgid "Dark & Moody"
+msgstr "ডার্ক ও মুডি"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:642
+msgid "Film Stock & Vintage"
+msgstr "ফিল্ম স্টক ও ভিনটেজ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:686
+msgid "Teal & Orange Vibes"
+msgstr "টিল ও অরেঞ্জ ভাইবস"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:710
+msgid "Utility & Correction"
+msgstr "ইউটিলিটি ও সংশোধন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:725
+msgid "Vibrant & Colorful"
+msgstr "জীবন্ত ও রঙিন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:746
+msgid ""
+"The Color Saturation effect adjusts the intensity and vibrancy of colors "
+"within the video. Increasing saturation can make colors more vivid and eye-"
+"catching, while decreasing it can create a more subdued, almost black-and-"
+"white appearance."
+msgstr ""
+"কালার স্যাচুরেশন ইফেক্ট ভিডিওর রঙের তীব্রতা এবং প্রাণবন্ততা সামঞ্জস্য করে। স্যাচুরেশন "
+"বাড়ালে রঙ আরও উজ্জ্বল এবং আকর্ষণীয় হয়, আর কমালে এটি একটি শান্ত, প্রায় কালো-সাদা "
+"চেহারা তৈরি করতে পারে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:756
+msgid "saturation"
+msgstr "স্যাচুরেশন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:756
+msgid ""
+"``(float, 0 to 4)`` The curve to adjust the overall saturation of the "
+"frame's image (0.0 = greyscale, 1.0 = normal, 2.0 = double saturation)"
+msgstr ""
+"``(ফ্লোট, ০ থেকে ৪)`` ফ্রেমের ছবির সামগ্রিক স্যাচুরেশন সামঞ্জস্য করার কার্ভ (০.০ = "
+"ধূসর, ১.০ = স্বাভাবিক, ২.০ = দ্বিগুণ স্যাচুরেশন)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:757
+msgid "saturation_B"
+msgstr "স্যাচুরেশন_নীল"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:757
+msgid ""
+"``(float, 0 to 4)`` The curve to adjust blue saturation of the frame's image"
+msgstr "``(ফ্লোট, ০ থেকে ৪)`` ফ্রেমের ছবির নীল স্যাচুরেশন সামঞ্জস্য করার কার্ভ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:758
+msgid "saturation_G"
+msgstr "স্যাচুরেশন_সবুজ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:758
+msgid ""
+"``(float, 0 to 4)`` The curve to adjust green saturation of the frame's "
+"image (0.0 = greyscale, 1.0 = normal, 2.0 = double saturation)"
+msgstr ""
+"``(ফ্লোট, ০ থেকে ৪)`` ফ্রেমের ছবির সবুজ স্যাচুরেশন সামঞ্জস্য করার কার্ভ (০.০ = ধূসর, "
+"১.০ = স্বাভাবিক, ২.০ = দ্বিগুণ স্যাচুরেশন)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:759
+msgid "saturation_R"
+msgstr "স্যাচুরেশন_লাল"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:759
+msgid ""
+"``(float, 0 to 4)`` The curve to adjust red saturation of the frame's image"
+msgstr "``(ফ্লোট, ০ থেকে ৪)`` ফ্রেমের ছবির লাল স্যাচুরেশন সামঞ্জস্য করার কার্ভ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:764
+msgid ""
+"Shift the colors of an image up, down, left, and right (with infinite "
+"wrapping)."
+msgstr "একটি ছবির রঙ উপরে, নিচে, বামে এবং ডানে সরান (অসীম মোড়কের সাথে)।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:766
+msgid "**Each pixel has 4 color channels:**"
+msgstr "**প্রতিটি পিক্সেলে ৪টি রঙ চ্যানেল থাকে:**"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:768
+msgid "Red, Green, Blue, and Alpha (i.e. transparency)"
+msgstr "লাল, সবুজ, নীল, এবং আলফা (অর্থাৎ স্বচ্ছতা)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:769
+msgid "Each channel value is between 0 and 255"
+msgstr "প্রতিটি চ্যানেলের মান ০ থেকে ২৫৫ এর মধ্যে থাকে"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:771
+msgid ""
+"The Color Shift effect simply \"moves\" or \"translates\" a specific color "
+"channel on the X or Y axis. *Not all video and image formats support an "
+"alpha channel, and in those cases, you will not see any changes when "
+"adjusting the color shift of the alpha channel.*"
+msgstr ""
+"কালার শিফট ইফেক্টটি নির্দিষ্ট একটি রঙের চ্যানেলকে X বা Y অক্ষ বরাবর \"সরায়\" বা "
+"\"অনুবাদ\" করে। *সব ভিডিও এবং ইমেজ ফরম্যাট আলফা চ্যানেল সমর্থন করে না, এবং সেসব "
+"ক্ষেত্রে আলফা চ্যানেলের কালার শিফট সামঞ্জস্য করার সময় কোনো পরিবর্তন দেখা যাবে না।*"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:781
+msgid "alpha_x"
+msgstr "আলফা_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:781
+msgid "``(float, -1 to 1)`` Shift the Alpha X coordinates (left or right)"
+msgstr "``(float, -1 থেকে 1)`` আলফা X স্থানাঙ্ক (বামে বা ডানে) সরান"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:782
+msgid "alpha_y"
+msgstr "আলফা_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:782
+msgid "``(float, -1 to 1)`` Shift the Alpha Y coordinates (up or down)"
+msgstr "``(float, -1 থেকে 1)`` আলফা Y স্থানাঙ্ক (উপর বা নিচে) সরান"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:783
+msgid "blue_x"
+msgstr "নীল_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:783
+msgid "``(float, -1 to 1)`` Shift the Blue X coordinates (left or right)"
+msgstr "``(float, -1 থেকে 1)`` নীল X স্থানাঙ্ক (বামে বা ডানে) সরান"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:784
+msgid "blue_y"
+msgstr "নীল_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:784
+msgid "``(float, -1 to 1)`` Shift the Blue Y coordinates (up or down)"
+msgstr "``(float, -1 থেকে 1)`` নীল Y স্থানাঙ্ক (উপর বা নিচে) সরান"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:785
+msgid "green_x"
+msgstr "সবুজ_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:785
+msgid "``(float, -1 to 1)`` Shift the Green X coordinates (left or right)"
+msgstr "``(float, -1 থেকে 1)`` সবুজ X স্থানাঙ্ক (বামে বা ডানে) সরান"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:786
+msgid "green_y"
+msgstr "সবুজ_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:786
+msgid "``(float, -1 to 1)`` Shift the Green Y coordinates (up or down)"
+msgstr "``(float, -1 থেকে 1)`` সবুজ Y স্থানাঙ্ক (উপর বা নিচে) সরান"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:787
+msgid "red_x"
+msgstr "লাল_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:787
+msgid "``(float, -1 to 1)`` Shift the Red X coordinates (left or right)"
+msgstr "``(float, -1 থেকে 1)`` লাল X স্থানাঙ্ক (বামে বা ডানে) সরান"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:788
+msgid "red_y"
+msgstr "লাল_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:788
+msgid "``(float, -1 to 1)`` Shift the Red Y coordinates (up or down)"
+msgstr "``(float, -1 থেকে 1)`` লাল Y স্থানাঙ্ক (উপর বা নিচে) সরান"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:795
+msgid ""
+"The Crop effect removes unwanted outer areas from the video frame, allowing "
+"you to focus on a particular part of the shot, change the aspect ratio, or "
+"remove distracting elements from the edges of the frame. This effect is the "
+"primary method for cropping a Clip in OpenShot. The ``left``, ``right``, "
+"``top``, and ``bottom`` key-frames can even be animated, for a moving and "
+"resizing cropped area. You can leave the cropped area blank, or you can "
+"dynamically resize the cropped area to fill the screen."
+msgstr ""
+"ক্রপ ইফেক্ট ভিডিও ফ্রেম থেকে অপ্রয়োজনীয় বাইরের অংশগুলি সরিয়ে দেয়, যা আপনাকে শটের "
+"একটি নির্দিষ্ট অংশে ফোকাস করতে, অ্যাসপেক্ট রেশিও পরিবর্তন করতে, অথবা ফ্রেমের প্রান্ত "
+"থেকে বিভ্রান্তিকর উপাদানগুলি সরাতে সাহায্য করে। এই ইফেক্টটি OpenShot-এ ক্লিপ ক্রপ "
+"করার প্রধান পদ্ধতি। ``left``, ``right``, ``top``, এবং ``bottom`` কী-ফ্রেমগুলো "
+"এনিমেট করা যায়, যা ক্রপ করা অংশকে সরানো এবং আকার পরিবর্তন করার সুযোগ দেয়। আপনি "
+"ক্রপ করা অংশ ফাঁকা রাখতে পারেন, অথবা ডায়নামিকভাবে সেটি স্ক্রিন পূরণ করার জন্য আকার "
+"পরিবর্তন করতে পারেন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:801
+msgid ""
+"You can quickly add this effect by right-clicking a clip and choosing :"
+"guilabel:`Crop`. When active, blue crop handles appear in the video preview "
+"so you can adjust the crop visually."
+msgstr ""
+"আপনি একটি ক্লিপে রাইট-ক্লিক করে এবং :guilabel:`Crop` নির্বাচন করে দ্রুত এই "
+"ইফেক্টটি যোগ করতে পারেন। সক্রিয় হলে, ভিডিও প্রিভিউতে নীল ক্রপ হ্যান্ডেলগুলো প্রদর্শিত "
+"হয় যাতে আপনি ভিজ্যুয়ালি ক্রপ সামঞ্জস্য করতে পারেন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:811
+msgid "``(float, 0 to 1)`` Size of bottom bar"
+msgstr "``(float, 0 থেকে 1)`` নিচের বারের আকার"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:812
+msgid "``(float, 0 to 1)`` Size of left bar"
+msgstr "``(float, 0 থেকে 1)`` বাম বারের আকার"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:813
+msgid "``(float, 0 to 1)`` Size of right bar"
+msgstr "``(float, 0 থেকে 1)`` ডান বারের আকার"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:814
+msgid "``(float, 0 to 1)`` Size of top bar"
+msgstr "``(float, 0 থেকে 1)`` উপরের বারের আকার"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:815 ../effects.rst:862 ../effects.rst:1026
+msgid "x"
+msgstr "x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:815
+msgid "``(float, -1 to 1)`` X-offset"
+msgstr "``(float, -1 থেকে 1)`` X-অফসেট"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:816 ../effects.rst:863 ../effects.rst:1027
+msgid "y"
+msgstr "y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:816
+msgid "``(float, -1 to 1)`` Y-offset"
+msgstr "``(float, -1 থেকে 1)`` Y-অফসেট"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:817
+msgid "resize"
+msgstr "আকার পরিবর্তন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:817
+msgid ""
+"``(bool, choices: ['Yes', 'No'])`` Replace the frame image with the cropped "
+"area (allows automatic scaling of the cropped image)"
+msgstr ""
+"``(bool, choices: ['Yes', 'No'])`` ফ্রেমের ছবিটি ক্রপ করা অংশ দিয়ে প্রতিস্থাপন "
+"করুন (ক্রপ করা ছবির স্বয়ংক্রিয় স্কেলিং সম্ভব করে)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:822
+msgid ""
+"The Deinterlace effect is used to remove interlacing artifacts from video "
+"footage, which are commonly seen as horizontal lines across moving objects. "
+"This effect is essential for converting interlaced video (such as from older "
+"video cameras or broadcast sources) into a progressive format suitable for "
+"modern displays."
+msgstr ""
+"ডিন্টারলেস ইফেক্ট ভিডিও ফুটেজ থেকে ইন্টারলেসিং আর্টিফ্যাক্ট সরাতে ব্যবহৃত হয়, যা "
+"সাধারণত চলমান বস্তুতে অনুভূমিক রেখার মতো দেখা যায়। এই ইফেক্টটি ইন্টারলেসড ভিডিও "
+"(যেমন পুরনো ভিডিও ক্যামেরা বা সম্প্রচার উৎস থেকে) আধুনিক ডিসপ্লের জন্য উপযুক্ত "
+"প্রগ্রেসিভ ফরম্যাটে রূপান্তরের জন্য অপরিহার্য।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:832
+msgid "isOdd"
+msgstr "isOdd"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:832
+msgid "``(bool, choices: ['Yes', 'No'])`` Use odd or even lines"
+msgstr "``(bool, choices: ['Yes', 'No'])`` বিজোড় বা জোড় লাইন ব্যবহার করুন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:837
+msgid ""
+"The Hue effect adjusts the overall color balance of the video, changing the "
+"hues without affecting the brightness or saturation. This can be used for "
+"color correction or to apply dramatic color effects that transform the mood "
+"of the footage."
+msgstr ""
+"হিউ ইফেক্ট ভিডিওর সামগ্রিক রঙের ভারসাম্য সামঞ্জস্য করে, উজ্জ্বলতা বা স্যাচুরেশন "
+"প্রভাবিত না করে রঙের ছায়া পরিবর্তন করে। এটি রঙ সংশোধনের জন্য বা নাটকীয় রঙের "
+"ইফেক্ট প্রয়োগের জন্য ব্যবহার করা যেতে পারে যা ফুটেজের মেজাজ পরিবর্তন করে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:847
+msgid "hue"
+msgstr "হিউ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:847
+msgid "``(float, 0 to 1)`` The curve to adjust the percentage of hue shift"
+msgstr "``(float, 0 থেকে 1)`` হিউ শিফটের শতাংশ সামঞ্জস্য করার জন্য কার্ভ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:852
+msgid ""
+"The Lens Flare effect simulates bright light hitting your camera lens, "
+"creating glowing halos, colored rings and gentle glares over your footage. "
+"Reflections are automatically placed along a line from the light source "
+"toward the center of the frame. You can animate any property with keyframes "
+"to follow your action or match your scene."
+msgstr ""
+"লেন্স ফ্লেয়ার ইফেক্ট আপনার ক্যামেরার লেন্সে উজ্জ্বল আলো পড়ার সিমুলেশন করে, যা আপনার "
+"ফুটেজে ঝলমলে হ্যালো, রঙিন রিং এবং কোমল ঝলক তৈরি করে। প্রতিফলনগুলি স্বয়ংক্রিয়ভাবে "
+"আলো উৎস থেকে ফ্রেমের কেন্দ্রে যাওয়া একটি রেখায় স্থাপন করা হয়। আপনি আপনার ক্রিয়া "
+"অনুসরণ করতে বা দৃশ্যের সাথে মিলাতে যেকোনো প্রপার্টি কী-ফ্রেম দিয়ে এনিমেট করতে "
+"পারেন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:862
+msgid ""
+"``(float, -1 to 1)`` Horizontal position of the light source. -1 is left "
+"edge, 0 is center, +1 is right edge."
+msgstr ""
+"``(float, -1 থেকে 1)`` আলো উৎসের অনুভূমিক অবস্থান। -1 বাম প্রান্ত, 0 কেন্দ্র, +1 "
+"ডান প্রান্ত।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:863
+msgid ""
+"``(float, -1 to 1)`` Vertical position of the light source. -1 is top edge, "
+"0 is center, +1 is bottom edge."
+msgstr ""
+"``(float, -1 থেকে 1)`` আলো উৎসের উল্লম্ব অবস্থান। -1 উপরের প্রান্ত, 0 কেন্দ্র, +1 "
+"নিচের প্রান্ত।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:864
+msgid ""
+"``(float, 0 to 1)`` Overall glow strength and transparency. Higher values "
+"make brighter, more opaque flares."
+msgstr ""
+"``(float, 0 থেকে 1)`` সামগ্রিক গ্লো শক্তি এবং স্বচ্ছতা। উচ্চ মান উজ্জ্বল, আরও অস্বচ্ছ "
+"ফ্লেয়ার তৈরি করে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:865
+msgid "size"
+msgstr "আকার"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:865
+msgid ""
+"``(float, 0.1 to 3)`` Scale of the entire flare effect. Larger values "
+"enlarge halos, rings and glows."
+msgstr ""
+"``(float, 0.1 থেকে 3)`` সম্পূর্ণ ফ্লেয়ার ইফেক্টের স্কেল। বড় মান হ্যালো, রিং এবং গ্লো "
+"বড় করে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:866
+msgid "spread"
+msgstr "প্রসার"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:866
+msgid ""
+"``(float, 0 to 1)`` How far secondary reflections travel. 0 keeps them close "
+"to the source, 1 pushes them all the way toward the opposite edge."
+msgstr ""
+"``(float, 0 থেকে 1)`` সেকেন্ডারি প্রতিফলন কতদূর যায়। 0 তাদের উৎসের কাছে রাখে, 1 "
+"তাদের সম্পূর্ণ বিপরীত প্রান্তে ঠেলে দেয়।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:867
+msgid "tint_color"
+msgstr "টিন্ট_রঙ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:867
+msgid ""
+"``(color)`` Shifts the flare colors to match your scene. Use the RGBA "
+"sliders to pick hue and transparency."
+msgstr ""
+"``(color)`` ফ্লেয়ারের রঙ পরিবর্তন করে আপনার দৃশ্যের সাথে মিলিয়ে। হিউ এবং স্বচ্ছতা "
+"নির্বাচন করতে RGBA স্লাইডার ব্যবহার করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:872
+msgid ""
+"The Negative effect inverts the colors of the video, producing an image that "
+"resembles a photographic negative. This can be used for artistic effects, to "
+"create a surreal or otherworldly look, or to highlight specific elements "
+"within the frame."
+msgstr ""
+"নেগেটিভ ইফেক্ট ভিডিওর রঙ উল্টে দেয়, একটি ফটোগ্রাফিক নেগেটিভের মতো ছবি তৈরি করে। "
+"এটি শিল্পাত্মক ইফেক্টের জন্য, একটি অতিপ্রাকৃত বা অন্য জগতের চেহারা তৈরি করতে, অথবা "
+"ফ্রেমের নির্দিষ্ট উপাদানগুলোকে হাইলাইট করতে ব্যবহার করা যেতে পারে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:878
+msgid ""
+"The Object Detector effect employs machine learning algorithms (such as "
+"neural networks) to identify and highlight objects within the video frame. "
+"It can recognize multiple object types, such as vehicles, people, animals, "
+"and more! This can be used for analytical purposes, to add interactive "
+"elements to videos, or to track the movement of specific objects across the "
+"frame."
+msgstr ""
+"অবজেক্ট ডিটেক্টর ইফেক্টটি মেশিন লার্নিং অ্যালগরিদম (যেমন নিউরাল নেটওয়ার্ক) ব্যবহার "
+"করে ভিডিও ফ্রেমের মধ্যে অবজেক্ট সনাক্ত এবং হাইলাইট করে। এটি বিভিন্ন ধরনের অবজেক্ট "
+"চিনতে পারে, যেমন যানবাহন, মানুষ, প্রাণী, এবং আরও অনেক কিছু! এটি বিশ্লেষণাত্মক "
+"উদ্দেশ্যে, ভিডিওতে ইন্টারেক্টিভ উপাদান যোগ করতে, অথবা নির্দিষ্ট অবজেক্টের গতিবিধি "
+"ট্র্যাক করতে ব্যবহার করা যেতে পারে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:884
+msgid "Class Filters & Confidence"
+msgstr "ক্লাস ফিল্টার এবং আত্মবিশ্বাস"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:885
+msgid ""
+"To adjust the detection process to your specific needs, the Object Detector "
+"includes properties for ``class filters`` and ``confidence thresholds``. By "
+"setting a class filter, such as \"Truck\" or \"Person,\" you can instruct "
+"the detector to focus on specific types of objects, limiting the types of "
+"objects tracked. The confidence threshold allows you to set a minimum level "
+"of certainty for detections, ensuring that only objects detected with a "
+"confidence level above this threshold are considered, which helps in "
+"reducing false positives and focusing on more accurate detections."
+msgstr ""
+"আপনার নির্দিষ্ট প্রয়োজন অনুযায়ী সনাক্তকরণ প্রক্রিয়া সামঞ্জস্য করার জন্য, অবজেক্ট "
+"ডিটেক্টর ``class filters`` এবং ``confidence thresholds`` এর জন্য বৈশিষ্ট্য "
+"অন্তর্ভুক্ত করে। একটি ক্লাস ফিল্টার সেট করে, যেমন \"ট্রাক\" বা \"ব্যক্তি,\" আপনি "
+"ডিটেক্টরকে নির্দিষ্ট ধরনের অবজেক্টগুলিতে ফোকাস করতে নির্দেশ দিতে পারেন, যা ট্র্যাক "
+"করা অবজেক্টের ধরন সীমাবদ্ধ করে। আত্মবিশ্বাসের থ্রেশহোল্ড আপনাকে সনাক্তকরণের জন্য "
+"সর্বনিম্ন নির্ভরতার স্তর সেট করতে দেয়, যা নিশ্চিত করে যে শুধুমাত্র এই থ্রেশহোল্ডের "
+"উপরে আত্মবিশ্বাসের স্তর সহ সনাক্তকৃত অবজেক্টগুলি বিবেচিত হয়, যা ভুল পজিটিভ কমাতে এবং "
+"আরও সঠিক সনাক্তকরণে সাহায্য করে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:892 ../effects.rst:1115
+msgid "How Parenting Works"
+msgstr "প্যারেন্টিং কীভাবে কাজ করে"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:893
+msgid ""
+"Once you have tracked objects, you can \"parent\" other :ref:`clips_ref` to "
+"them. This means that the second clip, which could be a graphic, text, or "
+"another video layer, will now follow the tracked object as if it's attached "
+"to it. If the tracked object moves to the left, the child clip moves to the "
+"left. If the tracked object grows in size (gets closer to the camera), the "
+"child clip also scales up. For parented clips to appear correctly, they must "
+"be on a Track higher than the tracked objects, and set the appropriate :ref:"
+"`clip_scale_ref` property."
+msgstr ""
+"একবার আপনি অবজেক্ট ট্র্যাক করলে, আপনি অন্য :ref:`clips_ref` গুলোকে তাদের সাথে "
+"\"প্যারেন্ট\" করতে পারেন। এর অর্থ হল দ্বিতীয় ক্লিপ, যা একটি গ্রাফিক, টেক্সট, বা অন্য "
+"একটি ভিডিও লেয়ার হতে পারে, এখন ট্র্যাক করা অবজেক্টের সাথে সংযুক্ত হয়ে তার অনুসরণ "
+"করবে। যদি ট্র্যাক করা অবজেক্ট বামে চলে যায়, তাহলে চাইল্ড ক্লিপও বামে চলে যাবে। "
+"যদি ট্র্যাক করা অবজেক্টের আকার বৃদ্ধি পায় (ক্যামেরার কাছে আসে), তাহলে চাইল্ড ক্লিপও "
+"স্কেল আপ হয়। প্যারেন্ট করা ক্লিপগুলি সঠিকভাবে প্রদর্শিত হতে হলে, সেগুলোকে ট্র্যাকের "
+"উপরে থাকতে হবে এবং উপযুক্ত :ref:`clip_scale_ref` বৈশিষ্ট্য সেট করতে হবে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:899 ../effects.rst:1122
+msgid "See :ref:`clip_parent_ref`."
+msgstr "দেখুন :ref:`clip_parent_ref`।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:902 ../effects.rst:999 ../effects.rst:1125
+msgid "Properties"
+msgstr "বৈশিষ্ট্যসমূহ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:910
+msgid "class_filter"
+msgstr "class_filter"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:910
+msgid "``(string)`` Type of object class to filter (i.e. car, person)"
+msgstr "``(string)`` ফিল্টার করার জন্য অবজেক্ট ক্লাসের ধরন (যেমন গাড়ি, ব্যক্তি)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:911
+msgid "confidence_threshold"
+msgstr "confidence_threshold"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:911
+msgid ""
+"``(float, 0 to 1)`` Minimum confidence value to display the detected objects"
+msgstr ""
+"``(float, 0 থেকে 1)`` সনাক্তকৃত অবজেক্ট প্রদর্শনের জন্য সর্বনিম্ন আত্মবিশ্বাসের মান"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:912
+msgid "display_box_text"
+msgstr "display_box_text"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:912
+msgid ""
+"``(int, choices: ['Yes', 'No'])`` Draw class name and ID of ALL tracked "
+"objects"
+msgstr ""
+"``(int, বিকল্প: ['হ্যাঁ', 'না'])`` সমস্ত ট্র্যাক করা অবজেক্টের ক্লাস নাম এবং আইডি আঁকুন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:913
+msgid "display_boxes"
+msgstr "display_boxes"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:913
+msgid ""
+"``(int, choices: ['Yes', 'No'])`` Draw bounding box around ALL tracked "
+"objects (a quick way to hide all tracked objects)"
+msgstr ""
+"``(int, বিকল্প: ['হ্যাঁ', 'না'])`` সমস্ত ট্র্যাক করা অবজেক্টের চারপাশে বাউন্ডিং বক্স "
+"আঁকুন (সমস্ত ট্র্যাক করা অবজেক্ট দ্রুত লুকানোর উপায়)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:914
+msgid "selected_object_index"
+msgstr "selected_object_index"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:914
+msgid ""
+"``(int, 0 to 200)`` Index of the tracked object that is `selected` to modify "
+"its properties"
+msgstr ""
+"``(int, 0 থেকে 200)`` ট্র্যাক করা অবজেক্টের সূচক যা `নির্বাচিত` হয়েছে তার বৈশিষ্ট্য "
+"পরিবর্তনের জন্য"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:915 ../effects.rst:1133
+msgid "draw_box"
+msgstr "draw_box"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:915
+msgid ""
+"``(int, choices: ['Yes', 'No'])`` Whether to draw the box around the "
+"selected tracked object"
+msgstr ""
+"``(int, বিকল্প: ['হ্যাঁ', 'না'])`` নির্বাচিত ট্র্যাক করা অবজেক্টের চারপাশে বক্স আঁকতে "
+"হবে কিনা"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:916 ../effects.rst:1134
+msgid "box_id"
+msgstr "box_id"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:916 ../effects.rst:1134
+msgid ""
+"``(string)`` Internal ID of a tracked object box for identification purposes"
+msgstr "``(string)`` সনাক্তকরণের জন্য ট্র্যাক করা অবজেক্ট বক্সের অভ্যন্তরীণ আইডি"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:917 ../effects.rst:1135
+msgid "x1"
+msgstr "x1"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:917 ../effects.rst:1135
+msgid ""
+"``(float, 0 to 1)`` Top left X coordinate of a tracked object box, "
+"normalized to the video frame width"
+msgstr ""
+"``(float, 0 থেকে 1)`` ট্র্যাক করা অবজেক্ট বক্সের উপরের বাম X স্থানাঙ্ক, ভিডিও "
+"ফ্রেমের প্রস্থ অনুযায়ী স্বাভাবিকীকৃত"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:918 ../effects.rst:1136
+msgid "y1"
+msgstr "y1"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:918 ../effects.rst:1136
+msgid ""
+"``(float, 0 to 1)`` Top left Y coordinate of a tracked object box, "
+"normalized to the video frame height"
+msgstr ""
+"``(float, 0 থেকে 1)`` ট্র্যাক করা অবজেক্ট বক্সের উপরের বাম Y স্থানাঙ্ক, ভিডিও "
+"ফ্রেমের উচ্চতা অনুযায়ী স্বাভাবিকীকৃত"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:919 ../effects.rst:1137
+msgid "x2"
+msgstr "x2"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:919 ../effects.rst:1137
+msgid ""
+"``(float, 0 to 1)`` Bottom right X coordinate of a tracked object box, "
+"normalized to the video frame width"
+msgstr ""
+"``(float, 0 থেকে 1)`` ট্র্যাক করা অবজেক্ট বক্সের নিচের ডান X স্থানাঙ্ক, ভিডিও "
+"ফ্রেমের প্রস্থ অনুযায়ী স্বাভাবিকীকৃত"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:920 ../effects.rst:1138
+msgid "y2"
+msgstr "y2"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:920 ../effects.rst:1138
+msgid ""
+"``(float, 0 to 1)`` Bottom right Y coordinate of a tracked object box, "
+"normalized to the video frame height"
+msgstr ""
+"``(float, 0 থেকে 1)`` ট্র্যাক করা অবজেক্ট বক্সের নিচের ডান Y স্থানাঙ্ক, ভিডিও "
+"ফ্রেমের উচ্চতা অনুযায়ী স্বাভাবিকীকৃত"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:921 ../effects.rst:1139
+msgid "delta_x"
+msgstr "delta_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:921 ../effects.rst:1139
+msgid ""
+"``(float, -1.0 to 1)`` Horizontal movement delta of the tracked object box "
+"from its previous position"
+msgstr ""
+"``(float, -1.0 থেকে 1)`` পূর্ববর্তী অবস্থান থেকে ট্র্যাক করা অবজেক্ট বক্সের অনুভূমিক "
+"গতির পরিবর্তন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:922 ../effects.rst:1140
+msgid "delta_y"
+msgstr "delta_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:922 ../effects.rst:1140
+msgid ""
+"``(float, -1.0 to 1)`` Vertical movement delta of the tracked object box "
+"from its previous position"
+msgstr ""
+"``(float, -1.0 থেকে 1)`` পূর্ববর্তী অবস্থান থেকে ট্র্যাক করা অবজেক্ট বক্সের উল্লম্ব "
+"গতির পরিবর্তন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:923 ../effects.rst:1141
+msgid "scale_x"
+msgstr "scale_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:923 ../effects.rst:1141
+msgid ""
+"``(float, 0 to 1)`` Scaling factor in the X direction for the tracked object "
+"box, relative to its original size"
+msgstr ""
+"``(float, 0 থেকে 1)`` ট্র্যাক করা অবজেক্ট বক্সের X দিকের স্কেলিং ফ্যাক্টর, এর মূল "
+"আকারের তুলনায়"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:924 ../effects.rst:1142
+msgid "scale_y"
+msgstr "scale_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:924 ../effects.rst:1142
+msgid ""
+"``(float, 0 to 1)`` Scaling factor in the Y direction for the tracked object "
+"box, relative to its original size"
+msgstr ""
+"``(float, 0 থেকে 1)`` ট্র্যাক করা অবজেক্ট বক্সের Y দিকের স্কেলিং ফ্যাক্টর, এর মূল "
+"আকারের তুলনায়"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:925 ../effects.rst:1143
+msgid "rotation"
+msgstr "rotation"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:925 ../effects.rst:1143
+msgid ""
+"``(float, 0 to 360)`` Rotation angle of the tracked object box, in degrees"
+msgstr "``(float, 0 থেকে 360)`` ট্র্যাক করা অবজেক্ট বক্সের ঘূর্ণনের কোণ, ডিগ্রিতে"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:926 ../effects.rst:1144
+msgid "visible"
+msgstr "visible"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:926 ../effects.rst:1144
+msgid ""
+"``(bool)`` Is the tracked object box visible in the current frame. Read-only "
+"property."
+msgstr ""
+"``(bool)`` বর্তমান ফ্রেমে ট্র্যাক করা অবজেক্ট বক্স দৃশ্যমান কিনা। শুধুমাত্র-পাঠযোগ্য "
+"বৈশিষ্ট্য।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:927 ../effects.rst:1145
+msgid "``(color)`` Color of the stroke (border) around the tracked object box"
+msgstr "``(color)`` ট্র্যাক করা অবজেক্ট বক্সের চারপাশের স্ট্রোক (বর্ডার) এর রঙ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:928 ../effects.rst:1146
+msgid ""
+"``(int, 1 to 10)`` Width of the stroke (border) around the tracked object box"
+msgstr ""
+"``(int, 1 থেকে 10)`` ট্র্যাক করা অবজেক্ট বক্সের চারপাশের স্ট্রোক (বর্ডার) এর প্রস্থ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:929 ../effects.rst:1147
+msgid "stroke_alpha"
+msgstr "স্ট্রোক অ্যালফা"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:929 ../effects.rst:1147
+msgid ""
+"``(float, 0 to 1)`` Opacity of the stroke (border) around the tracked object "
+"box"
+msgstr ""
+"``(float, 0 থেকে 1)`` ট্র্যাক করা অবজেক্ট বক্সের চারপাশের স্ট্রোক (বর্ডার) এর "
+"অস্বচ্ছতা"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:930 ../effects.rst:1148
+msgid ""
+"``(float, 0 to 1)`` Opacity of the background fill inside the tracked object "
+"box"
+msgstr ""
+"``(float, 0 থেকে 1)`` ট্র্যাক করা অবজেক্ট বক্সের ভিতরের ব্যাকগ্রাউন্ড ফিলের অস্বচ্ছতা"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:931 ../effects.rst:1149
+msgid ""
+"``(int, 0 to 150)`` Radius of the corners for the background fill inside the "
+"tracked object box"
+msgstr ""
+"``(int, 0 থেকে 150)`` ট্র্যাক করা অবজেক্ট বক্সের ভিতরের ব্যাকগ্রাউন্ড ফিলের কর্নারের "
+"রেডিয়াস"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:932 ../effects.rst:1150
+msgid "``(color)`` Color of the background fill inside the tracked object box"
+msgstr "``(color)`` ট্র্যাক করা অবজেক্ট বক্সের ভিতরের ব্যাকগ্রাউন্ড ফিলের রঙ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:937
+msgid ""
+"The Outline effect adds a customizable border around images or text within a "
+"video frame. It works by extracting the image’s alpha channel, blurring it "
+"to generate a smooth outline mask, and then combining this mask with a solid "
+"color layer. Users can adjust the outline’s width as well as its color "
+"components (red, green, blue) and transparency (alpha), allowing for a wide "
+"range of visual styles. This effect is ideal for emphasizing text, creating "
+"visual separation, and adding an artistic flair to your videos."
+msgstr ""
+"আউটলাইন ইফেক্ট ভিডিও ফ্রেমের মধ্যে ছবি বা টেক্সটের চারপাশে একটি কাস্টমাইজযোগ্য "
+"বর্ডার যোগ করে। এটি ছবির অ্যালফা চ্যানেল বের করে, সেটি ব্লার করে একটি মসৃণ "
+"আউটলাইন মাস্ক তৈরি করে, এবং তারপর এই মাস্কটিকে একটি সলিড রঙের স্তরের সাথে "
+"মিলিয়ে কাজ করে। ব্যবহারকারীরা আউটলাইনের প্রস্থ, রঙের উপাদান (লাল, সবুজ, নীল) এবং "
+"স্বচ্ছতা (অ্যালফা) সামঞ্জস্য করতে পারেন, যা বিভিন্ন ভিজ্যুয়াল স্টাইলের সুযোগ দেয়। এই "
+"ইফেক্টটি টেক্সটকে গুরুত্ব দেওয়া, ভিজ্যুয়াল বিভাজন তৈরি করা এবং ভিডিওতে শিল্পময় স্পর্শ "
+"যোগ করার জন্য আদর্শ।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:949
+msgid "width"
+msgstr "প্রস্থ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:949
+msgid "``(float, 0 to 100)``   The width of the outline in pixels."
+msgstr "``(float, 0 থেকে 100)``   আউটলাইনের প্রস্থ পিক্সেলে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:950
+msgid "red"
+msgstr "লাল"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:950
+msgid "``(float, 0 to 255)``   The red color component of the outline."
+msgstr "``(float, 0 থেকে 255)``   আউটলাইনের লাল রঙের উপাদান।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:951
+msgid "green"
+msgstr "সবুজ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:951
+msgid "``(float, 0 to 255)``   The green color component of the outline."
+msgstr "``(float, 0 থেকে 255)``   আউটলাইনের সবুজ রঙের উপাদান।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:952
+msgid "blue"
+msgstr "নীল"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:952
+msgid "``(float, 0 to 255)``   The blue color component of the outline."
+msgstr "``(float, 0 থেকে 255)``   আউটলাইনের নীল রঙের উপাদান।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:953
+msgid "alpha"
+msgstr "অ্যালফা"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:953
+msgid "``(float, 0 to 255)``   The transparency (alpha) value for the outline."
+msgstr "``(float, 0 থেকে 255)``   আউটলাইনের স্বচ্ছতা (অ্যালফা) মান।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:958
+msgid ""
+"The Pixelate effect increases or decreases the size of the pixels in the "
+"video, creating a mosaic-like appearance. This can be used to obscure "
+"details (such as faces or license plates for privacy reasons), or as a "
+"stylistic effect to evoke a retro, digital, or abstract aesthetic."
+msgstr ""
+"পিক্সেলেট ইফেক্ট ভিডিওর পিক্সেলের আকার বাড়ায় বা কমায়, যা একটি মোজাইক-সদৃশ চেহারা "
+"তৈরি করে। এটি গোপনীয়তার কারণে বিস্তারিত (যেমন মুখ বা লাইসেন্স প্লেট) ঢাকতে "
+"ব্যবহার করা যেতে পারে, অথবা একটি রেট্রো, ডিজিটাল, বা বিমূর্ত নান্দনিকতা প্রকাশের "
+"জন্য স্টাইলিস্টিক ইফেক্ট হিসেবে ব্যবহার করা যায়।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:968
+msgid "``(float, 0 to 1)`` The curve to adjust the bottom margin size"
+msgstr "``(float, 0 থেকে 1)`` নিচের মার্জিনের আকার সামঞ্জস্য করার জন্য কার্ভ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:969
+msgid "``(float, 0 to 1)`` The curve to adjust the left margin size"
+msgstr "``(float, 0 থেকে 1)`` বাম মার্জিনের আকার সামঞ্জস্য করার জন্য কার্ভ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:970
+msgid "pixelization"
+msgstr "পিক্সেলাইজেশন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:970
+msgid "``(float, 0 to 0.99)`` The curve to adjust the amount of pixelization"
+msgstr "``(float, 0 থেকে 0.99)`` পিক্সেলাইজেশনের পরিমাণ সামঞ্জস্য করার জন্য কার্ভ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:971
+msgid "``(float, 0 to 1)`` The curve to adjust the right margin size"
+msgstr "``(float, 0 থেকে 1)`` ডান মার্জিনের আকার সামঞ্জস্য করার জন্য কার্ভ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:972
+msgid "``(float, 0 to 1)`` The curve to adjust the top margin size"
+msgstr "``(float, 0 থেকে 1)`` উপরের মার্জিনের আকার সামঞ্জস্য করার জন্য কার্ভ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:977
+msgid ""
+"The Sharpen effect enhances perceived detail by first blurring the frame "
+"slightly and then adding a scaled difference (the *un-sharp mask*) back on "
+"top. This boosts edge contrast, making textures and outlines appear crisper "
+"without changing overall brightness."
+msgstr ""
+"শার্পেন ইফেক্ট প্রথমে ফ্রেমটিকে সামান্য ব্লার করে এবং তারপর একটি স্কেল করা পার্থক্য "
+"(*আন-শার্প মাস্ক*) উপরে যোগ করে উপলব্ধি করা বিস্তারিত বাড়ায়। এটি এজ কনট্রাস্ট "
+"বাড়ায়, টেক্সচার এবং আউটলাইনকে আরও স্পষ্ট দেখায়, সামগ্রিক উজ্জ্বলতা পরিবর্তন না করে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:982
+msgid "Modes"
+msgstr "মোড"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:984
+msgid ""
+"**Unsharp** – Classic un-sharp mask: the edge detail is added back to the "
+"*original* frame. Produces the familiar punchy sharpen seen in photo editors."
+msgstr ""
+"**আনশার্প** – ক্লাসিক আন-শার্প মাস্ক: এজ বিস্তারিত *মূল* ফ্রেমে পুনরায় যোগ করা হয়। "
+"ফটো এডিটরগুলিতে পরিচিত পাঞ্চি শার্পেন তৈরি করে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:987
+msgid ""
+"**HighPass** – High-pass blend: the edge detail is added to the *blurred* "
+"frame, then the result replaces the original.  Gives a softer, more "
+"“contrasty” look and can rescue highlights that would otherwise clip."
+msgstr ""
+"**হাইপাস** – হাই-পাস ব্লেন্ড: এজ বিস্তারিত *ব্লার করা* ফ্রেমে যোগ করা হয়, তারপর "
+"ফলাফলটি মূল ফ্রেমের পরিবর্তে আসে। এটি একটি নরম, আরও 'কনট্রাস্টি' চেহারা দেয় এবং "
+"হাইলাইটগুলো রক্ষা করতে পারে যা অন্যথায় ক্লিপ হতো।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:991
+msgid "Channels"
+msgstr "চ্যানেল"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:993
+msgid ""
+"**All** – Apply the edge mask to the full RGB signal (strongest effect – "
+"colour and brightness sharpened)."
+msgstr ""
+"**সব** – এজ মাস্ক পুরো RGB সিগনালে প্রয়োগ করুন (সবচেয়ে শক্তিশালী ইফেক্ট – রঙ এবং "
+"উজ্জ্বলতা শার্প করা হয়)।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:994
+msgid ""
+"**Luma** – Apply only to luma (brightness).  Colours stay untouched, so "
+"chroma noise is not amplified."
+msgstr ""
+"**লুমা** – শুধুমাত্র লুমা (উজ্জ্বলতা) তে প্রয়োগ করুন। রঙ অপরিবর্তিত থাকে, তাই ক্রোমা "
+"নয়েজ বাড়ে না।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:995
+msgid ""
+"**Chroma** – Apply only to the chroma (colour difference) channels.  Useful "
+"for gently reviving colour edges without changing perceived brightness."
+msgstr ""
+"**ক্রোমা** – শুধুমাত্র ক্রোমা (রঙের পার্থক্য) চ্যানেলগুলোতে প্রয়োগ করুন। উপলব্ধি করা "
+"উজ্জ্বলতা পরিবর্তন না করে রঙের এজগুলোকে নরমভাবে পুনরুজ্জীবিত করার জন্য উপযোগী।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1007
+msgid "amount"
+msgstr "পরিমাণ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1007
+msgid "``(float, 0 to 40)`` Strength multiplier / up to 100% edge boost"
+msgstr "``(float, 0 থেকে 40)`` শক্তি গুণক / সর্বোচ্চ ১০০% এজ বুস্ট"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1008
+msgid "radius"
+msgstr "রেডিয়াস"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1008
+msgid ""
+"``(float, 0 to 10)`` Blur radius in pixels at 720p (auto-scaled to clip size)"
+msgstr ""
+"``(float, 0 থেকে 10)`` ৭২০p তে পিক্সেলে ব্লার রেডিয়াস (ক্লিপ সাইজ অনুযায়ী "
+"স্বয়ংক্রিয় স্কেল)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1009
+msgid "``(float, 0 to 1)`` Minimum luma difference that will be sharpened"
+msgstr "``(float, 0 থেকে 1)`` সর্বনিম্ন লুমা পার্থক্য যা শার্প করা হবে"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1010
+msgid "mode"
+msgstr "মোড"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1010
+msgid ""
+"``(int, choices: ['Unsharp', 'HighPass'])`` Math style of the sharpening mask"
+msgstr "``(int, choices: ['Unsharp', 'HighPass'])`` শার্পেনিং মাস্কের গণিত শৈলী"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1011
+msgid "channel"
+msgstr "চ্যানেল"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1011
+msgid ""
+"``(int, choices: ['All', 'Luma', 'Chroma'])`` Which colour channels receive "
+"sharpening"
+msgstr ""
+"``(int, choices: ['All', 'Luma', 'Chroma'])`` কোন রঙের চ্যানেলগুলো শার্পেনিং "
+"পাবে"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1016
+msgid ""
+"The Shift effect moves the entire image in different directions (up, down, "
+"left, and right with infinite wrapping), creating a sense of motion or "
+"disorientation. This can be used for transitions, to simulate camera "
+"movement, or to add dynamic motion to static shots."
+msgstr ""
+"শিফট ইফেক্ট পুরো ছবিটিকে বিভিন্ন দিক (উপর, নিচ, বাম, ডান অসীম র‍্যাপিং সহ) সরিয়ে "
+"দেয়, যা গতি বা বিভ্রান্তির অনুভূতি তৈরি করে। এটি ট্রানজিশন, ক্যামেরার গতি অনুকরণ, "
+"বা স্থির শটে গতিশীলতা যোগ করার জন্য ব্যবহার করা যেতে পারে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1026
+msgid "``(float, -1 to 1)`` Shift the X coordinates (left or right)"
+msgstr "``(float, -1 থেকে 1)`` X কোঅর্ডিনেট সরান (বাম বা ডান)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1027
+msgid "``(float, -1 to 1)`` Shift the Y coordinates (up or down)"
+msgstr "``(float, -1 থেকে 1)`` Y কোঅর্ডিনেট সরান (উপর বা নিচ)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1033
+msgid ""
+"The Spherical Projection effect flattens 360° or fisheye footage into a "
+"normal rectangular view, or generates fisheye output. Steer a virtual camera "
+"with yaw, pitch, and roll. Control the output view with FOV. Choose the "
+"input type (equirect or one of the fisheye models), pick a projection mode "
+"for the output, and select a sampling mode that balances quality and speed. "
+"This is ideal for keyframed “virtual camera” moves inside 360° clips and for "
+"converting circular fisheye shots."
+msgstr ""
+"স্ফিয়ারিক প্রজেকশন ইফেক্ট ৩৬০° বা ফিশআই ফুটেজকে একটি সাধারণ আয়তাকার ভিউতে ফ্ল্যাট "
+"করে, অথবা ফিশআই আউটপুট তৈরি করে। একটি ভার্চুয়াল ক্যামেরা নিয়ন্ত্রণ করুন ইয়াও, পিচ, "
+"এবং রোল দিয়ে। আউটপুট ভিউ নিয়ন্ত্রণ করুন FOV দিয়ে। ইনপুট টাইপ (ইকুইরেক্ট বা ফিশআই "
+"মডেলগুলোর একটি) নির্বাচন করুন, আউটপুটের জন্য একটি প্রজেকশন মোড বাছুন, এবং একটি "
+"স্যাম্পলিং মোড নির্বাচন করুন যা গুণমান এবং গতি সমন্বয় করে। এটি ৩৬০° ক্লিপের ভিতরে "
+"কীফ্রেমড “ভার্চুয়াল ক্যামেরা” মুভের জন্য এবং বৃত্তাকার ফিশআই শট রূপান্তরের জন্য আদর্শ।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1044
+msgid "yaw"
+msgstr "ইয়াও"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1044
+msgid ""
+"``(float, -180 to 180)`` Horizontal rotation around the up axis (degrees)."
+msgstr "``(float, -১৮০ থেকে ১৮০)`` আপ অক্ষের চারপাশে অনুভূমিক ঘূর্ণন (ডিগ্রি)।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1046
+msgid "pitch"
+msgstr "পিচ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1046
+msgid ""
+"``(float, -180 to 180)`` Vertical rotation around the right axis (degrees)."
+msgstr "``(float, -১৮০ থেকে ১৮০)`` ডান অক্ষের চারপাশে উল্লম্ব ঘূর্ণন (ডিগ্রি)।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1048
+msgid "roll"
+msgstr "রোল"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1048
+msgid "``(float, -180 to 180)`` Rotation around the forward axis (degrees)."
+msgstr "``(float, -১৮০ থেকে ১৮০)`` ফরোয়ার্ড অক্ষের চারপাশে ঘূর্ণন (ডিগ্রি)।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1050
+msgid "fov"
+msgstr "FOV"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1050
+msgid ""
+"``(float, 0 to 179)`` **Out FOV.** Horizontal field of view of the virtual "
+"camera (degrees) for the output."
+msgstr ""
+"``(float, ০ থেকে ১৭৯)`` **আউট FOV।** আউটপুটের জন্য ভার্চুয়াল ক্যামেরার অনুভূমিক দৃশ্য "
+"ক্ষেত্র (ডিগ্রি)।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1052
+msgid "in_fov"
+msgstr "ইন FOV"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1052
+msgid ""
+"``(float, 1 to 360)`` **In FOV.** Total coverage of the source lens. Used "
+"when **Input Model = Fisheye** (typical value 180). Ignored for equirect "
+"sources."
+msgstr ""
+"``(float, ১ থেকে ৩৬০)`` **ইন FOV।** উৎস লেন্সের মোট কভারেজ। ব্যবহৃত হয় যখন "
+"**Input Model = Fisheye** (সাধারণ মান ১৮০)। ইকুইরেক্ট উৎসের জন্য উপেক্ষিত।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1054
+msgid "projection_mode"
+msgstr "প্রজেকশন মোড"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1054
+msgid ""
+"``(int)`` Output projection: **Sphere (0):** rectilinear output over the "
+"full sphere. **Hemisphere (1):** rectilinear output over a half sphere. "
+"**Fisheye: Equidistant (2)**, **Equisolid (3)**, **Stereographic (4)**, "
+"**Orthographic (5)**: circular fisheye output using the selected mapping."
+msgstr ""
+"``(int)`` আউটপুট প্রক্ষেপণ: **গোলক (0):** সম্পূর্ণ গোলকের উপর সরলরেখীয় আউটপুট। "
+"**অর্ধগোলক (1):** অর্ধেক গোলকের উপর সরলরেখীয় আউটপুট। **ফিশআই: সমদূরত্ব (2)**, "
+"**ইকুইসলিড (3)**, **স্টেরিওগ্রাফিক (4)**, **অর্থোগ্রাফিক (5)**: নির্বাচিত ম্যাপিং "
+"ব্যবহার করে বৃত্তাকার ফিশআই আউটপুট।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1059
+msgid "input_model"
+msgstr "ইনপুট মডেল"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1059
+msgid ""
+"``(int)`` Source lens model: **Equirectangular (0)**, **Fisheye: Equidistant "
+"(1)**, **Fisheye: Equisolid (2)**, **Fisheye: Stereographic (3)**, "
+"**Fisheye: Orthographic (4)**."
+msgstr ""
+"``(int)`` উৎস লেন্স মডেল: **Equirectangular (0)**, **Fisheye: Equidistant "
+"(1)**, **Fisheye: Equisolid (2)**, **Fisheye: Stereographic (3)**, "
+"**Fisheye: Orthographic (4)**।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1062
+msgid "invert"
+msgstr "উল্টানো"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1062
+msgid ""
+"``(int)`` Flip the view by 180° without mirroring. **Normal (0)**, **Invert "
+"(1)**. For equirect sources this behaves like a 180° yaw. For fisheye inputs "
+"it swaps front/back hemispheres."
+msgstr ""
+"``(int)`` ভিউ ১৮০° ঘুরিয়ে মিরর ছাড়া। **Normal (0)**, **Invert (1)**। ইকুইরেক্ট "
+"উৎসের জন্য এটি ১৮০° ইয়াওয়ের মতো আচরণ করে। ফিশআই ইনপুটের জন্য এটি সামনের/পিছনের "
+"অর্ধগোলক বিনিময় করে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1065
+msgid "interpolation"
+msgstr "ইন্টারপোলেশন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1065
+msgid ""
+"``(int)`` Sampling method: **Nearest (0)**, **Bilinear (1)**, **Bicubic "
+"(2)**, **Auto (3)**. Auto picks Bilinear at ~1:1, Bicubic when upscaling, "
+"and a mipmapped Bilinear when downscaling."
+msgstr ""
+"``(int)`` স্যাম্পলিং পদ্ধতি: **Nearest (0)**, **Bilinear (1)**, **Bicubic "
+"(2)**, **Auto (3)**। Auto প্রায় ১:১ এ Bilinear নির্বাচন করে, আপস্কেলিং এ "
+"Bicubic, এবং ডাউনস্কেলিং এ mipmapped Bilinear।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1072
+msgid ""
+"**Flatten a fisheye clip to a normal view:** Set **Input Model** to the "
+"correct fisheye type, set **In FOV** to your lens coverage (often 180), "
+"choose **Projection Mode = Sphere** or **Hemisphere**, then frame with **Yaw/"
+"Pitch/Roll** and **Out FOV**."
+msgstr ""
+"**একটি ফিশআই ক্লিপকে সাধারণ ভিউতে ফ্ল্যাট করুন:** **Input Model** সঠিক ফিশআই "
+"টাইপে সেট করুন, **In FOV** আপনার লেন্স কভারেজে (সাধারণত ১৮০) সেট করুন, "
+"**Projection Mode = Sphere** বা **Hemisphere** নির্বাচন করুন, তারপর **Yaw/"
+"Pitch/Roll** এবং **Out FOV** দিয়ে ফ্রেম করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1074
+msgid ""
+"**Reframe an equirect clip:** Set **Input Model = Equirectangular**, pick "
+"**Sphere** (full) or **Hemisphere** (front/back). **Invert** on equirect is "
+"equivalent to yaw +180 and does not mirror."
+msgstr ""
+"**একটি ইকুইরেক্ট ক্লিপ পুনরায় ফ্রেম করুন:** **Input Model = Equirectangular** সেট "
+"করুন, **Sphere** (পূর্ণ) বা **Hemisphere** (সামনে/পেছনে) নির্বাচন করুন। ইকুইরেক্টে "
+"**Invert** হল ইয়াও +১৮০ এর সমতুল্য এবং এটি মিরর করে না।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1076
+msgid ""
+"**Create a fisheye output:** Choose one of the **Fisheye** projection modes "
+"(2..5). **Out FOV** controls disk coverage (180 gives a classic circular "
+"fisheye)."
+msgstr ""
+"**একটি ফিশআই আউটপুট তৈরি করুন:** **Fisheye** প্রজেকশন মোডগুলোর (২..৫) একটি "
+"নির্বাচন করুন। **Out FOV** ডিস্ক কভারেজ নিয়ন্ত্রণ করে (১৮০ একটি ক্লাসিক বৃত্তাকার "
+"ফিশআই দেয়)।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1078
+msgid ""
+"If the image looks mirrored, turn **Invert** off. If you need the back view "
+"on equirect, use **Invert** or add +180 to **Yaw**."
+msgstr ""
+"যদি ছবি মিররড দেখায়, **Invert** বন্ধ করুন। ইকুইরেক্টে পিছনের ভিউ দরকার হলে "
+"**Invert** ব্যবহার করুন অথবা **Yaw**-এ +১৮০ যোগ করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1079
+msgid ""
+"If the output looks soft or aliased, reduce **Out FOV** or increase export "
+"resolution. **Auto** interpolation adapts the filter to scaling."
+msgstr ""
+"যদি আউটপুট নরম বা এলিয়াসড দেখায়, **Out FOV** কমান অথবা এক্সপোর্ট রেজোলিউশন "
+"বাড়ান। **Auto** ইন্টারপোলেশন ফিল্টারকে স্কেলিং অনুযায়ী মানিয়ে নেয়।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1083
+msgid ""
+"The Stabilizer effect reduces unwanted shake and jitter in handheld or "
+"unstable video footage, resulting in smoother, more professional-looking "
+"shots. This is particularly useful for action scenes, handheld shots, or any "
+"footage where a tripod was not used."
+msgstr ""
+"স্ট্যাবিলাইজার ইফেক্ট হাতে ধরা বা অস্থিতিশীল ভিডিও ফুটেজের অনাকাঙ্ক্ষিত কম্পন এবং "
+"ঝাঁকুনি কমায়, যার ফলে মসৃণ এবং আরও পেশাদার দেখানোর শট তৈরি হয়। এটি বিশেষ করে "
+"অ্যাকশন দৃশ্য, হাতে ধরা শট, বা যেকোনো ফুটেজের জন্য যেখানে ট্রাইপড ব্যবহার করা হয়নি, "
+"উপযোগী।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1093
+msgid "zoom"
+msgstr "জুম"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1093
+msgid ""
+"``(float, 0 to 2)`` Percentage to zoom into the clip, to crop off the "
+"shaking and uneven edges"
+msgstr ""
+"``(float, ০ থেকে ২)`` ক্লিপে জুম করার শতাংশ, কম্পন এবং অসমান প্রান্ত কেটে ফেলার "
+"জন্য"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1098
+msgid ""
+"The Tracker effect allows for the tracking of a specific object or area "
+"within the video frame across multiple frames. This can be used for motion "
+"tracking, adding effects or annotations that follow the movement of objects, "
+"or for stabilizing footage based on a tracked point.When tracking an object, "
+"be sure to select the entire object, which is visible at the start of a "
+"clip, and choose one of the following ``Tracking Type`` algorithms. The "
+"tracking algorithm then follows this object from frame to frame, recording "
+"its position, scale, and sometimes rotation."
+msgstr ""
+"ট্র্যাকার ইফেক্ট ভিডিও ফ্রেমের মধ্যে একটি নির্দিষ্ট বস্তু বা এলাকার ট্র্যাকিং করার সুযোগ "
+"দেয় একাধিক ফ্রেম জুড়ে। এটি মোশন ট্র্যাকিং, বস্তুগুলোর গতির সাথে চলমান ইফেক্ট বা "
+"অ্যানোটেশন যোগ করা, অথবা ট্র্যাক করা পয়েন্টের ভিত্তিতে ফুটেজ স্থিতিশীল করার জন্য "
+"ব্যবহার করা যেতে পারে। একটি বস্তু ট্র্যাক করার সময়, নিশ্চিত করুন পুরো বস্তুটি নির্বাচন "
+"করেছেন, যা ক্লিপের শুরুতে দৃশ্যমান, এবং নিম্নলিখিত ``Tracking Type`` অ্যালগরিদমগুলোর "
+"একটি নির্বাচন করুন। ট্র্যাকিং অ্যালগরিদমটি তারপর ফ্রেম থেকে ফ্রেমে এই বস্তুটির "
+"অবস্থান, স্কেল, এবং কখনও কখনও ঘূর্ণন রেকর্ড করে অনুসরণ করে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1105
+msgid "Tracking Type"
+msgstr "ট্র্যাকিং টাইপ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1106
+msgid ""
+"**KCF:** (default) A blend of Boosting and MIL strategies, employing "
+"correlation filters on overlapping areas from 'bags' to accurately track and "
+"predict object movement. It offers higher speed and accuracy and can stop "
+"tracking when the object is lost but struggles to resume tracking after "
+"losing the object."
+msgstr ""
+"**KCF:** (ডিফল্ট) Boosting এবং MIL কৌশলের মিশ্রণ, 'bags' থেকে ওভারল্যাপিং "
+"এলাকায় করেলেশন ফিল্টার ব্যবহার করে বস্তু গতিবিধি সঠিকভাবে ট্র্যাক এবং পূর্বাভাস দেয়। "
+"এটি উচ্চ গতি এবং নির্ভুলতা প্রদান করে এবং বস্তু হারালে ট্র্যাকিং বন্ধ করতে পারে, কিন্তু "
+"হারানোর পর ট্র্যাকিং পুনরায় শুরু করতে সমস্যা হয়।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1107
+msgid ""
+"**MIL:** Improves upon Boosting by considering multiple potential positives "
+"('bags') around the definite positive object, increasing robustness to noise "
+"and maintaining good accuracy. However, it shares the Boosting Tracker's "
+"drawbacks of low speed and difficulty in stopping tracking when the object "
+"is lost."
+msgstr ""
+"**MIL:** Boosting এর উন্নতি, নিশ্চিত ইতিবাচক বস্তুটির চারপাশে একাধিক সম্ভাব্য "
+"ইতিবাচক ('bags') বিবেচনা করে, শব্দের প্রতি সহনশীলতা বাড়ায় এবং ভাল নির্ভুলতা বজায় "
+"রাখে। তবে, এটি Boosting Tracker এর দুর্বলতা শেয়ার করে, যেমন কম গতি এবং বস্তু "
+"হারালে ট্র্যাকিং বন্ধ করতে অসুবিধা।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1108
+msgid ""
+"**BOOSTING:** Utilizes the online AdaBoost algorithm to enhance the "
+"classification of tracked objects by focusing on incorrectly classified "
+"ones. It requires setting the initial frame and treats nearby objects as "
+"background, adjusting to new frames based on maximum score areas. It's known "
+"for accurate tracking but suffers from low speed, noise sensitivity, and "
+"difficulty stopping tracking upon object loss."
+msgstr ""
+"**BOOSTING:** অনলাইন AdaBoost অ্যালগরিদম ব্যবহার করে ট্র্যাক করা অবজেক্টগুলোর "
+"শ্রেণীবিভাগ উন্নত করে, ভুল শ্রেণীবদ্ধ অবজেক্টগুলোর উপর ফোকাস করে। এটি প্রাথমিক ফ্রেম "
+"সেট করতে হয় এবং নিকটবর্তী অবজেক্টগুলোকে ব্যাকগ্রাউন্ড হিসেবে বিবেচনা করে, সর্বোচ্চ "
+"স্কোর এলাকা অনুযায়ী নতুন ফ্রেমে সামঞ্জস্য করে। এটি সঠিক ট্র্যাকিংয়ের জন্য পরিচিত, তবে "
+"ধীর গতি, শব্দ সংবেদনশীলতা এবং অবজেক্ট হারালে ট্র্যাকিং বন্ধ করতে অসুবিধা হয়।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1109
+msgid ""
+"**TLD:** Decomposes tracking into tracking, learning, and detection phases, "
+"allowing for adaptation and correction over time. While it can handle object "
+"scaling and occlusions reasonably well, it may behave unpredictably, with "
+"instability in tracking and detection."
+msgstr ""
+"**TLD:** ট্র্যাকিংকে ট্র্যাকিং, লার্নিং, এবং ডিটেকশন পর্যায়ে বিভক্ত করে, যা সময়ের "
+"সাথে অভিযোজন এবং সংশোধন সম্ভব করে। এটি অবজেক্টের স্কেলিং এবং ওক্লুশন যথেষ্ট "
+"ভালোভাবে সামলাতে পারে, তবে এটি অনিয়মিত আচরণ করতে পারে, ট্র্যাকিং এবং ডিটেকশনে "
+"অস্থিতিশীলতা দেখা দিতে পারে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1110
+msgid ""
+"**MEDIANFLOW:** Based on the Lucas-Kanade method, it analyzes forward and "
+"backward movement to estimate trajectory errors for real-time position "
+"prediction. It's fast and accurate under certain conditions but can lose "
+"track of fast-moving objects."
+msgstr ""
+"**MEDIANFLOW:** Lucas-Kanade পদ্ধতির উপর ভিত্তি করে, এটি সামনের এবং পিছনের গতি "
+"বিশ্লেষণ করে ট্রাজেক্টরি ত্রুটি অনুমান করে রিয়েল-টাইম অবস্থান পূর্বাভাসের জন্য। এটি "
+"নির্দিষ্ট শর্তে দ্রুত এবং সঠিক, তবে দ্রুত চলমান অবজেক্টের ট্র্যাক হারাতে পারে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1111
+msgid ""
+"**MOSSE:** Utilizes adaptive correlations in Fourier space to maintain "
+"robustness against lighting, scale, and pose changes. It boasts very high "
+"tracking speeds and is better at continuing tracking after loss, but it may "
+"persist in tracking an absent object."
+msgstr ""
+"**MOSSE:** ফোরিয়ার স্পেসে অভিযোজিত করেলেশন ব্যবহার করে আলো, স্কেল, এবং পোজ "
+"পরিবর্তনের বিরুদ্ধে স্থিতিশীলতা বজায় রাখে। এটি খুব উচ্চ ট্র্যাকিং গতি প্রদান করে এবং "
+"হারানোর পর ট্র্যাকিং চালিয়ে যাওয়ায় ভালো, তবে এটি অনুপস্থিত অবজেক্টের ট্র্যাকিং "
+"চালিয়ে যেতে পারে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1112
+msgid ""
+"**CSRT:** Employs spatial reliability maps to adjust filter support, "
+"enhancing the ability to track non-rectangular objects and perform well even "
+"with object overlaps. However, it is slower and may not operate reliably "
+"when the object is lost."
+msgstr ""
+"**CSRT:** স্পেশিয়াল রিলায়েবিলিটি ম্যাপ ব্যবহার করে ফিল্টার সাপোর্ট সামঞ্জস্য করে, "
+"যা অ-আয়তাকার অবজেক্ট ট্র্যাক করার ক্ষমতা বাড়ায় এবং অবজেক্ট ওভারল্যাপ থাকলেও ভালো "
+"কাজ করে। তবে এটি ধীর এবং অবজেক্ট হারালে নির্ভরযোগ্যভাবে কাজ নাও করতে পারে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1116
+msgid ""
+"Once you have a tracked object, you can \"parent\" other :ref:`clips_ref` to "
+"it. This means that the second clip, which could be a graphic, text, or "
+"another video layer, will now follow the tracked object as if it's attached "
+"to it. If the tracked object moves to the left, the child clip moves to the "
+"left. If the tracked object grows in size (gets closer to the camera), the "
+"child clip also scales up. For parented clips to appear correctly, they must "
+"be on a Track higher than the tracked objects, and set the appropriate :ref:"
+"`clip_scale_ref` property."
+msgstr ""
+"একবার আপনি একটি ট্র্যাক করা অবজেক্ট পেলে, আপনি অন্য :ref:`clips_ref` গুলোকে তার "
+"\"প্যারেন্ট\" করতে পারেন। এর অর্থ হলো দ্বিতীয় ক্লিপ, যা একটি গ্রাফিক, টেক্সট, বা "
+"অন্য একটি ভিডিও লেয়ার হতে পারে, এখন ট্র্যাক করা অবজেক্টের সাথে সংযুক্ত হয়ে তার "
+"অনুসরণ করবে। যদি ট্র্যাক করা অবজেক্ট বামে চলে যায়, তাহলে চাইল্ড ক্লিপও বামে চলে "
+"যাবে। যদি ট্র্যাক করা অবজেক্টের আকার বড় হয় (ক্যামেরার কাছে আসে), তাহলে চাইল্ড "
+"ক্লিপও স্কেল আপ হবে। প্যারেন্ট করা ক্লিপগুলো সঠিকভাবে প্রদর্শিত হতে হলে, সেগুলোকে "
+"ট্র্যাকের উপরে থাকতে হবে এবং উপযুক্ত :ref:`clip_scale_ref` প্রপার্টি সেট করতে হবে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1133
+msgid ""
+"``(int, choices: ['Yes', 'No'])`` Whether to draw the box around the tracked "
+"object"
+msgstr ""
+"``(int, choices: ['Yes', 'No'])`` ট্র্যাক করা অবজেক্টের চারপাশে বক্স আঁকতে হবে "
+"কিনা"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1155
+msgid ""
+"The Wave effect distorts the image into a wave-like pattern, simulating "
+"effects like heat haze, water reflections, or other forms of distortion. The "
+"speed, amplitude, and direction of the waves can be adjusted."
+msgstr ""
+"Wave ইফেক্ট ছবিকে তরঙ্গের মতো প্যাটার্নে বিকৃত করে, যা তাপীয় কুয়াশা, জল প্রতিফলন, "
+"বা অন্যান্য বিকৃতির প্রভাব অনুকরণ করে। তরঙ্গের গতি, অ্যামপ্লিটিউড, এবং দিক "
+"পরিবর্তনযোগ্য।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1164
+msgid "amplitude"
+msgstr "অ্যামপ্লিটিউড"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1164
+msgid "``(float, 0 to 5)`` The height of the wave"
+msgstr "``(float, 0 থেকে 5)`` তরঙ্গের উচ্চতা"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1165
+msgid "multiplier"
+msgstr "গুণক"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1165
+msgid "``(float, 0 to 10)`` Amount to multiply the wave (make it bigger)"
+msgstr "``(float, 0 থেকে 10)`` তরঙ্গকে গুণ করার পরিমাণ (বড় করার জন্য)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1166
+msgid "shift_x"
+msgstr "X-অক্ষ স্থানান্তর"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1166
+msgid "``(float, 0 to 1000)`` Amount to shift X-axis"
+msgstr "``(float, 0 থেকে 1000)`` X-অক্ষ স্থানান্তরের পরিমাণ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1167
+msgid "speed_y"
+msgstr "Y-অক্ষ গতি"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1167
+msgid "``(float, 0 to 300)`` Speed of the wave on the Y-axis"
+msgstr "``(float, 0 থেকে 300)`` Y-অক্ষ বরাবর তরঙ্গের গতি"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1168
+msgid "wavelength"
+msgstr "তরঙ্গদৈর্ঘ্য"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1168
+msgid "``(float, 0 to 3)`` The length of the wave"
+msgstr "``(float, 0 থেকে 3)`` তরঙ্গের দৈর্ঘ্য"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1172
+msgid "Audio Effects"
+msgstr "অডিও ইফেক্ট"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1174
+msgid ""
+"Audio effects modify the waveforms and audio sample data of a clip. Below is "
+"a list of audio effects, and their properties. Often it is best to "
+"experiment with an effect, entering different values into the properties, "
+"and observing the results."
+msgstr ""
+"অডিও ইফেক্ট ক্লিপের ওয়েভফর্ম এবং অডিও স্যাম্পল ডেটা পরিবর্তন করে। নিচে অডিও ইফেক্ট "
+"এবং তাদের প্রপার্টির তালিকা দেওয়া হয়েছে। প্রায়শই একটি ইফেক্ট নিয়ে পরীক্ষা-নিরীক্ষা "
+"করা ভালো, বিভিন্ন মান প্রপার্টিতে প্রবেশ করিয়ে ফলাফল পর্যবেক্ষণ করা।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1180
+msgid ""
+"The Compressor effect in audio processing reduces the dynamic range of the "
+"audio signal, making loud sounds quieter and quiet sounds louder. This "
+"creates a more consistent volume level, useful for balancing the loudness of "
+"different audio sources or for achieving a particular sound characteristic "
+"in music production."
+msgstr ""
+"অডিও প্রসেসিংয়ে Compressor ইফেক্ট অডিও সিগন্যালের ডায়নামিক রেঞ্জ কমায়, উচ্চ শব্দকে "
+"শান্ত করে এবং শান্ত শব্দকে জোরালো করে। এটি একটি আরও সঙ্গতিপূর্ণ ভলিউম লেভেল তৈরি "
+"করে, যা বিভিন্ন অডিও উৎসের লাউডনেস সামঞ্জস্য করার জন্য বা সঙ্গীত প্রোডাকশনে "
+"নির্দিষ্ট সাউন্ড বৈশিষ্ট্য অর্জনের জন্য উপযোগী।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1190 ../effects.rst:1260
+msgid "attack"
+msgstr "অ্যাটাক"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1190 ../effects.rst:1260
+msgid "``(float, 0.1 to 100)``"
+msgstr "``(float, 0.1 থেকে 100)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1191 ../effects.rst:1261
+msgid "bypass"
+msgstr "বাইপাস"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1191 ../effects.rst:1261
+msgid "``(bool)``"
+msgstr "``(bool)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1192 ../effects.rst:1262
+msgid "makeup_gain"
+msgstr "মেকআপ গেইন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1192 ../effects.rst:1262
+msgid "``(float, -12 to 12)``"
+msgstr "``(float, -12 থেকে 12)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1193 ../effects.rst:1263
+msgid "ratio"
+msgstr "রেশিও"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1193 ../effects.rst:1263
+msgid "``(float, 1 to 100)``"
+msgstr "``(float, 1 থেকে 100)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1194 ../effects.rst:1264
+msgid "release"
+msgstr "রিলিজ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1194 ../effects.rst:1264
+msgid "``(float, 10 to 1000)``"
+msgstr "``(float, 10 থেকে 1000)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1195 ../effects.rst:1265
+msgid "``(float, -60 to 0)``"
+msgstr "``(float, -60 থেকে 0)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1200
+msgid ""
+"The Delay effect adds an echo to the audio signal, repeating the sound after "
+"a short delay. This can create a sense of space and depth in the audio, and "
+"is commonly used for creative effects in music, sound design, and audio post-"
+"production."
+msgstr ""
+"Delay ইফেক্ট অডিও সিগন্যালের সাথে ইকো যোগ করে, সংক্ষিপ্ত বিলম্বের পর শব্দ পুনরাবৃত্তি "
+"করে। এটি অডিওতে স্থান এবং গভীরতার অনুভূতি তৈরি করতে পারে এবং সঙ্গীত, সাউন্ড "
+"ডিজাইন, এবং অডিও পোস্ট-প্রোডাকশনে সৃজনশীল ইফেক্ট হিসেবে সাধারণত ব্যবহৃত হয়।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1210
+msgid "delay_time"
+msgstr "ডিলে টাইম"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1210 ../effects.rst:1243
+msgid "``(float, 0 to 5)``"
+msgstr "``(float, 0 থেকে 5)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1215
+msgid ""
+"The Distortion effect intentionally clips the audio signal, adding harmonic "
+"and non-harmonic overtones. This can create a gritty, aggressive sound "
+"characteristic of many electric guitar tones and is used for both musical "
+"and sound design purposes."
+msgstr ""
+"Distortion ইফেক্ট ইচ্ছাকৃতভাবে অডিও সিগন্যাল ক্লিপ করে, হারমোনিক এবং নন-হারমোনিক "
+"ওভারটোন যোগ করে। এটি অনেক ইলেকট্রিক গিটার টোনের বৈশিষ্ট্যযুক্ত খসখসে, আগ্রাসী "
+"সাউন্ড তৈরি করতে পারে এবং সঙ্গীত ও সাউন্ড ডিজাইন উভয়ের জন্য ব্যবহৃত হয়।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1225
+msgid "distortion_type"
+msgstr "ডিস্টরশন টাইপ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1225
+msgid ""
+"``(int, choices: ['Hard Clipping', 'Soft Clipping', 'Exponential', 'Full "
+"Wave Rectifier', 'Half Wave Rectifier'])``"
+msgstr ""
+"``(int, choices: ['হার্ড ক্লিপিং', 'সফট ক্লিপিং', 'এক্সপোনেনশিয়াল', 'ফুল ওয়েভ "
+"রেক্টিফায়ার', 'হাফ ওয়েভ রেক্টিফায়ার'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1226
+msgid "input_gain"
+msgstr "ইনপুট গেইন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1226 ../effects.rst:1227 ../effects.rst:1228
+#: ../effects.rst:1297
+msgid "``(int, -24 to 24)``"
+msgstr "``(ইন্ট, -২৪ থেকে ২৪)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1227
+msgid "output_gain"
+msgstr "আউটপুট গেইন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1228
+msgid "tone"
+msgstr "টোন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1233
+msgid ""
+"The Echo effect, similar to delay, repeats the audio signal at intervals, "
+"but with a focus on creating a distinct repetition of sound that mimics "
+"natural echoes. This can be used to simulate acoustic environments or for "
+"creative sound effects."
+msgstr ""
+"ইকো ইফেক্ট, ডিলে-এর মতো, নির্দিষ্ট সময় অন্তর অডিও সিগন্যাল পুনরাবৃত্তি করে, তবে এটি "
+"প্রাকৃতিক ইকোর অনুকরণ করে স্বতন্ত্র শব্দ পুনরাবৃত্তি তৈরি করার উপর গুরুত্ব দেয়। এটি "
+"অ্যাকুস্টিক পরিবেশ অনুকরণ বা সৃজনশীল শব্দ প্রভাবের জন্য ব্যবহার করা যেতে পারে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1243
+msgid "echo_time"
+msgstr "ইকো সময়"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1244
+msgid "feedback"
+msgstr "ফিডব্যাক"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1244 ../effects.rst:1245
+msgid "``(float, 0 to 1)``"
+msgstr "``(ফ্লোট, ০ থেকে ১)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1245
+msgid "mix"
+msgstr "মিশ্রণ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1250
+msgid ""
+"The Expander effect increases the dynamic range of audio, making quiet "
+"sounds quieter and leaving loud sounds unaffected. This is the opposite of "
+"compression and is used to reduce background noise or increase the dynamic "
+"impact of audio."
+msgstr ""
+"এক্সপ্যান্ডার ইফেক্ট অডিওর ডায়নামিক রেঞ্জ বাড়ায়, নীরব শব্দগুলোকে আরও নীরব করে এবং "
+"উচ্চ শব্দগুলোকে অপরিবর্তিত রাখে। এটি কম্প্রেশনের বিপরীত এবং ব্যাকগ্রাউন্ড শব্দ কমাতে "
+"বা অডিওর ডায়নামিক প্রভাব বাড়াতে ব্যবহৃত হয়।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1270
+msgid ""
+"The Noise effect adds random, equal-intensity signals across the frequency "
+"spectrum to the audio, simulating the sound of white noise. This can be used "
+"for sound masking, as a component in sound design, or for testing and "
+"calibration purposes."
+msgstr ""
+"নয়েজ ইফেক্ট অডিওতে ফ্রিকোয়েন্সি স্পেকট্রামের জুড়ে র্যান্ডম, সমান-তীব্রতার সিগন্যাল যোগ "
+"করে, যা হোয়াইট নয়েজের শব্দ অনুকরণ করে। এটি শব্দ মাস্কিং, সাউন্ড ডিজাইনের একটি "
+"উপাদান হিসেবে, অথবা পরীক্ষা ও ক্যালিব্রেশনের জন্য ব্যবহার করা যেতে পারে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1280
+msgid "level"
+msgstr "লেভেল"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1280
+msgid "``(int, 0 to 100)``"
+msgstr "``(ইন্ট, ০ থেকে ১০০)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1285
+msgid ""
+"The Parametric EQ (Equalizer) effect allows for precise adjustments to the "
+"volume level of specific frequency ranges in the audio signal. This can be "
+"used for corrective measures, such as removing unwanted tones, or "
+"creatively, to shape the tonal balance of the audio."
+msgstr ""
+"প্যারামেট্রিক ইকিউ (ইকুয়ালাইজার) ইফেক্ট অডিও সিগন্যালের নির্দিষ্ট ফ্রিকোয়েন্সি রেঞ্জের "
+"ভলিউম লেভেল সঠিকভাবে সামঞ্জস্য করার সুযোগ দেয়। এটি অনাকাঙ্ক্ষিত টোন সরানোর মতো "
+"সংশোধনমূলক ব্যবস্থার জন্য বা সৃজনশীলভাবে অডিওর টোনাল ব্যালেন্স গঠনের জন্য ব্যবহার করা "
+"যেতে পারে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1295
+msgid "filter_type"
+msgstr "ফিল্টার টাইপ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1295
+msgid ""
+"``(int, choices: ['Low Pass', 'High Pass', 'Low Shelf', 'High Shelf', 'Band "
+"Pass', 'Band Stop', 'Peaking Notch'])``"
+msgstr ""
+"``(ইন্ট, পছন্দসমূহ: ['লো পাস', 'হাই পাস', 'লো শেলফ', 'হাই শেলফ', 'ব্যান্ড পাস', "
+"'ব্যান্ড স্টপ', 'পিকিং নচ'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1296
+msgid "frequency"
+msgstr "ফ্রিকোয়েন্সি"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1296
+msgid "``(int, 20 to 20000)``"
+msgstr "``(ইন্ট, ২০ থেকে ২০০০০)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1297
+msgid "gain"
+msgstr "গেইন"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1298
+msgid "q_factor"
+msgstr "কিউ ফ্যাক্টর"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1298
+msgid "``(float, 0 to 20)``"
+msgstr "``(ফ্লোট, ০ থেকে ২০)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1303
+msgid ""
+"The Robotization effect transforms the audio to sound mechanical or robotic, "
+"by applying a combination of pitch modulation and synthesis techniques. This "
+"effect is widely used for character voices in media, creative music "
+"production, and sound design."
+msgstr ""
+"রোবোটাইজেশন ইফেক্ট অডিওকে যান্ত্রিক বা রোবটের মতো শোনাতে রূপান্তর করে, পিচ মডুলেশন "
+"এবং সিন্থেসিস প্রযুক্তির সমন্বয় প্রয়োগ করে। এই ইফেক্টটি মিডিয়ায় চরিত্রের কণ্ঠস্বর, "
+"সৃজনশীল সঙ্গীত উৎপাদন এবং সাউন্ড ডিজাইনে ব্যাপকভাবে ব্যবহৃত হয়।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1313 ../effects.rst:1330
+msgid "fft_size"
+msgstr "এফএফটি সাইজ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1313 ../effects.rst:1330
+msgid "``(int, choices: ['128', '256', '512', '1024', '2048'])``"
+msgstr "``(ইন্ট, পছন্দসমূহ: ['১২৮', '২৫৬', '৫১২', '১০২৪', '২০৪৮'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1314 ../effects.rst:1331
+msgid "hop_size"
+msgstr "হপ সাইজ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1314 ../effects.rst:1331
+msgid "``(int, choices: ['1/2', '1/4', '1/8'])``"
+msgstr "``(ইন্ট, পছন্দসমূহ: ['১/২', '১/৪', '১/৮'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1315 ../effects.rst:1332
+msgid "window_type"
+msgstr "উইন্ডো টাইপ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1315 ../effects.rst:1332
+msgid "``(int, choices: ['Rectangular', 'Bart Lett', 'Hann', 'Hamming'])``"
+msgstr "``(ইন্ট, পছন্দসমূহ: ['রেক্টাঙ্গুলার', 'বার্ট লেট', 'হ্যান', 'হ্যামিং'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1320
+msgid ""
+"The Whisperization effect transforms the audio to mimic a whispering voice, "
+"often by filtering out certain frequencies and adding noise. This can be "
+"used for artistic effects in music, sound design for film and video, or in "
+"audio storytelling to convey secrecy or intimacy."
+msgstr ""
+"হিস্পারাইজেশন ইফেক্ট অডিওকে ফিসফিস করা কণ্ঠের মতো রূপান্তর করে, প্রায়শই নির্দিষ্ট "
+"ফ্রিকোয়েন্সি ফিল্টার করে এবং নয়েজ যোগ করে। এটি সঙ্গীতে শিল্পগত প্রভাব, চলচ্চিত্র ও "
+"ভিডিওর সাউন্ড ডিজাইন, অথবা অডিও গল্প বলায় গোপনীয়তা বা অন্তরঙ্গতা প্রকাশের জন্য "
+"ব্যবহার করা যেতে পারে।"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1335
+msgid "For more info on key frames and animation, see :ref:`animation_ref`."
+msgstr "কী ফ্রেম এবং অ্যানিমেশন সম্পর্কে আরও তথ্যের জন্য, দেখুন :ref:`animation_ref`।"

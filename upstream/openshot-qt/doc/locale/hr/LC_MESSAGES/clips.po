@@ -1,0 +1,3491 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-02 17:20-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:23
+msgid "Clips"
+msgstr "Isječci"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:25
+msgid ""
+"In OpenShot, when you add project files (videos, images, and audio) to the "
+"timeline, they appear as **clips** represented by rounded rectangles. These "
+"clips come with different properties that influence how they're rendered and "
+"composited. These properties include the clip's :guilabel:`position`, :"
+"guilabel:`layer`, :guilabel:`scale`, :guilabel:`location`, :guilabel:"
+"`rotation`, :guilabel:`alpha`, and :guilabel:`composite (blend mode)`."
+msgstr ""
+"U OpenShotu, kada dodate projektne datoteke (videozapise, slike i zvuk) na "
+"vremensku liniju, pojavljuju se kao **isječci** predstavljeni zaobljenim "
+"pravokutnicima. Ti isječci imaju različita svojstva koja utječu na način na "
+"koji se prikazuju i kompozitiraju. Ta svojstva uključuju :guilabel:"
+"`poziciju`, :guilabel:`sloj`, :guilabel:`skaliranje`, :guilabel:`lokaciju`, :"
+"guilabel:`rotaciju`, :guilabel:`alfa` i :guilabel:`kompozit (način "
+"miješanja)` isječka."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:30
+msgid ""
+"You can examine a clip's properties by either right-clicking and selecting :"
+"guilabel:`Properties` or by double-clicking the clip. The properties are "
+"listed alphabetically in the Property dock, and you can use the filter "
+"options at the top to find specific properties. See :ref:"
+"`clip_properties_ref` for a list of all clip properties."
+msgstr ""
+"Svojstva isječka možete pregledati desnim klikom i odabirom :guilabel:"
+"`Svojstva` ili dvostrukim klikom na isječak. Svojstva su navedena abecednim "
+"redom u svojstvima, a možete koristiti opcije filtriranja na vrhu za "
+"pronalazak određenih svojstava. Pogledajte :ref:`clip_properties_ref` za "
+"popis svih svojstava isječka."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:34
+msgid "To **make adjustments** to a property:"
+msgstr "Za **podešavanje** svojstva:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:36
+msgid "For **rough** changes, you can drag the slider."
+msgstr "Za **grube** promjene, možete povući klizač."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:37
+msgid ""
+"For **precise** adjustments, double-click the property to enter exact values."
+msgstr ""
+"Za **precizna** podešavanja, dvaput kliknite na svojstvo i unesite točne "
+"vrijednosti."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:38
+msgid ""
+"If the property involves **non-numerical choices**, right-click or double-"
+"click for options."
+msgstr ""
+"Ako svojstvo uključuje **ne-numeričke opcije**, desni klik ili dvostruki "
+"klik za opcije."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:40
+msgid ""
+"Clip properties play a vital role in the :ref:`animation_ref` system. "
+"Whenever you modify a clip property, a ``key-frame`` is automatically "
+"created at the current playhead position. If you want a property change to "
+"apply throughout the entire clip, ensure the playhead is positioned at or "
+"before the clip's start, before making adjustments. You can easily find a "
+"clip's start by using the :guilabel:`next/previous marker` feature on the "
+"Timeline toolbar."
+msgstr ""
+"Svojstva isječka igraju ključnu ulogu u :ref:`animation_ref` sustavu. Kad "
+"god promijenite svojstvo isječka, ``ključni kadar`` se automatski stvara na "
+"trenutnoj poziciji pokazivača reprodukcije. Ako želite da promjena svojstva "
+"vrijedi za cijeli isječak, osigurajte da je pokazivač reprodukcije "
+"postavljen na početak isječka ili prije njega prije podešavanja. Početak "
+"isječka lako možete pronaći pomoću značajke :guilabel:`sljedeći/pretprošli "
+"marker` na alatnoj traci vremenske linije."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:51
+msgid "#"
+msgstr "#"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:51
+msgid "Name"
+msgstr "Naziv"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:51 ../clips.rst:76 ../clips.rst:110 ../clips.rst:149
+#: ../clips.rst:449
+msgid "Description"
+msgstr "Opis"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:53
+msgid "1"
+msgstr "1"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:53
+msgid "Clip 1"
+msgstr "Isječak 1"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:53
+msgid "A video clip"
+msgstr "Video isječak"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:54
+msgid "2"
+msgstr "2"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:54
+msgid "Transition"
+msgstr "Prijelaz"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:54
+msgid ""
+"A gradual fade transition between the 2 clip images (does not affect the "
+"audio)"
+msgstr ""
+"Postupni prijelaz izblijedjenja između 2 slike isječka (ne utječe na zvuk)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:55
+msgid "3"
+msgstr "3"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:55
+msgid "Clip 2"
+msgstr "Isječak 2"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:55
+msgid "An image clip"
+msgstr "Isječak slike"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:61
+msgid "Trimming & Slicing"
+msgstr "Rezanje i dijeljenje"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:62
+msgid ""
+"OpenShot provides multiple ways to adjust the start and end trim positions "
+"of a clip (also known as trimming). The most common method is to click and "
+"drag the left or right edge of a clip. Trimming can be used to remove "
+"unwanted sections from the beginning or ending of a clip."
+msgstr ""
+"OpenShot nudi više načina za podešavanje početnih i završnih pozicija "
+"rezanja isječka (poznato i kao rezanje). Najčešći način je klik i povlačenje "
+"lijevog ili desnog ruba isječka. Rezanje se može koristiti za uklanjanje "
+"neželjenih dijelova s početka ili kraja isječka."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:66
+msgid ""
+"To **slice** a clip into smaller sections, OpenShot offers several options, "
+"including dividing or slicing a clip at the play-head (*vertical playback "
+"line*) position. Trimming and slicing clips are powerful tools that allow "
+"users to rearrange sections of video and remove unwanted parts."
+msgstr ""
+"Za **dijeljenje** isječka na manje dijelove, OpenShot nudi nekoliko opcija, "
+"uključujući dijeljenje isječka na poziciji pokazivača reprodukcije "
+"(*vertikalna linija reprodukcije*). Rezanje i dijeljenje isječaka su moćni "
+"alati koji korisnicima omogućuju preuređivanje dijelova videa i uklanjanje "
+"neželjenih dijelova."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:70
+msgid ""
+"Here is a list of all methods for cutting and/or trimming clips in OpenShot:"
+msgstr "Evo popisa svih metoda za rezanje i/ili rezanje isječaka u OpenShotu:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:76
+msgid "Trim & Slice Method"
+msgstr "Metoda rezanja i dijeljenja"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:78
+msgid "**Resizing Edge**"
+msgstr "**Promjena veličine ruba**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:78
+msgid ""
+"Mouse over the edge of a clip and resize it by dragging **left** or "
+"**right**. The left edge of a clip can not be resized smaller than 0.0 (*i."
+"e. the first frame of the file*). The right edge of a clip can not be "
+"resized larger than the duration of a file (*i.e. the last frame of a file*)."
+msgstr ""
+"Postavite pokazivač miša na rub isječka i promijenite veličinu povlačenjem "
+"**lijevo** ili **desno**. Lijevi rub isječka ne može se smanjiti ispod 0.0 "
+"(*tj. prvog kadra datoteke*). Desni rub isječka ne može se povećati iznad "
+"trajanja datoteke (*tj. zadnjeg kadra datoteke*)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:79
+msgid "**Slice All**"
+msgstr "**Izreži sve**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:79
+msgid ""
+"When the play-head overlaps multiple clips, right-click the play-head and "
+"choose :guilabel:`Slice All`. This will cut/slice all intersecting clips on "
+"all tracks. You can also use the keyboard shortcuts :kbd:`Ctrl+Shift+K` to "
+"keep both sides, :kbd:`Ctrl+Shift+J` to keep the left side, or :kbd:"
+"`Ctrl+Shift+L` to keep the right side of the clips."
+msgstr ""
+"Kada pokazivač reprodukcije preklapa više isječaka, desni klik na pokazivač "
+"i odaberite :guilabel:`Izreži sve`. Ovo će izrezati/sjeći sve isječke koji "
+"se sijeku na svim trakama. Također možete koristiti tipkovne prečace :kbd:"
+"`Ctrl+Shift+K` za zadržavanje obje strane, :kbd:`Ctrl+Shift+J` za "
+"zadržavanje lijeve strane ili :kbd:`Ctrl+Shift+L` za zadržavanje desne "
+"strane isječaka."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:83
+msgid "**Slice Selected**"
+msgstr "**Izreži odabrano**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:83
+msgid ""
+"When the play-head overlaps a clip, right-click the clip and choose :"
+"guilabel:`Slice`. This provides options to keep the left side, the right "
+"side, or both sides of the clip. Alternatively, use :kbd:`Ctrl+K` to keep "
+"both sides, :kbd:`Ctrl+J` to keep the left side, or :kbd:`Ctrl+L` to keep "
+"the right side."
+msgstr ""
+"Kada pokazivač reprodukcije preklapa isječak, desni klik na isječak i "
+"odaberite :guilabel:`Izreži`. Ovo pruža opcije za zadržavanje lijeve strane, "
+"desne strane ili obje strane isječka. Alternativno, koristite :kbd:`Ctrl+K` "
+"za zadržavanje obje strane, :kbd:`Ctrl+J` za zadržavanje lijeve strane ili :"
+"kbd:`Ctrl+L` za zadržavanje desne strane."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:86
+msgid "**Slice Selected (Ripple)**"
+msgstr "**Izreži odabrano (valovito)**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:86
+msgid ""
+"Slice the selected clip(s) at the play-head position, keeping either the "
+"left side (shortcut: :kbd:`W`) or the right side (shortcut: :kbd:`Q`), while "
+"rippling the gap removal across the current track."
+msgstr ""
+"Izrežite odabrani isječak/e na poziciji pokazivača reprodukcije, "
+"zadržavajući lijevu stranu (prečac: :kbd:`W`) ili desnu stranu (prečac: :kbd:"
+"`Q`), dok se uklanjanje praznine valovito primjenjuje na trenutnu traku."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:88
+msgid "**Razor Tool**"
+msgstr "**Alat za rezanje (Razor Tool)**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:88
+msgid ""
+"The :guilabel:`razor tool` from the **Timeline Toolbar** cuts a clip at the "
+"position where it is clicked. Use :kbd:`SHIFT` to slice and keep the left "
+"side, or :kbd:`CTRL` to keep the right side."
+msgstr ""
+":guilabel:`Alat za rezanje` s **alatne trake vremenske linije** reže isječak "
+"na poziciji na koju kliknete. Koristite :kbd:`SHIFT` za rezanje i "
+"zadržavanje lijeve strane, ili :kbd:`CTRL` za zadržavanje desne strane."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:90
+msgid "**Split File Dialog**"
+msgstr "**Dijaloški prozor za dijeljenje datoteke**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:90
+msgid ""
+"Right-click on a file and choose :guilabel:`Split File`. This opens a dialog "
+"that allows you to create multiple clips from a single video file."
+msgstr ""
+"Desni klik na datoteku i odaberite :guilabel:`Podijeli datoteku`. Ovo otvara "
+"dijaloški prozor koji vam omogućuje stvaranje više isječaka iz jedne video "
+"datoteke."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:94
+msgid ""
+"Keep in mind that the above cutting methods also have :ref:"
+"`keyboard_shortcut_ref`, to save even more time."
+msgstr ""
+"Imajte na umu da gore navedene metode rezanja također imaju :ref:"
+"`keyboard_shortcut_ref`, za još brži rad."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:96
+msgid ""
+"If multiple selected clips and/or transitions share the same left edge or "
+"right edge, you can drag that shared edge once to trim them together."
+msgstr ""
+"Ako više odabranih isječaka i/ili prijelaza dijele isti lijevi ili desni "
+"rub, možete povući taj zajednički rub jednom kako biste ih zajedno skratili."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:100
+msgid "Selections"
+msgstr "Odabiri"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:101
+msgid ""
+"Selecting clips and transitions on the timeline is an essential part of "
+"editing in OpenShot. Multiple selection methods are available to streamline "
+"your workflow, enabling efficient editing of clips and transitions."
+msgstr ""
+"Odabir isječaka i prijelaza na vremenskoj liniji ključan je dio uređivanja u "
+"OpenShotu. Dostupno je više metoda odabira za pojednostavljenje vašeg tijeka "
+"rada, omogućujući učinkovito uređivanje isječaka i prijelaza."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:104
+msgid "Here is a list of all methods for selecting clips in OpenShot:"
+msgstr "Evo popisa svih metoda za odabir isječaka u OpenShotu:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:110
+msgid "Selection Method"
+msgstr "Metoda odabira"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:112
+msgid "**Box Selection**"
+msgstr "**Odabir okvirom**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:112
+msgid ""
+"Click and drag a selection box around clips or transitions to select "
+"multiple items at once. Hold down :kbd:`Ctrl` to add to your current "
+"selection."
+msgstr ""
+"Kliknite i povucite okvir za odabir oko isječaka ili prijelaza kako biste "
+"odabrali više stavki odjednom. Držite pritisnut :kbd:`Ctrl` za dodavanje "
+"trenutnom odabiru."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:113
+msgid "**Click Selection**"
+msgstr "**Odabir klikom**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:113
+msgid ""
+"Click on a clip or transition to select it. This will deselect all other "
+"items unless you hold down :kbd:`Ctrl`."
+msgstr ""
+"Kliknite na isječak ili prijelaz da ga odaberete. Ovo će poništiti odabir "
+"svih ostalih stavki osim ako držite pritisnut :kbd:`Ctrl`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:114
+msgid "**Add to Selection**"
+msgstr "**Dodaj u odabir**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:114
+msgid ""
+"Hold down :kbd:`Ctrl` while clicking to add or remove clips from the current "
+"selection, allowing you to select non-adjacent clips."
+msgstr ""
+"Držite pritisnut :kbd:`Ctrl` dok klikate za dodavanje ili uklanjanje "
+"isječaka iz trenutnog odabira, što vam omogućuje odabir neuzastopnih "
+"isječaka."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:115
+msgid "**Range Selection**"
+msgstr "**Odabir raspona**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:115
+msgid ""
+"Hold down :kbd:`Shift` while clicking to select a range of clips/transitions "
+"from the previous selection to the new selection. This supports ranges that "
+"span multiple tracks as well."
+msgstr ""
+"Držite pritisnut :kbd:`Shift` dok klikate za odabir raspona isječaka/"
+"prijelaza od prethodnog do novog odabira. Ovo podržava i raspon preko više "
+"traka."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:116
+msgid "**Ripple Selection**"
+msgstr "**Valoviti odabir**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:116
+msgid ""
+"Hold down :kbd:`Alt` while clicking to ripple select all clips/transitions "
+"from your selection to the end of the track. This always adds to your "
+"current selection, even if :kbd:`Ctrl` is not pressed."
+msgstr ""
+"Držite pritisnut :kbd:`Alt` dok klikate za valoviti odabir svih isječaka/"
+"prijelaza od vašeg odabira do kraja trake. Ovo uvijek dodaje trenutnom "
+"odabiru, čak i ako :kbd:`Ctrl` nije pritisnut."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:117
+msgid "**Clear Selection**"
+msgstr "**Očisti odabir**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:117
+msgid ""
+"Click anywhere on the timeline or on a new clip/transition to reset the "
+"current selection, unless :kbd:`Ctrl` is pressed."
+msgstr ""
+"Kliknite bilo gdje na vremenskoj liniji ili na novi isječak/prijelaz za "
+"poništavanje trenutnog odabira, osim ako je pritisnut :kbd:`Ctrl`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:118
+msgid "**Select All**"
+msgstr "**Odaberi sve**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:118
+msgid ""
+"Press :kbd:`Ctrl+A` to select all clips and transitions on the timeline."
+msgstr ""
+"Pritisnite :kbd:`Ctrl+A` za odabir svih isječaka i prijelaza na vremenskoj "
+"liniji."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:119
+msgid "**Select None**"
+msgstr "**Poništi odabir**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:119
+msgid ""
+"Press :kbd:`Ctrl+Shift+A` to deselect all clips and transitions on the "
+"timeline."
+msgstr ""
+"Pritisnite :kbd:`Ctrl+Shift+A` za poništavanje odabira svih isječaka i "
+"prijelaza na vremenskoj liniji."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:122
+msgid ""
+"Mastering these selection techniques will streamline your editing process, "
+"especially when dealing with complex projects. For more advanced tips on "
+"selection and editing, refer to the :ref:`clips_cutting_slicing_ref` section."
+msgstr ""
+"Savladavanje ovih tehnika odabira će ubrzati vaš proces uređivanja, osobito "
+"kod složenih projekata. Za naprednije savjete o odabiru i uređivanju, "
+"pogledajte odjeljak :ref:`clips_cutting_slicing_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:128
+msgid "Context Menu"
+msgstr "Kontekstni izbornik"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:129
+msgid ""
+"OpenShot has tons of great preset animations and clip properties, such as "
+"fading, sliding, zooming, reversing time, adjusting volume, etc... These "
+"presets can be accessed by right-clicking on a clip, revealing the context "
+"menu. A preset sets one (or more) clip properties for the user without "
+"needing to manually set the key-frame clip properties. See :ref:"
+"`clip_properties_ref`."
+msgstr ""
+"OpenShot ima mnogo izvrsnih unaprijed postavljenih animacija i svojstava "
+"isječaka, poput izblijedjenja, klizanja, zumiranja, obrnutog vremena, "
+"podešavanja glasnoće itd. Do ovih postavki se dolazi desnim klikom na "
+"isječak, što otvara kontekstni izbornik. Unaprijed postavljena opcija "
+"postavlja jedno (ili više) svojstava isječka bez potrebe za ručnim "
+"podešavanjem ključnih okvira. Pogledajte :ref:`clip_properties_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:134
+msgid ""
+"Some presets allow the user to target either the start, end, or entire clip, "
+"and most presets allow the user to reset a specific clip property. For "
+"example, when using the ``Volume`` preset, the user has the following menu "
+"options:"
+msgstr ""
+"Neki predlošci omogućuju korisniku da cilja početak, kraj ili cijeli "
+"isječak, a većina predložaka omogućuje resetiranje određenog svojstva "
+"isječka. Na primjer, kod korištenja predloška ``Volume``, korisnik ima "
+"sljedeće opcije u izborniku:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:138
+msgid "**Reset** - This will reset the volume to the original level."
+msgstr "**Resetiraj** - Ovo će vratiti glasnoću na izvornu razinu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:139
+msgid ""
+"**Start of Clip** - Your volume level selection will apply at the Beginning "
+"of the clip."
+msgstr ""
+"**Početak isječka** - Vaš odabir razine glasnoće primijenit će se na početak "
+"isječka."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:140
+msgid ""
+"**End of Clip** - Your volume level selection will apply to the End of the "
+"clip."
+msgstr ""
+"**Kraj isječka** - Vaš odabir razine glasnoće primijenit će se na kraj "
+"isječka."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:141
+msgid ""
+"**Entire Clip** - Your volume level selection will apply to the Entire clip."
+msgstr ""
+"**Cijeli isječak** - Vaš odabir razine glasnoće primijenit će se na cijeli "
+"isječak."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:149
+msgid "Preset Name"
+msgstr "Naziv predloška"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:151 ../clips.rst:166
+msgid "Fade"
+msgstr "Izblijedi"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:151
+msgid "Fade the image in or out (often easier than using a transition)"
+msgstr ""
+"Postepeno pojavljivanje ili nestajanje slike (često lakše od korištenja "
+"prijelaza)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:152 ../clips.rst:175
+msgid "Animate"
+msgstr "Animiraj"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:152
+msgid "Zoom and slide a clip"
+msgstr "Zumiraj i pomakni isječak"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:153 ../clips.rst:185
+msgid "Rotate"
+msgstr "Rotiraj"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:153
+msgid "Rotate or flip a clip"
+msgstr "Rotiraj ili okreni isječak"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:154 ../clips.rst:194
+msgid "Layout"
+msgstr "Raspored"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:154
+msgid "Make a video smaller or larger, and snap to any corner"
+msgstr "Umanji ili povećaj video i zalijepi ga na bilo koji kut"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:155 ../clips.rst:203 ../clips.rst:477 ../clips.rst:745
+msgid "Time"
+msgstr "Vrijeme"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:155
+msgid "Reverse, repeat, and speed up or slow down video"
+msgstr "Obrni, ponovi i ubrzaj ili uspori video"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:156 ../clips.rst:266 ../clips.rst:478 ../clips.rst:771
+msgid "Volume"
+msgstr "Glasnoća"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:156
+msgid ""
+"Fade in or out the volume, reduce or increase the volume of a clip, or mute"
+msgstr ""
+"Postepeno pojačavaj ili stišavaj glasnoću, smanji ili povećaj glasnoću "
+"isječka ili utišaj"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:157 ../clips.rst:275
+msgid "Separate Audio"
+msgstr "Odvoji zvuk"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:157
+msgid ""
+"Separate the audio from a clip. This preset can either create a single "
+"detached audio clip (positioned on a layer below the original clip), or "
+"multiple detached audio clips (one per audio track, positioned on multiple "
+"layers below the original clip)"
+msgstr ""
+"Odvoji zvuk od isječka. Ovaj predložak može stvoriti jedan odvojeni audio "
+"isječak (pozicioniran na sloju ispod izvornog isječka) ili više odvojenih "
+"audio isječaka (po jedan za svaki audio zapis, pozicionirani na više slojeva "
+"ispod izvornog isječka)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:158 ../clips.rst:285
+msgid "Slice"
+msgstr "Izreži"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:158
+msgid "Cut the clip at the play-head position"
+msgstr "Izreži isječak na poziciji pokazivača reprodukcije"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:159 ../clips.rst:350
+msgid "Display"
+msgstr "Prikaz"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:159
+msgid "Show waveform or thumbnail for a clip"
+msgstr "Prikaži valni oblik ili sličicu isječka"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:160 ../clips.rst:358
+msgid "Properties"
+msgstr "Svojstva"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:160
+msgid "Show the properties panel for a clip"
+msgstr "Prikaži panel svojstava za isječak"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:161
+msgid "Copy / Paste"
+msgstr "Kopiraj / Zalijepi"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:161
+msgid ""
+"Copy and paste key frames or duplicate an entire clip (with all key frames)"
+msgstr ""
+"Kopiraj i zalijepi ključne okvire ili dupliciraj cijeli isječak (sa svim "
+"ključnim okvirima)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:162 ../clips.rst:390
+msgid "Remove Clip"
+msgstr "Ukloni isječak"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:162
+msgid "Remove a clip from the timeline"
+msgstr "Ukloni isječak s vremenske linije"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:167
+msgid ""
+"The :guilabel:`Fade` preset enables smooth transitions by gradually "
+"increasing or decreasing the clip's opacity. It creates a fade-in or fade-"
+"out of the clip image, ideal for introducing or concluding clips. See :ref:"
+"`clip_alpha_ref` key-frame."
+msgstr ""
+"Predložak :guilabel:`Fade` omogućuje glatke prijelaze postupnim povećavanjem "
+"ili smanjenjem neprozirnosti isječka. Stvara pojavljivanje ili nestajanje "
+"slike isječka, idealno za uvod ili završetak isječaka. Pogledajte ključni "
+"okvir :ref:`clip_alpha_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:171
+msgid ""
+"**Usage Example:** Applying a fade-out to a video clip to gently conclude a "
+"scene."
+msgstr ""
+"**Primjer upotrebe:** Primjena izblijedjenja na video isječak za nježni "
+"završetak scene."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:172
+msgid ""
+"**Tip:** Adjust the duration of the fade effect (slow or fast) to control "
+"its timing and intensity."
+msgstr ""
+"**Savjet:** Prilagodite trajanje efekta izblijedjenja (sporo ili brzo) za "
+"kontrolu njegovog trajanja i intenziteta."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:176
+msgid ""
+"The :guilabel:`Animate` preset adds dynamic motion to clips, combining "
+"zooming and sliding animations. It animates a clip by zooming in or out "
+"while sliding across the screen. It can **slide** in many specific "
+"directions, or slide and zoom to a **random** location. See :ref:"
+"`clip_location_x_ref` and :ref:`clip_scale_x_ref` key-frames."
+msgstr ""
+"Predložak :guilabel:`Animate` dodaje dinamično kretanje isječcima, "
+"kombinirajući zumiranje i klizne animacije. Animira isječak zumiranjem "
+"unutra ili van dok klizi preko zaslona. Može **kliziti** u mnogim "
+"specifičnim smjerovima ili kliziti i zumirati do **slučajne** lokacije. "
+"Pogledajte :ref:`clip_location_x_ref` i :ref:`clip_scale_x_ref` ključne "
+"okvire."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:181
+msgid ""
+"**Usage Example:** Using the animate preset to simulate a camera movement "
+"across a landscape shot."
+msgstr ""
+"**Primjer upotrebe:** Korištenje predloška animate za simulaciju kretanja "
+"kamere preko pejzažne snimke."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:182
+msgid ""
+"**Tip:** Experiment with different animation speeds and directions for "
+"diverse visual effects."
+msgstr ""
+"**Savjet:** Eksperimentirajte s različitim brzinama i smjerovima animacije "
+"za raznolike vizualne efekte."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:186
+msgid ""
+"The :guilabel:`Rotate` preset introduces easy rotation and flipping of "
+"clips, enhancing their visual appeal. It enables orientation adjustment, by "
+"rotating and flipping a clip for creative visual transformations. See :ref:"
+"`clip_rotation_ref` key-frame."
+msgstr ""
+"Predložak :guilabel:`Rotate` uvodi jednostavnu rotaciju i okretanje "
+"isječaka, poboljšavajući njihov vizualni dojam. Omogućuje podešavanje "
+"orijentacije rotiranjem i okretanjem isječka za kreativne vizualne "
+"transformacije. Pogledajte :ref:`clip_rotation_ref` ključni okvir."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:189
+msgid ""
+"**Usage Example:** Rotating a photo or video by 90 degree (a portrait video "
+"to a landscape)"
+msgstr ""
+"**Primjer upotrebe:** Rotiranje fotografije ili videa za 90 stupnjeva "
+"(portretni video u pejzažni)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:190
+msgid ""
+"**Usage Example:** If your video is oriented sideways (90 degrees), you can "
+"rotate it clockwise or counterclockwise by 90 degrees to bring it to the "
+"correct orientation. This can be useful when you accidentally recorded a "
+"video in portrait mode when you intended it to be landscape."
+msgstr ""
+"**Primjer upotrebe:** Ako je vaš video okrenut bočno (90 stupnjeva), možete "
+"ga rotirati u smjeru kazaljke na satu ili suprotno za 90 stupnjeva kako "
+"biste ga doveli u ispravnu orijentaciju. Ovo može biti korisno ako ste "
+"slučajno snimili video u portretnom načinu, a namjeravali ste pejzažni."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:191
+msgid ""
+"**Usage Example:** If your video is upside down, you can rotate it by 180 "
+"degrees to flip it to the correct orientation. This can happen if you "
+"accidentally held your camera the wrong way while recording."
+msgstr ""
+"**Primjer upotrebe:** Ako je vaš video naopako, možete ga rotirati za 180 "
+"stupnjeva da ga okrenete u ispravnu orijentaciju. To se može dogoditi ako "
+"ste slučajno držali kameru naopako tijekom snimanja."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:195
+msgid ""
+"The :guilabel:`Layout` preset adjusts the size of a clip and snaps it to a "
+"chosen corner of the screen. It resizes a clip and anchors it to a corner or "
+"the center, useful for picture-in-picture or watermark effects. See :ref:"
+"`clip_location_x_ref` and :ref:`clip_scale_x_ref` key-frames."
+msgstr ""
+"Predložak :guilabel:`Layout` prilagođava veličinu isječka i pričvršćuje ga "
+"na odabrani kut zaslona. Mijenja veličinu isječka i pričvršćuje ga u kut ili "
+"centar, korisno za efekt slike u slici ili vodeni žig. Pogledajte :ref:"
+"`clip_location_x_ref` i :ref:`clip_scale_x_ref` ključne okvire."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:199
+msgid ""
+"**Usage Example:** Placing a logo in the corner of a video using the layout "
+"preset."
+msgstr ""
+"**Primjer upotrebe:** Postavljanje logotipa u kut videa koristeći predložak "
+"layout."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:200
+msgid ""
+"**Tip:** Combine with animation presets for dynamic transitions involving "
+"resizing and repositioning."
+msgstr ""
+"**Savjet:** Kombinirajte s predlošcima animacije za dinamične prijelaze koji "
+"uključuju promjenu veličine i premještanje."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:204
+msgid ""
+"The :guilabel:`Time` preset manipulates clip playback speed, allowing for "
+"reverse playback or time-lapse effects. It alters the speed and direction of "
+"a clip's playback, enhancing visual storytelling. See :ref:`clip_time_ref` "
+"key-frame."
+msgstr ""
+"Predložak :guilabel:`Time` manipulira brzinom reprodukcije isječka, "
+"omogućujući reprodukciju unatrag ili efekte ubrzanog vremena. Mijenja brzinu "
+"i smjer reprodukcije isječka, poboljšavajući vizualno pripovijedanje. "
+"Pogledajte :ref:`clip_time_ref` ključni okvir."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:208
+msgid ""
+"**Usage Example:** Creating a slow-motion effect to emphasize a specific "
+"action."
+msgstr ""
+"**Primjer upotrebe:** Stvaranje efekta usporenog pokreta za naglašavanje "
+"određene radnje."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:209
+msgid ""
+"**Tip:** Use time presets to creatively manipulate the pacing of your video."
+msgstr ""
+"**Savjet:** Koristite vremenske predloške za kreativno upravljanje tempom "
+"vašeg videa."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:214
+msgid "Repeat"
+msgstr "Ponavljanje"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:215
+msgid ""
+"Use :guilabel:`Time → Repeat` to play a clip multiple times, without "
+"building the time curve by hand. OpenShot writes the needed :guilabel:`Time` "
+"keyframes for you (you can edit them later)."
+msgstr ""
+"Koristite :guilabel:`Time → Repeat` za višestruku reprodukciju isječka, bez "
+"ručnog izrade vremenske krivulje. OpenShot automatski postavlja potrebne :"
+"guilabel:`Time` ključne okvire (koje kasnije možete uređivati)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:218
+msgid "**Menu path**"
+msgstr "**Putanja izbornika**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:220
+msgid ""
+":guilabel:`Time → Repeat → Loop → Forward` – plays left to right, then "
+"starts again from the beginning"
+msgstr ""
+":guilabel:`Time → Repeat → Loop → Forward` – reproducira s lijeva na desno, "
+"zatim ponovno počinje od početka"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:221
+msgid ""
+":guilabel:`Time → Repeat → Loop → Reverse` – plays right to left, then "
+"starts again from the end"
+msgstr ""
+":guilabel:`Time → Repeat → Loop → Reverse` – reproducira s desna na lijevo, "
+"zatim ponovno počinje od kraja"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:222
+msgid ""
+":guilabel:`Time → Repeat → Ping-Pong → Forward` – forward, then backward, "
+"then forward…"
+msgstr ""
+":guilabel:`Time → Repeat → Ping-Pong → Forward` – naprijed, zatim natrag, "
+"zatim naprijed…"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:223
+msgid ""
+":guilabel:`Time → Repeat → Ping-Pong → Reverse` – backward, then forward, "
+"then backward…"
+msgstr ""
+":guilabel:`Time → Repeat → Ping-Pong → Reverse` – natrag, zatim naprijed, "
+"zatim natrag…"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:224
+msgid ":guilabel:`Custom…` – opens a dialog for extra options (see below)"
+msgstr ""
+":guilabel:`Custom…` – otvara dijalog za dodatne opcije (pogledajte dolje)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:226
+msgid ""
+"Counts are **finite** (2x, 3x, 4x, 5x, 8x, 10x, or a custom number). "
+"Example: “Forward then Back and stop” = :guilabel:`Ping-Pong → Forward → 2x`."
+msgstr ""
+"Broj ponavljanja je **ograničen** (2x, 3x, 4x, 5x, 8x, 10x ili prilagođeni "
+"broj). Primjer: „Naprijed pa natrag i zaustavi“ = :guilabel:`Ping-Pong → "
+"Forward → 2x`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:229
+msgid "**What gets repeated**"
+msgstr "**Što se ponavlja**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:231
+msgid "Repeat always acts on the **currently trimmed** in/out of the clip."
+msgstr ""
+"Ponavljanje uvijek djeluje na **trenutno skraćeni** ulaz/izlaz isječka."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:232
+msgid ""
+"The :guilabel:`Time` curve is stamped as a simple shape: - Loop Forward = "
+"rising saw - Loop Reverse = falling saw - Ping-Pong = triangle (direction "
+"flips each pass)"
+msgstr ""
+"Vremenska krivulja :guilabel:`Time` označena je jednostavnim oblikom: - Loop "
+"Forward = rastući zupčasti val - Loop Reverse = padajući zupčasti val - Ping-"
+"Pong = trokut (smjer se mijenja svaki put)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:236
+msgid ""
+"To avoid a double frame at the seam, the last frame of each pass is not "
+"duplicated."
+msgstr ""
+"Kako bi se izbjegao dvostruki kadar na spoju, zadnji kadar svakog prolaza "
+"nije dupliciran."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:238
+msgid "**Keyframes during Repeat**"
+msgstr "**Ključni okviri tijekom ponavljanja**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:240
+msgid ""
+"When you use Repeat, OpenShot will also **repeat other keyframes** found "
+"inside the trimmed section (location, scale, effects, etc.) into each pass "
+"so your animations stay in sync."
+msgstr ""
+"Kada koristite Ponavljanje, OpenShot će također **ponoviti ostale ključne "
+"okvire** unutar skraćenog dijela (lokacija, veličina, efekti itd.) u svaki "
+"prolaz kako bi vaše animacije ostale sinkronizirane."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:241
+msgid "Repeated keyframes keep their relative timing inside each pass."
+msgstr ""
+"Ponavljani ključni okviri zadržavaju svoj relativni raspored unutar svakog "
+"prolaza."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:243
+msgid "**Custom Repeat** (dialog options)"
+msgstr "**Prilagođeno ponavljanje** (opcije dijaloga)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:245
+msgid ":guilabel:`Pattern:` Loop | Ping-Pong"
+msgstr ":guilabel:`Pattern:` Petlja | Ping-Pong"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:246
+msgid ":guilabel:`Direction:` Forward | Reverse"
+msgstr ":guilabel:`Direction:` Naprijed | Natrag"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:247
+msgid ""
+":guilabel:`Passes:` integer (2 or more). This is the number of times it will "
+"play."
+msgstr ""
+":guilabel:`Passes:` cijeli broj (2 ili više). To je broj puta koliko će se "
+"reproducirati."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:248
+msgid ""
+":guilabel:`Delay:` number + units [frames | ms | sec]. This is an optional "
+"delay between each repeated pass."
+msgstr ""
+":guilabel:`Delay:` broj + jedinice [kadrovi | ms | sek]. Ovo je opcionalno "
+"kašnjenje između svakog ponovljenog prolaza."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:249
+msgid ""
+":guilabel:`Speed Ramp (%):` % speed change per pass (optional). Positive "
+"speeds up each pass; negative slows down each pass."
+msgstr ""
+":guilabel:`Speed Ramp (%):` % promjena brzine po prolazu (opcionalno). "
+"Pozitivno ubrzava svaki prolaz; negativno usporava svaki prolaz."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:251
+msgid "**Reset**"
+msgstr "**Resetiraj**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:253
+msgid ""
+":guilabel:`Time → Reset Time` completely removes any Time curve (including "
+"Repeat) and restores the clip to its original playback, **without deleting "
+"your original non-Time keyframes**."
+msgstr ""
+":guilabel:`Time → Reset Time` potpuno uklanja bilo koju vremensku krivulju "
+"(uključujući Ponavljanje) i vraća isječak na izvornu reprodukciju, **bez "
+"brisanja vaših originalnih ključnih okvira koji nisu vezani uz vrijeme**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:257
+msgid "Timing Tool"
+msgstr "Alat za vremensko podešavanje"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:258
+msgid ""
+"Another way to change a clip's speed is with the :guilabel:`Timing` tool on "
+"the timeline toolbar. Enable the clock icon and drag a clip's edges. "
+"Lengthening the clip slows playback, while shotening it speeds the clip up. "
+"All keyframes on the clip and its effects are scaled so their relative "
+"positions remain intact."
+msgstr ""
+"Drugi način za promjenu brzine isječka je pomoću alata :guilabel:`Timing` na "
+"alatnoj traci vremenske linije. Omogućite ikonu sata i povucite rubove "
+"isječka. Produženje isječka usporava reprodukciju, dok njegovo skraćivanje "
+"ubrzava isječak. Sve ključne slike na isječku i njegovim efektima skaliraju "
+"se tako da njihovi relativni položaji ostanu netaknuti."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:262
+msgid ""
+"If you select multiple clips and/or transitions that share the same left "
+"edge or right edge, you can retime that shared edge together in one drag."
+msgstr ""
+"Ako odaberete više isječaka i/ili prijelaza koji dijele isti lijevi ili "
+"desni rub, možete zajedno promijeniti vrijeme tog zajedničkog ruba jednim "
+"povlačenjem."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:267
+msgid ""
+"The :guilabel:`Volume` preset controls audio properties, facilitating smooth "
+"volume adjustments. It manages audio volume, including fading in/out, "
+"reducing/increasing volume, or muting. See :ref:`clip_volume_ref` key-frame."
+msgstr ""
+"Predložak :guilabel:`Volume` upravlja audio svojstvima, omogućujući glatke "
+"prilagodbe glasnoće. Kontrolira glasnoću zvuka, uključujući postupno "
+"pojačavanje/stišavanje, smanjenje/povećanje glasnoće ili utišavanje. "
+"Pogledajte :ref:`clip_volume_ref` ključnu sliku."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:271
+msgid ""
+"**Usage Example:** Applying a gradual volume fade-out to transition between "
+"scenes."
+msgstr ""
+"**Primjer upotrebe:** Primjena postupnog smanjenja glasnoće za prijelaz "
+"između scena."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:272
+msgid ""
+"**Tip:** Utilize volume presets for quickly lowering or raising volume "
+"levels."
+msgstr ""
+"**Savjet:** Koristite predloške glasnoće za brzo smanjenje ili povećanje "
+"razine glasnoće."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:276
+msgid ""
+"The :guilabel:`Separate Audio` preset splits the audio from a clip, creating "
+"detached audio clips positioned below the original clip on the timeline. "
+"This preset can either create a **single** detached audio clip (positioned "
+"on a layer below the original clip) or **multiple** detached audio clips "
+"(one per audio track, positioned on multiple layers below the original clip)."
+msgstr ""
+"Predložak :guilabel:`Separate Audio` odvaja zvuk od isječka, stvarajući "
+"odvojene audio isječke smještene ispod izvornog isječka na vremenskoj "
+"liniji. Ovaj predložak može stvoriti **jedan** odvojeni audio isječak "
+"(smješten na sloju ispod izvornog isječka) ili **više** odvojenih audio "
+"isječaka (po jedan za svaki audio zapis, smješteni na više slojeva ispod "
+"izvornog isječka)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:281
+msgid ""
+"**Usage Example:** Extracting background music from a video clip for "
+"independent control."
+msgstr ""
+"**Primjer upotrebe:** Izvlačenje pozadinske glazbe iz video isječka za "
+"neovisnu kontrolu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:282
+msgid ""
+"**Tip:** Use this preset to fine-tune audio elements separately from the "
+"visual content."
+msgstr ""
+"**Savjet:** Koristite ovaj predložak za precizno podešavanje audio elemenata "
+"odvojeno od vizualnog sadržaja."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:286
+msgid ""
+"The :guilabel:`Slice` tool lets you cut a clip at the position of the play-"
+"head (*the vertical line that shows your current position in the timeline*). "
+"This will split the clip into two separate parts at the exact point where "
+"the play-head is."
+msgstr ""
+"Alat :guilabel:`Slice` omogućuje rezanje isječka na poziciji pokazivača "
+"reprodukcije (*vertikalna linija koja pokazuje vašu trenutnu poziciju na "
+"vremenskoj liniji*). Time se isječak dijeli na dva odvojena dijela točno na "
+"mjestu pokazivača reprodukcije."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:289
+msgid ""
+"Slicing is a key feature for making precise edits and rearranging sections "
+"of your video. You can slice a clip and choose to keep one side or both, and "
+"with the ripple option, you can automatically shift other clips on the same "
+"track to fill any gaps caused by the cut."
+msgstr ""
+"Rezanje je ključna značajka za precizno uređivanje i preuređivanje dijelova "
+"vašeg videa. Možete rezati isječak i odabrati zadržavanje jedne ili obje "
+"strane, a s opcijom ripple automatski pomičete ostale isječke na istoj traci "
+"kako biste popunili praznine nastale rezom."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:293
+msgid "**Slicing Options:**"
+msgstr "**Opcije rezanja:**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:295
+msgid ""
+"**Keep Both Sides**: This option splits the clip into two parts, keeping "
+"everything on both sides of the play-head. It’s useful when you want to "
+"break a clip into sections but don’t want to remove anything."
+msgstr ""
+"**Zadrži obje strane**: Ova opcija dijeli isječak na dva dijela, "
+"zadržavajući sve s obje strane pokazivača reprodukcije. Korisno je kada "
+"želite podijeliti isječak na dijelove, a ne želite ništa ukloniti."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:296
+msgid ""
+"**Keep Left Side**: This option cuts the clip and removes the part to the "
+"right of the play-head, keeping only the part before the play-head. Use this "
+"to get rid of the portion of the clip that comes after the current point."
+msgstr ""
+"**Zadrži lijevu stranu**: Ova opcija reže isječak i uklanja dio desno od "
+"pokazivača reprodukcije, zadržavajući samo dio prije pokazivača. Koristite "
+"ovo za uklanjanje dijela isječka koji dolazi nakon trenutne točke."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:297
+msgid ""
+"**Keep Right Side**: This option cuts the clip and removes the part to the "
+"left of the play-head, keeping only the part after the play-head. It’s handy "
+"for trimming away the beginning of a clip and keeping the rest."
+msgstr ""
+"**Zadrži desnu stranu**: Ova opcija reže isječak i uklanja dio lijevo od "
+"pokazivača reprodukcije, zadržavajući samo dio nakon pokazivača. Korisno je "
+"za uklanjanje početka isječka i zadržavanje ostatka."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:298
+msgid ""
+"**Ripple Slicing**: Ripple slicing not only cuts the clip but also moves any "
+"clips and transitions that follow to close the gap. This way, your timeline "
+"stays continuous without empty spaces after a cut, saving you the trouble of "
+"manually adjusting the clips that come after."
+msgstr ""
+"**Ripple rezanje**: Ripple rezanje ne samo da reže isječak, već i pomiče sve "
+"isječke i prijelaze koji slijede kako bi zatvorio prazninu. Na taj način "
+"vaša vremenska linija ostaje kontinuirana bez praznina nakon reza, štedeći "
+"vam trud ručnog podešavanja isječaka koji dolaze nakon."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:300 ../clips.rst:408
+msgid "**Tips for Beginners:**"
+msgstr "**Savjeti za početnike:**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:302
+msgid ""
+"**Example**: If there’s a part of a clip you don’t want (like the end of a "
+"scene), use **Keep Left Side** or **Keep Right Side** to remove it. If you "
+"want to split a scene into multiple smaller sections to rearrange, use "
+"**Keep Both Sides**."
+msgstr ""
+"**Primjer**: Ako postoji dio isječka koji ne želite (poput kraja scene), "
+"koristite **Zadrži lijevu stranu** ili **Zadrži desnu stranu** za njegovo "
+"uklanjanje. Ako želite podijeliti scenu na više manjih dijelova za "
+"preuređivanje, koristite **Zadrži obje strane**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:303
+msgid ""
+"**Quick Tip**: Slicing can also be used to break a long clip into smaller "
+"parts, making it easier to manage and edit each section separately."
+msgstr ""
+"**Brzi savjet**: Rezanje se također može koristiti za razbijanje dugog "
+"isječka na manje dijelove, što olakšava upravljanje i uređivanje svakog "
+"dijela zasebno."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:305
+msgid ""
+"For a complete guide to slicing and all available keyboard shortcuts, see "
+"the :ref:`clips_cutting_slicing_ref` section."
+msgstr ""
+"Za potpuni vodič o rezanju i svim dostupnim tipkovničkim prečacima, "
+"pogledajte odjeljak :ref:`clips_cutting_slicing_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:310
+msgid "Transform"
+msgstr "Transformiraj"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:311
+msgid ""
+"The **Transform Tool** lets you quickly adjust a clip directly in the "
+"preview window, instead of changing location, scale, rotation, shear, and "
+"rotation origin values one property at a time. OpenShot shows the Transform "
+"Tool automatically whenever you select a clip on the timeline, with blue "
+"lines and handles drawn around the selected clip. You can also select "
+"multiple clips at once with :kbd:`Ctrl` or :kbd:`Shift`; in that case, the "
+"preview shows one set of handles around the full selection, and any move, "
+"scale, or rotation is applied to all selected clips together."
+msgstr ""
+"**Alat za transformaciju** omogućuje vam brzo podešavanje isječka izravno u "
+"prozoru pregleda, umjesto da mijenjate vrijednosti lokacije, skaliranja, "
+"rotacije, nagiba i ishodišta rotacije jednu po jednu. OpenShot automatski "
+"prikazuje Alat za transformaciju kad god odaberete isječak na vremenskoj "
+"liniji, s plavim linijama i ručkama nacrtanim oko odabranog isječka. Također "
+"možete odabrati više isječaka odjednom pomoću :kbd:`Ctrl` ili :kbd:`Shift`; "
+"u tom slučaju, pregled prikazuje jedan skup ručki oko cijelog odabira, a "
+"bilo koje pomicanje, skaliranje ili rotacija primjenjuju se na sve odabrane "
+"isječke zajedno."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:320
+msgid "Dragging the blue squares will adjust the **scale** of the image."
+msgstr "Povlačenjem plavih kvadrata mijenja se **veličina** slike."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:321
+msgid "Dragging the center will move the **location** of the image."
+msgstr "Povlačenjem središta pomiče se **položaj** slike."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:322
+msgid ""
+"Dragging the mouse on the outside of the blue lines will **rotate** the "
+"image."
+msgstr "Povlačenjem miša izvan plavih linija vrši se **rotacija** slike."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:323
+msgid ""
+"Hold :kbd:`Ctrl` or :kbd:`Shift` while rotating to snap to 15-degree "
+"increments."
+msgstr ""
+"Držite :kbd:`Ctrl` ili :kbd:`Shift` dok rotirate da biste se zalijepili za "
+"inkremente od 15 stupnjeva."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:324
+msgid ""
+"Dragging along the blue lines will **shear** the image in that direction."
+msgstr "Povlačenjem duž plavih linija vrši se **nagib** slike u tom smjeru."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:325
+msgid ""
+"Dragging the circle in the middle will move the **origin point** that "
+"controls the center of **rotation**."
+msgstr ""
+"Povlačenjem kruga u sredini pomiče se **točka porijekla** koja kontrolira "
+"središte **rotacije**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:327
+msgid ""
+"Note: Pay close attention to the play-head position (red playback line). Key "
+"frames are automatically created at the current playback position, to help "
+"quickly create animations. If you want to transform a clip with **no "
+"animation**, be sure the playhead is positioned before (to the left) of your "
+"clip. You can also manually adjust these same clip properties in the "
+"property editor, see :ref:`clip_properties_ref`."
+msgstr ""
+"Napomena: Obratite pažnju na poziciju pokazivača reprodukcije (crvena linija "
+"reprodukcije). Ključni okviri se automatski stvaraju na trenutnoj poziciji "
+"reprodukcije kako bi se brzo kreirale animacije. Ako želite transformirati "
+"isječak bez **animacije**, provjerite je li pokazivač reprodukcije "
+"postavljen prije (lijevo) vašeg isječka. Također možete ručno prilagoditi "
+"iste svojstva isječka u uređivaču svojstava, pogledajte :ref:"
+"`clip_properties_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:334
+#, fuzzy
+msgid ""
+"**Usage Example:** Use the transform handles to resize and reposition a clip "
+"for a picture-in-picture effect."
+msgstr ""
+"**Primjer upotrebe:** Korištenje načina transformacije za promjenu veličine "
+"i pomicanje isječka za efekt slike u slici."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:335
+#, fuzzy
+msgid "**Tip:** Use these handles to precisely control a clip's appearance."
+msgstr ""
+"**Savjet:** Iskoristite ovaj predložak za preciznu kontrolu izgleda isječka."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:338
+msgid "Crop"
+msgstr "Izreži"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:339
+msgid ""
+"The :guilabel:`Crop` preset adds a crop effect to the selected clip and "
+"displays interactive crop handles in the video preview. The submenu offers:"
+msgstr ""
+"Predložak :guilabel:`Izreži` dodaje efekt izrezivanja na odabrani isječak i "
+"prikazuje interaktivne ručke za izrezivanje u video pregledu. Podizbornik "
+"nudi:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:342
+msgid ":guilabel:`No Crop` – remove any existing crop effect."
+msgstr ":guilabel:`Bez izrezivanja` – ukloni postojeći efekt izrezivanja."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:343
+msgid ""
+":guilabel:`Crop (No Resize)` – trim the clip without scaling the remaining "
+"area."
+msgstr ""
+":guilabel:`Izreži (bez promjene veličine)` – izreži isječak bez skaliranja "
+"preostalog područja."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:344
+msgid ""
+":guilabel:`Crop (Resize)` – trim the clip and scale the cropped region to "
+"fill the frame."
+msgstr ""
+":guilabel:`Izreži (promijeni veličinu)` – izreži isječak i skaliraj izrezani "
+"dio da popuni okvir."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:346
+msgid ""
+"Drag the blue handles to adjust the crop boundaries, move the cropped area "
+"around, or move the center handle to reposition the image inside the cropped "
+"area."
+msgstr ""
+"Povucite plave ručke za podešavanje granica izrezivanja, pomicanje izrezanog "
+"područja ili pomaknite središnju ručku za promjenu položaja slike unutar "
+"izrezanog područja."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:351
+msgid ""
+"The :guilabel:`Display` preset toggles the display mode of a clip on the "
+"timeline, showing either its waveform or thumbnail."
+msgstr ""
+"Predložak :guilabel:`Prikaz` prebacuje način prikaza isječka na vremenskoj "
+"liniji, prikazujući njegov valni oblik ili sličicu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:354
+msgid ""
+"**Usage Example:** Displaying the audio waveform for precise audio editing."
+msgstr ""
+"**Primjer upotrebe:** Prikaz valnog oblika zvuka za precizno uređivanje "
+"zvuka."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:355
+msgid ""
+"**Tip:** Use this preset to focus on specific aspects of a clip's audio "
+"during editing."
+msgstr ""
+"**Savjet:** Koristite ovaj predložak za fokusiranje na određene aspekte "
+"zvuka isječka tijekom uređivanja."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:359
+msgid ""
+"The :guilabel:`Properties` preset opens the properties panel for a clip, "
+"allowing quick access for adjustments to clip properties, such as location, "
+"scale, rotation, etc... See :ref:`clip_properties_ref`."
+msgstr ""
+"Predložak :guilabel:`Svojstva` otvara panel svojstava isječka, omogućujući "
+"brz pristup za podešavanje svojstava isječka, poput položaja, veličine, "
+"rotacije itd... Pogledajte :ref:`clip_properties_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:362
+msgid ""
+"**Usage Example:** Adjusting clip properties like opacity, volume, or "
+"position."
+msgstr ""
+"**Primjer upotrebe:** Podešavanje svojstava isječka poput neprozirnosti, "
+"glasnoće ili položaja."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:363
+msgid ""
+"**Tip:** Apply this preset to streamline adjustments to all clip properties "
+"in a single dock."
+msgstr ""
+"**Savjet:** Primijenite ovaj predložak za pojednostavljenje podešavanja svih "
+"svojstava isječka u jednom panelu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:366
+msgid "Copy / Cut / Paste"
+msgstr "Kopiraj / Izreži / Zalijepi"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:367
+msgid ""
+"The :guilabel:`Copy / Paste` preset allows copying and pasting keyframes, "
+"effects, or duplicating an entire clip along with its keyframes. Paste will "
+"create a new clip at the position of your mouse. If you select 1 or more "
+"clips before pasting, you can paste \"over\" those clips with your current "
+"clip."
+msgstr ""
+"Predložak :guilabel:`Kopiraj / Zalijepi` omogućuje kopiranje i lijepljenje "
+"ključnih okvira, efekata ili dupliciranje cijelog isječka zajedno s njegovim "
+"ključnim okvirima. Lijepljenje će stvoriti novi isječak na poziciji "
+"pokazivača miša. Ako prije lijepljenja odaberete jedan ili više isječaka, "
+"možete zalijepiti \"preko\" tih isječaka s trenutnim isječkom."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:371
+msgid ""
+"**Usage Example:** Duplicating a clip with intricate animations for reuse in "
+"different parts of the project."
+msgstr ""
+"**Primjer upotrebe:** Dupliciranje isječka s složenim animacijama za ponovnu "
+"upotrebu u različitim dijelovima projekta."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:372
+msgid ""
+"**Tip:** Use this preset to replicate animations or effects across multiple "
+"clips."
+msgstr ""
+"**Savjet:** Koristite ovaj predložak za repliciranje animacija ili efekata "
+"na više isječaka."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:373
+msgid ""
+"**Tip:** Selecting multiple clips before pasting, sets keyframes and/or "
+"effects for all clips."
+msgstr ""
+"**Savjet:** Odabirom više isječaka prije lijepljenja postavljaju se ključni "
+"okviri i/ili efekti za sve isječke."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:374
+msgid ""
+"**Tip:** You can copy a single effect, and paste it to multiple selected "
+"clips."
+msgstr ""
+"**Savjet:** Možete kopirati jedan efekt i zalijepiti ga na više odabranih "
+"isječaka."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:377
+msgid "Remove Gaps"
+msgstr "Ukloni praznine"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:378
+msgid ""
+"The :guilabel:`Remove Gap` and :guilabel:`Remove All Gaps` options help you "
+"quickly eliminate gaps between clips on the timeline by rippling (i.e., "
+"shifting) subsequent clips to close the gap. These options can be accessed "
+"via the context menu and are only available when gaps are detected."
+msgstr ""
+"Opcije :guilabel:`Ukloni prazninu` i :guilabel:`Ukloni sve praznine` pomažu "
+"vam brzo ukloniti praznine između isječaka na vremenskoj liniji pomicanjem "
+"(tj. pomakom) sljedećih isječaka kako bi se praznina zatvorila. Ove opcije "
+"su dostupne putem kontekstnog izbornika i dostupne su samo kada se otkriju "
+"praznine."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:381
+msgid ""
+"**Remove Gap:** - This option deletes a specific gap between two clips on "
+"the timeline. Right-click on the gap between clips to access the :guilabel:"
+"`Remove Gap` option. - Usage: Use this option to quickly eliminate a "
+"specific gap caused by trimming or using the razor tool."
+msgstr ""
+"**Ukloni prazninu:** - Ova opcija briše određenu prazninu između dva isječka "
+"na vremenskoj liniji. Desni klik na prazninu između isječaka za pristup "
+"opciji :guilabel:`Ukloni prazninu`. - Upotreba: Koristite ovu opciju za brzo "
+"uklanjanje određene praznine uzrokovane rezanjem ili korištenjem alata "
+"britve."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:385
+msgid ""
+"**Remove All Gaps:** - This option removes all gaps between clips on the "
+"timeline for the entire track. Right-click on the track name to access the :"
+"guilabel:`Remove All Gaps` option. - Usage: Ideal for tracks that contain "
+"back-to-back clips, such as a photo slideshow, where no gaps are desired."
+msgstr ""
+"**Ukloni sve praznine:** - Ova opcija uklanja sve praznine između isječaka "
+"na vremenskoj liniji za cijelu stazu. Desni klik na naziv staze za pristup "
+"opciji :guilabel:`Ukloni sve praznine`. - Upotreba: Idealno za staze koje "
+"sadrže isječke jedan do drugog, poput prezentacije fotografija, gdje nisu "
+"poželjne praznine."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:391
+msgid ""
+"The :guilabel:`Remove Clip` option lets you delete a clip from the timeline. "
+"Removing clips is an essential part of organizing your project and getting "
+"rid of unwanted sections. Removing a clip can also impact the surrounding "
+"clips. If you want to clean up the gap that remains after deleting a clip, "
+"you have a few options to automatically adjust your timeline."
+msgstr ""
+"Opcija :guilabel:`Ukloni isječak` omogućuje vam brisanje isječka s vremenske "
+"linije. Uklanjanje isječaka je ključni dio organizacije vašeg projekta i "
+"uklanjanja neželjenih dijelova. Uklanjanje isječka može utjecati i na okolne "
+"isječke. Ako želite očistiti prazninu koja ostane nakon brisanja isječka, "
+"imate nekoliko opcija za automatsko prilagođavanje vremenske linije."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:395
+msgid ""
+"**How to Remove a Clip:** To delete a clip, simply select it and press :kbd:"
+"`Delete` on your keyboard, or right-click the clip and choose :guilabel:"
+"`Remove Clip` from the context menu. You can also select multiple clips at "
+"once by holding down the :kbd:`Ctrl` key and clicking on additional clips, "
+"then remove them all at once."
+msgstr ""
+"**Kako ukloniti isječak:** Za brisanje isječka jednostavno ga odaberite i "
+"pritisnite :kbd:`Delete` na tipkovnici, ili desni klik na isječak i "
+"odaberite :guilabel:`Ukloni isječak` iz kontekstnog izbornika. Također "
+"možete odabrati više isječaka istovremeno držeći :kbd:`Ctrl` i klikajući na "
+"dodatne isječke, zatim ih sve ukloniti odjednom."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:399
+msgid ""
+"**Ripple Delete:** If you want to delete a clip and automatically remove the "
+"empty space (gap) it leaves behind, use the **Ripple Delete** feature by "
+"pressing :kbd:`Shift+Delete`. This will shift all the remaining clips and "
+"transitions on the track to the left, filling in the gap and keeping your "
+"timeline smooth and continuous."
+msgstr ""
+"**Ripple Delete:** Ako želite izbrisati isječak i automatski ukloniti prazni "
+"prostor (prazninu) koji ostavlja, koristite značajku **Ripple Delete** "
+"pritiskom na :kbd:`Shift+Delete`. Ovo će pomaknuti sve preostale isječke i "
+"prijelaze na stazi ulijevo, zatvarajući prazninu i održavajući vašu "
+"vremensku liniju glatkom i kontinuiranom."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:404
+msgid ""
+"**Remove Gap:** After deleting a clip, if you have gaps left in your "
+"timeline that you want to remove, simply right-click in the empty space and "
+"choose :guilabel:`Remove Gap`. This action will shift all clips and "
+"transitions to the left, closing the gap and maintaining the flow of your "
+"video."
+msgstr ""
+"**Ukloni prazninu:** Nakon brisanja isječka, ako na vremenskoj liniji ostanu "
+"praznine koje želite ukloniti, jednostavno desni klik na prazni prostor i "
+"odaberite :guilabel:`Ukloni prazninu`. Ova radnja će pomaknuti sve isječke i "
+"prijelaze ulijevo, zatvarajući prazninu i održavajući tok vašeg videa."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:410
+msgid ""
+"**Example**: If you have a clip that’s no longer needed, such as an intro "
+"you’ve decided not to use, you can quickly select it and either delete it or "
+"use **Ripple Delete** to remove it and shift everything left to close the "
+"gap."
+msgstr ""
+"**Primjer**: Ako imate isječak koji vam više nije potreban, poput uvoda koji "
+"ste odlučili ne koristiti, možete ga brzo odabrati i izbrisati ili koristiti "
+"**Ripple Delete** za uklanjanje i pomicanje svega ulijevo kako biste "
+"zatvorili prazninu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:412
+msgid ""
+"For more advanced editing options and shortcuts, refer to the :ref:"
+"`clips_cutting_slicing_ref` section."
+msgstr ""
+"Za naprednije opcije uređivanja i prečace, pogledajte odjeljak :ref:"
+"`clips_cutting_slicing_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:415
+msgid "Effects"
+msgstr "Efekti"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:416
+msgid ""
+"In addition to the many clip properties which can be animated and adjusted, "
+"you can also drop an effect directly onto a clip from the effects dock. Each "
+"effect is represented by a small colored letter icon. Clicking the effect "
+"icon will populate the properties of that effect, and allow you to edit (and "
+"animate) them. For the full list of effects, see :ref:`effects_ref`."
+msgstr ""
+"Osim mnogih svojstava isječka koja se mogu animirati i podešavati, efekt "
+"možete izravno povući na isječak iz efektnog panela. Svaki efekt predstavlja "
+"mala obojena ikona slova. Klikom na ikonu efekta prikazuju se svojstva tog "
+"efekta, koja možete uređivati (i animirati). Za puni popis efekata, "
+"pogledajte :ref:`effects_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:426
+msgid "Clip Properties"
+msgstr "Svojstva isječka"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:427
+msgid ""
+"Below is a list of clip properties which can be edited, and in most cases, "
+"animated over time. To view a clip's properties, right click and choose :"
+"guilabel:`Properties`. The property editor will appear, where you can change "
+"these properties. You can select multiple clips, transitions or effects at "
+"once. The dropdown at the top of the dock shows entries for each item plus "
+"an entry such as ``2 Selections``. Pick that entry to edit all selected "
+"items together, only properties they share will be visible. If a field is "
+"blank, the values differ between items, but you can still change it or "
+"insert a keyframe for all of them."
+msgstr ""
+"Ispod je popis svojstava isječka koja se mogu uređivati, a u većini "
+"slučajeva i animirati tijekom vremena. Za prikaz svojstava isječka, kliknite "
+"desnom tipkom i odaberite :guilabel:`Svojstva`. Pojavit će se uređivač "
+"svojstava gdje možete mijenjati ta svojstva. Možete odabrati više isječaka, "
+"prijelaza ili efekata odjednom. Padajući izbornik na vrhu panela prikazuje "
+"stavke za svaki element plus stavku poput ``2 odabira``. Odaberite tu stavku "
+"za uređivanje svih odabranih elemenata zajedno, vidljiva će biti samo "
+"svojstva koja dijele. Ako je polje prazno, vrijednosti se razlikuju između "
+"elemenata, ali ih i dalje možete promijeniti ili umetnuti ključni kadar za "
+"sve njih."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:435
+msgid ""
+"Note: Pay close attention to where the play-head (i.e. red playback line) "
+"is. Key frames are automatically created at the current playback position, "
+"to help quickly create animations."
+msgstr ""
+"Napomena: Obratite pažnju na položaj pokazivača reprodukcije (crvena linija "
+"reprodukcije). Ključni kadrovi se automatski stvaraju na trenutnoj poziciji "
+"reprodukcije kako bi se brzo kreirale animacije."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:438
+msgid ""
+"When animating clip properties, you can fade a clip from opaque to "
+"transparent with ``alpha``, slide a clip around the screen with "
+"``location_x`` and ``location_y``, scale a clip smaller or larger with the "
+"``scale_x`` and ``scale_y``, fade the volume of a clip quieter or louder "
+"with ``volume``, and much more. If you want to set a single, static clip "
+"property with **no animation**, be sure the playhead is positioned at the "
+"start of your clip (to the left) when adjusting the property value."
+msgstr ""
+"Prilikom animiranja svojstava isječka, možete isječek izblijediti od "
+"neprozirnog do prozirnog pomoću ``alpha``, pomaknuti isječak po zaslonu "
+"pomoću ``location_x`` i ``location_y``, promijeniti veličinu isječka pomoću "
+"``scale_x`` i ``scale_y``, smanjiti ili pojačati glasnoću isječka pomoću "
+"``volume`` i još mnogo toga. Ako želite postaviti jedno statično svojstvo "
+"isječka bez animacije, provjerite je li pokazivač reprodukcije postavljen na "
+"početak isječka (lijevo) prilikom podešavanja vrijednosti svojstva."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:443
+msgid "See the table below for a full list of clip properties."
+msgstr "Pogledajte tablicu u nastavku za puni popis svojstava isječka."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:449
+msgid "Clip Property Name"
+msgstr "Naziv svojstva isječka"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:449
+msgid "Type"
+msgstr "Tip"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:451 ../clips.rst:529
+msgid "Alpha"
+msgstr "Alfa"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:451 ../clips.rst:452 ../clips.rst:453 ../clips.rst:463
+#: ../clips.rst:464 ../clips.rst:466 ../clips.rst:467 ../clips.rst:470
+#: ../clips.rst:472 ../clips.rst:473 ../clips.rst:474 ../clips.rst:475
+#: ../clips.rst:477 ../clips.rst:478 ../clips.rst:479
+msgid "Key-Frame"
+msgstr "Ključni kadar"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:451
+msgid ""
+"Curve representing the alpha for fading the image and adding transparency (1 "
+"to 0)"
+msgstr ""
+"Krivulja koja predstavlja alfa vrijednost za izblijedjivanje slike i "
+"dodavanje prozirnosti (1 do 0)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:452 ../clips.rst:537
+msgid "Channel Filter"
+msgstr "Filtriranje kanala"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:452
+msgid ""
+"A number representing an audio channel to filter (clears all other channels)"
+msgstr ""
+"Broj koji predstavlja audio kanal za filtriranje (briše sve ostale kanale)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:453 ../clips.rst:545
+msgid "Channel Mapping"
+msgstr "Mapiranje kanala"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:453
+msgid ""
+"A number representing an audio channel to output (only works when filtering "
+"a channel)"
+msgstr ""
+"Broj koji predstavlja audio kanal za izlaz (radi samo pri filtriranju kanala)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:454 ../clips.rst:553
+msgid "Frame Number"
+msgstr "Broj kadra"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:454 ../clips.rst:455 ../clips.rst:458 ../clips.rst:459
+#: ../clips.rst:460 ../clips.rst:465 ../clips.rst:471
+msgid "Enum"
+msgstr "Nabrajanje"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:454
+msgid "The format to display the frame number (if any)"
+msgstr "Format za prikaz broja kadra (ako postoji)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:455 ../clips.rst:486
+msgid "Composite (Blend Mode)"
+msgstr "Slojevanje (Način miješanja)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:455
+msgid ""
+"The blend mode used to composite this clip into lower layers. Default is "
+"**Normal**. See :ref:`clip_composite_ref`."
+msgstr ""
+"Način miješanja koji se koristi za slojevanje ovog isječka u donje slojeve. "
+"Zadano je **Normalno**. Pogledajte :ref:`clip_composite_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:456 ../clips.rst:560
+msgid "Duration"
+msgstr "Trajanje"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:456 ../clips.rst:457 ../clips.rst:469 ../clips.rst:476
+msgid "Float"
+msgstr "Decimalni broj"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:456
+msgid ""
+"The length of the clip (in seconds). Read-only property. This is calculated "
+"by: End - Start."
+msgstr ""
+"Duljina isječka (u sekundama). Svojstvo samo za čitanje. Izračunava se kao: "
+"Kraj - Početak."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:457 ../clips.rst:568
+msgid "End"
+msgstr "Kraj"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:457
+msgid "The end trimming position of the clip (in seconds)"
+msgstr "Pozicija završnog rezanja isječka (u sekundama)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:458 ../clips.rst:576
+msgid "Gravity"
+msgstr "Gravitacija"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:458
+msgid ""
+"The gravity of a clip determines where it snaps to its parent (details below)"
+msgstr ""
+"Gravitacija isječka određuje gdje se pričvršćuje na roditelja (detalji u "
+"nastavku)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:459 ../clips.rst:593
+msgid "Enable Audio"
+msgstr "Omogući zvuk"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:459
+msgid ""
+"An optional override to determine if this clip has audio (-1=undefined, "
+"0=no, 1=yes)"
+msgstr ""
+"Opcionalno preglasavanje za određivanje ima li ovaj isječak zvuk "
+"(-1=nerazjašnjeno, 0=ne, 1=da)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:460 ../clips.rst:601
+msgid "Enable Video"
+msgstr "Omogući video"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:460
+msgid ""
+"An optional override to determine if this clip has video (-1=undefined, "
+"0=no, 1=yes)"
+msgstr ""
+"Opcionalno preglasavanje za određivanje ima li ovaj isječak video "
+"(-1=nerazjašnjeno, 0=ne, 1=da)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:461 ../clips.rst:609
+msgid "ID"
+msgstr "ID"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:461 ../clips.rst:468
+msgid "String"
+msgstr "Niz"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:461
+msgid ""
+"A randomly generated GUID (globally unique identifier) assigned to each "
+"clip. Read-only property."
+msgstr ""
+"Nasumično generirani GUID (globalno jedinstveni identifikator) dodijeljen "
+"svakom isječku. Svojstvo samo za čitanje."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:462 ../clips.rst:617
+msgid "Track"
+msgstr "Staza"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:462
+msgid "Int"
+msgstr "Cijeli broj"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:462
+msgid ""
+"The layer which holds the clip (higher tracks are rendered on top of lower "
+"tracks)"
+msgstr "Sloj koji drži isječak (viši slojevi se prikazuju iznad nižih)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:463
+msgid "Location X"
+msgstr "Lokacija X"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:463
+msgid ""
+"Curve representing the relative X position in percent based on the gravity "
+"(-1 to 1)"
+msgstr ""
+"Krivulja koja predstavlja relativnu X poziciju u postocima na temelju "
+"gravitacije (-1 do 1)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:464
+msgid "Location Y"
+msgstr "Lokacija Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:464
+msgid ""
+"Curve representing the relative Y position in percent based on the gravity "
+"(-1 to 1)"
+msgstr ""
+"Krivulja koja predstavlja relativnu Y poziciju u postocima na temelju "
+"gravitacije (-1 do 1)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:465 ../clips.rst:637
+msgid "Volume Mixing"
+msgstr "Miješanje glasnoće"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:465
+msgid ""
+"The volume mixing choices control how volume is adjusted before mixing "
+"(None=don't adjust volume of this clip, Reduce=lower the volume to 80%, "
+"Average=divide volume based on # of concurrent clips, details below)"
+msgstr ""
+"Opcije miješanja glasnoće kontroliraju kako se glasnoća podešava prije "
+"miješanja (Nema=ne podešava glasnoću ovog isječka, Smanji=smanji glasnoću na "
+"80%, Prosjek=podijeli glasnoću prema broju istovremenih isječaka, detalji u "
+"nastavku)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:466
+msgid "Origin X"
+msgstr "Podrijetlo X"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:466
+msgid ""
+"Curve representing the rotation origin point, X position in percent (-1 to 1)"
+msgstr ""
+"Krivulja koja predstavlja točku podrijetla rotacije, X poziciju u postocima "
+"(-1 do 1)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:467
+msgid "Origin Y"
+msgstr "Podrijetlo Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:467
+msgid ""
+"Curve representing the rotation origin point, Y position in percent (-1 to 1)"
+msgstr ""
+"Krivulja koja predstavlja točku porijekla rotacije, Y pozicija u postocima "
+"(-1 do 1)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:468
+msgid "Parent"
+msgstr "Roditelj"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:468
+msgid ""
+"The parent object to this clip, which makes many of these keyframe values "
+"initialize to the parent value"
+msgstr ""
+"Roditeljski objekt ovog isječka, zbog čega se mnoge vrijednosti ključnih "
+"okvira inicijaliziraju na vrijednost roditelja"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:469 ../clips.rst:676
+msgid "Position"
+msgstr "Pozicija"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:469
+msgid ""
+"The position of the clip on the timeline (in seconds, 0.0 is the beginning "
+"of the timeline)"
+msgstr ""
+"Pozicija isječka na vremenskoj liniji (u sekundama, 0.0 je početak vremenske "
+"linije)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:470 ../clips.rst:685
+msgid "Rotation"
+msgstr "Rotacija"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:470
+msgid "Curve representing the rotation (0 to 360)"
+msgstr "Krivulja koja predstavlja rotaciju (0 do 360)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:471 ../clips.rst:701
+msgid "Scale"
+msgstr "Skala"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:471
+msgid ""
+"The scale determines how a clip should be resized to fit its parent (details "
+"below)"
+msgstr ""
+"Skala određuje kako se isječak treba promijeniti da bi odgovarao roditelju "
+"(detalji u nastavku)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:472
+msgid "Scale X"
+msgstr "Skala X"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:472
+msgid "Curve representing the horizontal scaling in percent (0 to 1)"
+msgstr "Krivulja koja predstavlja horizontalno skaliranje u postocima (0 do 1)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:473
+msgid "Scale Y"
+msgstr "Skala Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:473
+msgid "Curve representing the vertical scaling in percent (0 to 1)"
+msgstr "Krivulja koja predstavlja vertikalno skaliranje u postocima (0 do 1)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:474
+msgid "Shear X"
+msgstr "Iskrivljenje X"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:474
+msgid "Curve representing X shear angle in degrees (-45.0=left, 45.0=right)"
+msgstr ""
+"Krivulja koja predstavlja kut iskrivljenja X u stupnjevima (-45,0=lijevo, "
+"45,0=desno)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:475
+msgid "Shear Y"
+msgstr "Iskrivljenje Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:475
+msgid "Curve representing Y shear angle in degrees (-45.0=down, 45.0=up)"
+msgstr ""
+"Krivulja koja predstavlja kut iskrivljenja Y u stupnjevima (-45,0=dolje, "
+"45,0=gore)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:476 ../clips.rst:735
+msgid "Start"
+msgstr "Početak"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:476
+msgid "The start trimming position of the clip (in seconds)"
+msgstr "Početna pozicija rezanja isječka (u sekundama)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:477
+msgid ""
+"Curve representing the frames over time to play (used for speed and "
+"direction of video)"
+msgstr ""
+"Krivulja koja predstavlja broj sličica tijekom vremena za reprodukciju "
+"(koristi se za brzinu i smjer videa)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:478
+msgid ""
+"Curve representing the volume for fading audio quieter/louder, mute, or "
+"adjusting levels (0 to 1)"
+msgstr ""
+"Krivulja koja predstavlja glasnoću za postepeno utišavanje ili pojačavanje "
+"zvuka, isključivanje zvuka ili podešavanje razina (0 do 1)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:479 ../clips.rst:780
+msgid "Wave Color"
+msgstr "Boja valova"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:479
+msgid "Curve representing the color of the audio waveform"
+msgstr "Krivulja koja predstavlja boju audio valnog oblika"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:480 ../clips.rst:787
+msgid "Waveform"
+msgstr "Valni oblik"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:480
+msgid "Bool"
+msgstr "Bool"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:480
+msgid "Should a waveform be used instead of the clip's image"
+msgstr "Trebaju li se koristiti valni oblici umjesto slike isječka"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:487
+msgid ""
+"The :guilabel:`Composite (Blend Mode)` property controls **how the pixels of "
+"this clip mix with the clips on lower tracks**. If you are new to this, "
+"start with **Normal**. Switch modes when you want a quick creative change "
+"without adding an effect."
+msgstr ""
+"Svojstvo :guilabel:`Composite (Blend Mode)` kontrolira **kako se pikseli "
+"ovog isječka miješaju s isječcima na nižim trakama**. Ako ste novi u tome, "
+"započnite s **Normal**. Promijenite način rada kada želite brzu kreativnu "
+"promjenu bez dodavanja efekta."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:490
+msgid "**Beginner tips**"
+msgstr "**Savjeti za početnike**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:492
+msgid ""
+"Want to **brighten** light effects, flares, or smoke over a dark scene? Try "
+"**Screen** or **Add**."
+msgstr ""
+"Želite li **posvijetliti** svjetlosne efekte, bljeskove ili dim preko tamne "
+"scene? Isprobajte **Screen** ili **Add**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:493
+msgid ""
+"Want to **darken** or place a texture over footage (paper grain, grids, "
+"shadows)? Try **Multiply** or **Color Burn**."
+msgstr ""
+"Želite li **potamniti** ili postaviti teksturu preko snimke (zrno papira, "
+"mreže, sjene)? Isprobajte **Multiply** ili **Color Burn**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:494
+msgid ""
+"Want **more contrast** without crushing blacks and whites too much? Try "
+"**Overlay** or **Soft Light**."
+msgstr ""
+"Želite li **više kontrasta** bez prevelikog gubitka detalja u crnim i "
+"bijelim dijelovima? Isprobajte **Overlay** ili **Soft Light**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:495
+msgid ""
+"Want a **creative/inverted look** or to line things up? Try **Difference** "
+"or **Exclusion**."
+msgstr ""
+"Želite li **kreativan/invertiran izgled** ili poravnati elemente? Isprobajte "
+"**Difference** ili **Exclusion**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:497
+msgid "**Common modes (recommended)**"
+msgstr "**Uobičajeni načini (preporučeno)**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:503
+msgid "Mode"
+msgstr "Način"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:503
+msgid "What it does"
+msgstr "Što radi"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:505
+msgid "Normal"
+msgstr "Normalno"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:505
+msgid "Standard alpha compositing. Respects transparency from the clip."
+msgstr "Standardno alfa složenje. Poštuje prozirnost isječka."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:506
+msgid "Darken"
+msgstr "Potamni"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:506
+msgid "Chooses the darker pixel from the two layers, per channel."
+msgstr "Izabire tamniji piksel od dva sloja, po kanalu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:507
+msgid "Multiply"
+msgstr "Pomnoži"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:507
+msgid "Multiplies colors. Darkens and helps textures sit on top of footage."
+msgstr "Množi boje. Potamnjuje i pomaže teksturama da se istaknu na snimci."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:508
+msgid "Color Burn"
+msgstr "Color Burn"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:508
+msgid "Pushes shadows darker and boosts contrast; can clip to black."
+msgstr "Potamnjuje sjene i pojačava kontrast; može izrezati do crne."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:509
+msgid "Lighten"
+msgstr "Posvijetli"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:509
+msgid "Chooses the lighter pixel from the two layers, per channel."
+msgstr "Izabire svjetliji piksel od dva sloja, po kanalu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:510
+msgid "Screen"
+msgstr "Screen"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:510
+msgid "The opposite of Multiply. Brightens; great for light, glow, fire, fog."
+msgstr ""
+"Suprotno od Multiply. Posvjetljuje; izvrsno za svjetlo, sjaj, vatru, maglu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:511
+msgid "Color Dodge"
+msgstr "Color Dodge"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:511
+msgid "Brightens highlights strongly; can blow out to white."
+msgstr "Jako posvjetljuje istaknute dijelove; može izgorjeti do bijele."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:512
+msgid "Add"
+msgstr "Dodaj"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:512
+msgid ""
+"Adds pixel values. Strong brightening; clips at white. Also called *Linear "
+"Dodge (Add)*."
+msgstr ""
+"Zbraja vrijednosti piksela. Jako posvjetljenje; izrezivanje na bijelo. "
+"Također nazvan *Linear Dodge (Add)*."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:513
+msgid "Overlay"
+msgstr "Overlay"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:513
+msgid ""
+"Mix of Multiply and Screen using the lower layer to decide. Adds punchy "
+"contrast."
+msgstr ""
+"Mješavina Multiply i Screen koristeći donji sloj za odluku. Dodaje snažan "
+"kontrast."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:514
+msgid "Soft Light"
+msgstr "Soft Light"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:514
+msgid "Gentle contrast curve; softer than Overlay."
+msgstr "Nježna kontrastna krivulja; mekša od Overlay."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:515
+msgid "Hard Light"
+msgstr "Hard Light"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:515
+msgid "Stronger, edgy contrast using the upper layer to drive the change."
+msgstr "Snažniji, oštriji kontrast koristeći gornji sloj za promjenu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:516
+msgid "Difference"
+msgstr "Difference"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:516
+msgid ""
+"Absolute difference between layers. Creates inverted/psychedelic colors; "
+"useful for alignment."
+msgstr ""
+"Apsolutna razlika između slojeva. Stvara invertirane/psihodelične boje; "
+"korisno za poravnavanje."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:517
+msgid "Exclusion"
+msgstr "Exclusion"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:517
+msgid "Softer version of Difference with less contrast."
+msgstr "Mekša verzija Difference s manjim kontrastom."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:520
+msgid "**Notes**"
+msgstr "**Bilješke**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:522
+msgid ""
+"Blend modes affect **color**, while alpha (the :guilabel:`Alpha` property) "
+"affects **transparency**. You can use both."
+msgstr ""
+"Načini miješanja utječu na **boju**, dok alfa (svojstvo :guilabel:`Alpha`) "
+"utječe na **prozirnost**. Možete koristiti oba."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:523
+msgid ""
+"Some modes can create very bright or very dark results. If needed, lower "
+"the :guilabel:`Alpha` property to soften."
+msgstr ""
+"Neki načini mogu stvoriti vrlo svijetle ili vrlo tamne rezultate. Ako je "
+"potrebno, smanjite svojstvo :guilabel:`Alpha` za omekšavanje."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:524
+msgid ""
+"The exact look of Multiply/Screen/Overlay family is best when project colors "
+"are in a linear color space."
+msgstr ""
+"Točan izgled obitelji Multiply/Screen/Overlay najbolji je kada su boje "
+"projekta u linearnom kolor prostoru."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:530
+msgid ""
+"The :guilabel:`Alpha` property is a key-frame curve that represents the "
+"alpha value, determining fading and transparency of the image in the clip. "
+"The curve ranges from 1 (fully opaque) to 0 (completely transparent)."
+msgstr ""
+"Svojstvo :guilabel:`Alpha` je krivulja ključnih okvira koja predstavlja alfa "
+"vrijednost, određujući izblijedjivanje i prozirnost slike u isječku. "
+"Krivulja se kreće od 1 (potpuno neprozirno) do 0 (potpuno prozirno)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:533
+msgid ""
+"**Usage Example:** Applying a gradual fade-in or fade-out effect to smoothly "
+"transition clips."
+msgstr ""
+"**Primjer upotrebe:** Primjena postupnog efekta izblijedjivanja ili "
+"pojavljivanja za glatki prijelaz između isječaka."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:534
+msgid ""
+"**Tip:** Use keyframes to create complex fading patterns, such as fading in "
+"and then fading out for a ghostly effect."
+msgstr ""
+"**Savjet:** Koristite ključne okvire za stvaranje složenih uzoraka "
+"izblijedjivanja, poput pojavljivanja i zatim nestajanja za sablasni efekt."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:538
+msgid ""
+"The :guilabel:`Channel Filter` property is a key-frame curve used for audio "
+"manipulation. It specifies a single audio channel to be filtered while "
+"clearing all other channels."
+msgstr ""
+"Svojstvo :guilabel:`Channel Filter` je krivulja ključnih okvira koja se "
+"koristi za manipulaciju zvukom. Određuje jedan audio kanal koji se filtrira "
+"dok se svi ostali kanali brišu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:541
+msgid ""
+"**Usage Example:** Isolating and enhancing specific audio elements, like "
+"isolating vocals from a song."
+msgstr ""
+"**Primjer upotrebe:** Izoliranje i pojačavanje specifičnih audio elemenata, "
+"poput izoliranja vokala iz pjesme."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:542
+msgid ""
+"**Tip:** Combine with the \"Channel Mapping\" property to route the filtered "
+"channel to a specific audio output."
+msgstr ""
+"**Savjet:** Kombinirajte sa svojstvom \"Channel Mapping\" za usmjeravanje "
+"filtriranog kanala na određeni audio izlaz."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:546
+msgid ""
+"The :guilabel:`Channel Mapping` property is a key-frame curve that defines "
+"the output audio channel for the clip. This property works in conjunction "
+"with the \"Channel Filter\" property and specifies which channel is retained "
+"in the output."
+msgstr ""
+"Svojstvo :guilabel:`Channel Mapping` je krivulja ključnih okvira koja "
+"definira izlazni audio kanal za isječak. Ovo svojstvo radi u suradnji sa "
+"svojstvom \"Channel Filter\" i određuje koji kanal se zadržava u izlazu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:549
+msgid ""
+"**Usage Example:** Keeping the filtered channel's audio while discarding "
+"others for an unconventional audio mix."
+msgstr ""
+"**Primjer upotrebe:** Zadržavanje zvuka filtriranog kanala dok se ostali "
+"odbacuju za nekonvencionalnu audio mješavinu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:550
+msgid ""
+"**Tip:** Experiment with mapping different channels to create unique audio "
+"effects, like panning sounds between speakers."
+msgstr ""
+"**Savjet:** Eksperimentirajte s mapiranjem različitih kanala za stvaranje "
+"jedinstvenih audio efekata, poput panoramiranja zvukova između zvučnika."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:554
+msgid ""
+"The :guilabel:`Frame Number` property specifies the format in which the "
+"frame numbers are displayed within the clip, if applicable."
+msgstr ""
+"Svojstvo :guilabel:`Frame Number` određuje format u kojem se brojevi okvira "
+"prikazuju unutar isječka, ako je primjenjivo."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:556
+msgid ""
+"**Usage Example:** Displaying frame numbers in the top left corner of the "
+"clip, as either absolute frame number or relative to the start of the clip."
+msgstr ""
+"**Primjer upotrebe:** Prikazivanje brojeva okvira u gornjem lijevom kutu "
+"isječka, kao apsolutni broj okvira ili relativno u odnosu na početak isječka."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:557
+msgid ""
+"**Tip:** This can help with identifying precise frame numbers or "
+"troubleshooting a problem."
+msgstr ""
+"**Savjet:** Ovo može pomoći u identificiranju preciznih brojeva okvira ili "
+"rješavanju problema."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:561
+msgid ""
+"The :guilabel:`Duration` property is a float value indicating the length of "
+"the clip in seconds. This is a Read-only property. This is calculated by: "
+"End - Start. To modify duration, you must edit the :guilabel:`Start` and/or :"
+"guilabel:`End` clip properties."
+msgstr ""
+"Svojstvo :guilabel:`Duration` je decimalna vrijednost koja označava duljinu "
+"isječka u sekundama. Ovo je svojstvo samo za čitanje. Izračunava se kao: "
+"Kraj - Početak. Za promjenu trajanja morate urediti svojstva isječka :"
+"guilabel:`Start` i/ili :guilabel:`End`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:564
+msgid ""
+"**Usage Example:** Inspect the duration of a clip to ensure it fits a "
+"specific time slot in the project."
+msgstr ""
+"**Primjer upotrebe:** Provjerite trajanje isječka kako biste osigurali da "
+"odgovara određenom vremenskom okviru u projektu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:565
+msgid ""
+"**Tip:** Consider using the \"Duration\" property for clips that need to "
+"match specific time intervals, such as dialogue or scenes."
+msgstr ""
+"**Savjet:** Razmotrite korištenje svojstva \"Duration\" za isječke koji "
+"trebaju odgovarati određenim vremenskim intervalima, poput dijaloga ili "
+"scena."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:569
+msgid ""
+"The :guilabel:`End` property defines the trimming point at the end of the "
+"clip in seconds, allowing you to control how much of the clip is visible in "
+"the timeline. Changing this property will impact the :guilabel:`Duration` "
+"clip property."
+msgstr ""
+"Svojstvo :guilabel:`End` definira točku rezanja na kraju isječka u "
+"sekundama, omogućujući vam kontrolu koliko isječka je vidljivo na vremenskoj "
+"liniji. Promjena ovog svojstva utjecat će na svojstvo :guilabel:`Duration` "
+"isječka."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:572
+msgid ""
+"**Usage Example:** Trimming the end of a clip to align with another clip or "
+"trimming off unwanted sections of the clip."
+msgstr ""
+"**Primjer upotrebe:** Rezanje kraja isječka kako bi se uskladio s drugim "
+"isječkom ili uklanjanje neželjenih dijelova isječka."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:573
+msgid ""
+"**Tip:** Combine the \"Start\" and \"End\" properties to precisely control "
+"the visible portion of the clip."
+msgstr ""
+"**Savjet:** Kombinirajte svojstva \"Start\" i \"End\" za preciznu kontrolu "
+"vidljivog dijela isječka."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:577
+msgid ""
+"The :guilabel:`Gravity` clip property sets the initial display position "
+"coordinate (X,Y) for the clip, after it has been scaled (see :ref:"
+"`clip_scale_ref`). This affects where the clip picture is initially "
+"displayed on the screen, for example ``Top Left`` or ``Bottom Right``. The "
+"default gravity option is ``Center``, which displays the picture in the very "
+"center of the screen. The gravity options are:"
+msgstr ""
+"Svojstvo isječka :guilabel:`Gravity` postavlja početne koordinate prikaza (X,"
+"Y) za isječak, nakon što je skaliran (vidi :ref:`clip_scale_ref`). Ovo "
+"utječe na početni položaj slike isječka na ekranu, na primjer ``Gore "
+"Lijevo`` ili ``Dolje Desno``. Zadana opcija gravitacije je ``Center``, koja "
+"prikazuje sliku u samom centru ekrana. Opcije gravitacije su:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:582
+msgid ""
+"**Top Left** – The top and left edges of the clip align with the top and "
+"left edges of the screen"
+msgstr ""
+"**Gore Lijevo** – Gornji i lijevi rubovi isječka poravnati su s gornjim i "
+"lijevim rubovima ekrana"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:583
+msgid ""
+"**Top Center** – The top edge of the clip aligns with the top edge of the "
+"screen; the clip is horizontally centered on the screen."
+msgstr ""
+"**Gore Centar** – Gornji rub isječka poravnat je s gornjim rubom ekrana; "
+"isječak je horizontalno centriran na ekranu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:584
+msgid ""
+"**Top Right** – The top and right edges of the clip align with the top and "
+"right edges of the screen"
+msgstr ""
+"**Gore Desno** – Gornji i desni rubovi isječka poravnati su s gornjim i "
+"desnim rubovima ekrana"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:585
+msgid ""
+"**Left** – The left edge of the clip aligns with the left edge of the "
+"screen; the clip is vertically centered on the screen."
+msgstr ""
+"**Lijevo** – Lijevi rub isječka poravnat je s lijevim rubom ekrana; isječak "
+"je vertikalno centriran na ekranu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:586
+msgid ""
+"**Center** (default) – The clip is centered horizontally and vertically on "
+"the screen."
+msgstr ""
+"**Centar** (zadano) – Isječak je centriran horizontalno i vertikalno na "
+"ekranu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:587
+msgid ""
+"**Right** – The right edge of the clip aligns with the right edge of the "
+"screen; the clip is vertically centered on the screen."
+msgstr ""
+"**Desno** – Desni rub isječka poravnat je s desnim rubom ekrana; isječak je "
+"vertikalno centriran na ekranu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:588
+msgid ""
+"**Bottom Left** – The bottom and left edges of the clip align with the "
+"bottom and left edges of the screen"
+msgstr ""
+"**Dolje Lijevo** – Donji i lijevi rubovi isječka poravnati su s donjim i "
+"lijevim rubovima ekrana"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:589
+msgid ""
+"**Bottom Center** – The bottom edge of the clip aligns with the bottom edge "
+"of the screen; the clip is horizontally centered on the screen."
+msgstr ""
+"**Dolje Centar** – Donji rub isječka poravnat je s donjim rubom ekrana; "
+"isječak je horizontalno centriran na ekranu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:590
+msgid ""
+"**Bottom Right** – The bottom and right edges of the clip align with the "
+"bottom and right edges of the screen"
+msgstr ""
+"**Dolje Desno** – Donji i desni rubovi isječka poravnati su s donjim i "
+"desnim rubovima ekrana"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:594
+msgid ""
+"The :guilabel:`Enable Audio` property is an enumeration that overrides the "
+"default audio setting for the clip. Possible values: -1 (undefined), 0 (no "
+"audio), 1 (audio enabled)."
+msgstr ""
+"Svojstvo :guilabel:`Enable Audio` je enumeracija koja nadjačava zadane audio "
+"postavke za isječak. Moguće vrijednosti: -1 (nedefinirano), 0 (bez zvuka), 1 "
+"(zvuk omogućen)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:597
+msgid ""
+"**Usage Example:** Turning off unwanted audio for a clip, like ambient noise."
+msgstr ""
+"**Primjer upotrebe:** Isključivanje neželjenog zvuka za isječak, poput "
+"ambijentalne buke."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:598
+msgid ""
+"**Tip:** Use this property to control audio playback for specific clips, "
+"especially clips which have no useful audio track."
+msgstr ""
+"**Savjet:** Koristite ovo svojstvo za kontrolu reprodukcije zvuka za "
+"određene isječke, posebno one koji nemaju korisnu audio stazu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:602
+msgid ""
+"The :guilabel:`Enable Video` property is an enumeration that overrides the "
+"default video setting for the clip. Possible values: -1 (undefined), 0 (no "
+"video), 1 (video enabled)."
+msgstr ""
+"Svojstvo :guilabel:`Enable Video` je enumeracija koja nadjačava zadane video "
+"postavke za isječak. Moguće vrijednosti: -1 (nedefinirano), 0 (bez videa), 1 "
+"(video omogućen)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:605
+msgid ""
+"**Usage Example:** Disabling the video of a clip while retaining its audio "
+"for creating audio-only sequences."
+msgstr ""
+"**Primjer upotrebe:** Onemogućavanje videa isječka uz zadržavanje zvuka za "
+"stvaranje sekvenci samo sa zvukom."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:606
+msgid ""
+"**Tip:** This property can be helpful when creating scenes with audio "
+"commentary or voiceovers."
+msgstr ""
+"**Savjet:** Ova svojstvo može biti korisno pri stvaranju scena s audio "
+"komentarima ili glasovnim naracijama."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:610
+msgid ""
+"The :guilabel:`ID` property holds a randomly generated GUID (Globally Unique "
+"Identifier) assigned to each clip, ensuring its uniqueness. This is a Read-"
+"only property, and assigned by OpenShot when a clip is created."
+msgstr ""
+"Svojstvo :guilabel:`ID` sadrži nasumično generirani GUID (Globalno "
+"jedinstveni identifikator) dodijeljen svakom isječku, osiguravajući njegovu "
+"jedinstvenost. Ovo je svojstvo samo za čitanje i dodjeljuje ga OpenShot "
+"prilikom stvaranja isječka."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:613
+msgid ""
+"**Usage Example:** Referencing specific clips within custom scripts or "
+"automation tasks."
+msgstr ""
+"**Primjer upotrebe:** Referenciranje određenih isječaka unutar prilagođenih "
+"skripti ili automatiziranih zadataka."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:614
+msgid ""
+"**Tip:** While typically managed behind the scenes, understanding clip IDs "
+"can aid in advanced project customization."
+msgstr ""
+"**Savjet:** Iako se obično upravlja u pozadini, razumijevanje ID-ova "
+"isječaka može pomoći u naprednoj prilagodbi projekata."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:618
+msgid ""
+"The :guilabel:`Track` property is an integer indicating the layer on which "
+"the clip is placed. Clips on higher tracks are rendered above those on lower "
+"tracks."
+msgstr ""
+"Svojstvo :guilabel:`Track` je cijeli broj koji označava sloj na kojem je "
+"isječak postavljen. Isječci na višim trakama prikazuju se iznad onih na "
+"nižim trakama."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:621
+msgid ""
+"**Usage Example:** Arranging clips in different layers for creating visual "
+"depth and complexity."
+msgstr ""
+"**Primjer upotrebe:** Raspoređivanje isječaka u različite slojeve za "
+"stvaranje vizualne dubine i složenosti."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:622
+msgid ""
+"**Tip:** Use higher tracks for elements that need to appear above others, "
+"like text overlays or graphics."
+msgstr ""
+"**Savjet:** Koristite više trake za elemente koji trebaju biti iznad drugih, "
+"poput tekstualnih slojeva ili grafike."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:627
+msgid "Location X and Location Y"
+msgstr "Lokacija X i Lokacija Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:628
+msgid ""
+"The :guilabel:`Location X` and :guilabel:`Location Y` properties are key-"
+"frame curves that determine the relative position of the clip, expressed in "
+"percentages, based on the specified gravity. The range for these curves is "
+"-1 to 1. See :ref:`clip_transform_ref`."
+msgstr ""
+"Svojstva :guilabel:`Location X` i :guilabel:`Location Y` su krivulje "
+"ključnih okvira koje određuju relativni položaj isječka, izražen u "
+"postocima, na temelju zadane gravitacije. Raspon ovih krivulja je od -1 do "
+"1. Vidi :ref:`clip_transform_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:631
+msgid ""
+"**Usage Example:** Animating a clip's movement across the screen using key-"
+"frame curves for both X and Y locations."
+msgstr ""
+"**Primjer upotrebe:** Animiranje kretanja isječka preko zaslona koristeći "
+"krivulje ključnih okvira za X i Y lokacije."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:632
+msgid ""
+"**Tip:** Combine with gravity settings to create dynamic animations that "
+"adhere to consistent alignment rules."
+msgstr ""
+"**Savjet:** Kombinirajte s postavkama gravitacije za stvaranje dinamičnih "
+"animacija koje se pridržavaju dosljednih pravila poravnanja."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:638
+msgid ""
+"The :guilabel:`Volume Mixing` property is an enumeration that controls how "
+"volume adjustments are applied before mixing audio. Options: None (no "
+"adjustment), Reduce (volume lowered to 80%), Average (volume divided based "
+"on the number of concurrent clips)."
+msgstr ""
+"Svojstvo :guilabel:`Volume Mixing` je enumeracija koja kontrolira kako se "
+"prilagodbe glasnoće primjenjuju prije miksanja zvuka. Opcije: None (bez "
+"prilagodbe), Reduce (glasnoća smanjena na 80%), Average (glasnoća "
+"podijeljena prema broju istovremenih isječaka)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:641
+msgid ""
+"**Usage Example:** Automatically lowering the volume of a clip to allow "
+"background music to stand out more prominently."
+msgstr ""
+"**Primjer upotrebe:** Automatsko smanjenje glasnoće isječka kako bi "
+"pozadinska glazba bila istaknutija."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:642
+msgid ""
+"**Tip:** Experiment with volume mixing options to achieve balanced audio "
+"levels across different clips."
+msgstr ""
+"**Savjet:** Eksperimentirajte s opcijama miksanja glasnoće kako biste "
+"postigli uravnotežene razine zvuka među različitim isječcima."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:644
+msgid ""
+"Mixing audio involves adjusting volume levels so that **overlapping clips** "
+"do not become too loud (creating audio distortion and loss of audio "
+"clarity). If you combine particularly loud audio clips on multiple tracks, "
+"clipping (a staccato audio distortion) may occur. To avoid distortion, "
+"OpenShot might need to reduce the volume levels in overlapping clips. The "
+"following audio mixing methods are available:"
+msgstr ""
+"Miksanje zvuka uključuje podešavanje razina glasnoće tako da **preklapajući "
+"isječci** ne postanu preglasni (što stvara distorziju zvuka i gubitak "
+"jasnoće). Ako kombinirate posebno glasne isječke na više traka, može doći do "
+"clippinga (staccato distorzije zvuka). Kako bi se izbjegla distorzija, "
+"OpenShot može smanjiti razine glasnoće u preklapajućim isječcima. Dostupne "
+"su sljedeće metode miksanja zvuka:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:648
+msgid ""
+"**None** - Make no adjustments to volume data before mixing audio. "
+"Overlapping clips will combine audio at full volume, with no reduction."
+msgstr ""
+"**None** - Ne vrši prilagodbe glasnoće prije miksanja zvuka. Preklapajući "
+"isječci će kombinirati zvuk na punoj glasnoći, bez smanjenja."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:649
+msgid ""
+"**Average** - Automatically divide the volume of each clip based on the # of "
+"overlapping clips. For example, 2 overlapping clips would each have 50% "
+"volume, 3 overlapping clips would each have 33% volume, etc..."
+msgstr ""
+"**Average** - Automatski dijeli glasnoću svakog isječka na temelju broja "
+"preklapajućih isječaka. Na primjer, 2 preklapajuća isječka imat će svaki 50% "
+"glasnoće, 3 preklapajuća isječka svaki 33% glasnoće, itd..."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:650
+msgid ""
+"**Reduce** - Automatically reduce overlapping clips volume by 20%, which "
+"reduces the likelihood of becoming too loud, but does not always prevent "
+"audio distortion. For example, if you have 10 loud clips overlapping, each "
+"with a 20% reduction in volume, it might still exceed the max allowable "
+"volume and exhibit audio distortion."
+msgstr ""
+"**Reduce** - Automatski smanjuje glasnoću preklapajućih isječaka za 20%, što "
+"smanjuje vjerojatnost preglasnosti, ali ne sprječava uvijek distorziju "
+"zvuka. Na primjer, ako imate 10 glasnih isječaka koji se preklapaju, svaki "
+"sa smanjenjem glasnoće od 20%, glasnoća može i dalje premašiti maksimalno "
+"dopuštenu razinu i pokazivati distorziju zvuka."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:652
+msgid ""
+"For quickly adjusting the volume of a clip, you can use the simple :guilabel:"
+"`Volume Preset` menu. See :ref:`clip_presets_ref`. For precise control over "
+"the volume of a clip, you can manually set the :guilabel:`Volume Key-frame`. "
+"See :ref:`clip_volume_ref`."
+msgstr ""
+"Za brzo podešavanje glasnoće isječka možete koristiti jednostavni izbornik :"
+"guilabel:`Volume Preset`. Vidi :ref:`clip_presets_ref`. Za preciznu kontrolu "
+"glasnoće isječka možete ručno postaviti :guilabel:`Volume Key-frame`. Vidi :"
+"ref:`clip_volume_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:656
+msgid "Origin X and Origin Y"
+msgstr "Porijeklo X i Porijeklo Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:657
+msgid ""
+"The :guilabel:`Origin X` and :guilabel:`Origin Y` properties are key-frame "
+"curves that define the rotation origin point's position in percentages. The "
+"range for these curves is -1 to 1. See :ref:`clip_transform_ref`."
+msgstr ""
+"Svojstva :guilabel:`Origin X` i :guilabel:`Origin Y` su krivulje ključnih "
+"okvira koje definiraju položaj točke porijekla rotacije u postocima. Raspon "
+"ovih krivulja je od -1 do 1. Vidi :ref:`clip_transform_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:660
+msgid ""
+"**Usage Example:** Rotating a clip around a specific point, such as a "
+"character's pivot joint."
+msgstr ""
+"**Primjer upotrebe:** Rotiranje isječka oko određene točke, poput zgloba "
+"pivotne točke lika."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:661
+msgid ""
+"**Tip:** Set the origin point to achieve controlled and natural-looking "
+"rotations during animations."
+msgstr ""
+"**Savjet:** Postavite točku porijekla za postizanje kontroliranih i "
+"prirodnih rotacija tijekom animacija."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:666
+msgid "Clip Parent"
+msgstr "Roditelj isječka"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:667
+msgid ""
+"The :guilabel:`Parent` property of a clip sets the initial keyframe values "
+"to the parent object. For example, if many clips all point to the same "
+"parent clip, they will inherit all their default properties, such as "
+"``location_x``, ``location_y``, ``scale_x``, ``scale_y``, etc... This can be "
+"very useful in certain circumstances, such as when you have many clips that "
+"need to move or scale together."
+msgstr ""
+"Svojstvo :guilabel:`Parent` isječka postavlja početne vrijednosti ključnih "
+"okvira na roditeljski objekt. Na primjer, ako mnogi isječci pokazuju na isti "
+"roditeljski isječak, naslijedit će sva njegova zadana svojstva, poput "
+"``location_x``, ``location_y``, ``scale_x``, ``scale_y`` itd. Ovo može biti "
+"vrlo korisno u određenim situacijama, kao kada imate mnogo isječaka koji "
+"trebaju zajedno mijenjati položaj ili veličinu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:671
+msgid ""
+"**Usage Example:** Creating complex animations by establishing a parent-"
+"child relationship between clips."
+msgstr ""
+"**Primjer upotrebe:** Stvaranje složenih animacija uspostavljanjem odnosa "
+"roditelj-dijete između isječaka."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:672
+msgid ""
+"**Tip:** Utilize this property to propagate changes from the parent clip to "
+"child clips for consistent animations."
+msgstr ""
+"**Savjet:** Iskoristite ovo svojstvo za prenošenje promjena s roditeljskog "
+"isječka na dječje isječke radi dosljednih animacija."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:673
+msgid ""
+"**Tip:** You can also set the ``parent`` attribute to a ``Tracker`` or "
+"``Object Detector`` tracked object, so the clip follows the location and "
+"scale of a tracked object. Also see :ref:`effect_parent_ref`."
+msgstr ""
+"**Savjet:** Također možete postaviti atribut ``parent`` na objekt praćen "
+"Trackerom ili Detektorom objekata, tako da isječak prati položaj i veličinu "
+"praćenog objekta. Vidi također :ref:`effect_parent_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:677
+msgid ""
+"The :guilabel:`Position` property determines the clip's position on the "
+"timeline in seconds, with 0.0 indicating the beginning."
+msgstr ""
+"Svojstvo :guilabel:`Position` određuje položaj isječka na vremenskoj liniji "
+"u sekundama, pri čemu 0.0 označava početak."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:679
+msgid ""
+"**Usage Example:** Timing a clip's appearance to coincide with specific "
+"events in the project."
+msgstr ""
+"**Primjer upotrebe:** Sinkronizacija pojavljivanja isječka s određenim "
+"događajima u projektu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:680
+msgid ""
+"**Tip:** Adjust the position to synchronize clips with audio cues or visual "
+"elements."
+msgstr ""
+"**Savjet:** Prilagodite položaj kako biste sinkronizirali isječke s audio "
+"signalima ili vizualnim elementima."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:686
+msgid ""
+"The :guilabel:`Rotation` property is a key-frame curve that controls the "
+"rotation angle of the clip, ranging from -360 to 360 degrees. You can rotate "
+"clockwise or counterclockwise. Quickly adjust the orientation angle of a "
+"clip (sideways, upside down, right side up, portrait, landscape), flip a "
+"clip, or animate the rotation.  See :ref:`clip_transform_ref`."
+msgstr ""
+"Svojstvo :guilabel:`Rotation` je krivulja ključnih okvira koja kontrolira "
+"kut rotacije isječka, u rasponu od -360 do 360 stupnjeva. Možete rotirati u "
+"smjeru kazaljke na satu ili suprotno od nje. Brzo prilagodite kut "
+"orijentacije isječka (bočno, naopačke, uspravno, portretno, pejzažno), "
+"preokrenite isječak ili animirajte rotaciju. Pogledajte :ref:"
+"`clip_transform_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:690
+msgid ""
+"**Usage Example:** Simulating a spinning effect by animating the rotation "
+"curve."
+msgstr ""
+"**Primjer upotrebe:** Simulacija efekta vrtnje animiranjem krivulje rotacije."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:691
+msgid ""
+"**Tip:** Use this property creatively for effects like rotating text or "
+"emulating camera movement."
+msgstr ""
+"**Savjet:** Koristite ovo svojstvo kreativno za efekte poput rotacije teksta "
+"ili oponašanja pokreta kamere."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:692
+msgid ""
+"**Tip:** In the preview transform tool, hold :kbd:`Ctrl` or :kbd:`Shift` "
+"while rotating to snap to 15-degree increments."
+msgstr ""
+"**Savjet:** U alatu za transformaciju pregleda, držite :kbd:`Ctrl` ili :kbd:"
+"`Shift` dok rotirate da biste se zalijepili za inkremente od 15 stupnjeva."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:693
+msgid ""
+"**Tip:** Experiment with rotating your video at different angles, not just "
+"90 or 180 degrees. Sometimes a slight tilt or a specific angle can add "
+"creative flair to your video, especially for artistic or storytelling "
+"purposes."
+msgstr ""
+"**Savjet:** Eksperimentirajte s rotiranjem videa pod različitim kutovima, ne "
+"samo 90 ili 180 stupnjeva. Ponekad blagi nagib ili specifičan kut može "
+"dodati kreativni štih vašem videu, osobito za umjetničke ili pripovjedačke "
+"svrhe."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:694
+msgid ""
+"**Tip:** After rotating your video, you might end up with black bars around "
+"the edges. Consider cropping and resizing the video to eliminate these bars "
+"and maintain a clean, polished look."
+msgstr ""
+"**Savjet:** Nakon rotacije videa, moguće je da će se pojaviti crne trake oko "
+"rubova. Razmislite o obrezivanju i promjeni veličine videa kako biste "
+"uklonili te trake i održali čist, profesionalan izgled."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:695
+msgid ""
+"**Tip:** If you're dealing with vertical videos that are meant to be watched "
+"on horizontal screens, rotate them by 90 degrees and then scale them up to "
+"fill the frame. This way, your vertical video will occupy more screen real "
+"estate."
+msgstr ""
+"**Savjet:** Ako radite s vertikalnim videozapisima namijenjenim za gledanje "
+"na horizontalnim zaslonima, rotirajte ih za 90 stupnjeva, a zatim ih "
+"povećajte da ispune okvir. Na taj način vaš vertikalni video zauzet će više "
+"prostora na zaslonu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:696
+msgid ""
+"**Tip:** If the horizon in your video appears slanted due to camera tilt, "
+"use rotation to level it. This is particularly important for landscape shots "
+"to maintain a professional and visually pleasing appearance."
+msgstr ""
+"**Savjet:** Ako se horizont u vašem videu čini nagnutim zbog nagiba kamere, "
+"upotrijebite rotaciju za izravnavanje. Ovo je posebno važno za pejzažne "
+"snimke kako bi se održao profesionalan i vizualno ugodan izgled."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:702
+msgid ""
+"The :guilabel:`Scale` property is the initial resizing or scaling method "
+"used to display the picture of a clip, which may be further adjusted by the :"
+"guilabel:`Scale X` and :guilabel:`Scale Y` clip properties (see :ref:"
+"`clip_scale_x_ref`). It is recommended to use assets with the same aspect "
+"ratio as your project profile, which allows many of these resizing methods "
+"to fully scale your clip up to the size of the screen, without adding any "
+"black bars on the edges. The scale methods are:"
+msgstr ""
+"Svojstvo :guilabel:`Scale` je početna metoda promjene veličine ili "
+"skaliranja koja se koristi za prikaz slike isječka, a može se dodatno "
+"prilagoditi svojstvima isječka :guilabel:`Scale X` i :guilabel:`Scale Y` "
+"(vidi :ref:`clip_scale_x_ref`). Preporučuje se korištenje materijala s istim "
+"omjerom stranica kao i profil vašeg projekta, što omogućuje mnogim ovim "
+"metodama promjene veličine da u potpunosti prilagode isječak veličini "
+"zaslona, bez dodavanja crnih traka na rubovima. Metode skaliranja su:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:707
+msgid ""
+"**Best Fit** (default) – The clip is as large as possible without changing "
+"the aspect ratio. This might result in black bars on certain sides of the "
+"picture, if the aspect ratio does not exactly match your project size."
+msgstr ""
+"**Najbolje pristajanje** (zadano) – Isječak je što veći bez promjene omjera "
+"stranica. To može rezultirati crnim trakama na određenim stranama slike ako "
+"omjer stranica ne odgovara točno veličini vašeg projekta."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:708
+msgid ""
+"**Crop** – The aspect ratio of the clip is maintained while the clip is "
+"enlarged to fill the entire screen, even if that means some of it will be "
+"cropped. This prevents black bars around the picture, but if the aspect "
+"ratio of the clip does not match the project size, some of the picture will "
+"be cropped off."
+msgstr ""
+"**Obrezivanje** – Omjer stranica isječka se održava dok se isječak povećava "
+"da ispuni cijeli zaslon, čak i ako to znači da će dio biti obrezan. Ovo "
+"sprječava crne trake oko slike, ali ako omjer stranica isječka ne odgovara "
+"veličini projekta, dio slike će biti obrezan."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:709
+msgid ""
+"**None** – The clip is displayed in its original size. This is not "
+"recommended, since the picture will not scale correctly if you change the "
+"project profile (or project size)."
+msgstr ""
+"**Nema** – Isječak se prikazuje u svojoj originalnoj veličini. Ovo se ne "
+"preporučuje jer slika neće pravilno skalirati ako promijenite profil "
+"projekta (ili veličinu projekta)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:710
+msgid ""
+"**Stretch** – The clip is stretched to fill the entire screen, changing the "
+"aspect ratio if necessary."
+msgstr ""
+"**Istezanje** – Isječak se rasteže da ispuni cijeli zaslon, mijenjajući "
+"omjer stranica ako je potrebno."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:715
+msgid "Scale X and Scale Y"
+msgstr "Skaliranje X i Skaliranje Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:716
+msgid ""
+"The :guilabel:`Scale X` and :guilabel:`Scale Y` properties are key-frame "
+"curves that represent horizontal and vertical scaling in percentages, "
+"respectively. The range for these curves is 0 to 1. See :ref:"
+"`clip_transform_ref`. OpenShot limits the max scale values based on the file "
+"type and the project size, to prevent crashes and performance issues."
+msgstr ""
+"Svojstva :guilabel:`Scale X` i :guilabel:`Scale Y` su krivulje ključnih "
+"okvira koje predstavljaju horizontalno i vertikalno skaliranje u postocima, "
+"redom. Raspon za ove krivulje je od 0 do 1. Vidi :ref:`clip_transform_ref`. "
+"OpenShot ograničava maksimalne vrijednosti skaliranja ovisno o tipu datoteke "
+"i veličini projekta, kako bi spriječio padove i probleme s performansama."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:720
+msgid ""
+"**Usage Example:** Creating a zoom-in effect by animating the Scale X and "
+"Scale Y curves simultaneously."
+msgstr ""
+"**Primjer upotrebe:** Stvaranje efekta zumiranja animiranjem krivulja Scale "
+"X i Scale Y istovremeno."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:721
+msgid ""
+"**Tip:** Scale the image larger than the screen, only revealing a portion of "
+"the video. This is a simple way to crop a portion of the video."
+msgstr ""
+"**Savjet:** Skalirajte sliku veću od zaslona, otkrivajući samo dio videa. "
+"Ovo je jednostavan način za obrezivanje dijela videa."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:722
+msgid ""
+"**Tip:** Scale the horizontal and vertical elements separately, to squash "
+"and stretch the image in fun ways."
+msgstr ""
+"**Savjet:** Skalirajte horizontalne i vertikalne elemente zasebno, kako "
+"biste na zabavan način stisnuli i rastegnuli sliku."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:723
+msgid ""
+"**Tip:** Combine scaling with rotation and location properties for dynamic "
+"transformations."
+msgstr ""
+"**Savjet:** Kombinirajte skaliranje s rotacijom i svojstvima položaja za "
+"dinamične transformacije."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:726
+msgid "Shear X and Shear Y"
+msgstr "Nagib X i Nagib Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:727
+msgid ""
+"The :guilabel:`Shear X` and :guilabel:`Shear Y` properties are key-frame "
+"curves that represent X and Y shear angles in degrees, respectively. See :"
+"ref:`clip_transform_ref`. OpenShot limits the max shear values based on the "
+"file type and the project size, to prevent crashes and performance issues."
+msgstr ""
+"Svojstva :guilabel:`Shear X` i :guilabel:`Shear Y` su krivulje ključnih "
+"okvira koje predstavljaju kutove nagiba u stupnjevima za X i Y, redom. Vidi :"
+"ref:`clip_transform_ref`. OpenShot ograničava maksimalne vrijednosti nagiba "
+"ovisno o tipu datoteke i veličini projekta, kako bi spriječio padove i "
+"probleme s performansama."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:731
+msgid ""
+"**Usage Example:** Adding a dynamic tilt effect to a clip by animating the "
+"shear angles."
+msgstr ""
+"**Primjer upotrebe:** Dodavanje dinamičnog efekta nagiba isječku animiranjem "
+"kutova nagiba."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:732
+msgid ""
+"**Tip:** Use shear properties for creating slanted or skewed animations."
+msgstr ""
+"**Savjet:** Koristite svojstva nagiba za stvaranje nagnutih ili iskrivljenih "
+"animacija."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:736
+msgid ""
+"The :guilabel:`Start` property defines the trimming point at the beginning "
+"of the clip in seconds. Changing this property will impact the :guilabel:"
+"`Duration` clip property."
+msgstr ""
+"Svojstvo :guilabel:`Start` definira točku rezanja na početku isječka u "
+"sekundama. Promjena ovog svojstva utjecat će na svojstvo :guilabel:"
+"`Duration` isječka."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:739
+msgid ""
+"**Usage Example:** Removing the initial portion of a clip to focus on a "
+"specific scene or moment."
+msgstr ""
+"**Primjer upotrebe:** Uklanjanje početnog dijela isječka kako biste se "
+"usredotočili na određenu scenu ili trenutak."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:740
+msgid ""
+"**Tip:** Utilize the \"Start\" property in combination with the \"End\" "
+"property for precise clip trimming."
+msgstr ""
+"**Savjet:** Koristite svojstvo \"Start\" u kombinaciji sa svojstvom \"End\" "
+"za precizno rezanje isječka."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:746
+msgid ""
+"The :guilabel:`Time` property is a key-frame curve that represents frames "
+"played over time, affecting the speed and direction of the video. You can "
+"use one of the available presets (`normal, fast, slow, freeze, freeze & "
+"zoom, forward, backward`), by right clicking on a Clip and choosing the :"
+"guilabel:`Time` menu. Many presets are available in this menu for reversing, "
+"speeding up, and slowing down a video clip, see :ref:`clip_presets_ref`. The "
+"same adjustments can be made interactively with the :guilabel:`Timing` "
+"toolbar button by dragging a clip's edges; OpenShot adds the necessary time "
+"keyframes and scales all other keyframes automatically."
+msgstr ""
+"Svojstvo :guilabel:`Vrijeme` je krivulja ključnih okvira koja predstavlja "
+"okvire reproducirane tijekom vremena, utječući na brzinu i smjer videa. "
+"Možete koristiti jedan od dostupnih predložaka (`normalno, brzo, sporo, "
+"zamrzni, zamrzni i zumiraj, naprijed, unatrag`), desnim klikom na isječak i "
+"odabirom izbornika :guilabel:`Vrijeme`. Mnogi predlošci dostupni su u ovom "
+"izborniku za obrtanje, ubrzavanje i usporavanje video isječka, pogledajte :"
+"ref:`clip_presets_ref`. Iste prilagodbe mogu se napraviti interaktivno "
+"pomoću gumba na alatnoj traci :guilabel:`Vremensko podešavanje` povlačenjem "
+"rubova isječka; OpenShot automatski dodaje potrebne vremenske ključne okvire "
+"i skalira sve ostale ključne okvire."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:753
+msgid ""
+"Optionally, you can manually set key-frame values for the :guilabel:`Time` "
+"property. The value represents the `frame number` at the position of the key-"
+"frame. This can be tricky to determine and might require a calculator to "
+"find the needed values. For example, if the beginning of your Clip sets a "
+"time value of ``300`` (i.e. `frame 300`), and the end of your clip sets a "
+"time value of ``1`` (`frame 1`), OpenShot will play this clip backwards, "
+"starting at frame 300 and ending at frame 1, at the appropriate speed (based "
+"on where these key-frames are set on the timeline). NOTE: To determine the "
+"total number of frames in a clip, multiply the duration of the file with the "
+"FPS of the project (for example: ``47.0 sec clip duration X 24.0 Project FPS "
+"= 1128 total frames``)."
+msgstr ""
+"Opcionalno, možete ručno postaviti vrijednosti ključnih okvira za svojstvo :"
+"guilabel:`Vrijeme`. Vrijednost predstavlja `broj okvira` na poziciji "
+"ključnog okvira. To može biti teško odrediti i može zahtijevati kalkulator "
+"za pronalazak potrebnih vrijednosti. Na primjer, ako početak vašeg isječka "
+"postavi vremensku vrijednost ``300`` (tj. `okvir 300`), a kraj isječka "
+"postavi vremensku vrijednost ``1`` (`okvir 1`), OpenShot će reproducirati "
+"ovaj isječak unatrag, počevši od okvira 300 i završavajući na okviru 1, "
+"odgovarajućom brzinom (ovisno o tome gdje su ti ključni okviri postavljeni "
+"na vremenskoj liniji). NAPOMENA: Za određivanje ukupnog broja okvira u "
+"isječku, pomnožite trajanje datoteke s FPS-om projekta (na primjer: ``47,0 "
+"sek trajanje isječka X 24,0 FPS projekta = 1128 ukupnih okvira``)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:761
+msgid ""
+"This allows for some very complex scenarios, such as jump cutting inside a "
+"clip, reversing a portion of a clip, slowing down a portion of a clip, "
+"freezing on a frame, and much more. See :ref:`animation_ref` for more "
+"details on manual key-frame animations."
+msgstr ""
+"Ovo omogućuje vrlo složene scenarije, poput jump cuta unutar isječka, "
+"obrtanja dijela isječka, usporavanja dijela isječka, zamrzavanja na okviru i "
+"još mnogo toga. Pogledajte :ref:`animation_ref` za više detalja o ručnim "
+"animacijama ključnih okvira."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:765
+msgid ""
+"**Usage Example:** Creating a slow-motion or time-lapse effect by modifying "
+"the time curve."
+msgstr ""
+"**Primjer upotrebe:** Stvaranje efekta usporenog pokreta ili ubrzanog snimka "
+"modificiranjem vremenske krivulje."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:766
+msgid ""
+"**Tip:** Adjust the \"Time\" property to control video playback speed for "
+"dramatic visual impact."
+msgstr ""
+"**Savjet:** Prilagodite svojstvo \"Vrijeme\" za kontrolu brzine reprodukcije "
+"videa radi dramatičnog vizualnog efekta."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:772
+msgid ""
+"The :guilabel:`Volume` property is a key-frame curve that controls audio "
+"volume or level, ranging from 0 (mute) to 1 (full volume). For automatic "
+"adjustment of volume, see :ref:`clip_volume_mixing_ref`."
+msgstr ""
+"Svojstvo :guilabel:`Glasnoća` je krivulja ključnih okvira koja kontrolira "
+"glasnoću ili razinu zvuka, u rasponu od 0 (utišano) do 1 (puna glasnoća). Za "
+"automatsko podešavanje glasnoće pogledajte :ref:`clip_volume_mixing_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:775
+msgid ""
+"**Usage Example:** Gradually fading out background music as dialogue becomes "
+"more prominent, or increasing or lowering the volume of a clip."
+msgstr ""
+"**Primjer upotrebe:** Postupno smanjivanje pozadinske glazbe dok dijalog "
+"postaje istaknutiji, ili povećavanje ili smanjivanje glasnoće isječka."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:776
+msgid ""
+"**Tip:** Combine multiple volume key-frames for nuanced audio adjustments, "
+"such as ducking the level of the music when dialog is spoken."
+msgstr ""
+"**Savjet:** Kombinirajte više ključnih okvira glasnoće za nijansirane audio "
+"prilagodbe, poput smanjenja glasnoće glazbe tijekom govora dijaloga."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:777
+msgid ""
+"**Tip:** For **quickly** adjusting the volume of a clip you can use the "
+"simple :guilabel:`Volume Preset` menu. See :ref:`clip_presets_ref`."
+msgstr ""
+"**Savjet:** Za **brzo** podešavanje glasnoće isječka možete koristiti "
+"jednostavni izbornik :guilabel:`Predložak glasnoće`. Pogledajte :ref:"
+"`clip_presets_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:781
+msgid ""
+"The :guilabel:`Wave Color` property is a key-frame curve that represents the "
+"color of the audio waveform visualization."
+msgstr ""
+"Svojstvo :guilabel:`Boja vala` je krivulja ključnih okvira koja predstavlja "
+"boju vizualizacije audio valnog oblika."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:783
+msgid ""
+"**Usage Example:** Matching the waveform color to the project's overall "
+"visual theme."
+msgstr ""
+"**Primjer upotrebe:** Usklađivanje boje valnog oblika s općom vizualnom "
+"temom projekta."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:784
+msgid ""
+"**Tip:** Experiment with different colors to enhance the visual appeal of "
+"the waveform or animate the color over time."
+msgstr ""
+"**Savjet:** Eksperimentirajte s različitim bojama kako biste poboljšali "
+"vizualni dojam valnog oblika ili animirali boju tijekom vremena."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:788
+msgid ""
+"The :guilabel:`Waveform` property is a boolean that determines whether a "
+"waveform visualization is used instead of the clip's image."
+msgstr ""
+"Svojstvo :guilabel:`Valni oblik` je logička vrijednost koja određuje koristi "
+"li se vizualizacija valnog oblika umjesto slike isječka."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:790
+msgid ""
+"**Usage Example:** Displaying an audio waveform in place of the video for "
+"visually highlighting audio patterns."
+msgstr ""
+"**Primjer upotrebe:** Prikaz audio valnog oblika umjesto videa za vizualno "
+"isticanje audio obrazaca."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:791
+msgid ""
+"**Tip:** Use waveform visualization for emphasizing music beats or voice "
+"modulations."
+msgstr ""
+"**Savjet:** Koristite vizualizaciju valnog oblika za naglašavanje glazbenih "
+"ritmova ili modulacija glasa."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:794
+msgid "More Information"
+msgstr "Više informacija"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:795
+msgid "For more info on key frames and animation, see :ref:`animation_ref`."
+msgstr ""
+"Za više informacija o ključnim okvirima i animaciji pogledajte :ref:"
+"`animation_ref`."

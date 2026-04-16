@@ -1,0 +1,319 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_hans\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:23
+msgid "Troubleshooting"
+msgstr "故障排除"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:25
+msgid ""
+"If you are experiencing an issue with OpenShot, such as a freeze, crash, or "
+"error message, there are many different techniques which can be useful for "
+"troubleshooting the issue."
+msgstr ""
+"如果您在使用 OpenShot 时遇到冻结、崩溃或错误消息等问题，有许多不同的技术可以"
+"帮助排查问题。"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:29
+msgid "Windows 11 Unresponsive"
+msgstr "Windows 11 无响应"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:31
+msgid ""
+"If you experience a freeze on Windows 11, this is a known issue with PyQt5 "
+"and Windows 11, related to the accessibility features in Qt. This is "
+"triggered by pressing :kbd:`Ctrl+C` in OpenShot (*only on Windows 11*). "
+"OpenShot will become unresponsive and a memory leak is also present (i.e. "
+"the longer OpenShot is unresponsive, the larger your memory leak will become "
+"until OpenShot finally crashes or the user kills the process)."
+msgstr ""
+"如果您在 Windows 11 上遇到冻结，这是 PyQt5 与 Windows 11 之间的已知问题，涉"
+"及 Qt 的辅助功能。在 OpenShot 中按下 :kbd:`Ctrl+C` （*仅限 Windows 11* ）会触"
+"发此问题。OpenShot 会变得无响应，并且存在内存泄漏（即 OpenShot 无响应时间越"
+"长，内存泄漏越严重，直到 OpenShot 最终崩溃或用户终止进程）。"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:36
+msgid ""
+"A simple work-around is to avoid :kbd:`Ctrl+C` on Windows 11, and instead "
+"use the right-click Copy/Paste menus. Another work-around is to remap your "
+"\"Copy\" from :kbd:`Ctrl+C` to something else, for example :kbd:`Alt+C`. You "
+"can change your keyboard mappings in the OpenShot Preferences. See :ref:"
+"`preferences_keyboard_ref`."
+msgstr ""
+"一个简单的解决方法是在 Windows 11 上避免使用 :kbd:`Ctrl+C` ，改用右键菜单中的"
+"复制/粘贴。另一种方法是将“复制”快捷键从 :kbd:`Ctrl+C` 重新映射为其他按键，例"
+"如 :kbd:`Alt+C` 。您可以在 OpenShot 的首选项中更改键盘映射。参见 :ref:"
+"`preferences_keyboard_ref` 。"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:41
+msgid "Windows Debugging with GDB"
+msgstr "Windows 下使用 GDB 调试"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:43
+msgid ""
+"If you are experiencing a crash or freeze with OpenShot in Windows 10/11, "
+"the following step by step instructions will help you determine the cause of "
+"the crash. These instructions will display a stack trace of OpenShot's "
+"source code, at the location of the crash. This information can be extremely "
+"useful for our development team, and very useful to attach to bug reports "
+"(for a quicker resolution)."
+msgstr ""
+"如果您在 Windows 10/11 上使用 OpenShot 时遇到崩溃或冻结，以下逐步说明将帮助您"
+"确定崩溃原因。这些说明将显示 OpenShot 源代码中崩溃位置的堆栈跟踪信息。这些信"
+"息对我们的开发团队非常有用，也非常适合附加到错误报告中（以加快解决速度）。"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:49
+msgid "Install the Latest Daily Build"
+msgstr "安装最新的每日构建版本"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:51
+msgid ""
+"Before attaching a debugger, please download the **latest version** of "
+"OpenShot: https://www.openshot.org/download#daily. Install this version of "
+"OpenShot to the default location: ``C:\\Program Files\\OpenShot Video "
+"Editor\\``. For details instructions on debugging OpenShot on Windows, "
+"please see `this wiki <https://github.com/OpenShot/openshot-qt/wiki/Windows-"
+"Debugging-with-GDB>`_."
+msgstr ""
+"在附加调试器之前，请下载 OpenShot 的**最新版本** ：https://www.openshot.org/"
+"download#daily。将此版本的 OpenShot 安装到默认位置：``C:\\Program "
+"Files\\OpenShot Video Editor\\`` 。有关在 Windows 上调试 OpenShot 的详细说"
+"明，请参见 ` 此维基 <https://github.com/OpenShot/openshot-qt/wiki/Windows-"
+"Debugging-with-GDB>`_ 。 `this wiki <https://github.com/OpenShot/openshot-qt/"
+"wiki/Windows-Debugging-with-GDB>`_"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:56
+msgid "Install MSYS2"
+msgstr "安装 MSYS2"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:58
+msgid ""
+"The Windows version of OpenShot is compiled using an environment called "
+"MSYS2. In order to attach the GDB debugger to our executable, ``openshot-qt."
+"exe``, you must first install MSYS2. This step is only required once."
+msgstr ""
+"Windows 版本的 OpenShot 是使用名为 MSYS2 的环境编译的。要将 GDB 调试器附加到"
+"我们的可执行文件 ``openshot-qt.exe`` ，您必须先安装 MSYS2。此步骤只需执行一"
+"次。"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:61
+msgid "Download & Install MSYS2: `<http://www.msys2.org/>`_"
+msgstr "下载并安装 MSYS2：`<http://www.msys2.org/>`_"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:62 ../troubleshoot.rst:78
+msgid ""
+"Run ``MSYS2 MinGW x64`` command prompt (for example: ``C:"
+"\\msys64\\msys2_shell.cmd -mingw64``)"
+msgstr ""
+"运行 ``MSYS2 MinGW x64`` 命令提示符（例如：``C:\\msys64\\msys2_shell.cmd -"
+"mingw64`` ）"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:63
+msgid "Update all packages (*Copy/Paste the following command*):"
+msgstr "更新所有软件包（*复制/粘贴以下命令* ）："
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:69
+msgid "Install GDB debugger (*Copy/Paste the following command*):"
+msgstr "安装 GDB 调试器（*复制/粘贴以下命令* ）："
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:76
+msgid "Launch OpenShot with GDB Debugger"
+msgstr "使用 GDB 调试器启动 OpenShot"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:80
+msgid "Update the PATH (*Copy/Paste the following commands*):"
+msgstr "更新 PATH（*复制/粘贴以下命令* ）："
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:87
+msgid ""
+"Load OpenShot into the GDB debugger (*Copy/Paste the following commands*):"
+msgstr "将 OpenShot 加载到 GDB 调试器中（*复制/粘贴以下命令* ）："
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:94
+msgid "Launch OpenShot from GDB prompt (*Copy/Paste the following command*):"
+msgstr "从 GDB 提示符启动 OpenShot（*复制/粘贴以下命令* ）："
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:101
+msgid "Print Debugging Info"
+msgstr "打印调试信息"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:103
+msgid ""
+"Once OpenShot has launched successfully with GDB attached, all you need to "
+"do is trigger a crash or freeze in OpenShot. When a crash occurs, switch "
+"back to the MSYS2 MinGW64 terminal and run one of the following commands (by "
+"typing it and pressing ENTER). Usually, the first command to enter is "
+"``bt``, which stands for ``backtrace``. More commands are listed below."
+msgstr ""
+"一旦 OpenShot 成功启动并附加了 GDB，您只需在 OpenShot 中触发崩溃或冻结。当发"
+"生崩溃时，切换回 MSYS2 MinGW64 终端，运行以下命令之一（输入命令后按回车）。通"
+"常，第一个输入的命令是 ``bt`` ，表示 ``backtrace`` 。更多命令列于下方。"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:117
+msgid "High DPI / 4K Monitors"
+msgstr "高DPI / 4K 显示器"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:119
+msgid ""
+"OpenShot Video Editor provides robust support for High DPI (Dots Per Inch) "
+"monitors, ensuring that the interface looks sharp and is easily readable on "
+"displays with various DPI settings. This support is particularly helpful on "
+"4K monitors and other high-resolution displays."
+msgstr ""
+"OpenShot 视频编辑器对高DPI（每英寸点数）显示器提供强大的支持，确保界面在不同"
+"DPI设置的显示器上清晰锐利且易于阅读。这种支持在4K显示器和其他高分辨率显示器上"
+"尤为有用。"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:125
+msgid "Per Monitor DPI Awareness"
+msgstr "按显示器的DPI感知"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:127
+msgid ""
+"OpenShot is DPI aware on a per-monitor basis, meaning it can adjust its "
+"scaling dynamically depending on the DPI settings of each connected monitor. "
+"This helps provide a consistent experience across different displays."
+msgstr ""
+"OpenShot 支持按显示器分别感知DPI，这意味着它可以根据每个连接显示器的DPI设置动"
+"态调整缩放比例。这有助于在不同显示器之间提供一致的使用体验。"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:132
+msgid "DPI Scaling on Windows"
+msgstr "Windows上的DPI缩放"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:134
+msgid ""
+"On Windows, OpenShot rounds the scaling factor to the nearest whole value to "
+"maintain visual integrity. This helps avoid visual artifacts in the UI and "
+"keeps interface elements crisp and well-aligned. Due to this rounding, some "
+"scaling options can lead to larger fonts and UI elements than expected."
+msgstr ""
+"在Windows上，OpenShot会将缩放因子四舍五入到最接近的整数值，以保持视觉完整性。"
+"这有助于避免界面中的视觉伪影，并保持界面元素清晰且对齐良好。由于这种四舍五"
+"入，某些缩放选项可能导致字体和界面元素比预期更大。"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:139
+msgid "**125% scaling** rounds to **100%**"
+msgstr "**125% 缩放** 会四舍五入为 **100%**"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:140
+msgid "**150% scaling** rounds to **200%**"
+msgstr "**150% 缩放** 会四舍五入为 **200%**"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:143
+msgid "Workarounds for Fine-Grained Adjustment"
+msgstr "细粒度调整的解决方法"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:145
+msgid ""
+"While rounding helps maintain a clean interface, there are workarounds for "
+"users who require more precise control over scaling. These methods are **not "
+"recommended** due to potential visual artifacts:"
+msgstr ""
+"虽然四舍五入有助于保持界面整洁，但对于需要更精确缩放控制的用户，有一些解决方"
+"法。由于可能出现视觉伪影，这些方法**不推荐**使用："
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:149
+msgid "**QT_SCALE_FACTOR_ROUNDING_POLICY=PassThrough**"
+msgstr "**QT_SCALE_FACTOR_ROUNDING_POLICY=PassThrough**"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:151
+msgid ""
+"Setting this environment variable can disable rounding and allow more "
+"precise scaling."
+msgstr "设置此环境变量可以禁用四舍五入，从而实现更精确的缩放。"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:152
+msgid ""
+"**Note:** This may cause visual artifacts, particularly in the timeline, and "
+"is not recommended."
+msgstr "**注意：** 这可能会导致视觉伪影，尤其是在时间轴中，因此不推荐使用。"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:154
+msgid "**QT_SCALE_FACTOR=1.25** (or similar value)"
+msgstr "**QT_SCALE_FACTOR=1.25** （或类似值）"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:156
+msgid ""
+"Manually setting the scale factor can provide finer adjustments to the font "
+"and UI scaling."
+msgstr "手动设置缩放因子可以对字体和界面缩放进行更细致的调整。"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:157
+msgid ""
+"This can also be set via Preferences (User Interface Scale), but expect "
+"border/line issues on Windows with fractional scales."
+msgstr ""
+"这也可以通过“首选项”（用户界面缩放）设置，但在Windows上使用小数缩放时可能会出"
+"现边框/线条问题。"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:158
+msgid ""
+"**Note:** This method can also lead to visual artifacts and make OpenShot "
+"harder to use."
+msgstr "**注意：** 此方法也可能导致视觉伪影，并使OpenShot更难使用。"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:160
+msgid ""
+"For more info on adjusting these environment variables, please visit https://"
+"github.com/OpenShot/openshot-qt/wiki/OpenShot-UI-too-large."
+msgstr ""
+"有关调整这些环境变量的更多信息，请访问 https://github.com/OpenShot/openshot-"
+"qt/wiki/OpenShot-UI-too-large。"

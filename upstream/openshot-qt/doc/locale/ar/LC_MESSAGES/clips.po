@@ -1,0 +1,3348 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-02 17:20-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:23
+msgid "Clips"
+msgstr "مقاطع"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:25
+msgid ""
+"In OpenShot, when you add project files (videos, images, and audio) to the "
+"timeline, they appear as **clips** represented by rounded rectangles. These "
+"clips come with different properties that influence how they're rendered and "
+"composited. These properties include the clip's :guilabel:`position`, :"
+"guilabel:`layer`, :guilabel:`scale`, :guilabel:`location`, :guilabel:"
+"`rotation`, :guilabel:`alpha`, and :guilabel:`composite (blend mode)`."
+msgstr ""
+"في OpenShot، عند إضافة ملفات المشروع (فيديوهات، صور، وصوت) إلى الجدول "
+"الزمني، تظهر كمقاطع **ممثلة بمستطيلات مستديرة الزوايا**. هذه المقاطع تحتوي "
+"على خصائص مختلفة تؤثر على كيفية عرضها وتركيبها. تشمل هذه الخصائص :guilabel:"
+"`الموضع`، :guilabel:`الطبقة`، :guilabel:`المقياس`، :guilabel:`الموقع`، :"
+"guilabel:`الدوران`، :guilabel:`الألفا`، و :guilabel:`التركيب (وضع الدمج)`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:30
+msgid ""
+"You can examine a clip's properties by either right-clicking and selecting :"
+"guilabel:`Properties` or by double-clicking the clip. The properties are "
+"listed alphabetically in the Property dock, and you can use the filter "
+"options at the top to find specific properties. See :ref:"
+"`clip_properties_ref` for a list of all clip properties."
+msgstr ""
+"يمكنك فحص خصائص المقطع إما بالنقر بزر الماوس الأيمن واختيار :guilabel:"
+"`الخصائص` أو بالنقر المزدوج على المقطع. تُدرج الخصائص أبجدياً في لوحة الخصائص، "
+"ويمكنك استخدام خيارات التصفية في الأعلى للعثور على خصائص محددة. راجع :ref:"
+"`clip_properties_ref` لقائمة بجميع خصائص المقطع."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:34
+msgid "To **make adjustments** to a property:"
+msgstr "لـ **إجراء تعديلات** على خاصية:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:36
+msgid "For **rough** changes, you can drag the slider."
+msgstr "للتعديلات **الغير دقيقة**، يمكنك سحب شريط التمرير."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:37
+msgid ""
+"For **precise** adjustments, double-click the property to enter exact values."
+msgstr ""
+"للتعديلات **الدقيقة**، انقر نقراً مزدوجاً على الخاصية لإدخال القيم الدقيقة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:38
+msgid ""
+"If the property involves **non-numerical choices**, right-click or double-"
+"click for options."
+msgstr ""
+"إذا كانت الخاصية تتضمن **خيارات غير رقمية**، انقر بزر الماوس الأيمن أو نقراً "
+"مزدوجاً للاطلاع على الخيارات."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:40
+msgid ""
+"Clip properties play a vital role in the :ref:`animation_ref` system. "
+"Whenever you modify a clip property, a ``key-frame`` is automatically "
+"created at the current playhead position. If you want a property change to "
+"apply throughout the entire clip, ensure the playhead is positioned at or "
+"before the clip's start, before making adjustments. You can easily find a "
+"clip's start by using the :guilabel:`next/previous marker` feature on the "
+"Timeline toolbar."
+msgstr ""
+"تلعب خصائص المقطع دوراً حيوياً في نظام :ref:`animation_ref`. عند تعديل خاصية "
+"في المقطع، يتم إنشاء ``إطار رئيسي`` تلقائياً في موضع رأس التشغيل الحالي. إذا "
+"أردت تطبيق التغيير على كامل المقطع، تأكد من وضع رأس التشغيل عند بداية المقطع "
+"أو قبلها قبل إجراء التعديلات. يمكنك بسهولة العثور على بداية المقطع باستخدام "
+"ميزة :guilabel:`العلامة التالية/السابقة` في شريط أدوات الجدول الزمني."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:51
+msgid "#"
+msgstr "#"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:51
+msgid "Name"
+msgstr "الاسم"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:51 ../clips.rst:76 ../clips.rst:110 ../clips.rst:149
+#: ../clips.rst:449
+msgid "Description"
+msgstr "الوصف"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:53
+msgid "1"
+msgstr "1"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:53
+msgid "Clip 1"
+msgstr "المقطع 1"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:53
+msgid "A video clip"
+msgstr "مقطع فيديو"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:54
+msgid "2"
+msgstr "2"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:54
+msgid "Transition"
+msgstr "انتقال"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:54
+msgid ""
+"A gradual fade transition between the 2 clip images (does not affect the "
+"audio)"
+msgstr "انتقال تلاشي تدريجي بين صورتين لمقطعين (لا يؤثر على الصوت)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:55
+msgid "3"
+msgstr "3"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:55
+msgid "Clip 2"
+msgstr "المقطع 2"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:55
+msgid "An image clip"
+msgstr "مقطع صورة"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:61
+msgid "Trimming & Slicing"
+msgstr "القص والتقطيع"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:62
+msgid ""
+"OpenShot provides multiple ways to adjust the start and end trim positions "
+"of a clip (also known as trimming). The most common method is to click and "
+"drag the left or right edge of a clip. Trimming can be used to remove "
+"unwanted sections from the beginning or ending of a clip."
+msgstr ""
+"يوفر OpenShot عدة طرق لضبط مواضع بداية ونهاية القص لمقطع (المعروف أيضاً "
+"بالقص). الطريقة الأكثر شيوعاً هي النقر والسحب على الحافة اليسرى أو اليمنى "
+"للمقطع. يمكن استخدام القص لإزالة أجزاء غير مرغوبة من بداية أو نهاية المقطع."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:66
+msgid ""
+"To **slice** a clip into smaller sections, OpenShot offers several options, "
+"including dividing or slicing a clip at the play-head (*vertical playback "
+"line*) position. Trimming and slicing clips are powerful tools that allow "
+"users to rearrange sections of video and remove unwanted parts."
+msgstr ""
+"لقص مقطع إلى أجزاء أصغر، يوفر OpenShot عدة خيارات، بما في ذلك تقسيم أو تقطيع "
+"المقطع عند موضع رأس التشغيل (*خط التشغيل العمودي*). القص والتقطيع أدوات قوية "
+"تتيح للمستخدمين إعادة ترتيب أجزاء الفيديو وإزالة الأجزاء غير المرغوبة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:70
+msgid ""
+"Here is a list of all methods for cutting and/or trimming clips in OpenShot:"
+msgstr "فيما يلي قائمة بجميع طرق القص و/أو التقطيع للمقاطع في OpenShot:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:76
+msgid "Trim & Slice Method"
+msgstr "طريقة القص والتقطيع"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:78
+msgid "**Resizing Edge**"
+msgstr "**تغيير حجم الحافة**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:78
+msgid ""
+"Mouse over the edge of a clip and resize it by dragging **left** or "
+"**right**. The left edge of a clip can not be resized smaller than 0.0 (*i."
+"e. the first frame of the file*). The right edge of a clip can not be "
+"resized larger than the duration of a file (*i.e. the last frame of a file*)."
+msgstr ""
+"مرر الماوس فوق حافة المقطع وقم بتغيير حجمه بالسحب **إلى اليسار** أو **إلى "
+"اليمين**. لا يمكن تصغير الحافة اليسرى للمقطع أقل من 0.0 (*أي الإطار الأول من "
+"الملف*). ولا يمكن تكبير الحافة اليمنى للمقطع أكثر من مدة الملف (*أي الإطار "
+"الأخير من الملف*)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:79
+msgid "**Slice All**"
+msgstr "**تقطيع الكل**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:79
+msgid ""
+"When the play-head overlaps multiple clips, right-click the play-head and "
+"choose :guilabel:`Slice All`. This will cut/slice all intersecting clips on "
+"all tracks. You can also use the keyboard shortcuts :kbd:`Ctrl+Shift+K` to "
+"keep both sides, :kbd:`Ctrl+Shift+J` to keep the left side, or :kbd:"
+"`Ctrl+Shift+L` to keep the right side of the clips."
+msgstr ""
+"عندما يتداخل رأس التشغيل مع عدة مقاطع، انقر بزر الماوس الأيمن على رأس "
+"التشغيل واختر :guilabel:`تقطيع الكل`. سيقوم هذا بقص/تقطيع جميع المقاطع "
+"المتداخلة على كل المسارات. يمكنك أيضاً استخدام اختصارات لوحة المفاتيح :kbd:"
+"`Ctrl+Shift+K` للاحتفاظ بكلا الجانبين، :kbd:`Ctrl+Shift+J` للاحتفاظ بالجانب "
+"الأيسر، أو :kbd:`Ctrl+Shift+L` للاحتفاظ بالجانب الأيمن من المقاطع."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:83
+msgid "**Slice Selected**"
+msgstr "**تقطيع المحدد**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:83
+msgid ""
+"When the play-head overlaps a clip, right-click the clip and choose :"
+"guilabel:`Slice`. This provides options to keep the left side, the right "
+"side, or both sides of the clip. Alternatively, use :kbd:`Ctrl+K` to keep "
+"both sides, :kbd:`Ctrl+J` to keep the left side, or :kbd:`Ctrl+L` to keep "
+"the right side."
+msgstr ""
+"عندما يتداخل رأس التشغيل مع مقطع، انقر بزر الماوس الأيمن على المقطع واختر :"
+"guilabel:`تقطيع`. يوفر هذا خيارات للاحتفاظ بالجانب الأيسر، الجانب الأيمن، أو "
+"كلا الجانبين من المقطع. بدلاً من ذلك، استخدم :kbd:`Ctrl+K` للاحتفاظ بكلا "
+"الجانبين، :kbd:`Ctrl+J` للاحتفاظ بالجانب الأيسر، أو :kbd:`Ctrl+L` للاحتفاظ "
+"بالجانب الأيمن."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:86
+msgid "**Slice Selected (Ripple)**"
+msgstr "**تقطيع المحدد (تموج)**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:86
+msgid ""
+"Slice the selected clip(s) at the play-head position, keeping either the "
+"left side (shortcut: :kbd:`W`) or the right side (shortcut: :kbd:`Q`), while "
+"rippling the gap removal across the current track."
+msgstr ""
+"قم بتقطيع المقطع(المقاطع) المحدد عند موضع رأس التشغيل، مع الاحتفاظ إما "
+"بالجانب الأيسر (اختصار: :kbd:`W`) أو الجانب الأيمن (اختصار: :kbd:`Q`)، مع "
+"تموج إزالة الفجوة عبر المسار الحالي."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:88
+msgid "**Razor Tool**"
+msgstr "**أداة الشفرة**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:88
+msgid ""
+"The :guilabel:`razor tool` from the **Timeline Toolbar** cuts a clip at the "
+"position where it is clicked. Use :kbd:`SHIFT` to slice and keep the left "
+"side, or :kbd:`CTRL` to keep the right side."
+msgstr ""
+"تقوم :guilabel:`أداة الشفرة` من **شريط أدوات الجدول الزمني** بقص المقطع عند "
+"الموضع الذي يتم النقر عليه. استخدم :kbd:`SHIFT` للتقطيع والاحتفاظ بالجانب "
+"الأيسر، أو :kbd:`CTRL` للاحتفاظ بالجانب الأيمن."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:90
+msgid "**Split File Dialog**"
+msgstr "**حوار تقسيم الملف**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:90
+msgid ""
+"Right-click on a file and choose :guilabel:`Split File`. This opens a dialog "
+"that allows you to create multiple clips from a single video file."
+msgstr ""
+"انقر بزر الماوس الأيمن على ملف واختر :guilabel:`تقسيم الملف`. يفتح هذا حواراً "
+"يسمح لك بإنشاء عدة مقاطع من ملف فيديو واحد."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:94
+msgid ""
+"Keep in mind that the above cutting methods also have :ref:"
+"`keyboard_shortcut_ref`, to save even more time."
+msgstr ""
+"ضع في اعتبارك أن طرق القص أعلاه تحتوي أيضاً على :ref:`keyboard_shortcut_ref` "
+"لتوفير المزيد من الوقت."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:96
+msgid ""
+"If multiple selected clips and/or transitions share the same left edge or "
+"right edge, you can drag that shared edge once to trim them together."
+msgstr ""
+"إذا شاركت عدة مقاطع مختارة و/أو انتقالات نفس الحافة اليسرى أو اليمنى، يمكنك "
+"سحب تلك الحافة المشتركة مرة واحدة لقصها معًا."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:100
+msgid "Selections"
+msgstr "التحديدات"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:101
+msgid ""
+"Selecting clips and transitions on the timeline is an essential part of "
+"editing in OpenShot. Multiple selection methods are available to streamline "
+"your workflow, enabling efficient editing of clips and transitions."
+msgstr ""
+"يعد تحديد المقاطع والانتقالات على الجدول الزمني جزءاً أساسياً من التحرير في "
+"OpenShot. تتوفر عدة طرق للتحديد لتسهيل سير العمل، مما يتيح تحريراً فعالاً "
+"للمقاطع والانتقالات."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:104
+msgid "Here is a list of all methods for selecting clips in OpenShot:"
+msgstr "فيما يلي قائمة بجميع طرق تحديد المقاطع في OpenShot:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:110
+msgid "Selection Method"
+msgstr "طريقة التحديد"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:112
+msgid "**Box Selection**"
+msgstr "**تحديد الصندوق**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:112
+msgid ""
+"Click and drag a selection box around clips or transitions to select "
+"multiple items at once. Hold down :kbd:`Ctrl` to add to your current "
+"selection."
+msgstr ""
+"انقر واسحب مربع التحديد حول المقاطع أو الانتقالات لتحديد عدة عناصر مرة "
+"واحدة. اضغط مع الاستمرار على :kbd:`Ctrl` لإضافة إلى التحديد الحالي."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:113
+msgid "**Click Selection**"
+msgstr "**تحديد بالنقر**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:113
+msgid ""
+"Click on a clip or transition to select it. This will deselect all other "
+"items unless you hold down :kbd:`Ctrl`."
+msgstr ""
+"انقر على مقطع أو انتقال لتحديده. سيؤدي ذلك إلى إلغاء تحديد جميع العناصر "
+"الأخرى ما لم تضغط مع الاستمرار على :kbd:`Ctrl`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:114
+msgid "**Add to Selection**"
+msgstr "**إضافة إلى التحديد**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:114
+msgid ""
+"Hold down :kbd:`Ctrl` while clicking to add or remove clips from the current "
+"selection, allowing you to select non-adjacent clips."
+msgstr ""
+"اضغط مع الاستمرار على :kbd:`Ctrl` أثناء النقر لإضافة أو إزالة المقاطع من "
+"التحديد الحالي، مما يتيح لك تحديد مقاطع غير متجاورة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:115
+msgid "**Range Selection**"
+msgstr "**تحديد النطاق**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:115
+msgid ""
+"Hold down :kbd:`Shift` while clicking to select a range of clips/transitions "
+"from the previous selection to the new selection. This supports ranges that "
+"span multiple tracks as well."
+msgstr ""
+"اضغط مع الاستمرار على :kbd:`Shift` أثناء النقر لتحديد نطاق من المقاطع/"
+"الانتقالات من التحديد السابق إلى التحديد الجديد. يدعم هذا النطاقات التي تمتد "
+"عبر مسارات متعددة أيضًا."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:116
+msgid "**Ripple Selection**"
+msgstr "**تحديد التموج**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:116
+msgid ""
+"Hold down :kbd:`Alt` while clicking to ripple select all clips/transitions "
+"from your selection to the end of the track. This always adds to your "
+"current selection, even if :kbd:`Ctrl` is not pressed."
+msgstr ""
+"اضغط مع الاستمرار على :kbd:`Alt` أثناء النقر لتحديد تموجي لجميع المقاطع/"
+"الانتقالات من اختيارك إلى نهاية المسار. يضيف هذا دائمًا إلى التحديد الحالي، "
+"حتى إذا لم يتم الضغط على :kbd:`Ctrl`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:117
+msgid "**Clear Selection**"
+msgstr "**مسح التحديد**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:117
+msgid ""
+"Click anywhere on the timeline or on a new clip/transition to reset the "
+"current selection, unless :kbd:`Ctrl` is pressed."
+msgstr ""
+"انقر في أي مكان على الجدول الزمني أو على مقطع/انتقال جديد لإعادة تعيين "
+"التحديد الحالي، ما لم يتم الضغط على :kbd:`Ctrl`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:118
+msgid "**Select All**"
+msgstr "**تحديد الكل**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:118
+msgid ""
+"Press :kbd:`Ctrl+A` to select all clips and transitions on the timeline."
+msgstr "اضغط :kbd:`Ctrl+A` لتحديد جميع المقاطع والانتقالات على الجدول الزمني."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:119
+msgid "**Select None**"
+msgstr "**إلغاء تحديد الكل**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:119
+msgid ""
+"Press :kbd:`Ctrl+Shift+A` to deselect all clips and transitions on the "
+"timeline."
+msgstr ""
+"اضغط :kbd:`Ctrl+Shift+A` لإلغاء تحديد جميع المقاطع والانتقالات على الجدول "
+"الزمني."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:122
+msgid ""
+"Mastering these selection techniques will streamline your editing process, "
+"especially when dealing with complex projects. For more advanced tips on "
+"selection and editing, refer to the :ref:`clips_cutting_slicing_ref` section."
+msgstr ""
+"إتقان تقنيات التحديد هذه سيُسرّع عملية التحرير الخاصة بك، خاصة عند التعامل مع "
+"مشاريع معقدة. لمزيد من النصائح المتقدمة حول التحديد والتحرير، راجع القسم :"
+"ref:`clips_cutting_slicing_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:128
+msgid "Context Menu"
+msgstr "قائمة السياق"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:129
+msgid ""
+"OpenShot has tons of great preset animations and clip properties, such as "
+"fading, sliding, zooming, reversing time, adjusting volume, etc... These "
+"presets can be accessed by right-clicking on a clip, revealing the context "
+"menu. A preset sets one (or more) clip properties for the user without "
+"needing to manually set the key-frame clip properties. See :ref:"
+"`clip_properties_ref`."
+msgstr ""
+"يحتوي OpenShot على العديد من الرسوم المتحركة والإعدادات المسبقة الرائعة "
+"لخصائص المقاطع، مثل التلاشي، الانزلاق، التكبير، عكس الوقت، ضبط الصوت، "
+"وغيرها... يمكن الوصول إلى هذه الإعدادات المسبقة بالنقر بزر الماوس الأيمن على "
+"مقطع، مما يكشف قائمة السياق. تقوم الإعدادات المسبقة بضبط خاصية (أو أكثر) من "
+"خصائص المقطع للمستخدم دون الحاجة لضبط خصائص الإطارات الرئيسية يدويًا. انظر :"
+"ref:`clip_properties_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:134
+msgid ""
+"Some presets allow the user to target either the start, end, or entire clip, "
+"and most presets allow the user to reset a specific clip property. For "
+"example, when using the ``Volume`` preset, the user has the following menu "
+"options:"
+msgstr ""
+"تسمح بعض الإعدادات المسبقة للمستخدم باستهداف بداية المقطع أو نهايته أو "
+"المقطع بأكمله، وتسمح معظم الإعدادات المسبقة للمستخدم بإعادة تعيين خاصية "
+"معينة للمقطع. على سبيل المثال، عند استخدام الإعداد المسبق ``Volume``، تتوفر "
+"للمستخدم الخيارات التالية في القائمة:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:138
+msgid "**Reset** - This will reset the volume to the original level."
+msgstr "**إعادة تعيين** - سيعيد هذا مستوى الصوت إلى المستوى الأصلي."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:139
+msgid ""
+"**Start of Clip** - Your volume level selection will apply at the Beginning "
+"of the clip."
+msgstr "**بداية المقطع** - سيتم تطبيق مستوى الصوت المحدد في بداية المقطع."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:140
+msgid ""
+"**End of Clip** - Your volume level selection will apply to the End of the "
+"clip."
+msgstr "**نهاية المقطع** - سيتم تطبيق مستوى الصوت المحدد في نهاية المقطع."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:141
+msgid ""
+"**Entire Clip** - Your volume level selection will apply to the Entire clip."
+msgstr "**المقطع بأكمله** - سيتم تطبيق مستوى الصوت المحدد على المقطع بأكمله."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:149
+msgid "Preset Name"
+msgstr "اسم الإعداد المسبق"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:151 ../clips.rst:166
+msgid "Fade"
+msgstr "تلاشي"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:151
+msgid "Fade the image in or out (often easier than using a transition)"
+msgstr "تلاشي الصورة تدريجيًا للداخل أو الخارج (غالبًا أسهل من استخدام انتقال)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:152 ../clips.rst:175
+msgid "Animate"
+msgstr "تحريك"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:152
+msgid "Zoom and slide a clip"
+msgstr "تكبير وتحريك المقطع"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:153 ../clips.rst:185
+msgid "Rotate"
+msgstr "تدوير"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:153
+msgid "Rotate or flip a clip"
+msgstr "تدوير أو قلب المقطع"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:154 ../clips.rst:194
+msgid "Layout"
+msgstr "التخطيط"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:154
+msgid "Make a video smaller or larger, and snap to any corner"
+msgstr "تصغير أو تكبير الفيديو، والالتصاق بأي زاوية"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:155 ../clips.rst:203 ../clips.rst:477 ../clips.rst:745
+msgid "Time"
+msgstr "الزمن"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:155
+msgid "Reverse, repeat, and speed up or slow down video"
+msgstr "عكس، تكرار، وتسريع أو إبطاء الفيديو"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:156 ../clips.rst:266 ../clips.rst:478 ../clips.rst:771
+msgid "Volume"
+msgstr "الصوت"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:156
+msgid ""
+"Fade in or out the volume, reduce or increase the volume of a clip, or mute"
+msgstr "تلاشي الصوت تدريجيًا، تقليل أو زيادة صوت المقطع، أو كتم الصوت"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:157 ../clips.rst:275
+msgid "Separate Audio"
+msgstr "فصل الصوت"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:157
+msgid ""
+"Separate the audio from a clip. This preset can either create a single "
+"detached audio clip (positioned on a layer below the original clip), or "
+"multiple detached audio clips (one per audio track, positioned on multiple "
+"layers below the original clip)"
+msgstr ""
+"فصل الصوت عن المقطع. يمكن لهذا الإعداد المسبق إنشاء مقطع صوتي منفصل واحد "
+"(موضوع على طبقة أسفل المقطع الأصلي)، أو عدة مقاطع صوتية منفصلة (واحد لكل "
+"مسار صوتي، موضوع على طبقات متعددة أسفل المقطع الأصلي)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:158 ../clips.rst:285
+msgid "Slice"
+msgstr "تقطيع"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:158
+msgid "Cut the clip at the play-head position"
+msgstr "قص المقطع عند موضع رأس التشغيل"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:159 ../clips.rst:350
+msgid "Display"
+msgstr "العرض"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:159
+msgid "Show waveform or thumbnail for a clip"
+msgstr "عرض شكل الموجة أو الصورة المصغرة للمقطع"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:160 ../clips.rst:358
+msgid "Properties"
+msgstr "الخصائص"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:160
+msgid "Show the properties panel for a clip"
+msgstr "عرض لوحة الخصائص للمقطع"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:161
+msgid "Copy / Paste"
+msgstr "نسخ / لصق"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:161
+msgid ""
+"Copy and paste key frames or duplicate an entire clip (with all key frames)"
+msgstr ""
+"نسخ ولصق الإطارات الرئيسية أو تكرار مقطع كامل (مع جميع الإطارات الرئيسية)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:162 ../clips.rst:390
+msgid "Remove Clip"
+msgstr "إزالة المقطع"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:162
+msgid "Remove a clip from the timeline"
+msgstr "إزالة مقطع من الجدول الزمني"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:167
+msgid ""
+"The :guilabel:`Fade` preset enables smooth transitions by gradually "
+"increasing or decreasing the clip's opacity. It creates a fade-in or fade-"
+"out of the clip image, ideal for introducing or concluding clips. See :ref:"
+"`clip_alpha_ref` key-frame."
+msgstr ""
+"الإعداد المسبق :guilabel:`Fade` يتيح انتقالات سلسة عن طريق زيادة أو تقليل "
+"شفافية المقطع تدريجيًا. ينشئ تلاشيًا تدريجيًا لصورة المقطع، وهو مثالي لتقديم أو "
+"إنهاء المقاطع. انظر :ref:`clip_alpha_ref` للإطار الرئيسي."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:171
+msgid ""
+"**Usage Example:** Applying a fade-out to a video clip to gently conclude a "
+"scene."
+msgstr ""
+"**مثال على الاستخدام:** تطبيق تلاشي للخارج على مقطع فيديو لإنهاء المشهد بلطف."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:172
+msgid ""
+"**Tip:** Adjust the duration of the fade effect (slow or fast) to control "
+"its timing and intensity."
+msgstr ""
+"**نصيحة:** قم بضبط مدة تأثير التلاشي (ببطء أو بسرعة) للتحكم في توقيته وشدته."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:176
+msgid ""
+"The :guilabel:`Animate` preset adds dynamic motion to clips, combining "
+"zooming and sliding animations. It animates a clip by zooming in or out "
+"while sliding across the screen. It can **slide** in many specific "
+"directions, or slide and zoom to a **random** location. See :ref:"
+"`clip_location_x_ref` and :ref:`clip_scale_x_ref` key-frames."
+msgstr ""
+"الإعداد المسبق :guilabel:`Animate` يضيف حركة ديناميكية للمقاطع، يجمع بين "
+"تكبير وتصغير وتحريك انزلاقي. يقوم بتحريك المقطع عن طريق التكبير أو التصغير "
+"أثناء الانزلاق عبر الشاشة. يمكنه **الانزلاق** في عدة اتجاهات محددة، أو "
+"الانزلاق والتكبير إلى موقع **عشوائي**. انظر :ref:`clip_location_x_ref` و :"
+"ref:`clip_scale_x_ref` للإطارات الرئيسية."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:181
+msgid ""
+"**Usage Example:** Using the animate preset to simulate a camera movement "
+"across a landscape shot."
+msgstr ""
+"**مثال على الاستخدام:** استخدام الإعداد المسبق للرسوم المتحركة لمحاكاة حركة "
+"الكاميرا عبر لقطة منظر طبيعي."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:182
+msgid ""
+"**Tip:** Experiment with different animation speeds and directions for "
+"diverse visual effects."
+msgstr ""
+"**نصيحة:** جرب سرعات واتجاهات مختلفة للرسوم المتحركة للحصول على تأثيرات "
+"بصرية متنوعة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:186
+msgid ""
+"The :guilabel:`Rotate` preset introduces easy rotation and flipping of "
+"clips, enhancing their visual appeal. It enables orientation adjustment, by "
+"rotating and flipping a clip for creative visual transformations. See :ref:"
+"`clip_rotation_ref` key-frame."
+msgstr ""
+"الإعداد المسبق :guilabel:`Rotate` يتيح تدوير وتقليب المقاطع بسهولة، مما يعزز "
+"جاذبيتها البصرية. يمكّن من تعديل الاتجاه عن طريق تدوير وتقليب المقطع لتحويلات "
+"بصرية إبداعية. انظر :ref:`clip_rotation_ref` للإطار الرئيسي."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:189
+msgid ""
+"**Usage Example:** Rotating a photo or video by 90 degree (a portrait video "
+"to a landscape)"
+msgstr ""
+"**مثال على الاستخدام:** تدوير صورة أو فيديو بمقدار 90 درجة (تحويل فيديو "
+"عمودي إلى أفقي)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:190
+msgid ""
+"**Usage Example:** If your video is oriented sideways (90 degrees), you can "
+"rotate it clockwise or counterclockwise by 90 degrees to bring it to the "
+"correct orientation. This can be useful when you accidentally recorded a "
+"video in portrait mode when you intended it to be landscape."
+msgstr ""
+"**مثال على الاستخدام:** إذا كان الفيديو موجهًا جانبياً (90 درجة)، يمكنك تدويره "
+"مع أو عكس عقارب الساعة بمقدار 90 درجة لجعله في الاتجاه الصحيح. هذا مفيد إذا "
+"قمت بتسجيل فيديو بوضع عمودي عن طريق الخطأ بينما كنت تقصد أن يكون أفقيًا."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:191
+msgid ""
+"**Usage Example:** If your video is upside down, you can rotate it by 180 "
+"degrees to flip it to the correct orientation. This can happen if you "
+"accidentally held your camera the wrong way while recording."
+msgstr ""
+"**مثال على الاستخدام:** إذا كان الفيديو مقلوبًا رأسًا على عقب، يمكنك تدويره "
+"بمقدار 180 درجة لقلبه إلى الاتجاه الصحيح. قد يحدث هذا إذا أمسكت بالكاميرا "
+"بطريقة خاطئة أثناء التسجيل."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:195
+msgid ""
+"The :guilabel:`Layout` preset adjusts the size of a clip and snaps it to a "
+"chosen corner of the screen. It resizes a clip and anchors it to a corner or "
+"the center, useful for picture-in-picture or watermark effects. See :ref:"
+"`clip_location_x_ref` and :ref:`clip_scale_x_ref` key-frames."
+msgstr ""
+"الإعداد المسبق :guilabel:`Layout` يضبط حجم المقطع ويربطه بزاوية مختارة من "
+"الشاشة. يقوم بتغيير حجم المقطع وتثبيته في زاوية أو في الوسط، مفيد لتأثيرات "
+"الصورة داخل الصورة أو العلامة المائية. انظر :ref:`clip_location_x_ref` و :"
+"ref:`clip_scale_x_ref` للإطارات الرئيسية."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:199
+msgid ""
+"**Usage Example:** Placing a logo in the corner of a video using the layout "
+"preset."
+msgstr ""
+"**مثال على الاستخدام:** وضع شعار في زاوية الفيديو باستخدام الإعداد المسبق "
+"للتخطيط."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:200
+msgid ""
+"**Tip:** Combine with animation presets for dynamic transitions involving "
+"resizing and repositioning."
+msgstr ""
+"**نصيحة:** اجمع مع الإعدادات المسبقة للرسوم المتحركة لتحقيق انتقالات "
+"ديناميكية تشمل تغيير الحجم وإعادة التمركز."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:204
+msgid ""
+"The :guilabel:`Time` preset manipulates clip playback speed, allowing for "
+"reverse playback or time-lapse effects. It alters the speed and direction of "
+"a clip's playback, enhancing visual storytelling. See :ref:`clip_time_ref` "
+"key-frame."
+msgstr ""
+"الإعداد المسبق :guilabel:`Time` يتحكم في سرعة تشغيل المقطع، مما يسمح "
+"بالتشغيل العكسي أو تأثيرات تسريع الوقت. يغير سرعة واتجاه تشغيل المقطع، مما "
+"يعزز السرد البصري. انظر :ref:`clip_time_ref` للإطار الرئيسي."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:208
+msgid ""
+"**Usage Example:** Creating a slow-motion effect to emphasize a specific "
+"action."
+msgstr ""
+"**مثال على الاستخدام:** إنشاء تأثير الحركة البطيئة لتسليط الضوء على حركة "
+"معينة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:209
+msgid ""
+"**Tip:** Use time presets to creatively manipulate the pacing of your video."
+msgstr ""
+"**نصيحة:** استخدم الإعدادات المسبقة للوقت للتحكم الإبداعي في وتيرة الفيديو."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:214
+msgid "Repeat"
+msgstr "تكرار"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:215
+msgid ""
+"Use :guilabel:`Time → Repeat` to play a clip multiple times, without "
+"building the time curve by hand. OpenShot writes the needed :guilabel:`Time` "
+"keyframes for you (you can edit them later)."
+msgstr ""
+"استخدم :guilabel:`Time → Repeat` لتشغيل المقطع عدة مرات، دون الحاجة لبناء "
+"منحنى الوقت يدويًا. يقوم OpenShot بكتابة الإطارات الرئيسية اللازمة لـ :"
+"guilabel:`Time` نيابةً عنك (يمكنك تعديلها لاحقًا)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:218
+msgid "**Menu path**"
+msgstr "**مسار القائمة**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:220
+msgid ""
+":guilabel:`Time → Repeat → Loop → Forward` – plays left to right, then "
+"starts again from the beginning"
+msgstr ""
+":guilabel:`Time → Repeat → Loop → Forward` – يشغل من اليسار إلى اليمين، ثم "
+"يبدأ من البداية مجددًا"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:221
+msgid ""
+":guilabel:`Time → Repeat → Loop → Reverse` – plays right to left, then "
+"starts again from the end"
+msgstr ""
+":guilabel:`Time → Repeat → Loop → Reverse` – يشغل من اليمين إلى اليسار، ثم "
+"يبدأ من النهاية مجددًا"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:222
+msgid ""
+":guilabel:`Time → Repeat → Ping-Pong → Forward` – forward, then backward, "
+"then forward…"
+msgstr ""
+":guilabel:`Time → Repeat → Ping-Pong → Forward` – للأمام، ثم للخلف، ثم "
+"للأمام…"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:223
+msgid ""
+":guilabel:`Time → Repeat → Ping-Pong → Reverse` – backward, then forward, "
+"then backward…"
+msgstr ""
+":guilabel:`Time → Repeat → Ping-Pong → Reverse` – للخلف، ثم للأمام، ثم للخلف…"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:224
+msgid ":guilabel:`Custom…` – opens a dialog for extra options (see below)"
+msgstr ":guilabel:`Custom…` – يفتح مربع حوار لخيارات إضافية (انظر أدناه)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:226
+msgid ""
+"Counts are **finite** (2x, 3x, 4x, 5x, 8x, 10x, or a custom number). "
+"Example: “Forward then Back and stop” = :guilabel:`Ping-Pong → Forward → 2x`."
+msgstr ""
+"الأعداد **محدودة** (2x، 3x، 4x، 5x، 8x، 10x، أو رقم مخصص). مثال: “للأمام ثم "
+"للخلف وتوقف” = :guilabel:`Ping-Pong → Forward → 2x`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:229
+msgid "**What gets repeated**"
+msgstr "**ما يتم تكراره**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:231
+msgid "Repeat always acts on the **currently trimmed** in/out of the clip."
+msgstr "التكرار يعمل دائمًا على الجزء **المقتطع حاليًا** من بداية ونهاية المقطع."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:232
+msgid ""
+"The :guilabel:`Time` curve is stamped as a simple shape: - Loop Forward = "
+"rising saw - Loop Reverse = falling saw - Ping-Pong = triangle (direction "
+"flips each pass)"
+msgstr ""
+"منحنى :guilabel:`Time` يتم تمثيله بشكل بسيط: - Loop Forward = منشار تصاعدي - "
+"Loop Reverse = منشار تنازلي - Ping-Pong = مثلث (يتغير الاتجاه في كل مرة)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:236
+msgid ""
+"To avoid a double frame at the seam, the last frame of each pass is not "
+"duplicated."
+msgstr ""
+"لتجنب تكرار الإطار عند الوصلة، لا يتم تكرار الإطار الأخير في كل تمريرة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:238
+msgid "**Keyframes during Repeat**"
+msgstr "**الإطارات الرئيسية أثناء التكرار**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:240
+msgid ""
+"When you use Repeat, OpenShot will also **repeat other keyframes** found "
+"inside the trimmed section (location, scale, effects, etc.) into each pass "
+"so your animations stay in sync."
+msgstr ""
+"عند استخدام التكرار، يقوم OpenShot أيضًا **بتكرار الإطارات الرئيسية الأخرى** "
+"الموجودة داخل الجزء المقتطع (الموقع، الحجم، التأثيرات، إلخ) في كل تمريرة "
+"للحفاظ على تزامن الرسوم المتحركة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:241
+msgid "Repeated keyframes keep their relative timing inside each pass."
+msgstr "تحافظ الإطارات الرئيسية المكررة على توقيتها النسبي داخل كل تمريرة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:243
+msgid "**Custom Repeat** (dialog options)"
+msgstr "**تكرار مخصص** (خيارات مربع الحوار)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:245
+msgid ":guilabel:`Pattern:` Loop | Ping-Pong"
+msgstr ":guilabel:`النمط:` Loop | Ping-Pong"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:246
+msgid ":guilabel:`Direction:` Forward | Reverse"
+msgstr ":guilabel:`الاتجاه:` Forward | Reverse"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:247
+msgid ""
+":guilabel:`Passes:` integer (2 or more). This is the number of times it will "
+"play."
+msgstr ""
+":guilabel:`عدد التمريرات:` عدد صحيح (2 أو أكثر). هذا هو عدد مرات التشغيل."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:248
+msgid ""
+":guilabel:`Delay:` number + units [frames | ms | sec]. This is an optional "
+"delay between each repeated pass."
+msgstr ""
+":guilabel:`التأخير:` رقم + وحدة [إطارات | مللي ثانية | ثواني]. هذا تأخير "
+"اختياري بين كل تمريرة مكررة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:249
+msgid ""
+":guilabel:`Speed Ramp (%):` % speed change per pass (optional). Positive "
+"speeds up each pass; negative slows down each pass."
+msgstr ""
+":guilabel:`تغيير السرعة (%):` نسبة التغيير في السرعة لكل تمريرة (اختياري). "
+"القيم الموجبة تسرع كل تمريرة؛ القيم السالبة تبطئ كل تمريرة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:251
+msgid "**Reset**"
+msgstr "**إعادة تعيين**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:253
+msgid ""
+":guilabel:`Time → Reset Time` completely removes any Time curve (including "
+"Repeat) and restores the clip to its original playback, **without deleting "
+"your original non-Time keyframes**."
+msgstr ""
+":guilabel:`Time → Reset Time` يزيل تمامًا أي منحنى زمني (بما في ذلك التكرار) "
+"ويعيد المقطع إلى تشغيله الأصلي، **دون حذف الإطارات الرئيسية الأصلية غير "
+"الزمنية**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:257
+msgid "Timing Tool"
+msgstr "أداة التوقيت"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:258
+msgid ""
+"Another way to change a clip's speed is with the :guilabel:`Timing` tool on "
+"the timeline toolbar. Enable the clock icon and drag a clip's edges. "
+"Lengthening the clip slows playback, while shotening it speeds the clip up. "
+"All keyframes on the clip and its effects are scaled so their relative "
+"positions remain intact."
+msgstr ""
+"طريقة أخرى لتغيير سرعة المقطع هي باستخدام أداة :guilabel:`التوقيت` في شريط "
+"أدوات الجدول الزمني. فعّل أيقونة الساعة واسحب حواف المقطع. إطالة المقطع تبطئ "
+"التشغيل، بينما تقصيره يسرّع المقطع. يتم تعديل جميع الإطارات الرئيسية على "
+"المقطع وتأثيراته بحيث تبقى مواقعها النسبية كما هي."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:262
+msgid ""
+"If you select multiple clips and/or transitions that share the same left "
+"edge or right edge, you can retime that shared edge together in one drag."
+msgstr ""
+"إذا قمت بتحديد عدة مقاطع و/أو انتقالات تشترك في نفس الحافة اليسرى أو اليمنى، "
+"يمكنك إعادة توقيت تلك الحافة المشتركة معًا بسحب واحد."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:267
+msgid ""
+"The :guilabel:`Volume` preset controls audio properties, facilitating smooth "
+"volume adjustments. It manages audio volume, including fading in/out, "
+"reducing/increasing volume, or muting. See :ref:`clip_volume_ref` key-frame."
+msgstr ""
+"الإعداد المسبق :guilabel:`الصوت` يتحكم في خصائص الصوت، مما يسهل ضبط مستوى "
+"الصوت بسلاسة. يدير مستوى الصوت، بما في ذلك التلاشي التدريجي، تقليل/زيادة "
+"الصوت، أو كتمه. راجع :ref:`clip_volume_ref` الإطار الرئيسي."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:271
+msgid ""
+"**Usage Example:** Applying a gradual volume fade-out to transition between "
+"scenes."
+msgstr "**مثال على الاستخدام:** تطبيق تلاشي تدريجي للصوت للانتقال بين المشاهد."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:272
+msgid ""
+"**Tip:** Utilize volume presets for quickly lowering or raising volume "
+"levels."
+msgstr ""
+"**نصيحة:** استخدم الإعدادات المسبقة للصوت لخفض أو رفع مستوى الصوت بسرعة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:276
+msgid ""
+"The :guilabel:`Separate Audio` preset splits the audio from a clip, creating "
+"detached audio clips positioned below the original clip on the timeline. "
+"This preset can either create a **single** detached audio clip (positioned "
+"on a layer below the original clip) or **multiple** detached audio clips "
+"(one per audio track, positioned on multiple layers below the original clip)."
+msgstr ""
+"الإعداد المسبق :guilabel:`فصل الصوت` يفصل الصوت عن المقطع، وينشئ مقاطع صوتية "
+"منفصلة موضوعة أسفل المقطع الأصلي في الجدول الزمني. يمكن لهذا الإعداد إنشاء "
+"مقطع صوتي منفصل **واحد** (موضوع في طبقة أسفل المقطع الأصلي) أو **عدة** مقاطع "
+"صوتية منفصلة (واحد لكل مسار صوتي، موضوع في طبقات متعددة أسفل المقطع الأصلي)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:281
+msgid ""
+"**Usage Example:** Extracting background music from a video clip for "
+"independent control."
+msgstr ""
+"**مثال على الاستخدام:** استخراج الموسيقى الخلفية من مقطع فيديو للتحكم بها "
+"بشكل مستقل."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:282
+msgid ""
+"**Tip:** Use this preset to fine-tune audio elements separately from the "
+"visual content."
+msgstr ""
+"**نصيحة:** استخدم هذا الإعداد لضبط عناصر الصوت بشكل منفصل عن المحتوى المرئي."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:286
+msgid ""
+"The :guilabel:`Slice` tool lets you cut a clip at the position of the play-"
+"head (*the vertical line that shows your current position in the timeline*). "
+"This will split the clip into two separate parts at the exact point where "
+"the play-head is."
+msgstr ""
+"أداة :guilabel:`القطع` تتيح لك قطع المقطع عند موضع رأس التشغيل (*الخط "
+"العمودي الذي يوضح موقعك الحالي في الجدول الزمني*). هذا سيقسم المقطع إلى "
+"جزأين منفصلين عند النقطة التي يوجد فيها رأس التشغيل بالضبط."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:289
+msgid ""
+"Slicing is a key feature for making precise edits and rearranging sections "
+"of your video. You can slice a clip and choose to keep one side or both, and "
+"with the ripple option, you can automatically shift other clips on the same "
+"track to fill any gaps caused by the cut."
+msgstr ""
+"القطع هو ميزة أساسية لإجراء تعديلات دقيقة وإعادة ترتيب أجزاء الفيديو الخاص "
+"بك. يمكنك قطع المقطع واختيار الاحتفاظ بجانب واحد أو كلا الجانبين، ومع خيار "
+"التموج، يمكنك تحريك المقاطع الأخرى على نفس المسار تلقائيًا لملء أي فراغات "
+"ناتجة عن القطع."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:293
+msgid "**Slicing Options:**"
+msgstr "**خيارات القطع:**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:295
+msgid ""
+"**Keep Both Sides**: This option splits the clip into two parts, keeping "
+"everything on both sides of the play-head. It’s useful when you want to "
+"break a clip into sections but don’t want to remove anything."
+msgstr ""
+"**الاحتفاظ بكلا الجانبين**: هذا الخيار يقسم المقطع إلى جزأين، محتفظًا بكل شيء "
+"على جانبي رأس التشغيل. مفيد عندما تريد تقسيم المقطع إلى أقسام دون إزالة أي "
+"شيء."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:296
+msgid ""
+"**Keep Left Side**: This option cuts the clip and removes the part to the "
+"right of the play-head, keeping only the part before the play-head. Use this "
+"to get rid of the portion of the clip that comes after the current point."
+msgstr ""
+"**الاحتفاظ بالجانب الأيسر**: هذا الخيار يقطع المقطع ويزيل الجزء الموجود يمين "
+"رأس التشغيل، محتفظًا فقط بالجزء قبل رأس التشغيل. استخدم هذا للتخلص من الجزء "
+"الذي يلي النقطة الحالية."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:297
+msgid ""
+"**Keep Right Side**: This option cuts the clip and removes the part to the "
+"left of the play-head, keeping only the part after the play-head. It’s handy "
+"for trimming away the beginning of a clip and keeping the rest."
+msgstr ""
+"**الاحتفاظ بالجانب الأيمن**: هذا الخيار يقطع المقطع ويزيل الجزء الموجود يسار "
+"رأس التشغيل، محتفظًا فقط بالجزء بعد رأس التشغيل. مفيد لقص بداية المقطع "
+"والاحتفاظ بالباقي."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:298
+msgid ""
+"**Ripple Slicing**: Ripple slicing not only cuts the clip but also moves any "
+"clips and transitions that follow to close the gap. This way, your timeline "
+"stays continuous without empty spaces after a cut, saving you the trouble of "
+"manually adjusting the clips that come after."
+msgstr ""
+"**القطع المتتابع**: القطع المتتابع لا يقطع المقطع فقط، بل يحرك أيضًا أي مقاطع "
+"وانتقالات تليه لسد الفجوة. بهذه الطريقة، يبقى الجدول الزمني مستمرًا بدون "
+"فراغات بعد القطع، مما يوفر عليك عناء تعديل المقاطع التالية يدويًا."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:300 ../clips.rst:408
+msgid "**Tips for Beginners:**"
+msgstr "**نصائح للمبتدئين:**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:302
+msgid ""
+"**Example**: If there’s a part of a clip you don’t want (like the end of a "
+"scene), use **Keep Left Side** or **Keep Right Side** to remove it. If you "
+"want to split a scene into multiple smaller sections to rearrange, use "
+"**Keep Both Sides**."
+msgstr ""
+"**مثال**: إذا كان هناك جزء من المقطع لا تريده (مثل نهاية مشهد)، استخدم "
+"**الاحتفاظ بالجانب الأيسر** أو **الاحتفاظ بالجانب الأيمن** لإزالته. إذا أردت "
+"تقسيم المشهد إلى أقسام أصغر لإعادة ترتيبها، استخدم **الاحتفاظ بكلا "
+"الجانبين**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:303
+msgid ""
+"**Quick Tip**: Slicing can also be used to break a long clip into smaller "
+"parts, making it easier to manage and edit each section separately."
+msgstr ""
+"**نصيحة سريعة**: يمكن أيضًا استخدام القطع لتقسيم مقطع طويل إلى أجزاء أصغر، "
+"مما يسهل إدارة وتحرير كل قسم بشكل منفصل."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:305
+msgid ""
+"For a complete guide to slicing and all available keyboard shortcuts, see "
+"the :ref:`clips_cutting_slicing_ref` section."
+msgstr ""
+"للحصول على دليل كامل للقطع وجميع اختصارات لوحة المفاتيح المتاحة، راجع القسم :"
+"ref:`clips_cutting_slicing_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:310
+msgid "Transform"
+msgstr "تحويل"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:311
+msgid ""
+"The **Transform Tool** lets you quickly adjust a clip directly in the "
+"preview window, instead of changing location, scale, rotation, shear, and "
+"rotation origin values one property at a time. OpenShot shows the Transform "
+"Tool automatically whenever you select a clip on the timeline, with blue "
+"lines and handles drawn around the selected clip. You can also select "
+"multiple clips at once with :kbd:`Ctrl` or :kbd:`Shift`; in that case, the "
+"preview shows one set of handles around the full selection, and any move, "
+"scale, or rotation is applied to all selected clips together."
+msgstr ""
+"تتيح لك أداة **التحويل** تعديل المقطع بسرعة مباشرة في نافذة المعاينة، بدلاً "
+"من تغيير الموقع، المقياس، الدوران، القص، وأصل الدوران خاصية واحدة في كل مرة. "
+"يعرض OpenShot أداة التحويل تلقائيًا كلما قمت بتحديد مقطع على الجدول الزمني، "
+"مع خطوط زرقاء ومقابض مرسومة حول المقطع المحدد. يمكنك أيضًا تحديد عدة مقاطع "
+"مرة واحدة باستخدام :kbd:`Ctrl` أو :kbd:`Shift`؛ في هذه الحالة، تعرض المعاينة "
+"مجموعة واحدة من المقابض حول التحديد الكامل، ويتم تطبيق أي تحريك أو مقياس أو "
+"دوران على جميع المقاطع المحددة معًا."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:320
+msgid "Dragging the blue squares will adjust the **scale** of the image."
+msgstr "سحب المربعات الزرقاء سيضبط **مقياس** الصورة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:321
+msgid "Dragging the center will move the **location** of the image."
+msgstr "سحب المركز سينقل **موقع** الصورة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:322
+msgid ""
+"Dragging the mouse on the outside of the blue lines will **rotate** the "
+"image."
+msgstr "سحب الماوس خارج الخطوط الزرقاء سيُدير الصورة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:323
+msgid ""
+"Hold :kbd:`Ctrl` or :kbd:`Shift` while rotating to snap to 15-degree "
+"increments."
+msgstr ""
+"اضغط مع الاستمرار على :kbd:`Ctrl` أو :kbd:`Shift` أثناء الدوران للالتقاط عند "
+"زيادات 15 درجة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:324
+msgid ""
+"Dragging along the blue lines will **shear** the image in that direction."
+msgstr "السحب على طول الخطوط الزرقاء سيُقص الصورة في ذلك الاتجاه."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:325
+msgid ""
+"Dragging the circle in the middle will move the **origin point** that "
+"controls the center of **rotation**."
+msgstr ""
+"سحب الدائرة في الوسط سينقل **نقطة الأصل** التي تتحكم في مركز **الدوران**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:327
+msgid ""
+"Note: Pay close attention to the play-head position (red playback line). Key "
+"frames are automatically created at the current playback position, to help "
+"quickly create animations. If you want to transform a clip with **no "
+"animation**, be sure the playhead is positioned before (to the left) of your "
+"clip. You can also manually adjust these same clip properties in the "
+"property editor, see :ref:`clip_properties_ref`."
+msgstr ""
+"ملاحظة: انتبه جيدًا لموضع رأس التشغيل (خط التشغيل الأحمر). يتم إنشاء الإطارات "
+"الرئيسية تلقائيًا عند موضع التشغيل الحالي، لمساعدتك على إنشاء الرسوم المتحركة "
+"بسرعة. إذا أردت تحويل مقطع بدون **تحريك**، تأكد من أن رأس التشغيل موضوع قبل "
+"(إلى اليسار من) المقطع. يمكنك أيضًا تعديل نفس خصائص المقطع يدويًا في محرر "
+"الخصائص، راجع :ref:`clip_properties_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:334
+#, fuzzy
+msgid ""
+"**Usage Example:** Use the transform handles to resize and reposition a clip "
+"for a picture-in-picture effect."
+msgstr ""
+"**مثال على الاستخدام:** استخدام وضع التحويل لتغيير حجم وإعادة تموضع المقطع "
+"لتأثير صورة داخل صورة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:335
+#, fuzzy
+msgid "**Tip:** Use these handles to precisely control a clip's appearance."
+msgstr "**نصيحة:** استخدم هذا الإعداد المسبق للتحكم بدقة في مظهر المقطع."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:338
+msgid "Crop"
+msgstr "اقتطاع"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:339
+msgid ""
+"The :guilabel:`Crop` preset adds a crop effect to the selected clip and "
+"displays interactive crop handles in the video preview. The submenu offers:"
+msgstr ""
+"يضيف الإعداد المسبق :guilabel:`اقتطاع` تأثير اقتطاع إلى المقطع المحدد ويعرض "
+"مقابض اقتطاع تفاعلية في معاينة الفيديو. يقدم القائمة الفرعية الخيارات "
+"التالية:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:342
+msgid ":guilabel:`No Crop` – remove any existing crop effect."
+msgstr ":guilabel:`بدون اقتطاع` – إزالة أي تأثير اقتطاع موجود."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:343
+msgid ""
+":guilabel:`Crop (No Resize)` – trim the clip without scaling the remaining "
+"area."
+msgstr ""
+":guilabel:`اقتطاع (بدون تغيير الحجم)` – قص المقطع دون تغيير حجم المنطقة "
+"المتبقية."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:344
+msgid ""
+":guilabel:`Crop (Resize)` – trim the clip and scale the cropped region to "
+"fill the frame."
+msgstr ""
+":guilabel:`اقتطاع (تغيير الحجم)` – قص المقطع وتكبير المنطقة المقتطعة لملء "
+"الإطار."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:346
+msgid ""
+"Drag the blue handles to adjust the crop boundaries, move the cropped area "
+"around, or move the center handle to reposition the image inside the cropped "
+"area."
+msgstr ""
+"اسحب المقابض الزرقاء لضبط حدود الاقتطاع، أو لتحريك المنطقة المقتطعة، أو حرك "
+"المقبض المركزي لإعادة تموضع الصورة داخل المنطقة المقتطعة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:351
+msgid ""
+"The :guilabel:`Display` preset toggles the display mode of a clip on the "
+"timeline, showing either its waveform or thumbnail."
+msgstr ""
+"يقوم الإعداد المسبق :guilabel:`العرض` بتبديل وضع عرض المقطع على الجدول "
+"الزمني، إما عرض الموجة الصوتية أو الصورة المصغرة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:354
+msgid ""
+"**Usage Example:** Displaying the audio waveform for precise audio editing."
+msgstr "**مثال على الاستخدام:** عرض الموجة الصوتية لتحرير صوتي دقيق."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:355
+msgid ""
+"**Tip:** Use this preset to focus on specific aspects of a clip's audio "
+"during editing."
+msgstr ""
+"**نصيحة:** استخدم هذا الإعداد المسبق للتركيز على جوانب محددة من صوت المقطع "
+"أثناء التحرير."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:359
+msgid ""
+"The :guilabel:`Properties` preset opens the properties panel for a clip, "
+"allowing quick access for adjustments to clip properties, such as location, "
+"scale, rotation, etc... See :ref:`clip_properties_ref`."
+msgstr ""
+"يفتح الإعداد المسبق :guilabel:`الخصائص` لوحة خصائص المقطع، مما يتيح الوصول "
+"السريع لتعديل خصائص المقطع مثل الموقع، المقياس، الدوران، إلخ... انظر :ref:"
+"`clip_properties_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:362
+msgid ""
+"**Usage Example:** Adjusting clip properties like opacity, volume, or "
+"position."
+msgstr ""
+"**مثال على الاستخدام:** تعديل خصائص المقطع مثل الشفافية، الصوت، أو الموقع."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:363
+msgid ""
+"**Tip:** Apply this preset to streamline adjustments to all clip properties "
+"in a single dock."
+msgstr ""
+"**نصيحة:** طبق هذا الإعداد المسبق لتبسيط تعديل جميع خصائص المقطع في لوحة "
+"واحدة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:366
+msgid "Copy / Cut / Paste"
+msgstr "نسخ / قص / لصق"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:367
+msgid ""
+"The :guilabel:`Copy / Paste` preset allows copying and pasting keyframes, "
+"effects, or duplicating an entire clip along with its keyframes. Paste will "
+"create a new clip at the position of your mouse. If you select 1 or more "
+"clips before pasting, you can paste \"over\" those clips with your current "
+"clip."
+msgstr ""
+"يتيح الإعداد المسبق :guilabel:`نسخ / لصق` نسخ ولصق الإطارات الرئيسية، "
+"التأثيرات، أو تكرار مقطع كامل مع إطاراته الرئيسية. سيؤدي اللصق إلى إنشاء "
+"مقطع جديد في موقع مؤشر الفأرة. إذا قمت بتحديد مقطع واحد أو أكثر قبل اللصق، "
+"يمكنك اللصق \"فوق\" تلك المقاطع بالمقطع الحالي."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:371
+msgid ""
+"**Usage Example:** Duplicating a clip with intricate animations for reuse in "
+"different parts of the project."
+msgstr ""
+"**مثال على الاستخدام:** تكرار مقطع يحتوي على تحريكات معقدة لإعادة استخدامه "
+"في أجزاء مختلفة من المشروع."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:372
+msgid ""
+"**Tip:** Use this preset to replicate animations or effects across multiple "
+"clips."
+msgstr ""
+"**نصيحة:** استخدم هذا الإعداد المسبق لتكرار التحريكات أو التأثيرات عبر عدة "
+"مقاطع."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:373
+msgid ""
+"**Tip:** Selecting multiple clips before pasting, sets keyframes and/or "
+"effects for all clips."
+msgstr ""
+"**نصيحة:** تحديد عدة مقاطع قبل اللصق يضبط الإطارات الرئيسية و/أو التأثيرات "
+"لجميع المقاطع."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:374
+msgid ""
+"**Tip:** You can copy a single effect, and paste it to multiple selected "
+"clips."
+msgstr "**نصيحة:** يمكنك نسخ تأثير واحد ولصقه على عدة مقاطع محددة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:377
+msgid "Remove Gaps"
+msgstr "إزالة الفجوات"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:378
+msgid ""
+"The :guilabel:`Remove Gap` and :guilabel:`Remove All Gaps` options help you "
+"quickly eliminate gaps between clips on the timeline by rippling (i.e., "
+"shifting) subsequent clips to close the gap. These options can be accessed "
+"via the context menu and are only available when gaps are detected."
+msgstr ""
+"تساعد خيارات :guilabel:`إزالة الفجوة` و :guilabel:`إزالة كل الفجوات` على "
+"إزالة الفجوات بين المقاطع على الجدول الزمني بسرعة عن طريق تحريك المقاطع "
+"التالية لسد الفجوة. يمكن الوصول إلى هذه الخيارات من قائمة السياق وتكون متاحة "
+"فقط عند اكتشاف فجوات."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:381
+msgid ""
+"**Remove Gap:** - This option deletes a specific gap between two clips on "
+"the timeline. Right-click on the gap between clips to access the :guilabel:"
+"`Remove Gap` option. - Usage: Use this option to quickly eliminate a "
+"specific gap caused by trimming or using the razor tool."
+msgstr ""
+"**إزالة الفجوة:** - يحذف هذا الخيار فجوة محددة بين مقطعين على الجدول الزمني. "
+"انقر بزر الماوس الأيمن على الفجوة بين المقاطع للوصول إلى خيار :guilabel:"
+"`إزالة الفجوة`. - الاستخدام: استخدم هذا الخيار لإزالة فجوة محددة بسرعة ناجمة "
+"عن القص أو استخدام أداة الشفرة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:385
+msgid ""
+"**Remove All Gaps:** - This option removes all gaps between clips on the "
+"timeline for the entire track. Right-click on the track name to access the :"
+"guilabel:`Remove All Gaps` option. - Usage: Ideal for tracks that contain "
+"back-to-back clips, such as a photo slideshow, where no gaps are desired."
+msgstr ""
+"**إزالة كل الفجوات:** - يزيل هذا الخيار جميع الفجوات بين المقاطع على الجدول "
+"الزمني للمسار بأكمله. انقر بزر الماوس الأيمن على اسم المسار للوصول إلى خيار :"
+"guilabel:`إزالة كل الفجوات`. - الاستخدام: مثالي للمسارات التي تحتوي على "
+"مقاطع متتالية، مثل عرض شرائح الصور، حيث لا يُرغب بوجود فجوات."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:391
+msgid ""
+"The :guilabel:`Remove Clip` option lets you delete a clip from the timeline. "
+"Removing clips is an essential part of organizing your project and getting "
+"rid of unwanted sections. Removing a clip can also impact the surrounding "
+"clips. If you want to clean up the gap that remains after deleting a clip, "
+"you have a few options to automatically adjust your timeline."
+msgstr ""
+"يتيح خيار :guilabel:`إزالة المقطع` حذف مقطع من الجدول الزمني. إزالة المقاطع "
+"جزء أساسي من تنظيم مشروعك والتخلص من الأجزاء غير المرغوبة. قد يؤثر حذف "
+"المقطع أيضًا على المقاطع المحيطة. إذا أردت تنظيف الفجوة المتبقية بعد حذف "
+"المقطع، لديك عدة خيارات لضبط الجدول الزمني تلقائيًا."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:395
+msgid ""
+"**How to Remove a Clip:** To delete a clip, simply select it and press :kbd:"
+"`Delete` on your keyboard, or right-click the clip and choose :guilabel:"
+"`Remove Clip` from the context menu. You can also select multiple clips at "
+"once by holding down the :kbd:`Ctrl` key and clicking on additional clips, "
+"then remove them all at once."
+msgstr ""
+"**كيفية إزالة مقطع:** لحذف مقطع، ببساطة حدده واضغط :kbd:`Delete` على لوحة "
+"المفاتيح، أو انقر بزر الماوس الأيمن على المقطع واختر :guilabel:`إزالة "
+"المقطع` من قائمة السياق. يمكنك أيضًا تحديد عدة مقاطع مرة واحدة بالضغط على "
+"مفتاح :kbd:`Ctrl` والنقر على مقاطع إضافية، ثم حذفها جميعًا دفعة واحدة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:399
+msgid ""
+"**Ripple Delete:** If you want to delete a clip and automatically remove the "
+"empty space (gap) it leaves behind, use the **Ripple Delete** feature by "
+"pressing :kbd:`Shift+Delete`. This will shift all the remaining clips and "
+"transitions on the track to the left, filling in the gap and keeping your "
+"timeline smooth and continuous."
+msgstr ""
+"**حذف متتابع:** إذا أردت حذف مقطع وإزالة الفراغ (الفجوة) الذي يتركه تلقائيًا، "
+"استخدم ميزة **الحذف المتتابع** بالضغط على :kbd:`Shift+Delete`. سيؤدي ذلك إلى "
+"تحريك جميع المقاطع والانتقالات المتبقية على المسار إلى اليسار، ملء الفجوة "
+"والحفاظ على سلاسة واستمرارية الجدول الزمني."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:404
+msgid ""
+"**Remove Gap:** After deleting a clip, if you have gaps left in your "
+"timeline that you want to remove, simply right-click in the empty space and "
+"choose :guilabel:`Remove Gap`. This action will shift all clips and "
+"transitions to the left, closing the gap and maintaining the flow of your "
+"video."
+msgstr ""
+"**إزالة الفجوة:** بعد حذف مقطع، إذا تبقت فجوات في الجدول الزمني تريد "
+"إزالتها، ببساطة انقر بزر الماوس الأيمن في المساحة الفارغة واختر :guilabel:"
+"`إزالة الفجوة`. سيؤدي هذا إلى تحريك جميع المقاطع والانتقالات إلى اليسار، "
+"إغلاق الفجوة والحفاظ على تدفق الفيديو."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:410
+msgid ""
+"**Example**: If you have a clip that’s no longer needed, such as an intro "
+"you’ve decided not to use, you can quickly select it and either delete it or "
+"use **Ripple Delete** to remove it and shift everything left to close the "
+"gap."
+msgstr ""
+"**مثال**: إذا كان لديك مقطع لم يعد مطلوبًا، مثل مقدمة قررت عدم استخدامها، "
+"يمكنك تحديده بسرعة وحذفه أو استخدام **الحذف المتتابع** لإزالته وتحريك كل شيء "
+"إلى اليسار لسد الفجوة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:412
+msgid ""
+"For more advanced editing options and shortcuts, refer to the :ref:"
+"`clips_cutting_slicing_ref` section."
+msgstr ""
+"لخيارات تحرير متقدمة واختصارات إضافية، راجع القسم :ref:"
+"`clips_cutting_slicing_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:415
+msgid "Effects"
+msgstr "التأثيرات"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:416
+msgid ""
+"In addition to the many clip properties which can be animated and adjusted, "
+"you can also drop an effect directly onto a clip from the effects dock. Each "
+"effect is represented by a small colored letter icon. Clicking the effect "
+"icon will populate the properties of that effect, and allow you to edit (and "
+"animate) them. For the full list of effects, see :ref:`effects_ref`."
+msgstr ""
+"بالإضافة إلى العديد من خصائص المقطع التي يمكن تحريكها وتعديلها، يمكنك أيضًا "
+"إسقاط تأثير مباشرة على المقطع من رصيف التأثيرات. يتم تمثيل كل تأثير بأيقونة "
+"حرف ملون صغير. النقر على أيقونة التأثير سيملأ خصائص ذلك التأثير، ويسمح لك "
+"بتحريرها (وتحريكها). للقائمة الكاملة للتأثيرات، انظر :ref:`effects_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:426
+msgid "Clip Properties"
+msgstr "خصائص المقطع"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:427
+msgid ""
+"Below is a list of clip properties which can be edited, and in most cases, "
+"animated over time. To view a clip's properties, right click and choose :"
+"guilabel:`Properties`. The property editor will appear, where you can change "
+"these properties. You can select multiple clips, transitions or effects at "
+"once. The dropdown at the top of the dock shows entries for each item plus "
+"an entry such as ``2 Selections``. Pick that entry to edit all selected "
+"items together, only properties they share will be visible. If a field is "
+"blank, the values differ between items, but you can still change it or "
+"insert a keyframe for all of them."
+msgstr ""
+"فيما يلي قائمة بخصائص المقطع التي يمكن تحريرها، وفي معظم الحالات تحريكها مع "
+"مرور الوقت. لعرض خصائص المقطع، انقر بزر الماوس الأيمن واختر :guilabel:"
+"`الخصائص`. سيظهر محرر الخصائص حيث يمكنك تغيير هذه الخصائص. يمكنك تحديد عدة "
+"مقاطع أو انتقالات أو تأثيرات مرة واحدة. يعرض القائمة المنسدلة في أعلى الرصيف "
+"إدخالات لكل عنصر بالإضافة إلى إدخال مثل ``2 Selections``. اختر هذا الإدخال "
+"لتحرير جميع العناصر المحددة معًا، فقط الخصائص المشتركة بينها ستكون مرئية. إذا "
+"كان الحقل فارغًا، فإن القيم تختلف بين العناصر، لكن يمكنك مع ذلك تغييره أو "
+"إدخال إطار رئيسي للجميع."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:435
+msgid ""
+"Note: Pay close attention to where the play-head (i.e. red playback line) "
+"is. Key frames are automatically created at the current playback position, "
+"to help quickly create animations."
+msgstr ""
+"ملاحظة: انتبه جيدًا إلى مكان رأس التشغيل (أي خط التشغيل الأحمر). يتم إنشاء "
+"الإطارات الرئيسية تلقائيًا في موضع التشغيل الحالي، لمساعدتك على إنشاء الرسوم "
+"المتحركة بسرعة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:438
+msgid ""
+"When animating clip properties, you can fade a clip from opaque to "
+"transparent with ``alpha``, slide a clip around the screen with "
+"``location_x`` and ``location_y``, scale a clip smaller or larger with the "
+"``scale_x`` and ``scale_y``, fade the volume of a clip quieter or louder "
+"with ``volume``, and much more. If you want to set a single, static clip "
+"property with **no animation**, be sure the playhead is positioned at the "
+"start of your clip (to the left) when adjusting the property value."
+msgstr ""
+"عند تحريك خصائص المقطع، يمكنك تلاشي المقطع من معتم إلى شفاف باستخدام "
+"``alpha``، تحريك المقطع حول الشاشة باستخدام ``location_x`` و ``location_y``، "
+"تكبير أو تصغير المقطع باستخدام ``scale_x`` و ``scale_y``، تخفيض أو رفع صوت "
+"المقطع باستخدام ``volume``، وأكثر من ذلك. إذا كنت تريد تعيين خاصية واحدة "
+"ثابتة للمقطع **بدون تحريك**، تأكد من أن رأس التشغيل موضوع في بداية المقطع "
+"(إلى اليسار) عند تعديل قيمة الخاصية."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:443
+msgid "See the table below for a full list of clip properties."
+msgstr "انظر الجدول أدناه للقائمة الكاملة لخصائص المقطع."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:449
+msgid "Clip Property Name"
+msgstr "اسم خاصية المقطع"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:449
+msgid "Type"
+msgstr "النوع"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:451 ../clips.rst:529
+msgid "Alpha"
+msgstr "ألفا"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:451 ../clips.rst:452 ../clips.rst:453 ../clips.rst:463
+#: ../clips.rst:464 ../clips.rst:466 ../clips.rst:467 ../clips.rst:470
+#: ../clips.rst:472 ../clips.rst:473 ../clips.rst:474 ../clips.rst:475
+#: ../clips.rst:477 ../clips.rst:478 ../clips.rst:479
+msgid "Key-Frame"
+msgstr "إطار رئيسي"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:451
+msgid ""
+"Curve representing the alpha for fading the image and adding transparency (1 "
+"to 0)"
+msgstr "منحنى يمثل الألفا لتلاشي الصورة وإضافة الشفافية (من 1 إلى 0)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:452 ../clips.rst:537
+msgid "Channel Filter"
+msgstr "مرشح القناة"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:452
+msgid ""
+"A number representing an audio channel to filter (clears all other channels)"
+msgstr "رقم يمثل قناة صوتية للتصفية (يمسح جميع القنوات الأخرى)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:453 ../clips.rst:545
+msgid "Channel Mapping"
+msgstr "تعيين القناة"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:453
+msgid ""
+"A number representing an audio channel to output (only works when filtering "
+"a channel)"
+msgstr "رقم يمثل قناة صوتية للإخراج (يعمل فقط عند تصفية قناة)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:454 ../clips.rst:553
+msgid "Frame Number"
+msgstr "رقم الإطار"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:454 ../clips.rst:455 ../clips.rst:458 ../clips.rst:459
+#: ../clips.rst:460 ../clips.rst:465 ../clips.rst:471
+msgid "Enum"
+msgstr "تعداد"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:454
+msgid "The format to display the frame number (if any)"
+msgstr "تنسيق عرض رقم الإطار (إن وجد)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:455 ../clips.rst:486
+msgid "Composite (Blend Mode)"
+msgstr "التركيب (وضع الدمج)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:455
+msgid ""
+"The blend mode used to composite this clip into lower layers. Default is "
+"**Normal**. See :ref:`clip_composite_ref`."
+msgstr ""
+"وضع الدمج المستخدم لتركيب هذا المقطع في الطبقات السفلية. الافتراضي هو "
+"**عادي**. انظر :ref:`clip_composite_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:456 ../clips.rst:560
+msgid "Duration"
+msgstr "المدة"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:456 ../clips.rst:457 ../clips.rst:469 ../clips.rst:476
+msgid "Float"
+msgstr "عدد عشري"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:456
+msgid ""
+"The length of the clip (in seconds). Read-only property. This is calculated "
+"by: End - Start."
+msgstr ""
+"طول المقطع (بالثواني). خاصية للقراءة فقط. يتم حسابها بواسطة: النهاية - "
+"البداية."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:457 ../clips.rst:568
+msgid "End"
+msgstr "النهاية"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:457
+msgid "The end trimming position of the clip (in seconds)"
+msgstr "موضع تقليم نهاية المقطع (بالثواني)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:458 ../clips.rst:576
+msgid "Gravity"
+msgstr "الجاذبية"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:458
+msgid ""
+"The gravity of a clip determines where it snaps to its parent (details below)"
+msgstr "تحدد جاذبية المقطع المكان الذي يلتصق فيه بالأصل (التفاصيل أدناه)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:459 ../clips.rst:593
+msgid "Enable Audio"
+msgstr "تمكين الصوت"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:459
+msgid ""
+"An optional override to determine if this clip has audio (-1=undefined, "
+"0=no, 1=yes)"
+msgstr ""
+"تجاوز اختياري لتحديد ما إذا كان هذا المقطع يحتوي على صوت (-1=غير محدد، 0=لا، "
+"1=نعم)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:460 ../clips.rst:601
+msgid "Enable Video"
+msgstr "تمكين الفيديو"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:460
+msgid ""
+"An optional override to determine if this clip has video (-1=undefined, "
+"0=no, 1=yes)"
+msgstr ""
+"تجاوز اختياري لتحديد ما إذا كان هذا المقطع يحتوي على فيديو (-1=غير محدد، "
+"0=لا، 1=نعم)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:461 ../clips.rst:609
+msgid "ID"
+msgstr "المعرف"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:461 ../clips.rst:468
+msgid "String"
+msgstr "نص"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:461
+msgid ""
+"A randomly generated GUID (globally unique identifier) assigned to each "
+"clip. Read-only property."
+msgstr "معرف فريد عالمي (GUID) مولد عشوائيًا مخصص لكل مقطع. خاصية للقراءة فقط."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:462 ../clips.rst:617
+msgid "Track"
+msgstr "المسار"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:462
+msgid "Int"
+msgstr "عدد صحيح"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:462
+msgid ""
+"The layer which holds the clip (higher tracks are rendered on top of lower "
+"tracks)"
+msgstr ""
+"الطبقة التي تحتوي على المقطع (يتم عرض المسارات الأعلى فوق المسارات الأدنى)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:463
+msgid "Location X"
+msgstr "الموقع X"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:463
+msgid ""
+"Curve representing the relative X position in percent based on the gravity "
+"(-1 to 1)"
+msgstr ""
+"منحنى يمثل الموضع النسبي على المحور X بالنسبة المئوية بناءً على الجاذبية (-1 "
+"إلى 1)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:464
+msgid "Location Y"
+msgstr "الموقع Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:464
+msgid ""
+"Curve representing the relative Y position in percent based on the gravity "
+"(-1 to 1)"
+msgstr ""
+"منحنى يمثل الموضع النسبي على المحور Y بالنسبة المئوية بناءً على الجاذبية (-1 "
+"إلى 1)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:465 ../clips.rst:637
+msgid "Volume Mixing"
+msgstr "خلط الصوت"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:465
+msgid ""
+"The volume mixing choices control how volume is adjusted before mixing "
+"(None=don't adjust volume of this clip, Reduce=lower the volume to 80%, "
+"Average=divide volume based on # of concurrent clips, details below)"
+msgstr ""
+"خيارات خلط الصوت تتحكم في كيفية تعديل الصوت قبل الخلط (لا شيء=لا تعدل صوت "
+"هذا المقطع، تقليل=خفض الصوت إلى 80%، متوسط=تقسيم الصوت بناءً على عدد المقاطع "
+"المتزامنة، التفاصيل أدناه)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:466
+msgid "Origin X"
+msgstr "الأصل X"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:466
+msgid ""
+"Curve representing the rotation origin point, X position in percent (-1 to 1)"
+msgstr ""
+"منحنى يمثل نقطة أصل الدوران، الموضع على المحور X بالنسبة المئوية (-1 إلى 1)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:467
+msgid "Origin Y"
+msgstr "الأصل Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:467
+msgid ""
+"Curve representing the rotation origin point, Y position in percent (-1 to 1)"
+msgstr "منحنى يمثل نقطة أصل الدوران، موضع Y بالنسبة المئوية (-1 إلى 1)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:468
+msgid "Parent"
+msgstr "الأصل"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:468
+msgid ""
+"The parent object to this clip, which makes many of these keyframe values "
+"initialize to the parent value"
+msgstr ""
+"الكائن الأصل لهذا المقطع، مما يجعل العديد من قيم الإطارات الرئيسية تبدأ "
+"بقيمة الأصل"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:469 ../clips.rst:676
+msgid "Position"
+msgstr "الموضع"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:469
+msgid ""
+"The position of the clip on the timeline (in seconds, 0.0 is the beginning "
+"of the timeline)"
+msgstr "موضع المقطع على الجدول الزمني (بالثواني، 0.0 هو بداية الجدول الزمني)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:470 ../clips.rst:685
+msgid "Rotation"
+msgstr "الدوران"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:470
+msgid "Curve representing the rotation (0 to 360)"
+msgstr "منحنى يمثل الدوران (0 إلى 360)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:471 ../clips.rst:701
+msgid "Scale"
+msgstr "المقياس"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:471
+msgid ""
+"The scale determines how a clip should be resized to fit its parent (details "
+"below)"
+msgstr "المقياس يحدد كيفية تغيير حجم المقطع ليتناسب مع الأصل (التفاصيل أدناه)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:472
+msgid "Scale X"
+msgstr "مقياس X"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:472
+msgid "Curve representing the horizontal scaling in percent (0 to 1)"
+msgstr "منحنى يمثل المقياس الأفقي بالنسبة المئوية (0 إلى 1)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:473
+msgid "Scale Y"
+msgstr "مقياس Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:473
+msgid "Curve representing the vertical scaling in percent (0 to 1)"
+msgstr "منحنى يمثل المقياس الرأسي بالنسبة المئوية (0 إلى 1)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:474
+msgid "Shear X"
+msgstr "القص X"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:474
+msgid "Curve representing X shear angle in degrees (-45.0=left, 45.0=right)"
+msgstr "منحنى يمثل زاوية القص في المحور X بالدرجات (-45.0=يسار، 45.0=يمين)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:475
+msgid "Shear Y"
+msgstr "القص Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:475
+msgid "Curve representing Y shear angle in degrees (-45.0=down, 45.0=up)"
+msgstr "منحنى يمثل زاوية القص في المحور Y بالدرجات (-45.0=أسفل، 45.0=أعلى)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:476 ../clips.rst:735
+msgid "Start"
+msgstr "البداية"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:476
+msgid "The start trimming position of the clip (in seconds)"
+msgstr "موضع بداية تقليم المقطع (بالثواني)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:477
+msgid ""
+"Curve representing the frames over time to play (used for speed and "
+"direction of video)"
+msgstr ""
+"منحنى يمثل الإطارات مع مرور الوقت للتشغيل (يستخدم لسرعة واتجاه الفيديو)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:478
+msgid ""
+"Curve representing the volume for fading audio quieter/louder, mute, or "
+"adjusting levels (0 to 1)"
+msgstr ""
+"منحنى يمثل مستوى الصوت لتلاشي الصوت أخفض/أعلى، كتم، أو تعديل المستويات (0 "
+"إلى 1)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:479 ../clips.rst:780
+msgid "Wave Color"
+msgstr "لون الموجة"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:479
+msgid "Curve representing the color of the audio waveform"
+msgstr "منحنى يمثل لون شكل موجة الصوت"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:480 ../clips.rst:787
+msgid "Waveform"
+msgstr "شكل الموجة"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:480
+msgid "Bool"
+msgstr "قيمة منطقية"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:480
+msgid "Should a waveform be used instead of the clip's image"
+msgstr "هل يجب استخدام شكل الموجة بدلاً من صورة المقطع"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:487
+msgid ""
+"The :guilabel:`Composite (Blend Mode)` property controls **how the pixels of "
+"this clip mix with the clips on lower tracks**. If you are new to this, "
+"start with **Normal**. Switch modes when you want a quick creative change "
+"without adding an effect."
+msgstr ""
+"تتحكم خاصية :guilabel:`التركيب (وضع الدمج)` في **كيفية مزج بكسلات هذا المقطع "
+"مع المقاطع في المسارات الأدنى**. إذا كنت جديدًا على هذا، ابدأ بـ **عادي**. "
+"غيّر الوضع عندما تريد تغييرًا إبداعيًا سريعًا دون إضافة تأثير."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:490
+msgid "**Beginner tips**"
+msgstr "**نصائح للمبتدئين**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:492
+msgid ""
+"Want to **brighten** light effects, flares, or smoke over a dark scene? Try "
+"**Screen** or **Add**."
+msgstr ""
+"هل تريد **تفتيح** تأثيرات الضوء، الوهج، أو الدخان فوق مشهد مظلم؟ جرب "
+"**الشاشة** أو **الإضافة**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:493
+msgid ""
+"Want to **darken** or place a texture over footage (paper grain, grids, "
+"shadows)? Try **Multiply** or **Color Burn**."
+msgstr ""
+"هل تريد **تغميق** أو وضع نسيج فوق اللقطات (حبيبات الورق، الشبكات، الظلال)؟ "
+"جرب **الضرب** أو **حرق اللون**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:494
+msgid ""
+"Want **more contrast** without crushing blacks and whites too much? Try "
+"**Overlay** or **Soft Light**."
+msgstr ""
+"هل تريد **مزيدًا من التباين** دون سحق الأسود والأبيض كثيرًا؟ جرب **التراكب** "
+"أو **الضوء الناعم**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:495
+msgid ""
+"Want a **creative/inverted look** or to line things up? Try **Difference** "
+"or **Exclusion**."
+msgstr ""
+"هل تريد مظهرًا **إبداعيًا/معكوسًا** أو لمحاذاة الأشياء؟ جرب **الفرق** أو "
+"**الاستبعاد**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:497
+msgid "**Common modes (recommended)**"
+msgstr "**الأوضاع الشائعة (موصى بها)**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:503
+msgid "Mode"
+msgstr "الوضع"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:503
+msgid "What it does"
+msgstr "وظيفته"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:505
+msgid "Normal"
+msgstr "عادي"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:505
+msgid "Standard alpha compositing. Respects transparency from the clip."
+msgstr "تركيب ألفا قياسي. يحترم الشفافية من المقطع."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:506
+msgid "Darken"
+msgstr "تغميق"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:506
+msgid "Chooses the darker pixel from the two layers, per channel."
+msgstr "يختار البكسل الأغمق من الطبقتين، لكل قناة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:507
+msgid "Multiply"
+msgstr "الضرب"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:507
+msgid "Multiplies colors. Darkens and helps textures sit on top of footage."
+msgstr "يضرب الألوان. يغميق ويساعد النسيج على الظهور فوق اللقطات."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:508
+msgid "Color Burn"
+msgstr "حرق اللون"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:508
+msgid "Pushes shadows darker and boosts contrast; can clip to black."
+msgstr "يجعل الظلال أكثر ظلمة ويعزز التباين؛ قد يصل إلى السواد التام."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:509
+msgid "Lighten"
+msgstr "تفتيح"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:509
+msgid "Chooses the lighter pixel from the two layers, per channel."
+msgstr "يختار البكسل الأفتح من الطبقتين، لكل قناة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:510
+msgid "Screen"
+msgstr "الشاشة"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:510
+msgid "The opposite of Multiply. Brightens; great for light, glow, fire, fog."
+msgstr "عكس الضرب. يضيء؛ ممتاز للضوء، التوهج، النار، الضباب."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:511
+msgid "Color Dodge"
+msgstr "تجنب اللون"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:511
+msgid "Brightens highlights strongly; can blow out to white."
+msgstr "يضئ المناطق المضيئة بقوة؛ قد يؤدي إلى بياض مفرط."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:512
+msgid "Add"
+msgstr "إضافة"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:512
+msgid ""
+"Adds pixel values. Strong brightening; clips at white. Also called *Linear "
+"Dodge (Add)*."
+msgstr ""
+"يضيف قيم البكسل. تفتيح قوي؛ يقتصر على الأبيض. يُسمى أيضًا *تجنب خطي (إضافة)*."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:513
+msgid "Overlay"
+msgstr "تراكب"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:513
+msgid ""
+"Mix of Multiply and Screen using the lower layer to decide. Adds punchy "
+"contrast."
+msgstr ""
+"مزيج من الضرب والشاشة باستخدام الطبقة السفلية لتحديد النتيجة. يضيف تباينًا "
+"قويًا."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:514
+msgid "Soft Light"
+msgstr "ضوء ناعم"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:514
+msgid "Gentle contrast curve; softer than Overlay."
+msgstr "منحنى تباين لطيف؛ ألين من التراكب."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:515
+msgid "Hard Light"
+msgstr "ضوء قوي"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:515
+msgid "Stronger, edgy contrast using the upper layer to drive the change."
+msgstr "تباين أقوى وحاد باستخدام الطبقة العلوية لتوجيه التغيير."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:516
+msgid "Difference"
+msgstr "الفرق"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:516
+msgid ""
+"Absolute difference between layers. Creates inverted/psychedelic colors; "
+"useful for alignment."
+msgstr "الفرق المطلق بين الطبقات. يخلق ألوانًا معكوسة/نفسية؛ مفيد للمحاذاة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:517
+msgid "Exclusion"
+msgstr "الاستبعاد"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:517
+msgid "Softer version of Difference with less contrast."
+msgstr "نسخة ألين من الفرق مع تباين أقل."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:520
+msgid "**Notes**"
+msgstr "**ملاحظات**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:522
+msgid ""
+"Blend modes affect **color**, while alpha (the :guilabel:`Alpha` property) "
+"affects **transparency**. You can use both."
+msgstr ""
+"تؤثر أوضاع الدمج على **اللون**، بينما يؤثر الألفا (خاصية :guilabel:`Alpha`) "
+"على **الشفافية**. يمكنك استخدام كلاهما."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:523
+msgid ""
+"Some modes can create very bright or very dark results. If needed, lower "
+"the :guilabel:`Alpha` property to soften."
+msgstr ""
+"بعض الأوضاع قد تخلق نتائج ساطعة جدًا أو داكنة جدًا. إذا لزم الأمر، خفّض خاصية :"
+"guilabel:`Alpha` للتخفيف."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:524
+msgid ""
+"The exact look of Multiply/Screen/Overlay family is best when project colors "
+"are in a linear color space."
+msgstr ""
+"المظهر الدقيق لعائلة الضرب/الشاشة/التراكب يكون الأفضل عندما تكون ألوان "
+"المشروع في فضاء لوني خطي."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:530
+msgid ""
+"The :guilabel:`Alpha` property is a key-frame curve that represents the "
+"alpha value, determining fading and transparency of the image in the clip. "
+"The curve ranges from 1 (fully opaque) to 0 (completely transparent)."
+msgstr ""
+"خاصية :guilabel:`Alpha` هي منحنى إطار رئيسي يمثل قيمة الألفا، التي تحدد "
+"التلاشي والشفافية للصورة في المقطع. يتراوح المنحنى من 1 (غير شفاف تمامًا) إلى "
+"0 (شفاف تمامًا)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:533
+msgid ""
+"**Usage Example:** Applying a gradual fade-in or fade-out effect to smoothly "
+"transition clips."
+msgstr ""
+"**مثال على الاستخدام:** تطبيق تأثير تلاشي تدريجي للدخول أو الخروج للانتقال "
+"السلس بين المقاطع."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:534
+msgid ""
+"**Tip:** Use keyframes to create complex fading patterns, such as fading in "
+"and then fading out for a ghostly effect."
+msgstr ""
+"**نصيحة:** استخدم الإطارات الرئيسية لإنشاء أنماط تلاشي معقدة، مثل التلاشي "
+"التدريجي للدخول ثم الخروج لتأثير شبح."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:538
+msgid ""
+"The :guilabel:`Channel Filter` property is a key-frame curve used for audio "
+"manipulation. It specifies a single audio channel to be filtered while "
+"clearing all other channels."
+msgstr ""
+"خاصية :guilabel:`Channel Filter` هي منحنى إطار رئيسي يستخدم لمعالجة الصوت. "
+"يحدد قناة صوت واحدة ليتم تصفيتها مع مسح جميع القنوات الأخرى."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:541
+msgid ""
+"**Usage Example:** Isolating and enhancing specific audio elements, like "
+"isolating vocals from a song."
+msgstr ""
+"**مثال على الاستخدام:** عزل وتعزيز عناصر صوتية محددة، مثل عزل الأصوات "
+"الغنائية من أغنية."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:542
+msgid ""
+"**Tip:** Combine with the \"Channel Mapping\" property to route the filtered "
+"channel to a specific audio output."
+msgstr ""
+"**نصيحة:** اجمع مع خاصية \"Channel Mapping\" لتوجيه القناة المصفاة إلى مخرج "
+"صوتي محدد."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:546
+msgid ""
+"The :guilabel:`Channel Mapping` property is a key-frame curve that defines "
+"the output audio channel for the clip. This property works in conjunction "
+"with the \"Channel Filter\" property and specifies which channel is retained "
+"in the output."
+msgstr ""
+"خاصية :guilabel:`Channel Mapping` هي منحنى إطار رئيسي يحدد قناة الصوت "
+"المخرجة للمقطع. تعمل هذه الخاصية بالتزامن مع خاصية \"Channel Filter\" وتحدد "
+"القناة التي يتم الاحتفاظ بها في المخرج."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:549
+msgid ""
+"**Usage Example:** Keeping the filtered channel's audio while discarding "
+"others for an unconventional audio mix."
+msgstr ""
+"**مثال على الاستخدام:** الاحتفاظ بصوت القناة المصفاة مع تجاهل القنوات الأخرى "
+"لإنشاء مزيج صوتي غير تقليدي."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:550
+msgid ""
+"**Tip:** Experiment with mapping different channels to create unique audio "
+"effects, like panning sounds between speakers."
+msgstr ""
+"**نصيحة:** جرب تعيين قنوات مختلفة لإنشاء تأثيرات صوتية فريدة، مثل تحريك "
+"الصوت بين السماعات."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:554
+msgid ""
+"The :guilabel:`Frame Number` property specifies the format in which the "
+"frame numbers are displayed within the clip, if applicable."
+msgstr ""
+"خاصية :guilabel:`Frame Number` تحدد التنسيق الذي تُعرض به أرقام الإطارات داخل "
+"المقطع، إذا كان ذلك ممكنًا."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:556
+msgid ""
+"**Usage Example:** Displaying frame numbers in the top left corner of the "
+"clip, as either absolute frame number or relative to the start of the clip."
+msgstr ""
+"**مثال على الاستخدام:** عرض أرقام الإطارات في الزاوية العلوية اليسرى من "
+"المقطع، كأرقام إطارات مطلقة أو نسبية لبداية المقطع."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:557
+msgid ""
+"**Tip:** This can help with identifying precise frame numbers or "
+"troubleshooting a problem."
+msgstr ""
+"**نصيحة:** يمكن أن يساعد هذا في تحديد أرقام الإطارات بدقة أو في استكشاف "
+"مشكلة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:561
+msgid ""
+"The :guilabel:`Duration` property is a float value indicating the length of "
+"the clip in seconds. This is a Read-only property. This is calculated by: "
+"End - Start. To modify duration, you must edit the :guilabel:`Start` and/or :"
+"guilabel:`End` clip properties."
+msgstr ""
+"خاصية :guilabel:`Duration` هي قيمة عشرية تشير إلى طول المقطع بالثواني. هذه "
+"الخاصية للقراءة فقط. يتم حسابها كالتالي: النهاية - البداية. لتعديل المدة، "
+"يجب تعديل خاصيتي :guilabel:`Start` و/أو :guilabel:`End` للمقطع."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:564
+msgid ""
+"**Usage Example:** Inspect the duration of a clip to ensure it fits a "
+"specific time slot in the project."
+msgstr ""
+"**مثال على الاستخدام:** فحص مدة المقطع للتأكد من ملاءمته لفترة زمنية محددة "
+"في المشروع."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:565
+msgid ""
+"**Tip:** Consider using the \"Duration\" property for clips that need to "
+"match specific time intervals, such as dialogue or scenes."
+msgstr ""
+"**نصيحة:** فكر في استخدام خاصية \"Duration\" للمقاطع التي تحتاج إلى مطابقة "
+"فترات زمنية محددة، مثل الحوارات أو المشاهد."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:569
+msgid ""
+"The :guilabel:`End` property defines the trimming point at the end of the "
+"clip in seconds, allowing you to control how much of the clip is visible in "
+"the timeline. Changing this property will impact the :guilabel:`Duration` "
+"clip property."
+msgstr ""
+"خاصية :guilabel:`End` تحدد نقطة القص في نهاية المقطع بالثواني، مما يتيح لك "
+"التحكم في مقدار المقطع المرئي في الجدول الزمني. تغيير هذه الخاصية سيؤثر على "
+"خاصية :guilabel:`Duration` للمقطع."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:572
+msgid ""
+"**Usage Example:** Trimming the end of a clip to align with another clip or "
+"trimming off unwanted sections of the clip."
+msgstr ""
+"**مثال على الاستخدام:** قص نهاية المقطع لمزامنته مع مقطع آخر أو لقص أجزاء "
+"غير مرغوب فيها من المقطع."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:573
+msgid ""
+"**Tip:** Combine the \"Start\" and \"End\" properties to precisely control "
+"the visible portion of the clip."
+msgstr ""
+"**نصيحة:** اجمع بين خاصيتي \"Start\" و\"End\" للتحكم بدقة في الجزء المرئي من "
+"المقطع."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:577
+msgid ""
+"The :guilabel:`Gravity` clip property sets the initial display position "
+"coordinate (X,Y) for the clip, after it has been scaled (see :ref:"
+"`clip_scale_ref`). This affects where the clip picture is initially "
+"displayed on the screen, for example ``Top Left`` or ``Bottom Right``. The "
+"default gravity option is ``Center``, which displays the picture in the very "
+"center of the screen. The gravity options are:"
+msgstr ""
+"خاصية :guilabel:`Gravity` للمقطع تحدد إحداثيات موضع العرض الأولي (X,Y) "
+"للمقطع، بعد تغيير حجمه (انظر :ref:`clip_scale_ref`). يؤثر هذا على مكان عرض "
+"صورة المقطع على الشاشة، مثل ``أعلى اليسار`` أو ``أسفل اليمين``. الخيار "
+"الافتراضي للجاذبية هو ``Center``، الذي يعرض الصورة في مركز الشاشة تمامًا. "
+"خيارات الجاذبية هي:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:582
+msgid ""
+"**Top Left** – The top and left edges of the clip align with the top and "
+"left edges of the screen"
+msgstr ""
+"**أعلى اليسار** – حواف الأعلى واليسار للمقطع تتماشى مع حواف الأعلى واليسار "
+"للشاشة"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:583
+msgid ""
+"**Top Center** – The top edge of the clip aligns with the top edge of the "
+"screen; the clip is horizontally centered on the screen."
+msgstr ""
+"**أعلى الوسط** – حافة الأعلى للمقطع تتماشى مع حافة الأعلى للشاشة؛ المقطع "
+"مركزي أفقيًا على الشاشة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:584
+msgid ""
+"**Top Right** – The top and right edges of the clip align with the top and "
+"right edges of the screen"
+msgstr ""
+"**أعلى اليمين** – حواف الأعلى واليمين للمقطع تتماشى مع حواف الأعلى واليمين "
+"للشاشة"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:585
+msgid ""
+"**Left** – The left edge of the clip aligns with the left edge of the "
+"screen; the clip is vertically centered on the screen."
+msgstr ""
+"**اليسار** – حافة اليسار للمقطع تتماشى مع حافة اليسار للشاشة؛ المقطع مركزي "
+"عموديًا على الشاشة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:586
+msgid ""
+"**Center** (default) – The clip is centered horizontally and vertically on "
+"the screen."
+msgstr "**الوسط** (افتراضي) – المقطع مركزي أفقيًا وعموديًا على الشاشة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:587
+msgid ""
+"**Right** – The right edge of the clip aligns with the right edge of the "
+"screen; the clip is vertically centered on the screen."
+msgstr ""
+"**اليمين** – حافة اليمين للمقطع تتماشى مع حافة اليمين للشاشة؛ المقطع مركزي "
+"عموديًا على الشاشة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:588
+msgid ""
+"**Bottom Left** – The bottom and left edges of the clip align with the "
+"bottom and left edges of the screen"
+msgstr ""
+"**أسفل اليسار** – حواف الأسفل واليسار للمقطع تتماشى مع حواف الأسفل واليسار "
+"للشاشة"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:589
+msgid ""
+"**Bottom Center** – The bottom edge of the clip aligns with the bottom edge "
+"of the screen; the clip is horizontally centered on the screen."
+msgstr ""
+"**أسفل الوسط** – حافة الأسفل للمقطع تتماشى مع حافة الأسفل للشاشة؛ المقطع "
+"مركزي أفقيًا على الشاشة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:590
+msgid ""
+"**Bottom Right** – The bottom and right edges of the clip align with the "
+"bottom and right edges of the screen"
+msgstr ""
+"**أسفل اليمين** – حواف الأسفل واليمين للمقطع تتماشى مع حواف الأسفل واليمين "
+"للشاشة"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:594
+msgid ""
+"The :guilabel:`Enable Audio` property is an enumeration that overrides the "
+"default audio setting for the clip. Possible values: -1 (undefined), 0 (no "
+"audio), 1 (audio enabled)."
+msgstr ""
+"خاصية :guilabel:`Enable Audio` هي تعداد يجاوز إعداد الصوت الافتراضي للمقطع. "
+"القيم الممكنة: -1 (غير محدد)، 0 (بدون صوت)، 1 (الصوت مفعّل)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:597
+msgid ""
+"**Usage Example:** Turning off unwanted audio for a clip, like ambient noise."
+msgstr ""
+"**مثال على الاستخدام:** إيقاف الصوت غير المرغوب فيه لمقطع، مثل الضوضاء "
+"المحيطة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:598
+msgid ""
+"**Tip:** Use this property to control audio playback for specific clips, "
+"especially clips which have no useful audio track."
+msgstr ""
+"**نصيحة:** استخدم هذه الخاصية للتحكم في تشغيل الصوت لمقاطع محددة، خاصة "
+"المقاطع التي لا تحتوي على مسار صوتي مفيد."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:602
+msgid ""
+"The :guilabel:`Enable Video` property is an enumeration that overrides the "
+"default video setting for the clip. Possible values: -1 (undefined), 0 (no "
+"video), 1 (video enabled)."
+msgstr ""
+"خاصية :guilabel:`Enable Video` هي تعداد يجاوز إعداد الفيديو الافتراضي "
+"للمقطع. القيم الممكنة: -1 (غير محدد)، 0 (بدون فيديو)، 1 (الفيديو مفعّل)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:605
+msgid ""
+"**Usage Example:** Disabling the video of a clip while retaining its audio "
+"for creating audio-only sequences."
+msgstr ""
+"**مثال على الاستخدام:** تعطيل فيديو المقطع مع الاحتفاظ بالصوت لإنشاء تسلسلات "
+"صوتية فقط."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:606
+msgid ""
+"**Tip:** This property can be helpful when creating scenes with audio "
+"commentary or voiceovers."
+msgstr ""
+"**نصيحة:** يمكن أن تكون هذه الخاصية مفيدة عند إنشاء مشاهد مع تعليق صوتي أو "
+"تسجيلات صوتية."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:610
+msgid ""
+"The :guilabel:`ID` property holds a randomly generated GUID (Globally Unique "
+"Identifier) assigned to each clip, ensuring its uniqueness. This is a Read-"
+"only property, and assigned by OpenShot when a clip is created."
+msgstr ""
+"خاصية :guilabel:`ID` تحتوي على معرف فريد عالمي (GUID) يتم إنشاؤه عشوائيًا "
+"ومُخصص لكل مقطع، مما يضمن تفرده. هذه خاصية للقراءة فقط، ويتم تعيينها بواسطة "
+"OpenShot عند إنشاء المقطع."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:613
+msgid ""
+"**Usage Example:** Referencing specific clips within custom scripts or "
+"automation tasks."
+msgstr ""
+"**مثال على الاستخدام:** الإشارة إلى مقاطع محددة داخل نصوص مخصصة أو مهام "
+"أتمتة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:614
+msgid ""
+"**Tip:** While typically managed behind the scenes, understanding clip IDs "
+"can aid in advanced project customization."
+msgstr ""
+"**نصيحة:** على الرغم من إدارتها عادةً في الخلفية، فإن فهم معرفات المقاطع يمكن "
+"أن يساعد في تخصيص المشاريع المتقدمة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:618
+msgid ""
+"The :guilabel:`Track` property is an integer indicating the layer on which "
+"the clip is placed. Clips on higher tracks are rendered above those on lower "
+"tracks."
+msgstr ""
+"خاصية :guilabel:`Track` هي عدد صحيح يشير إلى الطبقة التي يوضع عليها المقطع. "
+"يتم عرض المقاطع على المسارات الأعلى فوق تلك الموجودة على المسارات الأدنى."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:621
+msgid ""
+"**Usage Example:** Arranging clips in different layers for creating visual "
+"depth and complexity."
+msgstr ""
+"**مثال على الاستخدام:** ترتيب المقاطع في طبقات مختلفة لإنشاء عمق بصري وتعقيد."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:622
+msgid ""
+"**Tip:** Use higher tracks for elements that need to appear above others, "
+"like text overlays or graphics."
+msgstr ""
+"**نصيحة:** استخدم المسارات الأعلى للعناصر التي يجب أن تظهر فوق غيرها، مثل "
+"التراكبات النصية أو الرسومات."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:627
+msgid "Location X and Location Y"
+msgstr "الموقع X والموقع Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:628
+msgid ""
+"The :guilabel:`Location X` and :guilabel:`Location Y` properties are key-"
+"frame curves that determine the relative position of the clip, expressed in "
+"percentages, based on the specified gravity. The range for these curves is "
+"-1 to 1. See :ref:`clip_transform_ref`."
+msgstr ""
+"خاصيتا :guilabel:`Location X` و :guilabel:`Location Y` هما منحنيات الإطارات "
+"الرئيسية التي تحدد الموضع النسبي للمقطع، معبرًا عنهما بالنسبة المئوية، بناءً "
+"على الجاذبية المحددة. نطاق هذه المنحنيات من -1 إلى 1. انظر :ref:"
+"`clip_transform_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:631
+msgid ""
+"**Usage Example:** Animating a clip's movement across the screen using key-"
+"frame curves for both X and Y locations."
+msgstr ""
+"**مثال على الاستخدام:** تحريك المقطع عبر الشاشة باستخدام منحنيات الإطارات "
+"الرئيسية لموقعي X و Y."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:632
+msgid ""
+"**Tip:** Combine with gravity settings to create dynamic animations that "
+"adhere to consistent alignment rules."
+msgstr ""
+"**نصيحة:** اجمع مع إعدادات الجاذبية لإنشاء تحريكات ديناميكية تلتزم بقواعد "
+"محاذاة متسقة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:638
+msgid ""
+"The :guilabel:`Volume Mixing` property is an enumeration that controls how "
+"volume adjustments are applied before mixing audio. Options: None (no "
+"adjustment), Reduce (volume lowered to 80%), Average (volume divided based "
+"on the number of concurrent clips)."
+msgstr ""
+"خاصية :guilabel:`Volume Mixing` هي تعداد يتحكم في كيفية تطبيق تعديلات الصوت "
+"قبل مزج الصوت. الخيارات: لا شيء (بدون تعديل)، تقليل (خفض الصوت إلى 80%)، "
+"متوسط (تقسيم الصوت بناءً على عدد المقاطع المتزامنة)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:641
+msgid ""
+"**Usage Example:** Automatically lowering the volume of a clip to allow "
+"background music to stand out more prominently."
+msgstr ""
+"**مثال على الاستخدام:** خفض صوت المقطع تلقائيًا للسماح للموسيقى الخلفية "
+"بالظهور بشكل أوضح."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:642
+msgid ""
+"**Tip:** Experiment with volume mixing options to achieve balanced audio "
+"levels across different clips."
+msgstr ""
+"**نصيحة:** جرب خيارات مزج الصوت لتحقيق مستويات صوت متوازنة عبر المقاطع "
+"المختلفة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:644
+msgid ""
+"Mixing audio involves adjusting volume levels so that **overlapping clips** "
+"do not become too loud (creating audio distortion and loss of audio "
+"clarity). If you combine particularly loud audio clips on multiple tracks, "
+"clipping (a staccato audio distortion) may occur. To avoid distortion, "
+"OpenShot might need to reduce the volume levels in overlapping clips. The "
+"following audio mixing methods are available:"
+msgstr ""
+"مزج الصوت يتضمن تعديل مستويات الصوت بحيث لا تصبح **المقاطع المتداخلة** عالية "
+"جدًا (مما يسبب تشويشًا صوتيًا وفقدان وضوح الصوت). إذا قمت بدمج مقاطع صوتية "
+"عالية جدًا على مسارات متعددة، قد يحدث التشويش (تشويه صوتي متقطع). لتجنب "
+"التشويش، قد يحتاج OpenShot إلى خفض مستويات الصوت في المقاطع المتداخلة. طرق "
+"مزج الصوت التالية متاحة:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:648
+msgid ""
+"**None** - Make no adjustments to volume data before mixing audio. "
+"Overlapping clips will combine audio at full volume, with no reduction."
+msgstr ""
+"**لا شيء** - لا تقم بأي تعديلات على بيانات الصوت قبل المزج. ستدمج المقاطع "
+"المتداخلة الصوت بأقصى مستوى دون خفض."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:649
+msgid ""
+"**Average** - Automatically divide the volume of each clip based on the # of "
+"overlapping clips. For example, 2 overlapping clips would each have 50% "
+"volume, 3 overlapping clips would each have 33% volume, etc..."
+msgstr ""
+"**متوسط** - يقسم صوت كل مقطع تلقائيًا بناءً على عدد المقاطع المتداخلة. على "
+"سبيل المثال، مقطعين متداخلين سيكون لكل منهما 50% من الصوت، وثلاثة مقاطع "
+"متداخلة سيكون لكل منها 33% من الصوت، وهكذا..."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:650
+msgid ""
+"**Reduce** - Automatically reduce overlapping clips volume by 20%, which "
+"reduces the likelihood of becoming too loud, but does not always prevent "
+"audio distortion. For example, if you have 10 loud clips overlapping, each "
+"with a 20% reduction in volume, it might still exceed the max allowable "
+"volume and exhibit audio distortion."
+msgstr ""
+"**تقليل** - يقلل تلقائيًا صوت المقاطع المتداخلة بنسبة 20%، مما يقلل من احتمال "
+"أن يصبح الصوت عاليًا جدًا، لكنه لا يمنع دائمًا التشويش الصوتي. على سبيل المثال، "
+"إذا كان لديك 10 مقاطع عالية الصوت متداخلة، مع تقليل 20% لكل منها، قد لا يزال "
+"الصوت يتجاوز الحد الأقصى المسموح به ويظهر تشويشًا."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:652
+msgid ""
+"For quickly adjusting the volume of a clip, you can use the simple :guilabel:"
+"`Volume Preset` menu. See :ref:`clip_presets_ref`. For precise control over "
+"the volume of a clip, you can manually set the :guilabel:`Volume Key-frame`. "
+"See :ref:`clip_volume_ref`."
+msgstr ""
+"لضبط صوت المقطع بسرعة، يمكنك استخدام قائمة :guilabel:`Volume Preset` "
+"البسيطة. انظر :ref:`clip_presets_ref`. للتحكم الدقيق في صوت المقطع، يمكنك "
+"تعيين :guilabel:`Volume Key-frame` يدويًا. انظر :ref:`clip_volume_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:656
+msgid "Origin X and Origin Y"
+msgstr "الأصل X والأصل Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:657
+msgid ""
+"The :guilabel:`Origin X` and :guilabel:`Origin Y` properties are key-frame "
+"curves that define the rotation origin point's position in percentages. The "
+"range for these curves is -1 to 1. See :ref:`clip_transform_ref`."
+msgstr ""
+"خاصيتا :guilabel:`Origin X` و :guilabel:`Origin Y` هما منحنيات الإطارات "
+"الرئيسية التي تحدد موقع نقطة أصل الدوران بالنسبة المئوية. نطاق هذه المنحنيات "
+"من -1 إلى 1. انظر :ref:`clip_transform_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:660
+msgid ""
+"**Usage Example:** Rotating a clip around a specific point, such as a "
+"character's pivot joint."
+msgstr ""
+"**مثال على الاستخدام:** تدوير المقطع حول نقطة محددة، مثل مفصل محور شخصية."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:661
+msgid ""
+"**Tip:** Set the origin point to achieve controlled and natural-looking "
+"rotations during animations."
+msgstr ""
+"**نصيحة:** اضبط نقطة الأصل لتحقيق تدويرات محكمة وطبيعية المظهر أثناء "
+"التحريكات."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:666
+msgid "Clip Parent"
+msgstr "المقطع الأصل"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:667
+msgid ""
+"The :guilabel:`Parent` property of a clip sets the initial keyframe values "
+"to the parent object. For example, if many clips all point to the same "
+"parent clip, they will inherit all their default properties, such as "
+"``location_x``, ``location_y``, ``scale_x``, ``scale_y``, etc... This can be "
+"very useful in certain circumstances, such as when you have many clips that "
+"need to move or scale together."
+msgstr ""
+"خاصية :guilabel:`Parent` للمقطع تعيّن قيم الإطارات الرئيسية الأولية إلى "
+"الكائن الأصل. على سبيل المثال، إذا أشار العديد من المقاطع إلى نفس المقطع "
+"الأصل، فإنها سترث جميع خصائصه الافتراضية، مثل ``location_x``، "
+"``location_y``، ``scale_x``، ``scale_y``، إلخ... هذا يمكن أن يكون مفيدًا جدًا "
+"في بعض الحالات، مثل عندما يكون لديك العديد من المقاطع التي تحتاج إلى التحرك "
+"أو التكبير معًا."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:671
+msgid ""
+"**Usage Example:** Creating complex animations by establishing a parent-"
+"child relationship between clips."
+msgstr ""
+"**مثال على الاستخدام:** إنشاء تحريكات معقدة من خلال إقامة علاقة أصل-فرع بين "
+"المقاطع."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:672
+msgid ""
+"**Tip:** Utilize this property to propagate changes from the parent clip to "
+"child clips for consistent animations."
+msgstr ""
+"**نصيحة:** استخدم هذه الخاصية لنشر التغييرات من المقطع الأصل إلى المقاطع "
+"الفرعية لتحقيق تحريكات متسقة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:673
+msgid ""
+"**Tip:** You can also set the ``parent`` attribute to a ``Tracker`` or "
+"``Object Detector`` tracked object, so the clip follows the location and "
+"scale of a tracked object. Also see :ref:`effect_parent_ref`."
+msgstr ""
+"**نصيحة:** يمكنك أيضًا تعيين خاصية ``parent`` إلى كائن متتبع ``Tracker`` أو "
+"كاشف كائن ``Object Detector``، بحيث يتبع المقطع موقع وحجم الكائن المتتبع. "
+"انظر أيضًا :ref:`effect_parent_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:677
+msgid ""
+"The :guilabel:`Position` property determines the clip's position on the "
+"timeline in seconds, with 0.0 indicating the beginning."
+msgstr ""
+"خاصية :guilabel:`Position` تحدد موقع المقطع على الجدول الزمني بالثواني، حيث "
+"يشير 0.0 إلى البداية."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:679
+msgid ""
+"**Usage Example:** Timing a clip's appearance to coincide with specific "
+"events in the project."
+msgstr ""
+"**مثال على الاستخدام:** توقيت ظهور المقطع ليتزامن مع أحداث محددة في المشروع."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:680
+msgid ""
+"**Tip:** Adjust the position to synchronize clips with audio cues or visual "
+"elements."
+msgstr ""
+"**نصيحة:** قم بضبط الموضع لمزامنة المقاطع مع الإشارات الصوتية أو العناصر "
+"البصرية."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:686
+msgid ""
+"The :guilabel:`Rotation` property is a key-frame curve that controls the "
+"rotation angle of the clip, ranging from -360 to 360 degrees. You can rotate "
+"clockwise or counterclockwise. Quickly adjust the orientation angle of a "
+"clip (sideways, upside down, right side up, portrait, landscape), flip a "
+"clip, or animate the rotation.  See :ref:`clip_transform_ref`."
+msgstr ""
+"خاصية :guilabel:`الدوران` هي منحنى إطار رئيسي يتحكم في زاوية دوران المقطع، "
+"وتتراوح من -360 إلى 360 درجة. يمكنك الدوران في اتجاه عقارب الساعة أو عكسها. "
+"قم بضبط زاوية اتجاه المقطع بسرعة (جانبيًا، مقلوبًا، صحيح الاتجاه، عمودي، "
+"أفقي)، قلب المقطع، أو تحريك الدوران. انظر :ref:`clip_transform_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:690
+msgid ""
+"**Usage Example:** Simulating a spinning effect by animating the rotation "
+"curve."
+msgstr ""
+"**مثال على الاستخدام:** محاكاة تأثير الدوران عن طريق تحريك منحنى الدوران."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:691
+msgid ""
+"**Tip:** Use this property creatively for effects like rotating text or "
+"emulating camera movement."
+msgstr ""
+"**نصيحة:** استخدم هذه الخاصية بشكل إبداعي لتأثيرات مثل تدوير النص أو محاكاة "
+"حركة الكاميرا."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:692
+msgid ""
+"**Tip:** In the preview transform tool, hold :kbd:`Ctrl` or :kbd:`Shift` "
+"while rotating to snap to 15-degree increments."
+msgstr ""
+"**نصيحة:** في أداة التحويل في المعاينة، اضغط مع الاستمرار على :kbd:`Ctrl` "
+"أو :kbd:`Shift` أثناء الدوران للالتقاط عند زيادات 15 درجة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:693
+msgid ""
+"**Tip:** Experiment with rotating your video at different angles, not just "
+"90 or 180 degrees. Sometimes a slight tilt or a specific angle can add "
+"creative flair to your video, especially for artistic or storytelling "
+"purposes."
+msgstr ""
+"**نصيحة:** جرب تدوير الفيديو بزوايا مختلفة، وليس فقط 90 أو 180 درجة. أحيانًا "
+"يمكن أن تضيف الميلان الطفيف أو الزاوية المحددة لمسة إبداعية على الفيديو، "
+"خاصة للأغراض الفنية أو السردية."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:694
+msgid ""
+"**Tip:** After rotating your video, you might end up with black bars around "
+"the edges. Consider cropping and resizing the video to eliminate these bars "
+"and maintain a clean, polished look."
+msgstr ""
+"**نصيحة:** بعد تدوير الفيديو، قد تظهر أشرطة سوداء حول الحواف. فكر في قص "
+"الفيديو وتغيير حجمه لإزالة هذه الأشرطة والحفاظ على مظهر نظيف ومرتب."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:695
+msgid ""
+"**Tip:** If you're dealing with vertical videos that are meant to be watched "
+"on horizontal screens, rotate them by 90 degrees and then scale them up to "
+"fill the frame. This way, your vertical video will occupy more screen real "
+"estate."
+msgstr ""
+"**نصيحة:** إذا كنت تتعامل مع فيديوهات عمودية مخصصة للمشاهدة على شاشات أفقية، "
+"قم بتدويرها 90 درجة ثم قم بتكبيرها لملء الإطار. بهذه الطريقة، سيشغل الفيديو "
+"العمودي مساحة أكبر على الشاشة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:696
+msgid ""
+"**Tip:** If the horizon in your video appears slanted due to camera tilt, "
+"use rotation to level it. This is particularly important for landscape shots "
+"to maintain a professional and visually pleasing appearance."
+msgstr ""
+"**نصيحة:** إذا بدا الأفق في الفيديو مائلًا بسبب ميل الكاميرا، استخدم خاصية "
+"الدوران لتسويته. هذا مهم بشكل خاص لصور المناظر الطبيعية للحفاظ على مظهر "
+"احترافي وجذاب بصريًا."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:702
+msgid ""
+"The :guilabel:`Scale` property is the initial resizing or scaling method "
+"used to display the picture of a clip, which may be further adjusted by the :"
+"guilabel:`Scale X` and :guilabel:`Scale Y` clip properties (see :ref:"
+"`clip_scale_x_ref`). It is recommended to use assets with the same aspect "
+"ratio as your project profile, which allows many of these resizing methods "
+"to fully scale your clip up to the size of the screen, without adding any "
+"black bars on the edges. The scale methods are:"
+msgstr ""
+"خاصية :guilabel:`التحجيم` هي طريقة إعادة التحجيم أو التكبير الأولية "
+"المستخدمة لعرض صورة المقطع، والتي يمكن تعديلها لاحقًا بواسطة خصائص المقطع :"
+"guilabel:`التحجيم X` و :guilabel:`التحجيم Y` (انظر :ref:`clip_scale_x_ref`). "
+"يُنصح باستخدام ملفات بنفس نسبة العرض إلى الارتفاع لملف المشروع، مما يسمح "
+"للعديد من طرق إعادة التحجيم هذه بتكبير المقطع بالكامل إلى حجم الشاشة دون "
+"إضافة أشرطة سوداء على الحواف. طرق التحجيم هي:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:707
+msgid ""
+"**Best Fit** (default) – The clip is as large as possible without changing "
+"the aspect ratio. This might result in black bars on certain sides of the "
+"picture, if the aspect ratio does not exactly match your project size."
+msgstr ""
+"**أفضل ملاءمة** (افتراضي) – يكون المقطع بأكبر حجم ممكن دون تغيير نسبة العرض "
+"إلى الارتفاع. قد يؤدي ذلك إلى ظهور أشرطة سوداء على بعض جوانب الصورة إذا لم "
+"تتطابق نسبة العرض إلى الارتفاع تمامًا مع حجم المشروع."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:708
+msgid ""
+"**Crop** – The aspect ratio of the clip is maintained while the clip is "
+"enlarged to fill the entire screen, even if that means some of it will be "
+"cropped. This prevents black bars around the picture, but if the aspect "
+"ratio of the clip does not match the project size, some of the picture will "
+"be cropped off."
+msgstr ""
+"**قص** – يتم الحفاظ على نسبة العرض إلى الارتفاع للمقطع بينما يتم تكبيره لملء "
+"الشاشة بالكامل، حتى لو أدى ذلك إلى قص جزء منه. يمنع هذا ظهور أشرطة سوداء حول "
+"الصورة، ولكن إذا لم تتطابق نسبة العرض إلى الارتفاع مع حجم المشروع، سيتم قص "
+"جزء من الصورة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:709
+msgid ""
+"**None** – The clip is displayed in its original size. This is not "
+"recommended, since the picture will not scale correctly if you change the "
+"project profile (or project size)."
+msgstr ""
+"**لا شيء** – يُعرض المقطع بحجمه الأصلي. هذا غير موصى به، لأن الصورة لن تُعاد "
+"تحجيمها بشكل صحيح إذا قمت بتغيير ملف المشروع (أو حجم المشروع)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:710
+msgid ""
+"**Stretch** – The clip is stretched to fill the entire screen, changing the "
+"aspect ratio if necessary."
+msgstr ""
+"**تمديد** – يتم تمديد المقطع لملء الشاشة بالكامل، مع تغيير نسبة العرض إلى "
+"الارتفاع إذا لزم الأمر."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:715
+msgid "Scale X and Scale Y"
+msgstr "التحجيم X والتحجيم Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:716
+msgid ""
+"The :guilabel:`Scale X` and :guilabel:`Scale Y` properties are key-frame "
+"curves that represent horizontal and vertical scaling in percentages, "
+"respectively. The range for these curves is 0 to 1. See :ref:"
+"`clip_transform_ref`. OpenShot limits the max scale values based on the file "
+"type and the project size, to prevent crashes and performance issues."
+msgstr ""
+"خصائص :guilabel:`التحجيم X` و :guilabel:`التحجيم Y` هي منحنيات إطارات رئيسية "
+"تمثل التحجيم الأفقي والعمودي بالنسبة المئوية، على التوالي. نطاق هذه "
+"المنحنيات من 0 إلى 1. انظر :ref:`clip_transform_ref`. يحدد OpenShot الحد "
+"الأقصى لقيم التحجيم بناءً على نوع الملف وحجم المشروع، لمنع الأعطال ومشاكل "
+"الأداء."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:720
+msgid ""
+"**Usage Example:** Creating a zoom-in effect by animating the Scale X and "
+"Scale Y curves simultaneously."
+msgstr ""
+"**مثال على الاستخدام:** إنشاء تأثير تكبير عن طريق تحريك منحنيات التحجيم X و "
+"التحجيم Y في نفس الوقت."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:721
+msgid ""
+"**Tip:** Scale the image larger than the screen, only revealing a portion of "
+"the video. This is a simple way to crop a portion of the video."
+msgstr ""
+"**نصيحة:** قم بتحجيم الصورة أكبر من الشاشة، مع إظهار جزء فقط من الفيديو. هذه "
+"طريقة بسيطة لقص جزء من الفيديو."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:722
+msgid ""
+"**Tip:** Scale the horizontal and vertical elements separately, to squash "
+"and stretch the image in fun ways."
+msgstr ""
+"**نصيحة:** قم بتحجيم العناصر الأفقية والعمودية بشكل منفصل، لضغط وتمديد "
+"الصورة بطرق ممتعة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:723
+msgid ""
+"**Tip:** Combine scaling with rotation and location properties for dynamic "
+"transformations."
+msgstr "**نصيحة:** اجمع بين التحجيم وخصائص الدوران والموقع لتحويلات ديناميكية."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:726
+msgid "Shear X and Shear Y"
+msgstr "القص X والقص Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:727
+msgid ""
+"The :guilabel:`Shear X` and :guilabel:`Shear Y` properties are key-frame "
+"curves that represent X and Y shear angles in degrees, respectively. See :"
+"ref:`clip_transform_ref`. OpenShot limits the max shear values based on the "
+"file type and the project size, to prevent crashes and performance issues."
+msgstr ""
+"خصائص :guilabel:`القص X` و :guilabel:`القص Y` هي منحنيات إطارات رئيسية تمثل "
+"زوايا القص X و Y بالدرجات، على التوالي. انظر :ref:`clip_transform_ref`. يحدد "
+"OpenShot الحد الأقصى لقيم القص بناءً على نوع الملف وحجم المشروع، لمنع الأعطال "
+"ومشاكل الأداء."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:731
+msgid ""
+"**Usage Example:** Adding a dynamic tilt effect to a clip by animating the "
+"shear angles."
+msgstr ""
+"**مثال على الاستخدام:** إضافة تأثير ميل ديناميكي إلى المقطع عن طريق تحريك "
+"زوايا القص."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:732
+msgid ""
+"**Tip:** Use shear properties for creating slanted or skewed animations."
+msgstr "**نصيحة:** استخدم خصائص القص لإنشاء تحريكات مائلة أو مشوهة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:736
+msgid ""
+"The :guilabel:`Start` property defines the trimming point at the beginning "
+"of the clip in seconds. Changing this property will impact the :guilabel:"
+"`Duration` clip property."
+msgstr ""
+"خاصية :guilabel:`البداية` تحدد نقطة القص في بداية المقطع بالثواني. تغيير هذه "
+"الخاصية سيؤثر على خاصية :guilabel:`المدة` للمقطع."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:739
+msgid ""
+"**Usage Example:** Removing the initial portion of a clip to focus on a "
+"specific scene or moment."
+msgstr ""
+"**مثال على الاستخدام:** إزالة الجزء الأولي من المقطع للتركيز على مشهد أو "
+"لحظة محددة."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:740
+msgid ""
+"**Tip:** Utilize the \"Start\" property in combination with the \"End\" "
+"property for precise clip trimming."
+msgstr ""
+"**نصيحة:** استخدم خاصية \"البداية\" مع خاصية \"النهاية\" لقص دقيق للمقطع."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:746
+msgid ""
+"The :guilabel:`Time` property is a key-frame curve that represents frames "
+"played over time, affecting the speed and direction of the video. You can "
+"use one of the available presets (`normal, fast, slow, freeze, freeze & "
+"zoom, forward, backward`), by right clicking on a Clip and choosing the :"
+"guilabel:`Time` menu. Many presets are available in this menu for reversing, "
+"speeding up, and slowing down a video clip, see :ref:`clip_presets_ref`. The "
+"same adjustments can be made interactively with the :guilabel:`Timing` "
+"toolbar button by dragging a clip's edges; OpenShot adds the necessary time "
+"keyframes and scales all other keyframes automatically."
+msgstr ""
+"خاصية :guilabel:`الوقت` هي منحنى إطار رئيسي يمثل الإطارات التي يتم تشغيلها "
+"مع مرور الوقت، مما يؤثر على سرعة واتجاه الفيديو. يمكنك استخدام أحد الإعدادات "
+"المسبقة المتاحة (`عادي، سريع، بطيء، تجميد، تجميد وتكبير، للأمام، للخلف`) عن "
+"طريق النقر بزر الماوس الأيمن على المقطع واختيار قائمة :guilabel:`الوقت`. "
+"تتوفر العديد من الإعدادات المسبقة في هذه القائمة لعكس الفيديو، تسريعه، "
+"وإبطائه، راجع :ref:`clip_presets_ref`. يمكن إجراء نفس التعديلات تفاعليًا "
+"باستخدام زر شريط الأدوات :guilabel:`التوقيت` عن طريق سحب حواف المقطع؛ يضيف "
+"OpenShot الإطارات الرئيسية الزمنية اللازمة ويعدل جميع الإطارات الرئيسية "
+"الأخرى تلقائيًا."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:753
+msgid ""
+"Optionally, you can manually set key-frame values for the :guilabel:`Time` "
+"property. The value represents the `frame number` at the position of the key-"
+"frame. This can be tricky to determine and might require a calculator to "
+"find the needed values. For example, if the beginning of your Clip sets a "
+"time value of ``300`` (i.e. `frame 300`), and the end of your clip sets a "
+"time value of ``1`` (`frame 1`), OpenShot will play this clip backwards, "
+"starting at frame 300 and ending at frame 1, at the appropriate speed (based "
+"on where these key-frames are set on the timeline). NOTE: To determine the "
+"total number of frames in a clip, multiply the duration of the file with the "
+"FPS of the project (for example: ``47.0 sec clip duration X 24.0 Project FPS "
+"= 1128 total frames``)."
+msgstr ""
+"اختياريًا، يمكنك تعيين قيم الإطارات الرئيسية يدويًا لخاصية :guilabel:`الوقت`. "
+"تمثل القيمة `رقم الإطار` في موقع الإطار الرئيسي. قد يكون من الصعب تحديدها "
+"وقد تحتاج إلى آلة حاسبة لإيجاد القيم المطلوبة. على سبيل المثال، إذا كان "
+"بداية المقطع الخاص بك يحدد قيمة زمنية ``300`` (أي `الإطار 300`)، ونهاية "
+"المقطع تحدد قيمة زمنية ``1`` (`الإطار 1`)، فسيقوم OpenShot بتشغيل هذا المقطع "
+"بالعكس، بدءًا من الإطار 300 وانتهاءً بالإطار 1، بالسرعة المناسبة (استنادًا إلى "
+"مكان تعيين هذه الإطارات الرئيسية على الجدول الزمني). ملاحظة: لتحديد العدد "
+"الإجمالي للإطارات في المقطع، اضرب مدة الملف في معدل الإطارات في المشروع (على "
+"سبيل المثال: ``مدة المقطع 47.0 ثانية × معدل الإطارات 24.0 = 1128 إطارًا "
+"إجماليًا``)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:761
+msgid ""
+"This allows for some very complex scenarios, such as jump cutting inside a "
+"clip, reversing a portion of a clip, slowing down a portion of a clip, "
+"freezing on a frame, and much more. See :ref:`animation_ref` for more "
+"details on manual key-frame animations."
+msgstr ""
+"يتيح هذا بعض السيناريوهات المعقدة جدًا، مثل القطع القفزي داخل المقطع، عكس جزء "
+"من المقطع، إبطاء جزء من المقطع، التجميد على إطار، وأكثر من ذلك بكثير. راجع :"
+"ref:`animation_ref` لمزيد من التفاصيل حول تحريك الإطارات الرئيسية يدويًا."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:765
+msgid ""
+"**Usage Example:** Creating a slow-motion or time-lapse effect by modifying "
+"the time curve."
+msgstr ""
+"**مثال على الاستخدام:** إنشاء تأثير الحركة البطيئة أو التصوير السريع عن طريق "
+"تعديل منحنى الوقت."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:766
+msgid ""
+"**Tip:** Adjust the \"Time\" property to control video playback speed for "
+"dramatic visual impact."
+msgstr ""
+"**نصيحة:** قم بضبط خاصية \"الوقت\" للتحكم في سرعة تشغيل الفيديو لتحقيق تأثير "
+"بصري درامي."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:772
+msgid ""
+"The :guilabel:`Volume` property is a key-frame curve that controls audio "
+"volume or level, ranging from 0 (mute) to 1 (full volume). For automatic "
+"adjustment of volume, see :ref:`clip_volume_mixing_ref`."
+msgstr ""
+"خاصية :guilabel:`الصوت` هي منحنى إطار رئيسي يتحكم في مستوى الصوت أو شدة "
+"الصوت، يتراوح من 0 (كتم) إلى 1 (الصوت الكامل). لضبط الصوت تلقائيًا، راجع :ref:"
+"`clip_volume_mixing_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:775
+msgid ""
+"**Usage Example:** Gradually fading out background music as dialogue becomes "
+"more prominent, or increasing or lowering the volume of a clip."
+msgstr ""
+"**مثال على الاستخدام:** التلاشي التدريجي لموسيقى الخلفية مع بروز الحوار، أو "
+"زيادة أو خفض صوت المقطع."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:776
+msgid ""
+"**Tip:** Combine multiple volume key-frames for nuanced audio adjustments, "
+"such as ducking the level of the music when dialog is spoken."
+msgstr ""
+"**نصيحة:** اجمع بين عدة إطارات رئيسية للصوت لضبطات صوتية دقيقة، مثل خفض "
+"مستوى الموسيقى عند التحدث."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:777
+msgid ""
+"**Tip:** For **quickly** adjusting the volume of a clip you can use the "
+"simple :guilabel:`Volume Preset` menu. See :ref:`clip_presets_ref`."
+msgstr ""
+"**نصيحة:** لضبط صوت المقطع بسرعة، يمكنك استخدام قائمة :guilabel:`الإعدادات "
+"المسبقة للصوت` البسيطة. راجع :ref:`clip_presets_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:781
+msgid ""
+"The :guilabel:`Wave Color` property is a key-frame curve that represents the "
+"color of the audio waveform visualization."
+msgstr ""
+"خاصية :guilabel:`لون الموجة` هي منحنى إطار رئيسي يمثل لون تمثيل شكل الموجة "
+"الصوتية."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:783
+msgid ""
+"**Usage Example:** Matching the waveform color to the project's overall "
+"visual theme."
+msgstr ""
+"**مثال على الاستخدام:** مطابقة لون شكل الموجة مع الموضوع البصري العام "
+"للمشروع."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:784
+msgid ""
+"**Tip:** Experiment with different colors to enhance the visual appeal of "
+"the waveform or animate the color over time."
+msgstr ""
+"**نصيحة:** جرب ألوانًا مختلفة لتعزيز الجاذبية البصرية لشكل الموجة أو تحريك "
+"اللون مع مرور الوقت."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:788
+msgid ""
+"The :guilabel:`Waveform` property is a boolean that determines whether a "
+"waveform visualization is used instead of the clip's image."
+msgstr ""
+"خاصية :guilabel:`شكل الموجة` هي قيمة منطقية تحدد ما إذا كان سيتم استخدام "
+"تمثيل شكل الموجة بدلاً من صورة المقطع."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:790
+msgid ""
+"**Usage Example:** Displaying an audio waveform in place of the video for "
+"visually highlighting audio patterns."
+msgstr ""
+"**مثال على الاستخدام:** عرض شكل الموجة الصوتية بدلاً من الفيديو لتسليط الضوء "
+"بصريًا على أنماط الصوت."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:791
+msgid ""
+"**Tip:** Use waveform visualization for emphasizing music beats or voice "
+"modulations."
+msgstr ""
+"**نصيحة:** استخدم تمثيل شكل الموجة لتأكيد إيقاعات الموسيقى أو تغيرات الصوت."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:794
+msgid "More Information"
+msgstr "مزيد من المعلومات"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:795
+msgid "For more info on key frames and animation, see :ref:`animation_ref`."
+msgstr ""
+"لمزيد من المعلومات حول الإطارات الرئيسية والتحريك، راجع :ref:`animation_ref`."

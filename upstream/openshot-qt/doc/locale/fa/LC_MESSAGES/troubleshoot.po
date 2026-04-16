@@ -1,0 +1,337 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:23
+msgid "Troubleshooting"
+msgstr "عیب‌یابی"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:25
+msgid ""
+"If you are experiencing an issue with OpenShot, such as a freeze, crash, or "
+"error message, there are many different techniques which can be useful for "
+"troubleshooting the issue."
+msgstr ""
+"اگر با OpenShot مشکلی مانند توقف ناگهانی، کرش یا پیام خطا مواجه هستید، "
+"روش‌های مختلفی برای عیب‌یابی این مشکل وجود دارد."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:29
+msgid "Windows 11 Unresponsive"
+msgstr "عدم پاسخگویی در ویندوز ۱۱"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:31
+msgid ""
+"If you experience a freeze on Windows 11, this is a known issue with PyQt5 "
+"and Windows 11, related to the accessibility features in Qt. This is "
+"triggered by pressing :kbd:`Ctrl+C` in OpenShot (*only on Windows 11*). "
+"OpenShot will become unresponsive and a memory leak is also present (i.e. "
+"the longer OpenShot is unresponsive, the larger your memory leak will become "
+"until OpenShot finally crashes or the user kills the process)."
+msgstr ""
+"اگر در ویندوز ۱۱ با توقف برنامه مواجه شدید، این یک مشکل شناخته‌شده در PyQt5 و "
+"ویندوز ۱۱ است که به ویژگی‌های دسترسی در Qt مربوط می‌شود. این مشکل با فشردن :"
+"kbd:`Ctrl+C` در OpenShot ایجاد می‌شود (*فقط در ویندوز ۱۱*). در این حالت "
+"OpenShot پاسخگو نخواهد بود و نشت حافظه نیز رخ می‌دهد (یعنی هرچه OpenShot "
+"بیشتر پاسخگو نباشد، نشت حافظه بزرگ‌تر می‌شود تا اینکه OpenShot کرش کند یا "
+"کاربر فرآیند را متوقف کند)."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:36
+msgid ""
+"A simple work-around is to avoid :kbd:`Ctrl+C` on Windows 11, and instead "
+"use the right-click Copy/Paste menus. Another work-around is to remap your "
+"\"Copy\" from :kbd:`Ctrl+C` to something else, for example :kbd:`Alt+C`. You "
+"can change your keyboard mappings in the OpenShot Preferences. See :ref:"
+"`preferences_keyboard_ref`."
+msgstr ""
+"راه‌حل ساده این است که در ویندوز ۱۱ از :kbd:`Ctrl+C` استفاده نکنید و به جای "
+"آن از منوی راست‌کلیک کپی/پیست استفاده کنید. راه‌حل دیگر این است که کلید «کپی» "
+"را از :kbd:`Ctrl+C` به کلید دیگری مانند :kbd:`Alt+C` تغییر دهید. می‌توانید "
+"تنظیمات صفحه‌کلید را در تنظیمات OpenShot تغییر دهید. به :ref:"
+"`preferences_keyboard_ref` مراجعه کنید."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:41
+msgid "Windows Debugging with GDB"
+msgstr "اشکال‌زدایی ویندوز با GDB"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:43
+msgid ""
+"If you are experiencing a crash or freeze with OpenShot in Windows 10/11, "
+"the following step by step instructions will help you determine the cause of "
+"the crash. These instructions will display a stack trace of OpenShot's "
+"source code, at the location of the crash. This information can be extremely "
+"useful for our development team, and very useful to attach to bug reports "
+"(for a quicker resolution)."
+msgstr ""
+"اگر در ویندوز ۱۰/۱۱ با کرش یا توقف OpenShot مواجه هستید، دستورالعمل‌های گام "
+"به گام زیر به شما کمک می‌کند علت کرش را پیدا کنید. این دستورالعمل‌ها یک ردپای "
+"پشته از کد منبع OpenShot در محل کرش نمایش می‌دهند. این اطلاعات برای تیم توسعه "
+"ما بسیار مفید است و برای پیوست به گزارش‌های باگ (برای حل سریع‌تر) بسیار "
+"کاربردی است."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:49
+msgid "Install the Latest Daily Build"
+msgstr "نصب آخرین نسخه روزانه"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:51
+msgid ""
+"Before attaching a debugger, please download the **latest version** of "
+"OpenShot: https://www.openshot.org/download#daily. Install this version of "
+"OpenShot to the default location: ``C:\\Program Files\\OpenShot Video "
+"Editor\\``. For details instructions on debugging OpenShot on Windows, "
+"please see `this wiki <https://github.com/OpenShot/openshot-qt/wiki/Windows-"
+"Debugging-with-GDB>`_."
+msgstr ""
+"قبل از اتصال اشکال‌زدای برنامه، لطفاً **جدیدترین نسخه** OpenShot را از https://"
+"www.openshot.org/download#daily دانلود کنید. این نسخه را در محل پیش‌فرض نصب "
+"کنید: ``C:\\Program Files\\OpenShot Video Editor\\``. برای دستورالعمل‌های "
+"دقیق درباره اشکال‌زدایی OpenShot در ویندوز، به `این ویکی <https://github.com/"
+"OpenShot/openshot-qt/wiki/Windows-Debugging-with-GDB>`_ مراجعه کنید."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:56
+msgid "Install MSYS2"
+msgstr "نصب MSYS2"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:58
+msgid ""
+"The Windows version of OpenShot is compiled using an environment called "
+"MSYS2. In order to attach the GDB debugger to our executable, ``openshot-qt."
+"exe``, you must first install MSYS2. This step is only required once."
+msgstr ""
+"نسخه ویندوز OpenShot با استفاده از محیطی به نام MSYS2 کامپایل شده است. برای "
+"اتصال اشکال‌زدای GDB به فایل اجرایی ما، ``openshot-qt.exe``, ابتدا باید MSYS2 "
+"را نصب کنید. این مرحله فقط یک بار لازم است."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:61
+msgid "Download & Install MSYS2: `<http://www.msys2.org/>`_"
+msgstr "دانلود و نصب MSYS2: `<http://www.msys2.org/>`_"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:62 ../troubleshoot.rst:78
+msgid ""
+"Run ``MSYS2 MinGW x64`` command prompt (for example: ``C:"
+"\\msys64\\msys2_shell.cmd -mingw64``)"
+msgstr ""
+"اجرای خط فرمان ``MSYS2 MinGW x64`` (برای مثال: ``C:\\msys64\\msys2_shell.cmd "
+"-mingw64``)"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:63
+msgid "Update all packages (*Copy/Paste the following command*):"
+msgstr "به‌روزرسانی همه بسته‌ها (*دستور زیر را کپی/پیست کنید*):"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:69
+msgid "Install GDB debugger (*Copy/Paste the following command*):"
+msgstr "نصب اشکال‌زدای GDB (*دستور زیر را کپی/پیست کنید*):"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:76
+msgid "Launch OpenShot with GDB Debugger"
+msgstr "اجرای OpenShot با اشکال‌زدای GDB"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:80
+msgid "Update the PATH (*Copy/Paste the following commands*):"
+msgstr "به‌روزرسانی PATH (*دستورات زیر را کپی/پیست کنید*):"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:87
+msgid ""
+"Load OpenShot into the GDB debugger (*Copy/Paste the following commands*):"
+msgstr "بارگذاری OpenShot در اشکال‌زدای GDB (*دستورات زیر را کپی/پیست کنید*):"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:94
+msgid "Launch OpenShot from GDB prompt (*Copy/Paste the following command*):"
+msgstr "اجرای OpenShot از خط فرمان GDB (*دستور زیر را کپی/پیست کنید*):"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:101
+msgid "Print Debugging Info"
+msgstr "نمایش اطلاعات اشکال‌زدایی"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:103
+msgid ""
+"Once OpenShot has launched successfully with GDB attached, all you need to "
+"do is trigger a crash or freeze in OpenShot. When a crash occurs, switch "
+"back to the MSYS2 MinGW64 terminal and run one of the following commands (by "
+"typing it and pressing ENTER). Usually, the first command to enter is "
+"``bt``, which stands for ``backtrace``. More commands are listed below."
+msgstr ""
+"پس از اجرای موفق OpenShot با اتصال GDB، کافی است یک کرش یا توقف در OpenShot "
+"ایجاد کنید. وقتی کرش رخ داد، به ترمینال MSYS2 MinGW64 بازگردید و یکی از "
+"دستورات زیر را اجرا کنید (با تایپ و زدن ENTER). معمولاً اولین دستور ``bt`` "
+"است که به معنی ``backtrace`` می‌باشد. دستورات بیشتری در ادامه آمده است."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:117
+msgid "High DPI / 4K Monitors"
+msgstr "نمایشگرهای با DPI بالا / 4K"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:119
+msgid ""
+"OpenShot Video Editor provides robust support for High DPI (Dots Per Inch) "
+"monitors, ensuring that the interface looks sharp and is easily readable on "
+"displays with various DPI settings. This support is particularly helpful on "
+"4K monitors and other high-resolution displays."
+msgstr ""
+"OpenShot Video Editor پشتیبانی قوی از نمایشگرهای با DPI بالا (نقاط در اینچ) "
+"ارائه می‌دهد تا اطمینان حاصل شود که رابط کاربری واضح و به راحتی روی "
+"نمایشگرهای با تنظیمات مختلف DPI قابل خواندن است. این پشتیبانی به ویژه برای "
+"نمایشگرهای 4K و سایر نمایشگرهای با وضوح بالا مفید است."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:125
+msgid "Per Monitor DPI Awareness"
+msgstr "آگاهی DPI به ازای هر نمایشگر"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:127
+msgid ""
+"OpenShot is DPI aware on a per-monitor basis, meaning it can adjust its "
+"scaling dynamically depending on the DPI settings of each connected monitor. "
+"This helps provide a consistent experience across different displays."
+msgstr ""
+"OpenShot به صورت جداگانه برای هر نمایشگر از DPI آگاه است، به این معنی که "
+"می‌تواند مقیاس‌بندی خود را به طور پویا بسته به تنظیمات DPI هر نمایشگر متصل شده "
+"تنظیم کند. این به ارائه تجربه‌ای یکنواخت در نمایشگرهای مختلف کمک می‌کند."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:132
+msgid "DPI Scaling on Windows"
+msgstr "مقیاس‌بندی DPI در ویندوز"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:134
+msgid ""
+"On Windows, OpenShot rounds the scaling factor to the nearest whole value to "
+"maintain visual integrity. This helps avoid visual artifacts in the UI and "
+"keeps interface elements crisp and well-aligned. Due to this rounding, some "
+"scaling options can lead to larger fonts and UI elements than expected."
+msgstr ""
+"در ویندوز، OpenShot عامل مقیاس‌بندی را به نزدیک‌ترین عدد صحیح گرد می‌کند تا "
+"یکپارچگی بصری حفظ شود. این کار به جلوگیری از ایجاد اشکالات بصری در رابط "
+"کاربری کمک می‌کند و عناصر رابط را واضح و مرتب نگه می‌دارد. به دلیل این گرد "
+"کردن، برخی گزینه‌های مقیاس‌بندی ممکن است منجر به فونت‌ها و عناصر رابط بزرگ‌تر از "
+"حد انتظار شوند."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:139
+msgid "**125% scaling** rounds to **100%**"
+msgstr "**مقیاس‌بندی ۱۲۵٪** به **۱۰۰٪** گرد می‌شود"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:140
+msgid "**150% scaling** rounds to **200%**"
+msgstr "**مقیاس‌بندی ۱۵۰٪** به **۲۰۰٪** گرد می‌شود"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:143
+msgid "Workarounds for Fine-Grained Adjustment"
+msgstr "راه‌حل‌هایی برای تنظیم دقیق‌تر"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:145
+msgid ""
+"While rounding helps maintain a clean interface, there are workarounds for "
+"users who require more precise control over scaling. These methods are **not "
+"recommended** due to potential visual artifacts:"
+msgstr ""
+"اگرچه گرد کردن به حفظ رابط کاربری تمیز کمک می‌کند، اما راه‌حل‌هایی برای "
+"کاربرانی که نیاز به کنترل دقیق‌تر بر مقیاس‌بندی دارند وجود دارد. این روش‌ها به "
+"دلیل احتمال ایجاد اشکالات بصری **توصیه نمی‌شوند:**"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:149
+msgid "**QT_SCALE_FACTOR_ROUNDING_POLICY=PassThrough**"
+msgstr "**QT_SCALE_FACTOR_ROUNDING_POLICY=PassThrough**"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:151
+msgid ""
+"Setting this environment variable can disable rounding and allow more "
+"precise scaling."
+msgstr ""
+"تنظیم این متغیر محیطی می‌تواند گرد کردن را غیرفعال کرده و امکان مقیاس‌بندی "
+"دقیق‌تر را فراهم کند."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:152
+msgid ""
+"**Note:** This may cause visual artifacts, particularly in the timeline, and "
+"is not recommended."
+msgstr ""
+"**توجه:** این ممکن است باعث ایجاد اشکالات بصری شود، به ویژه در جدول زمانی، و "
+"توصیه نمی‌شود."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:154
+msgid "**QT_SCALE_FACTOR=1.25** (or similar value)"
+msgstr "**QT_SCALE_FACTOR=1.25** (یا مقدار مشابه)"
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:156
+msgid ""
+"Manually setting the scale factor can provide finer adjustments to the font "
+"and UI scaling."
+msgstr ""
+"تنظیم دستی عامل مقیاس می‌تواند تنظیمات دقیق‌تری برای فونت و مقیاس‌بندی رابط "
+"کاربری فراهم کند."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:157
+msgid ""
+"This can also be set via Preferences (User Interface Scale), but expect "
+"border/line issues on Windows with fractional scales."
+msgstr ""
+"این مورد همچنین می‌تواند از طریق تنظیمات (مقیاس رابط کاربری) تنظیم شود، اما "
+"در ویندوز با مقیاس‌های کسری ممکن است مشکلاتی در خطوط و حاشیه‌ها پیش بیاید."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:158
+msgid ""
+"**Note:** This method can also lead to visual artifacts and make OpenShot "
+"harder to use."
+msgstr ""
+"**توجه:** این روش نیز ممکن است باعث ایجاد اشکالات بصری شود و استفاده از "
+"OpenShot را دشوارتر کند."
+
+# Translated with gpt-4.1-mini
+#: ../troubleshoot.rst:160
+msgid ""
+"For more info on adjusting these environment variables, please visit https://"
+"github.com/OpenShot/openshot-qt/wiki/OpenShot-UI-too-large."
+msgstr ""
+"برای اطلاعات بیشتر درباره تنظیم این متغیرهای محیطی، لطفاً به https://github."
+"com/OpenShot/openshot-qt/wiki/OpenShot-UI-too-large مراجعه کنید."

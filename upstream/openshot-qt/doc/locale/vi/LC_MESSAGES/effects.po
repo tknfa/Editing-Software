@@ -1,0 +1,3922 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:23
+msgid "Effects"
+msgstr "Hiệu ứng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:25
+msgid ""
+"Effects are used in OpenShot to enhance or modify the audio or video of a "
+"clip. They can modify pixels and audio data, and can generally enhance your "
+"video projects. Each effect has its own set of properties, most of which can "
+"be animated over time, for example varying the :guilabel:`Brightness & "
+"Contrast` of a clip over time."
+msgstr ""
+"Hiệu ứng được sử dụng trong OpenShot để nâng cao hoặc chỉnh sửa âm thanh "
+"hoặc video của một đoạn clip. Chúng có thể thay đổi các điểm ảnh và dữ liệu "
+"âm thanh, và thường có thể nâng cao dự án video của bạn. Mỗi hiệu ứng có bộ "
+"thuộc tính riêng, hầu hết có thể được hoạt hình theo thời gian, ví dụ thay "
+"đổi :guilabel:`Độ sáng & Tương phản` của một đoạn clip theo thời gian."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:29
+msgid ""
+"Effects can be added to any clip by dragging and dropping them from the "
+"Effects tab onto a clip. Each effect is represented by a small colored icon "
+"and the first letter of the effect name. Note: Pay close attention to where "
+"the play-head (i.e. red playback line) is. Key frames are automatically "
+"created at the current playback position, to help create animations quickly."
+msgstr ""
+"Hiệu ứng có thể được thêm vào bất kỳ đoạn clip nào bằng cách kéo và thả từ "
+"tab Hiệu ứng lên đoạn clip. Mỗi hiệu ứng được đại diện bởi một biểu tượng "
+"nhỏ màu sắc và chữ cái đầu tiên của tên hiệu ứng. Lưu ý: Hãy chú ý vị trí "
+"của đầu phát (dòng phát màu đỏ). Các khung hình chính được tạo tự động tại "
+"vị trí phát hiện tại để giúp tạo hoạt hình nhanh chóng."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:34
+msgid ""
+"To view an effect's properties, right-click on the effect icon, revealing "
+"the context menu, and choose :guilabel:`Properties`. The property editor "
+"will appear, where you can edit these properties. Properties appear "
+"alphabetically in the dock, with filter options available at the top. Hold :"
+"kbd:`Ctrl` and click multiple effect icons to select them all, the "
+"Properties dock will show an entry such as ``3 Selections`` so you can "
+"adjust their common settings in one step. See :ref:`clip_properties_ref`."
+msgstr ""
+"Để xem thuộc tính của hiệu ứng, nhấp chuột phải vào biểu tượng hiệu ứng, mở "
+"menu ngữ cảnh và chọn :guilabel:`Thuộc tính`. Trình chỉnh sửa thuộc tính sẽ "
+"xuất hiện, nơi bạn có thể chỉnh sửa các thuộc tính này. Các thuộc tính được "
+"sắp xếp theo thứ tự chữ cái trong dock, với các tùy chọn lọc ở trên cùng. "
+"Giữ :kbd:`Ctrl` và nhấp vào nhiều biểu tượng hiệu ứng để chọn tất cả, dock "
+"Thuộc tính sẽ hiển thị mục như ``3 Lựa chọn`` để bạn có thể điều chỉnh các "
+"cài đặt chung của chúng trong một bước. Xem :ref:`clip_properties_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:41
+msgid "Masks and Effects"
+msgstr "Mặt nạ và Hiệu ứng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:43
+msgid ""
+"All effects can now use a **static or animated mask** to limit where the "
+"effect is applied. This makes effects much more precise, because you can "
+"target only the subject or region you care about and blend the result "
+"smoothly into the original image."
+msgstr ""
+"Tất cả hiệu ứng giờ đây có thể sử dụng **mặt nạ tĩnh hoặc hoạt hình** để "
+"giới hạn nơi áp dụng hiệu ứng. Điều này làm cho hiệu ứng chính xác hơn "
+"nhiều, vì bạn có thể nhắm mục tiêu chỉ vào đối tượng hoặc vùng bạn quan tâm "
+"và hòa trộn kết quả một cách mượt mà vào hình ảnh gốc."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:48
+msgid "Why this matters:"
+msgstr "Tại sao điều này quan trọng:"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:50
+msgid "Keep edits focused on one area (for example, blur only a face)."
+msgstr ""
+"Giữ các chỉnh sửa tập trung vào một khu vực (ví dụ, làm mờ chỉ khuôn mặt)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:51
+msgid ""
+"Stack multiple effects on the same subject without affecting the full frame."
+msgstr ""
+"Chồng nhiều hiệu ứng lên cùng một đối tượng mà không ảnh hưởng đến toàn bộ "
+"khung hình."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:52
+msgid "Animate how strongly or where an effect is applied over time."
+msgstr "Hoạt hình hóa mức độ hoặc vị trí áp dụng hiệu ứng theo thời gian."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:54
+msgid "How to use effect masks:"
+msgstr "Cách sử dụng mặt nạ hiệu ứng:"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:56
+msgid "Add an effect to a clip."
+msgstr "Thêm một hiệu ứng vào đoạn clip."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:57
+msgid "Open the effect :guilabel:`Properties`."
+msgstr "Mở :guilabel:`Thuộc tính` của hiệu ứng."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:58
+msgid "Choose a mask source (static image or animated mask video)."
+msgstr "Chọn nguồn mặt nạ (hình ảnh tĩnh hoặc video mặt nạ hoạt hình)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:59
+msgid ""
+"Adjust :guilabel:`Mask Mode` (for example, *Limit to Mask* or *Vary "
+"Strength*)."
+msgstr ""
+"Điều chỉnh :guilabel:`Chế độ Mặt nạ` (ví dụ, *Giới hạn trong Mặt nạ* hoặc "
+"*Thay đổi Cường độ*)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:61
+msgid ""
+"High-quality animated masks can also be generated with Advanced AI "
+"workflows. In many cases, you can click one or more subjects and let "
+"tracking build a mask automatically. See :ref:`ai_ref`."
+msgstr ""
+"Mặt nạ hoạt hình chất lượng cao cũng có thể được tạo ra bằng các quy trình "
+"AI nâng cao. Trong nhiều trường hợp, bạn có thể nhấp vào một hoặc nhiều đối "
+"tượng và để theo dõi tự động tạo mặt nạ. Xem :ref:`ai_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:65
+msgid "Mask controls to know:"
+msgstr "Các điều khiển mặt nạ cần biết:"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:67
+msgid ""
+"Any effect mask can be inverted to flip between foreground and background."
+msgstr ""
+"Bất kỳ mặt nạ hiệu ứng nào cũng có thể được đảo ngược để chuyển đổi giữa "
+"tiền cảnh và hậu cảnh."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:68
+msgid "Animated mask videos can be looped."
+msgstr "Video mặt nạ hoạt hình có thể được lặp lại."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:69
+msgid ""
+"When looping, set start/end mask trim carefully. If not adjusted, OpenShot "
+"loops the entire mask source, not just the segment you intended to repeat."
+msgstr ""
+"Khi lặp lại, hãy cẩn thận đặt cắt tỉa mặt nạ bắt đầu/kết thúc. Nếu không "
+"điều chỉnh, OpenShot sẽ lặp toàn bộ nguồn mặt nạ, không chỉ đoạn bạn định "
+"lặp lại."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:72
+msgid "To adjust a property:"
+msgstr "Để điều chỉnh một thuộc tính:"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:74
+msgid "Drag the slider for coarse changes."
+msgstr "Kéo thanh trượt để thay đổi thô."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:75
+msgid "Double-click to enter precise values."
+msgstr "Nhấp đúp để nhập giá trị chính xác."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:76
+msgid "Right/double-click for non-numerical options."
+msgstr "Nhấp phải/nhấp đúp để chọn các tùy chọn không phải số."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:78
+msgid ""
+"Effect properties are integral to the :ref:`animation_ref` system. When you "
+"modify an effect property, a keyframe is generated at the current playhead "
+"position. For a property to span the entire clip, position the playhead at "
+"or before the clip's start before making adjustments. A convenient way to "
+"identify a clip's start is by utilizing the 'next/previous marker' feature "
+"on the Timeline toolbar."
+msgstr ""
+"Thuộc tính hiệu ứng là phần không thể thiếu của hệ thống :ref:"
+"`animation_ref`. Khi bạn chỉnh sửa thuộc tính hiệu ứng, một khung hình chính "
+"được tạo tại vị trí đầu phát hiện tại. Để một thuộc tính áp dụng cho toàn bộ "
+"đoạn clip, hãy đặt đầu phát tại hoặc trước điểm bắt đầu của đoạn clip trước "
+"khi điều chỉnh. Cách tiện lợi để xác định điểm bắt đầu của đoạn clip là sử "
+"dụng tính năng 'đánh dấu tiếp theo/trước' trên thanh công cụ Timeline."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:86
+msgid "List of Effects"
+msgstr "Danh sách Hiệu ứng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:87
+msgid ""
+"OpenShot Video Editor has a total of 27 built-in video and audio effects: 18 "
+"video effects and 9 audio effects. These effects can be added to a clip by "
+"dragging the effect onto a clip. The following table contains the name and "
+"short description of each effect."
+msgstr ""
+"OpenShot Video Editor có tổng cộng 27 hiệu ứng video và âm thanh tích hợp: "
+"18 hiệu ứng video và 9 hiệu ứng âm thanh. Các hiệu ứng này có thể được thêm "
+"vào đoạn clip bằng cách kéo hiệu ứng lên đoạn clip. Bảng sau đây chứa tên và "
+"mô tả ngắn gọn của từng hiệu ứng."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:227
+msgid "Icon"
+msgstr "Biểu tượng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:227
+msgid "Effect Name"
+msgstr "Tên Hiệu ứng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:227
+msgid "Effect Description"
+msgstr "Mô tả Hiệu ứng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:229
+msgid "|analogtape_icon|"
+msgstr "|analogtape_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:91
+msgid "Analog Tape Icon"
+msgstr "Biểu tượng Băng Analog"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:229 ../effects.rst:364
+msgid "Analog Tape"
+msgstr "Băng Analog"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:229
+msgid "Vintage home-video wobble, bleed, and snow."
+msgstr "Hiệu ứng rung, loang màu và nhiễu tuyết của video gia đình cổ điển."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:230
+msgid "|mask_icon|"
+msgstr "|mask_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:95
+msgid "Alpha Mask / Wipe Transition Icon"
+msgstr "Biểu tượng Chuyển tiếp Mặt nạ Alpha / Lau"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:230 ../effects.rst:391
+msgid "Alpha Mask / Wipe Transition"
+msgstr "Chuyển tiếp Mặt nạ Alpha / Lau"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:230
+msgid "Grayscale mask transition between images."
+msgstr "Chuyển tiếp mặt nạ thang độ xám giữa các hình ảnh."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:231
+msgid "|bars_icon|"
+msgstr "|bars_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:99
+msgid "Bars Icon"
+msgstr "Biểu tượng Thanh"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:231 ../effects.rst:410
+msgid "Bars"
+msgstr "Thanh"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:231
+msgid "Add colored bars around your video."
+msgstr "Thêm các thanh màu xung quanh video của bạn."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:232
+msgid "|blur_icon|"
+msgstr "|blur_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:103
+msgid "Blur Icon"
+msgstr "Biểu tượng Làm mờ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:232 ../effects.rst:429
+msgid "Blur"
+msgstr "Làm mờ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:232
+msgid "Adjust image blur."
+msgstr "Điều chỉnh độ mờ của hình ảnh."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:233
+msgid "|brightness_icon|"
+msgstr "|brightness_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:107
+msgid "Brightness & Contrast Icon"
+msgstr "Biểu tượng Độ sáng & Tương phản"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:233 ../effects.rst:447
+msgid "Brightness & Contrast"
+msgstr "Độ sáng & Tương phản"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:233
+msgid "Modify frame’s brightness and contrast."
+msgstr "Chỉnh sửa độ sáng và tương phản của khung hình."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:234
+msgid "|caption_icon|"
+msgstr "|caption_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:111
+msgid "Caption Icon"
+msgstr "Biểu tượng Chú thích"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:234 ../effects.rst:465
+msgid "Caption"
+msgstr "Chú thích"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:234
+msgid "Add text captions to any clip."
+msgstr "Thêm chú thích văn bản vào bất kỳ đoạn clip nào."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:235
+msgid "|chromakey_icon|"
+msgstr "|chromakey_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:115
+msgid "Chroma Key (Greenscreen) Icon"
+msgstr "Biểu tượng Chroma Key (Màn hình xanh)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:235 ../effects.rst:506
+msgid "Chroma Key (Greenscreen)"
+msgstr "Chroma Key (Màn hình xanh)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:235
+msgid "Replace color with transparency."
+msgstr "Thay thế màu bằng độ trong suốt."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:236
+msgid "|colormap_icon|"
+msgstr "|colormap_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:119
+msgid "Color Map / Lookup Icon"
+msgstr "Biểu tượng Bản đồ màu / Tra cứu"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:236 ../effects.rst:525
+msgid "Color Map / Lookup"
+msgstr "Bản đồ màu / Tra cứu"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:236
+msgid "Adjust colors using 3D LUT lookup tables (.cube format)."
+msgstr ""
+"Điều chỉnh màu sắc bằng cách sử dụng bảng tra cứu 3D LUT (định dạng .cube)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:237
+msgid "|saturation_icon|"
+msgstr "|saturation_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:123
+msgid "Color Saturation Icon"
+msgstr "Biểu tượng Độ bão hòa màu"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:237 ../effects.rst:745
+msgid "Color Saturation"
+msgstr "Độ bão hòa màu"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:237
+msgid "Adjust color intensity."
+msgstr "Điều chỉnh cường độ màu."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:238
+msgid "|colorshift_icon|"
+msgstr "|colorshift_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:127
+msgid "Color Shift Icon"
+msgstr "Biểu tượng Dịch chuyển màu"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:238 ../effects.rst:763
+msgid "Color Shift"
+msgstr "Dịch chuyển màu"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:238
+msgid "Shift image colors in various directions."
+msgstr "Dịch chuyển màu hình ảnh theo nhiều hướng khác nhau."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:239
+msgid "|crop_icon|"
+msgstr "|crop_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:131
+msgid "Crop Icon"
+msgstr "Biểu tượng Cắt"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:239 ../effects.rst:794
+msgid "Crop"
+msgstr "Cắt"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:239
+msgid "Crop out parts of your video."
+msgstr "Cắt bỏ các phần của video."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:240
+msgid "|deinterlace_icon|"
+msgstr "|deinterlace_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:135
+msgid "Deinterlace Icon"
+msgstr "Biểu tượng Loại bỏ xen kẽ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:240 ../effects.rst:821
+msgid "Deinterlace"
+msgstr "Loại bỏ xen kẽ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:240
+msgid "Remove interlacing from video."
+msgstr "Loại bỏ hiện tượng xen kẽ khỏi video."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:241
+msgid "|hue_icon|"
+msgstr "|hue_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:139
+msgid "Hue Icon"
+msgstr "Biểu tượng Màu sắc"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:241 ../effects.rst:836
+msgid "Hue"
+msgstr "Điều chỉnh sắc độ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:241
+msgid "Adjust hue / color."
+msgstr "Điều chỉnh sắc độ / màu sắc."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:242
+msgid "|lensflare_icon|"
+msgstr "|lensflare_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:143
+msgid "Lens Flare Icon"
+msgstr "Biểu tượng Loé Ống Kính"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:242 ../effects.rst:851
+msgid "Lens Flare"
+msgstr "Loé Ống Kính"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:242
+msgid "Simulate sunlight hitting a lens with flares."
+msgstr "Mô phỏng ánh sáng mặt trời chiếu vào ống kính với hiệu ứng loé sáng."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:243
+msgid "|negate_icon|"
+msgstr "|negate_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:147
+msgid "Negative Icon"
+msgstr "Biểu tượng Phủ Đảo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:243 ../effects.rst:871
+msgid "Negative"
+msgstr "Phủ Đảo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:243
+msgid "Produce a negative image."
+msgstr "Tạo ảnh phủ đảo."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:244
+msgid "|objectdetection_icon|"
+msgstr "|objectdetection_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:151
+msgid "Object Detector Icon"
+msgstr "Biểu tượng Phát Hiện Đối Tượng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:244 ../effects.rst:877
+msgid "Object Detector"
+msgstr "Phát Hiện Đối Tượng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:244
+msgid "Detect objects in video."
+msgstr "Phát hiện đối tượng trong video."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:245
+msgid "|outline_icon|"
+msgstr "|outline_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:155
+msgid "Outline Icon"
+msgstr "Biểu tượng Viền Ngoài"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:245 ../effects.rst:936
+msgid "Outline"
+msgstr "Viền Ngoài"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:245
+msgid "Add outline around any image or text."
+msgstr "Thêm viền ngoài cho bất kỳ hình ảnh hoặc văn bản nào."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:246
+msgid "|pixelate_icon|"
+msgstr "|pixelate_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:159
+msgid "Pixelate Icon"
+msgstr "Biểu tượng Mờ Hạt"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:246 ../effects.rst:957
+msgid "Pixelate"
+msgstr "Mờ Hạt"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:246
+msgid "Increase or decrease visible pixels."
+msgstr "Tăng hoặc giảm số điểm ảnh hiển thị."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:247
+msgid "|sharpen_icon|"
+msgstr "|sharpen_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:163
+msgid "Sharpen Icon"
+msgstr "Biểu tượng Làm Nét"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:247 ../effects.rst:976
+msgid "Sharpen"
+msgstr "Làm Nét"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:247
+msgid "Boost edge contrast to make video details look crisper."
+msgstr "Tăng độ tương phản cạnh để chi tiết video sắc nét hơn."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:248
+msgid "|shift_icon|"
+msgstr "|shift_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:167
+msgid "Shift Icon"
+msgstr "Biểu tượng Dịch Chuyển"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:248 ../effects.rst:1015
+msgid "Shift"
+msgstr "Dịch Chuyển"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:248
+msgid "Shift image in different directions."
+msgstr "Dịch chuyển hình ảnh theo các hướng khác nhau."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:249
+msgid "|sphericalprojection_icon|"
+msgstr "|sphericalprojection_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:171
+msgid "Spherical Projection Icon"
+msgstr "Biểu tượng Chiếu Cầu"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:249 ../effects.rst:1031
+msgid "Spherical Projection"
+msgstr "Chiếu Cầu"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:249
+msgid "Flatten or project 360° and fisheye footage."
+msgstr "Làm phẳng hoặc chiếu video 360° và mắt cá."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:250
+msgid "|stabilizer_icon|"
+msgstr "|stabilizer_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:175
+msgid "Stabilizer Icon"
+msgstr "Biểu tượng Ổn Định"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:250 ../effects.rst:1082
+msgid "Stabilizer"
+msgstr "Ổn Định"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:250
+msgid "Reduce video shake."
+msgstr "Giảm rung lắc video."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:251
+msgid "|tracker_icon|"
+msgstr "|tracker_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:179
+msgid "Tracker Icon"
+msgstr "Biểu tượng Theo Dõi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:251 ../effects.rst:1097
+msgid "Tracker"
+msgstr "Theo Dõi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:251
+msgid "Track bounding box in video."
+msgstr "Theo dõi hộp giới hạn trong video."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:252
+msgid "|wave_icon|"
+msgstr "|wave_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:183
+msgid "Wave Icon"
+msgstr "Biểu tượng Sóng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:252 ../effects.rst:1154
+msgid "Wave"
+msgstr "Sóng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:252
+msgid "Distort image into a wave pattern."
+msgstr "Biến dạng hình ảnh thành mẫu sóng."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:253
+msgid "|compressor_icon|"
+msgstr "|compressor_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:187
+msgid "Compressor Icon"
+msgstr "Biểu tượng Nén"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:253 ../effects.rst:1179
+msgid "Compressor"
+msgstr "Nén"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:253
+msgid "Reduce loudness or amplify quiet sounds."
+msgstr "Giảm âm lượng lớn hoặc khuếch đại âm thanh nhỏ."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:254
+msgid "|delay_icon|"
+msgstr "|delay_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:191
+msgid "Delay Icon"
+msgstr "Biểu tượng Trễ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:254 ../effects.rst:1199
+msgid "Delay"
+msgstr "Trễ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:254
+msgid "Adjust audio-video synchronism."
+msgstr "Điều chỉnh đồng bộ âm thanh và hình ảnh."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:255
+msgid "|distortion_icon|"
+msgstr "|distortion_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:195
+msgid "Distortion Icon"
+msgstr "Biểu tượng Biến Dạng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:255 ../effects.rst:1214
+msgid "Distortion"
+msgstr "Biến Dạng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:255
+msgid "Clip audio signal for distortion."
+msgstr "Cắt tín hiệu âm thanh để tạo biến dạng."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:256
+msgid "|echo_icon|"
+msgstr "|echo_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:199
+msgid "Echo Icon"
+msgstr "Biểu tượng Tiếng Vang"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:256 ../effects.rst:1232
+msgid "Echo"
+msgstr "Tiếng Vang"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:256
+msgid "Add delayed sound reflection."
+msgstr "Thêm phản xạ âm thanh trễ."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:257
+msgid "|expander_icon|"
+msgstr "|expander_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:203
+msgid "Expander Icon"
+msgstr "Biểu tượng Mở Rộng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:257 ../effects.rst:1249
+msgid "Expander"
+msgstr "Mở Rộng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:257
+msgid "Make loud parts relatively louder."
+msgstr "Làm cho phần âm thanh lớn trở nên to hơn."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:258
+msgid "|noise_icon|"
+msgstr "|noise_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:207
+msgid "Noise Icon"
+msgstr "Biểu tượng Nhiễu"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:258 ../effects.rst:1269
+msgid "Noise"
+msgstr "Nhiễu"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:258
+msgid "Add random equal-intensity signals."
+msgstr "Thêm tín hiệu ngẫu nhiên có cường độ bằng nhau."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:259
+msgid "|parametriceq_icon|"
+msgstr "|parametriceq_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:211
+msgid "Parametric EQ Icon"
+msgstr "Biểu tượng EQ Tham Số"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:259 ../effects.rst:1284
+msgid "Parametric EQ"
+msgstr "EQ Tham Số"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:259
+msgid "Adjust frequency volume in audio."
+msgstr "Điều chỉnh âm lượng theo tần số trong âm thanh."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:260
+msgid "|robotization_icon|"
+msgstr "|robotization_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:215
+msgid "Robotization Icon"
+msgstr "Biểu tượng Giọng Robot"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:260 ../effects.rst:1302
+msgid "Robotization"
+msgstr "Giọng Robot"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:260
+msgid "Transform audio into robotic voice."
+msgstr "Biến đổi âm thanh thành giọng robot."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:261
+msgid "|whisperization_icon|"
+msgstr "|whisperization_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:219
+msgid "Whisperization Icon"
+msgstr "Biểu tượng Giọng Thì Thầm"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:261 ../effects.rst:1319
+msgid "Whisperization"
+msgstr "Giọng Thì Thầm"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:261
+msgid "Transform audio into whispers."
+msgstr "Biến đổi âm thanh thành tiếng thì thầm."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:266
+msgid "Effect Properties"
+msgstr "Thuộc Tính Hiệu Ứng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:267
+msgid ""
+"Below is a list of **common** effect properties, shared by all effects in "
+"OpenShot. To view an effect's properties, right click and choose :guilabel:"
+"`Properties`. The property editor will appear, where you can change these "
+"properties. Note: Pay close attention to where the play-head (i.e. red "
+"playback line) is. Key frames are automatically created at the current "
+"playback position, to help quickly create animations."
+msgstr ""
+"Dưới đây là danh sách các thuộc tính **chung** của hiệu ứng, được chia sẻ "
+"bởi tất cả hiệu ứng trong OpenShot. Để xem thuộc tính của một hiệu ứng, nhấp "
+"chuột phải và chọn :guilabel:`Properties`. Trình chỉnh sửa thuộc tính sẽ "
+"xuất hiện, nơi bạn có thể thay đổi các thuộc tính này. Lưu ý: Hãy chú ý vị "
+"trí của đầu phát (dòng phát màu đỏ). Các khung hình chính sẽ tự động được "
+"tạo tại vị trí phát hiện tại, giúp tạo hoạt ảnh nhanh chóng."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:272
+msgid ""
+"See the table below for a list of common effect properties. Only the "
+"**common properties** that all effects share are listed here. Each effect "
+"also has many **unique properties**, which are specific to each effect, see :"
+"ref:`effect_video_effects_ref` for more information on individual effects "
+"and their unique properties."
+msgstr ""
+"Xem bảng dưới đây để biết danh sách các thuộc tính hiệu ứng phổ biến. Chỉ "
+"các **thuộc tính chung** mà tất cả các hiệu ứng đều có được liệt kê ở đây. "
+"Mỗi hiệu ứng cũng có nhiều **thuộc tính riêng biệt**, đặc trưng cho từng "
+"hiệu ứng, xem :ref:`effect_video_effects_ref` để biết thêm thông tin về các "
+"hiệu ứng riêng lẻ và các thuộc tính riêng biệt của chúng."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:280
+msgid "Effect Property Name"
+msgstr "Tên Thuộc Tính Hiệu Ứng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:280
+msgid "Type"
+msgstr "Loại"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:280 ../effects.rst:372 ../effects.rst:401 ../effects.rst:419
+#: ../effects.rst:438 ../effects.rst:456 ../effects.rst:484 ../effects.rst:516
+#: ../effects.rst:539 ../effects.rst:754 ../effects.rst:779 ../effects.rst:809
+#: ../effects.rst:830 ../effects.rst:845 ../effects.rst:860 ../effects.rst:908
+#: ../effects.rst:947 ../effects.rst:966 ../effects.rst:1005
+#: ../effects.rst:1024 ../effects.rst:1042 ../effects.rst:1091
+#: ../effects.rst:1131 ../effects.rst:1162 ../effects.rst:1188
+#: ../effects.rst:1208 ../effects.rst:1223 ../effects.rst:1241
+#: ../effects.rst:1258 ../effects.rst:1278 ../effects.rst:1293
+#: ../effects.rst:1311 ../effects.rst:1328
+msgid "Description"
+msgstr "Mô Tả"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:282 ../effects.rst:293
+msgid "Duration"
+msgstr "Thời Lượng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:282 ../effects.rst:283 ../effects.rst:286 ../effects.rst:287
+msgid "Float"
+msgstr "Số Thực"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:282
+msgid ""
+"The length of the effect (in seconds). Read-only property. Most effects "
+"default to the length of a clip. This property is hidden when an effect "
+"belongs to a clip."
+msgstr ""
+"Độ dài của hiệu ứng (tính bằng giây). Thuộc tính chỉ đọc. Hầu hết các hiệu "
+"ứng mặc định có độ dài bằng độ dài của clip. Thuộc tính này bị ẩn khi hiệu "
+"ứng thuộc về một clip."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:283 ../effects.rst:300
+msgid "End"
+msgstr "Kết Thúc"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:283
+msgid ""
+"The end trimming position of the effect (in seconds). This property is "
+"hidden when an effect belongs to a clip."
+msgstr ""
+"Vị trí cắt cuối của hiệu ứng (tính bằng giây). Thuộc tính này bị ẩn khi hiệu "
+"ứng thuộc về một clip."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:284 ../effects.rst:307
+msgid "ID"
+msgstr "ID"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:284 ../effects.rst:285
+msgid "String"
+msgstr "Chuỗi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:284
+msgid ""
+"A randomly generated GUID (globally unique identifier) assigned to each "
+"effect. Read-only property."
+msgstr ""
+"Một GUID (định danh duy nhất toàn cầu) được tạo ngẫu nhiên và gán cho mỗi "
+"hiệu ứng. Thuộc tính chỉ đọc."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:285
+msgid "Parent"
+msgstr "Cha"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:285
+msgid ""
+"The parent object to this effect, which makes many of these keyframe values "
+"initialize to the parent value."
+msgstr ""
+"Đối tượng cha của hiệu ứng này, khiến nhiều giá trị khung hình chính được "
+"khởi tạo theo giá trị của cha."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:286 ../effects.rst:330
+msgid "Position"
+msgstr "Vị Trí"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:286
+msgid ""
+"The position of the effect on the timeline (in seconds). This property is "
+"hidden when an effect belongs to a clip."
+msgstr ""
+"Vị trí của hiệu ứng trên dòng thời gian (tính bằng giây). Thuộc tính này bị "
+"ẩn khi hiệu ứng thuộc về một clip."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:287 ../effects.rst:336
+msgid "Start"
+msgstr "Bắt Đầu"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:287
+msgid ""
+"The start trimming position of the effect (in seconds). This property is "
+"hidden when an effect belongs to a clip."
+msgstr ""
+"Vị trí cắt đầu của hiệu ứng (tính bằng giây). Thuộc tính này bị ẩn khi hiệu "
+"ứng thuộc về một clip."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:288 ../effects.rst:312
+msgid "Track"
+msgstr "Lớp"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:288
+msgid "Int"
+msgstr "Số Nguyên"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:288
+msgid ""
+"The layer which holds the effect (higher tracks are rendered on top of lower "
+"tracks). This property is hidden when an effect belongs to a clip."
+msgstr ""
+"Lớp chứa hiệu ứng (lớp cao hơn được hiển thị trên lớp thấp hơn). Thuộc tính "
+"này bị ẩn khi hiệu ứng thuộc về một clip."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:289
+msgid "Apply Before Clip"
+msgstr "Áp Dụng Trước Clip"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:289
+msgid "Boolean"
+msgstr "Boolean"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:289
+msgid "Apply this effect before the Clip processes keyframes? (default is Yes)"
+msgstr ""
+"Áp dụng hiệu ứng này trước khi Clip xử lý các khung hình chính? (mặc định là "
+"Có)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:294
+msgid ""
+"The :guilabel:`Duration` property is a float value indicating the length of "
+"the effect in seconds. This is a Read-only property. This is calculated by: "
+"End - Start. To modify duration, you must edit the :guilabel:`Start` and/or :"
+"guilabel:`End` effect properties."
+msgstr ""
+"Thuộc tính :guilabel:`Duration` là một giá trị số thực chỉ độ dài của hiệu "
+"ứng tính bằng giây. Đây là thuộc tính chỉ đọc. Giá trị này được tính bằng: "
+"Kết Thúc - Bắt Đầu. Để thay đổi thời lượng, bạn phải chỉnh sửa thuộc tính "
+"hiệu ứng :guilabel:`Start` và/hoặc :guilabel:`End`."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:297
+msgid ""
+"*NOTE: Most effects in OpenShot default the effect duration to the clip "
+"duration, and hide this property from the editor.*"
+msgstr ""
+"*LƯU Ý: Hầu hết các hiệu ứng trong OpenShot mặc định thời lượng hiệu ứng "
+"bằng thời lượng clip, và ẩn thuộc tính này khỏi trình chỉnh sửa.*"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:301
+msgid ""
+"The :guilabel:`End` property defines the trimming point at the end of the "
+"effect in seconds, allowing you to control how much of the effect is visible "
+"in the timeline. Changing this property will impact the :guilabel:`Duration` "
+"effect property."
+msgstr ""
+"Thuộc tính :guilabel:`End` xác định điểm cắt cuối của hiệu ứng tính bằng "
+"giây, cho phép bạn kiểm soát phần hiệu ứng hiển thị trên dòng thời gian. "
+"Thay đổi thuộc tính này sẽ ảnh hưởng đến thuộc tính hiệu ứng :guilabel:"
+"`Duration`."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:304 ../effects.rst:316 ../effects.rst:333 ../effects.rst:340
+msgid ""
+"*NOTE: Most effects in OpenShot default this property to match the clip, and "
+"hide this property from the editor.*"
+msgstr ""
+"*LƯU Ý: Hầu hết các hiệu ứng trong OpenShot mặc định thuộc tính này trùng "
+"với clip, và ẩn thuộc tính này khỏi trình chỉnh sửa.*"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:308
+msgid ""
+"The :guilabel:`ID` property holds a randomly generated GUID (Globally Unique "
+"Identifier) assigned to each effect, ensuring its uniqueness. This is a Read-"
+"only property, and assigned by OpenShot when an effect is created."
+msgstr ""
+"Thuộc tính :guilabel:`ID` chứa một GUID (Định danh duy nhất toàn cầu) được "
+"tạo ngẫu nhiên và gán cho mỗi hiệu ứng, đảm bảo tính duy nhất. Đây là thuộc "
+"tính chỉ đọc, được OpenShot gán khi tạo hiệu ứng."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:313
+msgid ""
+"The :guilabel:`Track` property is an integer indicating the layer on which "
+"the effect is placed. Effects on higher tracks are rendered above those on "
+"lower tracks."
+msgstr ""
+"Thuộc tính :guilabel:`Track` là một số nguyên chỉ lớp mà hiệu ứng được đặt "
+"lên. Hiệu ứng trên các lớp cao hơn sẽ được hiển thị trên các lớp thấp hơn."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:321
+msgid "Effect Parent"
+msgstr "Hiệu Ứng Cha"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:322
+msgid ""
+"The :guilabel:`Parent` property of an effect sets the initial keyframe "
+"values to a parent effect. For example, if many effects all point to the "
+"same parent effect, they will inherit all their initial properties, such as "
+"font size, font color, and background color for a ``Caption`` effect. In the "
+"example of many ``Caption`` effects using the same Parent effect, it is an "
+"efficient way to manage a large number of these effects."
+msgstr ""
+"Thuộc tính :guilabel:`Parent` của một hiệu ứng thiết lập các giá trị khung "
+"hình chính ban đầu theo hiệu ứng cha. Ví dụ, nếu nhiều hiệu ứng cùng trỏ đến "
+"một hiệu ứng cha, chúng sẽ kế thừa tất cả các thuộc tính ban đầu như kích "
+"thước phông chữ, màu phông chữ và màu nền cho hiệu ứng ``Caption``. Trong ví "
+"dụ nhiều hiệu ứng ``Caption`` sử dụng cùng một hiệu ứng cha, đây là cách "
+"quản lý hiệu quả số lượng lớn các hiệu ứng này."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:326
+msgid ""
+"NOTE: The ``parent`` property for effects should be linked to the **same "
+"type** of parent effect, otherwise their default initial values will not "
+"match. Also see :ref:`clip_parent_ref`."
+msgstr ""
+"LƯU Ý: Thuộc tính ``parent`` cho các hiệu ứng nên được liên kết với hiệu ứng "
+"cha cùng **loại**, nếu không các giá trị khởi tạo mặc định sẽ không khớp. "
+"Xem thêm :ref:`clip_parent_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:331
+msgid ""
+"The :guilabel:`Position` property determines the effect's position on the "
+"timeline in seconds, with 0.0 indicating the beginning."
+msgstr ""
+"Thuộc tính :guilabel:`Position` xác định vị trí của hiệu ứng trên dòng thời "
+"gian tính bằng giây, với 0.0 là điểm bắt đầu."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:337
+msgid ""
+"The :guilabel:`Start` property defines the trimming point at the beginning "
+"of the effect in seconds. Changing this property will impact the :guilabel:"
+"`Duration` effect property."
+msgstr ""
+"Thuộc tính :guilabel:`Start` xác định điểm cắt đầu của hiệu ứng tính bằng "
+"giây. Thay đổi thuộc tính này sẽ ảnh hưởng đến thuộc tính hiệu ứng :guilabel:"
+"`Duration`."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:343
+msgid "Sequencing"
+msgstr "Sắp Xếp"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:345
+msgid ""
+"Effects are normally applied **before** the Clip processes keyframes. This "
+"allows the effect to process the raw image of the clip, before the clip "
+"applies properties such as scaling, rotation, location, etc... Normally, "
+"this is the preferred sequence of events, and this is the default behavior "
+"of effects in OpenShot. However, you can optionally override this behavior "
+"with the ``Apply Before Clip Keyframes`` property."
+msgstr ""
+"Các hiệu ứng thường được áp dụng **trước** khi Clip xử lý các keyframe. Điều "
+"này cho phép hiệu ứng xử lý hình ảnh thô của clip, trước khi clip áp dụng "
+"các thuộc tính như phóng to, xoay, vị trí, v.v... Thông thường, đây là trình "
+"tự ưu tiên và cũng là hành vi mặc định của các hiệu ứng trong OpenShot. Tuy "
+"nhiên, bạn có thể tùy chọn ghi đè hành vi này bằng thuộc tính ``Apply Before "
+"Clip Keyframes``."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:350
+msgid ""
+"If you set the ``Apply Before Clip Keyframes`` property to ``No``, the "
+"effect will be sequenced **after** the clip scales, rotates, and applies "
+"keyframes to the image. This can be useful on certain effects, such as the "
+"**Mask** effect, when you want to animate a clip first and then apply a "
+"static mask to the clip."
+msgstr ""
+"Nếu bạn đặt thuộc tính ``Apply Before Clip Keyframes`` thành ``No``, hiệu "
+"ứng sẽ được áp dụng **sau** khi clip phóng to, xoay và áp dụng keyframe cho "
+"hình ảnh. Điều này hữu ích với một số hiệu ứng nhất định, như hiệu ứng "
+"**Mask**, khi bạn muốn hoạt hình clip trước rồi mới áp dụng mặt nạ tĩnh cho "
+"clip."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:357
+msgid "Video Effects"
+msgstr "Hiệu Ứng Video"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:359
+msgid ""
+"Effects are generally divided into two categories: video and audio effects. "
+"Video effects modify the image and pixel data of a clip. Below is a list of "
+"video effects, and their properties. Often it is best to experiment with an "
+"effect, entering different values into the properties, and observing the "
+"results."
+msgstr ""
+"Các hiệu ứng thường được chia thành hai loại: hiệu ứng video và hiệu ứng âm "
+"thanh. Hiệu ứng video thay đổi hình ảnh và dữ liệu điểm ảnh của một clip. "
+"Dưới đây là danh sách các hiệu ứng video và các thuộc tính của chúng. Thường "
+"thì tốt nhất là thử nghiệm với một hiệu ứng, nhập các giá trị khác nhau vào "
+"thuộc tính và quan sát kết quả."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:365
+msgid ""
+"The **Analog Tape** effect emulates consumer tape playback: horizontal line "
+"wobble (\"tracking\"), chroma bleed, luma softness, grainy snow, a bottom "
+"**tracking stripe**, and short **static bursts**. All controls are key-"
+"framable and the noise is deterministic (seeded from the effect’s ID with an "
+"optional offset), so renders are repeatable."
+msgstr ""
+"Hiệu ứng **Analog Tape** mô phỏng phát lại băng tiêu dùng: rung ngang dòng "
+"(\"tracking\"), chảy màu chroma, độ mềm luma, tuyết hạt, một **dải "
+"tracking** ở dưới cùng, và các **đợt tĩnh** ngắn. Tất cả các điều khiển đều "
+"có thể tạo keyframe và tiếng ồn là xác định (được tạo từ ID hiệu ứng với một "
+"độ lệch tùy chọn), nên kết quả render có thể lặp lại."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:372 ../effects.rst:401 ../effects.rst:419 ../effects.rst:438
+#: ../effects.rst:456 ../effects.rst:484 ../effects.rst:516 ../effects.rst:539
+#: ../effects.rst:754 ../effects.rst:779 ../effects.rst:809 ../effects.rst:830
+#: ../effects.rst:845 ../effects.rst:860 ../effects.rst:908 ../effects.rst:947
+#: ../effects.rst:966 ../effects.rst:1005 ../effects.rst:1024
+#: ../effects.rst:1042 ../effects.rst:1091 ../effects.rst:1131
+#: ../effects.rst:1162 ../effects.rst:1188 ../effects.rst:1208
+#: ../effects.rst:1223 ../effects.rst:1241 ../effects.rst:1258
+#: ../effects.rst:1278 ../effects.rst:1293 ../effects.rst:1311
+#: ../effects.rst:1328
+msgid "Property Name"
+msgstr "Tên Thuộc Tính"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:374
+msgid "tracking"
+msgstr "tracking"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:374
+msgid ""
+"``(float, 0–1)`` Horizontal **line wobble** plus a subtle bottom **skew**. "
+"Higher values increase amplitude and skew height."
+msgstr ""
+"``(float, 0–1)`` Rung **dòng ngang** cộng với một **độ nghiêng** nhẹ ở dưới "
+"cùng. Giá trị cao hơn làm tăng biên độ và chiều cao độ nghiêng."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:375
+msgid "bleed"
+msgstr "bleed"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:375
+msgid ""
+"``(float, 0–1)`` **Chroma bleed / fringing.** Horizontal chroma shift + blur "
+"with a slight desaturation. Gives the “rainbow edge” look."
+msgstr ""
+"``(float, 0–1)`` **Chảy màu chroma / viền màu.** Dịch chuyển chroma ngang + "
+"làm mờ với độ khử bão hòa nhẹ. Tạo hiệu ứng “viền cầu vồng”."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:376
+msgid "softness"
+msgstr "softness"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:376
+msgid ""
+"``(float, 0–1)`` **Luma softness.** Small horizontal blur on Y (approx. 0–2 "
+"px). Keep low to retain detail when noise is high."
+msgstr ""
+"``(float, 0–1)`` **Độ mềm luma.** Làm mờ ngang nhỏ trên kênh Y (khoảng 0–2 "
+"px). Giữ giá trị thấp để giữ chi tiết khi tiếng ồn cao."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:377
+msgid "noise"
+msgstr "noise"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:377
+msgid ""
+"``(float, 0–1)`` **Snow, hiss, and dropouts.** Controls grain strength, "
+"probability/length of white **streaks**, and a faint line hum."
+msgstr ""
+"``(float, 0–1)`` **Tuyết, tiếng xì và mất tín hiệu.** Điều khiển độ mạnh "
+"hạt, xác suất/độ dài của các **vệt trắng**, và tiếng ồn đường kẽ nhẹ."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:378
+msgid "stripe"
+msgstr "stripe"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:378
+msgid ""
+"``(float, 0–1)`` **Tracking stripe.** Lifts the bottom band, adds hiss/noise "
+"there, and widens the lifted region as the value increases."
+msgstr ""
+"``(float, 0–1)`` **Dải tracking.** Nâng dải dưới cùng lên, thêm tiếng xì/"
+"tiếng ồn ở đó, và mở rộng vùng nâng lên khi giá trị tăng."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:379
+msgid "static_bands"
+msgstr "static_bands"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:379
+msgid ""
+"``(float, 0–1)`` **Static bursts.** Short bright bands with **row-clumped "
+"streaks** (many “shooting stars” across neighboring rows)."
+msgstr ""
+"``(float, 0–1)`` **Đợt tĩnh.** Các dải sáng ngắn với các **vệt tụ theo "
+"hàng** (nhiều “sao băng” trên các hàng liền kề)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:380
+msgid "seed_offset"
+msgstr "seed_offset"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:380
+msgid ""
+"``(int, 0–1000)`` Adds to the internal seed (derived from the effect ID) for "
+"deterministic variation between clips."
+msgstr ""
+"``(int, 0–1000)`` Thêm vào hạt giống nội bộ (lấy từ ID hiệu ứng) để tạo biến "
+"thể xác định giữa các clip."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:383 ../effects.rst:1070
+msgid "**Usage notes**"
+msgstr "**Ghi chú sử dụng**"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:385
+msgid ""
+"**Subtle “home video”**: ``tracking=0.25``, ``bleed=0.20``, "
+"``softness=0.20``, ``noise=0.25``, ``stripe=0.10``, ``static_bands=0.05``."
+msgstr ""
+"**Video gia đình nhẹ nhàng**: ``tracking=0.25``, ``bleed=0.20``, "
+"``softness=0.20``, ``noise=0.25``, ``stripe=0.10``, ``static_bands=0.05``."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:386
+msgid ""
+"**Bad tracking / head clog**: ``tracking=0.8–1.0``, ``stripe=0.6–0.9``, "
+"``noise=0.6–0.8``, ``static_bands=0.4–0.6``, ``softness<=0.2``, and set "
+"``bleed`` to about 0.3."
+msgstr ""
+"**Tracking kém / đầu bẩn**: ``tracking=0.8–1.0``, ``stripe=0.6–0.9``, "
+"``noise=0.6–0.8``, ``static_bands=0.4–0.6``, ``softness<=0.2``, và đặt "
+"``bleed`` khoảng 0.3."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:387
+msgid ""
+"**Color fringing only**: raise ``bleed`` (about 0.5) and keep other controls "
+"low."
+msgstr ""
+"**Chỉ viền màu**: tăng ``bleed`` (khoảng 0.5) và giữ các điều khiển khác "
+"thấp."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:388
+msgid ""
+"**Different but repeatable snow**: leave the effect ID alone (for "
+"deterministic output) and change ``seed_offset`` to get a new, still-"
+"repeatable pattern."
+msgstr ""
+"**Tuyết khác nhưng có thể lặp lại**: giữ nguyên ID hiệu ứng (để đầu ra xác "
+"định) và thay đổi ``seed_offset`` để có mẫu mới, vẫn có thể lặp lại."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:392
+msgid ""
+"The Alpha Mask / Wipe Transition effect leverages a grayscale mask to create "
+"a dynamic transition between two images or video clips. In this effect, the "
+"light areas of the mask reveal the new image, while the dark areas conceal "
+"it, allowing for creative and custom transitions that go beyond standard "
+"fade or wipe techniques. This effect only affects the image, and not the "
+"audio track."
+msgstr ""
+"Hiệu ứng Chuyển tiếp Alpha Mask / Wipe sử dụng mặt nạ xám để tạo chuyển tiếp "
+"động giữa hai hình ảnh hoặc clip video. Trong hiệu ứng này, các vùng sáng "
+"của mặt nạ sẽ hiển thị hình ảnh mới, trong khi các vùng tối che giấu nó, cho "
+"phép tạo các chuyển tiếp sáng tạo và tùy chỉnh vượt ra ngoài các kỹ thuật mờ "
+"dần hoặc wipe tiêu chuẩn. Hiệu ứng này chỉ ảnh hưởng đến hình ảnh, không ảnh "
+"hưởng đến đường âm thanh."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:403 ../effects.rst:458 ../effects.rst:864
+msgid "brightness"
+msgstr "độ sáng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:403
+msgid "``(float, -1 to 1)`` This curve controls the motion across the wipe"
+msgstr ""
+"``(float, -1 đến 1)`` Đường cong này điều khiển chuyển động trên vùng wipe"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:404 ../effects.rst:459
+msgid "contrast"
+msgstr "độ tương phản"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:404
+msgid ""
+"``(float, 0 to 20)`` This curve controls the hardness and softness of the "
+"wipe edge"
+msgstr ""
+"``(float, 0 đến 20)`` Đường cong này điều khiển độ cứng và mềm của cạnh vùng "
+"wipe"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:405
+msgid "reader"
+msgstr "bộ đọc"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:405
+msgid ""
+"``(reader)`` This reader can use any image or video as input for your "
+"grayscale wipe"
+msgstr ""
+"``(reader)`` Bộ đọc này có thể sử dụng bất kỳ hình ảnh hoặc video nào làm "
+"đầu vào cho vùng wipe xám của bạn"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:406
+msgid "replace_image"
+msgstr "thay thế hình ảnh"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:406
+msgid ""
+"``(bool, choices: ['Yes', 'No'])`` Replace the clips image with the current "
+"grayscale wipe image, useful for troubleshooting"
+msgstr ""
+"``(bool, lựa chọn: ['Yes', 'No'])`` Thay thế hình ảnh của clip bằng hình ảnh "
+"wipe xám hiện tại, hữu ích để khắc phục sự cố"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:411
+msgid ""
+"The Bars effect adds colored bars around your video frame, which can be used "
+"for aesthetic purposes, to frame the video within a certain aspect ratio, or "
+"to simulate the appearance of viewing content on a different display device. "
+"This effect is particularly useful for creating a cinematic or broadcast "
+"look."
+msgstr ""
+"Hiệu ứng Bars thêm các thanh màu xung quanh khung video của bạn, có thể dùng "
+"cho mục đích thẩm mỹ, để đóng khung video trong một tỷ lệ khung hình nhất "
+"định, hoặc để mô phỏng hình ảnh khi xem nội dung trên thiết bị hiển thị "
+"khác. Hiệu ứng này đặc biệt hữu ích để tạo phong cách điện ảnh hoặc phát "
+"sóng."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:421 ../effects.rst:811 ../effects.rst:968
+msgid "bottom"
+msgstr "dưới cùng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:421
+msgid "``(float, 0 to 0.5)`` The curve to adjust the bottom bar size"
+msgstr ""
+"``(float, 0 đến 0.5)`` Đường cong để điều chỉnh kích thước thanh dưới cùng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:422 ../effects.rst:492 ../effects.rst:518
+msgid "color"
+msgstr "màu sắc"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:422
+msgid "``(color)`` The curve to adjust the color of bars"
+msgstr "``(color)`` Đường cong để điều chỉnh màu sắc của các thanh"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:423 ../effects.rst:497 ../effects.rst:812 ../effects.rst:969
+msgid "left"
+msgstr "bên trái"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:423
+msgid "``(float, 0 to 0.5)`` The curve to adjust the left bar size"
+msgstr ""
+"``(float, 0 đến 0.5)`` Đường cong để điều chỉnh kích thước thanh bên trái"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:424 ../effects.rst:499 ../effects.rst:813 ../effects.rst:971
+msgid "right"
+msgstr "bên phải"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:424
+msgid "``(float, 0 to 0.5)`` The curve to adjust the right bar size"
+msgstr ""
+"``(float, 0 đến 0.5)`` Đường cong để điều chỉnh kích thước thanh bên phải"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:425 ../effects.rst:502 ../effects.rst:814 ../effects.rst:972
+msgid "top"
+msgstr "trên cùng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:425
+msgid "``(float, 0 to 0.5)`` The curve to adjust the top bar size"
+msgstr ""
+"``(float, 0 đến 0.5)`` Đường cong để điều chỉnh kích thước thanh trên cùng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:430
+msgid ""
+"The Blur effect softens the image, reducing detail and texture. This can be "
+"used to create a sense of depth, draw attention to specific parts of the "
+"frame, or simply to apply a stylistic choice for aesthetic purposes. The "
+"intensity of the blur can be adjusted to achieve the desired level of "
+"softness."
+msgstr ""
+"Hiệu ứng Blur làm mềm hình ảnh, giảm chi tiết và kết cấu. Điều này có thể "
+"dùng để tạo cảm giác chiều sâu, thu hút sự chú ý vào các phần cụ thể của "
+"khung hình, hoặc đơn giản là áp dụng lựa chọn phong cách cho mục đích thẩm "
+"mỹ. Cường độ mờ có thể điều chỉnh để đạt mức độ mềm mại mong muốn."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:440
+msgid "horizontal_radius"
+msgstr "bán kính ngang"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:440
+msgid ""
+"``(float, 0 to 100)`` Horizontal blur radius keyframe. The size of the "
+"horizontal blur operation in pixels."
+msgstr ""
+"``(float, 0 đến 100)`` Khung khóa bán kính mờ ngang. Kích thước thao tác mờ "
+"ngang tính bằng pixel."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:441
+msgid "iterations"
+msgstr "số lần lặp"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:441
+msgid ""
+"``(float, 0 to 100)`` Iterations keyframe. The # of blur iterations per "
+"pixel. 3 iterations = Gaussian."
+msgstr ""
+"``(float, 0 đến 100)`` Khung khóa số lần lặp. Số lần lặp mờ trên mỗi pixel. "
+"3 lần lặp = Gaussian."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:442
+msgid "sigma"
+msgstr "sigma"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:442
+msgid ""
+"``(float, 0 to 100)`` Sigma keyframe. The amount of spread in the blur "
+"operation. Should be larger than radius."
+msgstr ""
+"``(float, 0 đến 100)`` Khung khóa sigma. Mức độ lan rộng trong thao tác mờ. "
+"Nên lớn hơn bán kính."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:443
+msgid "vertical_radius"
+msgstr "bán kính dọc"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:443
+msgid ""
+"``(float, 0 to 100)`` Vertical blur radius keyframe. The size of the "
+"vertical blur operation in pixels."
+msgstr ""
+"``(float, 0 đến 100)`` Khung khóa bán kính mờ dọc. Kích thước thao tác mờ "
+"dọc tính bằng pixel."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:448
+msgid ""
+"The Brightness & Contrast effect allows for the adjustment of the overall "
+"lightness or darkness of the image (brightness) and the difference between "
+"the darkest and lightest parts of the image (contrast). This effect can be "
+"used to correct poorly lit videos or to create dramatic lighting effects for "
+"artistic purposes."
+msgstr ""
+"Hiệu ứng Độ sáng & Tương phản cho phép điều chỉnh tổng thể độ sáng hoặc tối "
+"của hình ảnh (độ sáng) và sự khác biệt giữa phần tối nhất và sáng nhất của "
+"hình ảnh (tương phản). Hiệu ứng này có thể dùng để chỉnh sửa video thiếu "
+"sáng hoặc tạo hiệu ứng ánh sáng ấn tượng cho mục đích nghệ thuật."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:458
+msgid "``(float, -1 to 1)`` The curve to adjust the brightness"
+msgstr "``(float, -1 đến 1)`` Đường cong để điều chỉnh độ sáng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:459
+msgid ""
+"``(float, 0 to 100)`` The curve to adjust the contrast (3 is typical, 20 is "
+"a lot, 100 is max. 0 is invalid)"
+msgstr ""
+"``(float, 0 đến 100)`` Đường cong để điều chỉnh tương phản (3 là điển hình, "
+"20 là nhiều, 100 là tối đa. 0 không hợp lệ)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:466
+msgid ""
+"Add text captions on top of your video. We support both VTT (WebVTT) and "
+"SubRip (SRT) subtitle file formats. These formats are used to display "
+"captions or subtitles in videos. They allow you to add text-based subtitles "
+"to video content, making it more accessible to a wider audience, especially "
+"for those who are deaf or hard of hearing. The Caption effect can even "
+"animate the text fading in/out, and supports any font, size, color, and "
+"margin. OpenShot also has an easy-to-use Caption editor, where you can "
+"quickly insert captions at the playhead position, or edit all your caption "
+"text in one place."
+msgstr ""
+"Thêm phụ đề văn bản lên trên video của bạn. Chúng tôi hỗ trợ cả định dạng "
+"phụ đề VTT (WebVTT) và SubRip (SRT). Các định dạng này dùng để hiển thị phụ "
+"đề hoặc chú thích trong video. Chúng cho phép bạn thêm phụ đề dạng văn bản "
+"vào nội dung video, giúp video dễ tiếp cận hơn với khán giả rộng hơn, đặc "
+"biệt là người khiếm thính hoặc khó nghe. Hiệu ứng Caption còn có thể tạo "
+"hiệu ứng văn bản mờ dần vào/ra, và hỗ trợ bất kỳ phông chữ, kích thước, màu "
+"sắc và lề nào. OpenShot cũng có trình chỉnh sửa Caption dễ sử dụng, nơi bạn "
+"có thể nhanh chóng chèn phụ đề tại vị trí playhead hoặc chỉnh sửa toàn bộ "
+"văn bản phụ đề trong một nơi."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:486 ../effects.rst:932 ../effects.rst:1150
+msgid "background"
+msgstr "nền"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:486
+msgid "``(color)`` Color of caption area background"
+msgstr "``(color)`` Màu nền khu vực phụ đề"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:487 ../effects.rst:930 ../effects.rst:1148
+msgid "background_alpha"
+msgstr "độ trong suốt nền"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:487
+msgid "``(float, 0 to 1)`` Background color alpha"
+msgstr "``(float, 0 đến 1)`` Độ trong suốt màu nền"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:488 ../effects.rst:931 ../effects.rst:1149
+msgid "background_corner"
+msgstr "góc nền"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:488
+msgid "``(float, 0 to 60)`` Background corner radius"
+msgstr "``(float, 0 đến 60)`` Bán kính góc nền"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:489
+msgid "background_padding"
+msgstr "đệm nền"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:489
+msgid "``(float, 0 to 60)`` Background padding"
+msgstr "``(float, 0 đến 60)`` Đệm nền"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:490
+msgid "caption_font"
+msgstr "phông chữ phụ đề"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:490
+msgid "``(font)`` Font name or family name"
+msgstr "``(font)`` Tên phông chữ hoặc họ phông chữ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:491
+msgid "caption_text"
+msgstr "văn bản phụ đề"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:491
+msgid "``(caption)`` VTT/Subrip formatted caption text (multi-line)"
+msgstr "``(caption)`` Văn bản phụ đề định dạng VTT/Subrip (nhiều dòng)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:492
+msgid "``(color)`` Color of caption text"
+msgstr "``(color)`` Màu văn bản phụ đề"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:493
+msgid "fade_in"
+msgstr "mờ dần vào"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:493
+msgid "``(float, 0 to 3)`` Fade in per caption (# of seconds)"
+msgstr "``(float, 0 đến 3)`` Thời gian mờ dần vào cho mỗi phụ đề (số giây)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:494
+msgid "fade_out"
+msgstr "mờ dần ra"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:494
+msgid "``(float, 0 to 3)`` Fade out per caption (# of seconds)"
+msgstr "``(float, 0 đến 3)`` Thời gian mờ dần ra cho mỗi phụ đề (số giây)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:495
+msgid "font_alpha"
+msgstr "độ trong suốt phông chữ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:495
+msgid "``(float, 0 to 1)`` Font color alpha"
+msgstr "``(float, 0 đến 1)`` Độ trong suốt màu phông chữ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:496
+msgid "font_size"
+msgstr "kích thước phông chữ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:496
+msgid "``(float, 0 to 200)`` Font size in points"
+msgstr "``(float, 0 đến 200)`` Kích thước phông chữ tính theo điểm"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:497
+msgid "``(float, 0 to 0.5)`` Size of left margin"
+msgstr "``(float, 0 đến 0.5)`` Kích thước lề trái"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:498
+msgid "line_spacing"
+msgstr "khoảng cách dòng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:498
+msgid "``(float, 0 to 5)`` Distance between lines (1.0 default)"
+msgstr "``(float, 0 đến 5)`` Khoảng cách giữa các dòng (mặc định 1.0)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:499
+msgid "``(float, 0 to 0.5)`` Size of right margin"
+msgstr "``(float, 0 đến 0.5)`` Kích thước lề phải"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:500 ../effects.rst:927 ../effects.rst:1145
+msgid "stroke"
+msgstr "viền"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:500
+msgid "``(color)`` Color of text border / stroke"
+msgstr "``(color)`` Màu viền / đường viền văn bản"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:501 ../effects.rst:928 ../effects.rst:1146
+msgid "stroke_width"
+msgstr "độ rộng viền"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:501
+msgid "``(float, 0 to 10)`` Width of text border / stroke"
+msgstr "``(float, 0 đến 10)`` Độ rộng viền / nét chữ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:502
+msgid "``(float, 0 to 1)`` Size of top margin"
+msgstr "``(float, 0 đến 1)`` Kích thước lề trên"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:507
+msgid ""
+"The Chroma Key (Greenscreen) effect replaces a specific color (or chroma) in "
+"the video (commonly green or blue) with transparency, allowing for the "
+"compositing of the video over a different background. This effect is widely "
+"used in film and television production for creating visual effects and "
+"placing subjects in settings that would be otherwise impossible or "
+"impractical to shoot in."
+msgstr ""
+"Hiệu ứng Chroma Key (Màn hình xanh) thay thế một màu cụ thể (hoặc chroma) "
+"trong video (thường là màu xanh lá hoặc xanh dương) bằng độ trong suốt, cho "
+"phép ghép video lên nền khác. Hiệu ứng này được sử dụng rộng rãi trong sản "
+"xuất phim và truyền hình để tạo hiệu ứng hình ảnh và đặt đối tượng vào các "
+"bối cảnh mà việc quay phim trực tiếp là không thể hoặc không thực tế."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:518
+msgid "``(color)`` The color to match"
+msgstr "``(màu)`` Màu cần khớp"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:519 ../effects.rst:1009 ../effects.rst:1195
+#: ../effects.rst:1265
+msgid "threshold"
+msgstr "ngưỡng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:519
+msgid ""
+"``(float, 0 to 125)`` The threshold (or fuzz factor) for matching similar "
+"colors. The larger the value the more colors that will be matched."
+msgstr ""
+"``(float, 0 đến 125)`` Ngưỡng (hoặc hệ số mờ) để khớp các màu tương tự. Giá "
+"trị càng lớn thì càng nhiều màu được khớp."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:520
+msgid "halo"
+msgstr "vòng sáng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:520
+msgid "``(float, 0 to 125)`` The additional threshold for halo elimination."
+msgstr "``(float, 0 đến 125)`` Ngưỡng bổ sung để loại bỏ vòng sáng."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:521
+msgid "keymethod"
+msgstr "phương pháp khóa"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:521
+msgid ""
+"``(int, choices: ['Basic keying', 'HSV/HSL hue', 'HSV saturation', 'HSL "
+"saturation', 'HSV value', 'HSL luminance', 'LCH luminosity', 'LCH chroma', "
+"'LCH hue', 'CIE Distance', 'Cb,Cr vector'])`` The keying method or algorithm "
+"to use."
+msgstr ""
+"``(int, lựa chọn: ['Khóa cơ bản', 'Màu sắc HSV/HSL', 'Độ bão hòa HSV', 'Độ "
+"bão hòa HSL', 'Giá trị HSV', 'Độ sáng HSL', 'Độ sáng LCH', 'Chroma LCH', "
+"'Màu sắc LCH', 'Khoảng cách CIE', 'Vector Cb,Cr'])`` Phương pháp hoặc thuật "
+"toán khóa sử dụng."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:526
+msgid ""
+"The Color Map effect applies a 3D LUT (Lookup Table) to your footage, "
+"instantly transforming its colors to achieve a consistent look or mood. A 3D "
+"LUT is simply a table that remaps every input hue to a new output palette. "
+"With separate keyframe curves for red, green, and blue channels, you can "
+"precisely control, and even animate, how much each channel is influenced by "
+"the LUT, making it easy to fine-tune or blend your grade over time."
+msgstr ""
+"Hiệu ứng Bản đồ màu áp dụng một 3D LUT (Bảng tra cứu) lên đoạn phim của bạn, "
+"ngay lập tức biến đổi màu sắc để đạt được phong cách hoặc tâm trạng nhất "
+"quán. 3D LUT là một bảng ánh xạ lại từng sắc độ đầu vào sang bảng màu đầu ra "
+"mới. Với các đường cong keyframe riêng biệt cho kênh đỏ, xanh lá và xanh "
+"dương, bạn có thể điều khiển chính xác, thậm chí tạo hoạt ảnh, mức độ ảnh "
+"hưởng của LUT lên từng kênh, giúp dễ dàng tinh chỉnh hoặc pha trộn màu theo "
+"thời gian."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:531
+msgid ""
+"LUT files (`.cube` format) can be downloaded from many online resources, "
+"including free packs on photography blogs or marketplaces, such as https://"
+"freshluts.com/. OpenShot includes a selection of popular LUTs designed for "
+"**Rec 709** gamma out of the box."
+msgstr ""
+"Các tệp LUT (định dạng `.cube`) có thể tải xuống từ nhiều nguồn trực tuyến, "
+"bao gồm các gói miễn phí trên blog nhiếp ảnh hoặc chợ trực tuyến, như "
+"https://freshluts.com/. OpenShot bao gồm một số LUT phổ biến được thiết kế "
+"cho gamma **Rec 709** sẵn có."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:541
+msgid "lut_path"
+msgstr "đường dẫn_lut"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:541
+msgid "``(string)`` Filesystem path to the `.cube` LUT file."
+msgstr "``(chuỗi)`` Đường dẫn hệ thống đến tệp LUT `.cube`."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:542
+msgid "intensity"
+msgstr "cường độ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:542
+msgid ""
+"``(float, 0.0 to 1.0)`` % Blending overall intensity (0.0 = no LUT, 1.0 = "
+"full LUT)."
+msgstr ""
+"``(float, 0.0 đến 1.0)`` % Pha trộn cường độ tổng thể (0.0 = không dùng LUT, "
+"1.0 = dùng LUT đầy đủ)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:543
+msgid "intensity_r"
+msgstr "cường độ_r"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:543
+msgid ""
+"``(float, 0.0 to 1.0)`` % Blending the LUT’s red channel (0.0 = no LUT, 1.0 "
+"= full LUT)."
+msgstr ""
+"``(float, 0.0 đến 1.0)`` % Pha trộn kênh đỏ của LUT (0.0 = không dùng LUT, "
+"1.0 = dùng LUT đầy đủ)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:544
+msgid "intensity_g"
+msgstr "cường độ_g"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:544
+msgid ""
+"``(float, 0.0 to 1.0)`` % Blending the LUT’s green channel (0.0 = no LUT, "
+"1.0 = full LUT)."
+msgstr ""
+"``(float, 0.0 đến 1.0)`` % Pha trộn kênh xanh lá của LUT (0.0 = không dùng "
+"LUT, 1.0 = dùng LUT đầy đủ)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:545
+msgid "intensity_b"
+msgstr "cường độ_b"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:545
+msgid ""
+"``(float, 0.0 to 1.0)`` % Blending the LUT’s blue channel (0.0 = no LUT, 1.0 "
+"= full LUT)."
+msgstr ""
+"``(float, 0.0 đến 1.0)`` % Pha trộn kênh xanh dương của LUT (0.0 = không "
+"dùng LUT, 1.0 = dùng LUT đầy đủ)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:549
+msgid "Gamma and Rec 709"
+msgstr "Gamma và Rec 709"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:550
+msgid ""
+"Gamma is the way video systems brighten or darken the midtones of an image. "
+"**Rec 709** is the standard gamma curve used for most HD and online video "
+"today. By shipping with **Rec 709** LUTs, OpenShot makes it simple to apply "
+"a grade that matches the vast majority of footage you’ll edit."
+msgstr ""
+"Gamma là cách các hệ thống video làm sáng hoặc tối các tông trung bình của "
+"hình ảnh. **Rec 709** là đường cong gamma tiêu chuẩn được sử dụng cho hầu "
+"hết video HD và trực tuyến hiện nay. Bằng cách cung cấp các LUT **Rec 709**, "
+"OpenShot giúp bạn dễ dàng áp dụng màu sắc phù hợp với phần lớn đoạn phim bạn "
+"sẽ chỉnh sửa."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:554
+msgid ""
+"If your camera or workflow uses a different gamma (for example a LOG "
+"profile), you can still use a LUT made for that curve. Simply use a `.cube` "
+"file designed for your gamma under the Color Map effect’s **LUT Path**. Just "
+"be sure your footage gamma matches the LUT gamma—or the colors may look "
+"incorrect."
+msgstr ""
+"Nếu máy quay hoặc quy trình làm việc của bạn sử dụng gamma khác (ví dụ như "
+"profile LOG), bạn vẫn có thể dùng LUT được tạo cho đường cong đó. Chỉ cần sử "
+"dụng tệp `.cube` thiết kế cho gamma của bạn trong **Đường dẫn LUT** của hiệu "
+"ứng Bản đồ màu. Chỉ cần đảm bảo gamma đoạn phim khớp với gamma của LUT—nếu "
+"không màu sắc có thể bị sai."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:558
+msgid ""
+"The following **Rec 709** LUT files are included in OpenShot, organized into "
+"the following categories:"
+msgstr ""
+"Các tệp LUT **Rec 709** sau đây được bao gồm trong OpenShot, được tổ chức "
+"theo các danh mục sau:"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:561
+msgid "Cinematic & Blockbuster"
+msgstr "Phim điện ảnh & bom tấn"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:600
+msgid "Dark & Moody"
+msgstr "Tối & u ám"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:642
+msgid "Film Stock & Vintage"
+msgstr "Phim cổ điển & cổ điển"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:686
+msgid "Teal & Orange Vibes"
+msgstr "Tông xanh ngọc & cam"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:710
+msgid "Utility & Correction"
+msgstr "Tiện ích & hiệu chỉnh"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:725
+msgid "Vibrant & Colorful"
+msgstr "Sống động & đầy màu sắc"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:746
+msgid ""
+"The Color Saturation effect adjusts the intensity and vibrancy of colors "
+"within the video. Increasing saturation can make colors more vivid and eye-"
+"catching, while decreasing it can create a more subdued, almost black-and-"
+"white appearance."
+msgstr ""
+"Hiệu ứng Độ bão hòa màu điều chỉnh cường độ và độ sống động của màu sắc "
+"trong video. Tăng độ bão hòa làm màu sắc trở nên rực rỡ và bắt mắt hơn, "
+"trong khi giảm độ bão hòa tạo ra vẻ ngoài dịu nhẹ hơn, gần như đen trắng."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:756
+msgid "saturation"
+msgstr "độ bão hòa"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:756
+msgid ""
+"``(float, 0 to 4)`` The curve to adjust the overall saturation of the "
+"frame's image (0.0 = greyscale, 1.0 = normal, 2.0 = double saturation)"
+msgstr ""
+"``(float, 0 đến 4)`` Đường cong điều chỉnh độ bão hòa tổng thể của hình ảnh "
+"khung hình (0.0 = thang xám, 1.0 = bình thường, 2.0 = độ bão hòa gấp đôi)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:757
+msgid "saturation_B"
+msgstr "độ bão hòa_B"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:757
+msgid ""
+"``(float, 0 to 4)`` The curve to adjust blue saturation of the frame's image"
+msgstr ""
+"``(float, 0 đến 4)`` Đường cong điều chỉnh độ bão hòa màu xanh dương của "
+"hình ảnh khung hình"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:758
+msgid "saturation_G"
+msgstr "độ bão hòa_G"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:758
+msgid ""
+"``(float, 0 to 4)`` The curve to adjust green saturation of the frame's "
+"image (0.0 = greyscale, 1.0 = normal, 2.0 = double saturation)"
+msgstr ""
+"``(float, 0 đến 4)`` Đường cong điều chỉnh độ bão hòa màu xanh lá của hình "
+"ảnh khung hình (0.0 = thang xám, 1.0 = bình thường, 2.0 = độ bão hòa gấp đôi)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:759
+msgid "saturation_R"
+msgstr "độ bão hòa_R"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:759
+msgid ""
+"``(float, 0 to 4)`` The curve to adjust red saturation of the frame's image"
+msgstr ""
+"``(float, 0 đến 4)`` Đường cong điều chỉnh độ bão hòa màu đỏ của hình ảnh "
+"khung hình"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:764
+msgid ""
+"Shift the colors of an image up, down, left, and right (with infinite "
+"wrapping)."
+msgstr ""
+"Dịch chuyển màu sắc của hình ảnh lên, xuống, trái và phải (với bao bọc vô "
+"hạn)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:766
+msgid "**Each pixel has 4 color channels:**"
+msgstr "**Mỗi điểm ảnh có 4 kênh màu:**"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:768
+msgid "Red, Green, Blue, and Alpha (i.e. transparency)"
+msgstr "Đỏ, Xanh lá, Xanh dương và Alpha (tức là độ trong suốt)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:769
+msgid "Each channel value is between 0 and 255"
+msgstr "Giá trị mỗi kênh nằm trong khoảng từ 0 đến 255"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:771
+msgid ""
+"The Color Shift effect simply \"moves\" or \"translates\" a specific color "
+"channel on the X or Y axis. *Not all video and image formats support an "
+"alpha channel, and in those cases, you will not see any changes when "
+"adjusting the color shift of the alpha channel.*"
+msgstr ""
+"Hiệu ứng Color Shift đơn giản là \"di chuyển\" hoặc \"dịch\" một kênh màu cụ "
+"thể trên trục X hoặc Y. *Không phải tất cả các định dạng video và hình ảnh "
+"đều hỗ trợ kênh alpha, và trong những trường hợp đó, bạn sẽ không thấy bất "
+"kỳ thay đổi nào khi điều chỉnh dịch chuyển màu của kênh alpha.*"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:781
+msgid "alpha_x"
+msgstr "alpha_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:781
+msgid "``(float, -1 to 1)`` Shift the Alpha X coordinates (left or right)"
+msgstr ""
+"``(float, -1 đến 1)`` Dịch chuyển tọa độ Alpha theo trục X (trái hoặc phải)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:782
+msgid "alpha_y"
+msgstr "alpha_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:782
+msgid "``(float, -1 to 1)`` Shift the Alpha Y coordinates (up or down)"
+msgstr ""
+"``(float, -1 đến 1)`` Dịch chuyển tọa độ Alpha theo trục Y (lên hoặc xuống)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:783
+msgid "blue_x"
+msgstr "blue_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:783
+msgid "``(float, -1 to 1)`` Shift the Blue X coordinates (left or right)"
+msgstr ""
+"``(float, -1 đến 1)`` Dịch chuyển tọa độ Blue theo trục X (trái hoặc phải)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:784
+msgid "blue_y"
+msgstr "blue_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:784
+msgid "``(float, -1 to 1)`` Shift the Blue Y coordinates (up or down)"
+msgstr ""
+"``(float, -1 đến 1)`` Dịch chuyển tọa độ Blue theo trục Y (lên hoặc xuống)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:785
+msgid "green_x"
+msgstr "green_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:785
+msgid "``(float, -1 to 1)`` Shift the Green X coordinates (left or right)"
+msgstr ""
+"``(float, -1 đến 1)`` Dịch chuyển tọa độ Green theo trục X (trái hoặc phải)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:786
+msgid "green_y"
+msgstr "green_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:786
+msgid "``(float, -1 to 1)`` Shift the Green Y coordinates (up or down)"
+msgstr ""
+"``(float, -1 đến 1)`` Dịch chuyển tọa độ Green theo trục Y (lên hoặc xuống)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:787
+msgid "red_x"
+msgstr "red_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:787
+msgid "``(float, -1 to 1)`` Shift the Red X coordinates (left or right)"
+msgstr ""
+"``(float, -1 đến 1)`` Dịch chuyển tọa độ Red theo trục X (trái hoặc phải)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:788
+msgid "red_y"
+msgstr "red_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:788
+msgid "``(float, -1 to 1)`` Shift the Red Y coordinates (up or down)"
+msgstr ""
+"``(float, -1 đến 1)`` Dịch chuyển tọa độ Red theo trục Y (lên hoặc xuống)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:795
+msgid ""
+"The Crop effect removes unwanted outer areas from the video frame, allowing "
+"you to focus on a particular part of the shot, change the aspect ratio, or "
+"remove distracting elements from the edges of the frame. This effect is the "
+"primary method for cropping a Clip in OpenShot. The ``left``, ``right``, "
+"``top``, and ``bottom`` key-frames can even be animated, for a moving and "
+"resizing cropped area. You can leave the cropped area blank, or you can "
+"dynamically resize the cropped area to fill the screen."
+msgstr ""
+"Hiệu ứng Crop loại bỏ các vùng ngoài không mong muốn khỏi khung hình video, "
+"cho phép bạn tập trung vào một phần cụ thể của cảnh quay, thay đổi tỷ lệ "
+"khung hình hoặc loại bỏ các yếu tố gây phân tâm ở mép khung hình. Hiệu ứng "
+"này là phương pháp chính để cắt Clip trong OpenShot. Các khung hình chính "
+"``left``, ``right``, ``top``, và ``bottom`` thậm chí có thể được hoạt hình "
+"hóa, để tạo vùng cắt di chuyển và thay đổi kích thước. Bạn có thể để vùng "
+"cắt trống hoặc thay đổi kích thước vùng cắt động để lấp đầy màn hình."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:801
+msgid ""
+"You can quickly add this effect by right-clicking a clip and choosing :"
+"guilabel:`Crop`. When active, blue crop handles appear in the video preview "
+"so you can adjust the crop visually."
+msgstr ""
+"Bạn có thể nhanh chóng thêm hiệu ứng này bằng cách nhấp chuột phải vào clip "
+"và chọn :guilabel:`Crop`. Khi hiệu ứng được kích hoạt, các tay cầm cắt màu "
+"xanh sẽ xuất hiện trong bản xem trước video để bạn có thể điều chỉnh vùng "
+"cắt một cách trực quan."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:811
+msgid "``(float, 0 to 1)`` Size of bottom bar"
+msgstr "``(float, 0 đến 1)`` Kích thước thanh dưới"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:812
+msgid "``(float, 0 to 1)`` Size of left bar"
+msgstr "``(float, 0 đến 1)`` Kích thước thanh trái"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:813
+msgid "``(float, 0 to 1)`` Size of right bar"
+msgstr "``(float, 0 đến 1)`` Kích thước thanh phải"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:814
+msgid "``(float, 0 to 1)`` Size of top bar"
+msgstr "``(float, 0 đến 1)`` Kích thước thanh trên"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:815 ../effects.rst:862 ../effects.rst:1026
+msgid "x"
+msgstr "x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:815
+msgid "``(float, -1 to 1)`` X-offset"
+msgstr "``(float, -1 đến 1)`` Độ lệch X"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:816 ../effects.rst:863 ../effects.rst:1027
+msgid "y"
+msgstr "y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:816
+msgid "``(float, -1 to 1)`` Y-offset"
+msgstr "``(float, -1 đến 1)`` Độ lệch Y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:817
+msgid "resize"
+msgstr "resize"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:817
+msgid ""
+"``(bool, choices: ['Yes', 'No'])`` Replace the frame image with the cropped "
+"area (allows automatic scaling of the cropped image)"
+msgstr ""
+"``(bool, lựa chọn: ['Yes', 'No'])`` Thay thế hình ảnh khung bằng vùng cắt "
+"(cho phép tự động thay đổi kích thước hình ảnh đã cắt)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:822
+msgid ""
+"The Deinterlace effect is used to remove interlacing artifacts from video "
+"footage, which are commonly seen as horizontal lines across moving objects. "
+"This effect is essential for converting interlaced video (such as from older "
+"video cameras or broadcast sources) into a progressive format suitable for "
+"modern displays."
+msgstr ""
+"Hiệu ứng Deinterlace được sử dụng để loại bỏ các hiện tượng răng cưa "
+"(interlacing) trên video, thường thấy dưới dạng các đường ngang trên các vật "
+"thể chuyển động. Hiệu ứng này rất cần thiết để chuyển đổi video xen kẽ (như "
+"từ các máy quay cũ hoặc nguồn phát sóng) sang định dạng tiến bộ phù hợp với "
+"màn hình hiện đại."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:832
+msgid "isOdd"
+msgstr "isOdd"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:832
+msgid "``(bool, choices: ['Yes', 'No'])`` Use odd or even lines"
+msgstr "``(bool, lựa chọn: ['Yes', 'No'])`` Sử dụng dòng lẻ hoặc dòng chẵn"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:837
+msgid ""
+"The Hue effect adjusts the overall color balance of the video, changing the "
+"hues without affecting the brightness or saturation. This can be used for "
+"color correction or to apply dramatic color effects that transform the mood "
+"of the footage."
+msgstr ""
+"Hiệu ứng Hue điều chỉnh cân bằng màu tổng thể của video, thay đổi sắc độ mà "
+"không ảnh hưởng đến độ sáng hoặc độ bão hòa. Hiệu ứng này có thể dùng để "
+"chỉnh màu hoặc áp dụng các hiệu ứng màu sắc ấn tượng làm thay đổi tâm trạng "
+"của cảnh quay."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:847
+msgid "hue"
+msgstr "hue"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:847
+msgid "``(float, 0 to 1)`` The curve to adjust the percentage of hue shift"
+msgstr "``(float, 0 đến 1)`` Đường cong để điều chỉnh tỷ lệ thay đổi sắc độ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:852
+msgid ""
+"The Lens Flare effect simulates bright light hitting your camera lens, "
+"creating glowing halos, colored rings and gentle glares over your footage. "
+"Reflections are automatically placed along a line from the light source "
+"toward the center of the frame. You can animate any property with keyframes "
+"to follow your action or match your scene."
+msgstr ""
+"Hiệu ứng Lens Flare mô phỏng ánh sáng mạnh chiếu vào ống kính máy quay, tạo "
+"ra các vòng sáng phát quang, vòng màu và ánh chói nhẹ trên cảnh quay của "
+"bạn. Các phản xạ được tự động đặt dọc theo một đường từ nguồn sáng đến trung "
+"tâm khung hình. Bạn có thể hoạt hình hóa bất kỳ thuộc tính nào bằng các "
+"khung hình chính để theo dõi hành động hoặc phù hợp với cảnh."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:862
+msgid ""
+"``(float, -1 to 1)`` Horizontal position of the light source. -1 is left "
+"edge, 0 is center, +1 is right edge."
+msgstr ""
+"``(float, -1 đến 1)`` Vị trí ngang của nguồn sáng. -1 là mép trái, 0 là "
+"trung tâm, +1 là mép phải."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:863
+msgid ""
+"``(float, -1 to 1)`` Vertical position of the light source. -1 is top edge, "
+"0 is center, +1 is bottom edge."
+msgstr ""
+"``(float, -1 đến 1)`` Vị trí dọc của nguồn sáng. -1 là mép trên, 0 là trung "
+"tâm, +1 là mép dưới."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:864
+msgid ""
+"``(float, 0 to 1)`` Overall glow strength and transparency. Higher values "
+"make brighter, more opaque flares."
+msgstr ""
+"``(float, 0 đến 1)`` Độ mạnh và độ trong suốt tổng thể của ánh sáng phát "
+"quang. Giá trị cao hơn làm cho ánh sáng sáng hơn và đậm đặc hơn."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:865
+msgid "size"
+msgstr "size"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:865
+msgid ""
+"``(float, 0.1 to 3)`` Scale of the entire flare effect. Larger values "
+"enlarge halos, rings and glows."
+msgstr ""
+"``(float, 0.1 đến 3)`` Tỷ lệ của toàn bộ hiệu ứng flare. Giá trị lớn hơn làm "
+"phóng to các vòng sáng, vòng màu và ánh sáng phát quang."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:866
+msgid "spread"
+msgstr "spread"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:866
+msgid ""
+"``(float, 0 to 1)`` How far secondary reflections travel. 0 keeps them close "
+"to the source, 1 pushes them all the way toward the opposite edge."
+msgstr ""
+"``(float, 0 đến 1)`` Khoảng cách phản xạ phụ di chuyển. 0 giữ chúng gần "
+"nguồn sáng, 1 đẩy chúng đến tận mép đối diện."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:867
+msgid "tint_color"
+msgstr "tint_color"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:867
+msgid ""
+"``(color)`` Shifts the flare colors to match your scene. Use the RGBA "
+"sliders to pick hue and transparency."
+msgstr ""
+"``(color)`` Thay đổi màu sắc của flare để phù hợp với cảnh của bạn. Sử dụng "
+"các thanh trượt RGBA để chọn sắc độ và độ trong suốt."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:872
+msgid ""
+"The Negative effect inverts the colors of the video, producing an image that "
+"resembles a photographic negative. This can be used for artistic effects, to "
+"create a surreal or otherworldly look, or to highlight specific elements "
+"within the frame."
+msgstr ""
+"Hiệu ứng Negative đảo ngược màu sắc của video, tạo ra hình ảnh giống như âm "
+"bản ảnh chụp. Hiệu ứng này có thể dùng cho các hiệu ứng nghệ thuật, tạo vẻ "
+"ngoài siêu thực hoặc khác thường, hoặc để làm nổi bật các yếu tố cụ thể "
+"trong khung hình."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:878
+msgid ""
+"The Object Detector effect employs machine learning algorithms (such as "
+"neural networks) to identify and highlight objects within the video frame. "
+"It can recognize multiple object types, such as vehicles, people, animals, "
+"and more! This can be used for analytical purposes, to add interactive "
+"elements to videos, or to track the movement of specific objects across the "
+"frame."
+msgstr ""
+"Hiệu ứng Phát hiện Đối tượng sử dụng các thuật toán học máy (như mạng nơ-"
+"ron) để nhận diện và làm nổi bật các đối tượng trong khung hình video. Nó có "
+"thể nhận dạng nhiều loại đối tượng khác nhau, như phương tiện, con người, "
+"động vật, và nhiều hơn nữa! Điều này có thể được sử dụng cho mục đích phân "
+"tích, thêm các yếu tố tương tác vào video, hoặc theo dõi chuyển động của các "
+"đối tượng cụ thể trong khung hình."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:884
+msgid "Class Filters & Confidence"
+msgstr "Bộ Lọc Lớp & Độ Tin Cậy"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:885
+msgid ""
+"To adjust the detection process to your specific needs, the Object Detector "
+"includes properties for ``class filters`` and ``confidence thresholds``. By "
+"setting a class filter, such as \"Truck\" or \"Person,\" you can instruct "
+"the detector to focus on specific types of objects, limiting the types of "
+"objects tracked. The confidence threshold allows you to set a minimum level "
+"of certainty for detections, ensuring that only objects detected with a "
+"confidence level above this threshold are considered, which helps in "
+"reducing false positives and focusing on more accurate detections."
+msgstr ""
+"Để điều chỉnh quá trình phát hiện phù hợp với nhu cầu cụ thể của bạn, Phát "
+"hiện Đối tượng bao gồm các thuộc tính cho ``bộ lọc lớp`` và ``ngưỡng độ tin "
+"cậy``. Bằng cách đặt bộ lọc lớp, như \"Xe tải\" hoặc \"Người\", bạn có thể "
+"hướng bộ phát hiện tập trung vào các loại đối tượng cụ thể, giới hạn các "
+"loại đối tượng được theo dõi. Ngưỡng độ tin cậy cho phép bạn đặt mức độ chắc "
+"chắn tối thiểu cho các phát hiện, đảm bảo chỉ những đối tượng được phát hiện "
+"với mức độ tin cậy trên ngưỡng này mới được xem xét, giúp giảm các kết quả "
+"dương tính giả và tập trung vào các phát hiện chính xác hơn."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:892 ../effects.rst:1115
+msgid "How Parenting Works"
+msgstr "Cách Hoạt Động của Việc Kết Nối Cha Mẹ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:893
+msgid ""
+"Once you have tracked objects, you can \"parent\" other :ref:`clips_ref` to "
+"them. This means that the second clip, which could be a graphic, text, or "
+"another video layer, will now follow the tracked object as if it's attached "
+"to it. If the tracked object moves to the left, the child clip moves to the "
+"left. If the tracked object grows in size (gets closer to the camera), the "
+"child clip also scales up. For parented clips to appear correctly, they must "
+"be on a Track higher than the tracked objects, and set the appropriate :ref:"
+"`clip_scale_ref` property."
+msgstr ""
+"Khi bạn đã theo dõi các đối tượng, bạn có thể \"kết nối cha mẹ\" các :ref:"
+"`clips_ref` khác với chúng. Điều này có nghĩa là clip thứ hai, có thể là "
+"hình ảnh, văn bản hoặc một lớp video khác, sẽ theo đối tượng được theo dõi "
+"như thể nó được gắn vào đó. Nếu đối tượng được theo dõi di chuyển sang trái, "
+"clip con cũng di chuyển sang trái. Nếu đối tượng được theo dõi phóng to (gần "
+"camera hơn), clip con cũng sẽ phóng to theo. Để các clip được kết nối cha mẹ "
+"hiển thị đúng, chúng phải nằm trên một Track cao hơn các đối tượng được theo "
+"dõi và thiết lập thuộc tính :ref:`clip_scale_ref` phù hợp."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:899 ../effects.rst:1122
+msgid "See :ref:`clip_parent_ref`."
+msgstr "Xem :ref:`clip_parent_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:902 ../effects.rst:999 ../effects.rst:1125
+msgid "Properties"
+msgstr "Thuộc Tính"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:910
+msgid "class_filter"
+msgstr "bộ_lọc_lớp"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:910
+msgid "``(string)`` Type of object class to filter (i.e. car, person)"
+msgstr "``(chuỗi)`` Loại lớp đối tượng để lọc (ví dụ: xe hơi, người)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:911
+msgid "confidence_threshold"
+msgstr "ngưỡng_độ_tin_cậy"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:911
+msgid ""
+"``(float, 0 to 1)`` Minimum confidence value to display the detected objects"
+msgstr ""
+"``(số thực, từ 0 đến 1)`` Giá trị độ tin cậy tối thiểu để hiển thị các đối "
+"tượng được phát hiện"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:912
+msgid "display_box_text"
+msgstr "hiển_thị_văn_bản_hộp"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:912
+msgid ""
+"``(int, choices: ['Yes', 'No'])`` Draw class name and ID of ALL tracked "
+"objects"
+msgstr ""
+"``(số nguyên, lựa chọn: ['Có', 'Không'])`` Vẽ tên lớp và ID của TẤT CẢ các "
+"đối tượng được theo dõi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:913
+msgid "display_boxes"
+msgstr "hiển_thị_hộp"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:913
+msgid ""
+"``(int, choices: ['Yes', 'No'])`` Draw bounding box around ALL tracked "
+"objects (a quick way to hide all tracked objects)"
+msgstr ""
+"``(số nguyên, lựa chọn: ['Có', 'Không'])`` Vẽ hộp giới hạn quanh TẤT CẢ các "
+"đối tượng được theo dõi (cách nhanh để ẩn tất cả các đối tượng được theo dõi)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:914
+msgid "selected_object_index"
+msgstr "chỉ_số_đối_tượng_được_chọn"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:914
+msgid ""
+"``(int, 0 to 200)`` Index of the tracked object that is `selected` to modify "
+"its properties"
+msgstr ""
+"``(số nguyên, từ 0 đến 200)`` Chỉ số của đối tượng được theo dõi đang được "
+"`chọn` để sửa đổi thuộc tính của nó"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:915 ../effects.rst:1133
+msgid "draw_box"
+msgstr "vẽ_hộp"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:915
+msgid ""
+"``(int, choices: ['Yes', 'No'])`` Whether to draw the box around the "
+"selected tracked object"
+msgstr ""
+"``(số nguyên, lựa chọn: ['Có', 'Không'])`` Có vẽ hộp quanh đối tượng được "
+"theo dõi đã chọn hay không"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:916 ../effects.rst:1134
+msgid "box_id"
+msgstr "id_hộp"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:916 ../effects.rst:1134
+msgid ""
+"``(string)`` Internal ID of a tracked object box for identification purposes"
+msgstr "``(chuỗi)`` ID nội bộ của hộp đối tượng được theo dõi để nhận dạng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:917 ../effects.rst:1135
+msgid "x1"
+msgstr "x1"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:917 ../effects.rst:1135
+msgid ""
+"``(float, 0 to 1)`` Top left X coordinate of a tracked object box, "
+"normalized to the video frame width"
+msgstr ""
+"``(số thực, từ 0 đến 1)`` Tọa độ X góc trên bên trái của hộp đối tượng được "
+"theo dõi, chuẩn hóa theo chiều rộng khung video"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:918 ../effects.rst:1136
+msgid "y1"
+msgstr "y1"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:918 ../effects.rst:1136
+msgid ""
+"``(float, 0 to 1)`` Top left Y coordinate of a tracked object box, "
+"normalized to the video frame height"
+msgstr ""
+"``(số thực, từ 0 đến 1)`` Tọa độ Y góc trên bên trái của hộp đối tượng được "
+"theo dõi, chuẩn hóa theo chiều cao khung video"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:919 ../effects.rst:1137
+msgid "x2"
+msgstr "x2"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:919 ../effects.rst:1137
+msgid ""
+"``(float, 0 to 1)`` Bottom right X coordinate of a tracked object box, "
+"normalized to the video frame width"
+msgstr ""
+"``(số thực, từ 0 đến 1)`` Tọa độ X góc dưới bên phải của hộp đối tượng được "
+"theo dõi, chuẩn hóa theo chiều rộng khung video"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:920 ../effects.rst:1138
+msgid "y2"
+msgstr "y2"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:920 ../effects.rst:1138
+msgid ""
+"``(float, 0 to 1)`` Bottom right Y coordinate of a tracked object box, "
+"normalized to the video frame height"
+msgstr ""
+"``(số thực, từ 0 đến 1)`` Tọa độ Y góc dưới bên phải của hộp đối tượng được "
+"theo dõi, chuẩn hóa theo chiều cao khung video"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:921 ../effects.rst:1139
+msgid "delta_x"
+msgstr "delta_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:921 ../effects.rst:1139
+msgid ""
+"``(float, -1.0 to 1)`` Horizontal movement delta of the tracked object box "
+"from its previous position"
+msgstr ""
+"``(số thực, từ -1.0 đến 1)`` Độ thay đổi vị trí ngang của hộp đối tượng được "
+"theo dõi so với vị trí trước đó"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:922 ../effects.rst:1140
+msgid "delta_y"
+msgstr "delta_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:922 ../effects.rst:1140
+msgid ""
+"``(float, -1.0 to 1)`` Vertical movement delta of the tracked object box "
+"from its previous position"
+msgstr ""
+"``(số thực, từ -1.0 đến 1)`` Độ thay đổi vị trí dọc của hộp đối tượng được "
+"theo dõi so với vị trí trước đó"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:923 ../effects.rst:1141
+msgid "scale_x"
+msgstr "tỉ_lệ_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:923 ../effects.rst:1141
+msgid ""
+"``(float, 0 to 1)`` Scaling factor in the X direction for the tracked object "
+"box, relative to its original size"
+msgstr ""
+"``(số thực, từ 0 đến 1)`` Hệ số tỉ lệ theo hướng X của hộp đối tượng được "
+"theo dõi, so với kích thước gốc"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:924 ../effects.rst:1142
+msgid "scale_y"
+msgstr "tỉ_lệ_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:924 ../effects.rst:1142
+msgid ""
+"``(float, 0 to 1)`` Scaling factor in the Y direction for the tracked object "
+"box, relative to its original size"
+msgstr ""
+"``(số thực, từ 0 đến 1)`` Hệ số tỉ lệ theo hướng Y của hộp đối tượng được "
+"theo dõi, so với kích thước gốc"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:925 ../effects.rst:1143
+msgid "rotation"
+msgstr "xoay"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:925 ../effects.rst:1143
+msgid ""
+"``(float, 0 to 360)`` Rotation angle of the tracked object box, in degrees"
+msgstr ""
+"``(số thực, từ 0 đến 360)`` Góc xoay của hộp đối tượng được theo dõi, tính "
+"bằng độ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:926 ../effects.rst:1144
+msgid "visible"
+msgstr "hiển_thị"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:926 ../effects.rst:1144
+msgid ""
+"``(bool)`` Is the tracked object box visible in the current frame. Read-only "
+"property."
+msgstr ""
+"``(bool)`` Hộp đối tượng được theo dõi có hiển thị trong khung hình hiện tại "
+"hay không. Thuộc tính chỉ đọc."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:927 ../effects.rst:1145
+msgid "``(color)`` Color of the stroke (border) around the tracked object box"
+msgstr ""
+"``(màu sắc)`` Màu của viền (đường viền) quanh hộp đối tượng được theo dõi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:928 ../effects.rst:1146
+msgid ""
+"``(int, 1 to 10)`` Width of the stroke (border) around the tracked object box"
+msgstr ""
+"``(số nguyên, từ 1 đến 10)`` Độ rộng của viền (đường viền) quanh hộp đối "
+"tượng được theo dõi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:929 ../effects.rst:1147
+msgid "stroke_alpha"
+msgstr "độ mờ của viền"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:929 ../effects.rst:1147
+msgid ""
+"``(float, 0 to 1)`` Opacity of the stroke (border) around the tracked object "
+"box"
+msgstr ""
+"``(float, 0 đến 1)`` Độ mờ của viền (đường viền) xung quanh hộp đối tượng "
+"được theo dõi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:930 ../effects.rst:1148
+msgid ""
+"``(float, 0 to 1)`` Opacity of the background fill inside the tracked object "
+"box"
+msgstr ""
+"``(float, 0 đến 1)`` Độ mờ của phần nền bên trong hộp đối tượng được theo dõi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:931 ../effects.rst:1149
+msgid ""
+"``(int, 0 to 150)`` Radius of the corners for the background fill inside the "
+"tracked object box"
+msgstr ""
+"``(int, 0 đến 150)`` Bán kính các góc cho phần nền bên trong hộp đối tượng "
+"được theo dõi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:932 ../effects.rst:1150
+msgid "``(color)`` Color of the background fill inside the tracked object box"
+msgstr "``(màu)`` Màu của phần nền bên trong hộp đối tượng được theo dõi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:937
+msgid ""
+"The Outline effect adds a customizable border around images or text within a "
+"video frame. It works by extracting the image’s alpha channel, blurring it "
+"to generate a smooth outline mask, and then combining this mask with a solid "
+"color layer. Users can adjust the outline’s width as well as its color "
+"components (red, green, blue) and transparency (alpha), allowing for a wide "
+"range of visual styles. This effect is ideal for emphasizing text, creating "
+"visual separation, and adding an artistic flair to your videos."
+msgstr ""
+"Hiệu ứng Viền thêm một đường viền có thể tùy chỉnh xung quanh hình ảnh hoặc "
+"văn bản trong khung video. Nó hoạt động bằng cách trích xuất kênh alpha của "
+"hình ảnh, làm mờ để tạo mặt nạ viền mượt mà, sau đó kết hợp mặt nạ này với "
+"lớp màu đặc. Người dùng có thể điều chỉnh độ rộng viền cũng như các thành "
+"phần màu sắc (đỏ, xanh lá, xanh dương) và độ trong suốt (alpha), cho phép "
+"tạo ra nhiều phong cách hình ảnh khác nhau. Hiệu ứng này lý tưởng để nhấn "
+"mạnh văn bản, tạo sự phân tách trực quan và thêm nét nghệ thuật cho video "
+"của bạn."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:949
+msgid "width"
+msgstr "độ rộng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:949
+msgid "``(float, 0 to 100)``   The width of the outline in pixels."
+msgstr "``(float, 0 đến 100)``   Độ rộng của viền tính bằng pixel."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:950
+msgid "red"
+msgstr "đỏ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:950
+msgid "``(float, 0 to 255)``   The red color component of the outline."
+msgstr "``(float, 0 đến 255)``   Thành phần màu đỏ của viền."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:951
+msgid "green"
+msgstr "xanh lá"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:951
+msgid "``(float, 0 to 255)``   The green color component of the outline."
+msgstr "``(float, 0 đến 255)``   Thành phần màu xanh lá của viền."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:952
+msgid "blue"
+msgstr "xanh dương"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:952
+msgid "``(float, 0 to 255)``   The blue color component of the outline."
+msgstr "``(float, 0 đến 255)``   Thành phần màu xanh dương của viền."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:953
+msgid "alpha"
+msgstr "alpha"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:953
+msgid "``(float, 0 to 255)``   The transparency (alpha) value for the outline."
+msgstr "``(float, 0 đến 255)``   Giá trị độ trong suốt (alpha) của viền."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:958
+msgid ""
+"The Pixelate effect increases or decreases the size of the pixels in the "
+"video, creating a mosaic-like appearance. This can be used to obscure "
+"details (such as faces or license plates for privacy reasons), or as a "
+"stylistic effect to evoke a retro, digital, or abstract aesthetic."
+msgstr ""
+"Hiệu ứng Pixelate tăng hoặc giảm kích thước các điểm ảnh trong video, tạo ra "
+"hiệu ứng giống như khảm. Hiệu ứng này có thể dùng để che giấu chi tiết (như "
+"khuôn mặt hoặc biển số xe vì lý do riêng tư), hoặc như một hiệu ứng phong "
+"cách để gợi lên thẩm mỹ cổ điển, kỹ thuật số hoặc trừu tượng."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:968
+msgid "``(float, 0 to 1)`` The curve to adjust the bottom margin size"
+msgstr "``(float, 0 đến 1)`` Đường cong để điều chỉnh kích thước lề dưới"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:969
+msgid "``(float, 0 to 1)`` The curve to adjust the left margin size"
+msgstr "``(float, 0 đến 1)`` Đường cong để điều chỉnh kích thước lề trái"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:970
+msgid "pixelization"
+msgstr "điểm ảnh hóa"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:970
+msgid "``(float, 0 to 0.99)`` The curve to adjust the amount of pixelization"
+msgstr "``(float, 0 đến 0.99)`` Đường cong để điều chỉnh mức độ điểm ảnh hóa"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:971
+msgid "``(float, 0 to 1)`` The curve to adjust the right margin size"
+msgstr "``(float, 0 đến 1)`` Đường cong để điều chỉnh kích thước lề phải"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:972
+msgid "``(float, 0 to 1)`` The curve to adjust the top margin size"
+msgstr "``(float, 0 đến 1)`` Đường cong để điều chỉnh kích thước lề trên"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:977
+msgid ""
+"The Sharpen effect enhances perceived detail by first blurring the frame "
+"slightly and then adding a scaled difference (the *un-sharp mask*) back on "
+"top. This boosts edge contrast, making textures and outlines appear crisper "
+"without changing overall brightness."
+msgstr ""
+"Hiệu ứng Làm Nét tăng cường chi tiết cảm nhận bằng cách làm mờ khung hình "
+"nhẹ rồi thêm một phần chênh lệch đã được điều chỉnh (mặt nạ *không nét*) lên "
+"trên. Điều này tăng độ tương phản cạnh, làm cho kết cấu và đường viền rõ nét "
+"hơn mà không làm thay đổi độ sáng tổng thể."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:982
+msgid "Modes"
+msgstr "Chế độ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:984
+msgid ""
+"**Unsharp** – Classic un-sharp mask: the edge detail is added back to the "
+"*original* frame. Produces the familiar punchy sharpen seen in photo editors."
+msgstr ""
+"**Unsharp** – Mặt nạ không nét cổ điển: chi tiết cạnh được thêm lại vào "
+"khung hình *gốc*. Tạo ra hiệu ứng làm nét mạnh mẽ quen thuộc trong các trình "
+"chỉnh sửa ảnh."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:987
+msgid ""
+"**HighPass** – High-pass blend: the edge detail is added to the *blurred* "
+"frame, then the result replaces the original.  Gives a softer, more "
+"“contrasty” look and can rescue highlights that would otherwise clip."
+msgstr ""
+"**HighPass** – Pha trộn high-pass: chi tiết cạnh được thêm vào khung hình "
+"*đã làm mờ*, sau đó kết quả thay thế khung hình gốc. Tạo ra vẻ ngoài mềm mại "
+"hơn, có độ tương phản cao hơn và có thể cứu các vùng sáng bị cắt."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:991
+msgid "Channels"
+msgstr "Kênh"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:993
+msgid ""
+"**All** – Apply the edge mask to the full RGB signal (strongest effect – "
+"colour and brightness sharpened)."
+msgstr ""
+"**All** – Áp dụng mặt nạ cạnh cho toàn bộ tín hiệu RGB (hiệu ứng mạnh nhất – "
+"màu sắc và độ sáng được làm nét)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:994
+msgid ""
+"**Luma** – Apply only to luma (brightness).  Colours stay untouched, so "
+"chroma noise is not amplified."
+msgstr ""
+"**Luma** – Chỉ áp dụng cho độ sáng (luma). Màu sắc không bị ảnh hưởng, do đó "
+"không làm tăng nhiễu màu."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:995
+msgid ""
+"**Chroma** – Apply only to the chroma (colour difference) channels.  Useful "
+"for gently reviving colour edges without changing perceived brightness."
+msgstr ""
+"**Chroma** – Chỉ áp dụng cho các kênh chroma (độ khác biệt màu). Hữu ích để "
+"làm sống lại các cạnh màu một cách nhẹ nhàng mà không thay đổi độ sáng cảm "
+"nhận."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1007
+msgid "amount"
+msgstr "cường độ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1007
+msgid "``(float, 0 to 40)`` Strength multiplier / up to 100% edge boost"
+msgstr ""
+"``(float, 0 đến 40)`` Hệ số nhân cường độ / tăng cường cạnh lên đến 100%"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1008
+msgid "radius"
+msgstr "bán kính"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1008
+msgid ""
+"``(float, 0 to 10)`` Blur radius in pixels at 720p (auto-scaled to clip size)"
+msgstr ""
+"``(float, 0 đến 10)`` Bán kính làm mờ tính bằng pixel ở 720p (tự động điều "
+"chỉnh theo kích thước clip)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1009
+msgid "``(float, 0 to 1)`` Minimum luma difference that will be sharpened"
+msgstr "``(float, 0 đến 1)`` Độ khác biệt luma tối thiểu sẽ được làm nét"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1010
+msgid "mode"
+msgstr "chế độ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1010
+msgid ""
+"``(int, choices: ['Unsharp', 'HighPass'])`` Math style of the sharpening mask"
+msgstr ""
+"``(int, lựa chọn: ['Unsharp', 'HighPass'])`` Phương pháp toán học của mặt nạ "
+"làm nét"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1011
+msgid "channel"
+msgstr "kênh"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1011
+msgid ""
+"``(int, choices: ['All', 'Luma', 'Chroma'])`` Which colour channels receive "
+"sharpening"
+msgstr ""
+"``(int, lựa chọn: ['All', 'Luma', 'Chroma'])`` Kênh màu nào sẽ được làm nét"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1016
+msgid ""
+"The Shift effect moves the entire image in different directions (up, down, "
+"left, and right with infinite wrapping), creating a sense of motion or "
+"disorientation. This can be used for transitions, to simulate camera "
+"movement, or to add dynamic motion to static shots."
+msgstr ""
+"Hiệu ứng Shift di chuyển toàn bộ hình ảnh theo các hướng khác nhau (lên, "
+"xuống, trái, phải với hiệu ứng cuộn vô hạn), tạo cảm giác chuyển động hoặc "
+"mất phương hướng. Có thể dùng cho chuyển cảnh, mô phỏng chuyển động camera, "
+"hoặc thêm chuyển động động cho các cảnh tĩnh."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1026
+msgid "``(float, -1 to 1)`` Shift the X coordinates (left or right)"
+msgstr "``(float, -1 đến 1)`` Dịch chuyển tọa độ X (trái hoặc phải)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1027
+msgid "``(float, -1 to 1)`` Shift the Y coordinates (up or down)"
+msgstr "``(float, -1 đến 1)`` Dịch chuyển tọa độ Y (lên hoặc xuống)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1033
+msgid ""
+"The Spherical Projection effect flattens 360° or fisheye footage into a "
+"normal rectangular view, or generates fisheye output. Steer a virtual camera "
+"with yaw, pitch, and roll. Control the output view with FOV. Choose the "
+"input type (equirect or one of the fisheye models), pick a projection mode "
+"for the output, and select a sampling mode that balances quality and speed. "
+"This is ideal for keyframed “virtual camera” moves inside 360° clips and for "
+"converting circular fisheye shots."
+msgstr ""
+"Hiệu ứng Chiếu Cầu làm phẳng cảnh quay 360° hoặc fisheye thành một khung "
+"hình chữ nhật bình thường, hoặc tạo ra đầu ra fisheye. Điều khiển camera ảo "
+"với yaw, pitch và roll. Kiểm soát góc nhìn đầu ra với FOV. Chọn loại đầu vào "
+"(equirect hoặc một trong các mô hình fisheye), chọn chế độ chiếu cho đầu ra, "
+"và chọn chế độ lấy mẫu cân bằng giữa chất lượng và tốc độ. Điều này lý tưởng "
+"cho các chuyển động “camera ảo” có keyframe bên trong các clip 360° và để "
+"chuyển đổi các cảnh fisheye tròn."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1044
+msgid "yaw"
+msgstr "yaw"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1044
+msgid ""
+"``(float, -180 to 180)`` Horizontal rotation around the up axis (degrees)."
+msgstr "``(float, -180 đến 180)`` Xoay ngang quanh trục trên (độ)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1046
+msgid "pitch"
+msgstr "pitch"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1046
+msgid ""
+"``(float, -180 to 180)`` Vertical rotation around the right axis (degrees)."
+msgstr "``(float, -180 đến 180)`` Xoay dọc quanh trục bên phải (độ)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1048
+msgid "roll"
+msgstr "roll"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1048
+msgid "``(float, -180 to 180)`` Rotation around the forward axis (degrees)."
+msgstr "``(float, -180 đến 180)`` Xoay quanh trục tiến về phía trước (độ)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1050
+msgid "fov"
+msgstr "fov"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1050
+msgid ""
+"``(float, 0 to 179)`` **Out FOV.** Horizontal field of view of the virtual "
+"camera (degrees) for the output."
+msgstr ""
+"``(float, 0 đến 179)`` **Out FOV.** Trường nhìn ngang của camera ảo (độ) cho "
+"đầu ra."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1052
+msgid "in_fov"
+msgstr "in_fov"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1052
+msgid ""
+"``(float, 1 to 360)`` **In FOV.** Total coverage of the source lens. Used "
+"when **Input Model = Fisheye** (typical value 180). Ignored for equirect "
+"sources."
+msgstr ""
+"``(float, 1 đến 360)`` **In FOV.** Phạm vi bao phủ tổng thể của ống kính "
+"nguồn. Dùng khi **Input Model = Fisheye** (giá trị điển hình 180). Bỏ qua "
+"với nguồn equirect."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1054
+msgid "projection_mode"
+msgstr "projection_mode"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1054
+msgid ""
+"``(int)`` Output projection: **Sphere (0):** rectilinear output over the "
+"full sphere. **Hemisphere (1):** rectilinear output over a half sphere. "
+"**Fisheye: Equidistant (2)**, **Equisolid (3)**, **Stereographic (4)**, "
+"**Orthographic (5)**: circular fisheye output using the selected mapping."
+msgstr ""
+"``(int)`` Chiếu đầu ra: **Sphere (0):** đầu ra trực giao trên toàn bộ hình "
+"cầu. **Hemisphere (1):** đầu ra trực giao trên nửa hình cầu. **Fisheye: "
+"Equidistant (2)**, **Equisolid (3)**, **Stereographic (4)**, **Orthographic "
+"(5)**: đầu ra fisheye tròn sử dụng ánh xạ đã chọn."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1059
+msgid "input_model"
+msgstr "input_model"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1059
+msgid ""
+"``(int)`` Source lens model: **Equirectangular (0)**, **Fisheye: Equidistant "
+"(1)**, **Fisheye: Equisolid (2)**, **Fisheye: Stereographic (3)**, "
+"**Fisheye: Orthographic (4)**."
+msgstr ""
+"``(int)`` Mô hình ống kính nguồn: **Equirectangular (0)**, **Fisheye: "
+"Equidistant (1)**, **Fisheye: Equisolid (2)**, **Fisheye: Stereographic "
+"(3)**, **Fisheye: Orthographic (4)**."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1062
+msgid "invert"
+msgstr "invert"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1062
+msgid ""
+"``(int)`` Flip the view by 180° without mirroring. **Normal (0)**, **Invert "
+"(1)**. For equirect sources this behaves like a 180° yaw. For fisheye inputs "
+"it swaps front/back hemispheres."
+msgstr ""
+"``(int)`` Lật khung hình 180° mà không phản chiếu. **Normal (0)**, **Invert "
+"(1)**. Với nguồn equirect, hành vi giống như xoay yaw 180°. Với đầu vào "
+"fisheye, nó hoán đổi nửa cầu trước/sau."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1065
+msgid "interpolation"
+msgstr "interpolation"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1065
+msgid ""
+"``(int)`` Sampling method: **Nearest (0)**, **Bilinear (1)**, **Bicubic "
+"(2)**, **Auto (3)**. Auto picks Bilinear at ~1:1, Bicubic when upscaling, "
+"and a mipmapped Bilinear when downscaling."
+msgstr ""
+"``(int)`` Phương pháp lấy mẫu: **Nearest (0)**, **Bilinear (1)**, **Bicubic "
+"(2)**, **Auto (3)**. Auto chọn Bilinear khi ~1:1, Bicubic khi phóng to, và "
+"Bilinear có mipmap khi thu nhỏ."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1072
+msgid ""
+"**Flatten a fisheye clip to a normal view:** Set **Input Model** to the "
+"correct fisheye type, set **In FOV** to your lens coverage (often 180), "
+"choose **Projection Mode = Sphere** or **Hemisphere**, then frame with **Yaw/"
+"Pitch/Roll** and **Out FOV**."
+msgstr ""
+"**Làm phẳng clip fisheye thành khung hình bình thường:** Đặt **Input Model** "
+"thành loại fisheye đúng, đặt **In FOV** theo phạm vi ống kính của bạn "
+"(thường là 180), chọn **Projection Mode = Sphere** hoặc **Hemisphere**, sau "
+"đó điều chỉnh khung hình với **Yaw/Pitch/Roll** và **Out FOV**."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1074
+msgid ""
+"**Reframe an equirect clip:** Set **Input Model = Equirectangular**, pick "
+"**Sphere** (full) or **Hemisphere** (front/back). **Invert** on equirect is "
+"equivalent to yaw +180 and does not mirror."
+msgstr ""
+"**Đặt lại khung hình clip equirect:** Đặt **Input Model = Equirectangular**, "
+"chọn **Sphere** (toàn bộ) hoặc **Hemisphere** (trước/sau). **Invert** trên "
+"equirect tương đương với xoay yaw +180 và không phản chiếu."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1076
+msgid ""
+"**Create a fisheye output:** Choose one of the **Fisheye** projection modes "
+"(2..5). **Out FOV** controls disk coverage (180 gives a classic circular "
+"fisheye)."
+msgstr ""
+"**Tạo đầu ra fisheye:** Chọn một trong các chế độ chiếu **Fisheye** (2..5). "
+"**Out FOV** điều khiển phạm vi đĩa (180 cho fisheye tròn cổ điển)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1078
+msgid ""
+"If the image looks mirrored, turn **Invert** off. If you need the back view "
+"on equirect, use **Invert** or add +180 to **Yaw**."
+msgstr ""
+"Nếu hình ảnh trông bị phản chiếu, tắt **Invert**. Nếu bạn cần nhìn phía sau "
+"trên equirect, dùng **Invert** hoặc cộng +180 vào **Yaw**."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1079
+msgid ""
+"If the output looks soft or aliased, reduce **Out FOV** or increase export "
+"resolution. **Auto** interpolation adapts the filter to scaling."
+msgstr ""
+"Nếu đầu ra trông mờ hoặc bị răng cưa, giảm **Out FOV** hoặc tăng độ phân "
+"giải xuất. Nội suy **Auto** điều chỉnh bộ lọc theo tỷ lệ."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1083
+msgid ""
+"The Stabilizer effect reduces unwanted shake and jitter in handheld or "
+"unstable video footage, resulting in smoother, more professional-looking "
+"shots. This is particularly useful for action scenes, handheld shots, or any "
+"footage where a tripod was not used."
+msgstr ""
+"Hiệu ứng Stabilizer giảm rung và giật không mong muốn trong cảnh quay cầm "
+"tay hoặc không ổn định, tạo ra các cảnh quay mượt mà và chuyên nghiệp hơn. "
+"Điều này đặc biệt hữu ích cho các cảnh hành động, cảnh quay cầm tay, hoặc "
+"bất kỳ cảnh quay nào không sử dụng chân máy."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1093
+msgid "zoom"
+msgstr "phóng to"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1093
+msgid ""
+"``(float, 0 to 2)`` Percentage to zoom into the clip, to crop off the "
+"shaking and uneven edges"
+msgstr ""
+"``(float, 0 đến 2)`` Tỷ lệ phần trăm phóng to clip, để cắt bỏ rung và các "
+"cạnh không đều"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1098
+msgid ""
+"The Tracker effect allows for the tracking of a specific object or area "
+"within the video frame across multiple frames. This can be used for motion "
+"tracking, adding effects or annotations that follow the movement of objects, "
+"or for stabilizing footage based on a tracked point.When tracking an object, "
+"be sure to select the entire object, which is visible at the start of a "
+"clip, and choose one of the following ``Tracking Type`` algorithms. The "
+"tracking algorithm then follows this object from frame to frame, recording "
+"its position, scale, and sometimes rotation."
+msgstr ""
+"Hiệu ứng Tracker cho phép theo dõi một đối tượng hoặc khu vực cụ thể trong "
+"khung hình video qua nhiều khung hình. Điều này có thể dùng để theo dõi "
+"chuyển động, thêm hiệu ứng hoặc chú thích theo chuyển động của đối tượng, "
+"hoặc ổn định cảnh quay dựa trên điểm theo dõi. Khi theo dõi một đối tượng, "
+"hãy chắc chắn chọn toàn bộ đối tượng, có thể nhìn thấy ở đầu clip, và chọn "
+"một trong các thuật toán ``Tracking Type`` sau. Thuật toán theo dõi sẽ theo "
+"dõi đối tượng này từ khung hình này sang khung hình khác, ghi lại vị trí, tỷ "
+"lệ và đôi khi là xoay."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1105
+msgid "Tracking Type"
+msgstr "Loại Theo Dõi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1106
+msgid ""
+"**KCF:** (default) A blend of Boosting and MIL strategies, employing "
+"correlation filters on overlapping areas from 'bags' to accurately track and "
+"predict object movement. It offers higher speed and accuracy and can stop "
+"tracking when the object is lost but struggles to resume tracking after "
+"losing the object."
+msgstr ""
+"**KCF:** (mặc định) Kết hợp các chiến lược Boosting và MIL, sử dụng bộ lọc "
+"tương quan trên các vùng chồng lấn từ 'bags' để theo dõi và dự đoán chuyển "
+"động đối tượng chính xác. Nó cung cấp tốc độ và độ chính xác cao hơn, có thể "
+"dừng theo dõi khi mất đối tượng nhưng khó tiếp tục theo dõi sau khi mất đối "
+"tượng."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1107
+msgid ""
+"**MIL:** Improves upon Boosting by considering multiple potential positives "
+"('bags') around the definite positive object, increasing robustness to noise "
+"and maintaining good accuracy. However, it shares the Boosting Tracker's "
+"drawbacks of low speed and difficulty in stopping tracking when the object "
+"is lost."
+msgstr ""
+"**MIL:** Cải tiến so với Boosting bằng cách xem xét nhiều khả năng dương "
+"tính ('bags') xung quanh đối tượng dương tính chắc chắn, tăng độ bền với "
+"nhiễu và duy trì độ chính xác tốt. Tuy nhiên, nó cũng có nhược điểm của "
+"Boosting Tracker là tốc độ thấp và khó dừng theo dõi khi mất đối tượng."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1108
+msgid ""
+"**BOOSTING:** Utilizes the online AdaBoost algorithm to enhance the "
+"classification of tracked objects by focusing on incorrectly classified "
+"ones. It requires setting the initial frame and treats nearby objects as "
+"background, adjusting to new frames based on maximum score areas. It's known "
+"for accurate tracking but suffers from low speed, noise sensitivity, and "
+"difficulty stopping tracking upon object loss."
+msgstr ""
+"**BOOSTING:** Sử dụng thuật toán AdaBoost trực tuyến để cải thiện phân loại "
+"các đối tượng được theo dõi bằng cách tập trung vào những đối tượng phân "
+"loại sai. Cần thiết lập khung hình ban đầu và coi các đối tượng gần đó là "
+"nền, điều chỉnh theo các khung hình mới dựa trên khu vực điểm số tối đa. Nó "
+"nổi tiếng với khả năng theo dõi chính xác nhưng có tốc độ thấp, nhạy cảm với "
+"nhiễu và khó dừng theo dõi khi mất đối tượng."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1109
+msgid ""
+"**TLD:** Decomposes tracking into tracking, learning, and detection phases, "
+"allowing for adaptation and correction over time. While it can handle object "
+"scaling and occlusions reasonably well, it may behave unpredictably, with "
+"instability in tracking and detection."
+msgstr ""
+"**TLD:** Phân tách việc theo dõi thành các giai đoạn theo dõi, học và phát "
+"hiện, cho phép thích nghi và sửa lỗi theo thời gian. Mặc dù có thể xử lý "
+"việc thay đổi kích thước và che khuất đối tượng khá tốt, nhưng có thể hoạt "
+"động không ổn định, với sự bất ổn trong theo dõi và phát hiện."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1110
+msgid ""
+"**MEDIANFLOW:** Based on the Lucas-Kanade method, it analyzes forward and "
+"backward movement to estimate trajectory errors for real-time position "
+"prediction. It's fast and accurate under certain conditions but can lose "
+"track of fast-moving objects."
+msgstr ""
+"**MEDIANFLOW:** Dựa trên phương pháp Lucas-Kanade, nó phân tích chuyển động "
+"tiến và lùi để ước lượng lỗi quỹ đạo nhằm dự đoán vị trí theo thời gian "
+"thực. Nó nhanh và chính xác trong một số điều kiện nhất định nhưng có thể "
+"mất dấu các đối tượng di chuyển nhanh."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1111
+msgid ""
+"**MOSSE:** Utilizes adaptive correlations in Fourier space to maintain "
+"robustness against lighting, scale, and pose changes. It boasts very high "
+"tracking speeds and is better at continuing tracking after loss, but it may "
+"persist in tracking an absent object."
+msgstr ""
+"**MOSSE:** Sử dụng các tương quan thích ứng trong không gian Fourier để duy "
+"trì độ bền vững trước các thay đổi về ánh sáng, tỷ lệ và tư thế. Nó có tốc "
+"độ theo dõi rất cao và khả năng tiếp tục theo dõi sau khi mất dấu tốt hơn, "
+"nhưng có thể tiếp tục theo dõi một đối tượng không còn tồn tại."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1112
+msgid ""
+"**CSRT:** Employs spatial reliability maps to adjust filter support, "
+"enhancing the ability to track non-rectangular objects and perform well even "
+"with object overlaps. However, it is slower and may not operate reliably "
+"when the object is lost."
+msgstr ""
+"**CSRT:** Sử dụng bản đồ độ tin cậy không gian để điều chỉnh hỗ trợ bộ lọc, "
+"nâng cao khả năng theo dõi các đối tượng không hình chữ nhật và hoạt động "
+"tốt ngay cả khi các đối tượng chồng lấn. Tuy nhiên, nó chậm hơn và có thể "
+"không hoạt động ổn định khi mất đối tượng."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1116
+msgid ""
+"Once you have a tracked object, you can \"parent\" other :ref:`clips_ref` to "
+"it. This means that the second clip, which could be a graphic, text, or "
+"another video layer, will now follow the tracked object as if it's attached "
+"to it. If the tracked object moves to the left, the child clip moves to the "
+"left. If the tracked object grows in size (gets closer to the camera), the "
+"child clip also scales up. For parented clips to appear correctly, they must "
+"be on a Track higher than the tracked objects, and set the appropriate :ref:"
+"`clip_scale_ref` property."
+msgstr ""
+"Khi bạn đã có một đối tượng được theo dõi, bạn có thể \"gán làm cha mẹ\" cho "
+"các :ref:`clips_ref` khác với nó. Điều này có nghĩa là clip thứ hai, có thể "
+"là hình ảnh, văn bản hoặc một lớp video khác, sẽ theo đối tượng được theo "
+"dõi như thể nó được gắn vào đó. Nếu đối tượng được theo dõi di chuyển sang "
+"trái, clip con cũng di chuyển sang trái. Nếu đối tượng được theo dõi tăng "
+"kích thước (gần camera hơn), clip con cũng phóng to theo. Để các clip được "
+"gán làm cha mẹ hiển thị đúng, chúng phải nằm trên một Track cao hơn các đối "
+"tượng được theo dõi và thiết lập thuộc tính :ref:`clip_scale_ref` phù hợp."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1133
+msgid ""
+"``(int, choices: ['Yes', 'No'])`` Whether to draw the box around the tracked "
+"object"
+msgstr ""
+"``(int, choices: ['Yes', 'No'])`` Có vẽ hộp xung quanh đối tượng được theo "
+"dõi hay không"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1155
+msgid ""
+"The Wave effect distorts the image into a wave-like pattern, simulating "
+"effects like heat haze, water reflections, or other forms of distortion. The "
+"speed, amplitude, and direction of the waves can be adjusted."
+msgstr ""
+"Hiệu ứng Wave làm biến dạng hình ảnh thành các mẫu sóng, mô phỏng các hiệu "
+"ứng như ảo ảnh nhiệt, phản chiếu nước hoặc các dạng biến dạng khác. Tốc độ, "
+"biên độ và hướng của sóng có thể được điều chỉnh."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1164
+msgid "amplitude"
+msgstr "biên độ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1164
+msgid "``(float, 0 to 5)`` The height of the wave"
+msgstr "``(float, 0 đến 5)`` Chiều cao của sóng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1165
+msgid "multiplier"
+msgstr "bộ nhân"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1165
+msgid "``(float, 0 to 10)`` Amount to multiply the wave (make it bigger)"
+msgstr "``(float, 0 đến 10)`` Mức độ nhân sóng (làm nó lớn hơn)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1166
+msgid "shift_x"
+msgstr "dịch chuyển_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1166
+msgid "``(float, 0 to 1000)`` Amount to shift X-axis"
+msgstr "``(float, 0 đến 1000)`` Mức độ dịch chuyển theo trục X"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1167
+msgid "speed_y"
+msgstr "tốc độ_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1167
+msgid "``(float, 0 to 300)`` Speed of the wave on the Y-axis"
+msgstr "``(float, 0 đến 300)`` Tốc độ của sóng trên trục Y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1168
+msgid "wavelength"
+msgstr "bước sóng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1168
+msgid "``(float, 0 to 3)`` The length of the wave"
+msgstr "``(float, 0 đến 3)`` Chiều dài của sóng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1172
+msgid "Audio Effects"
+msgstr "Hiệu ứng âm thanh"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1174
+msgid ""
+"Audio effects modify the waveforms and audio sample data of a clip. Below is "
+"a list of audio effects, and their properties. Often it is best to "
+"experiment with an effect, entering different values into the properties, "
+"and observing the results."
+msgstr ""
+"Hiệu ứng âm thanh thay đổi dạng sóng và dữ liệu mẫu âm thanh của một clip. "
+"Dưới đây là danh sách các hiệu ứng âm thanh và các thuộc tính của chúng. "
+"Thường thì tốt nhất là thử nghiệm với một hiệu ứng, nhập các giá trị khác "
+"nhau vào thuộc tính và quan sát kết quả."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1180
+msgid ""
+"The Compressor effect in audio processing reduces the dynamic range of the "
+"audio signal, making loud sounds quieter and quiet sounds louder. This "
+"creates a more consistent volume level, useful for balancing the loudness of "
+"different audio sources or for achieving a particular sound characteristic "
+"in music production."
+msgstr ""
+"Hiệu ứng Compressor trong xử lý âm thanh giảm phạm vi động của tín hiệu âm "
+"thanh, làm cho âm thanh lớn trở nên nhỏ hơn và âm thanh nhỏ trở nên lớn hơn. "
+"Điều này tạo ra mức âm lượng đồng đều hơn, hữu ích để cân bằng độ lớn của "
+"các nguồn âm thanh khác nhau hoặc để đạt được đặc tính âm thanh cụ thể trong "
+"sản xuất âm nhạc."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1190 ../effects.rst:1260
+msgid "attack"
+msgstr "attack"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1190 ../effects.rst:1260
+msgid "``(float, 0.1 to 100)``"
+msgstr "``(float, 0.1 đến 100)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1191 ../effects.rst:1261
+msgid "bypass"
+msgstr "bypass"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1191 ../effects.rst:1261
+msgid "``(bool)``"
+msgstr "``(bool)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1192 ../effects.rst:1262
+msgid "makeup_gain"
+msgstr "makeup_gain"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1192 ../effects.rst:1262
+msgid "``(float, -12 to 12)``"
+msgstr "``(float, -12 đến 12)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1193 ../effects.rst:1263
+msgid "ratio"
+msgstr "tỷ lệ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1193 ../effects.rst:1263
+msgid "``(float, 1 to 100)``"
+msgstr "``(float, 1 đến 100)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1194 ../effects.rst:1264
+msgid "release"
+msgstr "release"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1194 ../effects.rst:1264
+msgid "``(float, 10 to 1000)``"
+msgstr "``(float, 10 đến 1000)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1195 ../effects.rst:1265
+msgid "``(float, -60 to 0)``"
+msgstr "``(float, -60 đến 0)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1200
+msgid ""
+"The Delay effect adds an echo to the audio signal, repeating the sound after "
+"a short delay. This can create a sense of space and depth in the audio, and "
+"is commonly used for creative effects in music, sound design, and audio post-"
+"production."
+msgstr ""
+"Hiệu ứng Delay thêm tiếng vang vào tín hiệu âm thanh, lặp lại âm thanh sau "
+"một khoảng trễ ngắn. Điều này có thể tạo cảm giác không gian và chiều sâu "
+"trong âm thanh, và thường được sử dụng cho các hiệu ứng sáng tạo trong âm "
+"nhạc, thiết kế âm thanh và hậu kỳ âm thanh."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1210
+msgid "delay_time"
+msgstr "thời gian trễ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1210 ../effects.rst:1243
+msgid "``(float, 0 to 5)``"
+msgstr "``(float, 0 đến 5)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1215
+msgid ""
+"The Distortion effect intentionally clips the audio signal, adding harmonic "
+"and non-harmonic overtones. This can create a gritty, aggressive sound "
+"characteristic of many electric guitar tones and is used for both musical "
+"and sound design purposes."
+msgstr ""
+"Hiệu ứng Distortion cố ý cắt tín hiệu âm thanh, thêm các âm bội hài và không "
+"hài. Điều này có thể tạo ra âm thanh thô ráp, mạnh mẽ đặc trưng của nhiều âm "
+"thanh đàn guitar điện và được sử dụng cho cả mục đích âm nhạc và thiết kế âm "
+"thanh."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1225
+msgid "distortion_type"
+msgstr "loại distortion"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1225
+msgid ""
+"``(int, choices: ['Hard Clipping', 'Soft Clipping', 'Exponential', 'Full "
+"Wave Rectifier', 'Half Wave Rectifier'])``"
+msgstr ""
+"``(int, choices: ['Hard Clipping', 'Soft Clipping', 'Exponential', 'Full "
+"Wave Rectifier', 'Half Wave Rectifier'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1226
+msgid "input_gain"
+msgstr "độ lợi đầu vào"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1226 ../effects.rst:1227 ../effects.rst:1228
+#: ../effects.rst:1297
+msgid "``(int, -24 to 24)``"
+msgstr "``(int, -24 đến 24)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1227
+msgid "output_gain"
+msgstr "đầu ra tăng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1228
+msgid "tone"
+msgstr "tông"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1233
+msgid ""
+"The Echo effect, similar to delay, repeats the audio signal at intervals, "
+"but with a focus on creating a distinct repetition of sound that mimics "
+"natural echoes. This can be used to simulate acoustic environments or for "
+"creative sound effects."
+msgstr ""
+"Hiệu ứng Echo, tương tự như delay, lặp lại tín hiệu âm thanh theo khoảng "
+"thời gian, nhưng tập trung tạo ra sự lặp lại rõ ràng của âm thanh giống như "
+"tiếng vọng tự nhiên. Điều này có thể dùng để mô phỏng môi trường âm thanh "
+"hoặc tạo hiệu ứng âm thanh sáng tạo."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1243
+msgid "echo_time"
+msgstr "thời gian echo"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1244
+msgid "feedback"
+msgstr "phản hồi"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1244 ../effects.rst:1245
+msgid "``(float, 0 to 1)``"
+msgstr "``(float, 0 đến 1)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1245
+msgid "mix"
+msgstr "pha trộn"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1250
+msgid ""
+"The Expander effect increases the dynamic range of audio, making quiet "
+"sounds quieter and leaving loud sounds unaffected. This is the opposite of "
+"compression and is used to reduce background noise or increase the dynamic "
+"impact of audio."
+msgstr ""
+"Hiệu ứng Expander tăng phạm vi động của âm thanh, làm cho âm thanh nhỏ trở "
+"nên nhỏ hơn và giữ nguyên âm thanh lớn. Đây là đối lập của nén và được dùng "
+"để giảm tiếng ồn nền hoặc tăng tác động động của âm thanh."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1270
+msgid ""
+"The Noise effect adds random, equal-intensity signals across the frequency "
+"spectrum to the audio, simulating the sound of white noise. This can be used "
+"for sound masking, as a component in sound design, or for testing and "
+"calibration purposes."
+msgstr ""
+"Hiệu ứng Noise thêm các tín hiệu ngẫu nhiên với cường độ bằng nhau trên toàn "
+"phổ tần số vào âm thanh, mô phỏng tiếng ồn trắng. Điều này có thể dùng để "
+"che giấu âm thanh, làm thành phần trong thiết kế âm thanh, hoặc cho mục đích "
+"kiểm tra và hiệu chuẩn."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1280
+msgid "level"
+msgstr "mức"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1280
+msgid "``(int, 0 to 100)``"
+msgstr "``(int, 0 đến 100)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1285
+msgid ""
+"The Parametric EQ (Equalizer) effect allows for precise adjustments to the "
+"volume level of specific frequency ranges in the audio signal. This can be "
+"used for corrective measures, such as removing unwanted tones, or "
+"creatively, to shape the tonal balance of the audio."
+msgstr ""
+"Hiệu ứng Parametric EQ (Equalizer) cho phép điều chỉnh chính xác mức âm "
+"lượng của các dải tần số cụ thể trong tín hiệu âm thanh. Điều này có thể "
+"dùng để sửa chữa, như loại bỏ tông không mong muốn, hoặc sáng tạo để định "
+"hình cân bằng âm sắc của âm thanh."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1295
+msgid "filter_type"
+msgstr "loại bộ lọc"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1295
+msgid ""
+"``(int, choices: ['Low Pass', 'High Pass', 'Low Shelf', 'High Shelf', 'Band "
+"Pass', 'Band Stop', 'Peaking Notch'])``"
+msgstr ""
+"``(int, lựa chọn: ['Low Pass', 'High Pass', 'Low Shelf', 'High Shelf', 'Band "
+"Pass', 'Band Stop', 'Peaking Notch'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1296
+msgid "frequency"
+msgstr "tần số"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1296
+msgid "``(int, 20 to 20000)``"
+msgstr "``(int, 20 đến 20000)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1297
+msgid "gain"
+msgstr "tăng"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1298
+msgid "q_factor"
+msgstr "hệ số q"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1298
+msgid "``(float, 0 to 20)``"
+msgstr "``(float, 0 đến 20)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1303
+msgid ""
+"The Robotization effect transforms the audio to sound mechanical or robotic, "
+"by applying a combination of pitch modulation and synthesis techniques. This "
+"effect is widely used for character voices in media, creative music "
+"production, and sound design."
+msgstr ""
+"Hiệu ứng Robotization biến đổi âm thanh thành âm thanh cơ khí hoặc robot, "
+"bằng cách áp dụng kết hợp điều chế cao độ và kỹ thuật tổng hợp. Hiệu ứng này "
+"được sử dụng rộng rãi cho giọng nhân vật trong truyền thông, sản xuất âm "
+"nhạc sáng tạo và thiết kế âm thanh."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1313 ../effects.rst:1330
+msgid "fft_size"
+msgstr "kích thước fft"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1313 ../effects.rst:1330
+msgid "``(int, choices: ['128', '256', '512', '1024', '2048'])``"
+msgstr "``(int, lựa chọn: ['128', '256', '512', '1024', '2048'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1314 ../effects.rst:1331
+msgid "hop_size"
+msgstr "kích thước hop"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1314 ../effects.rst:1331
+msgid "``(int, choices: ['1/2', '1/4', '1/8'])``"
+msgstr "``(int, lựa chọn: ['1/2', '1/4', '1/8'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1315 ../effects.rst:1332
+msgid "window_type"
+msgstr "loại cửa sổ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1315 ../effects.rst:1332
+msgid "``(int, choices: ['Rectangular', 'Bart Lett', 'Hann', 'Hamming'])``"
+msgstr "``(int, lựa chọn: ['Rectangular', 'Bart Lett', 'Hann', 'Hamming'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1320
+msgid ""
+"The Whisperization effect transforms the audio to mimic a whispering voice, "
+"often by filtering out certain frequencies and adding noise. This can be "
+"used for artistic effects in music, sound design for film and video, or in "
+"audio storytelling to convey secrecy or intimacy."
+msgstr ""
+"Hiệu ứng Whisperization biến đổi âm thanh để bắt chước giọng thì thầm, "
+"thường bằng cách lọc bỏ một số tần số và thêm tiếng ồn. Điều này có thể dùng "
+"cho hiệu ứng nghệ thuật trong âm nhạc, thiết kế âm thanh cho phim và video, "
+"hoặc trong kể chuyện âm thanh để truyền đạt sự bí mật hoặc thân mật."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1335
+msgid "For more info on key frames and animation, see :ref:`animation_ref`."
+msgstr ""
+"Để biết thêm thông tin về khung chính và hoạt hình, xem :ref:`animation_ref`."

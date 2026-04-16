@@ -1,0 +1,3944 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:23
+msgid "Effects"
+msgstr "효과"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:25
+msgid ""
+"Effects are used in OpenShot to enhance or modify the audio or video of a "
+"clip. They can modify pixels and audio data, and can generally enhance your "
+"video projects. Each effect has its own set of properties, most of which can "
+"be animated over time, for example varying the :guilabel:`Brightness & "
+"Contrast` of a clip over time."
+msgstr ""
+"효과는 OpenShot에서 클립의 오디오 또는 비디오를 향상하거나 수정하는 데 사용됩"
+"니다. 픽셀과 오디오 데이터를 수정할 수 있으며, 일반적으로 비디오 프로젝트를 "
+"향상시킬 수 있습니다. 각 효과는 고유한 속성 집합을 가지며, 대부분은 시간에 따"
+"라 애니메이션화할 수 있습니다. 예를 들어 클립의 :guilabel:` 밝기 및 대비` 를 "
+"시간에 따라 변경할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:29
+msgid ""
+"Effects can be added to any clip by dragging and dropping them from the "
+"Effects tab onto a clip. Each effect is represented by a small colored icon "
+"and the first letter of the effect name. Note: Pay close attention to where "
+"the play-head (i.e. red playback line) is. Key frames are automatically "
+"created at the current playback position, to help create animations quickly."
+msgstr ""
+"효과는 효과 탭에서 클립으로 드래그 앤 드롭하여 모든 클립에 추가할 수 있습니"
+"다. 각 효과는 작은 색상 아이콘과 효과 이름의 첫 글자로 표시됩니다. 참고: 재"
+"생 헤드(즉, 빨간 재생선)의 위치에 주의하세요. 키 프레임은 현재 재생 위치에 자"
+"동으로 생성되어 애니메이션을 빠르게 만들 수 있도록 도와줍니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:34
+msgid ""
+"To view an effect's properties, right-click on the effect icon, revealing "
+"the context menu, and choose :guilabel:`Properties`. The property editor "
+"will appear, where you can edit these properties. Properties appear "
+"alphabetically in the dock, with filter options available at the top. Hold :"
+"kbd:`Ctrl` and click multiple effect icons to select them all, the "
+"Properties dock will show an entry such as ``3 Selections`` so you can "
+"adjust their common settings in one step. See :ref:`clip_properties_ref`."
+msgstr ""
+"효과의 속성을 보려면 효과 아이콘을 마우스 오른쪽 버튼으로 클릭하여 컨텍스트 "
+"메뉴를 열고 :guilabel:` 속성` 을 선택하세요. 속성 편집기가 나타나며 여기서 속"
+"성을 편집할 수 있습니다. 속성은 도크에 알파벳 순으로 표시되며 상단에 필터 옵"
+"션이 있습니다. :kbd:`Ctrl` 키를 누른 상태에서 여러 효과 아이콘을 클릭하여 모"
+"두 선택하면 속성 도크에 ``3개 선택`` 과 같은 항목이 표시되어 공통 설정을 한 "
+"번에 조정할 수 있습니다. :ref:`clip_properties_ref` 를 참조하세요."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:41
+msgid "Masks and Effects"
+msgstr "마스크 및 효과"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:43
+msgid ""
+"All effects can now use a **static or animated mask** to limit where the "
+"effect is applied. This makes effects much more precise, because you can "
+"target only the subject or region you care about and blend the result "
+"smoothly into the original image."
+msgstr ""
+"모든 효과는 이제 **정적 또는 애니메이션 마스크** 를 사용하여 효과가 적용되는 "
+"영역을 제한할 수 있습니다. 이를 통해 관심 있는 대상이나 영역만 정확하게 지정"
+"하고 결과를 원본 이미지에 부드럽게 혼합할 수 있어 효과가 훨씬 정밀해집니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:48
+msgid "Why this matters:"
+msgstr "이것이 중요한 이유:"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:50
+msgid "Keep edits focused on one area (for example, blur only a face)."
+msgstr "편집을 한 영역에 집중하세요 (예: 얼굴만 흐리게 처리)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:51
+msgid ""
+"Stack multiple effects on the same subject without affecting the full frame."
+msgstr ""
+"전체 프레임에 영향을 주지 않고 동일한 대상에 여러 효과를 겹쳐 적용하세요."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:52
+msgid "Animate how strongly or where an effect is applied over time."
+msgstr "시간에 따라 효과가 적용되는 강도나 위치를 애니메이션으로 조절하세요."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:54
+msgid "How to use effect masks:"
+msgstr "효과 마스크 사용 방법:"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:56
+msgid "Add an effect to a clip."
+msgstr "클립에 효과를 추가하세요."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:57
+msgid "Open the effect :guilabel:`Properties`."
+msgstr "효과 :guilabel:`속성` 을 여세요."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:58
+msgid "Choose a mask source (static image or animated mask video)."
+msgstr "마스크 소스(정적 이미지 또는 애니메이션 마스크 비디오)를 선택하세요."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:59
+msgid ""
+"Adjust :guilabel:`Mask Mode` (for example, *Limit to Mask* or *Vary "
+"Strength*)."
+msgstr ""
+":guilabel:`마스크 모드` 를 조절하세요 (예: *마스크에 한정* 또는 *강도 변화*)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:61
+msgid ""
+"High-quality animated masks can also be generated with Advanced AI "
+"workflows. In many cases, you can click one or more subjects and let "
+"tracking build a mask automatically. See :ref:`ai_ref`."
+msgstr ""
+"고품질 애니메이션 마스크는 고급 AI 워크플로우로도 생성할 수 있습니다. 대부분"
+"의 경우 하나 이상의 대상을 클릭하면 추적 기능이 자동으로 마스크를 생성합니"
+"다. 자세한 내용은 :ref:`ai_ref` 를 참조하세요."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:65
+msgid "Mask controls to know:"
+msgstr "알아야 할 마스크 제어:"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:67
+msgid ""
+"Any effect mask can be inverted to flip between foreground and background."
+msgstr "모든 효과 마스크는 전경과 배경을 뒤집도록 반전할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:68
+msgid "Animated mask videos can be looped."
+msgstr "애니메이션 마스크 비디오는 반복 재생할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:69
+msgid ""
+"When looping, set start/end mask trim carefully. If not adjusted, OpenShot "
+"loops the entire mask source, not just the segment you intended to repeat."
+msgstr ""
+"반복 재생 시 시작/끝 마스크 트림을 신중하게 설정하세요. 조정하지 않으면 "
+"OpenShot이 반복하려는 구간이 아닌 전체 마스크 소스를 반복합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:72
+msgid "To adjust a property:"
+msgstr "속성을 조정하려면:"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:74
+msgid "Drag the slider for coarse changes."
+msgstr "대략적인 변경은 슬라이더를 드래그하세요."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:75
+msgid "Double-click to enter precise values."
+msgstr "정확한 값을 입력하려면 더블 클릭하세요."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:76
+msgid "Right/double-click for non-numerical options."
+msgstr "숫자가 아닌 옵션은 오른쪽 클릭 또는 더블 클릭하세요."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:78
+msgid ""
+"Effect properties are integral to the :ref:`animation_ref` system. When you "
+"modify an effect property, a keyframe is generated at the current playhead "
+"position. For a property to span the entire clip, position the playhead at "
+"or before the clip's start before making adjustments. A convenient way to "
+"identify a clip's start is by utilizing the 'next/previous marker' feature "
+"on the Timeline toolbar."
+msgstr ""
+"효과 속성은 :ref:`animation_ref` 시스템의 핵심입니다. 효과 속성을 수정하면 현"
+"재 재생 헤드 위치에 키프레임이 생성됩니다. 속성이 클립 전체에 걸치도록 하려"
+"면 조정하기 전에 재생 헤드를 클립 시작 위치 또는 그 이전에 두세요. 클립 시작 "
+"위치를 쉽게 찾으려면 타임라인 도구 모음의 '다음/이전 마커' 기능을 사용하세요."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:86
+msgid "List of Effects"
+msgstr "효과 목록"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:87
+msgid ""
+"OpenShot Video Editor has a total of 27 built-in video and audio effects: 18 "
+"video effects and 9 audio effects. These effects can be added to a clip by "
+"dragging the effect onto a clip. The following table contains the name and "
+"short description of each effect."
+msgstr ""
+"OpenShot Video Editor에는 총 27개의 내장 비디오 및 오디오 효과가 있습니다: 18"
+"개의 비디오 효과와 9개의 오디오 효과. 이 효과들은 효과를 클립으로 드래그하여 "
+"클립에 추가할 수 있습니다. 다음 표에는 각 효과의 이름과 간단한 설명이 포함되"
+"어 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:227
+msgid "Icon"
+msgstr "아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:227
+msgid "Effect Name"
+msgstr "효과 이름"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:227
+msgid "Effect Description"
+msgstr "효과 설명"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:229
+msgid "|analogtape_icon|"
+msgstr "|analogtape_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:91
+msgid "Analog Tape Icon"
+msgstr "아날로그 테이프 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:229 ../effects.rst:364
+msgid "Analog Tape"
+msgstr "아날로그 테이프"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:229
+msgid "Vintage home-video wobble, bleed, and snow."
+msgstr "빈티지 홈 비디오의 흔들림, 번짐, 눈 효과."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:230
+msgid "|mask_icon|"
+msgstr "|mask_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:95
+msgid "Alpha Mask / Wipe Transition Icon"
+msgstr "알파 마스크 / 와이프 전환 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:230 ../effects.rst:391
+msgid "Alpha Mask / Wipe Transition"
+msgstr "알파 마스크 / 와이프 전환"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:230
+msgid "Grayscale mask transition between images."
+msgstr "이미지 간의 그레이스케일 마스크 전환."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:231
+msgid "|bars_icon|"
+msgstr "|bars_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:99
+msgid "Bars Icon"
+msgstr "바 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:231 ../effects.rst:410
+msgid "Bars"
+msgstr "바"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:231
+msgid "Add colored bars around your video."
+msgstr "비디오 주변에 색상 바를 추가합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:232
+msgid "|blur_icon|"
+msgstr "|blur_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:103
+msgid "Blur Icon"
+msgstr "블러 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:232 ../effects.rst:429
+msgid "Blur"
+msgstr "블러"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:232
+msgid "Adjust image blur."
+msgstr "이미지 블러를 조정합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:233
+msgid "|brightness_icon|"
+msgstr "|brightness_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:107
+msgid "Brightness & Contrast Icon"
+msgstr "밝기 및 대비 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:233 ../effects.rst:447
+msgid "Brightness & Contrast"
+msgstr "밝기 및 대비"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:233
+msgid "Modify frame’s brightness and contrast."
+msgstr "프레임의 밝기와 대비를 수정합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:234
+msgid "|caption_icon|"
+msgstr "|caption_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:111
+msgid "Caption Icon"
+msgstr "자막 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:234 ../effects.rst:465
+msgid "Caption"
+msgstr "자막"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:234
+msgid "Add text captions to any clip."
+msgstr "어떤 클립에도 텍스트 자막을 추가합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:235
+msgid "|chromakey_icon|"
+msgstr "|chromakey_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:115
+msgid "Chroma Key (Greenscreen) Icon"
+msgstr "크로마 키(그린스크린) 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:235 ../effects.rst:506
+msgid "Chroma Key (Greenscreen)"
+msgstr "크로마 키(그린스크린)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:235
+msgid "Replace color with transparency."
+msgstr "색상을 투명도로 대체합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:236
+msgid "|colormap_icon|"
+msgstr "|colormap_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:119
+msgid "Color Map / Lookup Icon"
+msgstr "컬러 맵 / 룩업 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:236 ../effects.rst:525
+msgid "Color Map / Lookup"
+msgstr "컬러 맵 / 룩업"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:236
+msgid "Adjust colors using 3D LUT lookup tables (.cube format)."
+msgstr "3D LUT 룩업 테이블(.cube 형식)을 사용하여 색상을 조정합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:237
+msgid "|saturation_icon|"
+msgstr "|saturation_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:123
+msgid "Color Saturation Icon"
+msgstr "색상 채도 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:237 ../effects.rst:745
+msgid "Color Saturation"
+msgstr "색상 채도"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:237
+msgid "Adjust color intensity."
+msgstr "색상 강도를 조정합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:238
+msgid "|colorshift_icon|"
+msgstr "|colorshift_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:127
+msgid "Color Shift Icon"
+msgstr "색상 이동 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:238 ../effects.rst:763
+msgid "Color Shift"
+msgstr "색상 이동"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:238
+msgid "Shift image colors in various directions."
+msgstr "이미지 색상을 다양한 방향으로 이동합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:239
+msgid "|crop_icon|"
+msgstr "|crop_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:131
+msgid "Crop Icon"
+msgstr "자르기 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:239 ../effects.rst:794
+msgid "Crop"
+msgstr "자르기"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:239
+msgid "Crop out parts of your video."
+msgstr "비디오의 일부를 잘라냅니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:240
+msgid "|deinterlace_icon|"
+msgstr "|deinterlace_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:135
+msgid "Deinterlace Icon"
+msgstr "디인터레이스 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:240 ../effects.rst:821
+msgid "Deinterlace"
+msgstr "디인터레이스"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:240
+msgid "Remove interlacing from video."
+msgstr "비디오에서 인터레이싱을 제거합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:241
+msgid "|hue_icon|"
+msgstr "|hue_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:139
+msgid "Hue Icon"
+msgstr "색조 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:241 ../effects.rst:836
+msgid "Hue"
+msgstr "색조"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:241
+msgid "Adjust hue / color."
+msgstr "색조/색상을 조정합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:242
+msgid "|lensflare_icon|"
+msgstr "|lensflare_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:143
+msgid "Lens Flare Icon"
+msgstr "렌즈 플레어 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:242 ../effects.rst:851
+msgid "Lens Flare"
+msgstr "렌즈 플레어"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:242
+msgid "Simulate sunlight hitting a lens with flares."
+msgstr "태양광이 렌즈에 닿아 플레어가 생기는 효과를 시뮬레이션합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:243
+msgid "|negate_icon|"
+msgstr "|negate_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:147
+msgid "Negative Icon"
+msgstr "네거티브 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:243 ../effects.rst:871
+msgid "Negative"
+msgstr "네거티브"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:243
+msgid "Produce a negative image."
+msgstr "네거티브 이미지를 생성합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:244
+msgid "|objectdetection_icon|"
+msgstr "|objectdetection_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:151
+msgid "Object Detector Icon"
+msgstr "객체 감지기 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:244 ../effects.rst:877
+msgid "Object Detector"
+msgstr "객체 감지기"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:244
+msgid "Detect objects in video."
+msgstr "비디오에서 객체를 감지합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:245
+msgid "|outline_icon|"
+msgstr "|outline_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:155
+msgid "Outline Icon"
+msgstr "외곽선 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:245 ../effects.rst:936
+msgid "Outline"
+msgstr "외곽선"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:245
+msgid "Add outline around any image or text."
+msgstr "이미지나 텍스트 주위에 외곽선을 추가합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:246
+msgid "|pixelate_icon|"
+msgstr "|pixelate_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:159
+msgid "Pixelate Icon"
+msgstr "픽셀화 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:246 ../effects.rst:957
+msgid "Pixelate"
+msgstr "픽셀화"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:246
+msgid "Increase or decrease visible pixels."
+msgstr "보이는 픽셀 수를 늘리거나 줄입니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:247
+msgid "|sharpen_icon|"
+msgstr "|sharpen_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:163
+msgid "Sharpen Icon"
+msgstr "선명하게 하기 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:247 ../effects.rst:976
+msgid "Sharpen"
+msgstr "선명하게 하기"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:247
+msgid "Boost edge contrast to make video details look crisper."
+msgstr "모서리 대비를 높여 비디오 세부 사항을 더 선명하게 만듭니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:248
+msgid "|shift_icon|"
+msgstr "|shift_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:167
+msgid "Shift Icon"
+msgstr "이동 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:248 ../effects.rst:1015
+msgid "Shift"
+msgstr "이동"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:248
+msgid "Shift image in different directions."
+msgstr "이미지를 여러 방향으로 이동합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:249
+msgid "|sphericalprojection_icon|"
+msgstr "|sphericalprojection_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:171
+msgid "Spherical Projection Icon"
+msgstr "구면 투영 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:249 ../effects.rst:1031
+msgid "Spherical Projection"
+msgstr "구면 투영"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:249
+msgid "Flatten or project 360° and fisheye footage."
+msgstr "360° 및 어안 렌즈 영상을 평면화하거나 투영합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:250
+msgid "|stabilizer_icon|"
+msgstr "|stabilizer_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:175
+msgid "Stabilizer Icon"
+msgstr "안정화 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:250 ../effects.rst:1082
+msgid "Stabilizer"
+msgstr "안정화"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:250
+msgid "Reduce video shake."
+msgstr "비디오 흔들림을 줄입니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:251
+msgid "|tracker_icon|"
+msgstr "|tracker_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:179
+msgid "Tracker Icon"
+msgstr "추적기 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:251 ../effects.rst:1097
+msgid "Tracker"
+msgstr "추적기"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:251
+msgid "Track bounding box in video."
+msgstr "비디오에서 경계 상자를 추적합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:252
+msgid "|wave_icon|"
+msgstr "|wave_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:183
+msgid "Wave Icon"
+msgstr "파동 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:252 ../effects.rst:1154
+msgid "Wave"
+msgstr "파동"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:252
+msgid "Distort image into a wave pattern."
+msgstr "이미지를 파동 패턴으로 왜곡합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:253
+msgid "|compressor_icon|"
+msgstr "|compressor_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:187
+msgid "Compressor Icon"
+msgstr "컴프레서 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:253 ../effects.rst:1179
+msgid "Compressor"
+msgstr "컴프레서"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:253
+msgid "Reduce loudness or amplify quiet sounds."
+msgstr "큰 소리를 줄이거나 작은 소리를 증폭합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:254
+msgid "|delay_icon|"
+msgstr "|delay_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:191
+msgid "Delay Icon"
+msgstr "지연 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:254 ../effects.rst:1199
+msgid "Delay"
+msgstr "지연"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:254
+msgid "Adjust audio-video synchronism."
+msgstr "오디오-비디오 동기화를 조정합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:255
+msgid "|distortion_icon|"
+msgstr "|distortion_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:195
+msgid "Distortion Icon"
+msgstr "왜곡 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:255 ../effects.rst:1214
+msgid "Distortion"
+msgstr "왜곡"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:255
+msgid "Clip audio signal for distortion."
+msgstr "왜곡을 위해 오디오 신호를 클리핑합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:256
+msgid "|echo_icon|"
+msgstr "|echo_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:199
+msgid "Echo Icon"
+msgstr "에코 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:256 ../effects.rst:1232
+msgid "Echo"
+msgstr "에코"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:256
+msgid "Add delayed sound reflection."
+msgstr "지연된 음향 반사를 추가합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:257
+msgid "|expander_icon|"
+msgstr "|expander_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:203
+msgid "Expander Icon"
+msgstr "익스팬더 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:257 ../effects.rst:1249
+msgid "Expander"
+msgstr "익스팬더"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:257
+msgid "Make loud parts relatively louder."
+msgstr "큰 소리를 상대적으로 더 크게 만듭니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:258
+msgid "|noise_icon|"
+msgstr "|noise_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:207
+msgid "Noise Icon"
+msgstr "노이즈 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:258 ../effects.rst:1269
+msgid "Noise"
+msgstr "노이즈"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:258
+msgid "Add random equal-intensity signals."
+msgstr "무작위로 동일 강도의 신호를 추가합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:259
+msgid "|parametriceq_icon|"
+msgstr "|parametriceq_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:211
+msgid "Parametric EQ Icon"
+msgstr "파라메트릭 EQ 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:259 ../effects.rst:1284
+msgid "Parametric EQ"
+msgstr "파라메트릭 EQ"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:259
+msgid "Adjust frequency volume in audio."
+msgstr "오디오의 주파수 볼륨을 조정합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:260
+msgid "|robotization_icon|"
+msgstr "|robotization_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:215
+msgid "Robotization Icon"
+msgstr "로보타이제이션 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:260 ../effects.rst:1302
+msgid "Robotization"
+msgstr "로보타이제이션"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:260
+msgid "Transform audio into robotic voice."
+msgstr "오디오를 로봇 음성으로 변환합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:261
+msgid "|whisperization_icon|"
+msgstr "|whisperization_icon|"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:219
+msgid "Whisperization Icon"
+msgstr "위스퍼라이제이션 아이콘"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:261 ../effects.rst:1319
+msgid "Whisperization"
+msgstr "위스퍼라이제이션"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:261
+msgid "Transform audio into whispers."
+msgstr "오디오를 속삭임으로 변환합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:266
+msgid "Effect Properties"
+msgstr "효과 속성"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:267
+msgid ""
+"Below is a list of **common** effect properties, shared by all effects in "
+"OpenShot. To view an effect's properties, right click and choose :guilabel:"
+"`Properties`. The property editor will appear, where you can change these "
+"properties. Note: Pay close attention to where the play-head (i.e. red "
+"playback line) is. Key frames are automatically created at the current "
+"playback position, to help quickly create animations."
+msgstr ""
+"아래는 OpenShot의 모든 효과에 공통으로 적용되는 ** 일반적인** 효과 속성 목록"
+"입니다. 효과의 속성을 보려면 마우스 오른쪽 버튼을 클릭하고 :guilabel:` 속성` "
+"을 선택하세요. 속성 편집기가 나타나며, 여기서 속성을 변경할 수 있습니다. 참"
+"고: 재생 헤드(즉, 빨간 재생선)의 위치에 주의하세요. 현재 재생 위치에 키 프레"
+"임이 자동으로 생성되어 애니메이션을 빠르게 만들 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:272
+msgid ""
+"See the table below for a list of common effect properties. Only the "
+"**common properties** that all effects share are listed here. Each effect "
+"also has many **unique properties**, which are specific to each effect, see :"
+"ref:`effect_video_effects_ref` for more information on individual effects "
+"and their unique properties."
+msgstr ""
+"아래 표는 일반적인 효과 속성 목록입니다. 모든 효과가 공유하는 ** 공통 속성**"
+"만 여기에 나열되어 있습니다. 각 효과는 또한 각 효과에 고유한 많은 ** 고유 속"
+"성** 을 가지고 있으며, 개별 효과 및 고유 속성에 대한 자세한 내용은 :ref:"
+"`effect_video_effects_ref` 를 참조하십시오."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:280
+msgid "Effect Property Name"
+msgstr "효과 속성 이름"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:280
+msgid "Type"
+msgstr "유형"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:280 ../effects.rst:372 ../effects.rst:401 ../effects.rst:419
+#: ../effects.rst:438 ../effects.rst:456 ../effects.rst:484 ../effects.rst:516
+#: ../effects.rst:539 ../effects.rst:754 ../effects.rst:779 ../effects.rst:809
+#: ../effects.rst:830 ../effects.rst:845 ../effects.rst:860 ../effects.rst:908
+#: ../effects.rst:947 ../effects.rst:966 ../effects.rst:1005
+#: ../effects.rst:1024 ../effects.rst:1042 ../effects.rst:1091
+#: ../effects.rst:1131 ../effects.rst:1162 ../effects.rst:1188
+#: ../effects.rst:1208 ../effects.rst:1223 ../effects.rst:1241
+#: ../effects.rst:1258 ../effects.rst:1278 ../effects.rst:1293
+#: ../effects.rst:1311 ../effects.rst:1328
+msgid "Description"
+msgstr "설명"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:282 ../effects.rst:293
+msgid "Duration"
+msgstr "길이"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:282 ../effects.rst:283 ../effects.rst:286 ../effects.rst:287
+msgid "Float"
+msgstr "실수"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:282
+msgid ""
+"The length of the effect (in seconds). Read-only property. Most effects "
+"default to the length of a clip. This property is hidden when an effect "
+"belongs to a clip."
+msgstr ""
+"효과의 길이(초 단위)입니다. 읽기 전용 속성입니다. 대부분의 효과는 클립 길이"
+"를 기본값으로 사용합니다. 이 속성은 효과가 클립에 속할 때 숨겨집니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:283 ../effects.rst:300
+msgid "End"
+msgstr "끝"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:283
+msgid ""
+"The end trimming position of the effect (in seconds). This property is "
+"hidden when an effect belongs to a clip."
+msgstr ""
+"효과의 끝 트리밍 위치(초 단위)입니다. 이 속성은 효과가 클립에 속할 때 숨겨집"
+"니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:284 ../effects.rst:307
+msgid "ID"
+msgstr "ID"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:284 ../effects.rst:285
+msgid "String"
+msgstr "문자열"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:284
+msgid ""
+"A randomly generated GUID (globally unique identifier) assigned to each "
+"effect. Read-only property."
+msgstr ""
+"각 효과에 할당된 무작위로 생성된 GUID(전역 고유 식별자)입니다. 읽기 전용 속성"
+"입니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:285
+msgid "Parent"
+msgstr "상위"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:285
+msgid ""
+"The parent object to this effect, which makes many of these keyframe values "
+"initialize to the parent value."
+msgstr "이 효과의 상위 객체로, 많은 키프레임 값이 상위 값으로 초기화됩니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:286 ../effects.rst:330
+msgid "Position"
+msgstr "위치"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:286
+msgid ""
+"The position of the effect on the timeline (in seconds). This property is "
+"hidden when an effect belongs to a clip."
+msgstr ""
+"타임라인에서 효과의 위치(초 단위)입니다. 이 속성은 효과가 클립에 속할 때 숨겨"
+"집니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:287 ../effects.rst:336
+msgid "Start"
+msgstr "시작"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:287
+msgid ""
+"The start trimming position of the effect (in seconds). This property is "
+"hidden when an effect belongs to a clip."
+msgstr ""
+"효과의 시작 트리밍 위치(초 단위)입니다. 이 속성은 효과가 클립에 속할 때 숨겨"
+"집니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:288 ../effects.rst:312
+msgid "Track"
+msgstr "트랙"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:288
+msgid "Int"
+msgstr "정수"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:288
+msgid ""
+"The layer which holds the effect (higher tracks are rendered on top of lower "
+"tracks). This property is hidden when an effect belongs to a clip."
+msgstr ""
+"효과가 위치한 레이어입니다(높은 트랙이 낮은 트랙 위에 렌더링됨). 이 속성은 효"
+"과가 클립에 속할 때 숨겨집니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:289
+msgid "Apply Before Clip"
+msgstr "클립 처리 전에 적용"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:289
+msgid "Boolean"
+msgstr "불리언"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:289
+msgid "Apply this effect before the Clip processes keyframes? (default is Yes)"
+msgstr "클립이 키프레임을 처리하기 전에 이 효과를 적용합니까? (기본값은 예)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:294
+msgid ""
+"The :guilabel:`Duration` property is a float value indicating the length of "
+"the effect in seconds. This is a Read-only property. This is calculated by: "
+"End - Start. To modify duration, you must edit the :guilabel:`Start` and/or :"
+"guilabel:`End` effect properties."
+msgstr ""
+":guilabel:`Duration` 속성은 효과의 길이를 초 단위로 나타내는 실수 값입니다. "
+"읽기 전용 속성입니다. 계산식은 End - Start입니다. 길이를 수정하려면 :"
+"guilabel:`Start` 및/또는 :guilabel:`End` 효과 속성을 편집해야 합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:297
+msgid ""
+"*NOTE: Most effects in OpenShot default the effect duration to the clip "
+"duration, and hide this property from the editor.*"
+msgstr ""
+"*참고: OpenShot의 대부분 효과는 효과 길이를 클립 길이로 기본 설정하며, 이 속"
+"성을 편집기에서 숨깁니다.*"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:301
+msgid ""
+"The :guilabel:`End` property defines the trimming point at the end of the "
+"effect in seconds, allowing you to control how much of the effect is visible "
+"in the timeline. Changing this property will impact the :guilabel:`Duration` "
+"effect property."
+msgstr ""
+":guilabel:`End` 속성은 효과 끝의 트리밍 지점을 초 단위로 정의하며, 타임라인에"
+"서 효과가 얼마나 보이는지 제어할 수 있습니다. 이 속성을 변경하면 :guilabel:"
+"`Duration` 효과 속성에 영향을 줍니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:304 ../effects.rst:316 ../effects.rst:333 ../effects.rst:340
+msgid ""
+"*NOTE: Most effects in OpenShot default this property to match the clip, and "
+"hide this property from the editor.*"
+msgstr ""
+"*참고: OpenShot의 대부분 효과는 이 속성을 클립과 일치하도록 기본 설정하며, "
+"이 속성을 편집기에서 숨깁니다.*"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:308
+msgid ""
+"The :guilabel:`ID` property holds a randomly generated GUID (Globally Unique "
+"Identifier) assigned to each effect, ensuring its uniqueness. This is a Read-"
+"only property, and assigned by OpenShot when an effect is created."
+msgstr ""
+":guilabel:`ID` 속성은 각 효과에 할당된 무작위로 생성된 GUID(전역 고유 식별자)"
+"를 포함하여 고유성을 보장합니다. 읽기 전용 속성이며, 효과가 생성될 때 "
+"OpenShot에서 할당합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:313
+msgid ""
+"The :guilabel:`Track` property is an integer indicating the layer on which "
+"the effect is placed. Effects on higher tracks are rendered above those on "
+"lower tracks."
+msgstr ""
+":guilabel:`Track` 속성은 효과가 위치한 레이어를 나타내는 정수입니다. 높은 트"
+"랙의 효과가 낮은 트랙 위에 렌더링됩니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:321
+msgid "Effect Parent"
+msgstr "효과 상위"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:322
+msgid ""
+"The :guilabel:`Parent` property of an effect sets the initial keyframe "
+"values to a parent effect. For example, if many effects all point to the "
+"same parent effect, they will inherit all their initial properties, such as "
+"font size, font color, and background color for a ``Caption`` effect. In the "
+"example of many ``Caption`` effects using the same Parent effect, it is an "
+"efficient way to manage a large number of these effects."
+msgstr ""
+"효과의 :guilabel:`Parent` 속성은 초기 키프레임 값을 상위 효과로 설정합니다. "
+"예를 들어, 여러 효과가 동일한 상위 효과를 가리키면, ``Caption`` 효과의 글꼴 "
+"크기, 글꼴 색상, 배경 색상과 같은 모든 초기 속성을 상속받습니다. 여러 "
+"``Caption`` 효과가 동일한 상위 효과를 사용하는 경우, 많은 수의 효과를 효율적"
+"으로 관리할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:326
+msgid ""
+"NOTE: The ``parent`` property for effects should be linked to the **same "
+"type** of parent effect, otherwise their default initial values will not "
+"match. Also see :ref:`clip_parent_ref`."
+msgstr ""
+"참고: 효과의 ``parent`` 속성은 ** 동일한 유형** 의 상위 효과에 연결되어야 하"
+"며, 그렇지 않으면 기본 초기 값이 일치하지 않습니다. 또한 :ref:"
+"`clip_parent_ref` 를 참조하십시오."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:331
+msgid ""
+"The :guilabel:`Position` property determines the effect's position on the "
+"timeline in seconds, with 0.0 indicating the beginning."
+msgstr ""
+":guilabel:`Position` 속성은 타임라인에서 효과의 위치를 초 단위로 결정하며, "
+"0.0은 시작을 나타냅니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:337
+msgid ""
+"The :guilabel:`Start` property defines the trimming point at the beginning "
+"of the effect in seconds. Changing this property will impact the :guilabel:"
+"`Duration` effect property."
+msgstr ""
+":guilabel:`Start` 속성은 효과 시작의 트리밍 지점을 초 단위로 정의합니다. 이 "
+"속성을 변경하면 :guilabel:`Duration` 효과 속성에 영향을 줍니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:343
+msgid "Sequencing"
+msgstr "시퀀싱"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:345
+msgid ""
+"Effects are normally applied **before** the Clip processes keyframes. This "
+"allows the effect to process the raw image of the clip, before the clip "
+"applies properties such as scaling, rotation, location, etc... Normally, "
+"this is the preferred sequence of events, and this is the default behavior "
+"of effects in OpenShot. However, you can optionally override this behavior "
+"with the ``Apply Before Clip Keyframes`` property."
+msgstr ""
+"효과는 일반적으로 클립이 키프레임을 처리하기 ** 전에** 적용됩니다. 이는 클립"
+"이 크기 조정, 회전, 위치 등의 속성을 적용하기 전에 효과가 클립의 원본 이미지"
+"를 처리할 수 있게 합니다. 일반적으로 이것이 선호되는 순서이며, OpenShot의 기"
+"본 효과 동작입니다. 그러나 ``Apply Before Clip Keyframes`` 속성으로 이 동작"
+"을 선택적으로 변경할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:350
+msgid ""
+"If you set the ``Apply Before Clip Keyframes`` property to ``No``, the "
+"effect will be sequenced **after** the clip scales, rotates, and applies "
+"keyframes to the image. This can be useful on certain effects, such as the "
+"**Mask** effect, when you want to animate a clip first and then apply a "
+"static mask to the clip."
+msgstr ""
+"``Apply Before Clip Keyframes`` 속성을 ``No`` 로 설정하면, 효과가 클립이 이미"
+"지에 크기 조정, 회전 및 키프레임을 적용한 ** 후에** 순서가 지정됩니다. 이는 "
+"클립을 먼저 애니메이션화한 후 정적인 마스크를 적용하려는 경우, 예를 들어 "
+"**Mask** 효과에 유용할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:357
+msgid "Video Effects"
+msgstr "비디오 효과"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:359
+msgid ""
+"Effects are generally divided into two categories: video and audio effects. "
+"Video effects modify the image and pixel data of a clip. Below is a list of "
+"video effects, and their properties. Often it is best to experiment with an "
+"effect, entering different values into the properties, and observing the "
+"results."
+msgstr ""
+"효과는 일반적으로 비디오 효과와 오디오 효과 두 가지로 나뉩니다. 비디오 효과"
+"는 클립의 이미지와 픽셀 데이터를 수정합니다. 아래는 비디오 효과와 그 속성 목"
+"록입니다. 효과를 실험해보고 속성에 다양한 값을 입력하여 결과를 관찰하는 것이 "
+"좋습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:365
+msgid ""
+"The **Analog Tape** effect emulates consumer tape playback: horizontal line "
+"wobble (\"tracking\"), chroma bleed, luma softness, grainy snow, a bottom "
+"**tracking stripe**, and short **static bursts**. All controls are key-"
+"framable and the noise is deterministic (seeded from the effect’s ID with an "
+"optional offset), so renders are repeatable."
+msgstr ""
+"**Analog Tape** 효과는 소비자용 테이프 재생을 모방합니다: 수평선 흔들림"
+"(\"tracking\"), 크로마 블리드, 루마 부드러움, 거친 눈, 하단의 **tracking "
+"stripe**, 그리고 짧은 **static bursts**. 모든 컨트롤은 키프레임 가능하며, 노"
+"이즈는 결정적(효과 ID에서 시드 생성, 선택적 오프셋 포함)이라 렌더링이 반복 가"
+"능합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:372 ../effects.rst:401 ../effects.rst:419 ../effects.rst:438
+#: ../effects.rst:456 ../effects.rst:484 ../effects.rst:516 ../effects.rst:539
+#: ../effects.rst:754 ../effects.rst:779 ../effects.rst:809 ../effects.rst:830
+#: ../effects.rst:845 ../effects.rst:860 ../effects.rst:908 ../effects.rst:947
+#: ../effects.rst:966 ../effects.rst:1005 ../effects.rst:1024
+#: ../effects.rst:1042 ../effects.rst:1091 ../effects.rst:1131
+#: ../effects.rst:1162 ../effects.rst:1188 ../effects.rst:1208
+#: ../effects.rst:1223 ../effects.rst:1241 ../effects.rst:1258
+#: ../effects.rst:1278 ../effects.rst:1293 ../effects.rst:1311
+#: ../effects.rst:1328
+msgid "Property Name"
+msgstr "속성 이름"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:374
+msgid "tracking"
+msgstr "tracking"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:374
+#, fuzzy
+msgid ""
+"``(float, 0–1)`` Horizontal **line wobble** plus a subtle bottom **skew**. "
+"Higher values increase amplitude and skew height."
+msgstr ""
+"`` (float, 0–1)`` 수평 ** 선 흔들림** 과 미묘한 하단 ** 기울기**. 값이 높을수"
+"록 진폭과 기울기 높이가 증가합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:375
+msgid "bleed"
+msgstr "bleed"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:375
+#, fuzzy
+msgid ""
+"``(float, 0–1)`` **Chroma bleed / fringing.** Horizontal chroma shift + blur "
+"with a slight desaturation. Gives the “rainbow edge” look."
+msgstr ""
+"`` (float, 0–1)`` ** 크로마 블리드 / 프린징.** 수평 크로마 이동과 블러, 약간"
+"의 탈채도로 ‘무지개 가장자리’ 효과를 냅니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:376
+msgid "softness"
+msgstr "softness"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:376
+#, fuzzy
+msgid ""
+"``(float, 0–1)`` **Luma softness.** Small horizontal blur on Y (approx. 0–2 "
+"px). Keep low to retain detail when noise is high."
+msgstr ""
+"`` (float, 0–1)`` ** 루마 부드러움.** Y축의 작은 수평 블러(약 0–2 픽셀). 노이"
+"즈가 높을 때 세부 묘사를 유지하려면 낮게 유지하세요."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:377
+msgid "noise"
+msgstr "noise"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:377
+#, fuzzy
+msgid ""
+"``(float, 0–1)`` **Snow, hiss, and dropouts.** Controls grain strength, "
+"probability/length of white **streaks**, and a faint line hum."
+msgstr ""
+"`` (float, 0–1)`` ** 눈, 쉬쉬 소리, 드롭아웃.** 그레인 강도, 흰색 ** 줄무늬"
+"** 의 확률/길이, 희미한 선의 윙윙거림을 제어합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:378
+msgid "stripe"
+msgstr "stripe"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:378
+#, fuzzy
+msgid ""
+"``(float, 0–1)`` **Tracking stripe.** Lifts the bottom band, adds hiss/noise "
+"there, and widens the lifted region as the value increases."
+msgstr ""
+"`` (float, 0–1)`` **Tracking stripe.** 하단 밴드를 들어 올리고 그곳에 쉬쉬 소"
+"리/노이즈를 추가하며, 값이 증가할수록 들어 올려진 영역이 넓어집니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:379
+msgid "static_bands"
+msgstr "static_bands"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:379
+#, fuzzy
+msgid ""
+"``(float, 0–1)`` **Static bursts.** Short bright bands with **row-clumped "
+"streaks** (many “shooting stars” across neighboring rows)."
+msgstr ""
+"`` (float, 0–1)`` **Static bursts.** 짧고 밝은 밴드와 ** 행으로 뭉친 줄무늬"
+"**(인접 행에 걸친 많은 ‘별똥별’)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:380
+msgid "seed_offset"
+msgstr "seed_offset"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:380
+#, fuzzy
+msgid ""
+"``(int, 0–1000)`` Adds to the internal seed (derived from the effect ID) for "
+"deterministic variation between clips."
+msgstr ""
+"`` (int, 0–1000)`` 클립 간 결정적 변화를 위해 내부 시드(효과 ID에서 파생됨)"
+"에 더합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:383 ../effects.rst:1070
+msgid "**Usage notes**"
+msgstr "**사용법 노트**"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:385
+msgid ""
+"**Subtle “home video”**: ``tracking=0.25``, ``bleed=0.20``, "
+"``softness=0.20``, ``noise=0.25``, ``stripe=0.10``, ``static_bands=0.05``."
+msgstr ""
+"**미묘한 “홈 비디오”**: ``tracking=0.25``, ``bleed=0.20``, "
+"``softness=0.20``, ``noise=0.25``, ``stripe=0.10``, ``static_bands=0.05``."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:386
+msgid ""
+"**Bad tracking / head clog**: ``tracking=0.8–1.0``, ``stripe=0.6–0.9``, "
+"``noise=0.6–0.8``, ``static_bands=0.4–0.6``, ``softness<=0.2``, and set "
+"``bleed`` to about 0.3."
+msgstr ""
+"** 불량 트래킹 / 헤드 막힘**: ``tracking=0.8–1.0``, ``stripe=0.6–0.9``, "
+"``noise=0.6–0.8``, ``static_bands=0.4–0.6``, ``softness<=0.2``, 그리고 "
+"``bleed`` 를 약 0.3으로 설정하세요."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:387
+msgid ""
+"**Color fringing only**: raise ``bleed`` (about 0.5) and keep other controls "
+"low."
+msgstr ""
+"** 컬러 프린징만**: ``bleed`` 를 약 0.5로 올리고 다른 컨트롤은 낮게 유지하세"
+"요."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:388
+msgid ""
+"**Different but repeatable snow**: leave the effect ID alone (for "
+"deterministic output) and change ``seed_offset`` to get a new, still-"
+"repeatable pattern."
+msgstr ""
+"** 다르지만 반복 가능한 눈 효과**: 결정적 출력을 위해 효과 ID는 그대로 두고, "
+"``seed_offset`` 을 변경하여 새롭고 반복 가능한 패턴을 만드세요."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:392
+msgid ""
+"The Alpha Mask / Wipe Transition effect leverages a grayscale mask to create "
+"a dynamic transition between two images or video clips. In this effect, the "
+"light areas of the mask reveal the new image, while the dark areas conceal "
+"it, allowing for creative and custom transitions that go beyond standard "
+"fade or wipe techniques. This effect only affects the image, and not the "
+"audio track."
+msgstr ""
+"Alpha Mask / Wipe Transition 효과는 그레이스케일 마스크를 활용하여 두 이미지 "
+"또는 비디오 클립 간에 동적인 전환을 만듭니다. 이 효과에서 마스크의 밝은 영역"
+"은 새 이미지를 드러내고, 어두운 영역은 가려 표준 페이드나 와이프 기법을 넘어"
+"선 창의적이고 맞춤형 전환을 가능하게 합니다. 이 효과는 이미지에만 영향을 미치"
+"며 오디오 트랙에는 영향을 주지 않습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:403 ../effects.rst:458 ../effects.rst:864
+msgid "brightness"
+msgstr "밝기"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:403
+#, fuzzy
+msgid "``(float, -1 to 1)`` This curve controls the motion across the wipe"
+msgstr "`` (float, -1 to 1)`` 이 곡선은 와이프 전반의 움직임을 제어합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:404 ../effects.rst:459
+msgid "contrast"
+msgstr "대비"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:404
+#, fuzzy
+msgid ""
+"``(float, 0 to 20)`` This curve controls the hardness and softness of the "
+"wipe edge"
+msgstr ""
+"`` (float, 0 to 20)`` 이 곡선은 와이프 가장자리의 경도와 부드러움을 제어합니"
+"다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:405
+msgid "reader"
+msgstr "리더"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:405
+#, fuzzy
+msgid ""
+"``(reader)`` This reader can use any image or video as input for your "
+"grayscale wipe"
+msgstr ""
+"`` (reader)`` 이 리더는 그레이스케일 와이프 입력으로 모든 이미지나 비디오를 "
+"사용할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:406
+msgid "replace_image"
+msgstr "이미지 교체"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:406
+#, fuzzy
+msgid ""
+"``(bool, choices: ['Yes', 'No'])`` Replace the clips image with the current "
+"grayscale wipe image, useful for troubleshooting"
+msgstr ""
+"`` (bool, choices: ['Yes', 'No'])`` 문제 해결에 유용한 현재 그레이스케일 와이"
+"프 이미지로 클립의 이미지를 교체합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:411
+msgid ""
+"The Bars effect adds colored bars around your video frame, which can be used "
+"for aesthetic purposes, to frame the video within a certain aspect ratio, or "
+"to simulate the appearance of viewing content on a different display device. "
+"This effect is particularly useful for creating a cinematic or broadcast "
+"look."
+msgstr ""
+"Bars 효과는 비디오 프레임 주위에 색상 막대를 추가하여 미적 목적, 특정 화면 비"
+"율 내에서 비디오를 프레임화하거나 다른 디스플레이 장치에서 콘텐츠를 보는 것처"
+"럼 시뮬레이션하는 데 사용할 수 있습니다. 이 효과는 영화나 방송 스타일을 만드"
+"는 데 특히 유용합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:421 ../effects.rst:811 ../effects.rst:968
+msgid "bottom"
+msgstr "하단"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:421
+#, fuzzy
+msgid "``(float, 0 to 0.5)`` The curve to adjust the bottom bar size"
+msgstr "`` (float, 0~0.5)`` 하단 막대 크기를 조절하는 곡선"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:422 ../effects.rst:492 ../effects.rst:518
+msgid "color"
+msgstr "색상"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:422
+#, fuzzy
+msgid "``(color)`` The curve to adjust the color of bars"
+msgstr "`` (color)`` 막대 색상을 조절하는 곡선"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:423 ../effects.rst:497 ../effects.rst:812 ../effects.rst:969
+msgid "left"
+msgstr "왼쪽"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:423
+#, fuzzy
+msgid "``(float, 0 to 0.5)`` The curve to adjust the left bar size"
+msgstr "`` (float, 0~0.5)`` 왼쪽 막대 크기를 조절하는 곡선"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:424 ../effects.rst:499 ../effects.rst:813 ../effects.rst:971
+msgid "right"
+msgstr "오른쪽"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:424
+#, fuzzy
+msgid "``(float, 0 to 0.5)`` The curve to adjust the right bar size"
+msgstr "`` (float, 0~0.5)`` 오른쪽 막대 크기를 조절하는 곡선"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:425 ../effects.rst:502 ../effects.rst:814 ../effects.rst:972
+msgid "top"
+msgstr "상단"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:425
+#, fuzzy
+msgid "``(float, 0 to 0.5)`` The curve to adjust the top bar size"
+msgstr "`` (float, 0~0.5)`` 상단 막대 크기를 조절하는 곡선"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:430
+msgid ""
+"The Blur effect softens the image, reducing detail and texture. This can be "
+"used to create a sense of depth, draw attention to specific parts of the "
+"frame, or simply to apply a stylistic choice for aesthetic purposes. The "
+"intensity of the blur can be adjusted to achieve the desired level of "
+"softness."
+msgstr ""
+"Blur 효과는 이미지를 부드럽게 하여 세부 사항과 질감을 줄입니다. 이는 깊이감"
+"을 만들거나 프레임의 특정 부분에 주의를 끌거나 단순히 미적 목적을 위한 스타"
+"일 선택에 사용할 수 있습니다. 흐림의 강도는 원하는 부드러움 수준에 맞게 조절"
+"할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:440
+msgid "horizontal_radius"
+msgstr "수평 반경"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:440
+#, fuzzy
+msgid ""
+"``(float, 0 to 100)`` Horizontal blur radius keyframe. The size of the "
+"horizontal blur operation in pixels."
+msgstr ""
+"`` (float, 0~100)`` 수평 블러 반경 키프레임. 수평 블러 작업의 크기(픽셀 단"
+"위)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:441
+msgid "iterations"
+msgstr "반복 횟수"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:441
+#, fuzzy
+msgid ""
+"``(float, 0 to 100)`` Iterations keyframe. The # of blur iterations per "
+"pixel. 3 iterations = Gaussian."
+msgstr ""
+"`` (float, 0~100)`` 반복 횟수 키프레임. 픽셀당 블러 반복 횟수. 3회 반복 = 가"
+"우시안."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:442
+msgid "sigma"
+msgstr "시그마"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:442
+#, fuzzy
+msgid ""
+"``(float, 0 to 100)`` Sigma keyframe. The amount of spread in the blur "
+"operation. Should be larger than radius."
+msgstr ""
+"`` (float, 0~100)`` 시그마 키프레임. 블러 작업의 확산 정도. 반경보다 커야 함."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:443
+msgid "vertical_radius"
+msgstr "수직 반경"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:443
+#, fuzzy
+msgid ""
+"``(float, 0 to 100)`` Vertical blur radius keyframe. The size of the "
+"vertical blur operation in pixels."
+msgstr ""
+"`` (float, 0~100)`` 수직 블러 반경 키프레임. 수직 블러 작업의 크기(픽셀 단"
+"위)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:448
+msgid ""
+"The Brightness & Contrast effect allows for the adjustment of the overall "
+"lightness or darkness of the image (brightness) and the difference between "
+"the darkest and lightest parts of the image (contrast). This effect can be "
+"used to correct poorly lit videos or to create dramatic lighting effects for "
+"artistic purposes."
+msgstr ""
+"밝기 및 대비 효과는 이미지의 전체 밝기(밝기)와 가장 어두운 부분과 가장 밝은 "
+"부분 간의 차이(대비)를 조절할 수 있습니다. 이 효과는 조명이 부족한 비디오를 "
+"보정하거나 예술적 목적의 극적인 조명 효과를 만드는 데 사용할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:458
+#, fuzzy
+msgid "``(float, -1 to 1)`` The curve to adjust the brightness"
+msgstr "`` (float, -1~1)`` 밝기를 조절하는 곡선"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:459
+#, fuzzy
+msgid ""
+"``(float, 0 to 100)`` The curve to adjust the contrast (3 is typical, 20 is "
+"a lot, 100 is max. 0 is invalid)"
+msgstr ""
+"`` (float, 0~100)`` 대비를 조절하는 곡선 (3은 일반적, 20은 많음, 100이 최대. "
+"0은 무효)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:466
+msgid ""
+"Add text captions on top of your video. We support both VTT (WebVTT) and "
+"SubRip (SRT) subtitle file formats. These formats are used to display "
+"captions or subtitles in videos. They allow you to add text-based subtitles "
+"to video content, making it more accessible to a wider audience, especially "
+"for those who are deaf or hard of hearing. The Caption effect can even "
+"animate the text fading in/out, and supports any font, size, color, and "
+"margin. OpenShot also has an easy-to-use Caption editor, where you can "
+"quickly insert captions at the playhead position, or edit all your caption "
+"text in one place."
+msgstr ""
+"비디오 위에 텍스트 자막을 추가하세요. VTT(WebVTT)와 SubRip(SRT) 자막 파일 형"
+"식을 모두 지원합니다. 이 형식들은 비디오에 자막을 표시하는 데 사용되며, 청각 "
+"장애인 등 더 넓은 시청자에게 접근성을 제공합니다. Caption 효과는 텍스트 페이"
+"드 인/아웃 애니메이션을 지원하며, 모든 글꼴, 크기, 색상, 여백을 설정할 수 있"
+"습니다. OpenShot에는 사용하기 쉬운 Caption 편집기가 있어 재생 헤드 위치에 자"
+"막을 빠르게 삽입하거나 모든 자막 텍스트를 한 곳에서 편집할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:486 ../effects.rst:932 ../effects.rst:1150
+msgid "background"
+msgstr "배경"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:486
+#, fuzzy
+msgid "``(color)`` Color of caption area background"
+msgstr "`` (color)`` 자막 영역 배경 색상"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:487 ../effects.rst:930 ../effects.rst:1148
+msgid "background_alpha"
+msgstr "배경 투명도"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:487
+#, fuzzy
+msgid "``(float, 0 to 1)`` Background color alpha"
+msgstr "`` (float, 0~1)`` 배경 색상 투명도"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:488 ../effects.rst:931 ../effects.rst:1149
+msgid "background_corner"
+msgstr "배경 모서리"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:488
+#, fuzzy
+msgid "``(float, 0 to 60)`` Background corner radius"
+msgstr "`` (float, 0~60)`` 배경 모서리 반경"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:489
+msgid "background_padding"
+msgstr "배경 여백"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:489
+#, fuzzy
+msgid "``(float, 0 to 60)`` Background padding"
+msgstr "`` (float, 0~60)`` 배경 여백"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:490
+msgid "caption_font"
+msgstr "자막 글꼴"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:490
+#, fuzzy
+msgid "``(font)`` Font name or family name"
+msgstr "`` (font)`` 글꼴 이름 또는 글꼴군 이름"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:491
+msgid "caption_text"
+msgstr "자막 텍스트"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:491
+#, fuzzy
+msgid "``(caption)`` VTT/Subrip formatted caption text (multi-line)"
+msgstr "`` (caption)`` VTT/SubRip 형식의 자막 텍스트 (다중 행)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:492
+#, fuzzy
+msgid "``(color)`` Color of caption text"
+msgstr "`` (color)`` 자막 텍스트 색상"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:493
+msgid "fade_in"
+msgstr "페이드 인"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:493
+#, fuzzy
+msgid "``(float, 0 to 3)`` Fade in per caption (# of seconds)"
+msgstr "`` (float, 0~3)`` 자막당 페이드 인 시간(초)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:494
+msgid "fade_out"
+msgstr "페이드 아웃"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:494
+#, fuzzy
+msgid "``(float, 0 to 3)`` Fade out per caption (# of seconds)"
+msgstr "`` (float, 0~3)`` 자막당 페이드 아웃 시간(초)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:495
+msgid "font_alpha"
+msgstr "글꼴 투명도"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:495
+#, fuzzy
+msgid "``(float, 0 to 1)`` Font color alpha"
+msgstr "`` (float, 0~1)`` 글꼴 색상 투명도"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:496
+msgid "font_size"
+msgstr "글꼴 크기"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:496
+#, fuzzy
+msgid "``(float, 0 to 200)`` Font size in points"
+msgstr "`` (float, 0~200)`` 글꼴 크기(포인트 단위)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:497
+#, fuzzy
+msgid "``(float, 0 to 0.5)`` Size of left margin"
+msgstr "`` (float, 0~0.5)`` 왼쪽 여백 크기"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:498
+msgid "line_spacing"
+msgstr "줄 간격"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:498
+#, fuzzy
+msgid "``(float, 0 to 5)`` Distance between lines (1.0 default)"
+msgstr "`` (float, 0~5)`` 줄 간격 (기본값 1.0)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:499
+#, fuzzy
+msgid "``(float, 0 to 0.5)`` Size of right margin"
+msgstr "`` (float, 0~0.5)`` 오른쪽 여백 크기"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:500 ../effects.rst:927 ../effects.rst:1145
+msgid "stroke"
+msgstr "외곽선"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:500
+#, fuzzy
+msgid "``(color)`` Color of text border / stroke"
+msgstr "`` (color)`` 텍스트 테두리/외곽선 색상"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:501 ../effects.rst:928 ../effects.rst:1146
+msgid "stroke_width"
+msgstr "외곽선 두께"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:501
+#, fuzzy
+msgid "``(float, 0 to 10)`` Width of text border / stroke"
+msgstr "`` (float, 0~10)`` 텍스트 테두리/스트로크의 너비"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:502
+#, fuzzy
+msgid "``(float, 0 to 1)`` Size of top margin"
+msgstr "`` (float, 0~1)`` 상단 여백 크기"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:507
+msgid ""
+"The Chroma Key (Greenscreen) effect replaces a specific color (or chroma) in "
+"the video (commonly green or blue) with transparency, allowing for the "
+"compositing of the video over a different background. This effect is widely "
+"used in film and television production for creating visual effects and "
+"placing subjects in settings that would be otherwise impossible or "
+"impractical to shoot in."
+msgstr ""
+"크로마 키(그린스크린) 효과는 비디오에서 특정 색상(일반적으로 녹색 또는 파란"
+"색)을 투명도로 대체하여 다른 배경 위에 비디오를 합성할 수 있게 합니다. 이 효"
+"과는 영화 및 TV 제작에서 시각 효과를 만들고 촬영이 불가능하거나 비현실적인 환"
+"경에 피사체를 배치하는 데 널리 사용됩니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:518
+#, fuzzy
+msgid "``(color)`` The color to match"
+msgstr "`` (color)`` 일치시킬 색상"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:519 ../effects.rst:1009 ../effects.rst:1195
+#: ../effects.rst:1265
+msgid "threshold"
+msgstr "임계값"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:519
+#, fuzzy
+msgid ""
+"``(float, 0 to 125)`` The threshold (or fuzz factor) for matching similar "
+"colors. The larger the value the more colors that will be matched."
+msgstr ""
+"`` (float, 0~125)`` 유사한 색상을 일치시키기 위한 임계값(또는 퍼짐 계수). 값"
+"이 클수록 더 많은 색상이 일치됩니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:520
+msgid "halo"
+msgstr "후광"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:520
+#, fuzzy
+msgid "``(float, 0 to 125)`` The additional threshold for halo elimination."
+msgstr "`` (float, 0~125)`` 후광 제거를 위한 추가 임계값."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:521
+msgid "keymethod"
+msgstr "키잉 방법"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:521
+msgid ""
+"``(int, choices: ['Basic keying', 'HSV/HSL hue', 'HSV saturation', 'HSL "
+"saturation', 'HSV value', 'HSL luminance', 'LCH luminosity', 'LCH chroma', "
+"'LCH hue', 'CIE Distance', 'Cb,Cr vector'])`` The keying method or algorithm "
+"to use."
+msgstr ""
+"``(int, choices: ['Basic keying', 'HSV/HSL hue', 'HSV saturation', 'HSL "
+"saturation', 'HSV value', 'HSL luminance', 'LCH luminosity', 'LCH chroma', "
+"'LCH hue', 'CIE Distance', 'Cb,Cr vector'])`` 사용할 키잉 방법 또는 알고리즘"
+"입니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:526
+msgid ""
+"The Color Map effect applies a 3D LUT (Lookup Table) to your footage, "
+"instantly transforming its colors to achieve a consistent look or mood. A 3D "
+"LUT is simply a table that remaps every input hue to a new output palette. "
+"With separate keyframe curves for red, green, and blue channels, you can "
+"precisely control, and even animate, how much each channel is influenced by "
+"the LUT, making it easy to fine-tune or blend your grade over time."
+msgstr ""
+"컬러 맵 효과는 3D LUT(룩업 테이블)를 영상에 적용하여 색상을 즉시 변환해 일관"
+"된 룩이나 분위기를 만듭니다. 3D LUT는 입력 색조를 새로운 출력 팔레트로 재매핑"
+"하는 표입니다. 빨강, 초록, 파랑 채널별로 별도의 키프레임 곡선을 사용해 각 채"
+"널에 LUT가 미치는 영향을 정밀하게 제어하고 애니메이션화할 수 있어, 색 보정을 "
+"시간에 따라 세밀하게 조정하거나 혼합하기 쉽습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:531
+msgid ""
+"LUT files (`.cube` format) can be downloaded from many online resources, "
+"including free packs on photography blogs or marketplaces, such as https://"
+"freshluts.com/. OpenShot includes a selection of popular LUTs designed for "
+"**Rec 709** gamma out of the box."
+msgstr ""
+"LUT 파일(`.cube` 형식)은 https://freshluts.com/ 같은 사진 블로그나 마켓플레이"
+"스에서 무료 팩을 포함해 다양한 온라인 자원에서 다운로드할 수 있습니다. "
+"OpenShot은 기본적으로 **Rec 709** 감마에 맞춘 인기 LUT들을 포함하고 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:541
+msgid "lut_path"
+msgstr "lut_경로"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:541
+#, fuzzy
+msgid "``(string)`` Filesystem path to the `.cube` LUT file."
+msgstr "`` (string)`` `.cube` LUT 파일의 파일 시스템 경로."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:542
+msgid "intensity"
+msgstr "강도"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:542
+#, fuzzy
+msgid ""
+"``(float, 0.0 to 1.0)`` % Blending overall intensity (0.0 = no LUT, 1.0 = "
+"full LUT)."
+msgstr ""
+"`` (float, 0.0~1.0)`` 전체 강도 혼합 비율 (0.0 = LUT 없음, 1.0 = 완전 적용)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:543
+msgid "intensity_r"
+msgstr "강도_빨강"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:543
+#, fuzzy
+msgid ""
+"``(float, 0.0 to 1.0)`` % Blending the LUT’s red channel (0.0 = no LUT, 1.0 "
+"= full LUT)."
+msgstr ""
+"`` (float, 0.0~1.0)`` LUT의 빨강 채널 혼합 비율 (0.0 = LUT 없음, 1.0 = 완전 "
+"적용)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:544
+msgid "intensity_g"
+msgstr "강도_초록"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:544
+#, fuzzy
+msgid ""
+"``(float, 0.0 to 1.0)`` % Blending the LUT’s green channel (0.0 = no LUT, "
+"1.0 = full LUT)."
+msgstr ""
+"`` (float, 0.0~1.0)`` LUT의 초록 채널 혼합 비율 (0.0 = LUT 없음, 1.0 = 완전 "
+"적용)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:545
+msgid "intensity_b"
+msgstr "강도_파랑"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:545
+#, fuzzy
+msgid ""
+"``(float, 0.0 to 1.0)`` % Blending the LUT’s blue channel (0.0 = no LUT, 1.0 "
+"= full LUT)."
+msgstr ""
+"`` (float, 0.0~1.0)`` LUT의 파랑 채널 혼합 비율 (0.0 = LUT 없음, 1.0 = 완전 "
+"적용)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:549
+msgid "Gamma and Rec 709"
+msgstr "감마와 Rec 709"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:550
+msgid ""
+"Gamma is the way video systems brighten or darken the midtones of an image. "
+"**Rec 709** is the standard gamma curve used for most HD and online video "
+"today. By shipping with **Rec 709** LUTs, OpenShot makes it simple to apply "
+"a grade that matches the vast majority of footage you’ll edit."
+msgstr ""
+"감마는 비디오 시스템이 이미지 중간 톤을 밝게 또는 어둡게 조절하는 방식입니"
+"다. **Rec 709** 는 오늘날 대부분의 HD 및 온라인 비디오에 사용되는 표준 감마 "
+"곡선입니다. OpenShot은 **Rec 709** LUT를 기본 제공하여 대부분의 영상에 맞는 "
+"색 보정을 쉽게 적용할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:554
+msgid ""
+"If your camera or workflow uses a different gamma (for example a LOG "
+"profile), you can still use a LUT made for that curve. Simply use a `.cube` "
+"file designed for your gamma under the Color Map effect’s **LUT Path**. Just "
+"be sure your footage gamma matches the LUT gamma—or the colors may look "
+"incorrect."
+msgstr ""
+"카메라나 작업 흐름이 다른 감마(예: LOG 프로필)를 사용하는 경우에도 해당 곡선"
+"에 맞춘 LUT를 사용할 수 있습니다. 컬러 맵 효과의 **LUT 경로** 에 감마에 맞는 "
+"`.cube` 파일을 지정하세요. 단, 영상의 감마가 LUT 감마와 일치해야 색상이 올바"
+"르게 보입니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:558
+msgid ""
+"The following **Rec 709** LUT files are included in OpenShot, organized into "
+"the following categories:"
+msgstr ""
+"다음의 **Rec 709** LUT 파일들이 OpenShot에 포함되어 있으며, 다음 카테고리로 "
+"분류되어 있습니다:"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:561
+msgid "Cinematic & Blockbuster"
+msgstr "시네마틱 & 블록버스터"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:600
+msgid "Dark & Moody"
+msgstr "어둡고 무드 있는"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:642
+msgid "Film Stock & Vintage"
+msgstr "필름 스톡 & 빈티지"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:686
+msgid "Teal & Orange Vibes"
+msgstr "틸 & 오렌지 분위기"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:710
+msgid "Utility & Correction"
+msgstr "유틸리티 & 보정"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:725
+msgid "Vibrant & Colorful"
+msgstr "생동감 있고 다채로운"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:746
+msgid ""
+"The Color Saturation effect adjusts the intensity and vibrancy of colors "
+"within the video. Increasing saturation can make colors more vivid and eye-"
+"catching, while decreasing it can create a more subdued, almost black-and-"
+"white appearance."
+msgstr ""
+"컬러 채도 효과는 영상 내 색상의 강도와 생동감을 조절합니다. 채도를 높이면 색"
+"상이 더 선명하고 눈에 띄게 되며, 낮추면 더 차분하고 거의 흑백에 가까운 느낌"
+"을 줍니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:756
+msgid "saturation"
+msgstr "채도"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:756
+#, fuzzy
+msgid ""
+"``(float, 0 to 4)`` The curve to adjust the overall saturation of the "
+"frame's image (0.0 = greyscale, 1.0 = normal, 2.0 = double saturation)"
+msgstr ""
+"`` (float, 0~4)`` 프레임 이미지의 전체 채도를 조절하는 곡선 (0.0 = 그레이스케"
+"일, 1.0 = 기본, 2.0 = 채도 두 배)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:757
+msgid "saturation_B"
+msgstr "채도_파랑"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:757
+#, fuzzy
+msgid ""
+"``(float, 0 to 4)`` The curve to adjust blue saturation of the frame's image"
+msgstr "`` (float, 0~4)`` 프레임 이미지의 파랑 채도를 조절하는 곡선"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:758
+msgid "saturation_G"
+msgstr "채도_초록"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:758
+#, fuzzy
+msgid ""
+"``(float, 0 to 4)`` The curve to adjust green saturation of the frame's "
+"image (0.0 = greyscale, 1.0 = normal, 2.0 = double saturation)"
+msgstr ""
+"`` (float, 0~4)`` 프레임 이미지의 초록 채도를 조절하는 곡선 (0.0 = 그레이스케"
+"일, 1.0 = 기본, 2.0 = 채도 두 배)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:759
+msgid "saturation_R"
+msgstr "채도_빨강"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:759
+#, fuzzy
+msgid ""
+"``(float, 0 to 4)`` The curve to adjust red saturation of the frame's image"
+msgstr "`` (float, 0~4)`` 프레임 이미지의 빨강 채도를 조절하는 곡선"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:764
+msgid ""
+"Shift the colors of an image up, down, left, and right (with infinite "
+"wrapping)."
+msgstr ""
+"이미지의 색상을 위, 아래, 왼쪽, 오른쪽으로 이동시킵니다 (무한 래핑 포함)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:766
+msgid "**Each pixel has 4 color channels:**"
+msgstr "** 각 픽셀은 4개의 색상 채널을 가집니다:**"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:768
+msgid "Red, Green, Blue, and Alpha (i.e. transparency)"
+msgstr "빨강, 초록, 파랑, 알파(즉, 투명도)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:769
+msgid "Each channel value is between 0 and 255"
+msgstr "각 채널 값은 0에서 255 사이입니다"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:771
+msgid ""
+"The Color Shift effect simply \"moves\" or \"translates\" a specific color "
+"channel on the X or Y axis. *Not all video and image formats support an "
+"alpha channel, and in those cases, you will not see any changes when "
+"adjusting the color shift of the alpha channel.*"
+msgstr ""
+"컬러 쉬프트 효과는 특정 색상 채널을 X축 또는 Y축으로 \"이동\" 또는 \"변환\"합"
+"니다. *모든 비디오 및 이미지 형식이 알파 채널을 지원하는 것은 아니며, 지원하"
+"지 않는 경우 알파 채널의 컬러 쉬프트를 조정해도 변화가 나타나지 않습니다.*"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:781
+msgid "alpha_x"
+msgstr "알파_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:781
+#, fuzzy
+msgid "``(float, -1 to 1)`` Shift the Alpha X coordinates (left or right)"
+msgstr "`` (float, -1 to 1)`` 알파 X 좌표를 좌우로 이동"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:782
+msgid "alpha_y"
+msgstr "알파_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:782
+#, fuzzy
+msgid "``(float, -1 to 1)`` Shift the Alpha Y coordinates (up or down)"
+msgstr "`` (float, -1 to 1)`` 알파 Y 좌표를 상하로 이동"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:783
+msgid "blue_x"
+msgstr "블루_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:783
+#, fuzzy
+msgid "``(float, -1 to 1)`` Shift the Blue X coordinates (left or right)"
+msgstr "`` (float, -1 to 1)`` 블루 X 좌표를 좌우로 이동"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:784
+msgid "blue_y"
+msgstr "블루_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:784
+#, fuzzy
+msgid "``(float, -1 to 1)`` Shift the Blue Y coordinates (up or down)"
+msgstr "`` (float, -1 to 1)`` 블루 Y 좌표를 상하로 이동"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:785
+msgid "green_x"
+msgstr "그린_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:785
+#, fuzzy
+msgid "``(float, -1 to 1)`` Shift the Green X coordinates (left or right)"
+msgstr "`` (float, -1 to 1)`` 그린 X 좌표를 좌우로 이동"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:786
+msgid "green_y"
+msgstr "그린_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:786
+#, fuzzy
+msgid "``(float, -1 to 1)`` Shift the Green Y coordinates (up or down)"
+msgstr "`` (float, -1 to 1)`` 그린 Y 좌표를 상하로 이동"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:787
+msgid "red_x"
+msgstr "레드_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:787
+#, fuzzy
+msgid "``(float, -1 to 1)`` Shift the Red X coordinates (left or right)"
+msgstr "`` (float, -1 to 1)`` 레드 X 좌표를 좌우로 이동"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:788
+msgid "red_y"
+msgstr "레드_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:788
+#, fuzzy
+msgid "``(float, -1 to 1)`` Shift the Red Y coordinates (up or down)"
+msgstr "`` (float, -1 to 1)`` 레드 Y 좌표를 상하로 이동"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:795
+msgid ""
+"The Crop effect removes unwanted outer areas from the video frame, allowing "
+"you to focus on a particular part of the shot, change the aspect ratio, or "
+"remove distracting elements from the edges of the frame. This effect is the "
+"primary method for cropping a Clip in OpenShot. The ``left``, ``right``, "
+"``top``, and ``bottom`` key-frames can even be animated, for a moving and "
+"resizing cropped area. You can leave the cropped area blank, or you can "
+"dynamically resize the cropped area to fill the screen."
+msgstr ""
+"크롭 효과는 비디오 프레임의 원하지 않는 외곽 영역을 제거하여 특정 부분에 집중"
+"하거나 화면 비율을 변경하거나 프레임 가장자리의 방해 요소를 제거할 수 있게 합"
+"니다. 이 효과는 OpenShot에서 클립을 자르는 주요 방법입니다. ``left``, "
+"``right``, ``top``, ``bottom`` 키프레임은 애니메이션으로 움직이거나 크기가 조"
+"절되는 크롭 영역을 만들 수 있습니다. 크롭된 영역을 비워두거나 동적으로 크기"
+"를 조절하여 화면을 채울 수도 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:801
+msgid ""
+"You can quickly add this effect by right-clicking a clip and choosing :"
+"guilabel:`Crop`. When active, blue crop handles appear in the video preview "
+"so you can adjust the crop visually."
+msgstr ""
+"클립을 마우스 오른쪽 버튼으로 클릭하고 :guilabel:` 크롭` 을 선택하여 이 효과"
+"를 빠르게 추가할 수 있습니다. 활성화되면 비디오 미리보기에서 파란색 크롭 핸들"
+"이 나타나 시각적으로 크롭을 조절할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:811
+#, fuzzy
+msgid "``(float, 0 to 1)`` Size of bottom bar"
+msgstr "`` (float, 0 to 1)`` 하단 바 크기"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:812
+#, fuzzy
+msgid "``(float, 0 to 1)`` Size of left bar"
+msgstr "`` (float, 0 to 1)`` 좌측 바 크기"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:813
+#, fuzzy
+msgid "``(float, 0 to 1)`` Size of right bar"
+msgstr "`` (float, 0 to 1)`` 우측 바 크기"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:814
+#, fuzzy
+msgid "``(float, 0 to 1)`` Size of top bar"
+msgstr "`` (float, 0 to 1)`` 상단 바 크기"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:815 ../effects.rst:862 ../effects.rst:1026
+msgid "x"
+msgstr "x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:815
+#, fuzzy
+msgid "``(float, -1 to 1)`` X-offset"
+msgstr "`` (float, -1 to 1)`` Y 오프셋"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:816 ../effects.rst:863 ../effects.rst:1027
+msgid "y"
+msgstr "y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:816
+#, fuzzy
+msgid "``(float, -1 to 1)`` Y-offset"
+msgstr "`` (float, -1 to 1)`` Y 오프셋"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:817
+msgid "resize"
+msgstr "크기 조절"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:817
+#, fuzzy
+msgid ""
+"``(bool, choices: ['Yes', 'No'])`` Replace the frame image with the cropped "
+"area (allows automatic scaling of the cropped image)"
+msgstr ""
+"`` (bool, choices: ['Yes', 'No'])`` 프레임 이미지를 크롭 영역으로 대체 (크롭 "
+"이미지 자동 크기 조절 허용)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:822
+msgid ""
+"The Deinterlace effect is used to remove interlacing artifacts from video "
+"footage, which are commonly seen as horizontal lines across moving objects. "
+"This effect is essential for converting interlaced video (such as from older "
+"video cameras or broadcast sources) into a progressive format suitable for "
+"modern displays."
+msgstr ""
+"디인터레이스 효과는 비디오 영상에서 흔히 움직이는 물체에 가로줄로 나타나는 인"
+"터레이싱 아티팩트를 제거하는 데 사용됩니다. 이 효과는 구형 비디오 카메라나 방"
+"송 소스에서 나온 인터레이스 비디오를 현대 디스플레이에 적합한 프로그레시브 형"
+"식으로 변환하는 데 필수적입니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:832
+msgid "isOdd"
+msgstr "홀수"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:832
+#, fuzzy
+msgid "``(bool, choices: ['Yes', 'No'])`` Use odd or even lines"
+msgstr "`` (bool, choices: ['Yes', 'No'])`` 홀수 또는 짝수 라인 사용"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:837
+msgid ""
+"The Hue effect adjusts the overall color balance of the video, changing the "
+"hues without affecting the brightness or saturation. This can be used for "
+"color correction or to apply dramatic color effects that transform the mood "
+"of the footage."
+msgstr ""
+"색상 효과는 밝기나 채도에 영향을 주지 않고 영상의 전체 색상 균형을 조정하여 "
+"색조를 변경합니다. 색 보정이나 영상의 분위기를 변화시키는 극적인 색상 효과에 "
+"사용할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:847
+msgid "hue"
+msgstr "색상"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:847
+#, fuzzy
+msgid "``(float, 0 to 1)`` The curve to adjust the percentage of hue shift"
+msgstr "`` (float, 0 to 1)`` 색상 이동 비율을 조절하는 곡선"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:852
+msgid ""
+"The Lens Flare effect simulates bright light hitting your camera lens, "
+"creating glowing halos, colored rings and gentle glares over your footage. "
+"Reflections are automatically placed along a line from the light source "
+"toward the center of the frame. You can animate any property with keyframes "
+"to follow your action or match your scene."
+msgstr ""
+"렌즈 플레어 효과는 카메라 렌즈에 밝은 빛이 닿는 것을 시뮬레이션하여 빛나는 후"
+"광, 색색의 고리, 부드러운 눈부심을 영상 위에 생성합니다. 반사는 빛 원천에서 "
+"프레임 중앙을 향하는 선을 따라 자동으로 배치됩니다. 모든 속성은 키프레임으로 "
+"애니메이션화하여 동작을 따라가거나 장면에 맞출 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:862
+#, fuzzy
+msgid ""
+"``(float, -1 to 1)`` Horizontal position of the light source. -1 is left "
+"edge, 0 is center, +1 is right edge."
+msgstr ""
+"`` (float, -1 to 1)`` 빛 원천의 수평 위치. -1은 왼쪽 가장자리, 0은 중앙, +1"
+"은 오른쪽 가장자리."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:863
+#, fuzzy
+msgid ""
+"``(float, -1 to 1)`` Vertical position of the light source. -1 is top edge, "
+"0 is center, +1 is bottom edge."
+msgstr ""
+"`` (float, -1 to 1)`` 빛 원천의 수직 위치. -1은 상단 가장자리, 0은 중앙, +1"
+"은 하단 가장자리."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:864
+#, fuzzy
+msgid ""
+"``(float, 0 to 1)`` Overall glow strength and transparency. Higher values "
+"make brighter, more opaque flares."
+msgstr ""
+"`` (float, 0 to 1)`` 전체 빛남 강도 및 투명도. 값이 높을수록 더 밝고 불투명"
+"한 플레어가 생성됩니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:865
+msgid "size"
+msgstr "크기"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:865
+#, fuzzy
+msgid ""
+"``(float, 0.1 to 3)`` Scale of the entire flare effect. Larger values "
+"enlarge halos, rings and glows."
+msgstr ""
+"`` (float, 0.1 to 3)`` 전체 플레어 효과의 크기. 값이 클수록 후광, 고리, 빛남"
+"이 커집니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:866
+msgid "spread"
+msgstr "확산"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:866
+#, fuzzy
+msgid ""
+"``(float, 0 to 1)`` How far secondary reflections travel. 0 keeps them close "
+"to the source, 1 pushes them all the way toward the opposite edge."
+msgstr ""
+"`` (float, 0 to 1)`` 2차 반사가 이동하는 거리. 0은 원천 근처에 머무르고, 1은 "
+"반대 가장자리까지 이동합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:867
+msgid "tint_color"
+msgstr "틴트_색상"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:867
+#, fuzzy
+msgid ""
+"``(color)`` Shifts the flare colors to match your scene. Use the RGBA "
+"sliders to pick hue and transparency."
+msgstr ""
+"`` (color)`` 플레어 색상을 장면에 맞게 변경합니다. RGBA 슬라이더로 색조와 투"
+"명도를 선택하세요."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:872
+msgid ""
+"The Negative effect inverts the colors of the video, producing an image that "
+"resembles a photographic negative. This can be used for artistic effects, to "
+"create a surreal or otherworldly look, or to highlight specific elements "
+"within the frame."
+msgstr ""
+"네거티브 효과는 영상의 색상을 반전시켜 사진 네거티브와 유사한 이미지를 만듭니"
+"다. 예술적 효과, 초현실적이거나 이세계적인 분위기 연출, 또는 프레임 내 특정 "
+"요소를 강조하는 데 사용할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:878
+msgid ""
+"The Object Detector effect employs machine learning algorithms (such as "
+"neural networks) to identify and highlight objects within the video frame. "
+"It can recognize multiple object types, such as vehicles, people, animals, "
+"and more! This can be used for analytical purposes, to add interactive "
+"elements to videos, or to track the movement of specific objects across the "
+"frame."
+msgstr ""
+"객체 감지 효과는 기계 학습 알고리즘(예: 신경망)을 사용하여 비디오 프레임 내"
+"의 객체를 식별하고 강조 표시합니다. 차량, 사람, 동물 등 여러 객체 유형을 인식"
+"할 수 있습니다! 이는 분석 목적, 비디오에 인터랙티브 요소 추가, 특정 객체의 움"
+"직임 추적 등에 사용할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:884
+msgid "Class Filters & Confidence"
+msgstr "클래스 필터 및 신뢰도"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:885
+msgid ""
+"To adjust the detection process to your specific needs, the Object Detector "
+"includes properties for ``class filters`` and ``confidence thresholds``. By "
+"setting a class filter, such as \"Truck\" or \"Person,\" you can instruct "
+"the detector to focus on specific types of objects, limiting the types of "
+"objects tracked. The confidence threshold allows you to set a minimum level "
+"of certainty for detections, ensuring that only objects detected with a "
+"confidence level above this threshold are considered, which helps in "
+"reducing false positives and focusing on more accurate detections."
+msgstr ""
+"감지 과정을 특정 요구에 맞게 조정하기 위해, 객체 감지기는 `` 클래스 필터`` "
+"와 `` 신뢰도 임계값`` 속성을 포함합니다. \"트럭\"이나 \"사람\"과 같은 클래스 "
+"필터를 설정하면 감지기가 특정 유형의 객체에 집중하도록 지시하여 추적되는 객"
+"체 유형을 제한할 수 있습니다. 신뢰도 임계값은 감지에 대한 최소 확신 수준을 설"
+"정할 수 있게 하여, 이 임계값 이상의 신뢰도로 감지된 객체만 고려되도록 하여 오"
+"탐을 줄이고 더 정확한 감지에 집중할 수 있도록 합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:892 ../effects.rst:1115
+msgid "How Parenting Works"
+msgstr "부모-자식 관계 작동 방식"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:893
+msgid ""
+"Once you have tracked objects, you can \"parent\" other :ref:`clips_ref` to "
+"them. This means that the second clip, which could be a graphic, text, or "
+"another video layer, will now follow the tracked object as if it's attached "
+"to it. If the tracked object moves to the left, the child clip moves to the "
+"left. If the tracked object grows in size (gets closer to the camera), the "
+"child clip also scales up. For parented clips to appear correctly, they must "
+"be on a Track higher than the tracked objects, and set the appropriate :ref:"
+"`clip_scale_ref` property."
+msgstr ""
+"객체를 추적한 후에는 다른 :ref:`clips_ref` 를 해당 객체에 \"부모-자식 관계"
+"\"로 연결할 수 있습니다. 이는 두 번째 클립(그래픽, 텍스트 또는 다른 비디오 레"
+"이어)이 추적된 객체에 붙어 있는 것처럼 따라간다는 의미입니다. 추적된 객체가 "
+"왼쪽으로 이동하면 자식 클립도 왼쪽으로 이동합니다. 추적된 객체가 크기가 커지"
+"면(카메라에 가까워지면) 자식 클립도 확대됩니다. 부모-자식 관계가 설정된 클립"
+"이 올바르게 표시되려면 추적된 객체보다 높은 트랙에 있어야 하며, 적절한 :ref:"
+"`clip_scale_ref` 속성을 설정해야 합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:899 ../effects.rst:1122
+msgid "See :ref:`clip_parent_ref`."
+msgstr ":ref:`clip_parent_ref` 를 참조하세요."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:902 ../effects.rst:999 ../effects.rst:1125
+msgid "Properties"
+msgstr "속성"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:910
+msgid "class_filter"
+msgstr "class_filter"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:910
+#, fuzzy
+msgid "``(string)`` Type of object class to filter (i.e. car, person)"
+msgstr "`` (string)`` 필터링할 객체 클래스 유형 (예: 자동차, 사람)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:911
+msgid "confidence_threshold"
+msgstr "confidence_threshold"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:911
+#, fuzzy
+msgid ""
+"``(float, 0 to 1)`` Minimum confidence value to display the detected objects"
+msgstr "`` (float, 0~1)`` 감지된 객체를 표시하기 위한 최소 신뢰도 값"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:912
+msgid "display_box_text"
+msgstr "display_box_text"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:912
+#, fuzzy
+msgid ""
+"``(int, choices: ['Yes', 'No'])`` Draw class name and ID of ALL tracked "
+"objects"
+msgstr ""
+"`` (int, 선택: ['Yes', 'No'])`` 모든 추적된 객체의 클래스 이름과 ID를 표시"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:913
+msgid "display_boxes"
+msgstr "display_boxes"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:913
+#, fuzzy
+msgid ""
+"``(int, choices: ['Yes', 'No'])`` Draw bounding box around ALL tracked "
+"objects (a quick way to hide all tracked objects)"
+msgstr ""
+"`` (int, 선택: ['Yes', 'No'])`` 모든 추적된 객체 주위에 경계 상자 그리기 (모"
+"든 추적 객체를 숨기는 빠른 방법)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:914
+msgid "selected_object_index"
+msgstr "selected_object_index"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:914
+#, fuzzy
+msgid ""
+"``(int, 0 to 200)`` Index of the tracked object that is `selected` to modify "
+"its properties"
+msgstr "`` (int, 0~200)`` 속성을 수정하기 위해 ` 선택된` 추적 객체의 인덱스"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:915 ../effects.rst:1133
+msgid "draw_box"
+msgstr "draw_box"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:915
+#, fuzzy
+msgid ""
+"``(int, choices: ['Yes', 'No'])`` Whether to draw the box around the "
+"selected tracked object"
+msgstr ""
+"`` (int, 선택: ['Yes', 'No'])`` 선택된 추적 객체 주위에 상자를 그릴지 여부"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:916 ../effects.rst:1134
+msgid "box_id"
+msgstr "box_id"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:916 ../effects.rst:1134
+#, fuzzy
+msgid ""
+"``(string)`` Internal ID of a tracked object box for identification purposes"
+msgstr "`` (string)`` 식별 목적으로 사용되는 추적 객체 상자의 내부 ID"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:917 ../effects.rst:1135
+msgid "x1"
+msgstr "x1"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:917 ../effects.rst:1135
+#, fuzzy
+msgid ""
+"``(float, 0 to 1)`` Top left X coordinate of a tracked object box, "
+"normalized to the video frame width"
+msgstr ""
+"`` (float, 0~1)`` 비디오 프레임 너비에 정규화된 추적 객체 상자의 왼쪽 상단 X "
+"좌표"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:918 ../effects.rst:1136
+msgid "y1"
+msgstr "y1"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:918 ../effects.rst:1136
+#, fuzzy
+msgid ""
+"``(float, 0 to 1)`` Top left Y coordinate of a tracked object box, "
+"normalized to the video frame height"
+msgstr ""
+"`` (float, 0~1)`` 비디오 프레임 높이에 정규화된 추적 객체 상자의 왼쪽 상단 Y "
+"좌표"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:919 ../effects.rst:1137
+msgid "x2"
+msgstr "x2"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:919 ../effects.rst:1137
+#, fuzzy
+msgid ""
+"``(float, 0 to 1)`` Bottom right X coordinate of a tracked object box, "
+"normalized to the video frame width"
+msgstr ""
+"`` (float, 0~1)`` 비디오 프레임 너비에 정규화된 추적 객체 상자의 오른쪽 하단 "
+"X 좌표"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:920 ../effects.rst:1138
+msgid "y2"
+msgstr "y2"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:920 ../effects.rst:1138
+#, fuzzy
+msgid ""
+"``(float, 0 to 1)`` Bottom right Y coordinate of a tracked object box, "
+"normalized to the video frame height"
+msgstr ""
+"`` (float, 0~1)`` 비디오 프레임 높이에 정규화된 추적 객체 상자의 오른쪽 하단 "
+"Y 좌표"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:921 ../effects.rst:1139
+msgid "delta_x"
+msgstr "delta_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:921 ../effects.rst:1139
+#, fuzzy
+msgid ""
+"``(float, -1.0 to 1)`` Horizontal movement delta of the tracked object box "
+"from its previous position"
+msgstr "`` (float, -1.0~1)`` 이전 위치에서 추적 객체 상자의 수평 이동 변화량"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:922 ../effects.rst:1140
+msgid "delta_y"
+msgstr "delta_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:922 ../effects.rst:1140
+#, fuzzy
+msgid ""
+"``(float, -1.0 to 1)`` Vertical movement delta of the tracked object box "
+"from its previous position"
+msgstr "`` (float, -1.0~1)`` 이전 위치에서 추적 객체 상자의 수직 이동 변화량"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:923 ../effects.rst:1141
+msgid "scale_x"
+msgstr "scale_x"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:923 ../effects.rst:1141
+#, fuzzy
+msgid ""
+"``(float, 0 to 1)`` Scaling factor in the X direction for the tracked object "
+"box, relative to its original size"
+msgstr "`` (float, 0~1)`` 원래 크기에 대한 추적 객체 상자의 Y 방향 확대 비율"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:924 ../effects.rst:1142
+msgid "scale_y"
+msgstr "scale_y"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:924 ../effects.rst:1142
+#, fuzzy
+msgid ""
+"``(float, 0 to 1)`` Scaling factor in the Y direction for the tracked object "
+"box, relative to its original size"
+msgstr "`` (float, 0~1)`` 원래 크기에 대한 추적 객체 상자의 Y 방향 확대 비율"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:925 ../effects.rst:1143
+msgid "rotation"
+msgstr "rotation"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:925 ../effects.rst:1143
+#, fuzzy
+msgid ""
+"``(float, 0 to 360)`` Rotation angle of the tracked object box, in degrees"
+msgstr "`` (float, 0~360)`` 추적 객체 상자의 회전 각도(도 단위)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:926 ../effects.rst:1144
+msgid "visible"
+msgstr "visible"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:926 ../effects.rst:1144
+#, fuzzy
+msgid ""
+"``(bool)`` Is the tracked object box visible in the current frame. Read-only "
+"property."
+msgstr ""
+"`` (bool)`` 현재 프레임에서 추적 객체 상자가 보이는지 여부. 읽기 전용 속성입"
+"니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:927 ../effects.rst:1145
+#, fuzzy
+msgid "``(color)`` Color of the stroke (border) around the tracked object box"
+msgstr "`` (color)`` 추적 객체 상자 주위의 선(테두리) 색상"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:928 ../effects.rst:1146
+#, fuzzy
+msgid ""
+"``(int, 1 to 10)`` Width of the stroke (border) around the tracked object box"
+msgstr "`` (int, 1~10)`` 추적 객체 상자 주위 선(테두리)의 두께"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:929 ../effects.rst:1147
+msgid "stroke_alpha"
+msgstr "스트로크 투명도"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:929 ../effects.rst:1147
+#, fuzzy
+msgid ""
+"``(float, 0 to 1)`` Opacity of the stroke (border) around the tracked object "
+"box"
+msgstr "`` (float, 0 to 1)`` 추적된 객체 상자 주변 스트로크(테두리)의 불투명도"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:930 ../effects.rst:1148
+#, fuzzy
+msgid ""
+"``(float, 0 to 1)`` Opacity of the background fill inside the tracked object "
+"box"
+msgstr "`` (float, 0 to 1)`` 추적된 객체 상자 내부 배경 채우기의 불투명도"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:931 ../effects.rst:1149
+#, fuzzy
+msgid ""
+"``(int, 0 to 150)`` Radius of the corners for the background fill inside the "
+"tracked object box"
+msgstr "`` (int, 0 to 150)`` 추적된 객체 상자 내부 배경 채우기 모서리의 반경"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:932 ../effects.rst:1150
+#, fuzzy
+msgid "``(color)`` Color of the background fill inside the tracked object box"
+msgstr "`` (color)`` 추적된 객체 상자 내부 배경 채우기 색상"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:937
+msgid ""
+"The Outline effect adds a customizable border around images or text within a "
+"video frame. It works by extracting the image’s alpha channel, blurring it "
+"to generate a smooth outline mask, and then combining this mask with a solid "
+"color layer. Users can adjust the outline’s width as well as its color "
+"components (red, green, blue) and transparency (alpha), allowing for a wide "
+"range of visual styles. This effect is ideal for emphasizing text, creating "
+"visual separation, and adding an artistic flair to your videos."
+msgstr ""
+"Outline 효과는 비디오 프레임 내 이미지나 텍스트 주위에 사용자 지정 가능한 테"
+"두리를 추가합니다. 이미지의 알파 채널을 추출하고 이를 흐리게 하여 부드러운 윤"
+"곽 마스크를 생성한 후, 이 마스크를 단색 레이어와 결합하여 작동합니다. 사용자"
+"는 윤곽선의 너비와 색상 구성 요소(빨강, 초록, 파랑) 및 투명도(알파)를 조절할 "
+"수 있어 다양한 시각적 스타일을 연출할 수 있습니다. 이 효과는 텍스트 강조, 시"
+"각적 분리 생성, 영상에 예술적 느낌을 더하는 데 이상적입니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:949
+msgid "width"
+msgstr "너비"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:949
+#, fuzzy
+msgid "``(float, 0 to 100)``   The width of the outline in pixels."
+msgstr "`` (float, 0 to 100)``   윤곽선의 픽셀 단위 너비."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:950
+msgid "red"
+msgstr "빨강"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:950
+#, fuzzy
+msgid "``(float, 0 to 255)``   The red color component of the outline."
+msgstr "`` (float, 0 to 255)``   윤곽선의 빨간색 구성 요소."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:951
+msgid "green"
+msgstr "초록"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:951
+#, fuzzy
+msgid "``(float, 0 to 255)``   The green color component of the outline."
+msgstr "`` (float, 0 to 255)``   윤곽선의 초록색 구성 요소."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:952
+msgid "blue"
+msgstr "파랑"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:952
+#, fuzzy
+msgid "``(float, 0 to 255)``   The blue color component of the outline."
+msgstr "`` (float, 0 to 255)``   윤곽선의 파란색 구성 요소."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:953
+msgid "alpha"
+msgstr "알파"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:953
+#, fuzzy
+msgid "``(float, 0 to 255)``   The transparency (alpha) value for the outline."
+msgstr "`` (float, 0 to 255)``   윤곽선의 투명도(알파) 값."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:958
+msgid ""
+"The Pixelate effect increases or decreases the size of the pixels in the "
+"video, creating a mosaic-like appearance. This can be used to obscure "
+"details (such as faces or license plates for privacy reasons), or as a "
+"stylistic effect to evoke a retro, digital, or abstract aesthetic."
+msgstr ""
+"Pixelate 효과는 비디오 내 픽셀 크기를 키우거나 줄여 모자이크 같은 모습을 만듭"
+"니다. 이는 개인 정보 보호를 위해 얼굴이나 번호판 등의 세부 사항을 가리거나, "
+"복고풍, 디지털 또는 추상적인 미학을 연출하는 스타일 효과로 사용할 수 있습니"
+"다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:968
+#, fuzzy
+msgid "``(float, 0 to 1)`` The curve to adjust the bottom margin size"
+msgstr "`` (float, 0 to 1)`` 하단 여백 크기를 조절하는 곡선"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:969
+#, fuzzy
+msgid "``(float, 0 to 1)`` The curve to adjust the left margin size"
+msgstr "`` (float, 0 to 1)`` 왼쪽 여백 크기를 조절하는 곡선"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:970
+msgid "pixelization"
+msgstr "픽셀화"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:970
+#, fuzzy
+msgid "``(float, 0 to 0.99)`` The curve to adjust the amount of pixelization"
+msgstr "`` (float, 0 to 0.99)`` 픽셀화 정도를 조절하는 곡선"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:971
+#, fuzzy
+msgid "``(float, 0 to 1)`` The curve to adjust the right margin size"
+msgstr "`` (float, 0 to 1)`` 오른쪽 여백 크기를 조절하는 곡선"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:972
+#, fuzzy
+msgid "``(float, 0 to 1)`` The curve to adjust the top margin size"
+msgstr "`` (float, 0 to 1)`` 상단 여백 크기를 조절하는 곡선"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:977
+msgid ""
+"The Sharpen effect enhances perceived detail by first blurring the frame "
+"slightly and then adding a scaled difference (the *un-sharp mask*) back on "
+"top. This boosts edge contrast, making textures and outlines appear crisper "
+"without changing overall brightness."
+msgstr ""
+"Sharpen 효과는 프레임을 약간 흐리게 한 후, 스케일링된 차이(*언샤프 마스크*)"
+"를 다시 더해 인지되는 세부 묘사를 향상시킵니다. 이로써 가장자리 대비가 높아"
+"져 텍스처와 윤곽이 더 선명하게 보이면서도 전체 밝기는 변하지 않습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:982
+msgid "Modes"
+msgstr "모드"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:984
+msgid ""
+"**Unsharp** – Classic un-sharp mask: the edge detail is added back to the "
+"*original* frame. Produces the familiar punchy sharpen seen in photo editors."
+msgstr ""
+"**Unsharp** – 고전적인 언샤프 마스크: 가장자리 세부가 *원본* 프레임에 다시 추"
+"가됩니다. 사진 편집기에서 흔히 볼 수 있는 강렬한 선명 효과를 만듭니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:987
+msgid ""
+"**HighPass** – High-pass blend: the edge detail is added to the *blurred* "
+"frame, then the result replaces the original.  Gives a softer, more "
+"“contrasty” look and can rescue highlights that would otherwise clip."
+msgstr ""
+"**HighPass** – 하이패스 블렌드: 가장자리 세부가 *흐려진* 프레임에 추가되고, "
+"그 결과가 원본을 대체합니다. 더 부드럽고 대비가 강한 느낌을 주며, 클리핑될 "
+"수 있는 하이라이트를 복구할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:991
+msgid "Channels"
+msgstr "채널"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:993
+msgid ""
+"**All** – Apply the edge mask to the full RGB signal (strongest effect – "
+"colour and brightness sharpened)."
+msgstr ""
+"**All** – 가장자리 마스크를 전체 RGB 신호에 적용 (가장 강한 효과 – 색상과 밝"
+"기 모두 선명해짐)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:994
+msgid ""
+"**Luma** – Apply only to luma (brightness).  Colours stay untouched, so "
+"chroma noise is not amplified."
+msgstr ""
+"**Luma** – 명도(밝기)에만 적용. 색상은 변경되지 않아 색상 노이즈가 증폭되지 "
+"않습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:995
+msgid ""
+"**Chroma** – Apply only to the chroma (colour difference) channels.  Useful "
+"for gently reviving colour edges without changing perceived brightness."
+msgstr ""
+"**Chroma** – 색차(컬러 차이) 채널에만 적용. 인지되는 밝기를 변경하지 않고 색"
+"상 가장자리를 부드럽게 살리는 데 유용합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1007
+msgid "amount"
+msgstr "강도"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1007
+#, fuzzy
+msgid "``(float, 0 to 40)`` Strength multiplier / up to 100% edge boost"
+msgstr "`` (float, 0 to 40)`` 강도 배율 / 최대 100% 가장자리 강화"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1008
+msgid "radius"
+msgstr "반경"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1008
+#, fuzzy
+msgid ""
+"``(float, 0 to 10)`` Blur radius in pixels at 720p (auto-scaled to clip size)"
+msgstr ""
+"`` (float, 0 to 10)`` 720p 기준 픽셀 단위 블러 반경 (클립 크기에 자동 조정)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1009
+#, fuzzy
+msgid "``(float, 0 to 1)`` Minimum luma difference that will be sharpened"
+msgstr "`` (float, 0 to 1)`` 선명하게 할 최소 명도 차이"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1010
+msgid "mode"
+msgstr "모드"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1010
+#, fuzzy
+msgid ""
+"``(int, choices: ['Unsharp', 'HighPass'])`` Math style of the sharpening mask"
+msgstr ""
+"`` (int, choices: ['Unsharp', 'HighPass'])`` 선명화 마스크의 수학적 스타일"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1011
+msgid "channel"
+msgstr "채널"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1011
+#, fuzzy
+msgid ""
+"``(int, choices: ['All', 'Luma', 'Chroma'])`` Which colour channels receive "
+"sharpening"
+msgstr ""
+"`` (int, choices: ['All', 'Luma', 'Chroma'])`` 선명화가 적용될 색상 채널"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1016
+msgid ""
+"The Shift effect moves the entire image in different directions (up, down, "
+"left, and right with infinite wrapping), creating a sense of motion or "
+"disorientation. This can be used for transitions, to simulate camera "
+"movement, or to add dynamic motion to static shots."
+msgstr ""
+"Shift 효과는 전체 이미지를 여러 방향(위, 아래, 왼쪽, 오른쪽)으로 무한 래핑하"
+"며 이동시켜 움직임이나 혼란스러운 느낌을 만듭니다. 전환 효과, 카메라 움직임 "
+"시뮬레이션, 정적인 장면에 동적 움직임을 추가하는 데 사용할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1026
+#, fuzzy
+msgid "``(float, -1 to 1)`` Shift the X coordinates (left or right)"
+msgstr "`` (float, -1 to 1)`` X 좌표를 이동 (왼쪽 또는 오른쪽)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1027
+#, fuzzy
+msgid "``(float, -1 to 1)`` Shift the Y coordinates (up or down)"
+msgstr "`` (float, -1 to 1)`` Y 좌표를 이동 (위 또는 아래)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1033
+msgid ""
+"The Spherical Projection effect flattens 360° or fisheye footage into a "
+"normal rectangular view, or generates fisheye output. Steer a virtual camera "
+"with yaw, pitch, and roll. Control the output view with FOV. Choose the "
+"input type (equirect or one of the fisheye models), pick a projection mode "
+"for the output, and select a sampling mode that balances quality and speed. "
+"This is ideal for keyframed “virtual camera” moves inside 360° clips and for "
+"converting circular fisheye shots."
+msgstr ""
+"구면 투영 효과는 360° 또는 어안 렌즈 영상을 일반 직사각형 뷰로 평면화하거나 "
+"어안 렌즈 출력을 생성합니다. 가상 카메라를 yaw, pitch, roll로 조작하세요. 출"
+"력 뷰는 FOV로 제어합니다. 입력 유형(equirect 또는 어안 렌즈 모델 중 하나)을 "
+"선택하고, 출력용 투영 모드를 선택하며, 품질과 속도의 균형을 맞춘 샘플링 모드"
+"를 선택하세요. 이는 360° 클립 내에서 키프레임된 '가상 카메라' 움직임과 원형 "
+"어안 렌즈 샷 변환에 이상적입니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1044
+msgid "yaw"
+msgstr "요(Yaw)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1044
+#, fuzzy
+msgid ""
+"``(float, -180 to 180)`` Horizontal rotation around the up axis (degrees)."
+msgstr "`` (float, -180 ~ 180)`` 위쪽 축을 중심으로 한 수평 회전(도 단위)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1046
+msgid "pitch"
+msgstr "피치(Pitch)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1046
+#, fuzzy
+msgid ""
+"``(float, -180 to 180)`` Vertical rotation around the right axis (degrees)."
+msgstr "`` (float, -180 ~ 180)`` 오른쪽 축을 중심으로 한 수직 회전(도 단위)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1048
+msgid "roll"
+msgstr "롤(Roll)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1048
+#, fuzzy
+msgid "``(float, -180 to 180)`` Rotation around the forward axis (degrees)."
+msgstr "`` (float, -180 ~ 180)`` 전방 축을 중심으로 한 회전(도 단위)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1050
+msgid "fov"
+msgstr "FOV"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1050
+#, fuzzy
+msgid ""
+"``(float, 0 to 179)`` **Out FOV.** Horizontal field of view of the virtual "
+"camera (degrees) for the output."
+msgstr ""
+"`` (float, 0 ~ 179)`` ** 출력 FOV.** 출력용 가상 카메라의 수평 시야각(도 단"
+"위)."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1052
+msgid "in_fov"
+msgstr "입력 FOV"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1052
+#, fuzzy
+msgid ""
+"``(float, 1 to 360)`` **In FOV.** Total coverage of the source lens. Used "
+"when **Input Model = Fisheye** (typical value 180). Ignored for equirect "
+"sources."
+msgstr ""
+"`` (float, 1 ~ 360)`` ** 입력 FOV.** 소스 렌즈의 전체 시야 범위. ** 입력 모"
+"델 = 어안 렌즈** 일 때 사용(일반 값 180). equirect 소스에는 무시됩니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1054
+msgid "projection_mode"
+msgstr "투영 모드"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1054
+#, fuzzy
+msgid ""
+"``(int)`` Output projection: **Sphere (0):** rectilinear output over the "
+"full sphere. **Hemisphere (1):** rectilinear output over a half sphere. "
+"**Fisheye: Equidistant (2)**, **Equisolid (3)**, **Stereographic (4)**, "
+"**Orthographic (5)**: circular fisheye output using the selected mapping."
+msgstr ""
+"`` (int)`` 출력 투영: ** 구면 (0):** 전체 구면에 대한 직선 투영 출력. ** 반"
+"구 (1):** 반구에 대한 직선 투영 출력. ** 어안 렌즈: 등거리 (2)**, ** 등면적 "
+"(3)**, ** 정사영 (4)**, ** 직교 (5)**: 선택한 매핑을 사용한 원형 어안 렌즈 출"
+"력."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1059
+msgid "input_model"
+msgstr "입력 모델"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1059
+#, fuzzy
+msgid ""
+"``(int)`` Source lens model: **Equirectangular (0)**, **Fisheye: Equidistant "
+"(1)**, **Fisheye: Equisolid (2)**, **Fisheye: Stereographic (3)**, "
+"**Fisheye: Orthographic (4)**."
+msgstr ""
+"`` (int)`` 소스 렌즈 모델: ** 등각사영 (0)**, ** 어안 렌즈: 등거리 (1)**, ** "
+"어안 렌즈: 등면적 (2)**, ** 어안 렌즈: 정사영 (3)**, ** 어안 렌즈: 직교 "
+"(4)**."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1062
+msgid "invert"
+msgstr "반전"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1062
+#, fuzzy
+msgid ""
+"``(int)`` Flip the view by 180° without mirroring. **Normal (0)**, **Invert "
+"(1)**. For equirect sources this behaves like a 180° yaw. For fisheye inputs "
+"it swaps front/back hemispheres."
+msgstr ""
+"`` (int)`` 미러링 없이 뷰를 180° 회전. ** 기본 (0)**, ** 반전 (1)**. "
+"equirect 소스에서는 180° 요(Yaw)와 같으며, 어안 렌즈 입력에서는 앞/뒤 반구를 "
+"교환합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1065
+msgid "interpolation"
+msgstr "보간법"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1065
+#, fuzzy
+msgid ""
+"``(int)`` Sampling method: **Nearest (0)**, **Bilinear (1)**, **Bicubic "
+"(2)**, **Auto (3)**. Auto picks Bilinear at ~1:1, Bicubic when upscaling, "
+"and a mipmapped Bilinear when downscaling."
+msgstr ""
+"`` (int)`` 샘플링 방법: ** 최근접 (0)**, ** 양선형 (1)**, ** 삼차 (2)**, ** "
+"자동 (3)**. 자동은 약 1:1에서 양선형, 업스케일 시 삼차, 다운스케일 시 "
+"mipmapped 양선형을 선택합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1072
+msgid ""
+"**Flatten a fisheye clip to a normal view:** Set **Input Model** to the "
+"correct fisheye type, set **In FOV** to your lens coverage (often 180), "
+"choose **Projection Mode = Sphere** or **Hemisphere**, then frame with **Yaw/"
+"Pitch/Roll** and **Out FOV**."
+msgstr ""
+"** 어안 렌즈 클립을 일반 뷰로 평면화:** ** 입력 모델** 을 올바른 어안 렌즈 유"
+"형으로 설정하고, ** 입력 FOV** 를 렌즈 커버리지(보통 180)로 설정한 후, ** 투"
+"영 모드** 를 구면 또는 반구로 선택하고, ** 요/피치/롤** 과 ** 출력 FOV** 로 "
+"프레임을 조정하세요."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1074
+msgid ""
+"**Reframe an equirect clip:** Set **Input Model = Equirectangular**, pick "
+"**Sphere** (full) or **Hemisphere** (front/back). **Invert** on equirect is "
+"equivalent to yaw +180 and does not mirror."
+msgstr ""
+"** 등각사영 클립 재구성:** ** 입력 모델 = 등각사영** 으로 설정하고, ** 구면"
+"**(전체) 또는 ** 반구**(앞/뒤)를 선택하세요. 등각사영에서 ** 반전** 은 요 "
+"+180과 같으며 미러링하지 않습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1076
+msgid ""
+"**Create a fisheye output:** Choose one of the **Fisheye** projection modes "
+"(2..5). **Out FOV** controls disk coverage (180 gives a classic circular "
+"fisheye)."
+msgstr ""
+"** 어안 렌즈 출력 생성:** ** 어안 렌즈** 투영 모드(2..5) 중 하나를 선택하세"
+"요. ** 출력 FOV** 는 디스크 커버리지를 제어하며(180은 고전적인 원형 어안 렌즈"
+"를 의미)입니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1078
+msgid ""
+"If the image looks mirrored, turn **Invert** off. If you need the back view "
+"on equirect, use **Invert** or add +180 to **Yaw**."
+msgstr ""
+"이미지가 미러링되어 보이면 ** 반전** 을 끄세요. 등각사영에서 뒷면 뷰가 필요하"
+"면 ** 반전** 을 사용하거나 ** 요** 에 +180을 더하세요."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1079
+msgid ""
+"If the output looks soft or aliased, reduce **Out FOV** or increase export "
+"resolution. **Auto** interpolation adapts the filter to scaling."
+msgstr ""
+"출력이 흐릿하거나 계단 현상이 보이면 ** 출력 FOV** 를 줄이거나 내보내기 해상"
+"도를 높이세요. ** 자동** 보간법은 필터를 스케일에 맞게 조정합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1083
+msgid ""
+"The Stabilizer effect reduces unwanted shake and jitter in handheld or "
+"unstable video footage, resulting in smoother, more professional-looking "
+"shots. This is particularly useful for action scenes, handheld shots, or any "
+"footage where a tripod was not used."
+msgstr ""
+"안정화 효과는 핸드헬드 또는 불안정한 영상의 원치 않는 흔들림과 떨림을 줄여 "
+"더 부드럽고 전문적인 촬영 결과를 만듭니다. 액션 장면, 핸드헬드 촬영, 삼각대"
+"를 사용하지 않은 영상에 특히 유용합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1093
+msgid "zoom"
+msgstr "줌"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1093
+#, fuzzy
+msgid ""
+"``(float, 0 to 2)`` Percentage to zoom into the clip, to crop off the "
+"shaking and uneven edges"
+msgstr ""
+"`` (float, 0 ~ 2)`` 흔들림과 고르지 않은 가장자리를 잘라내기 위해 클립을 확대"
+"하는 비율"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1098
+msgid ""
+"The Tracker effect allows for the tracking of a specific object or area "
+"within the video frame across multiple frames. This can be used for motion "
+"tracking, adding effects or annotations that follow the movement of objects, "
+"or for stabilizing footage based on a tracked point.When tracking an object, "
+"be sure to select the entire object, which is visible at the start of a "
+"clip, and choose one of the following ``Tracking Type`` algorithms. The "
+"tracking algorithm then follows this object from frame to frame, recording "
+"its position, scale, and sometimes rotation."
+msgstr ""
+"트래커 효과는 비디오 프레임 내 특정 객체나 영역을 여러 프레임에 걸쳐 추적할 "
+"수 있게 합니다. 이는 모션 트래킹, 객체 움직임을 따라가는 효과나 주석 추가, 또"
+"는 추적된 지점을 기반으로 한 영상 안정화에 사용할 수 있습니다. 객체를 추적할 "
+"때는 클립 시작 시 보이는 전체 객체를 선택하고 다음 중 하나의 `` 추적 유형`` "
+"알고리즘을 선택하세요. 추적 알고리즘은 프레임마다 객체의 위치, 크기, 때로는 "
+"회전을 기록하며 추적합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1105
+msgid "Tracking Type"
+msgstr "추적 유형"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1106
+msgid ""
+"**KCF:** (default) A blend of Boosting and MIL strategies, employing "
+"correlation filters on overlapping areas from 'bags' to accurately track and "
+"predict object movement. It offers higher speed and accuracy and can stop "
+"tracking when the object is lost but struggles to resume tracking after "
+"losing the object."
+msgstr ""
+"**KCF:** (기본) Boosting과 MIL 전략을 혼합한 방식으로, '가방'의 겹치는 영역"
+"에 상관 필터를 적용해 객체 움직임을 정확히 추적하고 예측합니다. 속도와 정확도"
+"가 높으며 객체를 잃으면 추적을 중단할 수 있지만, 잃은 후 재추적이 어렵습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1107
+msgid ""
+"**MIL:** Improves upon Boosting by considering multiple potential positives "
+"('bags') around the definite positive object, increasing robustness to noise "
+"and maintaining good accuracy. However, it shares the Boosting Tracker's "
+"drawbacks of low speed and difficulty in stopping tracking when the object "
+"is lost."
+msgstr ""
+"**MIL:** 확실한 양성 객체 주변의 여러 잠재적 양성('가방')을 고려하여 Boosting"
+"보다 노이즈에 강하고 정확도를 유지합니다. 그러나 Boosting 트래커와 마찬가지"
+"로 속도가 느리고 객체를 잃었을 때 추적 중단이 어렵다는 단점이 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1108
+msgid ""
+"**BOOSTING:** Utilizes the online AdaBoost algorithm to enhance the "
+"classification of tracked objects by focusing on incorrectly classified "
+"ones. It requires setting the initial frame and treats nearby objects as "
+"background, adjusting to new frames based on maximum score areas. It's known "
+"for accurate tracking but suffers from low speed, noise sensitivity, and "
+"difficulty stopping tracking upon object loss."
+msgstr ""
+"**BOOSTING:** 온라인 AdaBoost 알고리즘을 사용하여 잘못 분류된 객체에 집중함으"
+"로써 추적된 객체의 분류를 향상시킵니다. 초기 프레임 설정이 필요하며, 주변 객"
+"체를 배경으로 처리하고 최대 점수 영역을 기반으로 새 프레임에 적응합니다. 정확"
+"한 추적으로 알려져 있지만 속도가 느리고 노이즈에 민감하며 객체 손실 시 추적 "
+"중단이 어렵습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1109
+msgid ""
+"**TLD:** Decomposes tracking into tracking, learning, and detection phases, "
+"allowing for adaptation and correction over time. While it can handle object "
+"scaling and occlusions reasonably well, it may behave unpredictably, with "
+"instability in tracking and detection."
+msgstr ""
+"**TLD:** 추적을 추적, 학습, 감지 단계로 분해하여 시간이 지남에 따라 적응 및 "
+"수정이 가능하게 합니다. 객체 크기 조정과 가림 현상을 비교적 잘 처리할 수 있지"
+"만, 추적 및 감지에서 불안정하고 예측 불가능한 동작을 할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1110
+msgid ""
+"**MEDIANFLOW:** Based on the Lucas-Kanade method, it analyzes forward and "
+"backward movement to estimate trajectory errors for real-time position "
+"prediction. It's fast and accurate under certain conditions but can lose "
+"track of fast-moving objects."
+msgstr ""
+"**MEDIANFLOW:** Lucas-Kanade 방법을 기반으로 하여 전진 및 후진 움직임을 분석"
+"해 궤적 오차를 추정하고 실시간 위치 예측을 수행합니다. 특정 조건에서 빠르고 "
+"정확하지만 빠르게 움직이는 객체를 놓칠 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1111
+msgid ""
+"**MOSSE:** Utilizes adaptive correlations in Fourier space to maintain "
+"robustness against lighting, scale, and pose changes. It boasts very high "
+"tracking speeds and is better at continuing tracking after loss, but it may "
+"persist in tracking an absent object."
+msgstr ""
+"**MOSSE:** 푸리에 공간에서 적응형 상관관계를 활용하여 조명, 크기, 자세 변화"
+"에 강인성을 유지합니다. 매우 높은 추적 속도를 자랑하며 추적 손실 후에도 추적"
+"을 계속하는 데 유리하지만, 사라진 객체를 계속 추적할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1112
+msgid ""
+"**CSRT:** Employs spatial reliability maps to adjust filter support, "
+"enhancing the ability to track non-rectangular objects and perform well even "
+"with object overlaps. However, it is slower and may not operate reliably "
+"when the object is lost."
+msgstr ""
+"**CSRT:** 공간 신뢰도 맵을 사용하여 필터 지원을 조정함으로써 비직사각형 객체 "
+"추적 능력을 향상시키고 객체 겹침 상황에서도 잘 작동합니다. 그러나 속도가 느리"
+"고 객체가 사라졌을 때 신뢰성 있게 작동하지 않을 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1116
+msgid ""
+"Once you have a tracked object, you can \"parent\" other :ref:`clips_ref` to "
+"it. This means that the second clip, which could be a graphic, text, or "
+"another video layer, will now follow the tracked object as if it's attached "
+"to it. If the tracked object moves to the left, the child clip moves to the "
+"left. If the tracked object grows in size (gets closer to the camera), the "
+"child clip also scales up. For parented clips to appear correctly, they must "
+"be on a Track higher than the tracked objects, and set the appropriate :ref:"
+"`clip_scale_ref` property."
+msgstr ""
+"추적된 객체가 있으면 다른 :ref:`clips_ref` 를 해당 객체에 \"부모 지정\"할 수 "
+"있습니다. 이는 두 번째 클립(그래픽, 텍스트 또는 다른 비디오 레이어)이 마치 부"
+"착된 것처럼 추적된 객체를 따라 움직인다는 의미입니다. 추적된 객체가 왼쪽으로 "
+"이동하면 자식 클립도 왼쪽으로 이동합니다. 추적된 객체가 크기가 커지면(카메라"
+"에 가까워지면) 자식 클립도 함께 확대됩니다. 부모 지정된 클립이 올바르게 표시"
+"되려면 추적된 객체보다 높은 트랙에 있어야 하며, 적절한 :ref:`clip_scale_ref` "
+"속성을 설정해야 합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1133
+#, fuzzy
+msgid ""
+"``(int, choices: ['Yes', 'No'])`` Whether to draw the box around the tracked "
+"object"
+msgstr "`` (int, 선택: ['Yes', 'No'])`` 추적된 객체 주위에 상자를 그릴지 여부"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1155
+msgid ""
+"The Wave effect distorts the image into a wave-like pattern, simulating "
+"effects like heat haze, water reflections, or other forms of distortion. The "
+"speed, amplitude, and direction of the waves can be adjusted."
+msgstr ""
+"Wave 효과는 이미지를 파도 모양으로 왜곡하여 열기 아지랑이, 수면 반사 또는 기"
+"타 왜곡 효과를 시뮬레이션합니다. 파도의 속도, 진폭, 방향을 조절할 수 있습니"
+"다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1164
+msgid "amplitude"
+msgstr "진폭"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1164
+#, fuzzy
+msgid "``(float, 0 to 5)`` The height of the wave"
+msgstr "`` (float, 0~5)`` 파도의 높이"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1165
+msgid "multiplier"
+msgstr "배율"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1165
+#, fuzzy
+msgid "``(float, 0 to 10)`` Amount to multiply the wave (make it bigger)"
+msgstr "`` (float, 0~10)`` 파도를 곱하는 양 (크게 만듦)"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1166
+msgid "shift_x"
+msgstr "X축 이동"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1166
+#, fuzzy
+msgid "``(float, 0 to 1000)`` Amount to shift X-axis"
+msgstr "`` (float, 0~1000)`` X축 이동량"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1167
+msgid "speed_y"
+msgstr "Y축 속도"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1167
+#, fuzzy
+msgid "``(float, 0 to 300)`` Speed of the wave on the Y-axis"
+msgstr "`` (float, 0~300)`` Y축 파도 속도"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1168
+msgid "wavelength"
+msgstr "파장"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1168
+#, fuzzy
+msgid "``(float, 0 to 3)`` The length of the wave"
+msgstr "`` (float, 0~3)`` 파도의 길이"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1172
+msgid "Audio Effects"
+msgstr "오디오 효과"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1174
+msgid ""
+"Audio effects modify the waveforms and audio sample data of a clip. Below is "
+"a list of audio effects, and their properties. Often it is best to "
+"experiment with an effect, entering different values into the properties, "
+"and observing the results."
+msgstr ""
+"오디오 효과는 클립의 파형과 오디오 샘플 데이터를 수정합니다. 아래는 오디오 효"
+"과와 그 속성 목록입니다. 효과를 적용해보고 다양한 값을 입력하여 결과를 관찰하"
+"는 것이 좋습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1180
+msgid ""
+"The Compressor effect in audio processing reduces the dynamic range of the "
+"audio signal, making loud sounds quieter and quiet sounds louder. This "
+"creates a more consistent volume level, useful for balancing the loudness of "
+"different audio sources or for achieving a particular sound characteristic "
+"in music production."
+msgstr ""
+"오디오 처리에서 Compressor 효과는 오디오 신호의 다이내믹 레인지를 줄여 큰 소"
+"리는 작게, 작은 소리는 크게 만듭니다. 이는 볼륨 레벨을 보다 일관되게 만들어 "
+"다양한 오디오 소스의 음량 균형을 맞추거나 음악 제작에서 특정 사운드 특성을 얻"
+"는 데 유용합니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1190 ../effects.rst:1260
+msgid "attack"
+msgstr "어택"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1190 ../effects.rst:1260
+#, fuzzy
+msgid "``(float, 0.1 to 100)``"
+msgstr "`` (float, 0.1~100)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1191 ../effects.rst:1261
+msgid "bypass"
+msgstr "바이패스"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1191 ../effects.rst:1261
+#, fuzzy
+msgid "``(bool)``"
+msgstr "`` (bool)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1192 ../effects.rst:1262
+msgid "makeup_gain"
+msgstr "메이크업 게인"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1192 ../effects.rst:1262
+#, fuzzy
+msgid "``(float, -12 to 12)``"
+msgstr "`` (float, -12~12)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1193 ../effects.rst:1263
+msgid "ratio"
+msgstr "비율"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1193 ../effects.rst:1263
+#, fuzzy
+msgid "``(float, 1 to 100)``"
+msgstr "`` (float, 1~100)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1194 ../effects.rst:1264
+msgid "release"
+msgstr "릴리즈"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1194 ../effects.rst:1264
+#, fuzzy
+msgid "``(float, 10 to 1000)``"
+msgstr "`` (float, 10~1000)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1195 ../effects.rst:1265
+#, fuzzy
+msgid "``(float, -60 to 0)``"
+msgstr "`` (float, -60~0)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1200
+msgid ""
+"The Delay effect adds an echo to the audio signal, repeating the sound after "
+"a short delay. This can create a sense of space and depth in the audio, and "
+"is commonly used for creative effects in music, sound design, and audio post-"
+"production."
+msgstr ""
+"Delay 효과는 오디오 신호에 에코를 추가하여 짧은 지연 후에 소리를 반복합니다. "
+"이는 오디오에 공간감과 깊이를 부여하며 음악, 사운드 디자인, 오디오 후반 작업"
+"에서 창의적인 효과로 자주 사용됩니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1210
+msgid "delay_time"
+msgstr "지연 시간"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1210 ../effects.rst:1243
+#, fuzzy
+msgid "``(float, 0 to 5)``"
+msgstr "`` (float, 0~5)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1215
+msgid ""
+"The Distortion effect intentionally clips the audio signal, adding harmonic "
+"and non-harmonic overtones. This can create a gritty, aggressive sound "
+"characteristic of many electric guitar tones and is used for both musical "
+"and sound design purposes."
+msgstr ""
+"Distortion 효과는 오디오 신호를 의도적으로 클리핑하여 고조파 및 비고조파 오버"
+"톤을 추가합니다. 이는 많은 일렉트릭 기타 톤의 거칠고 공격적인 사운드를 만들어"
+"내며 음악 및 사운드 디자인 목적으로 사용됩니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1225
+msgid "distortion_type"
+msgstr "디스토션 유형"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1225
+#, fuzzy
+msgid ""
+"``(int, choices: ['Hard Clipping', 'Soft Clipping', 'Exponential', 'Full "
+"Wave Rectifier', 'Half Wave Rectifier'])``"
+msgstr ""
+"`` (int, 선택: ['Hard Clipping', 'Soft Clipping', 'Exponential', 'Full Wave "
+"Rectifier', 'Half Wave Rectifier'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1226
+msgid "input_gain"
+msgstr "입력 게인"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1226 ../effects.rst:1227 ../effects.rst:1228
+#: ../effects.rst:1297
+#, fuzzy
+msgid "``(int, -24 to 24)``"
+msgstr "`` (정수, -24에서 24까지)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1227
+msgid "output_gain"
+msgstr "출력 게인"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1228
+msgid "tone"
+msgstr "톤"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1233
+msgid ""
+"The Echo effect, similar to delay, repeats the audio signal at intervals, "
+"but with a focus on creating a distinct repetition of sound that mimics "
+"natural echoes. This can be used to simulate acoustic environments or for "
+"creative sound effects."
+msgstr ""
+"에코 효과는 딜레이와 유사하게 오디오 신호를 간격을 두고 반복하지만, 자연스러"
+"운 메아리를 모방하는 뚜렷한 반복음을 만드는 데 중점을 둡니다. 이는 음향 환경"
+"을 시뮬레이션하거나 창의적인 사운드 효과에 사용할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1243
+msgid "echo_time"
+msgstr "에코 시간"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1244
+msgid "feedback"
+msgstr "피드백"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1244 ../effects.rst:1245
+#, fuzzy
+msgid "``(float, 0 to 1)``"
+msgstr "`` (실수, 0에서 1까지)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1245
+msgid "mix"
+msgstr "믹스"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1250
+msgid ""
+"The Expander effect increases the dynamic range of audio, making quiet "
+"sounds quieter and leaving loud sounds unaffected. This is the opposite of "
+"compression and is used to reduce background noise or increase the dynamic "
+"impact of audio."
+msgstr ""
+"익스팬더 효과는 오디오의 다이내믹 레인지를 확장하여 조용한 소리를 더 조용하"
+"게 만들고 큰 소리는 영향을 받지 않게 합니다. 이는 컴프레션의 반대이며 배경 소"
+"음을 줄이거나 오디오의 다이내믹 임팩트를 높이는 데 사용됩니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1270
+msgid ""
+"The Noise effect adds random, equal-intensity signals across the frequency "
+"spectrum to the audio, simulating the sound of white noise. This can be used "
+"for sound masking, as a component in sound design, or for testing and "
+"calibration purposes."
+msgstr ""
+"노이즈 효과는 주파수 스펙트럼 전반에 걸쳐 무작위의 동일 강도 신호를 오디오에 "
+"추가하여 화이트 노이즈 소리를 시뮬레이션합니다. 이는 사운드 마스킹, 사운드 디"
+"자인 구성 요소, 또는 테스트 및 보정 목적으로 사용할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1280
+msgid "level"
+msgstr "레벨"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1280
+#, fuzzy
+msgid "``(int, 0 to 100)``"
+msgstr "`` (정수, 0에서 100까지)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1285
+msgid ""
+"The Parametric EQ (Equalizer) effect allows for precise adjustments to the "
+"volume level of specific frequency ranges in the audio signal. This can be "
+"used for corrective measures, such as removing unwanted tones, or "
+"creatively, to shape the tonal balance of the audio."
+msgstr ""
+"파라메트릭 EQ(이퀄라이저) 효과는 오디오 신호 내 특정 주파수 범위의 볼륨 레벨"
+"을 정밀하게 조정할 수 있게 합니다. 이는 원치 않는 음을 제거하는 보정 작업이"
+"나, 창의적으로 오디오의 음색 균형을 조절하는 데 사용할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1295
+msgid "filter_type"
+msgstr "필터 유형"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1295
+#, fuzzy
+msgid ""
+"``(int, choices: ['Low Pass', 'High Pass', 'Low Shelf', 'High Shelf', 'Band "
+"Pass', 'Band Stop', 'Peaking Notch'])``"
+msgstr ""
+"`` (정수, 선택: ['로우 패스', '하이 패스', '로우 셸프', '하이 셸프', '밴드 패"
+"스', '밴드 스톱', '피킹 노치'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1296
+msgid "frequency"
+msgstr "주파수"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1296
+#, fuzzy
+msgid "``(int, 20 to 20000)``"
+msgstr "`` (정수, 20에서 20000까지)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1297
+msgid "gain"
+msgstr "게인"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1298
+msgid "q_factor"
+msgstr "Q 팩터"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1298
+#, fuzzy
+msgid "``(float, 0 to 20)``"
+msgstr "`` (실수, 0에서 20까지)``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1303
+msgid ""
+"The Robotization effect transforms the audio to sound mechanical or robotic, "
+"by applying a combination of pitch modulation and synthesis techniques. This "
+"effect is widely used for character voices in media, creative music "
+"production, and sound design."
+msgstr ""
+"로보타이제이션 효과는 피치 변조와 합성 기법을 결합하여 오디오를 기계적이거나 "
+"로봇 같은 소리로 변환합니다. 이 효과는 미디어의 캐릭터 음성, 창의적인 음악 제"
+"작, 사운드 디자인에 널리 사용됩니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1313 ../effects.rst:1330
+msgid "fft_size"
+msgstr "FFT 크기"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1313 ../effects.rst:1330
+#, fuzzy
+msgid "``(int, choices: ['128', '256', '512', '1024', '2048'])``"
+msgstr "`` (정수, 선택: ['128', '256', '512', '1024', '2048'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1314 ../effects.rst:1331
+msgid "hop_size"
+msgstr "홉 크기"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1314 ../effects.rst:1331
+#, fuzzy
+msgid "``(int, choices: ['1/2', '1/4', '1/8'])``"
+msgstr "`` (정수, 선택: ['1/2', '1/4', '1/8'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1315 ../effects.rst:1332
+msgid "window_type"
+msgstr "윈도우 유형"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1315 ../effects.rst:1332
+#, fuzzy
+msgid "``(int, choices: ['Rectangular', 'Bart Lett', 'Hann', 'Hamming'])``"
+msgstr "`` (정수, 선택: ['직사각형', '바트 렛', '한', '해밍'])``"
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1320
+msgid ""
+"The Whisperization effect transforms the audio to mimic a whispering voice, "
+"often by filtering out certain frequencies and adding noise. This can be "
+"used for artistic effects in music, sound design for film and video, or in "
+"audio storytelling to convey secrecy or intimacy."
+msgstr ""
+"위스퍼라이제이션 효과는 특정 주파수를 필터링하고 노이즈를 추가하여 속삭이는 "
+"목소리를 모방하도록 오디오를 변환합니다. 이는 음악의 예술적 효과, 영화 및 비"
+"디오 사운드 디자인, 또는 오디오 스토리텔링에서 비밀이나 친밀감을 전달하는 데 "
+"사용할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../effects.rst:1335
+msgid "For more info on key frames and animation, see :ref:`animation_ref`."
+msgstr ""
+"키 프레임과 애니메이션에 대한 자세한 내용은 :ref:`animation_ref` 를 참조하세"
+"요."

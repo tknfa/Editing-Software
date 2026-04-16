@@ -1,0 +1,243 @@
+name: Preview
+
+on:
+  pull_request:
+    branches: [master]
+    paths:
+      - 'transitions/*.glsl'
+
+  workflow_dispatch:
+    inputs:
+      transition:
+        description: 'Transition name (optional — auto-detects from PR if omitted)'
+        required: false
+        type: string
+      pr_number:
+        description: 'PR number to preview and comment on'
+        required: true
+        type: string
+
+concurrency:
+  group: preview-${{ github.event.pull_request.number || inputs.pr_number || github.run_id }}
+  cancel-in-progress: true
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      issues: write
+      contents: write
+    env:
+      TRANSITION_NAME: ${{ inputs.transition }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fetch master for diff
+        if: github.event_name == 'pull_request'
+        run: git fetch origin master
+
+      - name: Checkout PR branch for workflow_dispatch
+        if: github.event_name == 'workflow_dispatch' && inputs.pr_number != ''
+        env:
+          PR_NUMBER: ${{ inputs.pr_number }}
+        run: |
+          git fetch origin "pull/${PR_NUMBER}/head" --depth=1
+          git checkout FETCH_HEAD -- transitions/
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y xvfb mesa-utils libgl1-mesa-dri libglapi-mesa libosmesa6 ffmpeg
+
+      - name: Install preview dependencies
+        run: cd scripts/preview && npm install
+
+      - name: Detect transitions
+        id: detect
+        env:
+          PR_NUMBER: ${{ inputs.pr_number }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            if [ -n "$TRANSITION_NAME" ]; then
+              # Single transition specified
+              if [ ! -f "transitions/${TRANSITION_NAME}.glsl" ]; then
+                echo "::error::transitions/${TRANSITION_NAME}.glsl not found"
+                exit 1
+              fi
+              echo "files=transitions/${TRANSITION_NAME}.glsl" >> $GITHUB_OUTPUT
+            else
+              # Auto-detect from PR diff — normalize nested dirs (transitions/X.glsl/X.glsl -> transitions/X.glsl)
+              FILES=$(gh pr diff "$PR_NUMBER" --repo "${{ github.repository }}" --name-only \
+                | grep '^transitions/.*\.glsl$\|^transitions/.*\.glsl/' \
+                | sed 's|transitions/\(.*\.glsl\)/.*|transitions/\1|' \
+                | sort -u | head -20 || true)
+              FILES=$(echo "$FILES" | tr '\n' ' ')
+              if [ -z "$FILES" ]; then
+                echo "::warning::No .glsl files found in PR #${PR_NUMBER}"
+                echo "files=" >> $GITHUB_OUTPUT
+              else
+                echo "Detected files: $FILES"
+                echo "files=$FILES" >> $GITHUB_OUTPUT
+              fi
+            fi
+            echo "pr=$PR_NUMBER" >> $GITHUB_OUTPUT
+          else
+            FILES=$(git diff --name-only origin/master...HEAD -- 'transitions/*.glsl' | tr '\n' ' ')
+            if [ -z "$FILES" ]; then
+              echo "No .glsl files changed"
+              echo "files=" >> $GITHUB_OUTPUT
+            else
+              echo "files=$FILES" >> $GITHUB_OUTPUT
+            fi
+            echo "pr=${{ github.event.pull_request.number }}" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Validate and render previews
+        if: steps.detect.outputs.files != ''
+        run: |
+          mkdir -p /tmp/previews
+          xvfb-run -s "-ac -screen 0 1280x1024x24" bash -c '
+            for file in ${{ steps.detect.outputs.files }}; do
+              name=$(basename "$file" .glsl)
+              echo "=== Validating $name ==="
+              node scripts/preview/validate-transition.js \
+                --transition "$file" > "/tmp/previews/${name}.validation.json" 2>/dev/null || true
+              cat "/tmp/previews/${name}.validation.json"
+              echo ""
+              echo "=== Rendering $name ==="
+              node scripts/preview/render-transition.js \
+                --transition "$file" \
+                --output "/tmp/previews/${name}.gif" 2>&1 || echo "Failed: $name"
+            done
+          '
+
+      - name: Upload GIFs to preview-assets branch
+        if: steps.detect.outputs.files != '' && (github.event_name == 'workflow_dispatch' || github.event.pull_request.head.repo.full_name == github.repository)
+        id: upload
+        run: |
+          PREFIX="run-${{ github.run_id }}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Reset working tree — PR branch checkout may have modified tracked files
+          git reset --hard HEAD
+          git clean -fd
+
+          git fetch origin preview-assets 2>/dev/null || true
+          if git rev-parse --verify origin/preview-assets >/dev/null 2>&1; then
+            git checkout origin/preview-assets
+          else
+            git checkout --orphan preview-assets
+            git rm -rf . 2>/dev/null || true
+          fi
+
+          HAS_FILES=false
+          for gif in /tmp/previews/*.gif; do
+            [ -f "$gif" ] || continue
+            cp "$gif" "${PREFIX}-$(basename "$gif")"
+            git add "${PREFIX}-$(basename "$gif")"
+            HAS_FILES=true
+          done
+
+          if [ "$HAS_FILES" = "true" ]; then
+            git commit -m "Preview GIFs for run ${{ github.run_id }}"
+            git push -f origin HEAD:preview-assets
+            echo "pushed=true" >> $GITHUB_OUTPUT
+            echo "prefix=$PREFIX" >> $GITHUB_OUTPUT
+          else
+            echo "pushed=false" >> $GITHUB_OUTPUT
+          fi
+
+          git checkout -
+
+      - name: Upload preview GIFs as artifacts
+        if: steps.detect.outputs.files != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: transition-previews
+          path: /tmp/previews/*.gif
+          if-no-files-found: warn
+
+      - name: Post preview comment with inline GIFs
+        if: steps.upload.outputs.pushed == 'true' && steps.detect.outputs.pr != '' && (github.event_name == 'workflow_dispatch' || github.event.pull_request.head.repo.full_name == github.repository)
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+            const pr = ${{ steps.detect.outputs.pr }};
+            const prefix = '${{ steps.upload.outputs.prefix }}';
+            const baseUrl = `https://raw.githubusercontent.com/${context.repo.owner}/${context.repo.repo}/preview-assets`;
+
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: pr,
+            });
+            const botComment = comments.find(c =>
+              c.user.type === 'Bot' && c.body.includes('## Transition Preview')
+            );
+
+            const files = '${{ steps.detect.outputs.files }}'.split(' ').filter(Boolean);
+            let body = '## Transition Preview\n\n';
+
+            for (const file of files) {
+              const name = path.basename(file, '.glsl');
+              const gifPath = `/tmp/previews/${name}.gif`;
+              const validationPath = `/tmp/previews/${name}.validation.json`;
+
+              // Read validation results
+              let validation = null;
+              try {
+                validation = JSON.parse(fs.readFileSync(validationPath, 'utf8'));
+              } catch {}
+
+              const hasGif = fs.existsSync(gifPath);
+              const icon = validation?.valid === true ? '✅' : validation?.valid === false ? '❌' : '⚠️';
+              body += `### ${icon} ${name}\n\n`;
+
+              if (hasGif) {
+                const gifUrl = `${baseUrl}/${prefix}-${name}.gif`;
+                body += `![${name}](${gifUrl})\n\n`;
+              } else {
+                body += `⚠️ Failed to render preview\n\n`;
+              }
+
+              if (validation) {
+                if (validation.errors?.length > 0) {
+                  body += `**Errors:**\n${validation.errors.map(e => `- ${e}`).join('\n')}\n\n`;
+                }
+                if (validation.warnings?.length > 0) {
+                  body += `**Warnings:**\n${validation.warnings.map(w => `- ${w}`).join('\n')}\n\n`;
+                }
+                if (validation.valid) {
+                  body += `Shader validation passed.\n\n`;
+                }
+              }
+            }
+
+            body += `---\n🤖 Generated by the [preview bot](${process.env.GITHUB_SERVER_URL}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId})`;
+
+            if (botComment) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: botComment.id,
+                body,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: pr,
+                body,
+              });
+            }

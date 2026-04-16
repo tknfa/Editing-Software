@@ -1,0 +1,26 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "mlt",
+  "dependencies": [
+    "dirent",
+    "dlfcn-win32",
+    "libiconv",
+    "pkgconf",
+    "pthreads",
+    "sdl2",
+    "ffmpeg",
+    "qtbase",
+    "qtsvg",
+    "libxml2",
+    "libebur128",
+    "gdk-pixbuf",
+    "rubberband",
+    "libvorbis",
+    "fftw3",
+    "libexif",
+    {
+      "name": "opencv",
+      "features": [ "contrib" ]
+    }
+  ]
+}
