@@ -528,16 +528,23 @@ class TimelineView(updates.UpdateInterface, ViewClass):
             self.redraw_audio_timer.start()
 
     def _extend_timeline_to_fit_items(self):
-        """Extend project duration to cover all clips/transitions."""
-        # Reuse QWidget timeline helper when available
-        update_duration = getattr(self, "_update_project_duration", None)
-        if callable(update_duration):
-            try:
-                update_duration()
-                return
-            except Exception:
-                log.warning("Failed to update project duration via widget helper", exc_info=1)
+        """Sync project duration to the actual used range on the timeline."""
+        self._sync_project_duration_to_items(auto_fit_on_shrink=True)
 
+    def _project_duration_floor(self):
+        """Return the minimum non-zero timeline duration."""
+        fps = get_app().project.get("fps") or {}
+        try:
+            fps_num = float(fps.get("num", 24.0) or 24.0)
+            fps_den = float(fps.get("den", 1.0) or 1.0)
+            fps_float = fps_num / fps_den if fps_den else 24.0
+        except (AttributeError, TypeError, ValueError, ZeroDivisionError):
+            fps_float = 24.0
+        frame_duration = (1.0 / fps_float) if fps_float > 0.0 else (1.0 / 24.0)
+        return max(frame_duration, 0.0)
+
+    def _target_timeline_duration(self):
+        """Return the desired project duration based on current clip/transition bounds."""
         furthest = 0.0
         for clip in Clip.filter():
             data = clip.data if isinstance(clip.data, dict) else {}
@@ -553,13 +560,38 @@ class TimelineView(updates.UpdateInterface, ViewClass):
             end = float(data.get("end", start) or start)
             duration = max(0.0, end - start)
             furthest = max(furthest, position + duration)
+        return max(self._project_duration_floor(), furthest)
 
-        min_length = 300.0
-        padding = 10.0
-        desired = max(min_length, furthest + padding)
+    def _schedule_timeline_fit_to_duration(self, duration):
+        """Ask the zoom slider to fit the current project duration on screen."""
+        try:
+            target_duration = max(0.0, float(duration or 0.0))
+        except (TypeError, ValueError):
+            return False
+        slider = getattr(self.window, "sliderZoomWidget", None)
+        if slider is None:
+            return False
+
+        def _fit():
+            current_slider = getattr(self.window, "sliderZoomWidget", None)
+            if current_slider is not None:
+                current_slider.fit_project_duration_to_view(target_duration, emit=True)
+
+        QTimer.singleShot(0, _fit)
+        return True
+
+    def _sync_project_duration_to_items(self, auto_fit_on_shrink=False):
+        """Resize project duration to match actual content, optionally fitting the view on shrink."""
+        desired = self._target_timeline_duration()
         current = float(get_app().project.get("duration") or 0.0)
-        if desired > current + 1e-3:
-            self.resizeTimeline(desired)
+        if abs(desired - current) <= 1e-3:
+            return False
+
+        shrinking = desired < current - 1e-3
+        self.resizeTimeline(desired)
+        if shrinking and auto_fit_on_shrink:
+            self._schedule_timeline_fit_to_duration(desired)
+        return True
 
     def delete_invalid_timeline_item(self, item):
         """Delete an invalid timeline item (clip or transitions) if the basic
@@ -3058,6 +3090,10 @@ class TimelineView(updates.UpdateInterface, ViewClass):
 
                 # Save changes for the left or right slice
                 self.update_transition_data(trans.data, only_basic_props=False)
+
+            sync_duration = getattr(self, "_extend_timeline_to_fit_items", None)
+            if callable(sync_duration):
+                sync_duration()
         finally:
             get_app().updates.transaction_id = None
 

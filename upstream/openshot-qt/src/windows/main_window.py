@@ -129,6 +129,10 @@ class MainWindow(updates.UpdateWatcher, QMainWindow):
 
     # Path to ui file
     ui_path = os.path.join(info.PATH, 'windows', 'ui', 'main-window.ui')
+    VIDEO_PREVIEW_DOCK_MIN_WIDTH = 280
+    VIDEO_PREVIEW_DOCK_MIN_HEIGHT = 190
+    VIDEO_PREVIEW_WIDGET_MIN_WIDTH = 240
+    VIDEO_PREVIEW_WIDGET_MIN_HEIGHT = 135
 
     previewFrameSignal = pyqtSignal(int)
     refreshFrameSignal = pyqtSignal()
@@ -2750,10 +2754,10 @@ class MainWindow(updates.UpdateWatcher, QMainWindow):
         if frozen:
             dock.setFeatures(QDockWidget.NoDockWidgetFeatures)
         else:
-            features = (
-                QDockWidget.DockWidgetFloatable
-                | QDockWidget.DockWidgetMovable)
-            if dock is not self.dockTimeline:
+            features = QDockWidget.DockWidgetMovable
+            if dock is not getattr(self, "dockVideo", None):
+                features |= QDockWidget.DockWidgetFloatable
+            if dock not in (self.dockTimeline, getattr(self, "dockVideo", None)):
                 features |= QDockWidget.DockWidgetClosable
             dock.setFeatures(features)
 
@@ -2917,6 +2921,7 @@ class MainWindow(updates.UpdateWatcher, QMainWindow):
             if dock and dock.isVisible():
                 dock.raise_()
 
+        self._restore_video_preview_dock()
         QCoreApplication.processEvents()
         self._schedule_tab_order_update()
 
@@ -3723,6 +3728,7 @@ class MainWindow(updates.UpdateWatcher, QMainWindow):
         if self.saved_state:
             self.restoreState(self.saved_state)
         self._apply_saved_timeline_height()
+        QTimer.singleShot(0, self._restore_video_preview_dock)
 
     def _apply_saved_timeline_height(self):
         """Apply the saved timeline dock height."""
@@ -4538,8 +4544,63 @@ class MainWindow(updates.UpdateWatcher, QMainWindow):
             if hasattr(self, "_tab_order_timer") and self._tab_order_timer.isActive():
                 self._tab_order_timer.stop()
             self._restore_focus_after_dock_hide(dock_widget)
+            if dock_widget is getattr(self, "dockVideo", None) and self.isVisible():
+                QTimer.singleShot(0, self._restore_video_preview_dock)
             return
         self._schedule_tab_order_update()
+
+    def _configure_video_preview_dock(self):
+        """Keep the preview dock large enough to remain usable."""
+        dock = getattr(self, "dockVideo", None)
+        if dock:
+            dock.setMinimumWidth(self.VIDEO_PREVIEW_DOCK_MIN_WIDTH)
+            dock.setMinimumHeight(self.VIDEO_PREVIEW_DOCK_MIN_HEIGHT)
+
+        contents = getattr(self, "dockVideoContents", None)
+        if contents:
+            contents.setMinimumWidth(self.VIDEO_PREVIEW_DOCK_MIN_WIDTH)
+            contents.setMinimumHeight(self.VIDEO_PREVIEW_DOCK_MIN_HEIGHT)
+
+        preview = getattr(self, "videoPreview", None)
+        if preview:
+            preview.setMinimumWidth(self.VIDEO_PREVIEW_WIDGET_MIN_WIDTH)
+            preview.setMinimumHeight(self.VIDEO_PREVIEW_WIDGET_MIN_HEIGHT)
+            preview.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
+
+    def _restore_video_preview_dock(self):
+        """Re-show the video preview if a layout tries to hide or collapse it."""
+        dock = getattr(self, "dockVideo", None)
+        if dock is None:
+            return False
+
+        self._configure_video_preview_dock()
+        changed = False
+
+        if dock.isFloating():
+            dock.setFloating(False)
+            changed = True
+
+        if self.dockWidgetArea(dock) == Qt.NoDockWidgetArea:
+            self.addDockWidget(self._preferred_dock_area("dockVideo"), dock)
+            changed = True
+
+        if dock.isHidden():
+            dock.show()
+            changed = True
+
+        if dock.width() < dock.minimumWidth() or dock.height() < dock.minimumHeight():
+            dock.resize(
+                max(dock.width(), dock.minimumWidth()),
+                max(dock.height(), dock.minimumHeight()),
+            )
+            changed = True
+
+        if dock.isVisible():
+            dock.raise_()
+
+        if changed:
+            self._schedule_tab_order_update()
+        return changed
 
     def _apply_tab_order_and_connect_dock_tabs(self):
         """Apply tab order and connect dock tab bar signals."""
@@ -4778,6 +4839,7 @@ class MainWindow(updates.UpdateWatcher, QMainWindow):
         self.videoPreview = VideoWidget()
         self.videoPreview.setObjectName("videoPreview")
         self.tabVideo.layout().insertWidget(0, self.videoPreview)
+        self._configure_video_preview_dock()
 
         # Load window state and geometry
         self.saved_state = None

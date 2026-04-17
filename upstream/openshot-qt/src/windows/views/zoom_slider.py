@@ -508,6 +508,30 @@ class ZoomSlider(QWidget, updates.UpdateInterface):
         # Force re-paint asynchronously
         self.update()
 
+    def fit_project_duration_to_view(self, duration=None, emit=True):
+        """Adjust zoom so the current project duration fills the visible timeline width."""
+        if duration is None:
+            duration = get_app().project.get("duration")
+        try:
+            target_duration = max(0.0, float(duration or 0.0))
+        except (TypeError, ValueError):
+            return False
+
+        view_w = float(self.scrollbar_position[3] or self.width() or 0.0)
+        tick_pixels = float(get_app().project.get("tick_pixels") or 100.0)
+        if target_duration <= 0.0 or view_w <= 0.0 or tick_pixels <= 0.0:
+            return False
+
+        zoom_factor = max(0.05, target_duration * tick_pixels / view_w)
+        self.scrollbar_zoom_previous = copy.deepcopy(self.scrollbar_position)
+        self.scrollbar_position[0] = 0.0
+        self.scrollbar_position[1] = 1.0
+        if emit:
+            get_app().window.TimelineScroll.emit(0.0)
+        self.setZoomFactor(zoom_factor, center=False, emit=emit)
+        self.update()
+        return True
+
     def zoomIn(self):
         """Zoom into timeline"""
         if self.zoom_factor >= 10.0:

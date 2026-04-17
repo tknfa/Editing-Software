@@ -2480,13 +2480,19 @@ class TimelineWidgetBase(QWidget):
         if not timeline:
             return
 
+        sync_duration = getattr(timeline, "_sync_project_duration_to_items", None)
+        if callable(sync_duration):
+            sync_duration(auto_fit_on_shrink=True)
+            return
+
         furthest = self._furthest_timeline_edge()
-        min_length = 300.0
-        padding = 10.0
-        desired = max(min_length, furthest + padding)
+        fps = float(getattr(self, "fps_float", 0.0) or 0.0)
+        min_length = (1.0 / fps) if fps > 0.0 else (1.0 / 24.0)
+        desired = max(min_length, furthest)
         current = float(get_app().project.get("duration") or 0.0)
-        if desired > current + 1e-3:
-            timeline.resizeTimeline(desired)
+        if abs(desired - current) <= 1e-3:
+            return
+        timeline.resizeTimeline(desired)
 
     def _clip_menu_rect(self, rect):
         if not self.clip_painter.menu_pix:

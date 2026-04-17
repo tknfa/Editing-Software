@@ -92,6 +92,7 @@ class TimelineHelperTests(unittest.TestCase):
         cls._web_backend_patcher.start()
         sys.modules.pop("windows.views.timeline", None)
         cls.timeline_module = importlib.import_module("windows.views.timeline")
+        cls.zoom_slider_module = importlib.import_module("windows.views.zoom_slider")
         cls.qwidget_base_module = importlib.import_module("windows.views.timeline_backend.qwidget.base")
         cls.geometry_clip_module = importlib.import_module("windows.views.timeline_backend.geometry.clip")
         cls.geometry_transition_module = importlib.import_module("windows.views.timeline_backend.geometry.transition")
@@ -2114,6 +2115,63 @@ class TimelineHelperTests(unittest.TestCase):
         self.assertAlmostEqual(helper.scrollbar_position[1], 0.525)
         self.assertAlmostEqual(helper.h_scroll_offset, 5.0)
         self.assertIsNone(helper._zoom_playhead_anchor)
+
+    def test_zoom_slider_fit_project_duration_to_view_emits_left_aligned_fit_zoom(self):
+        scroll_calls = []
+        zoom_calls = []
+        helper = types.SimpleNamespace(
+            scrollbar_position=[0.25, 0.75, 400.0, 1000.0],
+            scrollbar_zoom_previous=[0.0, 0.2, 0.0, 0.0],
+            width=lambda: 1000,
+            update=lambda: None,
+        )
+        helper.setZoomFactor = lambda zoom_factor, center=False, emit=True: zoom_calls.append((zoom_factor, center, emit))
+
+        app = types.SimpleNamespace(
+            project=types.SimpleNamespace(get=lambda key: 100.0 if key == "tick_pixels" else None),
+            window=types.SimpleNamespace(TimelineScroll=types.SimpleNamespace(emit=lambda value: scroll_calls.append(value))),
+        )
+        with patch.object(self.zoom_slider_module, "get_app", return_value=app):
+            changed = self.zoom_slider_module.ZoomSlider.fit_project_duration_to_view(helper, 15.0, emit=True)
+
+        self.assertTrue(changed)
+        self.assertEqual(scroll_calls, [0.0])
+        self.assertEqual(zoom_calls, [(1.5, False, True)])
+        self.assertEqual(helper.scrollbar_position[:2], [0.0, 1.0])
+
+    def test_sync_project_duration_to_items_shrink_schedules_fit(self):
+        resized = []
+        fitted = []
+        helper = types.SimpleNamespace(
+            _target_timeline_duration=lambda: 15.0,
+            resizeTimeline=lambda duration: resized.append(duration),
+            _schedule_timeline_fit_to_duration=lambda duration: fitted.append(duration),
+        )
+
+        app = types.SimpleNamespace(project=types.SimpleNamespace(get=lambda key: 300.0 if key == "duration" else None))
+        with patch.object(self.timeline_module, "get_app", return_value=app):
+            changed = self.timeline_module.TimelineView._sync_project_duration_to_items(helper, auto_fit_on_shrink=True)
+
+        self.assertTrue(changed)
+        self.assertEqual(resized, [15.0])
+        self.assertEqual(fitted, [15.0])
+
+    def test_sync_project_duration_to_items_extend_does_not_schedule_fit(self):
+        resized = []
+        fitted = []
+        helper = types.SimpleNamespace(
+            _target_timeline_duration=lambda: 320.0,
+            resizeTimeline=lambda duration: resized.append(duration),
+            _schedule_timeline_fit_to_duration=lambda duration: fitted.append(duration),
+        )
+
+        app = types.SimpleNamespace(project=types.SimpleNamespace(get=lambda key: 300.0 if key == "duration" else None))
+        with patch.object(self.timeline_module, "get_app", return_value=app):
+            changed = self.timeline_module.TimelineView._sync_project_duration_to_items(helper, auto_fit_on_shrink=True)
+
+        self.assertTrue(changed)
+        self.assertEqual(resized, [320.0])
+        self.assertEqual(fitted, [])
 
     def test_qwidget_new_item_snap_uses_timeline_space_when_scrolled(self):
         recorded = {}
