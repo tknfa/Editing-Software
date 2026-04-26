@@ -51,7 +51,7 @@ from PyQt5.QtWidgets import (
     QAction, QActionGroup, QSizePolicy,
     QStatusBar, QToolBar, QToolButton,
     QLineEdit, QComboBox, QTextEdit, QShortcut, QTabBar, QAbstractButton,
-    QPlainTextEdit, QSpinBox, QDoubleSpinBox
+    QPlainTextEdit, QSpinBox, QDoubleSpinBox, QScrollArea, QVBoxLayout
 )
 
 from classes import exceptions, info, qt_types, sentry, ui_util, updates, tabstops
@@ -133,6 +133,10 @@ class MainWindow(updates.UpdateWatcher, QMainWindow):
     VIDEO_PREVIEW_DOCK_MIN_HEIGHT = 190
     VIDEO_PREVIEW_WIDGET_MIN_WIDTH = 240
     VIDEO_PREVIEW_WIDGET_MIN_HEIGHT = 135
+    TIMELINE_DOCK_MIN_WIDTH = 360
+    TIMELINE_DOCK_MIN_HEIGHT = 180
+    TIMELINE_WIDGET_MIN_WIDTH = 320
+    TIMELINE_WIDGET_MIN_HEIGHT = 150
 
     previewFrameSignal = pyqtSignal(int)
     refreshFrameSignal = pyqtSignal()
@@ -2755,7 +2759,7 @@ class MainWindow(updates.UpdateWatcher, QMainWindow):
             dock.setFeatures(QDockWidget.NoDockWidgetFeatures)
         else:
             features = QDockWidget.DockWidgetMovable
-            if dock is not getattr(self, "dockVideo", None):
+            if dock not in (getattr(self, "dockVideo", None), self.dockTimeline):
                 features |= QDockWidget.DockWidgetFloatable
             if dock not in (self.dockTimeline, getattr(self, "dockVideo", None)):
                 features |= QDockWidget.DockWidgetClosable
@@ -2922,6 +2926,7 @@ class MainWindow(updates.UpdateWatcher, QMainWindow):
                 dock.raise_()
 
         self._restore_video_preview_dock()
+        self._restore_timeline_dock()
         QCoreApplication.processEvents()
         self._schedule_tab_order_update()
 
@@ -3683,6 +3688,8 @@ class MainWindow(updates.UpdateWatcher, QMainWindow):
         # Notify properties dialog
         if self.propertyTableView:
             self.propertyTableView.select_frame(frame)
+        if getattr(self, "retimePanel", None):
+            self.retimePanel._handle_preview_frame_changed(frame)
 
     def moveEvent(self, event):
         """ Move tutorial dialogs also (if any)"""
@@ -3729,6 +3736,7 @@ class MainWindow(updates.UpdateWatcher, QMainWindow):
             self.restoreState(self.saved_state)
         self._apply_saved_timeline_height()
         QTimer.singleShot(0, self._restore_video_preview_dock)
+        QTimer.singleShot(0, self._restore_timeline_dock)
 
     def _apply_saved_timeline_height(self):
         """Apply the saved timeline dock height."""
@@ -4546,6 +4554,8 @@ class MainWindow(updates.UpdateWatcher, QMainWindow):
             self._restore_focus_after_dock_hide(dock_widget)
             if dock_widget is getattr(self, "dockVideo", None) and self.isVisible():
                 QTimer.singleShot(0, self._restore_video_preview_dock)
+            if dock_widget is getattr(self, "dockTimeline", None) and self.isVisible():
+                QTimer.singleShot(0, self._restore_timeline_dock)
             return
         self._schedule_tab_order_update()
 
@@ -4601,6 +4611,96 @@ class MainWindow(updates.UpdateWatcher, QMainWindow):
         if changed:
             self._schedule_tab_order_update()
         return changed
+
+    def _configure_timeline_dock(self):
+        """Keep the timeline dock large enough to remain usable."""
+        dock = getattr(self, "dockTimeline", None)
+        if dock:
+            dock.setMinimumWidth(self.TIMELINE_DOCK_MIN_WIDTH)
+            dock.setMinimumHeight(self.TIMELINE_DOCK_MIN_HEIGHT)
+
+        contents = getattr(self, "dockTimelineContents", None)
+        if contents:
+            contents.setMinimumWidth(self.TIMELINE_DOCK_MIN_WIDTH)
+            contents.setMinimumHeight(self.TIMELINE_DOCK_MIN_HEIGHT)
+
+        timeline = getattr(self, "timeline", None)
+        if timeline:
+            timeline.setMinimumWidth(self.TIMELINE_WIDGET_MIN_WIDTH)
+            timeline.setMinimumHeight(self.TIMELINE_WIDGET_MIN_HEIGHT)
+            timeline.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
+
+    def _restore_timeline_dock(self):
+        """Re-show the timeline if a layout tries to hide or collapse it."""
+        dock = getattr(self, "dockTimeline", None)
+        if dock is None:
+            return False
+
+        self._configure_timeline_dock()
+        changed = False
+
+        if dock.isFloating():
+            dock.setFloating(False)
+            changed = True
+
+        if self.dockWidgetArea(dock) == Qt.NoDockWidgetArea:
+            self.addDockWidget(self._preferred_dock_area("dockTimeline"), dock)
+            changed = True
+
+        if dock.isHidden():
+            dock.show()
+            changed = True
+
+        if dock.width() < dock.minimumWidth() or dock.height() < dock.minimumHeight():
+            dock.resize(
+                max(dock.width(), dock.minimumWidth()),
+                max(dock.height(), dock.minimumHeight()),
+            )
+            changed = True
+
+        if dock.isVisible():
+            dock.raise_()
+
+        if changed:
+            self._schedule_tab_order_update()
+        return changed
+
+    def _setup_properties_dock_scroll_area(self):
+        """Wrap quick-edit property panels in a scroll area."""
+        container = getattr(self, "dockPropertiesContents", None)
+        if container is None:
+            return None
+        outer_layout = container.layout()
+        if outer_layout is None:
+            return None
+
+        if getattr(self, "propertiesScrollArea", None):
+            return getattr(self, "propertiesDockLayout", None)
+
+        inner = QWidget(container)
+        inner.setObjectName("propertiesDockScrollContents")
+        layout = QVBoxLayout(inner)
+        layout.setContentsMargins(0, 0, 0, 0)
+        layout.setSpacing(8)
+
+        scroll = QScrollArea(container)
+        scroll.setObjectName("propertiesDockScrollArea")
+        scroll.setWidgetResizable(True)
+        scroll.setWidget(inner)
+        scroll.setFocusPolicy(Qt.NoFocus)
+
+        if getattr(self, "txtPropertyFilter", None):
+            outer_layout.removeWidget(self.txtPropertyFilter)
+            layout.addWidget(self.txtPropertyFilter)
+
+        outer_layout.addWidget(scroll, 0, 0, 1, 1)
+        outer_layout.setRowStretch(0, 1)
+        outer_layout.setColumnStretch(0, 1)
+
+        self.propertiesScrollArea = scroll
+        self.propertiesDockScrollContents = inner
+        self.propertiesDockLayout = layout
+        return layout
 
     def _apply_tab_order_and_connect_dock_tabs(self):
         """Apply tab order and connect dock tab bar signals."""
@@ -4760,6 +4860,7 @@ class MainWindow(updates.UpdateWatcher, QMainWindow):
         # Setup timeline
         self.timeline = TimelineView(self)
         self.frameWeb.layout().addWidget(self.timeline)
+        self._configure_timeline_dock()
 
         # Configure the side docks to full-height
         self.setCorner(Qt.TopLeftCorner, Qt.LeftDockWidgetArea)
@@ -4794,17 +4895,21 @@ class MainWindow(updates.UpdateWatcher, QMainWindow):
         self.effectCardPanel = EffectCardDockPanel(self)
         self.transitionPresetPanel = TransitionPresetDockPanel(self)
         self.datamoshPanel = DatamoshDockPanel(self)
-        self.dockPropertiesContents.layout().addWidget(self.selectionLabel, 0, 1)
-        self.dockPropertiesContents.layout().addWidget(self.startProjectPanel, 2, 1)
-        self.dockPropertiesContents.layout().addWidget(self.quickActionPanel, 3, 1)
-        self.dockPropertiesContents.layout().addWidget(self.timelineGuidancePanel, 4, 1)
-        self.dockPropertiesContents.layout().addWidget(self.projectFpsPanel, 5, 1)
-        self.dockPropertiesContents.layout().addWidget(self.exportCardPanel, 6, 1)
-        self.dockPropertiesContents.layout().addWidget(self.retimePanel, 7, 1)
-        self.dockPropertiesContents.layout().addWidget(self.effectCardPanel, 8, 1)
-        self.dockPropertiesContents.layout().addWidget(self.transitionPresetPanel, 9, 1)
-        self.dockPropertiesContents.layout().addWidget(self.datamoshPanel, 10, 1)
-        self.dockPropertiesContents.layout().addWidget(self.propertyTableView, 11, 1)
+        properties_layout = self._setup_properties_dock_scroll_area()
+        if properties_layout is None:
+            properties_layout = self.dockPropertiesContents.layout()
+        self.propertyTableView.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
+        properties_layout.addWidget(self.selectionLabel)
+        properties_layout.addWidget(self.startProjectPanel)
+        properties_layout.addWidget(self.quickActionPanel)
+        properties_layout.addWidget(self.timelineGuidancePanel)
+        properties_layout.addWidget(self.projectFpsPanel)
+        properties_layout.addWidget(self.exportCardPanel)
+        properties_layout.addWidget(self.retimePanel)
+        properties_layout.addWidget(self.effectCardPanel)
+        properties_layout.addWidget(self.transitionPresetPanel)
+        properties_layout.addWidget(self.datamoshPanel)
+        properties_layout.addWidget(self.propertyTableView)
         self._quick_properties_expanded = bool(get_app().get_settings().get("quick-edit-show-advanced"))
         self.quickActionPanel.advanced_toggled.connect(self.set_quick_properties_expanded)
         self.quickActionPanel.quick_target_changed.connect(self._refresh_quick_properties_visibility)

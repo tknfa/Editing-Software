@@ -181,6 +181,7 @@ namespace openshot {
 		openshot::FrameDisplayType display; ///< The format to display the frame number (if any)
 		openshot::VolumeMixType mixing;  ///< What strategy should be followed when mixing audio with other clips
 		openshot::CompositeType composite; ///< How this clip is composited onto lower layers
+		int time_interpolation; ///< How retimed video synthesizes in-between frames (0=source, 1=blend, 2=optical flow)
 
 		#ifdef USE_OPENCV
 			bool COMPILED_WITH_CV = true;

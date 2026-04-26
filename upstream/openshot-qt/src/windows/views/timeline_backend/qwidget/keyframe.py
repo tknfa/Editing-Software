@@ -153,9 +153,20 @@ class KeyframeMixin:
         ratio = 1.0 - ((curve_value - min_value) / (max_value - min_value))
         return max(0.0, min(1.0, ratio))
 
+    def _retime_marker_lane_center_y(self, clip_rect, size):
+        if not isinstance(clip_rect, QRectF):
+            clip_rect = QRectF(clip_rect)
+        lane_gap = max(10.0, float(size) * 1.2)
+        return clip_rect.top() - lane_gap
+
     def _keyframe_rect_for_marker(self, clip_rect, seconds, marker, size=None):
         size = max(2, size or self.keyframe_painter.size)
         pixels = max(self.pixels_per_second, 0.0001)
+
+        if self._is_retime_curve_marker(marker):
+            x = clip_rect.left() + float(seconds or 0.0) * pixels
+            y = self._retime_marker_lane_center_y(clip_rect, size)
+            return QRectF(x - size / 2.0, y - size / 2.0, size, size)
 
         curve_ratio = self._time_curve_y_ratio(marker)
         if curve_ratio is not None:

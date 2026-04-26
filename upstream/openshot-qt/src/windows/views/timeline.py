@@ -66,10 +66,14 @@ from classes.clip_utils import (
 )
 from .retime import (
     apply_clip_retime_audio_behavior,
+    apply_clip_retime_interpolation_mode,
+    apply_speed_graph_segment,
     retime_clip,
     CustomRetimeDialog,
+    SpeedGraphDialog,
     apply_time_segment_easing,
     calculate_custom_retime_metrics,
+    get_active_speed_graph_segment,
     clip_has_audio_source,
     clip_has_video_source,
     get_clip_playhead_frame,
@@ -1659,6 +1663,24 @@ class TimelineView(updates.UpdateInterface, ViewClass):
         Custom_Retime_Action.triggered.connect(partial(self.Custom_Retime, clip_ids))
 
         Ramp_Menu = StyledContextMenu(title=_("Ramp"), parent=self)
+        active_speed_graph_segment = None
+        if len(clip_ids) == 1:
+            clip = Clip.get(id=clip_ids[0])
+            if clip and isinstance(getattr(clip, "data", None), dict):
+                proj_fps = get_app().project.get("fps") or {"num": 30, "den": 1}
+                fps_float = float(proj_fps.get("num", 30)) / float(proj_fps.get("den", 1) or 1)
+                active_speed_graph_segment = get_active_speed_graph_segment(
+                    clip.data,
+                    fps_float,
+                    playhead_position,
+                    require_interior=True,
+                )
+        Open_Speed_Graph_Action = Ramp_Menu.addAction(_("Open Speed Graph..."))
+        Open_Speed_Graph_Action.setEnabled(bool(active_speed_graph_segment))
+        Open_Speed_Graph_Action.triggered.connect(
+            partial(self.Open_Speed_Graph_Dialog, clip_ids, playhead_position)
+        )
+        Ramp_Menu.addSeparator()
         Edit_Ramp_Action = Ramp_Menu.addAction(_("Edit Time Curve"))
         Edit_Ramp_Action.triggered.connect(partial(self.Focus_Time_Curve, clip_ids))
         Add_Ramp_Point_Action = Ramp_Menu.addAction(_("Add Ramp Point"))
@@ -3565,13 +3587,16 @@ class TimelineView(updates.UpdateInterface, ViewClass):
 
     def _apply_retime_batch(self, clip_ids, apply_func):
         """Apply a retime callback to selected clips with shared history handling."""
-        return self._apply_clip_batch(
+        applied_any = self._apply_clip_batch(
             clip_ids,
             apply_func,
             clear_audio_cache=True,
             refresh_waveforms=True,
             refresh_properties=True,
         )
+        if applied_any:
+            self._extend_timeline_to_fit_items()
+        return applied_any
 
     def apply_custom_retime_settings(self, clip_ids, settings):
         """Apply shared custom retime settings to the selected clips."""
@@ -3658,6 +3683,39 @@ class TimelineView(updates.UpdateInterface, ViewClass):
             return False
         return properties.focus_property("time")
 
+    def Focus_Speed_Graph(self, clip_ids=None):
+        """Focus the properties dock on the segment-based speed graph controls."""
+        window = getattr(get_app(), "window", None)
+        if not window:
+            return False
+
+        dock = getattr(window, "dockProperties", None)
+        if dock:
+            dock.show()
+            dock.raise_()
+
+        retime_panel = getattr(window, "retimePanel", None)
+        if retime_panel:
+            retime_panel.refresh_from_current_selection()
+            retime_panel.speed_graph_frame.show()
+        return True
+
+    def _project_fps_float(self):
+        proj_fps = get_app().project.get("fps") or {"num": 30, "den": 1}
+        return float(proj_fps.get("num", 30)) / float(proj_fps.get("den", 1) or 1)
+
+    def _speed_graph_segment_for_clip(self, clip, playhead_position=None):
+        if not clip or not isinstance(getattr(clip, "data", None), dict):
+            return None
+        if playhead_position is None:
+            playhead_position = self.current_playhead_position_seconds()
+        return get_active_speed_graph_segment(
+            clip.data,
+            self._project_fps_float(),
+            playhead_position,
+            require_interior=True,
+        )
+
     def _time_ramp_frame_for_clip(self, clip, fps_float, playhead_position=None, interior=False):
         if playhead_position is None:
             playhead_position = self.current_playhead_position_seconds()
@@ -3720,6 +3778,24 @@ class TimelineView(updates.UpdateInterface, ViewClass):
 
         self._apply_clip_batch(clip_ids, apply_clip, refresh_properties=True)
 
+    def Remove_Time_Ramp_Point_Frame(self, clip_ids, frame_value):
+        """Remove an interior time-ramp point by exact frame number."""
+        if not clip_ids:
+            return
+        try:
+            frame_value = int(frame_value)
+        except (TypeError, ValueError):
+            return
+        self.Focus_Time_Curve(clip_ids)
+
+        def apply_clip(clip, fps_float):
+            changed = remove_time_point(clip.data, fps_float, frame_value, tolerance_frames=0)
+            if changed:
+                clamp_timing_to_media(clip.data, clip)
+            return changed
+
+        self._apply_clip_batch(clip_ids, apply_clip, refresh_properties=True)
+
     def Apply_Time_Ramp_Easing(self, clip_ids, preset_key, playhead_position=None):
         """Apply an easing preset to the time-ramp segment under the playhead."""
         if not clip_ids or not preset_key:
@@ -3736,6 +3812,49 @@ class TimelineView(updates.UpdateInterface, ViewClass):
             return changed
 
         self._apply_clip_batch(clip_ids, apply_clip, refresh_properties=True)
+
+    def Apply_Speed_Graph_Segment(self, clip_ids, control_points, playhead_position=None, curve_mode=None):
+        """Apply a segment-focused speed graph between two interior time points."""
+        if not clip_ids or control_points is None:
+            return
+        self.Focus_Speed_Graph(clip_ids)
+
+        def apply_clip(clip, fps_float):
+            segment = get_active_speed_graph_segment(
+                clip.data,
+                fps_float,
+                playhead_position if playhead_position is not None else self.current_playhead_position_seconds(),
+                require_interior=True,
+            )
+            if not segment:
+                return False
+            changed = apply_speed_graph_segment(clip.data, fps_float, segment, control_points, curve_mode=curve_mode)
+            if changed:
+                clamp_timing_to_media(clip.data, clip)
+            return changed
+
+        self._apply_retime_batch(clip_ids, apply_clip)
+
+    def Open_Speed_Graph_Dialog(self, clip_ids, playhead_position=None):
+        """Open the pop-out speed graph editor for the active remap span."""
+        if not clip_ids or len(clip_ids) != 1:
+            return False
+        clip = Clip.get(id=clip_ids[0])
+        segment = self._speed_graph_segment_for_clip(clip, playhead_position=playhead_position)
+        if not segment:
+            self.Focus_Speed_Graph(clip_ids)
+            return False
+
+        dialog = SpeedGraphDialog(segment, self.window)
+        if dialog.exec_() != QDialog.Accepted:
+            return False
+        self.Apply_Speed_Graph_Segment(
+            clip_ids,
+            dialog.control_points(),
+            playhead_position=playhead_position,
+            curve_mode=dialog.curve_mode(),
+        )
+        return True
 
     def Apply_Retime_Audio_Behavior(self, clip_ids, behavior_key):
         """Apply clip-level audio behavior for retimed playback."""
@@ -3757,6 +3876,20 @@ class TimelineView(updates.UpdateInterface, ViewClass):
             apply_clip,
             clear_audio_cache=True,
             refresh_waveforms=refresh_waveforms_for_clip,
+            refresh_properties=True,
+        )
+
+    def Apply_Retime_Interpolation(self, clip_ids, interpolation_key):
+        """Apply clip-level retime interpolation to the selected clips."""
+        if not clip_ids or not interpolation_key:
+            return
+
+        def apply_clip(clip, _fps_float):
+            return apply_clip_retime_interpolation_mode(clip.data, interpolation_key)
+
+        self._apply_clip_batch(
+            clip_ids,
+            apply_clip,
             refresh_properties=True,
         )
 

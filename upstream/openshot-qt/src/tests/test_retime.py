@@ -7,19 +7,28 @@ import os
 import sys
 import unittest
 
+from PyQt5.QtWidgets import QApplication
 
 PATH = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 if PATH not in sys.path:
     sys.path.append(PATH)
 
+_APP = QApplication.instance() or QApplication([])
+
 from windows.views.retime import (
+    SpeedGraphDialog,
     apply_clip_retime_audio_behavior,
+    apply_clip_retime_interpolation_mode,
+    apply_speed_graph_segment,
     apply_time_segment_easing,
     calculate_custom_retime_metrics,
+    get_active_speed_graph_segment,
     get_clip_playhead_frame,
     get_clip_average_speed,
     get_clip_duration_seconds,
     get_clip_retime_audio_summary,
+    get_clip_retime_interpolation_key,
+    get_clip_retime_interpolation_summary,
     get_time_curve_preview_segments,
     get_time_curve_playhead_summary,
     get_clip_retime_summary,
@@ -252,6 +261,180 @@ class RetimeHelperTests(unittest.TestCase):
         self.assertEqual(summary["easing_label"], "Hold")
         self.assertEqual(summary["segment_label"], "Hold")
 
+    def test_get_active_speed_graph_segment_uses_interior_pair(self):
+        clip_data = {
+            "position": 0.0,
+            "start": 0.0,
+            "end": 4.0,
+            "duration": 4.0,
+            "time": {
+                "Points": [
+                    {"co": {"X": 1, "Y": 1}, "interpolation": 1},
+                    {"co": {"X": 31, "Y": 31}, "interpolation": 1},
+                    {"co": {"X": 91, "Y": 121}, "interpolation": 1},
+                    {"co": {"X": 121, "Y": 151}, "interpolation": 1},
+                ]
+            },
+        }
+        segment = get_active_speed_graph_segment(clip_data, 30.0, 2.0)
+        self.assertIsNotNone(segment)
+        self.assertEqual(segment["start_frame"], 31)
+        self.assertEqual(segment["end_frame"], 91)
+        self.assertEqual(segment["control_points"], [{"x": 0.0, "speed": 1.0}, {"x": 1.0, "speed": 1.0}])
+
+    def test_apply_speed_graph_segment_creates_metadata_and_managed_points(self):
+        clip_data = {
+            "position": 0.0,
+            "start": 0.0,
+            "end": 4.0,
+            "duration": 4.0,
+            "time": {
+                "Points": [
+                    {"co": {"X": 1, "Y": 1}, "interpolation": 1},
+                    {"co": {"X": 31, "Y": 31}, "interpolation": 1},
+                    {"co": {"X": 91, "Y": 121}, "interpolation": 1},
+                    {"co": {"X": 121, "Y": 151}, "interpolation": 1},
+                ]
+            },
+        }
+        segment = get_active_speed_graph_segment(clip_data, 30.0, 2.0)
+        changed = apply_speed_graph_segment(
+            clip_data,
+            30.0,
+            segment,
+            [{"x": 0.0, "speed": 0.5}, {"x": 0.4, "speed": 2.0}, {"x": 1.0, "speed": 0.5}],
+            curve_mode="expo_in_out",
+        )
+        self.assertTrue(changed)
+        self.assertIn("ui", clip_data)
+        self.assertIn("speed_graph_segments", clip_data["ui"])
+        self.assertEqual(len(clip_data["ui"]["speed_graph_segments"]), 1)
+        self.assertEqual(clip_data["ui"]["speed_graph_segments"][0]["curve_mode"], "expo_in_out")
+        managed_points = [
+            point
+            for point in clip_data["time"]["Points"]
+            if point.get("ui_speed_graph_managed")
+        ]
+        self.assertGreater(len(managed_points), 0)
+        segment_after = get_active_speed_graph_segment(clip_data, 30.0, 2.0)
+        self.assertTrue(segment_after["managed"])
+        self.assertEqual(len(segment_after["control_points"]), 3)
+        self.assertEqual(segment_after["curve_mode"], "expo_in_out")
+
+    def test_apply_speed_graph_segment_fast_span_shortens_clip_duration(self):
+        clip_data = {
+            "position": 0.0,
+            "start": 0.0,
+            "end": 4.0,
+            "duration": 4.0,
+            "time": {
+                "Points": [
+                    {"co": {"X": 1, "Y": 1}, "interpolation": 1},
+                    {"co": {"X": 31, "Y": 31}, "interpolation": 1},
+                    {"co": {"X": 91, "Y": 121}, "interpolation": 1},
+                    {"co": {"X": 121, "Y": 151}, "interpolation": 1},
+                ]
+            },
+        }
+
+        segment = get_active_speed_graph_segment(clip_data, 30.0, 2.0)
+        changed = apply_speed_graph_segment(
+            clip_data,
+            30.0,
+            segment,
+            [{"x": 0.0, "speed": 2.0}, {"x": 1.0, "speed": 2.0}],
+        )
+
+        self.assertTrue(changed)
+        self.assertAlmostEqual(clip_data["duration"], 3.0)
+        self.assertAlmostEqual(clip_data["end"], 3.0)
+        frames = [point["co"]["X"] for point in clip_data["time"]["Points"]]
+        self.assertEqual(frames[0], 1)
+        self.assertEqual(frames[1], 31)
+        self.assertEqual(frames[-2], 61)
+        self.assertEqual(frames[-1], 91)
+
+    def test_apply_speed_graph_segment_slow_span_lengthens_clip_duration(self):
+        clip_data = {
+            "position": 0.0,
+            "start": 0.0,
+            "end": 4.0,
+            "duration": 4.0,
+            "time": {
+                "Points": [
+                    {"co": {"X": 1, "Y": 1}, "interpolation": 1},
+                    {"co": {"X": 31, "Y": 31}, "interpolation": 1},
+                    {"co": {"X": 91, "Y": 121}, "interpolation": 1},
+                    {"co": {"X": 121, "Y": 151}, "interpolation": 1},
+                ]
+            },
+        }
+
+        segment = get_active_speed_graph_segment(clip_data, 30.0, 2.0)
+        changed = apply_speed_graph_segment(
+            clip_data,
+            30.0,
+            segment,
+            [{"x": 0.0, "speed": 0.5}, {"x": 1.0, "speed": 0.5}],
+        )
+
+        self.assertTrue(changed)
+        self.assertAlmostEqual(clip_data["duration"], 6.0)
+        self.assertAlmostEqual(clip_data["end"], 6.0)
+        frames = [point["co"]["X"] for point in clip_data["time"]["Points"]]
+        self.assertEqual(frames[0], 1)
+        self.assertEqual(frames[1], 31)
+        self.assertEqual(frames[-2], 151)
+        self.assertEqual(frames[-1], 181)
+
+    def test_apply_speed_graph_segment_reset_clears_metadata(self):
+        clip_data = {
+            "position": 0.0,
+            "start": 0.0,
+            "end": 4.0,
+            "duration": 4.0,
+            "time": {
+                "Points": [
+                    {"co": {"X": 1, "Y": 1}, "interpolation": 1},
+                    {"co": {"X": 31, "Y": 31}, "interpolation": 1},
+                    {"co": {"X": 91, "Y": 121}, "interpolation": 1},
+                    {"co": {"X": 121, "Y": 151}, "interpolation": 1},
+                ]
+            },
+        }
+        segment = get_active_speed_graph_segment(clip_data, 30.0, 2.0)
+        apply_speed_graph_segment(
+            clip_data,
+            30.0,
+            segment,
+            [{"x": 0.0, "speed": 0.5}, {"x": 0.4, "speed": 2.0}, {"x": 1.0, "speed": 0.5}],
+        )
+        managed_segment = get_active_speed_graph_segment(clip_data, 30.0, 2.0)
+        changed = apply_speed_graph_segment(
+            clip_data,
+            30.0,
+            managed_segment,
+            [{"x": 0.0, "speed": 1.0}, {"x": 1.0, "speed": 1.0}],
+        )
+        self.assertTrue(changed)
+        self.assertNotIn("ui", clip_data)
+        self.assertAlmostEqual(clip_data["duration"], 3.6)
+        self.assertEqual(
+            [point["co"]["X"] for point in clip_data["time"]["Points"]],
+            [1, 31, 79, 109],
+        )
+
+    def test_speed_graph_dialog_exponential_mode_uses_valid_curve_preset(self):
+        dialog = SpeedGraphDialog(
+            {
+                "segment_label": "Frames 31-91",
+                "speed_label": "1.000x",
+                "curve_mode": "linear",
+            }
+        )
+        dialog._set_curve_family("exponential")
+        self.assertEqual(dialog.curve_mode(), "expo_in_out")
+
     def test_get_clip_retime_audio_summary_reflects_audio_override(self):
         clip_data = {
             "reader": {"has_audio": True, "has_video": True},
@@ -268,6 +451,18 @@ class RetimeHelperTests(unittest.TestCase):
         self.assertEqual(summary["pitch_label"], "Muted")
         self.assertTrue(summary["has_audio_source"])
         self.assertTrue(summary["has_video_source"])
+
+    def test_get_clip_retime_interpolation_defaults_to_optical_flow(self):
+        clip_data = {"reader": {"has_video": True, "has_audio": True}}
+        self.assertEqual(get_clip_retime_interpolation_key(clip_data), "optical_flow")
+        summary = get_clip_retime_interpolation_summary(clip_data)
+        self.assertEqual(summary["interpolation_label"], "Optical Flow")
+
+    def test_apply_clip_retime_interpolation_mode_updates_clip_data(self):
+        clip_data = {"reader": {"has_video": True, "has_audio": False}}
+        changed = apply_clip_retime_interpolation_mode(clip_data, "frame_blend")
+        self.assertTrue(changed)
+        self.assertEqual(clip_data["time_interpolation"], 1)
 
     def test_get_clip_retime_audio_summary_reports_no_audio_source(self):
         clip_data = {"reader": {"has_audio": False, "has_video": True}}

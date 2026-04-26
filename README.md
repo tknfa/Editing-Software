@@ -1,106 +1,90 @@
 # Editing Software
 
-Experimental macOS-first editing software for fast, stylized video work with a focus on time remapping, datamoshing, and high-energy transition design.
+Experimental macOS-first editing software for fast, stylized video work with a focus on advanced time remapping, datamoshing, and high-energy transition design.
 
-This workspace is not a greenfield editor. It is a product-oriented development workspace built on top of proven open-source video tooling, with OpenShot serving as the current application baseline and additional upstream repositories informing specialized workflows.
+![Tether Screenshot](docs/images/tether-screenshot.png)
 
-## Overview
+## About
 
-The goal of this project is to produce a locally runnable editing application that feels unusually strong in three areas:
+This project is a product-oriented editing workspace built on top of proven open-source video tooling. Instead of creating a video editor from scratch, it extends the OpenShot stack with a simpler workflow and custom features for glitch-heavy, speed-ramp-driven editing.
 
-- expressive speed ramps and retime workflows
-- cached datamosh generation that can be reused inside an edit
-- one-click, "jugg"-leaning transition and clip-style presets
+Basic information:
 
-The software is being shaped around ease of use. Rather than exposing every inherited OpenShot panel and property table as the primary workflow, the current direction favors:
+- Platform: macOS-first development workflow
+- Status: local alpha, runnable from source
+- Application baseline: `OpenShot/openshot-qt` + `libopenshot`
+- Core focus: time remapping, datamoshing, stylized transitions, and fast editing flow
+- Current goal: make advanced visual edits easier to create without digging through a complicated interface
 
-- compact dock panels
-- quick actions and guided next steps
-- preset-first editing for the most common stylized moves
-- progressive disclosure for detailed controls
+## What This Project Focuses On
 
-## Current Status
+- Advanced retime tools with speed graphs, ramp editing, freeze/reverse controls, and smoother interpolation modes
+- Cached datamosh generation that can be dropped back into the timeline as a reusable asset
+- Jugg-style transitions and one-click clip looks for energetic short-form edits
+- A cleaner editing workflow built around quick actions, guided next steps, and progressive disclosure
 
-This project is currently in a usable local alpha state for development and testing on macOS.
+## Here's How This App Can Help You!
 
-What that means today:
+- Turn raw clips into stylized edits faster by keeping speed ramps, freezes, and impact timing close at hand
+- Experiment with glitch and datamosh treatments without destructively changing your original media
+- Build aggressive fight edits, highlight edits, or short-form content with less setup friction
+- Stay focused on editing instead of digging through a dense inherited editor interface
+- Preview and shape timing visually with custom retime tools designed around ease of use
 
-- the OpenShot baseline builds and launches locally from source
-- the app includes custom retime, transition, datamosh, quick-action, export, and startup guidance flows
-- the interface has been simplified for the early edit workflow
-- the project is suitable for active local experimentation, not production distribution
-
-This repository is intended for personal/local use at the moment. It is not yet packaged as a polished standalone macOS application bundle for general users.
-
-## Core Capabilities Implemented
+## Current Feature Highlights
 
 ### Time Remapping
 
-- custom retime dialog for speed or exact-duration edits
-- reverse, freeze, and freeze-plus-zoom shortcuts
-- ramp authoring helpers and easing presets
-- visual timeline feedback for freeze, hold, and reverse spans
-- playhead-aware retime readout in the Properties dock
-- compact audio retime behavior controls
+- Custom retime dialog for speed-based and duration-based edits
+- Segment-based speed graph workflow
+- Reverse, freeze, and freeze-plus-zoom shortcuts
+- Ramp editing with easing presets
+- Clip-level interpolation modes including `Source Frames`, `Frame Blend`, and `Optical Flow`
 
-### Datamoshing
+### Datamosh Workflow
 
-- one-click datamosh presets for selected clips
-- cached derived-asset workflow instead of destructive media replacement
-- recent variant history with source/generated clip linkage
-- baking from the current edited clip result rather than only the raw source trim
+- One-click datamosh presets
+- Cached derived-asset generation
+- Reusable recent variants
+- Baking from the edited clip result rather than only the raw source trim
 
-### Transitions And Clip Styling
+### Transitions And Style
 
-- one-click transition presets such as `Jugg Shake`, `Whip Push`, and `Slam Zoom`
-- beat-aware timing helpers
-- transient-assisted `Find Hit` marker placement
-- one-click clip looks such as `Punch Zoom`, `Jugg Shake`, `RGB Split`, and `Glitch Ripple`
-- compact preset amount controls for softer or harder application
+- One-click transition presets such as `Jugg Shake`, `Whip Push`, and `Slam Zoom`
+- Beat-aware timing helpers and transient-assisted hit finding
+- One-click clip looks such as `Punch Zoom`, `Jugg Shake`, `RGB Split`, and `Glitch Ripple`
+- Compact amount controls for softer or harder stylization
 
 ### Workflow Simplification
 
-- `Start Here` project guidance for empty and newly imported projects
-- `Quick Actions` and `Next Move` panels for first-cut editing
-- quick export preset cards
-- draft preview and optimize-preview shortcuts
-- simplified quick-edit workspace with more inherited OpenShot complexity tucked away by default
+- `Start Here` guidance for empty and newly imported projects
+- `Quick Actions` and `Next Move` panels
+- Quick export preset cards
+- Preview-performance shortcuts
+- Simplified quick-edit workspace with less inherited OpenShot clutter exposed by default
 
 ## Architecture
 
 The current implementation strategy is to reuse strong upstream systems where they already solve hard video-editing problems well, then layer product-specific workflows on top.
 
 - `OpenShot/openshot-qt`
-  Desktop editor shell, timeline UI, dock/panel structure, and the main application baseline.
+  Main desktop editor shell, dock layout, and timeline UI baseline
 - `OpenShot/libopenshot`
-  Timeline, clips, keyframes, render pipeline, and retime-related engine behavior.
+  Editing engine, timeline, keyframes, rendering, and retime behavior
 - `OpenShot/libopenshot-audio`
-  Audio runtime dependency used by the OpenShot stack.
+  Audio dependency required by the OpenShot stack
 - `Akascape/Datamosher-Pro`
-  Reference for datamosh processing approaches and effect behavior.
+  Reference for datamosh processing ideas and effect behavior
 - `gl-transitions/gl-transitions`
-  Transition reference material and shader-oriented transition ideas.
+  Reference material for transition styles and shader ideas
 - `mltframework/mlt`
-  Secondary reference engine kept available in case OpenShot becomes a hard blocker.
+  Secondary reference engine kept around in case the OpenShot path becomes limiting
 
 More detailed notes live in [ARCHITECTURE.md](</Users/devinkane/Editing Software/docs/ARCHITECTURE.md>).
 
-## Workspace Layout
+## How To Run The Program
 
-- `upstream/`
-  Cloned third-party repositories used as the application baseline or as technical references.
-- `docs/`
-  Architecture notes, phase plans, and implementation status.
-- `scripts/`
-  Bootstrap, dependency, build, and run helpers.
-- `config/`
-  Source manifests and local workspace configuration.
-- `cache/`
-  Generated cache data and intermediate outputs.
-- `artifacts/`
-  Test renders, exports, and packaging outputs.
-
-## Getting Started
+This project currently runs from source on macOS.
 
 ### 1. Install dependencies
 
@@ -120,63 +104,73 @@ bash ./scripts/build_openshot_baseline.sh
 bash ./scripts/run_openshot_baseline.sh
 ```
 
-The helper scripts live in:
+Helpful script references:
 
 - [install_phase1_deps.sh](</Users/devinkane/Editing Software/scripts/install_phase1_deps.sh>)
 - [build_openshot_baseline.sh](</Users/devinkane/Editing Software/scripts/build_openshot_baseline.sh>)
 - [run_openshot_baseline.sh](</Users/devinkane/Editing Software/scripts/run_openshot_baseline.sh>)
 
-## Development Notes
+Current notes:
 
-- The current reliable local backend is the `qwidget` timeline path.
-- The project has been validated primarily as a source-based macOS development environment.
-- The codebase contains inherited OpenShot behavior alongside custom workflow layers built in this workspace.
-- Current work has emphasized local usability and editing flow before packaging and general-user hardening.
+- The most reliable local backend is the `qwidget` timeline path
+- The app is validated primarily as a source-based macOS development environment
+- This is a local alpha, not yet a packaged standalone `.app`
 
-For detailed progress history, see:
+## Workspace Layout
 
-- [PHASE1_STATUS.md](</Users/devinkane/Editing Software/docs/PHASE1_STATUS.md>)
-- [PHASE2_STATUS.md](</Users/devinkane/Editing Software/docs/PHASE2_STATUS.md>)
-- [BUILD_PLAN.md](</Users/devinkane/Editing Software/docs/BUILD_PLAN.md>)
+- `upstream/`
+  Third-party repositories used as the application baseline or as technical references
+- `docs/`
+  Architecture notes, plans, status logs, and supporting screenshots
+- `scripts/`
+  Bootstrap, dependency, build, and run helpers
+- `config/`
+  Source manifests and local workspace configuration
+- `cache/`
+  Generated cache data and intermediate outputs
+- `artifacts/`
+  Test renders, exports, and packaging outputs
+
+## Current Status
+
+This project is in a usable local alpha state for development and testing.
+
+What that means right now:
+
+- The OpenShot baseline builds and launches locally
+- Major custom workflows for retime, datamosh, transitions, and simplified editing are already in place
+- The interface is being actively shaped around speed and ease of use
+- The app is suitable for local experimentation, prototyping, and personal editing workflows
 
 ## Limitations
 
-- This is still an alpha workspace, not a finished commercial-grade editor.
-- Some upstream OpenShot warnings and rough edges are still present.
-- The project is optimized for local development and testing, not yet for turnkey installation.
-- The interface has been simplified substantially, but inherited editor complexity still exists underneath the new quick workflow.
-- Packaging, deeper reliability work, and long-session testing still remain.
+- This is still an alpha workspace, not a finished commercial-grade editor
+- Some inherited OpenShot rough edges and warnings still exist
+- The project is optimized for local development and testing, not turnkey installation
+- Packaging, deeper reliability work, and long-session hardening still remain
 
 ## Licensing And Distribution Implications
 
-This project is built around upstream repositories with their own licenses and distribution requirements. That matters even for a technically successful build.
+This project depends on upstream repositories with their own licenses and distribution requirements.
 
-- `openshot-qt` is GPL-licensed.
-- `libopenshot` and related OpenShot components carry their own licensing terms and commercial options in some cases.
-- `Datamosher-Pro`, `gl-transitions`, and other references each have separate licenses and dependency implications.
+- `openshot-qt` is GPL-licensed
+- `libopenshot` and related OpenShot components have their own licensing terms
+- `Datamosher-Pro`, `gl-transitions`, and other references bring separate license considerations
 
 Practical implication:
 
-- for personal/local use, the current setup is straightforward
-- for redistribution, shipping, or commercialization, licensing needs to be reviewed carefully before treating this as a distributable product
+- Personal and local use is straightforward
+- Redistribution or commercialization should include a proper license review first
 
-This README is not legal advice. If the project moves beyond local use, a proper license review should happen before packaging or release.
+This README is not legal advice.
 
-## Project Direction
+## Useful Project Docs
 
-The near-term direction is to keep strengthening the fast editing path:
-
-- tighter transition and audio feedback around beat and hit detection
-- more refined visual hierarchy in the simplified dock panels
-- additional reduction of inherited UI friction where the default OpenShot experience is heavier than this product needs
+- [ARCHITECTURE.md](</Users/devinkane/Editing Software/docs/ARCHITECTURE.md>)
+- [BUILD_PLAN.md](</Users/devinkane/Editing Software/docs/BUILD_PLAN.md>)
+- [PHASE1_STATUS.md](</Users/devinkane/Editing Software/docs/PHASE1_STATUS.md>)
+- [PHASE2_STATUS.md](</Users/devinkane/Editing Software/docs/PHASE2_STATUS.md>)
 
 ## Repository Purpose
 
-This repository serves as the control center for the application effort:
-
-- it documents the architecture and build strategy
-- it houses helper scripts for bootstrapping and running the editor
-- it tracks the customization work being layered onto the upstream baseline
-
-It should be read as an active product workspace, not a clean-room standalone editor implementation.
-4
+This repository is the control center for the application effort. It documents the architecture, stores build and run helpers, and tracks the customization work being layered onto the upstream OpenShot baseline.

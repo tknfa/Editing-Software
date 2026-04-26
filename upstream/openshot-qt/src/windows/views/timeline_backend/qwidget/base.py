@@ -2679,6 +2679,71 @@ class TimelineWidgetBase(QWidget):
             frame = max(1, int(round(seconds * self.fps_float)) + 1)
         timeline.SeekToKeyframe(frame)
 
+    def _retime_marker_is_endpoint(self, marker):
+        if not isinstance(marker, dict) or marker.get("property_key") != "time":
+            return False
+        try:
+            point_index = int(marker.get("curve_point_index"))
+            point_count = int(marker.get("curve_point_count"))
+        except (TypeError, ValueError):
+            return False
+        if point_count <= 1:
+            return False
+        return point_index in (0, point_count - 1)
+
+    def _remove_retime_point_marker(self, marker):
+        if not isinstance(marker, dict) or marker.get("property_key") != "time":
+            return False
+        if self._retime_marker_is_endpoint(marker):
+            return False
+        clip = marker.get("clip")
+        clip_id = getattr(clip, "id", None)
+        if not clip_id:
+            return False
+        timeline = getattr(self.win, "timeline", None)
+        if not timeline or not hasattr(timeline, "Remove_Time_Ramp_Point_Frame"):
+            return False
+        frame_value = marker.get("display_frame", marker.get("frame"))
+        try:
+            frame_value = int(frame_value)
+        except (TypeError, ValueError):
+            return False
+        self._select_marker_owner(marker, clear_existing=True)
+        timeline.Remove_Time_Ramp_Point_Frame([clip_id], frame_value)
+        return True
+
+    def _show_retime_keyframe_context_menu(self, marker, pos):
+        if not isinstance(marker, dict) or marker.get("property_key") != "time":
+            return False
+
+        timeline = getattr(self.win, "timeline", None)
+        if not timeline:
+            return False
+
+        _ = get_app()._tr
+        menu = StyledContextMenu(title=_("Retime Point"), parent=self)
+        clip = marker.get("clip")
+        clip_id = getattr(clip, "id", None)
+        segment_seconds = self._marker_absolute_seconds(marker)
+
+        remove_action = menu.addAction(_("Remove Retime Point"))
+        remove_action.setEnabled(not self._retime_marker_is_endpoint(marker))
+        remove_action.triggered.connect(lambda: self._remove_retime_point_marker(marker))
+
+        open_graph_action = menu.addAction(_("Open Speed Graph"))
+        open_graph_action.setEnabled(bool(clip_id) and segment_seconds is not None)
+        open_graph_action.triggered.connect(
+            lambda: timeline.Open_Speed_Graph_Dialog([clip_id], segment_seconds)
+        )
+
+        if self._retime_marker_is_endpoint(marker):
+            menu.addSeparator()
+            endpoint_action = menu.addAction(_("Endpoints stay anchored"))
+            endpoint_action.setEnabled(False)
+
+        menu.exec_(self.mapToGlobal(pos))
+        return True
+
 
 
 
@@ -3575,6 +3640,10 @@ class TimelineWidgetBase(QWidget):
                 self._select_marker(marker_entry)
                 self.win.timeline.ShowMarkerMenu(marker_id)
                 return True
+
+        keyframe_marker = self._get_keyframe_at(pos)
+        if self._show_retime_keyframe_context_menu(keyframe_marker, pos):
+            return True
 
         # Transition context menu (prioritized over clips)
         for rect, tran, _selected in self.geometry.iter_transitions(reverse=True):

@@ -43,7 +43,7 @@ if PATH not in sys.path:
     sys.path.append(PATH)
 
 from PyQt5.QtCore import QCoreApplication, Qt
-from PyQt5.QtWidgets import QApplication, QDockWidget
+from PyQt5.QtWidgets import QApplication, QDockWidget, QWidget, QGridLayout, QLineEdit
 
 from classes import info
 from classes.project_data import ProjectDataStore
@@ -254,6 +254,19 @@ class MainWindowTests(unittest.TestCase):
 
         self.assertEqual(proxy_calls, [("cancel", ["F1"])])
 
+    def test_handle_seek_updates_properties_and_retime_panel(self):
+        selected_frames = []
+        retime_frames = []
+        fake_window = types.SimpleNamespace(
+            propertyTableView=types.SimpleNamespace(select_frame=lambda frame: selected_frames.append(frame)),
+            retimePanel=types.SimpleNamespace(_handle_preview_frame_changed=lambda frame: retime_frames.append(frame)),
+        )
+
+        self.main_window_module.MainWindow.handleSeek(fake_window, 87)
+
+        self.assertEqual(selected_frames, [87])
+        self.assertEqual(retime_frames, [87])
+
     def test_handle_dock_visibility_changed_restores_focus_and_skips_hidden_rebuild(self):
         focus_calls = []
         hidden_child = object()
@@ -316,6 +329,29 @@ class MainWindowTests(unittest.TestCase):
         self.assertFalse(fake_timer.active)
         self.assertEqual(calls, [("focus", video_dock), ("restore", video_dock)])
 
+    def test_handle_dock_visibility_changed_restores_timeline_when_hidden(self):
+        calls = []
+        timeline_dock = object()
+        fake_timer = types.SimpleNamespace(
+            active=True,
+            isActive=lambda: fake_timer.active,
+            stop=lambda: setattr(fake_timer, "active", False),
+        )
+        fake_window = types.SimpleNamespace(
+            _tab_order_timer=fake_timer,
+            dockTimeline=timeline_dock,
+            isVisible=lambda: True,
+            _restore_focus_after_dock_hide=lambda dock: calls.append(("focus", dock)),
+            _restore_timeline_dock=lambda: calls.append(("restore", timeline_dock)),
+            _schedule_tab_order_update=lambda: calls.append(("schedule", None)),
+        )
+
+        with patch.object(self.main_window_module.QTimer, "singleShot", side_effect=lambda _delay, callback: callback()):
+            self.main_window_module.MainWindow._handle_dock_visibility_changed(fake_window, timeline_dock, False)
+
+        self.assertFalse(fake_timer.active)
+        self.assertEqual(calls, [("focus", timeline_dock), ("restore", timeline_dock)])
+
     def test_freeze_dock_keeps_video_preview_docked_and_nonclosable(self):
         dock = QDockWidget()
         fake_window = types.SimpleNamespace(
@@ -329,6 +365,37 @@ class MainWindowTests(unittest.TestCase):
         self.assertTrue(dock.features() & QDockWidget.DockWidgetMovable)
         self.assertFalse(dock.features() & QDockWidget.DockWidgetFloatable)
         self.assertFalse(dock.features() & QDockWidget.DockWidgetClosable)
+
+    def test_freeze_dock_keeps_timeline_docked_and_nonclosable(self):
+        timeline_dock = QDockWidget()
+        fake_window = types.SimpleNamespace(
+            dockTimeline=timeline_dock,
+            dockVideo=QDockWidget(),
+            dockWidgetArea=lambda _dock: Qt.LeftDockWidgetArea,
+        )
+
+        self.main_window_module.MainWindow.freezeDock(fake_window, timeline_dock, frozen=False)
+
+        self.assertTrue(timeline_dock.features() & QDockWidget.DockWidgetMovable)
+        self.assertFalse(timeline_dock.features() & QDockWidget.DockWidgetFloatable)
+        self.assertFalse(timeline_dock.features() & QDockWidget.DockWidgetClosable)
+
+    def test_setup_properties_dock_scroll_area_wraps_filter_and_creates_scroll_layout(self):
+        container = QWidget()
+        layout = QGridLayout(container)
+        filter_edit = QLineEdit(container)
+        layout.addWidget(filter_edit, 1, 1)
+        fake_window = types.SimpleNamespace(
+            dockPropertiesContents=container,
+            txtPropertyFilter=filter_edit,
+        )
+
+        returned_layout = self.main_window_module.MainWindow._setup_properties_dock_scroll_area(fake_window)
+
+        self.assertIs(returned_layout, fake_window.propertiesDockLayout)
+        self.assertIs(fake_window.propertiesScrollArea.widget(), fake_window.propertiesDockScrollContents)
+        self.assertIs(filter_edit.parent(), fake_window.propertiesDockScrollContents)
+        self.assertEqual(fake_window.propertiesDockLayout.count(), 1)
 
     def test_open_project_missing_file_removes_recent_project_and_seeks_start(self):
         status_messages = []

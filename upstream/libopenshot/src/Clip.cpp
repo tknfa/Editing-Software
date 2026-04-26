@@ -63,6 +63,161 @@ namespace {
 		{"Exclusion",   COMPOSITE_EXCLUSION},
 	};
 	const int composite_choices_count = sizeof(composite_choices)/sizeof(CompositeChoice);
+	constexpr int kTimeInterpolationSourceFrames = 0;
+	constexpr int kTimeInterpolationFrameBlend = 1;
+	constexpr int kTimeInterpolationOpticalFlow = 2;
+	constexpr double kTimeBlendEpsilon = 1e-4;
+
+	double clamp_unit_interval(double value) {
+		return std::max(0.0, std::min(1.0, value));
+	}
+
+	int default_time_interpolation_mode() {
+#ifdef USE_OPENCV
+		return kTimeInterpolationOpticalFlow;
+#else
+		return kTimeInterpolationFrameBlend;
+#endif
+	}
+
+	int normalize_time_interpolation_mode(int mode) {
+		switch (mode) {
+			case kTimeInterpolationSourceFrames:
+			case kTimeInterpolationFrameBlend:
+#ifdef USE_OPENCV
+			case kTimeInterpolationOpticalFlow:
+#endif
+				return mode;
+			default:
+				return default_time_interpolation_mode();
+		}
+	}
+
+	std::shared_ptr<QImage> blend_time_images(
+		const QImage& base_image,
+		const QImage& overlay_image,
+		double blend_ratio
+	) {
+		auto composed_image = std::make_shared<QImage>(base_image);
+		if (composed_image->format() != QImage::Format_RGBA8888_Premultiplied) {
+			*composed_image = composed_image->convertToFormat(QImage::Format_RGBA8888_Premultiplied);
+		}
+
+		QImage overlay = overlay_image;
+		if (overlay.format() != QImage::Format_RGBA8888_Premultiplied) {
+			overlay = overlay.convertToFormat(QImage::Format_RGBA8888_Premultiplied);
+		}
+		if (overlay.size() != composed_image->size()) {
+			overlay = overlay.scaled(
+				composed_image->size(),
+				Qt::IgnoreAspectRatio,
+				Qt::SmoothTransformation
+			);
+		}
+
+		QPainter painter(composed_image.get());
+		painter.setRenderHint(QPainter::SmoothPixmapTransform, true);
+		painter.setCompositionMode(QPainter::CompositionMode_SourceOver);
+		painter.setOpacity(clamp_unit_interval(blend_ratio));
+		painter.drawImage(QPointF(0.0, 0.0), overlay);
+		painter.end();
+		return composed_image;
+	}
+
+#ifdef USE_OPENCV
+	cv::Mat qimage_to_rgba_mat(const QImage& image) {
+		QImage converted = image;
+		if (converted.format() != QImage::Format_RGBA8888) {
+			converted = converted.convertToFormat(QImage::Format_RGBA8888);
+		}
+		cv::Mat wrapped(
+			converted.height(),
+			converted.width(),
+			CV_8UC4,
+			const_cast<uchar*>(converted.constBits()),
+			converted.bytesPerLine()
+		);
+		return wrapped.clone();
+	}
+
+	std::shared_ptr<QImage> rgba_mat_to_qimage(const cv::Mat& image) {
+		if (image.empty()) {
+			return nullptr;
+		}
+		cv::Mat rgba_image = image;
+		if (rgba_image.type() != CV_8UC4) {
+			rgba_image.convertTo(rgba_image, CV_8UC4);
+		}
+		QImage wrapped(
+			rgba_image.data,
+			rgba_image.cols,
+			rgba_image.rows,
+			rgba_image.step,
+			QImage::Format_RGBA8888
+		);
+		return std::make_shared<QImage>(wrapped.copy().convertToFormat(QImage::Format_RGBA8888_Premultiplied));
+	}
+
+	std::shared_ptr<QImage> optical_flow_time_image(
+		const QImage& first_image,
+		const QImage& second_image,
+		double blend_ratio
+	) {
+		const double t = clamp_unit_interval(blend_ratio);
+		if (t <= kTimeBlendEpsilon) {
+			return std::make_shared<QImage>(first_image);
+		}
+		if (t >= (1.0 - kTimeBlendEpsilon)) {
+			return std::make_shared<QImage>(second_image);
+		}
+
+		cv::Mat first_rgba = qimage_to_rgba_mat(first_image);
+		cv::Mat second_rgba = qimage_to_rgba_mat(second_image);
+		if (first_rgba.empty() || second_rgba.empty()) {
+			return nullptr;
+		}
+		if (second_rgba.size() != first_rgba.size()) {
+			cv::resize(second_rgba, second_rgba, first_rgba.size(), 0.0, 0.0, cv::INTER_LINEAR);
+		}
+
+		cv::Mat first_gray;
+		cv::Mat second_gray;
+		cv::cvtColor(first_rgba, first_gray, cv::COLOR_RGBA2GRAY);
+		cv::cvtColor(second_rgba, second_gray, cv::COLOR_RGBA2GRAY);
+
+		cv::Mat flow_forward;
+		cv::Mat flow_backward;
+		cv::calcOpticalFlowFarneback(first_gray, second_gray, flow_forward, 0.5, 3, 15, 3, 5, 1.1, 0);
+		cv::calcOpticalFlowFarneback(second_gray, first_gray, flow_backward, 0.5, 3, 15, 3, 5, 1.1, 0);
+
+		cv::Mat map_x_forward(first_gray.size(), CV_32FC1);
+		cv::Mat map_y_forward(first_gray.size(), CV_32FC1);
+		cv::Mat map_x_backward(first_gray.size(), CV_32FC1);
+		cv::Mat map_y_backward(first_gray.size(), CV_32FC1);
+		const float t_forward = static_cast<float>(t);
+		const float t_backward = static_cast<float>(1.0 - t);
+
+		for (int y = 0; y < first_gray.rows; ++y) {
+			for (int x = 0; x < first_gray.cols; ++x) {
+				const cv::Point2f forward = flow_forward.at<cv::Point2f>(y, x);
+				const cv::Point2f backward = flow_backward.at<cv::Point2f>(y, x);
+				map_x_forward.at<float>(y, x) = static_cast<float>(x) - (forward.x * t_forward);
+				map_y_forward.at<float>(y, x) = static_cast<float>(y) - (forward.y * t_forward);
+				map_x_backward.at<float>(y, x) = static_cast<float>(x) - (backward.x * t_backward);
+				map_y_backward.at<float>(y, x) = static_cast<float>(y) - (backward.y * t_backward);
+			}
+		}
+
+		cv::Mat warped_first;
+		cv::Mat warped_second;
+		cv::remap(first_rgba, warped_first, map_x_forward, map_y_forward, cv::INTER_LINEAR, cv::BORDER_REPLICATE);
+		cv::remap(second_rgba, warped_second, map_x_backward, map_y_backward, cv::INTER_LINEAR, cv::BORDER_REPLICATE);
+
+		cv::Mat blended;
+		cv::addWeighted(warped_first, 1.0 - t, warped_second, t, 0.0, blended);
+		return rgba_mat_to_qimage(blended);
+	}
+#endif
 }
 
 // Init default settings for a clip
@@ -79,6 +234,7 @@ void Clip::init_settings()
 	display = FRAME_DISPLAY_NONE;
 	mixing = VOLUME_MIX_NONE;
 	composite = COMPOSITE_SOURCE_OVER;
+	time_interpolation = default_time_interpolation_mode();
 	waveform = false;
 	previous_properties = "";
 	parentObjectId = "";
@@ -740,11 +896,47 @@ std::shared_ptr<Frame> Clip::GetOrCreateFrame(int64_t number, bool enable_time)
 		// Init to requested frame
 		int64_t clip_frame_number = adjust_frame_number_minimum(number);
 		bool is_increasing = true;
+		bool should_blend_video = false;
+		double blend_ratio = 0.0;
+		int64_t blend_frame_number = clip_frame_number;
+
+		auto make_reader_copy = [&](const std::shared_ptr<Frame>& source_frame) -> std::shared_ptr<Frame> {
+			if (!source_frame) {
+				return nullptr;
+			}
+			auto reader_copy = std::make_shared<Frame>(*source_frame.get());
+			reader_copy->number = number;
+			reader_copy->SetAudioDirection(is_increasing);
+			if (has_video.GetInt(number) == 0) {
+				reader_copy->AddColor(QColor(Qt::transparent));
+			}
+			if (has_audio.GetInt(number) == 0 || number > reader->info.video_length) {
+				reader_copy->AddAudioSilence(reader_copy->GetAudioSamplesCount());
+			}
+			return reader_copy;
+		};
 
 		// Adjust for time-mapping (if any)
 		if (enable_time && time.GetLength() > 1) {
 			is_increasing = time.IsIncreasing(clip_frame_number + 1);
-			const int64_t time_frame_number = adjust_frame_number_minimum(time.GetLong(clip_frame_number));
+			const double time_frame_value = std::max(
+				1.0,
+				static_cast<double>(time.GetValue(clip_frame_number))
+			);
+			const double lower_frame_exact = std::floor(time_frame_value);
+			const double upper_frame_exact = std::ceil(time_frame_value);
+			const double frame_delta = std::fabs(time.GetDelta(clip_frame_number + 1));
+			const int64_t time_frame_number = adjust_frame_number_minimum(
+				static_cast<int64_t>(lower_frame_exact)
+			);
+			blend_frame_number = adjust_frame_number_minimum(
+				static_cast<int64_t>(upper_frame_exact)
+			);
+			blend_ratio = clamp_unit_interval(time_frame_value - lower_frame_exact);
+			should_blend_video =
+				blend_frame_number != time_frame_number &&
+				blend_ratio > kTimeBlendEpsilon &&
+				frame_delta < (1.0 - kTimeBlendEpsilon);
 			if (auto *fm = dynamic_cast<FrameMapper*>(reader)) {
 				// Inform FrameMapper which direction this mapper frame is being requested
 				fm->SetDirectionHint(is_increasing);
@@ -755,30 +947,71 @@ std::shared_ptr<Frame> Clip::GetOrCreateFrame(int64_t number, bool enable_time)
 		// Debug output
 		ZmqLogger::Instance()->AppendDebugMethod(
 				"Clip::GetOrCreateFrame (from reader)",
-				"number", number, "clip_frame_number", clip_frame_number);
+				"number", number,
+				"clip_frame_number", clip_frame_number,
+				"blend_frame_number", blend_frame_number,
+				"blend_ratio", blend_ratio,
+				"should_blend_video", should_blend_video);
 
 		// Attempt to get a frame (but this could fail if a reader has just been closed)
-		auto reader_frame = reader->GetFrame(clip_frame_number);
-		if (reader_frame) {
-			// Override frame # (due to time-mapping might change it)
-			reader_frame->number = number;
-			reader_frame->SetAudioDirection(is_increasing);
+			auto reader_frame = reader->GetFrame(clip_frame_number);
+			if (reader_frame) {
+				auto reader_copy = make_reader_copy(reader_frame);
+				if (!should_blend_video || !reader_copy || has_video.GetInt(number) == 0) {
+					return reader_copy;
+				}
+				const int interpolation_mode = normalize_time_interpolation_mode(time_interpolation);
 
-			// Return real frame
-			// Create a new copy of reader frame
-			// This allows a clip to modify the pixels and audio of this frame without
-			// changing the underlying reader's frame data
-			auto reader_copy = std::make_shared<Frame>(*reader_frame.get());
-			if (has_video.GetInt(number) == 0) {
-				// No video, so add transparent pixels
-				reader_copy->AddColor(QColor(Qt::transparent));
+				std::shared_ptr<Frame> blend_source;
+				try {
+					if (auto *fm = dynamic_cast<FrameMapper*>(reader)) {
+						fm->SetDirectionHint(is_increasing);
+				}
+				blend_source = reader->GetFrame(blend_frame_number);
+			} catch (const ReaderClosed &) {
+				blend_source = nullptr;
+			} catch (const OutOfBoundsFrame &) {
+				blend_source = nullptr;
 			}
-			if (has_audio.GetInt(number) == 0 || number > reader->info.video_length) {
-				// No audio, so include silence (also, mute audio if past end of reader)
-				reader_copy->AddAudioSilence(reader_copy->GetAudioSamplesCount());
+
+				if (!blend_source) {
+					return reader_copy;
+				}
+				if (blend_ratio >= (1.0 - kTimeBlendEpsilon)) {
+					return make_reader_copy(blend_source);
+				}
+				if (interpolation_mode == kTimeInterpolationSourceFrames) {
+					return reader_copy;
+				}
+				if (!reader_copy->has_image_data || !blend_source->has_image_data) {
+					return reader_copy;
+				}
+
+				auto base_image = reader_copy->GetImage();
+				auto overlay_image = blend_source->GetImage();
+				if (!base_image || !overlay_image) {
+					return reader_copy;
+				}
+
+				std::shared_ptr<QImage> composed_image;
+#ifdef USE_OPENCV
+				if (interpolation_mode == kTimeInterpolationOpticalFlow) {
+					try {
+						composed_image = optical_flow_time_image(*base_image, *overlay_image, blend_ratio);
+					} catch (const cv::Exception&) {
+						composed_image = nullptr;
+					}
+				}
+#endif
+				if (!composed_image) {
+					// Frame blending is the fallback path and is also the dedicated
+					// interpolation mode when optical flow is disabled or unavailable.
+					composed_image = blend_time_images(*base_image, *overlay_image, blend_ratio);
+				}
+
+				reader_copy->AddImage(composed_image);
+				return reader_copy;
 			}
-			return reader_copy;
-		}
 
 	} catch (const ReaderClosed & e) {
 		// ...
@@ -828,6 +1061,7 @@ std::string Clip::PropertiesJSON(int64_t requested_frame) const {
 	root["display"] = add_property_json("Frame Number", display, "int", "", NULL, 0, 3, false, requested_frame);
 	root["mixing"] = add_property_json("Volume Mixing", mixing, "int", "", NULL, 0, 2, false, requested_frame);
 	root["composite"] = add_property_json("Composite", composite, "int", "", NULL, 0, composite_choices_count - 1, false, requested_frame);
+	root["time_interpolation"] = add_property_json("Retime Interpolation", time_interpolation, "int", "", NULL, 0, 2, false, requested_frame);
 	root["waveform"] = add_property_json("Waveform", waveform, "int", "", NULL, 0, 1, false, requested_frame);
 	root["parentObjectId"] = add_property_json("Parent", 0.0, "string", parentObjectId, NULL, -1, -1, false, requested_frame);
 
@@ -862,6 +1096,12 @@ std::string Clip::PropertiesJSON(int64_t requested_frame) const {
 	// Add composite choices (dropdown style)
 	for (int i = 0; i < composite_choices_count; ++i)
 		root["composite"]["choices"].append(add_property_choice_json(composite_choices[i].name, composite_choices[i].value, composite));
+
+	root["time_interpolation"]["choices"].append(add_property_choice_json("Source Frames", kTimeInterpolationSourceFrames, time_interpolation));
+	root["time_interpolation"]["choices"].append(add_property_choice_json("Frame Blend", kTimeInterpolationFrameBlend, time_interpolation));
+#ifdef USE_OPENCV
+	root["time_interpolation"]["choices"].append(add_property_choice_json("Optical Flow", kTimeInterpolationOpticalFlow, time_interpolation));
+#endif
 
 	// Add waveform choices (dropdown style)
 	root["waveform"]["choices"].append(add_property_choice_json("Yes", true, waveform));
@@ -946,6 +1186,7 @@ Json::Value Clip::JsonValue() const {
 	root["display"] = display;
 	root["mixing"] = mixing;
 	root["composite"] = composite;
+	root["time_interpolation"] = time_interpolation;
 	root["waveform"] = waveform;
 	root["scale_x"] = scale_x.JsonValue();
 	root["scale_y"] = scale_y.JsonValue();
@@ -1041,6 +1282,8 @@ void Clip::SetJsonValue(const Json::Value root) {
 		mixing = (VolumeMixType) root["mixing"].asInt();
 	if (!root["composite"].isNull())
 		composite = (CompositeType) root["composite"].asInt();
+	if (!root["time_interpolation"].isNull())
+		time_interpolation = normalize_time_interpolation_mode(root["time_interpolation"].asInt());
 	if (!root["waveform"].isNull())
 		waveform = root["waveform"].asBool();
 	if (!root["scale_x"].isNull())

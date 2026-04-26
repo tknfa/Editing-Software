@@ -1001,6 +1001,12 @@ class TimelineHelperTests(unittest.TestCase):
             def __init__(self):
                 self._pending_clip_overrides = {}
                 self._pending_transition_overrides = {}
+                self.pixels_per_second = 24.0
+                self.fps_float = 24.0
+                self.keyframe_painter = types.SimpleNamespace(size=10, fill=QColor("yellow"))
+
+            def isRetimePropertyFilterActive(self):
+                return True
 
         return Helper()
 
@@ -1765,6 +1771,52 @@ class TimelineHelperTests(unittest.TestCase):
             )
 
         self.assertEqual(position, 6.5)
+
+    def test_qwidget_retime_keyframe_marker_rect_renders_above_clip(self):
+        helper = self.make_qwidget_keyframe_position_helper()
+        clip_rect = QRectF(120.0, 80.0, 240.0, 40.0)
+
+        rect = self.qwidget_keyframe_module.KeyframeMixin._keyframe_rect_for_marker(
+            helper,
+            clip_rect,
+            2.0,
+            {"property_key": "time", "curve_y_ratio": 0.5},
+            size=10,
+        )
+
+        self.assertLess(rect.center().y(), clip_rect.top())
+        self.assertAlmostEqual(rect.center().x(), clip_rect.left() + (2.0 * helper.pixels_per_second))
+
+    def test_qwidget_base_remove_retime_point_marker_uses_exact_frame(self):
+        calls = []
+        marker = {
+            "property_key": "time",
+            "curve_point_index": 1,
+            "curve_point_count": 3,
+            "frame": 61,
+            "display_frame": 61,
+            "clip": types.SimpleNamespace(id="C1"),
+        }
+        fake_self = types.SimpleNamespace(
+            win=types.SimpleNamespace(
+                timeline=types.SimpleNamespace(
+                    Remove_Time_Ramp_Point_Frame=lambda clip_ids, frame_value: calls.append(
+                        (list(clip_ids), int(frame_value))
+                    )
+                )
+            ),
+            _select_marker_owner=lambda _marker, clear_existing=True: calls.append(("select", bool(clear_existing))),
+        )
+        fake_self._retime_marker_is_endpoint = lambda value: self.qwidget_base_module.TimelineWidgetBase._retime_marker_is_endpoint(
+            fake_self, value
+        )
+
+        changed = self.qwidget_base_module.TimelineWidgetBase._remove_retime_point_marker(
+            fake_self, marker
+        )
+
+        self.assertTrue(changed)
+        self.assertEqual(calls, [("select", True), (["C1"], 61)])
 
     def test_qwidget_finish_clip_drag_single_transition_keeps_auto_direction(self):
         helper = self.make_qwidget_finish_drag_helper()
