@@ -2,9 +2,9 @@
 
 Experimental macOS-first editing software for fast, stylized video work with a focus on advanced time remapping, datamoshing, and high-energy transition design.
 
-<video src="docs/media/tether-demo.mov" controls muted playsinline width="100%"></video>
+[![Watch the live demo on YouTube](https://img.youtube.com/vi/Ktxvz2U8dnA/hqdefault.jpg)](https://youtu.be/Ktxvz2U8dnA)
 
-[Open the live demo video](docs/media/tether-demo.mov)
+[Watch the live demo on YouTube](https://youtu.be/Ktxvz2U8dnA)
 
 ## About
 
